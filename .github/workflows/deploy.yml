@@ -24,7 +24,8 @@ jobs:
         run: pip install requests  # Ensure required dependencies are installed
 
       - name: Run ADS-B Data Script
-        run: python adsb.py  # Ensure your script is named correctly
+        run: python ./adsb.py  # root
+
 
       - name: Commit and Push Changes
         run: |
