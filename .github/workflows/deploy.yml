@@ -6,6 +6,7 @@ on:
       - main  # Runs on every push to 'main'
   schedule:
     - cron: '*/5 * * * *'  # Runs every 5 minutes
+  workflow_dispatch:  # Allows manual execution from GitHub Actions UI
 
 jobs:
   build:
@@ -22,10 +23,12 @@ jobs:
 
       - name: Install Dependencies
         run: pip install requests  # Ensure required dependencies are installed
-      
-      - name: Run ADS-B Data Script
-          run: "Adsb.py"  # root
 
+      - name: Debug - Show current directory
+        run: pwd && ls -la  # Lists files in runner environment
+
+      - name: Run ADS-B Data Script
+        run: python adsb.py  # Run Python script
 
       - name: Commit and Push Changes
         run: |
