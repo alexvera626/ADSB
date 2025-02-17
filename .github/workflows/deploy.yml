@@ -28,7 +28,7 @@ jobs:
         run: pwd && ls -la  # Lists files in runner environment
 
       - name: Run ADS-B Data Script
-        run: python adsb.py  # Run Python script
+        run: python Adsb.py  # Run Python script
 
       - name: Commit and Push Changes
         run: |
