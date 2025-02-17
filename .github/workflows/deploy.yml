@@ -22,9 +22,9 @@ jobs:
 
       - name: Install Dependencies
         run: pip install requests  # Ensure required dependencies are installed
-
+      
       - name: Run ADS-B Data Script
-        run: python ./adsb.py  # root
+          run: "adsb.py"  # root
 
 
       - name: Commit and Push Changes
