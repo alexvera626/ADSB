@@ -1,11 +1,3 @@
-import requests
-import time
-import json
-import logging
-
-# Configure logging
-logging.basicConfig(level=logging.INFO, format="%(asctime)s - %(levelname)s - %(message)s")
-
 hex_codes = [
     'ADFE10', 'ADFE12', 'ADFE15', 'ADFE17', 'ADFE18', 'ADFE1A', 'ADFE1B', 'ADFE1C', 'AE109A',
     'AE10C1', 'AE10E8', 'AE10E9', 'AE10EA', 'AE10EB', 'AE10EC', 'AE20C1', 'AE2125', 'AE2126',
@@ -48,7 +40,7 @@ def fetch_data(hex_codes_batch):
     return None
 
 # JSON data to GeoJSON
-def convert_to_geojson(data):
+//def convert_to_geojson(data):
     """Converts aircraft JSON data to GeoJSON format."""
     features = []
     if not data or 'ac' not in data:
