@@ -186,13 +186,13 @@
                 "type": "AS50",
                 "description": "AEROSPATIALE AS-350 Ecureuil",
                 "operator": "ORANGE COUNTY SHERIFF'S DEPARTMENT",
-                "altitude": 550,
-                "ground_speed": 46.2,
-                "track": 21.57,
+                "altitude": 675,
+                "ground_speed": 53.5,
+                "track": 110.81,
                 "squawk": "4204",
-                "rssi": -19.4,
+                "rssi": -17.0,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-02-23T23:06:03.201367+00:00",
+                "last_seen": "2025-02-23T23:08:02.811930+00:00",
                 "nav_qnh": 1020.0,
                 "nav_altitude_mcp": 608,
                 "category": "A7"
@@ -371,6 +371,14 @@
                     [
                         -117.889803,
                         33.727615
+                    ],
+                    [
+                        -117.892045,
+                        33.728439
+                    ],
+                    [
+                        -117.892045,
+                        33.728439
                     ]
                 ]
             }
@@ -1012,13 +1020,13 @@
                 "type": "A21N",
                 "description": "AIRBUS A-321neo",
                 "operator": "HAWAIIAN AIRLINES INC",
-                "altitude": 25025,
-                "ground_speed": 478.8,
-                "track": 76.72,
+                "altitude": 26100,
+                "ground_speed": 488.8,
+                "track": 76.87,
                 "squawk": "3703",
-                "rssi": -25.0,
+                "rssi": -28.3,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-02-23T23:06:03.201307+00:00",
+                "last_seen": "2025-02-23T23:08:02.811889+00:00",
                 "nav_qnh": 1012.8,
                 "nav_altitude_mcp": 32000,
                 "category": "A3"
@@ -1121,6 +1129,10 @@
                     [
                         -155.921071,
                         21.502618
+                    ],
+                    [
+                        -155.64401,
+                        21.563828
                     ]
                 ]
             }
@@ -1134,12 +1146,12 @@
                 "description": "AEROSPATIALE AS-350 Ecureuil",
                 "operator": "COUNTY OF LOS ANGELES",
                 "altitude": 700,
-                "ground_speed": 115.0,
-                "track": 359.0,
+                "ground_speed": 119.1,
+                "track": 1.93,
                 "squawk": "1206",
-                "rssi": -6.2,
+                "rssi": -8.6,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-02-23T23:06:03.201377+00:00",
+                "last_seen": "2025-02-23T23:08:02.811950+00:00",
                 "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
                 "category": "A7"
@@ -1162,6 +1174,76 @@
                     [
                         -118.151289,
                         33.897675
+                    ],
+                    [
+                        -118.155661,
+                        33.963455
+                    ],
+                    [
+                        -118.155661,
+                        33.963455
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "hex": "A385E3",
+                "flight": "N326PD  ",
+                "type": "AS50",
+                "description": "AEROSPATIALE AS-350 Ecureuil",
+                "operator": "CITY OF ANAHEIM",
+                "altitude": "ground",
+                "ground_speed": 0.0,
+                "track": 0.0,
+                "squawk": "4301",
+                "rssi": -27.7,
+                "api_source": "https://opendata.adsb.fi/api/v2/hex/",
+                "last_seen": "2025-02-23T23:08:02.811818+00:00",
+                "nav_qnh": 0.0,
+                "nav_altitude_mcp": 0,
+                "category": "A7"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -117.983215,
+                        33.872292
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "hex": "A31E37",
+                "flight": "PD10    ",
+                "type": "AS50",
+                "description": "AEROSPATIALE AS-350 Ecureuil",
+                "operator": "CITY OF ONTARIO",
+                "altitude": "ground",
+                "ground_speed": 0.0,
+                "track": 340.31,
+                "squawk": "N/A",
+                "rssi": -9.2,
+                "api_source": "https://api.airplanes.live/v2/hex/",
+                "last_seen": "2025-02-23T23:08:02.811960+00:00",
+                "nav_qnh": 0.0,
+                "nav_altitude_mcp": 0,
+                "category": "A7"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -117.692343,
+                        34.109562
+                    ],
+                    [
+                        -117.692343,
+                        34.109562
                     ]
                 ]
             }
