@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Aircraft Data</name>
+<open>1</open>
+<NetworkLinkControl>
+<refreshInterval>60</refreshInterval>
+</NetworkLinkControl>
+
+            <Placemark>
+                <name>C6511   </name>
+                <description><![CDATA[Flight: C6511   <br>
+                Type: AS65<br>
+                Altitude: 100 ft<br>
+                Speed: 88.6 knots<br>
+                Track: 306.74°<br>
+                Operator: United States Coast Guard<br>
+                API Source: https://api.airplanes.live/v2/hex/<br>
+                Last Seen: 2025-02-24T11:50:02.886624+00:00]]></description>
+                <Style>
+                    <IconStyle>
+                        <scale>1.2</scale>
+                        <Icon>
+                            <href>https://raw.githubusercontent.com/alexvera626/ADSB/refs/heads/main/plane-svgrepo-com.svg</href>
+                        </Icon>
+                    </IconStyle>
+                </Style>
+                <Point>
+                    <coordinates>-73.707026,40.433691,0</coordinates>
+                </Point>
+            </Placemark>
+            
+</Document>
+</kml>
