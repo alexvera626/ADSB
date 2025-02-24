@@ -4,51 +4,6 @@
         {
             "type": "Feature",
             "properties": {
-                "hex": "AAFD01",
-                "flight": "Unknown",
-                "type": "DH8C",
-                "description": "DE HAVILLAND DHC-8-300 Dash 8",
-                "operator": "US DEPARTMENT OF HOMELAND SECURITY",
-                "altitude": "ground",
-                "ground_speed": 0.0,
-                "track": 0.0,
-                "squawk": "N/A",
-                "rssi": -13.9,
-                "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-02-24T09:38:02.946554+00:00",
-                "nav_qnh": 0.0,
-                "nav_altitude_mcp": 0,
-                "category": "Unknown"
-            },
-            "geometry": {
-                "type": "LineString",
-                "coordinates": [
-                    [
-                        -117.207529,
-                        33.807587
-                    ],
-                    [
-                        -117.20787,
-                        33.808051
-                    ],
-                    [
-                        -117.24189,
-                        33.856018
-                    ],
-                    [
-                        -117.248392,
-                        33.865082
-                    ],
-                    [
-                        -117.258925,
-                        33.879974
-                    ]
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
                 "hex": "A385E3",
                 "flight": "N326PD  ",
                 "type": "AS50",
@@ -68,22 +23,6 @@
             "geometry": {
                 "type": "LineString",
                 "coordinates": [
-                    [
-                        -117.855891,
-                        33.868698
-                    ],
-                    [
-                        -117.856178,
-                        33.868662
-                    ],
-                    [
-                        -117.902134,
-                        33.86142
-                    ],
-                    [
-                        -117.902471,
-                        33.861328
-                    ],
                     [
                         -117.94367,
                         33.853638
@@ -363,6 +302,35 @@
                     [
                         -117.983201,
                         33.872269
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "hex": "AAFD01",
+                "flight": "Unknown",
+                "type": "DH8C",
+                "description": "DE HAVILLAND DHC-8-300 Dash 8",
+                "operator": "US DEPARTMENT OF HOMELAND SECURITY",
+                "altitude": "ground",
+                "ground_speed": 0.0,
+                "track": 0.0,
+                "squawk": "N/A",
+                "rssi": -13.9,
+                "api_source": "https://api.airplanes.live/v2/hex/",
+                "last_seen": "2025-02-24T09:38:02.946554+00:00",
+                "nav_qnh": 0.0,
+                "nav_altitude_mcp": 0,
+                "category": "Unknown"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -117.258925,
+                        33.879974
                     ]
                 ]
             }
