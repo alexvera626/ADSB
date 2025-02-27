@@ -10,12 +10,12 @@
                 "description": "DE HAVILLAND DHC-8-300 Dash 8",
                 "operator": "US DEPARTMENT OF HOMELAND SECURITY",
                 "altitude": 2775,
-                "ground_speed": 174.6,
-                "track": 104.59,
+                "ground_speed": 139.5,
+                "track": 17.53,
                 "squawk": "1370",
-                "rssi": -7.2,
+                "rssi": -5.2,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-02-27T21:54:02.959509+00:00",
+                "last_seen": "2025-02-27T21:56:02.503541+00:00",
                 "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
                 "category": "Unknown"
@@ -23,14 +23,6 @@
             "geometry": {
                 "type": "LineString",
                 "coordinates": [
-                    [
-                        -116.959877,
-                        33.717553
-                    ],
-                    [
-                        -116.959076,
-                        33.717274
-                    ],
                     [
                         -116.859856,
                         33.707544
@@ -926,6 +918,14 @@
                     [
                         -95.530188,
                         30.175719
+                    ],
+                    [
+                        -95.466522,
+                        30.213566
+                    ],
+                    [
+                        -95.466522,
+                        30.213566
                     ]
                 ]
             }
@@ -938,13 +938,13 @@
                 "type": "Unknown",
                 "description": "Unknown",
                 "operator": "Unknown",
-                "altitude": 25,
-                "ground_speed": 0.7,
-                "track": 0.0,
+                "altitude": "ground",
+                "ground_speed": 0.0,
+                "track": 90.0,
                 "squawk": "N/A",
-                "rssi": -12.1,
+                "rssi": -12.6,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-02-27T21:54:02.959729+00:00",
+                "last_seen": "2025-02-27T21:56:02.503676+00:00",
                 "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
                 "category": "A7"
@@ -952,14 +952,6 @@
             "geometry": {
                 "type": "LineString",
                 "coordinates": [
-                    [
-                        -117.117509,
-                        32.563244
-                    ],
-                    [
-                        -117.117509,
-                        32.563244
-                    ],
                     [
                         -117.117375,
                         32.563305
@@ -1787,6 +1779,14 @@
                     [
                         -117.117444,
                         32.563293
+                    ],
+                    [
+                        -117.117471,
+                        32.563259
+                    ],
+                    [
+                        -117.117471,
+                        32.563259
                     ]
                 ]
             }
@@ -1799,28 +1799,20 @@
                 "type": "B407",
                 "description": "BELL 407",
                 "operator": "SAN DIEGO COUNTY SHERIFF DEPARTMENT",
-                "altitude": 2150,
-                "ground_speed": 53.1,
-                "track": 70.2,
+                "altitude": 2050,
+                "ground_speed": 51.0,
+                "track": 92.25,
                 "squawk": "N/A",
-                "rssi": -14.1,
+                "rssi": -11.5,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-02-27T21:54:02.959739+00:00",
-                "nav_qnh": 1017.6,
+                "last_seen": "2025-02-27T21:56:02.503686+00:00",
+                "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
                 "category": "A7"
             },
             "geometry": {
                 "type": "LineString",
                 "coordinates": [
-                    [
-                        -117.094527,
-                        33.003069
-                    ],
-                    [
-                        -117.095087,
-                        33.003159
-                    ],
                     [
                         -117.170815,
                         33.012706
@@ -2204,6 +2196,14 @@
                     [
                         -116.939136,
                         32.998444
+                    ],
+                    [
+                        -116.939246,
+                        32.998535
+                    ],
+                    [
+                        -116.938916,
+                        32.998535
                     ]
                 ]
             }
@@ -2230,14 +2230,6 @@
             "geometry": {
                 "type": "LineString",
                 "coordinates": [
-                    [
-                        -123.213994,
-                        48.290543
-                    ],
-                    [
-                        -123.214561,
-                        48.289986
-                    ],
                     [
                         -123.335917,
                         48.245994
@@ -2492,51 +2484,18 @@
         {
             "type": "Feature",
             "properties": {
-                "hex": "A1F0C0",
-                "flight": "N224KB  ",
-                "type": "B06",
-                "description": "BELL 206 JetRanger",
-                "operator": "PASADENA POLICE DEPARTMENT",
-                "altitude": "ground",
-                "ground_speed": 5.2,
-                "track": 157.5,
-                "squawk": "1200",
-                "rssi": -9.5,
-                "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-02-27T17:54:04.018825+00:00",
-                "nav_qnh": 0.0,
-                "nav_altitude_mcp": 0,
-                "category": "A7"
-            },
-            "geometry": {
-                "type": "LineString",
-                "coordinates": [
-                    [
-                        -118.171201,
-                        34.183422
-                    ],
-                    [
-                        -118.171201,
-                        34.183422
-                    ]
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
                 "hex": "AE4FA1",
                 "flight": "FFAB123 ",
                 "type": "H60",
                 "description": "SIKORSKY UH-60 Black Hawk",
                 "operator": "Unknown",
                 "altitude": 675,
-                "ground_speed": 137.3,
-                "track": 107.38,
+                "ground_speed": 136.0,
+                "track": 107.1,
                 "squawk": "1200",
-                "rssi": -29.8,
+                "rssi": -30.4,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-02-27T21:54:02.959719+00:00",
+                "last_seen": "2025-02-27T21:56:02.503665+00:00",
                 "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
                 "category": "A7"
@@ -2779,6 +2738,14 @@
                     [
                         -117.527534,
                         32.697966
+                    ],
+                    [
+                        -117.439178,
+                        32.674805
+                    ],
+                    [
+                        -117.450966,
+                        32.677855
                     ]
                 ]
             }
@@ -4140,13 +4107,13 @@
                 "type": "H60",
                 "description": "SIKORSKY UH-60 Black Hawk",
                 "operator": "Unknown",
-                "altitude": 100,
-                "ground_speed": 54.9,
-                "track": 326.89,
+                "altitude": 75,
+                "ground_speed": 80.5,
+                "track": 151.84,
                 "squawk": "N/A",
                 "rssi": -24.8,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-02-27T21:54:02.959699+00:00",
+                "last_seen": "2025-02-27T21:56:02.503646+00:00",
                 "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
                 "category": "A7"
@@ -4309,6 +4276,14 @@
                     [
                         -117.39776,
                         32.630768
+                    ],
+                    [
+                        -117.379797,
+                        32.608429
+                    ],
+                    [
+                        -117.379948,
+                        32.608772
                     ]
                 ]
             }
@@ -4387,12 +4362,12 @@
                 "description": "Unknown",
                 "operator": "Unknown",
                 "altitude": 300,
-                "ground_speed": 82.2,
-                "track": 108.43,
+                "ground_speed": 91.7,
+                "track": 117.96,
                 "squawk": "1200",
-                "rssi": -15.3,
+                "rssi": -27.0,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-02-27T21:54:02.959710+00:00",
+                "last_seen": "2025-02-27T21:56:02.503655+00:00",
                 "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
                 "category": "A7"
@@ -4527,6 +4502,14 @@
                     [
                         -117.54676,
                         32.898094
+                    ],
+                    [
+                        -117.493342,
+                        32.878589
+                    ],
+                    [
+                        -117.498723,
+                        32.881009
                     ]
                 ]
             }
