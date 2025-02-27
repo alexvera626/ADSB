@@ -4,18 +4,18 @@
         {
             "type": "Feature",
             "properties": {
-                "hex": "A7FB70",
-                "flight": "REH80   ",
+                "hex": "A385E3",
+                "flight": "N326PD  ",
                 "type": "AS50",
                 "description": "AEROSPATIALE AS-350 Ecureuil",
-                "operator": "REACH AIR MEDICAL SERVICES LLC",
-                "altitude": 1650,
-                "ground_speed": 123.0,
-                "track": 194.6,
-                "squawk": "1200",
+                "operator": "CITY OF ANAHEIM",
+                "altitude": "ground",
+                "ground_speed": 0.0,
+                "track": 0.0,
+                "squawk": "N/A",
                 "rssi": null,
-                "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-02-27T09:48:03.153769+00:00",
+                "api_source": "https://opendata.adsb.fi/api/v2/hex/",
+                "last_seen": "2025-02-27T09:50:03.503212+00:00",
                 "nav_qnh": null,
                 "nav_altitude_mcp": null,
                 "category": "A7"
@@ -23,8 +23,35 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -121.612915,
-                    39.310944
+                    -117.983019,
+                    33.872314
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "hex": "A7FB70",
+                "flight": "REH80   ",
+                "type": "AS50",
+                "description": "AEROSPATIALE AS-350 Ecureuil",
+                "operator": "REACH AIR MEDICAL SERVICES LLC",
+                "altitude": 1825,
+                "ground_speed": 119.8,
+                "track": 194.5,
+                "squawk": "1200",
+                "rssi": null,
+                "api_source": "https://api.airplanes.live/v2/hex/",
+                "last_seen": "2025-02-27T09:50:03.503669+00:00",
+                "nav_qnh": null,
+                "nav_altitude_mcp": null,
+                "category": "A7"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -121.633179,
+                    39.245399
                 ]
             }
         }
