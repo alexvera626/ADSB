@@ -10,27 +10,19 @@
                 "description": "AEROSPATIALE AS-350 Ecureuil",
                 "operator": "COUNTY OF LOS ANGELES",
                 "altitude": 900,
-                "ground_speed": 107.7,
-                "track": 318.76,
+                "ground_speed": 114.6,
+                "track": 317.12,
                 "squawk": "1206",
-                "rssi": -13.2,
+                "rssi": -5.6,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-02-28T05:30:02.825224+00:00",
+                "last_seen": "2025-02-28T05:32:02.780403+00:00",
                 "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
-                "category": "A0"
+                "category": "A7"
             },
             "geometry": {
                 "type": "LineString",
                 "coordinates": [
-                    [
-                        -118.105545,
-                        34.173486
-                    ],
-                    [
-                        -118.105545,
-                        34.173486
-                    ],
                     [
                         -118.138561,
                         34.199648
@@ -446,6 +438,14 @@
                     [
                         -117.978001,
                         34.038205
+                    ],
+                    [
+                        -118.031158,
+                        34.084897
+                    ],
+                    [
+                        -118.031158,
+                        34.084897
                     ]
                 ]
             }
@@ -472,14 +472,6 @@
             "geometry": {
                 "type": "LineString",
                 "coordinates": [
-                    [
-                        -117.279602,
-                        32.60495
-                    ],
-                    [
-                        -117.279053,
-                        32.605141
-                    ],
                     [
                         -117.289142,
                         32.577303
@@ -858,14 +850,6 @@
                 "type": "LineString",
                 "coordinates": [
                     [
-                        -117.195172,
-                        32.667664
-                    ],
-                    [
-                        -117.195172,
-                        32.667664
-                    ],
-                    [
                         -117.195478,
                         32.659793
                     ],
@@ -1119,14 +1103,6 @@
                 "type": "LineString",
                 "coordinates": [
                     [
-                        -117.283089,
-                        32.624413
-                    ],
-                    [
-                        -117.283337,
-                        32.624542
-                    ],
-                    [
                         -117.279657,
                         32.561371
                     ],
@@ -1188,18 +1164,18 @@
         {
             "type": "Feature",
             "properties": {
-                "hex": "AE4FCF",
-                "flight": "ST710   ",
+                "hex": "AE2793",
+                "flight": "GH71    ",
                 "type": "H60",
-                "description": "SIKORSKY UH-60 Black Hawk",
+                "description": "Sikorsky MH-60S Seahawk",
                 "operator": "Unknown",
-                "altitude": 150,
-                "ground_speed": 86.9,
-                "track": 191.96,
+                "altitude": 500,
+                "ground_speed": 96.0,
+                "track": 90.0,
                 "squawk": "1200",
-                "rssi": -13.3,
+                "rssi": -13.7,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-02-28T05:30:02.825328+00:00",
+                "last_seen": "2025-02-28T02:48:02.849969+00:00",
                 "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
                 "category": "A7"
@@ -1208,13 +1184,74 @@
                 "type": "LineString",
                 "coordinates": [
                     [
-                        -117.254165,
-                        33.392246
+                        -117.215044,
+                        32.704662
                     ],
                     [
-                        -117.254165,
-                        33.392246
+                        -117.215111,
+                        32.704681
                     ],
+                    [
+                        -117.214906,
+                        32.704628
+                    ],
+                    [
+                        -117.207916,
+                        32.711666
+                    ],
+                    [
+                        -117.207916,
+                        32.711666
+                    ],
+                    [
+                        -117.198468,
+                        32.717514
+                    ],
+                    [
+                        -117.197664,
+                        32.717425
+                    ],
+                    [
+                        -117.152655,
+                        32.686844
+                    ],
+                    [
+                        -117.151996,
+                        32.686203
+                    ],
+                    [
+                        -117.112296,
+                        32.646712
+                    ],
+                    [
+                        -117.112296,
+                        32.646712
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "hex": "AE4FCF",
+                "flight": "ST710   ",
+                "type": "H60",
+                "description": "SIKORSKY UH-60 Black Hawk",
+                "operator": "Unknown",
+                "altitude": 150,
+                "ground_speed": 90.4,
+                "track": 185.08,
+                "squawk": "1200",
+                "rssi": -24.3,
+                "api_source": "https://api.airplanes.live/v2/hex/",
+                "last_seen": "2025-02-28T05:32:02.780464+00:00",
+                "nav_qnh": 0.0,
+                "nav_altitude_mcp": 0,
+                "category": "A7"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
                     [
                         -117.301978,
                         33.347277
@@ -2014,75 +2051,14 @@
                     [
                         -117.360132,
                         32.880432
-                    ]
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "hex": "AE2793",
-                "flight": "GH71    ",
-                "type": "H60",
-                "description": "Sikorsky MH-60S Seahawk",
-                "operator": "Unknown",
-                "altitude": 500,
-                "ground_speed": 96.0,
-                "track": 90.0,
-                "squawk": "1200",
-                "rssi": -13.7,
-                "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-02-28T02:48:02.849969+00:00",
-                "nav_qnh": 0.0,
-                "nav_altitude_mcp": 0,
-                "category": "A7"
-            },
-            "geometry": {
-                "type": "LineString",
-                "coordinates": [
-                    [
-                        -117.215044,
-                        32.704662
                     ],
                     [
-                        -117.215111,
-                        32.704681
+                        -117.367273,
+                        32.830399
                     ],
                     [
-                        -117.214906,
-                        32.704628
-                    ],
-                    [
-                        -117.207916,
-                        32.711666
-                    ],
-                    [
-                        -117.207916,
-                        32.711666
-                    ],
-                    [
-                        -117.198468,
-                        32.717514
-                    ],
-                    [
-                        -117.197664,
-                        32.717425
-                    ],
-                    [
-                        -117.152655,
-                        32.686844
-                    ],
-                    [
-                        -117.151996,
-                        32.686203
-                    ],
-                    [
-                        -117.112296,
-                        32.646712
-                    ],
-                    [
-                        -117.112296,
-                        32.646712
+                        -117.367273,
+                        32.830399
                     ]
                 ]
             }
@@ -2095,13 +2071,13 @@
                 "type": "Unknown",
                 "description": "Unknown",
                 "operator": "Unknown",
-                "altitude": 425,
-                "ground_speed": 68.5,
-                "track": 154.93,
+                "altitude": 400,
+                "ground_speed": 66.7,
+                "track": 160.75,
                 "squawk": "1200",
-                "rssi": -17.0,
+                "rssi": -20.5,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-02-28T05:30:02.825317+00:00",
+                "last_seen": "2025-02-28T05:32:02.780453+00:00",
                 "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
                 "category": "A7"
@@ -2852,6 +2828,14 @@
                     [
                         -117.373425,
                         32.799225
+                    ],
+                    [
+                        -117.358423,
+                        32.764582
+                    ],
+                    [
+                        -117.358423,
+                        32.764582
                     ]
                 ]
             }
@@ -5489,13 +5473,13 @@
                 "type": "AS50",
                 "description": "AEROSPATIALE AS-350 Ecureuil",
                 "operator": "COUNTY OF ORANGE - AIR SUPPORT",
-                "altitude": 1400,
-                "ground_speed": 69.3,
-                "track": 4.97,
+                "altitude": 1200,
+                "ground_speed": 68.7,
+                "track": 81.63,
                 "squawk": "4204",
-                "rssi": -7.4,
+                "rssi": -6.7,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-02-28T05:30:02.825339+00:00",
+                "last_seen": "2025-02-28T05:32:02.780473+00:00",
                 "nav_qnh": 1013.6,
                 "nav_altitude_mcp": 0,
                 "category": "A7"
@@ -5986,6 +5970,14 @@
                     [
                         -117.983803,
                         33.7771
+                    ],
+                    [
+                        -117.941483,
+                        33.783142
+                    ],
+                    [
+                        -117.941708,
+                        33.783096
                     ]
                 ]
             }
@@ -6730,6 +6722,35 @@
                     [
                         -121.548462,
                         39.504788
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "hex": "A32EAF",
+                "flight": "FIRE4   ",
+                "type": "A139",
+                "description": "AGUSTA AW-139",
+                "operator": "CITY OF LOS ANGELES",
+                "altitude": "ground",
+                "ground_speed": 0.0,
+                "track": 0.0,
+                "squawk": "1206",
+                "rssi": -20.1,
+                "api_source": "https://api.airplanes.live/v2/hex/",
+                "last_seen": "2025-02-28T05:32:02.780436+00:00",
+                "nav_qnh": 0.0,
+                "nav_altitude_mcp": 0,
+                "category": "A7"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -118.493986,
+                        34.21657
                     ]
                 ]
             }
