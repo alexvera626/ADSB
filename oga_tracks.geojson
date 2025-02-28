@@ -4,43 +4,6 @@
         {
             "type": "Feature",
             "properties": {
-                "hex": "A3238A",
-                "flight": "FIRE1   ",
-                "type": "A139",
-                "description": "AGUSTA AW-139",
-                "operator": "LOS ANGELES FIRE DEPARTMENT",
-                "altitude": "ground",
-                "ground_speed": 2.2,
-                "track": 0.0,
-                "squawk": "1200",
-                "rssi": -21.1,
-                "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-02-27T23:36:03.866730+00:00",
-                "nav_qnh": 0.0,
-                "nav_altitude_mcp": 0,
-                "category": "A7"
-            },
-            "geometry": {
-                "type": "LineString",
-                "coordinates": [
-                    [
-                        -118.499565,
-                        34.216547
-                    ],
-                    [
-                        -118.499264,
-                        34.216553
-                    ],
-                    [
-                        -118.494015,
-                        34.216547
-                    ]
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
                 "hex": "AE743B",
                 "flight": "SHWK801 ",
                 "type": "H60",
@@ -60,14 +23,6 @@
             "geometry": {
                 "type": "LineString",
                 "coordinates": [
-                    [
-                        -117.086078,
-                        32.573273
-                    ],
-                    [
-                        -117.086517,
-                        32.57373
-                    ],
                     [
                         -117.126702,
                         32.637541
@@ -806,14 +761,6 @@
                 "type": "LineString",
                 "coordinates": [
                     [
-                        -117.186108,
-                        32.640289
-                    ],
-                    [
-                        -117.186229,
-                        32.6408
-                    ],
-                    [
                         -117.207137,
                         32.692938
                     ],
@@ -1195,14 +1142,6 @@
                 "type": "LineString",
                 "coordinates": [
                     [
-                        -118.660693,
-                        33.022888
-                    ],
-                    [
-                        -118.65453,
-                        33.020107
-                    ],
-                    [
                         -118.722931,
                         33.059052
                     ],
@@ -1370,12 +1309,12 @@
                 "description": "Unknown",
                 "operator": "Unknown",
                 "altitude": 1550,
-                "ground_speed": 90.4,
-                "track": 147.19,
+                "ground_speed": 88.1,
+                "track": 105.14,
                 "squawk": "4561",
-                "rssi": -19.3,
+                "rssi": -14.0,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-02-28T03:34:02.715364+00:00",
+                "last_seen": "2025-02-28T03:36:02.667188+00:00",
                 "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
                 "category": "A7"
@@ -1383,14 +1322,6 @@
             "geometry": {
                 "type": "LineString",
                 "coordinates": [
-                    [
-                        -117.117485,
-                        32.563271
-                    ],
-                    [
-                        -117.117509,
-                        32.56329
-                    ],
                     [
                         -117.117389,
                         32.563248
@@ -2218,6 +2149,14 @@
                     [
                         -117.302179,
                         32.642349
+                    ],
+                    [
+                        -117.257739,
+                        32.615616
+                    ],
+                    [
+                        -117.257739,
+                        32.615616
                     ]
                 ]
             }
@@ -2230,13 +2169,13 @@
                 "type": "AS50",
                 "description": "AEROSPATIALE AS-350 Ecureuil",
                 "operator": "COUNTY OF ORANGE - AIR SUPPORT",
-                "altitude": 1200,
-                "ground_speed": 81.6,
-                "track": 160.68,
+                "altitude": 400,
+                "ground_speed": 67.5,
+                "track": 129.59,
                 "squawk": "4204",
-                "rssi": -12.7,
+                "rssi": -31.3,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-02-28T03:34:02.715384+00:00",
+                "last_seen": "2025-02-28T03:36:02.667207+00:00",
                 "nav_qnh": 1013.6,
                 "nav_altitude_mcp": 0,
                 "category": "A7"
@@ -2244,14 +2183,6 @@
             "geometry": {
                 "type": "LineString",
                 "coordinates": [
-                    [
-                        -117.894459,
-                        33.596471
-                    ],
-                    [
-                        -117.894688,
-                        33.596564
-                    ],
                     [
                         -117.926617,
                         33.604431
@@ -2767,6 +2698,43 @@
                     [
                         -117.908244,
                         33.708801
+                    ],
+                    [
+                        -117.869511,
+                        33.681615
+                    ],
+                    [
+                        -117.870633,
+                        33.682755
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "hex": "A3238A",
+                "flight": "FIRE1   ",
+                "type": "A139",
+                "description": "AGUSTA AW-139",
+                "operator": "LOS ANGELES FIRE DEPARTMENT",
+                "altitude": "ground",
+                "ground_speed": 2.2,
+                "track": 0.0,
+                "squawk": "1200",
+                "rssi": -21.1,
+                "api_source": "https://api.airplanes.live/v2/hex/",
+                "last_seen": "2025-02-27T23:36:03.866730+00:00",
+                "nav_qnh": 0.0,
+                "nav_altitude_mcp": 0,
+                "category": "A7"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -118.494015,
+                        34.216547
                     ]
                 ]
             }
@@ -3164,9 +3132,9 @@
                 "ground_speed": 0.0,
                 "track": 0.0,
                 "squawk": "0201",
-                "rssi": -20.6,
+                "rssi": -19.0,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-02-28T03:34:02.715341+00:00",
+                "last_seen": "2025-02-28T03:36:02.667167+00:00",
                 "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
                 "category": "A7"
@@ -3837,6 +3805,14 @@
                     [
                         -118.05272,
                         33.792583
+                    ],
+                    [
+                        -118.052716,
+                        33.792584
+                    ],
+                    [
+                        -118.052716,
+                        33.792584
                     ]
                 ]
             }
@@ -3850,12 +3826,12 @@
                 "description": "SIKORSKY UH-60 Black Hawk",
                 "operator": "Unknown",
                 "altitude": 925,
-                "ground_speed": 87.2,
-                "track": 331.97,
+                "ground_speed": 85.4,
+                "track": 343.69,
                 "squawk": "1200",
-                "rssi": -25.0,
+                "rssi": -22.2,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-02-28T03:34:02.715374+00:00",
+                "last_seen": "2025-02-28T03:36:02.667198+00:00",
                 "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
                 "category": "A7"
@@ -4530,6 +4506,14 @@
                     [
                         -117.630505,
                         32.850174
+                    ],
+                    [
+                        -117.653821,
+                        32.894789
+                    ],
+                    [
+                        -117.653577,
+                        32.894165
                     ]
                 ]
             }
@@ -6104,13 +6088,13 @@
                 "type": "Q9",
                 "description": "GENERAL ATOMICS MQ-9 Reaper",
                 "operator": "GENERAL ATOMICS AERONAUTICAL SYSTEMS INC",
-                "altitude": 8300,
-                "ground_speed": 137.3,
-                "track": 259.51,
+                "altitude": 8325,
+                "ground_speed": 123.0,
+                "track": 179.53,
                 "squawk": "5216",
-                "rssi": -6.9,
+                "rssi": -4.6,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-02-28T03:34:02.715352+00:00",
+                "last_seen": "2025-02-28T03:36:02.667177+00:00",
                 "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
                 "category": "B6"
@@ -6525,6 +6509,14 @@
                     [
                         -117.726802,
                         34.612061
+                    ],
+                    [
+                        -117.736015,
+                        34.546555
+                    ],
+                    [
+                        -117.736015,
+                        34.546555
                     ]
                 ]
             }
@@ -7225,12 +7217,12 @@
                 "description": "SIKORSKY UH-60 Black Hawk",
                 "operator": "ORANGE COUNTY FIRE AUTHORITY",
                 "altitude": 550,
-                "ground_speed": 3.7,
-                "track": 56.31,
+                "ground_speed": 10.3,
+                "track": 240.95,
                 "squawk": "N/A",
-                "rssi": -20.0,
+                "rssi": -20.3,
                 "api_source": "https://opendata.adsb.fi/api/v2/hex/",
-                "last_seen": "2025-02-28T03:34:02.714633+00:00",
+                "last_seen": "2025-02-28T03:36:02.666928+00:00",
                 "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
                 "category": "A7"
@@ -7333,6 +7325,10 @@
                     [
                         -117.545197,
                         33.538742
+                    ],
+                    [
+                        -117.543988,
+                        33.538971
                     ]
                 ]
             }
