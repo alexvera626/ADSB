@@ -24,14 +24,6 @@
                 "type": "LineString",
                 "coordinates": [
                     [
-                        -116.809611,
-                        32.825845
-                    ],
-                    [
-                        -116.809607,
-                        32.825958
-                    ],
-                    [
                         -116.786181,
                         32.861318
                     ],
@@ -245,43 +237,6 @@
         {
             "type": "Feature",
             "properties": {
-                "hex": "A1D898",
-                "flight": "TROY327 ",
-                "type": "B350",
-                "description": "BEECHCRAFT Super King Air 350",
-                "operator": "DEPARTMENT OF HOMELAND SECURITY",
-                "altitude": "ground",
-                "ground_speed": 0.0,
-                "track": 104.06,
-                "squawk": "4402",
-                "rssi": -9.2,
-                "api_source": "https://opendata.adsb.fi/api/v2/hex/",
-                "last_seen": "2025-03-01T18:12:02.780735+00:00",
-                "nav_qnh": 0.0,
-                "nav_altitude_mcp": 0,
-                "category": "A2"
-            },
-            "geometry": {
-                "type": "LineString",
-                "coordinates": [
-                    [
-                        -117.209537,
-                        32.701561
-                    ],
-                    [
-                        -117.209533,
-                        32.701585
-                    ],
-                    [
-                        -117.209537,
-                        32.701584
-                    ]
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
                 "hex": "A1511C",
                 "flight": "N184SD  ",
                 "type": "AS50",
@@ -472,6 +427,39 @@
                     [
                         -117.87167,
                         33.675327
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "hex": "A1D898",
+                "flight": "TROY327 ",
+                "type": "B350",
+                "description": "BEECHCRAFT Super King Air 350",
+                "operator": "DEPARTMENT OF HOMELAND SECURITY",
+                "altitude": "ground",
+                "ground_speed": 0.0,
+                "track": 104.06,
+                "squawk": "4402",
+                "rssi": -9.2,
+                "api_source": "https://opendata.adsb.fi/api/v2/hex/",
+                "last_seen": "2025-03-01T18:12:02.780735+00:00",
+                "nav_qnh": 0.0,
+                "nav_altitude_mcp": 0,
+                "category": "A2"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -117.209533,
+                        32.701585
+                    ],
+                    [
+                        -117.209537,
+                        32.701584
                     ]
                 ]
             }
