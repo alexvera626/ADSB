@@ -15,7 +15,7 @@
                 "squawk": "4204",
                 "rssi": -17.4,
                 "api_source": "https://opendata.adsb.fi/api/v2/hex/",
-                "last_seen": "2025-03-01T18:20:02.551785+00:00",
+                "last_seen": "2025-03-01T18:22:03.380653+00:00",
                 "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
                 "category": "A7"
@@ -952,13 +952,13 @@
                 "type": "AS50",
                 "description": "AEROSPATIALE AS-350 Ecureuil",
                 "operator": "CITY OF ONTARIO",
-                "altitude": 625,
-                "ground_speed": 90.1,
-                "track": 130.05,
+                "altitude": 825,
+                "ground_speed": 109.3,
+                "track": 113.75,
                 "squawk": "4274",
-                "rssi": -12.8,
+                "rssi": -9.4,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-03-01T18:20:02.551878+00:00",
+                "last_seen": "2025-03-01T18:22:03.381254+00:00",
                 "nav_qnh": 1015.2,
                 "nav_altitude_mcp": 8000,
                 "category": "A7"
@@ -1061,6 +1061,47 @@
                     [
                         -117.98655,
                         33.863342
+                    ],
+                    [
+                        -117.917549,
+                        33.848648
+                    ],
+                    [
+                        -117.916988,
+                        33.848465
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "hex": "A38627",
+                "flight": "REH81   ",
+                "type": "EC35",
+                "description": "AIRBUS HELICOPTERS EC-135/635",
+                "operator": "REACH AIR MEDICAL SERVICES LLC",
+                "altitude": "ground",
+                "ground_speed": 0.0,
+                "track": 0.0,
+                "squawk": "1200",
+                "rssi": -24.7,
+                "api_source": "https://api.airplanes.live/v2/hex/",
+                "last_seen": "2025-03-01T18:22:03.381303+00:00",
+                "nav_qnh": 0.0,
+                "nav_altitude_mcp": 0,
+                "category": "A7"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -116.269813,
+                        33.744356
+                    ],
+                    [
+                        -116.269813,
+                        33.744356
                     ]
                 ]
             }
