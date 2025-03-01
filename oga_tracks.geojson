@@ -10,12 +10,12 @@
                 "description": "BELL 407",
                 "operator": "SAN DIEGO COUNTY SHERIFF DEPARTMENT",
                 "altitude": 975,
-                "ground_speed": 88.3,
-                "track": 105.77,
+                "ground_speed": 69.1,
+                "track": 58.61,
                 "squawk": "4266",
-                "rssi": -7.7,
+                "rssi": -16.6,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-03-01T21:30:02.855975+00:00",
+                "last_seen": "2025-03-01T21:32:02.701664+00:00",
                 "nav_qnh": 1015.2,
                 "nav_altitude_mcp": 0,
                 "category": "A7"
@@ -23,22 +23,6 @@
             "geometry": {
                 "type": "LineString",
                 "coordinates": [
-                    [
-                        -116.908594,
-                        32.866562
-                    ],
-                    [
-                        -116.909385,
-                        32.867742
-                    ],
-                    [
-                        -116.92392,
-                        32.86972
-                    ],
-                    [
-                        -116.92392,
-                        32.86972
-                    ],
                     [
                         -116.923535,
                         32.867157
@@ -230,6 +214,14 @@
                     [
                         -117.030322,
                         32.659882
+                    ],
+                    [
+                        -117.025134,
+                        32.664076
+                    ],
+                    [
+                        -117.024293,
+                        32.664448
                     ]
                 ]
             }
@@ -256,22 +248,6 @@
             "geometry": {
                 "type": "LineString",
                 "coordinates": [
-                    [
-                        -118.008971,
-                        33.774216
-                    ],
-                    [
-                        -118.008971,
-                        33.774216
-                    ],
-                    [
-                        -117.965698,
-                        33.757774
-                    ],
-                    [
-                        -117.965698,
-                        33.757774
-                    ],
                     [
                         -117.921361,
                         33.766159
@@ -403,39 +379,6 @@
                     [
                         -117.87167,
                         33.675327
-                    ]
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "hex": "A1D898",
-                "flight": "TROY327 ",
-                "type": "B350",
-                "description": "BEECHCRAFT Super King Air 350",
-                "operator": "DEPARTMENT OF HOMELAND SECURITY",
-                "altitude": "ground",
-                "ground_speed": 0.0,
-                "track": 104.06,
-                "squawk": "4402",
-                "rssi": -9.2,
-                "api_source": "https://opendata.adsb.fi/api/v2/hex/",
-                "last_seen": "2025-03-01T18:12:02.780735+00:00",
-                "nav_qnh": 0.0,
-                "nav_altitude_mcp": 0,
-                "category": "A2"
-            },
-            "geometry": {
-                "type": "LineString",
-                "coordinates": [
-                    [
-                        -117.209533,
-                        32.701585
-                    ],
-                    [
-                        -117.209537,
-                        32.701584
                     ]
                 ]
             }
@@ -789,6 +732,35 @@
                     [
                         -117.692652,
                         34.109653
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "hex": "A1D898",
+                "flight": "TROY327 ",
+                "type": "B350",
+                "description": "BEECHCRAFT Super King Air 350",
+                "operator": "DEPARTMENT OF HOMELAND SECURITY",
+                "altitude": "ground",
+                "ground_speed": 0.0,
+                "track": 104.06,
+                "squawk": "4402",
+                "rssi": -9.2,
+                "api_source": "https://opendata.adsb.fi/api/v2/hex/",
+                "last_seen": "2025-03-01T18:12:02.780735+00:00",
+                "nav_qnh": 0.0,
+                "nav_altitude_mcp": 0,
+                "category": "A2"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -117.209537,
+                        32.701584
                     ]
                 ]
             }
