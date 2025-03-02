@@ -4,51 +4,6 @@
         {
             "type": "Feature",
             "properties": {
-                "hex": "A0A6E5",
-                "flight": "N141FA  ",
-                "type": "B412",
-                "description": "BELL 412",
-                "operator": "ORANGE COUNTY FIRE AUTHORITY",
-                "altitude": 700,
-                "ground_speed": 17.9,
-                "track": 26.57,
-                "squawk": "4202",
-                "rssi": -30.0,
-                "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-03-02T09:34:02.823460+00:00",
-                "nav_qnh": 0.0,
-                "nav_altitude_mcp": 0,
-                "category": "A7"
-            },
-            "geometry": {
-                "type": "LineString",
-                "coordinates": [
-                    [
-                        -116.567059,
-                        33.756191
-                    ],
-                    [
-                        -116.546668,
-                        33.768173
-                    ],
-                    [
-                        -116.518536,
-                        33.798833
-                    ],
-                    [
-                        -116.515447,
-                        33.806259
-                    ],
-                    [
-                        -116.509898,
-                        33.8237
-                    ]
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
                 "hex": "A1511C",
                 "flight": "N184SD  ",
                 "type": "AS50",
@@ -68,14 +23,6 @@
             "geometry": {
                 "type": "LineString",
                 "coordinates": [
-                    [
-                        -117.894343,
-                        33.747253
-                    ],
-                    [
-                        -117.894511,
-                        33.747437
-                    ],
                     [
                         -117.901069,
                         33.745148
@@ -530,22 +477,6 @@
                 "type": "LineString",
                 "coordinates": [
                     [
-                        -112.442432,
-                        33.436295
-                    ],
-                    [
-                        -112.442432,
-                        33.436295
-                    ],
-                    [
-                        -112.443107,
-                        33.436331
-                    ],
-                    [
-                        -112.443107,
-                        33.436331
-                    ],
-                    [
                         -112.522083,
                         33.44371
                     ],
@@ -760,6 +691,43 @@
                     [
                         -116.26981,
                         33.744335
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "hex": "A0A6E5",
+                "flight": "N141FA  ",
+                "type": "B412",
+                "description": "BELL 412",
+                "operator": "ORANGE COUNTY FIRE AUTHORITY",
+                "altitude": 700,
+                "ground_speed": 17.9,
+                "track": 26.57,
+                "squawk": "4202",
+                "rssi": -30.0,
+                "api_source": "https://api.airplanes.live/v2/hex/",
+                "last_seen": "2025-03-02T09:34:02.823460+00:00",
+                "nav_qnh": 0.0,
+                "nav_altitude_mcp": 0,
+                "category": "A7"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -116.518536,
+                        33.798833
+                    ],
+                    [
+                        -116.515447,
+                        33.806259
+                    ],
+                    [
+                        -116.509898,
+                        33.8237
                     ]
                 ]
             }
