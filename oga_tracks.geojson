@@ -10,12 +10,12 @@
                 "description": "AEROSPATIALE AS-350 Ecureuil",
                 "operator": "COUNTY OF ORANGE - AIR SUPPORT",
                 "altitude": 600,
-                "ground_speed": 65.0,
-                "track": 269.12,
+                "ground_speed": 69.0,
+                "track": 299.54,
                 "squawk": "4204",
-                "rssi": -13.9,
+                "rssi": -19.6,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-03-02T20:02:03.220883+00:00",
+                "last_seen": "2025-03-02T20:04:02.894239+00:00",
                 "nav_qnh": 1020.8,
                 "nav_altitude_mcp": 0,
                 "category": "A7"
@@ -23,14 +23,6 @@
             "geometry": {
                 "type": "LineString",
                 "coordinates": [
-                    [
-                        -117.72234,
-                        33.551175
-                    ],
-                    [
-                        -117.725792,
-                        33.544922
-                    ],
                     [
                         -117.701466,
                         33.591888
@@ -246,6 +238,14 @@
                     [
                         -117.833462,
                         33.78943
+                    ],
+                    [
+                        -117.876518,
+                        33.801727
+                    ],
+                    [
+                        -117.876518,
+                        33.801727
                     ]
                 ]
             }
@@ -1343,15 +1343,15 @@
                 "type": "Unknown",
                 "description": "Unknown",
                 "operator": "DEPARTMENT OF HOMELAND SECURITY",
-                "altitude": 13775,
-                "ground_speed": 179.7,
-                "track": 279.93,
+                "altitude": 13275,
+                "ground_speed": 199.1,
+                "track": 280.12,
                 "squawk": "4746",
-                "rssi": -6.0,
+                "rssi": -8.2,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-03-02T20:02:03.220894+00:00",
+                "last_seen": "2025-03-02T20:04:02.894249+00:00",
                 "nav_qnh": 1021.6,
-                "nav_altitude_mcp": 14016,
+                "nav_altitude_mcp": 12000,
                 "category": "A2"
             },
             "geometry": {
@@ -1428,6 +1428,14 @@
                     [
                         -117.166555,
                         33.205572
+                    ],
+                    [
+                        -117.287512,
+                        33.222656
+                    ],
+                    [
+                        -117.287512,
+                        33.222656
                     ]
                 ]
             }
@@ -1505,6 +1513,35 @@
                     [
                         -122.554993,
                         39.059097
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "hex": "A1D898",
+                "flight": "TROY327 ",
+                "type": "B350",
+                "description": "BEECHCRAFT Super King Air 350",
+                "operator": "DEPARTMENT OF HOMELAND SECURITY",
+                "altitude": "ground",
+                "ground_speed": 0.0,
+                "track": 104.06,
+                "squawk": "4402",
+                "rssi": -8.4,
+                "api_source": "https://opendata.adsb.fi/api/v2/hex/",
+                "last_seen": "2025-03-02T20:04:02.894166+00:00",
+                "nav_qnh": 0.0,
+                "nav_altitude_mcp": 0,
+                "category": "A2"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -117.209533,
+                        32.701574
                     ]
                 ]
             }
