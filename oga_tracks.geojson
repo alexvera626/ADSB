@@ -503,9 +503,9 @@
                 "ground_speed": 195.8,
                 "track": 156.84,
                 "squawk": "4401",
-                "rssi": -15.7,
+                "rssi": -23.3,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-03-03T16:52:02.920929+00:00",
+                "last_seen": "2025-03-03T16:54:02.950723+00:00",
                 "nav_qnh": 1021.6,
                 "nav_altitude_mcp": 7488,
                 "category": "A2"
@@ -856,6 +856,14 @@
                     [
                         -80.898635,
                         29.446339
+                    ],
+                    [
+                        -80.849181,
+                        29.343796
+                    ],
+                    [
+                        -80.851512,
+                        29.348532
                     ]
                 ]
             }
@@ -1058,13 +1066,13 @@
                 "type": "AS50",
                 "description": "AEROSPATIALE AS-350 Ecureuil",
                 "operator": "CITY OF ONTARIO",
-                "altitude": 1775,
-                "ground_speed": 81.8,
-                "track": 308.55,
+                "altitude": 1900,
+                "ground_speed": 84.1,
+                "track": 92.73,
                 "squawk": "4274",
-                "rssi": -13.0,
+                "rssi": -12.5,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-03-03T16:52:02.920919+00:00",
+                "last_seen": "2025-03-03T16:54:02.950712+00:00",
                 "nav_qnh": 1018.4,
                 "nav_altitude_mcp": 8000,
                 "category": "A7"
@@ -1263,6 +1271,14 @@
                     [
                         -117.679998,
                         34.026215
+                    ],
+                    [
+                        -117.674617,
+                        34.058258
+                    ],
+                    [
+                        -117.674617,
+                        34.058258
                     ]
                 ]
             }
@@ -1275,13 +1291,13 @@
                 "type": "H60",
                 "description": "Sikorsky MH-60S Seahawk",
                 "operator": "United States Navy",
-                "altitude": -50,
-                "ground_speed": 33.4,
-                "track": 308.93,
+                "altitude": -150,
+                "ground_speed": 1.2,
+                "track": 0.0,
                 "squawk": "1200",
-                "rssi": -8.1,
+                "rssi": -15.6,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-03-03T16:52:02.920909+00:00",
+                "last_seen": "2025-03-03T16:54:02.950701+00:00",
                 "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
                 "category": "A7"
@@ -1360,6 +1376,43 @@
                     [
                         -117.28477,
                         32.581632
+                    ],
+                    [
+                        -117.288776,
+                        32.585266
+                    ],
+                    [
+                        -117.288776,
+                        32.585266
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "hex": "A1511C",
+                "flight": "N184SD  ",
+                "type": "AS50",
+                "description": "AEROSPATIALE AS-350 Ecureuil",
+                "operator": "COUNTY OF ORANGE - AIR SUPPORT",
+                "altitude": "ground",
+                "ground_speed": 0.0,
+                "track": 0.0,
+                "squawk": "4204",
+                "rssi": -20.8,
+                "api_source": "https://opendata.adsb.fi/api/v2/hex/",
+                "last_seen": "2025-03-03T16:54:02.950504+00:00",
+                "nav_qnh": 0.0,
+                "nav_altitude_mcp": 0,
+                "category": "A7"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -117.871642,
+                        33.675236
                     ]
                 ]
             }
