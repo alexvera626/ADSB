@@ -9,13 +9,13 @@
                 "type": "GLF5",
                 "description": "Gulfstream Aerospace C-37A",
                 "operator": "United States Coast Guard",
-                "altitude": 36000,
-                "ground_speed": 382.5,
-                "track": 229.77,
+                "altitude": 32375,
+                "ground_speed": 377.4,
+                "track": 229.51,
                 "squawk": "5660",
-                "rssi": -19.3,
+                "rssi": -17.5,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-03-05T14:18:02.343274+00:00",
+                "last_seen": "2025-03-05T14:20:02.964164+00:00",
                 "nav_qnh": 1013.6,
                 "nav_altitude_mcp": 28000,
                 "category": "A3"
@@ -442,6 +442,14 @@
                     [
                         -86.712781,
                         31.940231
+                    ],
+                    [
+                        -86.899988,
+                        31.804642
+                    ],
+                    [
+                        -86.899054,
+                        31.805328
                     ]
                 ]
             }
@@ -760,13 +768,13 @@
                 "type": "CN35",
                 "description": "CASA HC-144A Ocean Sentry",
                 "operator": "Unknown",
-                "altitude": 975,
-                "ground_speed": 152.5,
-                "track": 202.36,
+                "altitude": 950,
+                "ground_speed": 150.7,
+                "track": 192.65,
                 "squawk": "4426",
-                "rssi": -7.5,
+                "rssi": -7.4,
                 "api_source": "https://opendata.adsb.fi/api/v2/hex/",
-                "last_seen": "2025-03-05T14:18:02.343174+00:00",
+                "last_seen": "2025-03-05T14:20:02.964064+00:00",
                 "nav_qnh": 1014.4,
                 "nav_altitude_mcp": 992,
                 "category": "A2"
@@ -841,6 +849,10 @@
                     [
                         -80.242638,
                         25.489445
+                    ],
+                    [
+                        -80.277151,
+                        25.40877
                     ]
                 ]
             }
@@ -853,13 +865,13 @@
                 "type": "AS65",
                 "description": "Eurocopter MH-65D Dolphin",
                 "operator": "United States Coast Guard",
-                "altitude": 350,
-                "ground_speed": 54.1,
-                "track": 176.82,
+                "altitude": 225,
+                "ground_speed": 55.1,
+                "track": 168.49,
                 "squawk": "4440",
-                "rssi": -13.7,
+                "rssi": -4.5,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-03-05T14:18:02.343295+00:00",
+                "last_seen": "2025-03-05T14:20:02.964174+00:00",
                 "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
                 "category": "A7"
@@ -922,6 +934,47 @@
                     [
                         -74.513855,
                         39.288413
+                    ],
+                    [
+                        -74.510412,
+                        39.258865
+                    ],
+                    [
+                        -74.510412,
+                        39.258865
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "hex": "AE109A",
+                "flight": "C102    ",
+                "type": "GLF5",
+                "description": "GULFSTREAM 5",
+                "operator": "Unknown",
+                "altitude": 3825,
+                "ground_speed": 212.4,
+                "track": 83.51,
+                "squawk": "6206",
+                "rssi": -6.3,
+                "api_source": "https://api.airplanes.live/v2/hex/",
+                "last_seen": "2025-03-05T14:20:02.964153+00:00",
+                "nav_qnh": 1005.6,
+                "nav_altitude_mcp": 8512,
+                "category": "A3"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -76.996128,
+                        38.83548
+                    ],
+                    [
+                        -76.995361,
+                        38.835553
                     ]
                 ]
             }
