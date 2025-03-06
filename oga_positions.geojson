@@ -4,6 +4,33 @@
         {
             "type": "Feature",
             "properties": {
+                "hex": "A043A9",
+                "flight": "0000    ",
+                "type": "BE30",
+                "description": "BEECH 300 Super King Air",
+                "operator": "DEPARTMENT OF HOMELAND SECURITY",
+                "altitude": 1325,
+                "ground_speed": 128.3,
+                "track": 274.02,
+                "squawk": "3275",
+                "rssi": null,
+                "api_source": "https://api.airplanes.live/v2/hex/",
+                "last_seen": "2025-03-06T14:52:03.540301+00:00",
+                "nav_qnh": null,
+                "nav_altitude_mcp": null,
+                "category": "A2"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -81.704514,
+                    30.232269
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
                 "hex": "A1420A",
                 "flight": "N180Q   ",
                 "type": "AS50",
@@ -31,18 +58,18 @@
         {
             "type": "Feature",
             "properties": {
-                "hex": "A40442",
-                "flight": "N358TV  ",
+                "hex": "A1511C",
+                "flight": "N184SD  ",
                 "type": "AS50",
                 "description": "AEROSPATIALE AS-350 Ecureuil",
-                "operator": "TINY BUBBLES AVIATION INC",
-                "altitude": 1225,
-                "ground_speed": 7.1,
-                "track": 98.13,
-                "squawk": "1200",
+                "operator": "COUNTY OF ORANGE - AIR SUPPORT",
+                "altitude": "ground",
+                "ground_speed": 0.0,
+                "track": 0.0,
+                "squawk": "4204",
                 "rssi": null,
-                "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-03-06T14:50:03.168346+00:00",
+                "api_source": "https://opendata.adsb.fi/api/v2/hex/",
+                "last_seen": "2025-03-06T14:52:03.540135+00:00",
                 "nav_qnh": null,
                 "nav_altitude_mcp": null,
                 "category": "A7"
@@ -50,8 +77,35 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -118.209864,
-                    33.927017
+                    -117.871614,
+                    33.675307
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "hex": "A40442",
+                "flight": "N358TV  ",
+                "type": "AS50",
+                "description": "AEROSPATIALE AS-350 Ecureuil",
+                "operator": "TINY BUBBLES AVIATION INC",
+                "altitude": 1350,
+                "ground_speed": 2.3,
+                "track": 206.57,
+                "squawk": "1200",
+                "rssi": null,
+                "api_source": "https://api.airplanes.live/v2/hex/",
+                "last_seen": "2025-03-06T14:52:03.540311+00:00",
+                "nav_qnh": null,
+                "nav_altitude_mcp": null,
+                "category": "A7"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -118.209457,
+                    33.926573
                 ]
             }
         }
