@@ -163,12 +163,12 @@
                 "description": "GULFSTREAM 5",
                 "operator": "Unknown",
                 "altitude": 45000,
-                "ground_speed": 517.0,
-                "track": 126.43,
+                "ground_speed": 511.2,
+                "track": 126.49,
                 "squawk": "0555",
-                "rssi": -26.1,
+                "rssi": -29.3,
                 "api_source": "https://opendata.adsb.fi/api/v2/hex/",
-                "last_seen": "2025-03-06T13:58:03.543363+00:00",
+                "last_seen": "2025-03-06T14:00:03.163592+00:00",
                 "nav_qnh": 1013.6,
                 "nav_altitude_mcp": 45024,
                 "category": "A3"
@@ -627,6 +627,10 @@
                     [
                         -69.933671,
                         22.226624
+                    ],
+                    [
+                        -69.708901,
+                        22.071808
                     ]
                 ]
             }
@@ -792,14 +796,14 @@
                 "type": "C27J",
                 "description": "Alenia HC-27J Spartan",
                 "operator": "United States Coast Guard",
-                "altitude": 17150,
-                "ground_speed": 240.0,
-                "track": 147.77,
+                "altitude": 19050,
+                "ground_speed": 256.6,
+                "track": 147.73,
                 "squawk": "0033",
-                "rssi": -13.4,
+                "rssi": -16.7,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-03-06T13:58:03.543868+00:00",
-                "nav_qnh": 1016.0,
+                "last_seen": "2025-03-06T14:00:03.164469+00:00",
+                "nav_qnh": 1013.6,
                 "nav_altitude_mcp": 23008,
                 "category": "A2"
             },
@@ -873,6 +877,47 @@
                     [
                         -82.447832,
                         27.488663
+                    ],
+                    [
+                        -82.365694,
+                        27.372986
+                    ],
+                    [
+                        -82.365694,
+                        27.372986
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "hex": "AE223E",
+                "flight": "C2307   ",
+                "type": "CN35",
+                "description": "CASA HC-144B Ocean Sentry",
+                "operator": "United States Coast Guard",
+                "altitude": 925,
+                "ground_speed": 135.4,
+                "track": 265.34,
+                "squawk": "4423",
+                "rssi": -5.7,
+                "api_source": "https://api.airplanes.live/v2/hex/",
+                "last_seen": "2025-03-06T14:00:03.164449+00:00",
+                "nav_qnh": 1015.2,
+                "nav_altitude_mcp": 1504,
+                "category": "A2"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -80.320319,
+                        25.909424
+                    ],
+                    [
+                        -80.320319,
+                        25.909424
                     ]
                 ]
             }
