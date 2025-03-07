@@ -4,18 +4,18 @@
         {
             "type": "Feature",
             "properties": {
-                "hex": "AE2606",
-                "flight": "LS28    ",
-                "type": "H60",
-                "description": "SIKORSKY UH-60 Black Hawk",
-                "operator": "Unknown",
-                "altitude": "ground",
-                "ground_speed": 0.0,
-                "track": 0.0,
-                "squawk": "1200",
+                "hex": "AD535A",
+                "flight": "N958LA  ",
+                "type": "AS50",
+                "description": "AEROSPATIALE AS-350 Ecureuil",
+                "operator": "COUNTY OF LOS ANGELES",
+                "altitude": 600,
+                "ground_speed": 106.0,
+                "track": 1.08,
+                "squawk": "1206",
                 "rssi": null,
-                "api_source": "https://opendata.adsb.fi/api/v2/hex/",
-                "last_seen": "2025-03-07T01:30:02.796910+00:00",
+                "api_source": "https://api.airplanes.live/v2/hex/",
+                "last_seen": "2025-03-07T01:54:02.850040+00:00",
                 "nav_qnh": null,
                 "nav_altitude_mcp": null,
                 "category": "A7"
@@ -23,8 +23,35 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -117.202807,
-                    32.713584
+                    -118.15084,
+                    33.830658
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "hex": "AE2606",
+                "flight": "LS28    ",
+                "type": "H60",
+                "description": "Sikorsky MH-60S Seahawk",
+                "operator": "United States Navy",
+                "altitude": "ground",
+                "ground_speed": 6.2,
+                "track": 0.0,
+                "squawk": "1200",
+                "rssi": null,
+                "api_source": "https://api.airplanes.live/v2/hex/",
+                "last_seen": "2025-03-07T01:54:02.850259+00:00",
+                "nav_qnh": null,
+                "nav_altitude_mcp": null,
+                "category": "A7"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -117.207025,
+                    32.713072
                 ]
             }
         },
