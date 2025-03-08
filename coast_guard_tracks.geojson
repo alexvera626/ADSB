@@ -24,22 +24,6 @@
                 "type": "LineString",
                 "coordinates": [
                     [
-                        -105.139832,
-                        39.869292
-                    ],
-                    [
-                        -105.139578,
-                        39.869934
-                    ],
-                    [
-                        -105.118436,
-                        39.937956
-                    ],
-                    [
-                        -105.11853,
-                        39.938461
-                    ],
-                    [
                         -105.132731,
                         40.010019
                     ],
@@ -248,22 +232,6 @@
             "geometry": {
                 "type": "LineString",
                 "coordinates": [
-                    [
-                        -121.837853,
-                        37.748154
-                    ],
-                    [
-                        -121.837543,
-                        37.74786
-                    ],
-                    [
-                        -121.788356,
-                        37.715881
-                    ],
-                    [
-                        -121.787806,
-                        37.715878
-                    ],
                     [
                         -121.778193,
                         37.697723
@@ -674,84 +642,6 @@
         {
             "type": "Feature",
             "properties": {
-                "hex": "AE4CF7",
-                "flight": "C2714   ",
-                "type": "C27J",
-                "description": "ALENIA C-27J Spartan",
-                "operator": "United States Coast Guard",
-                "altitude": 24000,
-                "ground_speed": 0.0,
-                "track": 0.0,
-                "squawk": "N/A",
-                "rssi": -15.5,
-                "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-03-08T21:28:03.227445+00:00",
-                "nav_qnh": 0.0,
-                "nav_altitude_mcp": 0,
-                "category": "A0"
-            },
-            "geometry": {
-                "type": "LineString",
-                "coordinates": [
-                    [
-                        -99.13099,
-                        28.729225
-                    ],
-                    [
-                        -99.189761,
-                        28.738721
-                    ],
-                    [
-                        -99.349434,
-                        27.627222
-                    ],
-                    [
-                        -99.555208,
-                        27.817646
-                    ],
-                    [
-                        -100.152423,
-                        28.604969
-                    ]
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "hex": "AE4DFF",
-                "flight": "Unknown",
-                "type": "H60",
-                "description": "Sikorsky MH-60T Jayhawk",
-                "operator": "Unknown",
-                "altitude": "ground",
-                "ground_speed": 7.8,
-                "track": 0.0,
-                "squawk": "N/A",
-                "rssi": -14.0,
-                "api_source": "https://opendata.adsb.fi/api/v2/hex/",
-                "last_seen": "2025-03-08T18:02:02.548534+00:00",
-                "nav_qnh": 0.0,
-                "nav_altitude_mcp": 0,
-                "category": "Unknown"
-            },
-            "geometry": {
-                "type": "LineString",
-                "coordinates": [
-                    [
-                        -85.398604,
-                        45.795639
-                    ],
-                    [
-                        -85.577701,
-                        44.742159
-                    ]
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
                 "hex": "AE2914",
                 "flight": "C6037   ",
                 "type": "H60",
@@ -771,14 +661,6 @@
             "geometry": {
                 "type": "LineString",
                 "coordinates": [
-                    [
-                        -90.018064,
-                        29.804169
-                    ],
-                    [
-                        -90.018257,
-                        29.803813
-                    ],
                     [
                         -90.025987,
                         29.815796
@@ -826,6 +708,51 @@
                     [
                         -90.022511,
                         29.812146
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "hex": "AE4CF7",
+                "flight": "C2714   ",
+                "type": "C27J",
+                "description": "ALENIA C-27J Spartan",
+                "operator": "United States Coast Guard",
+                "altitude": 24000,
+                "ground_speed": 0.0,
+                "track": 0.0,
+                "squawk": "N/A",
+                "rssi": -20.4,
+                "api_source": "https://api.airplanes.live/v2/hex/",
+                "last_seen": "2025-03-08T21:30:03.550714+00:00",
+                "nav_qnh": 0.0,
+                "nav_altitude_mcp": 0,
+                "category": "A0"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -99.13099,
+                        28.729225
+                    ],
+                    [
+                        -99.189761,
+                        28.738721
+                    ],
+                    [
+                        -99.349434,
+                        27.627222
+                    ],
+                    [
+                        -99.555208,
+                        27.817646
+                    ],
+                    [
+                        -100.152423,
+                        28.604969
                     ]
                 ]
             }
@@ -1793,18 +1720,47 @@
         {
             "type": "Feature",
             "properties": {
+                "hex": "AE4DFF",
+                "flight": "Unknown",
+                "type": "H60",
+                "description": "Sikorsky MH-60T Jayhawk",
+                "operator": "Unknown",
+                "altitude": "ground",
+                "ground_speed": 7.8,
+                "track": 0.0,
+                "squawk": "N/A",
+                "rssi": -14.0,
+                "api_source": "https://opendata.adsb.fi/api/v2/hex/",
+                "last_seen": "2025-03-08T18:02:02.548534+00:00",
+                "nav_qnh": 0.0,
+                "nav_altitude_mcp": 0,
+                "category": "Unknown"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -85.577701,
+                        44.742159
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
                 "hex": "AE10EB",
                 "flight": "C2005   ",
                 "type": "C30J",
                 "description": "Lockheed Martin HC-130J Hercules",
                 "operator": "United States Coast Guard",
                 "altitude": 19000,
-                "ground_speed": 367.3,
-                "track": 68.6,
+                "ground_speed": 366.2,
+                "track": 69.04,
                 "squawk": "4244",
-                "rssi": -20.7,
+                "rssi": -22.4,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-03-08T21:28:03.227414+00:00",
+                "last_seen": "2025-03-08T21:30:03.550675+00:00",
                 "nav_qnh": 1012.8,
                 "nav_altitude_mcp": 0,
                 "category": "A3"
@@ -2067,6 +2023,14 @@
                     [
                         -154.601293,
                         57.430891
+                    ],
+                    [
+                        -154.250107,
+                        57.50441
+                    ],
+                    [
+                        -154.247161,
+                        57.504909
                     ]
                 ]
             }
@@ -4167,12 +4131,12 @@
                 "description": "Sikorsky MH-60T Jayhawk",
                 "operator": "United States Coast Guard",
                 "altitude": 250,
-                "ground_speed": 86.0,
-                "track": 280.4,
+                "ground_speed": 71.0,
+                "track": 273.8,
                 "squawk": "1277",
                 "rssi": -49.5,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-03-08T21:28:03.227435+00:00",
+                "last_seen": "2025-03-08T21:30:03.550688+00:00",
                 "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
                 "category": "A7"
@@ -4451,6 +4415,14 @@
                     [
                         -82.735077,
                         28.352688
+                    ],
+                    [
+                        -82.751453,
+                        28.363815
+                    ],
+                    [
+                        -82.76223,
+                        28.35228
                     ]
                 ]
             }
