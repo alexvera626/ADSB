@@ -4,6 +4,47 @@
         {
             "type": "Feature",
             "properties": {
+                "hex": "A90F0D",
+                "flight": "N683HB  ",
+                "type": "H500",
+                "description": "Unknown",
+                "operator": "CITY OF HUNTINGTON BEACH",
+                "altitude": "ground",
+                "ground_speed": 0.0,
+                "track": 0.0,
+                "squawk": "4301",
+                "rssi": -31.2,
+                "api_source": "https://opendata.adsb.fi/api/v2/hex/",
+                "last_seen": "2025-03-09T09:52:02.502684+00:00",
+                "nav_qnh": 0.0,
+                "nav_altitude_mcp": 0,
+                "category": "A7"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -118.001275,
+                        33.69515
+                    ],
+                    [
+                        -118.001264,
+                        33.69516
+                    ],
+                    [
+                        -118.001264,
+                        33.695148
+                    ],
+                    [
+                        -118.001278,
+                        33.69516
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
                 "hex": "A7FB70",
                 "flight": "REH80   ",
                 "type": "AS50",
@@ -23,14 +64,6 @@
             "geometry": {
                 "type": "LineString",
                 "coordinates": [
-                    [
-                        -121.393791,
-                        38.661118
-                    ],
-                    [
-                        -121.393677,
-                        38.661121
-                    ],
                     [
                         -121.390089,
                         38.711197
@@ -130,47 +163,6 @@
                     [
                         -122.132324,
                         39.162105
-                    ]
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "hex": "A90F0D",
-                "flight": "N683HB  ",
-                "type": "H500",
-                "description": "Unknown",
-                "operator": "CITY OF HUNTINGTON BEACH",
-                "altitude": "ground",
-                "ground_speed": 0.0,
-                "track": 0.0,
-                "squawk": "4301",
-                "rssi": -31.2,
-                "api_source": "https://opendata.adsb.fi/api/v2/hex/",
-                "last_seen": "2025-03-09T09:52:02.502684+00:00",
-                "nav_qnh": 0.0,
-                "nav_altitude_mcp": 0,
-                "category": "A7"
-            },
-            "geometry": {
-                "type": "LineString",
-                "coordinates": [
-                    [
-                        -118.001275,
-                        33.69515
-                    ],
-                    [
-                        -118.001264,
-                        33.69516
-                    ],
-                    [
-                        -118.001264,
-                        33.695148
-                    ],
-                    [
-                        -118.001278,
-                        33.69516
                     ]
                 ]
             }
