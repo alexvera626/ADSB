@@ -4,18 +4,18 @@
         {
             "type": "Feature",
             "properties": {
-                "hex": "A90F0D",
-                "flight": "N683HB  ",
-                "type": "Unknown",
-                "description": "Unknown",
-                "operator": "Bank Of Utah Trustee",
-                "altitude": 525,
-                "ground_speed": 56.7,
-                "track": 189.13,
-                "squawk": "4301",
+                "hex": "A14D65",
+                "flight": "N183SD  ",
+                "type": "AS50",
+                "description": "AEROSPATIALE AS-350 Ecureuil",
+                "operator": "ORANGE COUNTY SHERIFF'S DEPARTMENT, C/O CORONER AIR SUPPORT",
+                "altitude": -100,
+                "ground_speed": 26.0,
+                "track": 27.55,
+                "squawk": "4204",
                 "rssi": null,
-                "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-03-10T06:16:03.536677+00:00",
+                "api_source": "https://opendata.adsb.fi/api/v2/hex/",
+                "last_seen": "2025-03-10T06:18:03.626591+00:00",
                 "nav_qnh": null,
                 "nav_altitude_mcp": null,
                 "category": "A7"
@@ -23,8 +23,35 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -118.000088,
-                    33.703168
+                    -117.870633,
+                    33.675293
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "hex": "A90F0D",
+                "flight": "N683HB  ",
+                "type": "H500",
+                "description": "Unknown",
+                "operator": "CITY OF HUNTINGTON BEACH",
+                "altitude": "ground",
+                "ground_speed": 0.1,
+                "track": 0.0,
+                "squawk": "4301",
+                "rssi": null,
+                "api_source": "https://opendata.adsb.fi/api/v2/hex/",
+                "last_seen": "2025-03-10T06:18:03.625840+00:00",
+                "nav_qnh": null,
+                "nav_altitude_mcp": null,
+                "category": "A7"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -118.001275,
+                    33.695161
                 ]
             }
         }
