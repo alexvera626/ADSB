@@ -24,22 +24,6 @@
                 "type": "LineString",
                 "coordinates": [
                     [
-                        -117.944469,
-                        33.845618
-                    ],
-                    [
-                        -117.944566,
-                        33.84549
-                    ],
-                    [
-                        -117.938681,
-                        33.845764
-                    ],
-                    [
-                        -117.939129,
-                        33.846085
-                    ],
-                    [
                         -117.924331,
                         33.852402
                     ],
@@ -256,22 +240,6 @@
             "geometry": {
                 "type": "LineString",
                 "coordinates": [
-                    [
-                        -116.988924,
-                        32.752665
-                    ],
-                    [
-                        -116.989204,
-                        32.752479
-                    ],
-                    [
-                        -116.999182,
-                        32.76961
-                    ],
-                    [
-                        -116.998397,
-                        32.769843
-                    ],
                     [
                         -116.989765,
                         32.766863
@@ -664,15 +632,15 @@
                 "type": "EC35",
                 "description": "AIRBUS HELICOPTERS EC-135/635",
                 "operator": "REACH AIR MEDICAL SERVICES LLC",
-                "altitude": 1200,
-                "ground_speed": 120.1,
-                "track": 212.76,
+                "altitude": 500,
+                "ground_speed": 21.2,
+                "track": 261.87,
                 "squawk": "0236",
-                "rssi": -4.4,
+                "rssi": -6.9,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-03-10T12:38:03.256455+00:00",
-                "nav_qnh": 1015.2,
-                "nav_altitude_mcp": 1248,
+                "last_seen": "2025-03-10T12:40:03.336922+00:00",
+                "nav_qnh": 0.0,
+                "nav_altitude_mcp": 0,
                 "category": "A7"
             },
             "geometry": {
@@ -981,6 +949,51 @@
                     [
                         -117.138641,
                         32.787905
+                    ],
+                    [
+                        -117.163416,
+                        32.753736
+                    ],
+                    [
+                        -117.163416,
+                        32.753736
+                    ],
+                    [
+                        -117.163472,
+                        32.753736
+                    ],
+                    [
+                        -117.163472,
+                        32.753736
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "hex": "A00399",
+                "flight": "PD20    ",
+                "type": "AS50",
+                "description": "AEROSPATIALE AS-350 Ecureuil",
+                "operator": "City Of Ontario",
+                "altitude": 1275,
+                "ground_speed": 90.0,
+                "track": 179.1,
+                "squawk": "1200",
+                "rssi": -49.5,
+                "api_source": "https://api.airplanes.live/v2/hex/",
+                "last_seen": "2025-03-10T12:40:03.335895+00:00",
+                "nav_qnh": 0.0,
+                "nav_altitude_mcp": 0,
+                "category": "Unknown"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -98.145432,
+                        26.323471
                     ]
                 ]
             }
