@@ -24,14 +24,6 @@
                 "type": "LineString",
                 "coordinates": [
                     [
-                        -117.699448,
-                        33.789276
-                    ],
-                    [
-                        -117.699616,
-                        33.78923
-                    ],
-                    [
                         -117.712555,
                         33.787614
                     ],
@@ -573,14 +565,6 @@
                 "type": "LineString",
                 "coordinates": [
                     [
-                        -117.810688,
-                        33.820527
-                    ],
-                    [
-                        -117.810688,
-                        33.820527
-                    ],
-                    [
                         -117.749519,
                         33.794038
                     ],
@@ -843,17 +827,17 @@
             "type": "Feature",
             "properties": {
                 "hex": "AE4D3F",
-                "flight": "FFAB123 ",
-                "type": "Unknown",
+                "flight": "Unknown",
+                "type": "H60",
                 "description": "Unknown",
                 "operator": "Unknown",
                 "altitude": 175,
-                "ground_speed": 91.9,
-                "track": 44.12,
-                "squawk": "4501",
-                "rssi": -32.1,
-                "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-03-10T22:40:03.720084+00:00",
+                "ground_speed": 0.0,
+                "track": 0.0,
+                "squawk": "N/A",
+                "rssi": -26.6,
+                "api_source": "https://opendata.adsb.fi/api/v2/hex/",
+                "last_seen": "2025-03-10T22:46:02.941647+00:00",
                 "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
                 "category": "A7"
@@ -861,10 +845,6 @@
             "geometry": {
                 "type": "LineString",
                 "coordinates": [
-                    [
-                        -118.317151,
-                        31.775986
-                    ],
                     [
                         -118.338409,
                         31.800201
@@ -1292,6 +1272,10 @@
                     [
                         -118.441611,
                         31.648224
+                    ],
+                    [
+                        -118.419369,
+                        31.584686
                     ]
                 ]
             }
@@ -1318,14 +1302,6 @@
             "geometry": {
                 "type": "LineString",
                 "coordinates": [
-                    [
-                        -111.118964,
-                        32.39827
-                    ],
-                    [
-                        -111.118964,
-                        32.39827
-                    ],
                     [
                         -111.103473,
                         32.384216
@@ -1511,14 +1487,6 @@
             "geometry": {
                 "type": "LineString",
                 "coordinates": [
-                    [
-                        -83.140188,
-                        42.539668
-                    ],
-                    [
-                        -83.140188,
-                        42.539668
-                    ],
                     [
                         -83.213835,
                         42.524352
@@ -1884,14 +1852,6 @@
             "geometry": {
                 "type": "LineString",
                 "coordinates": [
-                    [
-                        -118.349771,
-                        34.210144
-                    ],
-                    [
-                        -118.348846,
-                        34.209564
-                    ],
                     [
                         -118.299324,
                         34.170364
@@ -2327,13 +2287,13 @@
                 "type": "H60",
                 "description": "Sikorsky MH-60S Seahawk",
                 "operator": "United States Navy",
-                "altitude": 300,
-                "ground_speed": 111.5,
-                "track": 156.19,
+                "altitude": 275,
+                "ground_speed": 96.3,
+                "track": 156.1,
                 "squawk": "1200",
-                "rssi": -15.0,
+                "rssi": -15.7,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-03-10T22:44:03.358153+00:00",
+                "last_seen": "2025-03-10T22:46:02.941763+00:00",
                 "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
                 "category": "A7"
@@ -3052,6 +3012,14 @@
                     [
                         -117.402484,
                         32.983109
+                    ],
+                    [
+                        -117.375787,
+                        32.928085
+                    ],
+                    [
+                        -117.375677,
+                        32.927902
                     ]
                 ]
             }
@@ -3064,13 +3032,13 @@
                 "type": "H60",
                 "description": "Sikorsky MH-60S Seahawk",
                 "operator": "United States Navy",
-                "altitude": 200,
-                "ground_speed": 78.4,
-                "track": 150.16,
+                "altitude": 175,
+                "ground_speed": 117.5,
+                "track": 120.71,
                 "squawk": "1200",
-                "rssi": -14.9,
+                "rssi": -17.3,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-03-10T22:44:03.358163+00:00",
+                "last_seen": "2025-03-10T22:46:02.941816+00:00",
                 "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
                 "category": "A7"
@@ -3605,6 +3573,14 @@
                     [
                         -117.517501,
                         33.114702
+                    ],
+                    [
+                        -117.4823,
+                        33.075132
+                    ],
+                    [
+                        -117.485211,
+                        33.076584
                     ]
                 ]
             }
@@ -5103,6 +5079,39 @@
                     [
                         -118.173752,
                         34.185217
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "hex": "A385E3",
+                "flight": "N326PD  ",
+                "type": "AS50",
+                "description": "AEROSPATIALE AS-350 Ecureuil",
+                "operator": "CITY OF ANAHEIM",
+                "altitude": 1300,
+                "ground_speed": 71.0,
+                "track": 178.39,
+                "squawk": "4301",
+                "rssi": -6.1,
+                "api_source": "https://api.airplanes.live/v2/hex/",
+                "last_seen": "2025-03-10T22:46:02.941784+00:00",
+                "nav_qnh": 1012.0,
+                "nav_altitude_mcp": 4000,
+                "category": "A7"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -117.966483,
+                        33.857666
+                    ],
+                    [
+                        -117.966483,
+                        33.857666
                     ]
                 ]
             }
