@@ -4,71 +4,6 @@
         {
             "type": "Feature",
             "properties": {
-                "hex": "A00399",
-                "flight": "Unknown",
-                "type": "AS50",
-                "description": "AEROSPATIALE AS-350 Ecureuil",
-                "operator": "Unknown",
-                "altitude": 0,
-                "ground_speed": 0.0,
-                "track": 0.0,
-                "squawk": "N/A",
-                "rssi": -28.7,
-                "api_source": "https://opendata.adsb.fi/api/v2/hex/",
-                "last_seen": "2025-03-11T14:42:03.531542+00:00",
-                "nav_qnh": 0.0,
-                "nav_altitude_mcp": 0,
-                "category": "Unknown"
-            },
-            "geometry": {
-                "type": "LineString",
-                "coordinates": [
-                    [
-                        -98.271928,
-                        26.335922
-                    ],
-                    [
-                        -98.271928,
-                        26.335922
-                    ],
-                    [
-                        -98.8271,
-                        26.373825
-                    ],
-                    [
-                        -98.958453,
-                        26.402241
-                    ],
-                    [
-                        -98.964527,
-                        26.401822
-                    ],
-                    [
-                        -99.092223,
-                        26.486847
-                    ],
-                    [
-                        -99.09528,
-                        26.450867
-                    ],
-                    [
-                        -99.019464,
-                        26.408615
-                    ],
-                    [
-                        -98.921106,
-                        26.386505
-                    ],
-                    [
-                        -98.901144,
-                        26.373286
-                    ]
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
                 "hex": "A40442",
                 "flight": "N358TV  ",
                 "type": "AS50",
@@ -88,14 +23,6 @@
             "geometry": {
                 "type": "LineString",
                 "coordinates": [
-                    [
-                        -118.256264,
-                        34.104123
-                    ],
-                    [
-                        -118.256331,
-                        34.103622
-                    ],
                     [
                         -118.271241,
                         34.052124
@@ -403,6 +330,63 @@
                     [
                         -118.410544,
                         34.257338
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "hex": "A00399",
+                "flight": "Unknown",
+                "type": "AS50",
+                "description": "AEROSPATIALE AS-350 Ecureuil",
+                "operator": "Unknown",
+                "altitude": 0,
+                "ground_speed": 0.0,
+                "track": 0.0,
+                "squawk": "N/A",
+                "rssi": -28.7,
+                "api_source": "https://opendata.adsb.fi/api/v2/hex/",
+                "last_seen": "2025-03-11T14:42:03.531542+00:00",
+                "nav_qnh": 0.0,
+                "nav_altitude_mcp": 0,
+                "category": "Unknown"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -98.8271,
+                        26.373825
+                    ],
+                    [
+                        -98.958453,
+                        26.402241
+                    ],
+                    [
+                        -98.964527,
+                        26.401822
+                    ],
+                    [
+                        -99.092223,
+                        26.486847
+                    ],
+                    [
+                        -99.09528,
+                        26.450867
+                    ],
+                    [
+                        -99.019464,
+                        26.408615
+                    ],
+                    [
+                        -98.921106,
+                        26.386505
+                    ],
+                    [
+                        -98.901144,
+                        26.373286
                     ]
                 ]
             }
@@ -1831,13 +1815,13 @@
                 "type": "H60",
                 "description": "Sikorsky MH-60S Seahawk",
                 "operator": "United States Navy",
-                "altitude": 150,
-                "ground_speed": 24.3,
-                "track": 99.46,
+                "altitude": 200,
+                "ground_speed": 50.0,
+                "track": 280.0,
                 "squawk": "1200",
-                "rssi": -19.8,
+                "rssi": -49.5,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-03-11T17:00:03.127928+00:00",
+                "last_seen": "2025-03-11T17:01:03.413394+00:00",
                 "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
                 "category": "A7"
@@ -2148,6 +2132,10 @@
                     [
                         -117.120368,
                         32.562732
+                    ],
+                    [
+                        -117.12233,
+                        32.563019
                     ]
                 ]
             }
@@ -2156,17 +2144,17 @@
             "type": "Feature",
             "properties": {
                 "hex": "A0F9B2",
-                "flight": "Unknown",
+                "flight": "00000000",
                 "type": "BE30",
                 "description": "BEECH 300 Super King Air",
                 "operator": "DEPARTMENT OF HOMELAND SECURITY",
                 "altitude": 7425,
-                "ground_speed": 161.9,
-                "track": 252.01,
-                "squawk": "N/A",
-                "rssi": -26.2,
+                "ground_speed": 159.6,
+                "track": 256.22,
+                "squawk": "4403",
+                "rssi": -18.7,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-03-11T17:00:03.127950+00:00",
+                "last_seen": "2025-03-11T17:01:03.413414+00:00",
                 "nav_qnh": 1016.0,
                 "nav_altitude_mcp": 7488,
                 "category": "A2"
@@ -2441,6 +2429,14 @@
                     [
                         -81.295667,
                         24.493413
+                    ],
+                    [
+                        -81.371663,
+                        24.475113
+                    ],
+                    [
+                        -81.372477,
+                        24.47493
                     ]
                 ]
             }
@@ -2453,13 +2449,13 @@
                 "type": "V10",
                 "description": "NORTH AMERICAN OV-10 Bronco",
                 "operator": "USDA FOREST SERVICE FEPP",
-                "altitude": 3100,
-                "ground_speed": 133.4,
-                "track": 10.8,
+                "altitude": 2900,
+                "ground_speed": 154.3,
+                "track": 162.27,
                 "squawk": "1255",
-                "rssi": -11.3,
+                "rssi": -14.2,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-03-11T17:00:03.127908+00:00",
+                "last_seen": "2025-03-11T17:01:03.413384+00:00",
                 "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
                 "category": "A1"
@@ -2686,6 +2682,14 @@
                     [
                         -121.041403,
                         38.160919
+                    ],
+                    [
+                        -121.009905,
+                        38.151489
+                    ],
+                    [
+                        -121.009628,
+                        38.150909
                     ]
                 ]
             }
@@ -2699,12 +2703,12 @@
                 "description": "Sikorsky MH-60R Seahawk",
                 "operator": "United States Navy",
                 "altitude": 325,
-                "ground_speed": 81.8,
-                "track": 348.0,
+                "ground_speed": 80.6,
+                "track": 348.55,
                 "squawk": "1200",
-                "rssi": -26.4,
+                "rssi": -25.0,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-03-11T17:00:03.127938+00:00",
+                "last_seen": "2025-03-11T17:01:03.413404+00:00",
                 "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
                 "category": "A7"
@@ -2943,6 +2947,14 @@
                     [
                         -117.354388,
                         32.790139
+                    ],
+                    [
+                        -117.360049,
+                        32.812391
+                    ],
+                    [
+                        -117.360132,
+                        32.812775
                     ]
                 ]
             }
@@ -2953,15 +2965,15 @@
                 "hex": "AE278E",
                 "flight": "LS16    ",
                 "type": "H60",
-                "description": "Sikorsky MH-60S Seahawk",
-                "operator": "United States Navy",
-                "altitude": 100,
-                "ground_speed": 24.7,
-                "track": 104.04,
+                "description": "SIKORSKY UH-60 Black Hawk",
+                "operator": "Unknown",
+                "altitude": "ground",
+                "ground_speed": 0.0,
+                "track": 0.0,
                 "squawk": "N/A",
-                "rssi": -17.0,
-                "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-03-11T17:00:03.127918+00:00",
+                "rssi": -23.1,
+                "api_source": "https://opendata.adsb.fi/api/v2/hex/",
+                "last_seen": "2025-03-11T17:01:03.413138+00:00",
                 "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
                 "category": "A7"
@@ -3120,6 +3132,10 @@
                     [
                         -117.118574,
                         32.563523
+                    ],
+                    [
+                        -117.117403,
+                        32.563236
                     ]
                 ]
             }
