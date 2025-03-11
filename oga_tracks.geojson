@@ -24,14 +24,6 @@
                 "type": "LineString",
                 "coordinates": [
                     [
-                        -121.171795,
-                        38.99469
-                    ],
-                    [
-                        -121.171795,
-                        38.99469
-                    ],
-                    [
                         -121.23468,
                         38.902402
                     ],
@@ -134,13 +126,13 @@
                 "type": "AS50",
                 "description": "AEROSPATIALE AS-350 Ecureuil",
                 "operator": "ORANGE COUNTY SHERIFF'S DEPARTMENT, C/O CORONER AIR SUPPORT",
-                "altitude": 0,
+                "altitude": "ground",
                 "ground_speed": 0.0,
                 "track": 0.0,
-                "squawk": "N/A",
-                "rssi": -11.0,
+                "squawk": "4204",
+                "rssi": -13.7,
                 "api_source": "https://opendata.adsb.fi/api/v2/hex/",
-                "last_seen": "2025-03-11T01:08:02.624099+00:00",
+                "last_seen": "2025-03-11T01:10:03.387082+00:00",
                 "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
                 "category": "A7"
@@ -148,14 +140,6 @@
             "geometry": {
                 "type": "LineString",
                 "coordinates": [
-                    [
-                        -117.816374,
-                        33.552017
-                    ],
-                    [
-                        -117.813721,
-                        33.550803
-                    ],
                     [
                         -117.773328,
                         33.527893
@@ -451,6 +435,10 @@
                     [
                         -117.869904,
                         33.676437
+                    ],
+                    [
+                        -117.871572,
+                        33.675293
                     ]
                 ]
             }
@@ -477,14 +465,6 @@
             "geometry": {
                 "type": "LineString",
                 "coordinates": [
-                    [
-                        -123.122543,
-                        48.02179
-                    ],
-                    [
-                        -123.122543,
-                        48.02179
-                    ],
                     [
                         -122.946308,
                         48.10955
@@ -737,13 +717,13 @@
                 "type": "H60",
                 "description": "Sikorsky MH-60S Seahawk",
                 "operator": "United States Navy",
-                "altitude": 525,
-                "ground_speed": 94.5,
-                "track": 169.64,
+                "altitude": 275,
+                "ground_speed": 101.0,
+                "track": 172.03,
                 "squawk": "1200",
-                "rssi": -13.5,
+                "rssi": -15.5,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-03-11T01:08:02.624400+00:00",
+                "last_seen": "2025-03-11T01:10:03.387256+00:00",
                 "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
                 "category": "A7"
@@ -1558,6 +1538,14 @@
                     [
                         -117.416774,
                         33.025368
+                    ],
+                    [
+                        -117.405011,
+                        32.96759
+                    ],
+                    [
+                        -117.404956,
+                        32.967224
                     ]
                 ]
             }
@@ -3297,13 +3285,13 @@
                 "type": "Unknown",
                 "description": "Unknown",
                 "operator": "Bank Of Utah Trustee",
-                "altitude": 975,
-                "ground_speed": 60.3,
-                "track": 139.71,
+                "altitude": 875,
+                "ground_speed": 67.1,
+                "track": 159.94,
                 "squawk": "4301",
-                "rssi": -19.1,
+                "rssi": -22.8,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-03-11T01:08:02.624410+00:00",
+                "last_seen": "2025-03-11T01:10:03.387266+00:00",
                 "nav_qnh": 1012.0,
                 "nav_altitude_mcp": 0,
                 "category": "A7"
@@ -3438,6 +3426,14 @@
                     [
                         -117.948154,
                         33.63739
+                    ],
+                    [
+                        -117.924275,
+                        33.610931
+                    ],
+                    [
+                        -117.924051,
+                        33.610336
                     ]
                 ]
             }
@@ -3450,13 +3446,13 @@
                 "type": "Unknown",
                 "description": "Unknown",
                 "operator": "DEPARTMENT OF HOMELAND SECURITY",
-                "altitude": 10550,
-                "ground_speed": 171.1,
-                "track": 173.62,
+                "altitude": 10525,
+                "ground_speed": 168.9,
+                "track": 174.22,
                 "squawk": "4762",
-                "rssi": -16.4,
+                "rssi": -12.2,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-03-11T01:08:02.624420+00:00",
+                "last_seen": "2025-03-11T01:10:03.387276+00:00",
                 "nav_qnh": 1012.0,
                 "nav_altitude_mcp": 10496,
                 "category": "A2"
@@ -3543,6 +3539,47 @@
                     [
                         -117.667859,
                         33.245087
+                    ],
+                    [
+                        -117.655829,
+                        33.150787
+                    ],
+                    [
+                        -117.655719,
+                        33.150009
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "hex": "A38627",
+                "flight": "REH81   ",
+                "type": "EC35",
+                "description": "AIRBUS HELICOPTERS EC-135/635",
+                "operator": "REACH AIR MEDICAL SERVICES LLC",
+                "altitude": "ground",
+                "ground_speed": 0.0,
+                "track": 0.0,
+                "squawk": "1200",
+                "rssi": -23.1,
+                "api_source": "https://api.airplanes.live/v2/hex/",
+                "last_seen": "2025-03-11T01:10:03.387320+00:00",
+                "nav_qnh": 0.0,
+                "nav_altitude_mcp": 0,
+                "category": "A7"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -116.26987,
+                        33.744332
+                    ],
+                    [
+                        -116.26987,
+                        33.744332
                     ]
                 ]
             }
