@@ -24,14 +24,6 @@
                 "type": "LineString",
                 "coordinates": [
                     [
-                        -117.882516,
-                        33.676758
-                    ],
-                    [
-                        -117.882516,
-                        33.676758
-                    ],
-                    [
                         -117.88393,
                         33.682034
                     ],
@@ -476,10 +468,6 @@
             "geometry": {
                 "type": "LineString",
                 "coordinates": [
-                    [
-                        -117.116388,
-                        32.566037
-                    ],
                     [
                         -117.11409,
                         32.567015
@@ -1764,13 +1752,13 @@
                 "type": "H60",
                 "description": "Sikorsky MH-60S Seahawk",
                 "operator": "United States Navy",
-                "altitude": 25,
-                "ground_speed": 0.7,
-                "track": 0.0,
+                "altitude": "ground",
+                "ground_speed": 0.0,
+                "track": 180.0,
                 "squawk": "N/A",
-                "rssi": -8.6,
+                "rssi": -10.0,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-03-11T19:09:03.224205+00:00",
+                "last_seen": "2025-03-11T19:10:02.907035+00:00",
                 "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
                 "category": "A7"
@@ -3033,6 +3021,14 @@
                     [
                         -117.117444,
                         32.563202
+                    ],
+                    [
+                        -117.117444,
+                        32.563156
+                    ],
+                    [
+                        -117.11743,
+                        32.563156
                     ]
                 ]
             }
@@ -4400,12 +4396,12 @@
                 "description": "Sikorsky MH-60R Seahawk",
                 "operator": "United States Navy",
                 "altitude": 450,
-                "ground_speed": 116.5,
-                "track": 249.39,
+                "ground_speed": 136.0,
+                "track": 296.19,
                 "squawk": "1200",
-                "rssi": -15.7,
+                "rssi": -10.7,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-03-11T19:09:03.224218+00:00",
+                "last_seen": "2025-03-11T19:10:02.907046+00:00",
                 "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
                 "category": "A7"
@@ -5360,6 +5356,14 @@
                     [
                         -117.267737,
                         32.624039
+                    ],
+                    [
+                        -117.308144,
+                        32.632886
+                    ],
+                    [
+                        -117.307562,
+                        32.632645
                     ]
                 ]
             }
@@ -6554,13 +6558,13 @@
                 "type": "H60",
                 "description": "Sikorsky MH-60S Seahawk",
                 "operator": "Unknown",
-                "altitude": 575,
-                "ground_speed": 139.9,
-                "track": 279.46,
+                "altitude": 600,
+                "ground_speed": 99.7,
+                "track": 195.71,
                 "squawk": "1200",
-                "rssi": -26.4,
+                "rssi": -23.6,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-03-11T19:09:03.224195+00:00",
+                "last_seen": "2025-03-11T19:10:02.907025+00:00",
                 "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
                 "category": "A7"
@@ -6791,6 +6795,47 @@
                     [
                         -117.497681,
                         32.785675
+                    ],
+                    [
+                        -117.518958,
+                        32.767189
+                    ],
+                    [
+                        -117.518958,
+                        32.767189
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "hex": "AE4D3F",
+                "flight": "Unknown",
+                "type": "Unknown",
+                "description": "Unknown",
+                "operator": "Unknown",
+                "altitude": 675,
+                "ground_speed": 140.0,
+                "track": 8.3,
+                "squawk": "7116",
+                "rssi": -49.5,
+                "api_source": "https://api.airplanes.live/v2/hex/",
+                "last_seen": "2025-03-11T19:10:02.907056+00:00",
+                "nav_qnh": 0.0,
+                "nav_altitude_mcp": 0,
+                "category": "Unknown"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -117.575354,
+                        32.075729
+                    ],
+                    [
+                        -117.575356,
+                        32.075729
                     ]
                 ]
             }
