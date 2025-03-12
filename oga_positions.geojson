@@ -9,13 +9,13 @@
                 "type": "AS50",
                 "description": "AEROSPATIALE AS-350 Ecureuil",
                 "operator": "ORANGE COUNTY SHERIFF'S DEPARTMENT",
-                "altitude": 1025,
-                "ground_speed": 67.9,
-                "track": 260.68,
+                "altitude": 1175,
+                "ground_speed": 78.0,
+                "track": 266.1,
                 "squawk": "4204",
                 "rssi": null,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-03-12T03:10:02.933142+00:00",
+                "last_seen": "2025-03-12T03:11:02.684590+00:00",
                 "nav_qnh": null,
                 "nav_altitude_mcp": null,
                 "category": "A7"
@@ -23,8 +23,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -117.599579,
-                    33.418533
+                    -117.599197,
+                    33.419769
                 ]
             }
         },
@@ -36,13 +36,13 @@
                 "type": "Q9",
                 "description": "GENERAL ATOMICS MQ-9 Reaper",
                 "operator": "GENERAL ATOMICS AERONAUTICAL SYSTEMS INC",
-                "altitude": 4650,
-                "ground_speed": 132.0,
-                "track": 326.43,
+                "altitude": 4575,
+                "ground_speed": 110.0,
+                "track": 271.04,
                 "squawk": "5216",
                 "rssi": null,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-03-12T03:10:02.933154+00:00",
+                "last_seen": "2025-03-12T03:11:02.684610+00:00",
                 "nav_qnh": null,
                 "nav_altitude_mcp": null,
                 "category": "B6"
@@ -50,8 +50,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -117.644292,
-                    34.581482
+                    -117.681735,
+                    34.586334
                 ]
             }
         },
@@ -88,15 +88,15 @@
                 "hex": "AE2606",
                 "flight": "LS28    ",
                 "type": "H60",
-                "description": "Sikorsky MH-60S Seahawk",
-                "operator": "United States Navy",
-                "altitude": 2000,
-                "ground_speed": 74.3,
-                "track": 334.47,
-                "squawk": "1200",
+                "description": "SIKORSKY UH-60 Black Hawk",
+                "operator": "Unknown",
+                "altitude": 1675,
+                "ground_speed": 8.6,
+                "track": 339.44,
+                "squawk": "N/A",
                 "rssi": null,
-                "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-03-12T03:10:02.933164+00:00",
+                "api_source": "https://opendata.adsb.fi/api/v2/hex/",
+                "last_seen": "2025-03-12T03:11:02.684525+00:00",
                 "nav_qnh": null,
                 "nav_altitude_mcp": null,
                 "category": "A7"
@@ -104,8 +104,35 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -116.903948,
-                    33.033421
+                    -116.918634,
+                    33.038077
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "hex": "AE4D5A",
+                "flight": "BTXX    ",
+                "type": "H60",
+                "description": "Sikorsky MH-60S Seahawk",
+                "operator": "United States Navy",
+                "altitude": 600,
+                "ground_speed": 99.6,
+                "track": 252.47,
+                "squawk": "1200",
+                "rssi": null,
+                "api_source": "https://api.airplanes.live/v2/hex/",
+                "last_seen": "2025-03-12T03:11:02.684620+00:00",
+                "nav_qnh": null,
+                "nav_altitude_mcp": null,
+                "category": "A7"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -117.119359,
+                    32.553887
                 ]
             }
         }
