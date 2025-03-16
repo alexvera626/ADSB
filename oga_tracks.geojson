@@ -9,13 +9,13 @@
                 "type": "B407",
                 "description": "BELL 407",
                 "operator": "SAN DIEGO COUNTY SHERIFF DEPARTMENT",
-                "altitude": 1900,
-                "ground_speed": 2.3,
-                "track": 153.43,
+                "altitude": 1925,
+                "ground_speed": 13.4,
+                "track": 333.43,
                 "squawk": "1200",
-                "rssi": -8.0,
+                "rssi": -9.2,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-03-16T15:52:02.910631+00:00",
+                "last_seen": "2025-03-16T15:53:02.988366+00:00",
                 "nav_qnh": 1020.8,
                 "nav_altitude_mcp": 0,
                 "category": "A7"
@@ -222,6 +222,43 @@
                     [
                         -116.855182,
                         32.602255
+                    ],
+                    [
+                        -116.854871,
+                        32.602432
+                    ],
+                    [
+                        -116.854926,
+                        32.60257
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "hex": "A31AA0",
+                "flight": "N3A     ",
+                "type": "SHIP",
+                "description": "Zeppelin LZ N07-101",
+                "operator": "GOODYEAR TIRE & RUBBER CO",
+                "altitude": 300,
+                "ground_speed": 1.6,
+                "track": 135.0,
+                "squawk": "N/A",
+                "rssi": -18.4,
+                "api_source": "https://opendata.adsb.fi/api/v2/hex/",
+                "last_seen": "2025-03-16T15:53:02.988316+00:00",
+                "nav_qnh": 0.0,
+                "nav_altitude_mcp": 0,
+                "category": "B2"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -97.652362,
+                        30.184704
                     ]
                 ]
             }
