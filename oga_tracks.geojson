@@ -9,14 +9,14 @@
                 "type": "B407",
                 "description": "BELL 407",
                 "operator": "SAN DIEGO COUNTY SHERIFF DEPARTMENT",
-                "altitude": 1225,
-                "ground_speed": 71.9,
-                "track": 81.19,
+                "altitude": 1000,
+                "ground_speed": 89.1,
+                "track": 350.96,
                 "squawk": "4266",
-                "rssi": -7.9,
+                "rssi": -11.1,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-03-16T16:00:03.330235+00:00",
-                "nav_qnh": 1020.8,
+                "last_seen": "2025-03-16T16:01:02.661064+00:00",
+                "nav_qnh": 1021.6,
                 "nav_altitude_mcp": 0,
                 "category": "A7"
             },
@@ -286,6 +286,14 @@
                     [
                         -116.960673,
                         32.683954
+                    ],
+                    [
+                        -116.966054,
+                        32.710442
+                    ],
+                    [
+                        -116.966054,
+                        32.710442
                     ]
                 ]
             }
@@ -294,17 +302,17 @@
             "type": "Feature",
             "properties": {
                 "hex": "A31AA0",
-                "flight": "Unknown",
+                "flight": "N3A     ",
                 "type": "SHIP",
                 "description": "Zeppelin LZ N07-101",
                 "operator": "GOODYEAR TIRE & RUBBER CO",
                 "altitude": 300,
-                "ground_speed": 0.7,
+                "ground_speed": 0.0,
                 "track": 0.0,
-                "squawk": "N/A",
-                "rssi": -7.1,
+                "squawk": "1200",
+                "rssi": -32.7,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-03-16T15:56:03.500012+00:00",
+                "last_seen": "2025-03-16T16:01:02.661075+00:00",
                 "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
                 "category": "Unknown"
@@ -331,6 +339,35 @@
                     [
                         -97.651868,
                         30.184285
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "hex": "A1D898",
+                "flight": "TROY327 ",
+                "type": "B350",
+                "description": "BEECHCRAFT Super King Air 350",
+                "operator": "DEPARTMENT OF HOMELAND SECURITY",
+                "altitude": "ground",
+                "ground_speed": 0.0,
+                "track": 0.0,
+                "squawk": "4403",
+                "rssi": -4.6,
+                "api_source": "https://opendata.adsb.fi/api/v2/hex/",
+                "last_seen": "2025-03-16T16:01:02.660988+00:00",
+                "nav_qnh": 0.0,
+                "nav_altitude_mcp": 0,
+                "category": "A2"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -117.209435,
+                        32.701911
                     ]
                 ]
             }
