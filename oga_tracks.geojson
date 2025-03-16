@@ -354,13 +354,13 @@
                 "type": "SHIP",
                 "description": "Zeppelin LZ N07-101",
                 "operator": "GOODYEAR TIRE & RUBBER CO",
-                "altitude": 2350,
-                "ground_speed": 29.4,
-                "track": 279.78,
+                "altitude": 2300,
+                "ground_speed": 32.3,
+                "track": 277.12,
                 "squawk": "N/A",
-                "rssi": -17.6,
+                "rssi": -22.2,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-03-16T17:49:02.359940+00:00",
+                "last_seen": "2025-03-16T17:50:02.419249+00:00",
                 "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
                 "category": "B2"
@@ -1015,6 +1015,14 @@
                     [
                         -98.804279,
                         30.51704
+                    ],
+                    [
+                        -98.814166,
+                        30.518157
+                    ],
+                    [
+                        -98.814551,
+                        30.518204
                     ]
                 ]
             }
@@ -1028,12 +1036,12 @@
                 "description": "BEECHCRAFT Super King Air 350",
                 "operator": "DEPARTMENT OF HOMELAND SECURITY",
                 "altitude": 6775,
-                "ground_speed": 217.7,
-                "track": 94.48,
+                "ground_speed": 229.0,
+                "track": 95.26,
                 "squawk": "4711",
-                "rssi": -9.3,
+                "rssi": -9.9,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-03-16T17:49:02.359952+00:00",
+                "last_seen": "2025-03-16T17:50:02.419260+00:00",
                 "nav_qnh": 1022.4,
                 "nav_altitude_mcp": 7008,
                 "category": "A2"
@@ -1876,6 +1884,14 @@
                     [
                         -118.683341,
                         34.238663
+                    ],
+                    [
+                        -118.610809,
+                        34.23317
+                    ],
+                    [
+                        -118.60823,
+                        34.232986
                     ]
                 ]
             }
@@ -2185,13 +2201,13 @@
                 "type": "A139",
                 "description": "AGUSTA AW-139",
                 "operator": "CITY OF LOS ANGELES",
-                "altitude": 2975,
-                "ground_speed": 122.6,
-                "track": 232.29,
+                "altitude": 2925,
+                "ground_speed": 118.2,
+                "track": 266.61,
                 "squawk": "1206",
-                "rssi": -4.0,
+                "rssi": -9.7,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-03-16T17:49:02.359918+00:00",
+                "last_seen": "2025-03-16T17:50:02.419228+00:00",
                 "nav_qnh": 1021.6,
                 "nav_altitude_mcp": 3200,
                 "category": "A7"
@@ -2330,6 +2346,43 @@
                     [
                         -118.963997,
                         34.205521
+                    ],
+                    [
+                        -119.001789,
+                        34.19881
+                    ],
+                    [
+                        -119.003162,
+                        34.198764
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "hex": "A1C5F2",
+                "flight": "N213PF  ",
+                "type": "AS50",
+                "description": "AEROSPATIALE AS-350 Ecureuil",
+                "operator": "LAPD AIR SUPPORT DIVISION",
+                "altitude": "ground",
+                "ground_speed": 0.7,
+                "track": 323.44,
+                "squawk": "1200",
+                "rssi": -15.1,
+                "api_source": "https://api.airplanes.live/v2/hex/",
+                "last_seen": "2025-03-16T17:50:02.419163+00:00",
+                "nav_qnh": 1022.4,
+                "nav_altitude_mcp": 7008,
+                "category": "A7"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -118.229244,
+                        34.054333
                     ]
                 ]
             }
