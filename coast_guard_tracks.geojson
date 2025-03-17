@@ -7327,13 +7327,13 @@
                 "type": "AS65",
                 "description": "Eurocopter MH-65D Dolphin",
                 "operator": "United States Coast Guard",
-                "altitude": 50,
-                "ground_speed": 20.0,
-                "track": 0.0,
+                "altitude": -50,
+                "ground_speed": 11.2,
+                "track": 10.3,
                 "squawk": "1200",
-                "rssi": -5.2,
+                "rssi": -14.6,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-03-17T16:07:02.935360+00:00",
+                "last_seen": "2025-03-17T16:08:03.674492+00:00",
                 "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
                 "category": "A7"
@@ -7572,6 +7572,14 @@
                     [
                         -81.138742,
                         32.018908
+                    ],
+                    [
+                        -81.138647,
+                        32.02034
+                    ],
+                    [
+                        -81.138647,
+                        32.02034
                     ]
                 ]
             }
@@ -7842,6 +7850,35 @@
                     [
                         -122.499604,
                         37.493637
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "hex": "AE2679",
+                "flight": "C6531   ",
+                "type": "AS65",
+                "description": "Eurocopter MH-65D Dolphin",
+                "operator": "United States Coast Guard",
+                "altitude": "ground",
+                "ground_speed": 0.0,
+                "track": 0.0,
+                "squawk": "1200",
+                "rssi": -7.6,
+                "api_source": "https://api.airplanes.live/v2/hex/",
+                "last_seen": "2025-03-17T16:08:03.674473+00:00",
+                "nav_qnh": 0.0,
+                "nav_altitude_mcp": 0,
+                "category": "A7"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -122.389248,
+                        37.633306
                     ]
                 ]
             }
