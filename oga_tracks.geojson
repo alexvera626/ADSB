@@ -1543,13 +1543,13 @@
                 "type": "AS50",
                 "description": "AEROSPATIALE AS-350 Ecureuil",
                 "operator": "CITY OF ANAHEIM",
-                "altitude": 1100,
-                "ground_speed": 64.0,
-                "track": 231.34,
+                "altitude": 900,
+                "ground_speed": 54.1,
+                "track": 236.31,
                 "squawk": "4301",
-                "rssi": -25.0,
+                "rssi": -13.5,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-03-18T02:43:03.666915+00:00",
+                "last_seen": "2025-03-18T02:44:03.007470+00:00",
                 "nav_qnh": 1018.4,
                 "nav_altitude_mcp": 4000,
                 "category": "A7"
@@ -2092,6 +2092,14 @@
                     [
                         -117.791318,
                         33.869659
+                    ],
+                    [
+                        -117.804337,
+                        33.858374
+                    ],
+                    [
+                        -117.804337,
+                        33.858374
                     ]
                 ]
             }
@@ -2105,12 +2113,12 @@
                 "description": "SIKORSKY UH-60 Black Hawk",
                 "operator": "Unknown",
                 "altitude": "ground",
-                "ground_speed": 0.0,
+                "ground_speed": 6.2,
                 "track": 0.0,
                 "squawk": "1200",
-                "rssi": -13.9,
+                "rssi": -16.3,
                 "api_source": "https://opendata.adsb.fi/api/v2/hex/",
-                "last_seen": "2025-03-18T02:42:03.136994+00:00",
+                "last_seen": "2025-03-18T02:44:03.007307+00:00",
                 "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
                 "category": "A7"
@@ -3533,6 +3541,10 @@
                     [
                         -117.201915,
                         32.712742
+                    ],
+                    [
+                        -117.201672,
+                        32.712816
                     ]
                 ]
             }
@@ -4709,6 +4721,35 @@
                     [
                         -118.001516,
                         33.695526
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "hex": "A14D65",
+                "flight": "N183SD  ",
+                "type": "AS50",
+                "description": "AEROSPATIALE AS-350 Ecureuil",
+                "operator": "ORANGE COUNTY SHERIFF'S DEPARTMENT, C/O CORONER AIR SUPPORT",
+                "altitude": -75,
+                "ground_speed": 46.1,
+                "track": 207.12,
+                "squawk": "N/A",
+                "rssi": -18.9,
+                "api_source": "https://opendata.adsb.fi/api/v2/hex/",
+                "last_seen": "2025-03-18T02:44:03.007278+00:00",
+                "nav_qnh": 0.0,
+                "nav_altitude_mcp": 0,
+                "category": "A7"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -117.87209,
+                        33.672867
                     ]
                 ]
             }
