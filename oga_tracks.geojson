@@ -24,14 +24,6 @@
                 "type": "LineString",
                 "coordinates": [
                     [
-                        -81.070598,
-                        29.511978
-                    ],
-                    [
-                        -81.070492,
-                        29.511429
-                    ],
-                    [
                         -81.046196,
                         29.461189
                     ],
@@ -488,14 +480,6 @@
             "geometry": {
                 "type": "LineString",
                 "coordinates": [
-                    [
-                        -80.319024,
-                        25.212692
-                    ],
-                    [
-                        -80.319076,
-                        25.211808
-                    ],
                     [
                         -80.289381,
                         25.177778
@@ -1809,14 +1793,6 @@
             "geometry": {
                 "type": "LineString",
                 "coordinates": [
-                    [
-                        -118.557358,
-                        34.033503
-                    ],
-                    [
-                        -118.557334,
-                        34.033493
-                    ],
                     [
                         -118.557014,
                         34.033829
@@ -3174,10 +3150,6 @@
             "geometry": {
                 "type": "LineString",
                 "coordinates": [
-                    [
-                        -118.408038,
-                        34.258656
-                    ],
                     [
                         -118.408038,
                         34.258621
@@ -6572,13 +6544,13 @@
                 "type": "A139",
                 "description": "AGUSTA AW-139",
                 "operator": "LOS ANGELES FIRE DEPARTMENT",
-                "altitude": 475,
-                "ground_speed": 13.4,
-                "track": 12.99,
+                "altitude": "ground",
+                "ground_speed": 5.2,
+                "track": 90.0,
                 "squawk": "1200",
-                "rssi": -4.8,
+                "rssi": -20.8,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-03-19T17:58:03.303493+00:00",
+                "last_seen": "2025-03-19T17:59:03.807917+00:00",
                 "nav_qnh": 1026.4,
                 "nav_altitude_mcp": 768,
                 "category": "A7"
@@ -6945,6 +6917,14 @@
                     [
                         -118.495102,
                         34.216826
+                    ],
+                    [
+                        -118.495116,
+                        34.217102
+                    ],
+                    [
+                        -118.494569,
+                        34.216667
                     ]
                 ]
             }
@@ -6958,13 +6938,13 @@
                 "description": "AEROSPATIALE AS-350 Ecureuil",
                 "operator": "CITY OF ANAHEIM",
                 "altitude": 700,
-                "ground_speed": 63.1,
-                "track": 267.27,
+                "ground_speed": 59.8,
+                "track": 252.47,
                 "squawk": "4301",
-                "rssi": -17.0,
+                "rssi": -10.6,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-03-19T17:58:03.303530+00:00",
-                "nav_qnh": 1026.4,
+                "last_seen": "2025-03-19T17:59:03.807939+00:00",
+                "nav_qnh": 1025.6,
                 "nav_altitude_mcp": 4000,
                 "category": "A7"
             },
@@ -7162,6 +7142,14 @@
                     [
                         -117.888626,
                         33.826492
+                    ],
+                    [
+                        -117.908581,
+                        33.822739
+                    ],
+                    [
+                        -117.908917,
+                        33.822647
                     ]
                 ]
             }
@@ -7175,12 +7163,12 @@
                 "description": "BEECHCRAFT Super King Air 350",
                 "operator": "DEPARTMENT OF HOMELAND SECURITY",
                 "altitude": 4350,
-                "ground_speed": 147.0,
-                "track": 213.91,
+                "ground_speed": 156.7,
+                "track": 209.02,
                 "squawk": "4402",
-                "rssi": -26.0,
+                "rssi": -27.0,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-03-19T17:58:03.303567+00:00",
+                "last_seen": "2025-03-19T17:59:03.807949+00:00",
                 "nav_qnh": 1019.2,
                 "nav_altitude_mcp": 4512,
                 "category": "A2"
@@ -7299,6 +7287,14 @@
                     [
                         -123.055256,
                         48.413956
+                    ],
+                    [
+                        -123.088144,
+                        48.37793
+                    ],
+                    [
+                        -123.081313,
+                        48.386261
                     ]
                 ]
             }
@@ -7312,12 +7308,12 @@
                 "description": "BELL 206 JetRanger",
                 "operator": "PASADENA POLICE DEPARTMENT",
                 "altitude": 1400,
-                "ground_speed": 65.1,
-                "track": 87.36,
+                "ground_speed": 73.0,
+                "track": 311.11,
                 "squawk": "1200",
-                "rssi": -3.6,
+                "rssi": -10.9,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-03-19T17:58:03.303577+00:00",
+                "last_seen": "2025-03-19T17:59:03.807960+00:00",
                 "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
                 "category": "A7"
@@ -7356,6 +7352,47 @@
                     [
                         -118.145256,
                         34.144158
+                    ],
+                    [
+                        -118.140583,
+                        34.160156
+                    ],
+                    [
+                        -118.140907,
+                        34.160405
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "hex": "AC4597",
+                "flight": "CMD3    ",
+                "type": "EC35",
+                "description": "AIRBUS HELICOPTERS EC-135/635",
+                "operator": "REACH AIR MEDICAL SERVICES LLC",
+                "altitude": 1600,
+                "ground_speed": 55.0,
+                "track": 358.96,
+                "squawk": "1200",
+                "rssi": -7.9,
+                "api_source": "https://api.airplanes.live/v2/hex/",
+                "last_seen": "2025-03-19T17:59:03.807929+00:00",
+                "nav_qnh": 1029.6,
+                "nav_altitude_mcp": 0,
+                "category": "A7"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -121.05481,
+                        38.938293
+                    ],
+                    [
+                        -121.054827,
+                        38.938568
                     ]
                 ]
             }
