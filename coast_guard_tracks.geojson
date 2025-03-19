@@ -24,22 +24,6 @@
                 "type": "LineString",
                 "coordinates": [
                     [
-                        -158.07663,
-                        21.299744
-                    ],
-                    [
-                        -158.076483,
-                        21.299927
-                    ],
-                    [
-                        -158.072904,
-                        21.302432
-                    ],
-                    [
-                        -158.072904,
-                        21.302432
-                    ],
-                    [
                         -158.072175,
                         21.301746
                     ],
@@ -88,22 +72,6 @@
             "geometry": {
                 "type": "LineString",
                 "coordinates": [
-                    [
-                        -117.228493,
-                        32.678507
-                    ],
-                    [
-                        -117.228571,
-                        32.678833
-                    ],
-                    [
-                        -117.229334,
-                        32.699176
-                    ],
-                    [
-                        -117.228998,
-                        32.699782
-                    ],
                     [
                         -117.21264,
                         32.71463
@@ -545,22 +513,6 @@
             "geometry": {
                 "type": "LineString",
                 "coordinates": [
-                    [
-                        -121.583882,
-                        36.578002
-                    ],
-                    [
-                        -121.58289,
-                        36.577744
-                    ],
-                    [
-                        -121.524353,
-                        36.563507
-                    ],
-                    [
-                        -121.523282,
-                        36.563291
-                    ],
                     [
                         -121.461411,
                         36.548859
@@ -1334,14 +1286,6 @@
             "geometry": {
                 "type": "LineString",
                 "coordinates": [
-                    [
-                        -106.368585,
-                        31.79924
-                    ],
-                    [
-                        -106.362419,
-                        31.799068
-                    ],
                     [
                         -106.360534,
                         31.799415
@@ -2147,22 +2091,6 @@
             "geometry": {
                 "type": "LineString",
                 "coordinates": [
-                    [
-                        -158.072332,
-                        21.30142
-                    ],
-                    [
-                        -158.072332,
-                        21.30142
-                    ],
-                    [
-                        -158.072344,
-                        21.30142
-                    ],
-                    [
-                        -158.072344,
-                        21.30142
-                    ],
                     [
                         -158.072332,
                         21.30142
@@ -3377,14 +3305,6 @@
                 "type": "LineString",
                 "coordinates": [
                     [
-                        -124.10125,
-                        40.967412
-                    ],
-                    [
-                        -124.115662,
-                        40.969116
-                    ],
-                    [
                         -124.108351,
                         40.97855
                     ],
@@ -3458,6 +3378,51 @@
         {
             "type": "Feature",
             "properties": {
+                "hex": "AE2698",
+                "flight": "Unknown",
+                "type": "AS65",
+                "description": "Eurocopter MH-65D Dolphin",
+                "operator": "United States Coast Guard",
+                "altitude": "ground",
+                "ground_speed": 33.0,
+                "track": 185.8,
+                "squawk": "4432",
+                "rssi": -49.5,
+                "api_source": "https://api.airplanes.live/v2/hex/",
+                "last_seen": "2025-03-19T03:51:03.176240+00:00",
+                "nav_qnh": 0.0,
+                "nav_altitude_mcp": 0,
+                "category": "Unknown"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -97.412552,
+                        27.78731
+                    ],
+                    [
+                        -97.444138,
+                        27.786053
+                    ],
+                    [
+                        -97.478683,
+                        27.78566
+                    ],
+                    [
+                        -97.508415,
+                        27.786659
+                    ],
+                    [
+                        -97.512993,
+                        27.78392
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
                 "hex": "AE26BF",
                 "flight": "C6608   ",
                 "type": "AS65",
@@ -3477,14 +3442,6 @@
             "geometry": {
                 "type": "LineString",
                 "coordinates": [
-                    [
-                        -124.211863,
-                        40.758439
-                    ],
-                    [
-                        -124.198608,
-                        40.77475
-                    ],
                     [
                         -124.191513,
                         40.792004
@@ -3592,51 +3549,6 @@
                     [
                         -124.112237,
                         40.976025
-                    ]
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "hex": "AE2698",
-                "flight": "Unknown",
-                "type": "AS65",
-                "description": "Eurocopter MH-65D Dolphin",
-                "operator": "United States Coast Guard",
-                "altitude": "ground",
-                "ground_speed": 33.0,
-                "track": 185.8,
-                "squawk": "4432",
-                "rssi": -49.5,
-                "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-03-19T03:51:03.176240+00:00",
-                "nav_qnh": 0.0,
-                "nav_altitude_mcp": 0,
-                "category": "Unknown"
-            },
-            "geometry": {
-                "type": "LineString",
-                "coordinates": [
-                    [
-                        -97.412552,
-                        27.78731
-                    ],
-                    [
-                        -97.444138,
-                        27.786053
-                    ],
-                    [
-                        -97.478683,
-                        27.78566
-                    ],
-                    [
-                        -97.508415,
-                        27.786659
-                    ],
-                    [
-                        -97.512993,
-                        27.78392
                     ]
                 ]
             }
@@ -4596,12 +4508,12 @@
                 "description": "GULFSTREAM 5",
                 "operator": "Unknown",
                 "altitude": 40000,
-                "ground_speed": 396.6,
-                "track": 284.46,
+                "ground_speed": 392.9,
+                "track": 284.14,
                 "squawk": "4415",
-                "rssi": -13.2,
+                "rssi": -15.8,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-03-19T07:45:03.584010+00:00",
+                "last_seen": "2025-03-19T07:46:03.006069+00:00",
                 "nav_qnh": 1013.6,
                 "nav_altitude_mcp": 40000,
                 "category": "A3"
@@ -5012,6 +4924,14 @@
                     [
                         32.148743,
                         29.720947
+                    ],
+                    [
+                        32.028368,
+                        29.747681
+                    ],
+                    [
+                        32.028368,
+                        29.747681
                     ]
                 ]
             }
