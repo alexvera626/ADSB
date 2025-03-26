@@ -9,13 +9,13 @@
                 "type": "AS50",
                 "description": "AEROSPATIALE AS-350 Ecureuil",
                 "operator": "CITY OF ANAHEIM",
-                "altitude": 900,
-                "ground_speed": 75.0,
-                "track": 46.08,
+                "altitude": 1100,
+                "ground_speed": 73.5,
+                "track": 67.62,
                 "squawk": "4301",
-                "rssi": -15.7,
+                "rssi": -15.0,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-03-26T22:17:03.384489+00:00",
+                "last_seen": "2025-03-26T22:18:02.691677+00:00",
                 "nav_qnh": 1018.4,
                 "nav_altitude_mcp": 4000,
                 "category": "A7"
@@ -23,14 +23,6 @@
             "geometry": {
                 "type": "LineString",
                 "coordinates": [
-                    [
-                        -117.909279,
-                        33.808563
-                    ],
-                    [
-                        -117.908592,
-                        33.80833
-                    ],
                     [
                         -117.909336,
                         33.810006
@@ -774,6 +766,14 @@
                     [
                         -117.849255,
                         33.834306
+                    ],
+                    [
+                        -117.828541,
+                        33.848132
+                    ],
+                    [
+                        -117.828541,
+                        33.848132
                     ]
                 ]
             }
@@ -787,12 +787,12 @@
                 "description": "Unknown",
                 "operator": "Bank Of Utah Trustee",
                 "altitude": 750,
-                "ground_speed": 71.2,
-                "track": 114.04,
+                "ground_speed": 72.4,
+                "track": 302.59,
                 "squawk": "4301",
-                "rssi": -6.0,
+                "rssi": -12.8,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-03-26T22:17:03.384499+00:00",
+                "last_seen": "2025-03-26T22:18:02.691687+00:00",
                 "nav_qnh": 1019.2,
                 "nav_altitude_mcp": 0,
                 "category": "A7"
@@ -800,14 +800,6 @@
             "geometry": {
                 "type": "LineString",
                 "coordinates": [
-                    [
-                        -118.013935,
-                        33.70936
-                    ],
-                    [
-                        -118.013567,
-                        33.710083
-                    ],
                     [
                         -117.999442,
                         33.726013
@@ -1151,55 +1143,14 @@
                     [
                         -117.989159,
                         33.710803
-                    ]
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "hex": "A0A6E5",
-                "flight": "N141FA  ",
-                "type": "B412",
-                "description": "BELL 412",
-                "operator": "ORANGE COUNTY FIRE AUTHORITY",
-                "altitude": "ground",
-                "ground_speed": 0.0,
-                "track": 0.0,
-                "squawk": "4202",
-                "rssi": -28.7,
-                "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-03-26T20:48:02.754637+00:00",
-                "nav_qnh": 0.0,
-                "nav_altitude_mcp": 0,
-                "category": "A7"
-            },
-            "geometry": {
-                "type": "LineString",
-                "coordinates": [
-                    [
-                        -117.97883,
-                        33.872979
                     ],
                     [
-                        -117.978815,
-                        33.87299
+                        -117.991161,
+                        33.692275
                     ],
                     [
-                        -117.978506,
-                        33.872978
-                    ],
-                    [
-                        -117.978506,
-                        33.872978
-                    ],
-                    [
-                        -117.978534,
-                        33.87299
-                    ],
-                    [
-                        -117.978534,
-                        33.87299
+                        -117.991047,
+                        33.692229
                     ]
                 ]
             }
@@ -1226,14 +1177,6 @@
             "geometry": {
                 "type": "LineString",
                 "coordinates": [
-                    [
-                        -117.309994,
-                        32.70183
-                    ],
-                    [
-                        -117.310968,
-                        32.702728
-                    ],
                     [
                         -117.33338,
                         32.7285
@@ -2676,14 +2619,6 @@
                 "type": "LineString",
                 "coordinates": [
                     [
-                        -90.007701,
-                        30.348953
-                    ],
-                    [
-                        -90.010986,
-                        30.349871
-                    ],
-                    [
                         -90.074966,
                         30.372162
                     ],
@@ -2764,14 +2699,6 @@
             "geometry": {
                 "type": "LineString",
                 "coordinates": [
-                    [
-                        -118.389816,
-                        34.214545
-                    ],
-                    [
-                        -118.390274,
-                        34.214079
-                    ],
                     [
                         -118.390185,
                         34.215546
@@ -3782,18 +3709,63 @@
         {
             "type": "Feature",
             "properties": {
+                "hex": "A0A6E5",
+                "flight": "N141FA  ",
+                "type": "B412",
+                "description": "BELL 412",
+                "operator": "ORANGE COUNTY FIRE AUTHORITY",
+                "altitude": "ground",
+                "ground_speed": 0.0,
+                "track": 0.0,
+                "squawk": "4202",
+                "rssi": -28.7,
+                "api_source": "https://api.airplanes.live/v2/hex/",
+                "last_seen": "2025-03-26T20:48:02.754637+00:00",
+                "nav_qnh": 0.0,
+                "nav_altitude_mcp": 0,
+                "category": "A7"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -117.978815,
+                        33.87299
+                    ],
+                    [
+                        -117.978506,
+                        33.872978
+                    ],
+                    [
+                        -117.978506,
+                        33.872978
+                    ],
+                    [
+                        -117.978534,
+                        33.87299
+                    ],
+                    [
+                        -117.978534,
+                        33.87299
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
                 "hex": "AE4F8A",
                 "flight": "RS49    ",
                 "type": "H60",
                 "description": "Sikorsky MH-60R Seahawk",
                 "operator": "United States Navy",
                 "altitude": 325,
-                "ground_speed": 112.7,
-                "track": 158.67,
+                "ground_speed": 112.6,
+                "track": 160.28,
                 "squawk": "1200",
-                "rssi": -5.3,
+                "rssi": -6.4,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-03-26T22:17:03.384520+00:00",
+                "last_seen": "2025-03-26T22:18:02.691706+00:00",
                 "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
                 "category": "A7"
@@ -5416,6 +5388,14 @@
                     [
                         -117.36997,
                         33.115167
+                    ],
+                    [
+                        -117.357639,
+                        33.086212
+                    ],
+                    [
+                        -117.357715,
+                        33.086426
                     ]
                 ]
             }
@@ -6591,12 +6571,12 @@
                 "description": "Unknown",
                 "operator": "Unknown",
                 "altitude": 150,
-                "ground_speed": 99.0,
-                "track": 330.33,
+                "ground_speed": 96.8,
+                "track": 321.71,
                 "squawk": "1200",
-                "rssi": -13.0,
+                "rssi": -11.4,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-03-26T22:17:03.384479+00:00",
+                "last_seen": "2025-03-26T22:18:02.691667+00:00",
                 "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
                 "category": "A7"
@@ -7171,6 +7151,14 @@
                     [
                         -117.181409,
                         32.653229
+                    ],
+                    [
+                        -117.200355,
+                        32.675714
+                    ],
+                    [
+                        -117.200355,
+                        32.675714
                     ]
                 ]
             }
@@ -9718,13 +9706,13 @@
                 "type": "B06",
                 "description": "BELL 206 JetRanger",
                 "operator": "PASADENA POLICE DEPARTMENT",
-                "altitude": 1700,
-                "ground_speed": 60.1,
-                "track": 288.43,
+                "altitude": 1800,
+                "ground_speed": 67.1,
+                "track": 272.56,
                 "squawk": "1200",
-                "rssi": -5.7,
+                "rssi": -4.6,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-03-26T22:17:03.384567+00:00",
+                "last_seen": "2025-03-26T22:18:02.691762+00:00",
                 "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
                 "category": "A7"
@@ -10259,6 +10247,14 @@
                     [
                         -118.115191,
                         34.182495
+                    ],
+                    [
+                        -118.134697,
+                        34.187164
+                    ],
+                    [
+                        -118.134697,
+                        34.187164
                     ]
                 ]
             }
@@ -10982,11 +10978,11 @@
                 "operator": "City Of Ontario",
                 "altitude": 975,
                 "ground_speed": 60.0,
-                "track": 107.3,
+                "track": 92.2,
                 "squawk": "1200",
                 "rssi": -49.5,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-03-26T22:17:03.384549+00:00",
+                "last_seen": "2025-03-26T22:18:02.691743+00:00",
                 "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
                 "category": "Unknown"
@@ -11353,6 +11349,10 @@
                     [
                         -98.122009,
                         26.311186
+                    ],
+                    [
+                        -98.104385,
+                        26.306351
                     ]
                 ]
             }
@@ -11650,13 +11650,13 @@
                 "type": "Unknown",
                 "description": "Unknown",
                 "operator": "Unknown",
-                "altitude": 1100,
-                "ground_speed": 118.7,
-                "track": 339.27,
+                "altitude": 875,
+                "ground_speed": 115.4,
+                "track": 42.54,
                 "squawk": "1200",
-                "rssi": -8.1,
+                "rssi": -8.0,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-03-26T22:17:03.384529+00:00",
+                "last_seen": "2025-03-26T22:18:02.691716+00:00",
                 "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
                 "category": "A7"
@@ -11911,6 +11911,14 @@
                     [
                         -117.479105,
                         33.02034
+                    ],
+                    [
+                        -117.488068,
+                        33.049805
+                    ],
+                    [
+                        -117.488068,
+                        33.049805
                     ]
                 ]
             }
@@ -11923,13 +11931,13 @@
                 "type": "AS50",
                 "description": "AEROSPATIALE AS-350 Ecureuil",
                 "operator": "COUNTY OF RIVERSIDE CALIFORNIA",
-                "altitude": 1825,
-                "ground_speed": 84.0,
-                "track": 12.38,
+                "altitude": 1950,
+                "ground_speed": 116.4,
+                "track": 193.92,
                 "squawk": "0131",
-                "rssi": -19.7,
+                "rssi": -13.5,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-03-26T22:17:03.384539+00:00",
+                "last_seen": "2025-03-26T22:18:02.691727+00:00",
                 "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
                 "category": "A7"
@@ -12084,6 +12092,14 @@
                     [
                         -117.235851,
                         33.75554
+                    ],
+                    [
+                        -117.246952,
+                        33.752328
+                    ],
+                    [
+                        -117.247066,
+                        33.751816
                     ]
                 ]
             }
@@ -12096,13 +12112,13 @@
                 "type": "H60",
                 "description": "Sikorsky S-70M Firehawk",
                 "operator": "ORANGE COUNTY FIRE AUTHORITY",
-                "altitude": 700,
+                "altitude": 650,
                 "ground_speed": 118.1,
-                "track": 128.81,
+                "track": 100.74,
                 "squawk": "4202",
-                "rssi": -16.6,
+                "rssi": -12.8,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-03-26T22:17:03.384510+00:00",
+                "last_seen": "2025-03-26T22:18:02.691697+00:00",
                 "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
                 "category": "A7"
@@ -12149,6 +12165,14 @@
                     [
                         -117.878368,
                         33.788498
+                    ],
+                    [
+                        -117.84256,
+                        33.776674
+                    ],
+                    [
+                        -117.842274,
+                        33.776628
                     ]
                 ]
             }
