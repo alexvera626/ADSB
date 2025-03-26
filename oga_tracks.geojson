@@ -24,14 +24,6 @@
                 "type": "LineString",
                 "coordinates": [
                     [
-                        -117.99692,
-                        33.709717
-                    ],
-                    [
-                        -117.997055,
-                        33.709732
-                    ],
-                    [
                         -117.999722,
                         33.702805
                     ],
@@ -176,14 +168,6 @@
             "geometry": {
                 "type": "LineString",
                 "coordinates": [
-                    [
-                        -117.680054,
-                        32.605839
-                    ],
-                    [
-                        -117.680054,
-                        32.605839
-                    ],
                     [
                         -117.703203,
                         32.603465
@@ -1422,6 +1406,87 @@
         {
             "type": "Feature",
             "properties": {
+                "hex": "AE4D5A",
+                "flight": "BULET45 ",
+                "type": "H60",
+                "description": "SIKORSKY UH-60 Black Hawk",
+                "operator": "Unknown",
+                "altitude": 0,
+                "ground_speed": 20.6,
+                "track": 230.91,
+                "squawk": "N/A",
+                "rssi": -14.4,
+                "api_source": "https://opendata.adsb.fi/api/v2/hex/",
+                "last_seen": "2025-03-26T02:51:02.971836+00:00",
+                "nav_qnh": 0.0,
+                "nav_altitude_mcp": 0,
+                "category": "A7"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -117.896429,
+                        32.600235
+                    ],
+                    [
+                        -117.897638,
+                        32.599915
+                    ],
+                    [
+                        -117.899164,
+                        32.600858
+                    ],
+                    [
+                        -117.903351,
+                        32.601059
+                    ],
+                    [
+                        -117.927638,
+                        32.60151
+                    ],
+                    [
+                        -117.92395,
+                        32.604218
+                    ],
+                    [
+                        -117.928894,
+                        32.601471
+                    ],
+                    [
+                        -117.932574,
+                        32.601974
+                    ],
+                    [
+                        -117.927466,
+                        32.609024
+                    ],
+                    [
+                        -117.932291,
+                        32.601975
+                    ],
+                    [
+                        -117.933748,
+                        32.604536
+                    ],
+                    [
+                        -117.932465,
+                        32.607193
+                    ],
+                    [
+                        -117.938287,
+                        32.602707
+                    ],
+                    [
+                        -117.936365,
+                        32.605774
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
                 "hex": "A1511C",
                 "flight": "N184SD  ",
                 "type": "AS50",
@@ -1441,14 +1506,6 @@
             "geometry": {
                 "type": "LineString",
                 "coordinates": [
-                    [
-                        -117.940121,
-                        33.799299
-                    ],
-                    [
-                        -117.940121,
-                        33.799299
-                    ],
                     [
                         -117.913914,
                         33.799671
@@ -1644,87 +1701,6 @@
                     [
                         -117.871586,
                         33.675304
-                    ]
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "hex": "AE4D5A",
-                "flight": "BULET45 ",
-                "type": "H60",
-                "description": "SIKORSKY UH-60 Black Hawk",
-                "operator": "Unknown",
-                "altitude": 0,
-                "ground_speed": 20.6,
-                "track": 230.91,
-                "squawk": "N/A",
-                "rssi": -14.4,
-                "api_source": "https://opendata.adsb.fi/api/v2/hex/",
-                "last_seen": "2025-03-26T02:51:02.971836+00:00",
-                "nav_qnh": 0.0,
-                "nav_altitude_mcp": 0,
-                "category": "A7"
-            },
-            "geometry": {
-                "type": "LineString",
-                "coordinates": [
-                    [
-                        -117.896429,
-                        32.600235
-                    ],
-                    [
-                        -117.897638,
-                        32.599915
-                    ],
-                    [
-                        -117.899164,
-                        32.600858
-                    ],
-                    [
-                        -117.903351,
-                        32.601059
-                    ],
-                    [
-                        -117.927638,
-                        32.60151
-                    ],
-                    [
-                        -117.92395,
-                        32.604218
-                    ],
-                    [
-                        -117.928894,
-                        32.601471
-                    ],
-                    [
-                        -117.932574,
-                        32.601974
-                    ],
-                    [
-                        -117.927466,
-                        32.609024
-                    ],
-                    [
-                        -117.932291,
-                        32.601975
-                    ],
-                    [
-                        -117.933748,
-                        32.604536
-                    ],
-                    [
-                        -117.932465,
-                        32.607193
-                    ],
-                    [
-                        -117.938287,
-                        32.602707
-                    ],
-                    [
-                        -117.936365,
-                        32.605774
                     ]
                 ]
             }
@@ -4912,13 +4888,13 @@
                 "type": "AS50",
                 "description": "AEROSPATIALE AS-350 Ecureuil",
                 "operator": "City Of Ontario",
-                "altitude": 975,
+                "altitude": "ground",
                 "ground_speed": 90.0,
-                "track": 120.6,
+                "track": 356.8,
                 "squawk": "1200",
                 "rssi": -49.5,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-03-26T06:00:02.381904+00:00",
+                "last_seen": "2025-03-26T06:11:02.957783+00:00",
                 "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
                 "category": "Unknown"
@@ -5193,6 +5169,10 @@
                     [
                         -98.189583,
                         26.329559
+                    ],
+                    [
+                        -98.138588,
+                        26.437729
                     ]
                 ]
             }
@@ -5205,13 +5185,13 @@
                 "type": "H60",
                 "description": "SIKORSKY UH-60 Black Hawk",
                 "operator": "Unknown",
-                "altitude": 1550,
-                "ground_speed": 110.7,
-                "track": 235.3,
+                "altitude": 1450,
+                "ground_speed": 112.6,
+                "track": 234.76,
                 "squawk": "5273",
-                "rssi": -9.1,
+                "rssi": -15.6,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-03-26T06:10:03.098958+00:00",
+                "last_seen": "2025-03-26T06:11:02.957773+00:00",
                 "nav_qnh": 1015.2,
                 "nav_altitude_mcp": 1504,
                 "category": "A7"
@@ -6138,6 +6118,14 @@
                     [
                         -117.914944,
                         33.868662
+                    ],
+                    [
+                        -117.945407,
+                        33.850891
+                    ],
+                    [
+                        -117.945407,
+                        33.850891
                     ]
                 ]
             }
