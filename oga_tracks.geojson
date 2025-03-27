@@ -24,22 +24,6 @@
                 "type": "LineString",
                 "coordinates": [
                     [
-                        -118.080254,
-                        34.00762
-                    ],
-                    [
-                        -118.079934,
-                        34.007767
-                    ],
-                    [
-                        -118.04409,
-                        34.002825
-                    ],
-                    [
-                        -118.04409,
-                        34.002825
-                    ],
-                    [
                         -118.009243,
                         33.993189
                     ],
@@ -819,12 +803,12 @@
                 "description": "AEROSPATIALE AS-350 Ecureuil",
                 "operator": "CITY OF ANAHEIM",
                 "altitude": 1100,
-                "ground_speed": 54.7,
-                "track": 210.78,
+                "ground_speed": 62.1,
+                "track": 75.07,
                 "squawk": "4301",
-                "rssi": -5.8,
+                "rssi": -7.6,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-03-27T05:39:02.791991+00:00",
+                "last_seen": "2025-03-27T05:40:02.672866+00:00",
                 "nav_qnh": 1018.4,
                 "nav_altitude_mcp": 4000,
                 "category": "A7"
@@ -832,22 +816,6 @@
             "geometry": {
                 "type": "LineString",
                 "coordinates": [
-                    [
-                        -117.950508,
-                        33.840454
-                    ],
-                    [
-                        -117.950508,
-                        33.840454
-                    ],
-                    [
-                        -117.93173,
-                        33.840317
-                    ],
-                    [
-                        -117.93173,
-                        33.840317
-                    ],
                     [
                         -117.913121,
                         33.846405
@@ -1659,6 +1627,14 @@
                     [
                         -118.028011,
                         33.832165
+                    ],
+                    [
+                        -118.01693,
+                        33.824158
+                    ],
+                    [
+                        -118.016167,
+                        33.824344
                     ]
                 ]
             }
@@ -1685,22 +1661,6 @@
             "geometry": {
                 "type": "LineString",
                 "coordinates": [
-                    [
-                        -117.927526,
-                        33.699738
-                    ],
-                    [
-                        -117.927526,
-                        33.699738
-                    ],
-                    [
-                        -117.926159,
-                        33.700608
-                    ],
-                    [
-                        -117.926159,
-                        33.700608
-                    ],
                     [
                         -117.926854,
                         33.700424
@@ -2619,22 +2579,6 @@
                 "type": "LineString",
                 "coordinates": [
                     [
-                        -117.361787,
-                        32.652019
-                    ],
-                    [
-                        -117.361618,
-                        32.651879
-                    ],
-                    [
-                        -117.386001,
-                        32.66496
-                    ],
-                    [
-                        -117.386001,
-                        32.66496
-                    ],
-                    [
                         -117.410721,
                         32.675481
                     ],
@@ -3452,19 +3396,19 @@
         {
             "type": "Feature",
             "properties": {
-                "hex": "A36968",
-                "flight": "N319MW  ",
-                "type": "B407",
-                "description": "BELL 407",
-                "operator": "SAN DIEGO COUNTY SHERIFF DEPARTMENT",
-                "altitude": 250,
-                "ground_speed": 46.0,
-                "track": 180.0,
-                "squawk": "4267",
-                "rssi": -31.3,
+                "hex": "AE6988",
+                "flight": "TROY206 ",
+                "type": "H60",
+                "description": "SIKORSKY UH-60 Black Hawk",
+                "operator": "Unknown",
+                "altitude": "ground",
+                "ground_speed": 1.6,
+                "track": 0.0,
+                "squawk": "N/A",
+                "rssi": -22.3,
                 "api_source": "https://opendata.adsb.fi/api/v2/hex/",
-                "last_seen": "2025-03-27T02:06:02.619818+00:00",
-                "nav_qnh": 1017.6,
+                "last_seen": "2025-03-27T01:44:02.837013+00:00",
+                "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
                 "category": "A7"
             },
@@ -3472,21 +3416,50 @@
                 "type": "LineString",
                 "coordinates": [
                     [
-                        -117.101184,
-                        32.576431
+                        -117.211981,
+                        32.70195
                     ],
                     [
-                        -117.101085,
-                        32.576744
+                        -117.212585,
+                        32.701355
                     ],
                     [
-                        -117.104,
-                        32.578746
+                        -117.210965,
+                        32.702568
                     ],
                     [
-                        -117.104,
-                        32.578746
+                        -117.209645,
+                        32.702109
                     ],
+                    [
+                        -117.209912,
+                        32.70169
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "hex": "A36968",
+                "flight": "Unknown",
+                "type": "B407",
+                "description": "BELL 407",
+                "operator": "SAN DIEGO COUNTY SHERIFF DEPARTMENT",
+                "altitude": 0,
+                "ground_speed": 0.0,
+                "track": 0.0,
+                "squawk": "N/A",
+                "rssi": -31.0,
+                "api_source": "https://opendata.adsb.fi/api/v2/hex/",
+                "last_seen": "2025-03-27T05:40:02.672671+00:00",
+                "nav_qnh": 0.0,
+                "nav_altitude_mcp": 0,
+                "category": "Unknown"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
                     [
                         -117.10585,
                         32.578606
@@ -3702,13 +3675,13 @@
                 "type": "AS50",
                 "description": "AEROSPATIALE AS-350 Ecureuil",
                 "operator": "COUNTY OF ORANGE - AIR SUPPORT",
-                "altitude": 1800,
-                "ground_speed": 68.5,
-                "track": 203.2,
+                "altitude": 1600,
+                "ground_speed": 60.2,
+                "track": 344.58,
                 "squawk": "4204",
-                "rssi": -26.0,
+                "rssi": -31.9,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-03-27T05:39:02.792013+00:00",
+                "last_seen": "2025-03-27T05:40:02.672885+00:00",
                 "nav_qnh": 1019.2,
                 "nav_altitude_mcp": 0,
                 "category": "A7"
@@ -3716,22 +3689,6 @@
             "geometry": {
                 "type": "LineString",
                 "coordinates": [
-                    [
-                        -117.723427,
-                        33.690367
-                    ],
-                    [
-                        -117.723427,
-                        33.690367
-                    ],
-                    [
-                        -117.729268,
-                        33.715164
-                    ],
-                    [
-                        -117.729268,
-                        33.715164
-                    ],
                     [
                         -117.736473,
                         33.739759
@@ -4915,177 +4872,14 @@
                     [
                         -117.717273,
                         33.526596
-                    ]
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "hex": "A043A9",
-                "flight": "0000    ",
-                "type": "B350",
-                "description": "BEECHCRAFT Super King Air 350",
-                "operator": "DEPARTMENT OF HOMELAND SECURITY",
-                "altitude": 4425,
-                "ground_speed": 188.1,
-                "track": 133.71,
-                "squawk": "N/A",
-                "rssi": -33.3,
-                "api_source": "https://opendata.adsb.fi/api/v2/hex/",
-                "last_seen": "2025-03-27T01:40:02.431403+00:00",
-                "nav_qnh": 1017.6,
-                "nav_altitude_mcp": 2016,
-                "category": "A2"
-            },
-            "geometry": {
-                "type": "LineString",
-                "coordinates": [
-                    [
-                        -97.550512,
-                        27.994125
                     ],
                     [
-                        -97.582679,
-                        28.021729
+                        -117.704829,
+                        33.527434
                     ],
                     [
-                        -97.533444,
-                        27.979478
-                    ]
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "hex": "A2097B",
-                "flight": "N230LA  ",
-                "type": "AS50",
-                "description": "AEROSPATIALE AS-350 Ecureuil",
-                "operator": "LAPD AIR SUPPORT DIVISION",
-                "altitude": 775,
-                "ground_speed": 46.6,
-                "track": 324.61,
-                "squawk": "1200",
-                "rssi": -17.4,
-                "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-03-27T03:55:03.241767+00:00",
-                "nav_qnh": 1018.4,
-                "nav_altitude_mcp": 10016,
-                "category": "A7"
-            },
-            "geometry": {
-                "type": "LineString",
-                "coordinates": [
-                    [
-                        -118.257294,
-                        34.060462
-                    ],
-                    [
-                        -118.257164,
-                        34.060002
-                    ],
-                    [
-                        -118.254089,
-                        34.039627
-                    ],
-                    [
-                        -118.253517,
-                        34.039415
-                    ],
-                    [
-                        -118.216038,
-                        34.050215
-                    ],
-                    [
-                        -118.216038,
-                        34.050215
-                    ],
-                    [
-                        -118.191204,
-                        34.078566
-                    ],
-                    [
-                        -118.190289,
-                        34.079357
-                    ],
-                    [
-                        -118.17825,
-                        34.088654
-                    ],
-                    [
-                        -118.178329,
-                        34.088807
-                    ],
-                    [
-                        -118.181333,
-                        34.08696
-                    ],
-                    [
-                        -118.181133,
-                        34.086899
-                    ],
-                    [
-                        -118.179091,
-                        34.088882
-                    ],
-                    [
-                        -118.179091,
-                        34.088882
-                    ]
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "hex": "AE6988",
-                "flight": "TROY206 ",
-                "type": "H60",
-                "description": "SIKORSKY UH-60 Black Hawk",
-                "operator": "Unknown",
-                "altitude": "ground",
-                "ground_speed": 1.6,
-                "track": 0.0,
-                "squawk": "N/A",
-                "rssi": -22.3,
-                "api_source": "https://opendata.adsb.fi/api/v2/hex/",
-                "last_seen": "2025-03-27T01:44:02.837013+00:00",
-                "nav_qnh": 0.0,
-                "nav_altitude_mcp": 0,
-                "category": "A7"
-            },
-            "geometry": {
-                "type": "LineString",
-                "coordinates": [
-                    [
-                        -117.209015,
-                        32.697739
-                    ],
-                    [
-                        -117.209015,
-                        32.697739
-                    ],
-                    [
-                        -117.211981,
-                        32.70195
-                    ],
-                    [
-                        -117.212585,
-                        32.701355
-                    ],
-                    [
-                        -117.210965,
-                        32.702568
-                    ],
-                    [
-                        -117.209645,
-                        32.702109
-                    ],
-                    [
-                        -117.209912,
-                        32.70169
+                        -117.704829,
+                        33.527434
                     ]
                 ]
             }
@@ -5098,13 +4892,13 @@
                 "type": "AS50",
                 "description": "AEROSPATIALE AS-350 Ecureuil",
                 "operator": "TINY BUBBLES AVIATION INC",
-                "altitude": 1350,
-                "ground_speed": 24.1,
-                "track": 94.76,
+                "altitude": 1375,
+                "ground_speed": 31.0,
+                "track": 270.0,
                 "squawk": "1200",
-                "rssi": -9.7,
+                "rssi": -15.6,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-03-27T05:39:02.792081+00:00",
+                "last_seen": "2025-03-27T05:40:02.672933+00:00",
                 "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
                 "category": "A7"
@@ -5112,14 +4906,6 @@
             "geometry": {
                 "type": "LineString",
                 "coordinates": [
-                    [
-                        -118.405824,
-                        34.252258
-                    ],
-                    [
-                        -118.405824,
-                        34.252258
-                    ],
                     [
                         -118.41199,
                         34.224976
@@ -5487,6 +5273,95 @@
                     [
                         -118.135033,
                         34.172195
+                    ],
+                    [
+                        -118.137589,
+                        34.167574
+                    ],
+                    [
+                        -118.138004,
+                        34.167572
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "hex": "A2097B",
+                "flight": "N230LA  ",
+                "type": "AS50",
+                "description": "AEROSPATIALE AS-350 Ecureuil",
+                "operator": "LAPD AIR SUPPORT DIVISION",
+                "altitude": 775,
+                "ground_speed": 46.6,
+                "track": 324.61,
+                "squawk": "1200",
+                "rssi": -17.4,
+                "api_source": "https://api.airplanes.live/v2/hex/",
+                "last_seen": "2025-03-27T03:55:03.241767+00:00",
+                "nav_qnh": 1018.4,
+                "nav_altitude_mcp": 10016,
+                "category": "A7"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -118.257294,
+                        34.060462
+                    ],
+                    [
+                        -118.257164,
+                        34.060002
+                    ],
+                    [
+                        -118.254089,
+                        34.039627
+                    ],
+                    [
+                        -118.253517,
+                        34.039415
+                    ],
+                    [
+                        -118.216038,
+                        34.050215
+                    ],
+                    [
+                        -118.216038,
+                        34.050215
+                    ],
+                    [
+                        -118.191204,
+                        34.078566
+                    ],
+                    [
+                        -118.190289,
+                        34.079357
+                    ],
+                    [
+                        -118.17825,
+                        34.088654
+                    ],
+                    [
+                        -118.178329,
+                        34.088807
+                    ],
+                    [
+                        -118.181333,
+                        34.08696
+                    ],
+                    [
+                        -118.181133,
+                        34.086899
+                    ],
+                    [
+                        -118.179091,
+                        34.088882
+                    ],
+                    [
+                        -118.179091,
+                        34.088882
                     ]
                 ]
             }
@@ -5499,13 +5374,13 @@
                 "type": "AS50",
                 "description": "AEROSPATIALE AS-350 Ecureuil",
                 "operator": "LAPD AIR SUPPORT DIVISION",
-                "altitude": 650,
-                "ground_speed": 63.6,
-                "track": 109.29,
+                "altitude": 575,
+                "ground_speed": 61.4,
+                "track": 109.03,
                 "squawk": "1200",
-                "rssi": -8.7,
+                "rssi": -13.6,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-03-27T05:39:02.792071+00:00",
+                "last_seen": "2025-03-27T05:40:02.672924+00:00",
                 "nav_qnh": 1018.4,
                 "nav_altitude_mcp": 10016,
                 "category": "A7"
@@ -6400,6 +6275,14 @@
                     [
                         -118.306618,
                         34.051379
+                    ],
+                    [
+                        -118.287334,
+                        34.045281
+                    ],
+                    [
+                        -118.286768,
+                        34.04512
                     ]
                 ]
             }
@@ -6409,16 +6292,16 @@
             "properties": {
                 "hex": "AE279E",
                 "flight": "BULET45 ",
-                "type": "Unknown",
+                "type": "H60",
                 "description": "Unknown",
                 "operator": "Unknown",
                 "altitude": 750,
-                "ground_speed": 120.9,
-                "track": 73.66,
+                "ground_speed": 0.0,
+                "track": 0.0,
                 "squawk": "N/A",
-                "rssi": -28.6,
-                "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-03-27T05:39:02.792002+00:00",
+                "rssi": -20.3,
+                "api_source": "https://opendata.adsb.fi/api/v2/hex/",
+                "last_seen": "2025-03-27T05:40:02.672708+00:00",
                 "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
                 "category": "A7"
@@ -7053,6 +6936,10 @@
                     [
                         -117.538,
                         32.56073
+                    ],
+                    [
+                        -117.504547,
+                        32.572815
                     ]
                 ]
             }
@@ -7066,12 +6953,12 @@
                 "description": "BELL 206 JetRanger",
                 "operator": "PASADENA POLICE DEPARTMENT",
                 "altitude": 1700,
-                "ground_speed": 79.1,
-                "track": 55.3,
+                "ground_speed": 84.7,
+                "track": 78.42,
                 "squawk": "1200",
-                "rssi": -21.1,
+                "rssi": -23.3,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-03-27T05:39:02.792033+00:00",
+                "last_seen": "2025-03-27T05:40:02.672895+00:00",
                 "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
                 "category": "A7"
@@ -7330,6 +7217,14 @@
                     [
                         -117.745514,
                         34.059945
+                    ],
+                    [
+                        -117.740192,
+                        34.077216
+                    ],
+                    [
+                        -117.739245,
+                        34.077393
                     ]
                 ]
             }
