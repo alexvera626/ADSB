@@ -9,13 +9,13 @@
                 "type": "AS50",
                 "description": "AEROSPATIALE AS-350 Ecureuil",
                 "operator": "City Of Ontario",
-                "altitude": 1100,
-                "ground_speed": 110.0,
-                "track": 222.3,
+                "altitude": 1025,
+                "ground_speed": 120.0,
+                "track": 225.7,
                 "squawk": "1200",
                 "rssi": -49.5,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-03-28T15:15:02.390705+00:00",
+                "last_seen": "2025-03-28T15:16:02.461450+00:00",
                 "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
                 "category": "Unknown"
@@ -402,6 +402,10 @@
                     [
                         -98.061478,
                         26.272018
+                    ],
+                    [
+                        -98.091164,
+                        26.247641
                     ]
                 ]
             }
@@ -1101,11 +1105,11 @@
                 "operator": "ORANGE COUNTY SHERIFF'S DEPARTMENT, C/O CORONER AIR SUPPORT",
                 "altitude": "ground",
                 "ground_speed": 0.0,
-                "track": 0.0,
+                "track": 213.75,
                 "squawk": "4204",
-                "rssi": -13.7,
+                "rssi": -14.3,
                 "api_source": "https://opendata.adsb.fi/api/v2/hex/",
-                "last_seen": "2025-03-28T15:15:02.390519+00:00",
+                "last_seen": "2025-03-28T15:16:02.461249+00:00",
                 "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
                 "category": "A7"
@@ -1116,6 +1120,10 @@
                     [
                         -117.871586,
                         33.675282
+                    ],
+                    [
+                        -117.871585,
+                        33.675284
                     ]
                 ]
             }
@@ -1124,19 +1132,19 @@
             "type": "Feature",
             "properties": {
                 "hex": "A17E8E",
-                "flight": "N196B   ",
+                "flight": "Unknown",
                 "type": "BE30",
                 "description": "BEECH 300 Super King Air",
                 "operator": "DEPARTMENT OF HOMELAND SECURITY",
                 "altitude": 5300,
                 "ground_speed": 163.0,
-                "track": 179.5,
+                "track": 179.2,
                 "squawk": "4406",
-                "rssi": -49.5,
+                "rssi": -29.2,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-03-28T15:15:02.390743+00:00",
-                "nav_qnh": 0.0,
-                "nav_altitude_mcp": 0,
+                "last_seen": "2025-03-28T15:16:02.461508+00:00",
+                "nav_qnh": 1020.8,
+                "nav_altitude_mcp": 5504,
                 "category": "A2"
             },
             "geometry": {
@@ -1373,6 +1381,14 @@
                     [
                         -89.215607,
                         29.605268
+                    ],
+                    [
+                        -89.214855,
+                        29.573473
+                    ],
+                    [
+                        -89.214855,
+                        29.573473
                     ]
                 ]
             }
@@ -1386,12 +1402,12 @@
                 "description": "Unknown",
                 "operator": "Unknown",
                 "altitude": 275,
-                "ground_speed": 87.7,
-                "track": 11.18,
+                "ground_speed": 82.4,
+                "track": 349.51,
                 "squawk": "7101",
-                "rssi": -25.0,
+                "rssi": -25.5,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-03-28T15:15:02.390695+00:00",
+                "last_seen": "2025-03-28T15:16:02.461440+00:00",
                 "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
                 "category": "A7"
@@ -1642,6 +1658,43 @@
                     [
                         -117.802167,
                         32.847931
+                    ],
+                    [
+                        -117.802112,
+                        32.872559
+                    ],
+                    [
+                        -117.801343,
+                        32.869125
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "hex": "A043A9",
+                "flight": "Unknown",
+                "type": "BE30",
+                "description": "BEECH 300 Super King Air",
+                "operator": "DEPARTMENT OF HOMELAND SECURITY",
+                "altitude": 600,
+                "ground_speed": 190.0,
+                "track": 134.5,
+                "squawk": "N/A",
+                "rssi": -49.5,
+                "api_source": "https://api.airplanes.live/v2/hex/",
+                "last_seen": "2025-03-28T15:16:02.461466+00:00",
+                "nav_qnh": 0.0,
+                "nav_altitude_mcp": 0,
+                "category": "Unknown"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -97.260223,
+                        27.666227
                     ]
                 ]
             }
