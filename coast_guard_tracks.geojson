@@ -1,4 +1,67 @@
 {
     "type": "FeatureCollection",
-    "features": []
+    "features": [
+        {
+            "type": "Feature",
+            "properties": {
+                "hex": "AE26A4",
+                "flight": "C6578   ",
+                "type": "AS65",
+                "description": "Eurocopter MH-65D Dolphin",
+                "operator": "United States Coast Guard",
+                "altitude": 1125,
+                "ground_speed": 51.8,
+                "track": 349.99,
+                "squawk": "4426",
+                "rssi": -18.8,
+                "api_source": "https://api.airplanes.live/v2/hex/",
+                "last_seen": "2025-03-31T12:38:03.047582+00:00",
+                "nav_qnh": 0.0,
+                "nav_altitude_mcp": 0,
+                "category": "A7"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -82.847006,
+                        42.626022
+                    ],
+                    [
+                        -82.847006,
+                        42.626022
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "hex": "AE27F7",
+                "flight": "Unknown",
+                "type": "H60",
+                "description": "Sikorsky MH-60T Jayhawk",
+                "operator": "Unknown",
+                "altitude": "ground",
+                "ground_speed": 1.4,
+                "track": 177.19,
+                "squawk": "N/A",
+                "rssi": -33.2,
+                "api_source": "https://api.airplanes.live/v2/hex/",
+                "last_seen": "2025-03-31T12:38:03.047602+00:00",
+                "nav_qnh": 0.0,
+                "nav_altitude_mcp": 0,
+                "category": "Unknown"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -82.695373,
+                        27.909754
+                    ]
+                ]
+            }
+        }
+    ]
 }
