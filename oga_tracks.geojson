@@ -24,22 +24,6 @@
                 "type": "LineString",
                 "coordinates": [
                     [
-                        -118.385353,
-                        34.156448
-                    ],
-                    [
-                        -118.384666,
-                        34.156401
-                    ],
-                    [
-                        -118.348389,
-                        34.154492
-                    ],
-                    [
-                        -118.348389,
-                        34.154492
-                    ],
-                    [
                         -118.310478,
                         34.152649
                     ],
@@ -210,36 +194,20 @@
                 "type": "AS50",
                 "description": "AEROSPATIALE AS-350 Ecureuil",
                 "operator": "COUNTY OF ORANGE - AIR SUPPORT",
-                "altitude": "ground",
-                "ground_speed": 0.0,
-                "track": 0.0,
+                "altitude": 0,
+                "ground_speed": 31.8,
+                "track": 208.18,
                 "squawk": "4204",
-                "rssi": -21.0,
+                "rssi": -14.3,
                 "api_source": "https://opendata.adsb.fi/api/v2/hex/",
-                "last_seen": "2025-04-01T08:47:02.356434+00:00",
-                "nav_qnh": 0.0,
+                "last_seen": "2025-04-01T08:48:02.959429+00:00",
+                "nav_qnh": 1016.8,
                 "nav_altitude_mcp": 0,
                 "category": "A7"
             },
             "geometry": {
                 "type": "LineString",
                 "coordinates": [
-                    [
-                        -117.747485,
-                        33.883163
-                    ],
-                    [
-                        -117.747803,
-                        33.883372
-                    ],
-                    [
-                        -117.766743,
-                        33.893055
-                    ],
-                    [
-                        -117.765942,
-                        33.893148
-                    ],
                     [
                         -117.794151,
                         33.890774
@@ -1087,6 +1055,10 @@
                     [
                         -117.871572,
                         33.675304
+                    ],
+                    [
+                        -117.871456,
+                        33.674027
                     ]
                 ]
             }
@@ -1113,22 +1085,6 @@
             "geometry": {
                 "type": "LineString",
                 "coordinates": [
-                    [
-                        -118.146,
-                        34.153561
-                    ],
-                    [
-                        -118.1464,
-                        34.153468
-                    ],
-                    [
-                        -118.168329,
-                        34.145004
-                    ],
-                    [
-                        -118.168329,
-                        34.145004
-                    ],
                     [
                         -118.192177,
                         34.143413
@@ -2818,6 +2774,39 @@
                     [
                         -118.001246,
                         33.695138
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "hex": "A17E8E",
+                "flight": "N196B   ",
+                "type": "BE30",
+                "description": "BEECH 300 Super King Air",
+                "operator": "DEPARTMENT OF HOMELAND SECURITY",
+                "altitude": 2550,
+                "ground_speed": 181.7,
+                "track": 229.91,
+                "squawk": "N/A",
+                "rssi": -23.2,
+                "api_source": "https://api.airplanes.live/v2/hex/",
+                "last_seen": "2025-04-01T08:48:02.959885+00:00",
+                "nav_qnh": 1015.2,
+                "nav_altitude_mcp": 13504,
+                "category": "A2"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -85.917435,
+                        33.545868
+                    ],
+                    [
+                        -85.917435,
+                        33.545868
                     ]
                 ]
             }
