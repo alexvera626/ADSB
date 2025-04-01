@@ -2377,13 +2377,13 @@
                 "type": "AS50",
                 "description": "AEROSPATIALE AS-350 Ecureuil",
                 "operator": "COUNTY OF ORANGE - AIR SUPPORT",
-                "altitude": 600,
-                "ground_speed": 65.8,
-                "track": 223.15,
+                "altitude": 500,
+                "ground_speed": 61.0,
+                "track": 228.99,
                 "squawk": "4204",
-                "rssi": -28.6,
+                "rssi": -20.3,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-04-01T21:33:02.777463+00:00",
+                "last_seen": "2025-04-01T21:34:02.934569+00:00",
                 "nav_qnh": 1015.2,
                 "nav_altitude_mcp": 0,
                 "category": "A7"
@@ -2978,6 +2978,14 @@
                     [
                         -117.917661,
                         33.639267
+                    ],
+                    [
+                        -117.933655,
+                        33.626404
+                    ],
+                    [
+                        -117.934533,
+                        33.625763
                     ]
                 ]
             }
@@ -5493,9 +5501,9 @@
                 "ground_speed": 0.0,
                 "track": 0.0,
                 "squawk": "1200",
-                "rssi": -8.5,
+                "rssi": -9.5,
                 "api_source": "https://opendata.adsb.fi/api/v2/hex/",
-                "last_seen": "2025-04-01T21:33:02.777225+00:00",
+                "last_seen": "2025-04-01T21:34:02.934335+00:00",
                 "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
                 "category": "A7"
@@ -6786,6 +6794,10 @@
                     [
                         -117.208768,
                         32.702797
+                    ],
+                    [
+                        -117.208768,
+                        32.702797
                     ]
                 ]
             }
@@ -6798,13 +6810,13 @@
                 "type": "H60",
                 "description": "Sikorsky S-70M Firehawk",
                 "operator": "ORANGE COUNTY FIRE AUTHORITY",
-                "altitude": 300,
-                "ground_speed": 58.9,
-                "track": 220.18,
+                "altitude": 950,
+                "ground_speed": 119.6,
+                "track": 106.01,
                 "squawk": "4202",
-                "rssi": -2.2,
+                "rssi": -7.1,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-04-01T21:33:02.777453+00:00",
+                "last_seen": "2025-04-01T21:34:02.934559+00:00",
                 "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
                 "category": "A7"
@@ -6819,6 +6831,43 @@
                     [
                         -117.984867,
                         33.870524
+                    ],
+                    [
+                        -117.966091,
+                        33.854004
+                    ],
+                    [
+                        -117.966091,
+                        33.854004
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "hex": "AE6988",
+                "flight": "Unknown",
+                "type": "H60",
+                "description": "SIKORSKY UH-60 Black Hawk",
+                "operator": "Unknown",
+                "altitude": "ground",
+                "ground_speed": 3.8,
+                "track": 0.0,
+                "squawk": "4406",
+                "rssi": -22.9,
+                "api_source": "https://opendata.adsb.fi/api/v2/hex/",
+                "last_seen": "2025-04-01T21:34:02.934376+00:00",
+                "nav_qnh": 0.0,
+                "nav_altitude_mcp": 0,
+                "category": "Unknown"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -117.211679,
+                        32.702145
                     ]
                 ]
             }
