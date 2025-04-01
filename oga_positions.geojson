@@ -1,4 +1,59 @@
 {
     "type": "FeatureCollection",
-    "features": []
+    "features": [
+        {
+            "type": "Feature",
+            "properties": {
+                "hex": "A1511C",
+                "flight": "N184SD  ",
+                "type": "AS50",
+                "description": "AEROSPATIALE AS-350 Ecureuil",
+                "operator": "COUNTY OF ORANGE - AIR SUPPORT",
+                "altitude": 0,
+                "ground_speed": 31.8,
+                "track": 208.18,
+                "squawk": "4204",
+                "rssi": null,
+                "api_source": "https://opendata.adsb.fi/api/v2/hex/",
+                "last_seen": "2025-04-01T08:48:02.959429+00:00",
+                "nav_qnh": null,
+                "nav_altitude_mcp": null,
+                "category": "A7"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -117.871456,
+                    33.674027
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "hex": "A17E8E",
+                "flight": "N196B   ",
+                "type": "BE30",
+                "description": "BEECH 300 Super King Air",
+                "operator": "DEPARTMENT OF HOMELAND SECURITY",
+                "altitude": 2550,
+                "ground_speed": 181.7,
+                "track": 229.91,
+                "squawk": "N/A",
+                "rssi": null,
+                "api_source": "https://api.airplanes.live/v2/hex/",
+                "last_seen": "2025-04-01T08:48:02.959885+00:00",
+                "nav_qnh": null,
+                "nav_altitude_mcp": null,
+                "category": "A2"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -85.917435,
+                    33.545868
+                ]
+            }
+        }
+    ]
 }
