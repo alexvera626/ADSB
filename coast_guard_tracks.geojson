@@ -1278,9 +1278,9 @@
                 "ground_speed": 0.0,
                 "track": 0.0,
                 "squawk": "N/A",
-                "rssi": -20.1,
+                "rssi": -21.3,
                 "api_source": "https://opendata.adsb.fi/api/v2/hex/",
-                "last_seen": "2025-04-01T14:17:02.698794+00:00",
+                "last_seen": "2025-04-01T14:18:01.942469+00:00",
                 "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
                 "category": "A7"
@@ -1612,12 +1612,12 @@
                 "description": "Eurocopter MH-65D Dolphin",
                 "operator": "United States Coast Guard",
                 "altitude": 175,
-                "ground_speed": 84.9,
-                "track": 8.13,
+                "ground_speed": 81.6,
+                "track": 7.04,
                 "squawk": "4424",
-                "rssi": -22.1,
+                "rssi": -14.1,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-04-01T14:17:02.699398+00:00",
+                "last_seen": "2025-04-01T14:18:01.942651+00:00",
                 "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
                 "category": "A7"
@@ -1972,6 +1972,14 @@
                     [
                         -80.453295,
                         25.934189
+                    ],
+                    [
+                        -80.44972,
+                        25.956116
+                    ],
+                    [
+                        -80.449668,
+                        25.956665
                     ]
                 ]
             }
@@ -2198,13 +2206,13 @@
                 "type": "AS65",
                 "description": "Eurocopter MH-65D Dolphin",
                 "operator": "United States Coast Guard",
-                "altitude": 825,
-                "ground_speed": 85.9,
-                "track": 26.27,
+                "altitude": 800,
+                "ground_speed": 107.9,
+                "track": 20.62,
                 "squawk": "4426",
-                "rssi": -12.6,
+                "rssi": -12.5,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-04-01T14:17:02.699409+00:00",
+                "last_seen": "2025-04-01T14:18:01.942661+00:00",
                 "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
                 "category": "A7"
@@ -2499,6 +2507,14 @@
                     [
                         -82.903519,
                         42.547943
+                    ],
+                    [
+                        -82.891271,
+                        42.570439
+                    ],
+                    [
+                        -82.891034,
+                        42.570877
                     ]
                 ]
             }
@@ -2507,17 +2523,17 @@
             "type": "Feature",
             "properties": {
                 "hex": "AE290D",
-                "flight": "Unknown",
+                "flight": "C6030   ",
                 "type": "H60",
                 "description": "Sikorsky MH-60T Jayhawk",
                 "operator": "United States Coast Guard",
-                "altitude": 250,
-                "ground_speed": 93.0,
-                "track": 335.3,
+                "altitude": 275,
+                "ground_speed": 90.4,
+                "track": 335.14,
                 "squawk": "1200",
-                "rssi": -49.5,
+                "rssi": -29.6,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-04-01T14:17:02.699418+00:00",
+                "last_seen": "2025-04-01T14:18:01.942671+00:00",
                 "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
                 "category": "A7"
@@ -2656,6 +2672,47 @@
                     [
                         -75.608711,
                         35.933578
+                    ],
+                    [
+                        -75.622812,
+                        35.958392
+                    ],
+                    [
+                        -75.622812,
+                        35.958392
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "hex": "AE109A",
+                "flight": "C102    ",
+                "type": "GLF5",
+                "description": "GULFSTREAM 5",
+                "operator": "Unknown",
+                "altitude": 1450,
+                "ground_speed": 161.3,
+                "track": 43.49,
+                "squawk": "1470",
+                "rssi": -9.8,
+                "api_source": "https://api.airplanes.live/v2/hex/",
+                "last_seen": "2025-04-01T14:18:01.942639+00:00",
+                "nav_qnh": 1026.4,
+                "nav_altitude_mcp": 5024,
+                "category": "A3"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        0.257111,
+                        51.899643
+                    ],
+                    [
+                        0.258257,
+                        51.900392
                     ]
                 ]
             }
