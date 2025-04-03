@@ -36,13 +36,13 @@
                 "type": "AS50",
                 "description": "AEROSPATIALE AS-350 Ecureuil",
                 "operator": "LAPD AIR SUPPORT DIVISION",
-                "altitude": 675,
-                "ground_speed": 50.0,
-                "track": 88.85,
+                "altitude": 700,
+                "ground_speed": 42.5,
+                "track": 330.42,
                 "squawk": "4201",
                 "rssi": null,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-04-03T03:12:03.024042+00:00",
+                "last_seen": "2025-04-03T03:13:03.061285+00:00",
                 "nav_qnh": null,
                 "nav_altitude_mcp": null,
                 "category": "A7"
@@ -50,8 +50,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -118.267206,
-                    34.003052
+                    -118.264627,
+                    34.005661
                 ]
             }
         },
@@ -63,13 +63,13 @@
                 "type": "A139",
                 "description": "AGUSTA AW-139",
                 "operator": "LOS ANGELES FIRE DEPARTMENT",
-                "altitude": 2850,
-                "ground_speed": 1.6,
-                "track": 315.0,
-                "squawk": "1200",
+                "altitude": "ground",
+                "ground_speed": 0.0,
+                "track": 0.0,
+                "squawk": "N/A",
                 "rssi": null,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-04-03T03:12:03.024159+00:00",
+                "last_seen": "2025-04-03T03:13:03.061388+00:00",
                 "nav_qnh": null,
                 "nav_altitude_mcp": null,
                 "category": "A7"
@@ -77,8 +77,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -118.560276,
-                    34.328086
+                    -118.560305,
+                    34.328109
                 ]
             }
         },
@@ -90,13 +90,13 @@
                 "type": "B407",
                 "description": "BELL 407",
                 "operator": "SAN DIEGO COUNTY SHERIFF DEPARTMENT",
-                "altitude": 2525,
-                "ground_speed": 81.3,
-                "track": 214.47,
+                "altitude": 2450,
+                "ground_speed": 81.4,
+                "track": 207.82,
                 "squawk": "4267",
                 "rssi": null,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-04-03T03:12:03.024170+00:00",
+                "last_seen": "2025-04-03T03:13:03.061399+00:00",
                 "nav_qnh": null,
                 "nav_altitude_mcp": null,
                 "category": "A7"
@@ -104,8 +104,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -117.002265,
-                    33.209668
+                    -117.014117,
+                    33.189514
                 ]
             }
         },
@@ -220,45 +220,18 @@
         {
             "type": "Feature",
             "properties": {
-                "hex": "AE2761",
-                "flight": "Unknown",
-                "type": "H60",
-                "description": "SIKORSKY UH-60 Black Hawk",
-                "operator": "Unknown",
-                "altitude": 3300,
-                "ground_speed": 112.5,
-                "track": 284.41,
-                "squawk": "N/A",
-                "rssi": null,
-                "api_source": "https://opendata.adsb.fi/api/v2/hex/",
-                "last_seen": "2025-04-03T03:11:02.733016+00:00",
-                "nav_qnh": null,
-                "nav_altitude_mcp": null,
-                "category": "A7"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -116.727539,
-                    33.109222
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
                 "hex": "AE4D5A",
                 "flight": "BULET45 ",
                 "type": "H60",
                 "description": "Sikorsky MH-60S Seahawk",
                 "operator": "United States Navy",
                 "altitude": 2350,
-                "ground_speed": 97.0,
-                "track": 359.41,
+                "ground_speed": 101.0,
+                "track": 31.64,
                 "squawk": "1200",
                 "rssi": null,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-04-03T03:12:03.024180+00:00",
+                "last_seen": "2025-04-03T03:13:03.061410+00:00",
                 "nav_qnh": null,
                 "nav_altitude_mcp": null,
                 "category": "A7"
@@ -266,8 +239,35 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -117.169299,
-                    33.385254
+                    -117.157874,
+                    33.411072
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "hex": "AE6014",
+                "flight": "KNIFE36 ",
+                "type": "H60",
+                "description": "SIKORSKY UH-60 Black Hawk",
+                "operator": "Unknown",
+                "altitude": "ground",
+                "ground_speed": 0.0,
+                "track": 168.75,
+                "squawk": "1206",
+                "rssi": null,
+                "api_source": "https://api.airplanes.live/v2/hex/",
+                "last_seen": "2025-04-03T03:13:03.061378+00:00",
+                "nav_qnh": null,
+                "nav_altitude_mcp": null,
+                "category": "A7"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -118.053517,
+                    33.792048
                 ]
             }
         }
