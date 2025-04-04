@@ -24,14 +24,6 @@
                 "type": "LineString",
                 "coordinates": [
                     [
-                        -117.608306,
-                        33.554443
-                    ],
-                    [
-                        -117.60601,
-                        33.554294
-                    ],
-                    [
                         -117.657184,
                         33.556641
                     ],
@@ -358,17 +350,17 @@
             "type": "Feature",
             "properties": {
                 "hex": "AE4F4D",
-                "flight": "SHWK411 ",
+                "flight": "Unknown",
                 "type": "H60",
                 "description": "Unknown",
                 "operator": "Unknown",
-                "altitude": -150,
-                "ground_speed": 0.7,
-                "track": 0.0,
+                "altitude": 0,
+                "ground_speed": 2.3,
+                "track": 333.43,
                 "squawk": "N/A",
-                "rssi": -19.6,
+                "rssi": -19.3,
                 "api_source": "https://opendata.adsb.fi/api/v2/hex/",
-                "last_seen": "2025-04-04T05:00:02.450606+00:00",
+                "last_seen": "2025-04-04T05:01:03.263249+00:00",
                 "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
                 "category": "A7"
@@ -376,14 +368,6 @@
             "geometry": {
                 "type": "LineString",
                 "coordinates": [
-                    [
-                        -117.125629,
-                        32.563202
-                    ],
-                    [
-                        -117.125629,
-                        32.563202
-                    ],
                     [
                         -117.116276,
                         32.554864
@@ -1545,14 +1529,6 @@
             "geometry": {
                 "type": "LineString",
                 "coordinates": [
-                    [
-                        -117.088495,
-                        32.782516
-                    ],
-                    [
-                        -117.088495,
-                        32.782516
-                    ],
                     [
                         -117.05714,
                         32.777896
@@ -2795,79 +2771,18 @@
         {
             "type": "Feature",
             "properties": {
-                "hex": "A40442",
-                "flight": "N358TV  ",
-                "type": "AS50",
-                "description": "AEROSPATIALE AS-350 Ecureuil",
-                "operator": "TINY BUBBLES AVIATION INC",
-                "altitude": "ground",
-                "ground_speed": 0.1,
-                "track": 0.0,
-                "squawk": "1200",
-                "rssi": -17.4,
-                "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-04-04T01:05:02.593309+00:00",
-                "nav_qnh": 0.0,
-                "nav_altitude_mcp": 0,
-                "category": "A7"
-            },
-            "geometry": {
-                "type": "LineString",
-                "coordinates": [
-                    [
-                        -118.39551,
-                        34.236008
-                    ],
-                    [
-                        -118.396168,
-                        34.236611
-                    ],
-                    [
-                        -118.417539,
-                        34.252258
-                    ],
-                    [
-                        -118.418884,
-                        34.253416
-                    ],
-                    [
-                        -118.418369,
-                        34.263937
-                    ],
-                    [
-                        -118.418268,
-                        34.26384
-                    ],
-                    [
-                        -118.410559,
-                        34.257187
-                    ],
-                    [
-                        -118.410518,
-                        34.257202
-                    ],
-                    [
-                        -118.410487,
-                        34.257361
-                    ]
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
                 "hex": "A1511C",
                 "flight": "N184SD  ",
                 "type": "AS50",
                 "description": "AEROSPATIALE AS-350 Ecureuil",
                 "operator": "COUNTY OF ORANGE - AIR SUPPORT",
-                "altitude": 700,
-                "ground_speed": 52.8,
-                "track": 155.38,
+                "altitude": 800,
+                "ground_speed": 55.7,
+                "track": 99.29,
                 "squawk": "4204",
-                "rssi": -23.1,
+                "rssi": -22.7,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-04-04T05:00:02.451139+00:00",
+                "last_seen": "2025-04-04T05:01:03.264064+00:00",
                 "nav_qnh": 1015.2,
                 "nav_altitude_mcp": 0,
                 "category": "A7"
@@ -3974,6 +3889,67 @@
                     [
                         -117.898883,
                         33.717224
+                    ],
+                    [
+                        -117.881395,
+                        33.713516
+                    ],
+                    [
+                        -117.881069,
+                        33.713456
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "hex": "A40442",
+                "flight": "N358TV  ",
+                "type": "AS50",
+                "description": "AEROSPATIALE AS-350 Ecureuil",
+                "operator": "TINY BUBBLES AVIATION INC",
+                "altitude": "ground",
+                "ground_speed": 0.1,
+                "track": 0.0,
+                "squawk": "1200",
+                "rssi": -17.4,
+                "api_source": "https://api.airplanes.live/v2/hex/",
+                "last_seen": "2025-04-04T01:05:02.593309+00:00",
+                "nav_qnh": 0.0,
+                "nav_altitude_mcp": 0,
+                "category": "A7"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -118.417539,
+                        34.252258
+                    ],
+                    [
+                        -118.418884,
+                        34.253416
+                    ],
+                    [
+                        -118.418369,
+                        34.263937
+                    ],
+                    [
+                        -118.418268,
+                        34.26384
+                    ],
+                    [
+                        -118.410559,
+                        34.257187
+                    ],
+                    [
+                        -118.410518,
+                        34.257202
+                    ],
+                    [
+                        -118.410487,
+                        34.257361
                     ]
                 ]
             }
@@ -6476,12 +6452,12 @@
                 "description": "AEROSPATIALE AS-350 Ecureuil",
                 "operator": "REACH AIR MEDICAL SERVICES LLC",
                 "altitude": 5275,
-                "ground_speed": 126.0,
-                "track": 144.04,
+                "ground_speed": 125.0,
+                "track": 140.19,
                 "squawk": "1200",
-                "rssi": -25.9,
+                "rssi": -24.0,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-04-04T05:00:02.451106+00:00",
+                "last_seen": "2025-04-04T05:01:03.264040+00:00",
                 "nav_qnh": 1012.8,
                 "nav_altitude_mcp": 1408,
                 "category": "A7"
@@ -6708,6 +6684,14 @@
                     [
                         -122.784099,
                         38.88327
+                    ],
+                    [
+                        -122.757019,
+                        38.855291
+                    ],
+                    [
+                        -122.756287,
+                        38.854593
                     ]
                 ]
             }
