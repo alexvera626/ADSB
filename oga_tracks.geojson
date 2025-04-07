@@ -874,13 +874,13 @@
                 "type": "AS50",
                 "description": "AEROSPATIALE AS-350 Ecureuil",
                 "operator": "COUNTY OF ORANGE - AIR SUPPORT",
-                "altitude": 100,
-                "ground_speed": 54.8,
-                "track": 104.8,
+                "altitude": 0,
+                "ground_speed": 51.6,
+                "track": 111.6,
                 "squawk": "4204",
-                "rssi": -9.8,
+                "rssi": -14.0,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-04-07T15:27:03.350562+00:00",
+                "last_seen": "2025-04-07T15:28:02.802492+00:00",
                 "nav_qnh": 1019.2,
                 "nav_altitude_mcp": 0,
                 "category": "A7"
@@ -943,6 +943,47 @@
                     [
                         -117.915001,
                         33.60336
+                    ],
+                    [
+                        -117.898521,
+                        33.599124
+                    ],
+                    [
+                        -117.898407,
+                        33.599078
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "hex": "AE2761",
+                "flight": "FFAB123 ",
+                "type": "H60",
+                "description": "SIKORSKY UH-60 Black Hawk",
+                "operator": "Unknown",
+                "altitude": "ground",
+                "ground_speed": 8.8,
+                "track": 255.94,
+                "squawk": "N/A",
+                "rssi": -23.0,
+                "api_source": "https://api.airplanes.live/v2/hex/",
+                "last_seen": "2025-04-07T15:28:02.802482+00:00",
+                "nav_qnh": 0.0,
+                "nav_altitude_mcp": 0,
+                "category": "A7"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -117.207024,
+                        32.713074
+                    ],
+                    [
+                        -117.207024,
+                        32.713074
                     ]
                 ]
             }
