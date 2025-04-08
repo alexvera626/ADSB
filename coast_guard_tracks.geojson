@@ -4,47 +4,6 @@
         {
             "type": "Feature",
             "properties": {
-                "hex": "AE10EB",
-                "flight": "Unknown",
-                "type": "C30J",
-                "description": "Lockheed Martin HC-130J Hercules",
-                "operator": "United States Coast Guard",
-                "altitude": 6625,
-                "ground_speed": 194.0,
-                "track": 165.68,
-                "squawk": "N/A",
-                "rssi": -28.6,
-                "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-04-08T03:16:02.799745+00:00",
-                "nav_qnh": 0.0,
-                "nav_altitude_mcp": 0,
-                "category": "A3"
-            },
-            "geometry": {
-                "type": "LineString",
-                "coordinates": [
-                    [
-                        -152.529838,
-                        58.755661
-                    ],
-                    [
-                        -152.529838,
-                        58.755661
-                    ],
-                    [
-                        -152.471185,
-                        58.648544
-                    ],
-                    [
-                        -152.471185,
-                        58.648544
-                    ]
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
                 "hex": "AE2126",
                 "flight": "C2702   ",
                 "type": "C27J",
@@ -64,14 +23,6 @@
             "geometry": {
                 "type": "LineString",
                 "coordinates": [
-                    [
-                        -121.142001,
-                        38.693069
-                    ],
-                    [
-                        -121.139851,
-                        38.694214
-                    ],
                     [
                         -121.09729,
                         38.731322
@@ -231,13 +182,13 @@
                 "type": "AS65",
                 "description": "Eurocopter MH-65D Dolphin",
                 "operator": "United States Coast Guard",
-                "altitude": 375,
-                "ground_speed": 105.6,
-                "track": 151.74,
+                "altitude": 300,
+                "ground_speed": 79.1,
+                "track": 147.92,
                 "squawk": "1277",
-                "rssi": -8.8,
+                "rssi": -12.0,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-04-08T07:13:02.901610+00:00",
+                "last_seen": "2025-04-08T07:14:02.754433+00:00",
                 "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
                 "category": "A7"
@@ -245,14 +196,6 @@
             "geometry": {
                 "type": "LineString",
                 "coordinates": [
-                    [
-                        -122.613908,
-                        38.085526
-                    ],
-                    [
-                        -122.612681,
-                        38.085068
-                    ],
                     [
                         -122.576135,
                         38.070513
@@ -1444,6 +1387,14 @@
                     [
                         -122.394591,
                         37.82634
+                    ],
+                    [
+                        -122.373664,
+                        37.804327
+                    ],
+                    [
+                        -122.373664,
+                        37.804327
                     ]
                 ]
             }
@@ -1470,10 +1421,6 @@
             "geometry": {
                 "type": "LineString",
                 "coordinates": [
-                    [
-                        -122.53789,
-                        48.738936
-                    ],
                     [
                         -122.538405,
                         48.738876
@@ -1549,6 +1496,39 @@
                     [
                         -123.189275,
                         48.300064
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "hex": "AE10EB",
+                "flight": "Unknown",
+                "type": "C30J",
+                "description": "Lockheed Martin HC-130J Hercules",
+                "operator": "United States Coast Guard",
+                "altitude": 6625,
+                "ground_speed": 194.0,
+                "track": 165.68,
+                "squawk": "N/A",
+                "rssi": -28.6,
+                "api_source": "https://api.airplanes.live/v2/hex/",
+                "last_seen": "2025-04-08T03:16:02.799745+00:00",
+                "nav_qnh": 0.0,
+                "nav_altitude_mcp": 0,
+                "category": "A3"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -152.471185,
+                        58.648544
+                    ],
+                    [
+                        -152.471185,
+                        58.648544
                     ]
                 ]
             }
