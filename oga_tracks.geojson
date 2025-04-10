@@ -2870,17 +2870,17 @@
             "type": "Feature",
             "properties": {
                 "hex": "A31AA0",
-                "flight": "N3A     ",
+                "flight": "Unknown",
                 "type": "SHIP",
                 "description": "Zeppelin LZ N07-101",
                 "operator": "GOODYEAR TIRE & RUBBER CO",
-                "altitude": 1950,
+                "altitude": 2075,
                 "ground_speed": 0.0,
                 "track": 0.0,
-                "squawk": "N/A",
-                "rssi": -16.3,
+                "squawk": "1200",
+                "rssi": -11.0,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-04-10T18:45:02.923334+00:00",
+                "last_seen": "2025-04-10T18:46:02.567535+00:00",
                 "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
                 "category": "B2"
@@ -3715,13 +3715,13 @@
                 "type": "BE30",
                 "description": "BEECH 300 Super King Air",
                 "operator": "DEPARTMENT OF HOMELAND SECURITY",
-                "altitude": 1250,
-                "ground_speed": 197.0,
-                "track": 212.4,
+                "altitude": 750,
+                "ground_speed": 187.0,
+                "track": 228.7,
                 "squawk": "4404",
                 "rssi": -49.5,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-04-10T18:38:03.112653+00:00",
+                "last_seen": "2025-04-10T18:46:02.567584+00:00",
                 "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
                 "category": "A2"
@@ -4012,6 +4012,10 @@
                     [
                         -96.961723,
                         28.075329
+                    ],
+                    [
+                        -97.284767,
+                        27.804016
                     ]
                 ]
             }
@@ -4721,13 +4725,13 @@
                 "type": "AS50",
                 "description": "AEROSPATIALE AS-350 Ecureuil",
                 "operator": "LAPD AIR SUPPORT DIVISION",
-                "altitude": 425,
-                "ground_speed": 56.0,
-                "track": 161.24,
+                "altitude": 375,
+                "ground_speed": 60.8,
+                "track": 27.41,
                 "squawk": "1200",
-                "rssi": -8.4,
+                "rssi": -8.8,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-04-10T18:45:02.923049+00:00",
+                "last_seen": "2025-04-10T18:46:02.567304+00:00",
                 "nav_qnh": 1020.8,
                 "nav_altitude_mcp": 10016,
                 "category": "A7"
@@ -5158,6 +5162,14 @@
                     [
                         -118.380824,
                         34.076385
+                    ],
+                    [
+                        -118.374659,
+                        34.072815
+                    ],
+                    [
+                        -118.37431,
+                        34.073305
                     ]
                 ]
             }
@@ -5166,17 +5178,17 @@
             "type": "Feature",
             "properties": {
                 "hex": "A40442",
-                "flight": "N358TV  ",
+                "flight": "Unknown",
                 "type": "AS50",
                 "description": "AEROSPATIALE AS-350 Ecureuil",
                 "operator": "TINY BUBBLES AVIATION INC",
                 "altitude": "ground",
-                "ground_speed": 0.0,
+                "ground_speed": 0.8,
                 "track": 0.0,
                 "squawk": "1200",
-                "rssi": -15.4,
+                "rssi": -16.3,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-04-10T18:45:02.923379+00:00",
+                "last_seen": "2025-04-10T18:46:02.567662+00:00",
                 "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
                 "category": "A7"
@@ -5555,6 +5567,43 @@
                     [
                         -118.410084,
                         34.25671
+                    ],
+                    [
+                        -118.410028,
+                        34.256859
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "hex": "A4DC0C",
+                "flight": "N412FA  ",
+                "type": "H60",
+                "description": "Sikorsky S-70M Firehawk",
+                "operator": "ORANGE COUNTY FIRE AUTHORITY",
+                "altitude": "ground",
+                "ground_speed": 0.1,
+                "track": 132.19,
+                "squawk": "4202",
+                "rssi": -23.5,
+                "api_source": "https://api.airplanes.live/v2/hex/",
+                "last_seen": "2025-04-10T18:46:02.567507+00:00",
+                "nav_qnh": 0.0,
+                "nav_altitude_mcp": 0,
+                "category": "A7"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -117.977932,
+                        33.872944
+                    ],
+                    [
+                        -117.977932,
+                        33.872944
                     ]
                 ]
             }
