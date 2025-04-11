@@ -9,22 +9,22 @@
                 "type": "AS50",
                 "description": "AEROSPATIALE AS-350 Ecureuil",
                 "operator": "COUNTY OF ORANGE - AIR SUPPORT",
-                "altitude": "ground",
-                "ground_speed": 0.0,
-                "track": 0.0,
+                "altitude": 500,
+                "ground_speed": 83.4,
+                "track": 349.63,
                 "squawk": "4204",
                 "rssi": null,
-                "api_source": "https://opendata.adsb.fi/api/v2/hex/",
-                "last_seen": "2025-04-11T20:22:02.932573+00:00",
+                "api_source": "https://api.airplanes.live/v2/hex/",
+                "last_seen": "2025-04-11T20:23:03.426830+00:00",
                 "nav_qnh": null,
                 "nav_altitude_mcp": null,
-                "category": "A7"
+                "category": "Unknown"
             },
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -117.871757,
-                    33.675121
+                    -117.879433,
+                    33.674469
                 ]
             }
         },
@@ -36,13 +36,13 @@
                 "type": "AS50",
                 "description": "AEROSPATIALE AS-350 Ecureuil",
                 "operator": "LAPD AIR SUPPORT DIVISION",
-                "altitude": 975,
-                "ground_speed": 66.1,
-                "track": 182.6,
+                "altitude": 875,
+                "ground_speed": 49.5,
+                "track": 194.04,
                 "squawk": "1200",
                 "rssi": null,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-04-11T20:22:02.932610+00:00",
+                "last_seen": "2025-04-11T20:23:03.426237+00:00",
                 "nav_qnh": null,
                 "nav_altitude_mcp": null,
                 "category": "A7"
@@ -50,8 +50,35 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -118.223534,
-                    34.09039
+                    -118.226738,
+                    34.074143
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "hex": "A31AA0",
+                "flight": "N3A     ",
+                "type": "SHIP",
+                "description": "Zeppelin LZ N07-101",
+                "operator": "GOODYEAR TIRE & RUBBER CO",
+                "altitude": 1800,
+                "ground_speed": 53.9,
+                "track": 285.07,
+                "squawk": "N/A",
+                "rssi": null,
+                "api_source": "https://api.airplanes.live/v2/hex/",
+                "last_seen": "2025-04-11T20:23:03.426840+00:00",
+                "nav_qnh": null,
+                "nav_altitude_mcp": null,
+                "category": "B2"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -116.035938,
+                    33.680591
                 ]
             }
         }
