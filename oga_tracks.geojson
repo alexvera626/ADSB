@@ -1278,13 +1278,13 @@
                 "type": "AS50",
                 "description": "AEROSPATIALE AS-350 Ecureuil",
                 "operator": "COUNTY OF ORANGE - AIR SUPPORT",
-                "altitude": 500,
-                "ground_speed": 103.0,
-                "track": 36.31,
+                "altitude": 600,
+                "ground_speed": 45.2,
+                "track": 297.7,
                 "squawk": "4204",
-                "rssi": -17.0,
+                "rssi": -25.5,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-04-11T20:24:03.558795+00:00",
+                "last_seen": "2025-04-11T20:25:02.806215+00:00",
                 "nav_qnh": 1016.8,
                 "nav_altitude_mcp": 0,
                 "category": "A7"
@@ -1991,6 +1991,14 @@
                     [
                         -117.872314,
                         33.701213
+                    ],
+                    [
+                        -117.851887,
+                        33.719462
+                    ],
+                    [
+                        -117.851575,
+                        33.719238
                     ]
                 ]
             }
@@ -3235,13 +3243,13 @@
                 "type": "AS50",
                 "description": "AEROSPATIALE AS-350 Ecureuil",
                 "operator": "LAPD AIR SUPPORT DIVISION",
-                "altitude": 650,
-                "ground_speed": 63.6,
-                "track": 216.69,
+                "altitude": "ground",
+                "ground_speed": 0.3,
+                "track": 290.2,
                 "squawk": "1200",
-                "rssi": -22.7,
+                "rssi": -22.4,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-04-11T20:24:03.558643+00:00",
+                "last_seen": "2025-04-11T20:25:02.806013+00:00",
                 "nav_qnh": 1016.8,
                 "nav_altitude_mcp": 10016,
                 "category": "A7"
@@ -4324,6 +4332,14 @@
                     [
                         -118.226567,
                         34.061371
+                    ],
+                    [
+                        -118.228978,
+                        34.055191
+                    ],
+                    [
+                        -118.229742,
+                        34.054533
                     ]
                 ]
             }
@@ -5954,13 +5970,13 @@
                 "type": "SHIP",
                 "description": "Zeppelin LZ N07-101",
                 "operator": "GOODYEAR TIRE & RUBBER CO",
-                "altitude": 1700,
-                "ground_speed": 55.4,
-                "track": 286.8,
+                "altitude": 1750,
+                "ground_speed": 0.0,
+                "track": 0.0,
                 "squawk": "N/A",
-                "rssi": -8.6,
+                "rssi": -6.6,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-04-11T20:24:03.558805+00:00",
+                "last_seen": "2025-04-11T20:25:02.806226+00:00",
                 "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
                 "category": "B2"
@@ -5995,6 +6011,35 @@
                     [
                         -116.038628,
                         33.681335
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "hex": "AC4597",
+                "flight": "CMD3    ",
+                "type": "EC35",
+                "description": "AIRBUS HELICOPTERS EC-135/635",
+                "operator": "REACH AIR MEDICAL SERVICES LLC",
+                "altitude": 125,
+                "ground_speed": 7.8,
+                "track": 129.81,
+                "squawk": "N/A",
+                "rssi": -15.7,
+                "api_source": "https://api.airplanes.live/v2/hex/",
+                "last_seen": "2025-04-11T20:25:02.806190+00:00",
+                "nav_qnh": 1016.8,
+                "nav_altitude_mcp": 0,
+                "category": "A7"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -121.566348,
+                        39.094391
                     ]
                 ]
             }
