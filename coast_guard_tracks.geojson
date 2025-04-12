@@ -9,13 +9,13 @@
                 "type": "C27J",
                 "description": "ALENIA C-27J Spartan",
                 "operator": "Unknown",
-                "altitude": 0,
-                "ground_speed": 0.0,
-                "track": 0.0,
+                "altitude": 425,
+                "ground_speed": 141.6,
+                "track": 5.27,
                 "squawk": "N/A",
-                "rssi": -32.1,
+                "rssi": -30.6,
                 "api_source": "https://opendata.adsb.fi/api/v2/hex/",
-                "last_seen": "2025-04-12T22:39:02.901201+00:00",
+                "last_seen": "2025-04-12T22:40:02.583963+00:00",
                 "nav_qnh": 1012.8,
                 "nav_altitude_mcp": 416,
                 "category": "A2"
@@ -1706,6 +1706,10 @@
                     [
                         -119.185013,
                         33.903717
+                    ],
+                    [
+                        -119.204178,
+                        33.906322
                     ]
                 ]
             }
@@ -2949,12 +2953,12 @@
                 "description": "Lockheed Martin HC-130J Hercules",
                 "operator": "United States Coast Guard",
                 "altitude": 875,
-                "ground_speed": 208.3,
-                "track": 321.04,
+                "ground_speed": 195.5,
+                "track": 318.32,
                 "squawk": "1277",
-                "rssi": -13.4,
+                "rssi": -16.1,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-04-12T22:39:02.901791+00:00",
+                "last_seen": "2025-04-12T22:40:02.584476+00:00",
                 "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
                 "category": "A3"
@@ -3953,6 +3957,14 @@
                     [
                         -155.899492,
                         19.028367
+                    ],
+                    [
+                        -155.932486,
+                        19.073776
+                    ],
+                    [
+                        -155.933467,
+                        19.074829
                     ]
                 ]
             }
@@ -4410,12 +4422,12 @@
                 "description": "Lockheed Martin HC-130J Hercules",
                 "operator": "Unknown",
                 "altitude": 19000,
-                "ground_speed": 339.9,
-                "track": 130.11,
+                "ground_speed": 340.6,
+                "track": 130.24,
                 "squawk": "1754",
-                "rssi": -23.2,
+                "rssi": -12.8,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-04-12T22:39:02.901802+00:00",
+                "last_seen": "2025-04-12T22:40:02.584507+00:00",
                 "nav_qnh": 1012.8,
                 "nav_altitude_mcp": 0,
                 "category": "A3"
@@ -5122,6 +5134,10 @@
                     [
                         -103.510157,
                         35.151215
+                    ],
+                    [
+                        -103.42226,
+                        35.090099
                     ]
                 ]
             }
@@ -6301,6 +6317,39 @@
                     [
                         -80.261346,
                         25.913956
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "hex": "AE2691",
+                "flight": "C6559   ",
+                "type": "AS65",
+                "description": "Eurocopter MH-65D Dolphin",
+                "operator": "United States Coast Guard",
+                "altitude": "ground",
+                "ground_speed": 0.2,
+                "track": 0.0,
+                "squawk": "1200",
+                "rssi": -22.6,
+                "api_source": "https://api.airplanes.live/v2/hex/",
+                "last_seen": "2025-04-12T22:40:02.584465+00:00",
+                "nav_qnh": 0.0,
+                "nav_altitude_mcp": 0,
+                "category": "A7"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -117.181673,
+                        32.726372
+                    ],
+                    [
+                        -117.181673,
+                        32.726372
                     ]
                 ]
             }
