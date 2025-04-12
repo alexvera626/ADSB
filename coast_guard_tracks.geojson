@@ -10,12 +10,12 @@
                 "description": "ALENIA C-27J Spartan",
                 "operator": "Unknown",
                 "altitude": 425,
-                "ground_speed": 142.4,
-                "track": 85.57,
-                "squawk": "N/A",
-                "rssi": -27.5,
+                "ground_speed": 140.3,
+                "track": 187.78,
+                "squawk": "3213",
+                "rssi": -30.9,
                 "api_source": "https://opendata.adsb.fi/api/v2/hex/",
-                "last_seen": "2025-04-12T22:41:03.380293+00:00",
+                "last_seen": "2025-04-12T22:42:03.370969+00:00",
                 "nav_qnh": 1012.8,
                 "nav_altitude_mcp": 416,
                 "category": "A2"
@@ -23,14 +23,6 @@
             "geometry": {
                 "type": "LineString",
                 "coordinates": [
-                    [
-                        -119.94215,
-                        34.202441
-                    ],
-                    [
-                        -119.94215,
-                        34.202441
-                    ],
                     [
                         -119.888978,
                         34.176498
@@ -1698,6 +1690,10 @@
                     [
                         -119.192963,
                         33.933276
+                    ],
+                    [
+                        -119.182154,
+                        33.902664
                     ]
                 ]
             }
@@ -1724,14 +1720,6 @@
             "geometry": {
                 "type": "LineString",
                 "coordinates": [
-                    [
-                        -121.441856,
-                        37.098921
-                    ],
-                    [
-                        -121.442053,
-                        37.100372
-                    ],
                     [
                         -121.44729,
                         37.129879
@@ -2546,6 +2534,63 @@
         {
             "type": "Feature",
             "properties": {
+                "hex": "AE26B0",
+                "flight": "C6590   ",
+                "type": "AS65",
+                "description": "Eurocopter MH-65D Dolphin",
+                "operator": "United States Coast Guard",
+                "altitude": -125,
+                "ground_speed": 105.9,
+                "track": 190.89,
+                "squawk": "1200",
+                "rssi": -18.5,
+                "api_source": "https://api.airplanes.live/v2/hex/",
+                "last_seen": "2025-04-12T18:48:03.189574+00:00",
+                "nav_qnh": 0.0,
+                "nav_altitude_mcp": 0,
+                "category": "A7"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -124.025705,
+                        44.953674
+                    ],
+                    [
+                        -124.025705,
+                        44.953674
+                    ],
+                    [
+                        -124.028451,
+                        44.927948
+                    ],
+                    [
+                        -124.028451,
+                        44.927948
+                    ],
+                    [
+                        -124.029563,
+                        44.922089
+                    ],
+                    [
+                        -124.029563,
+                        44.922089
+                    ],
+                    [
+                        -124.062783,
+                        44.86496
+                    ],
+                    [
+                        -124.062783,
+                        44.86496
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
                 "hex": "AE2917",
                 "flight": "C6040   ",
                 "type": "H60",
@@ -2565,14 +2610,6 @@
             "geometry": {
                 "type": "LineString",
                 "coordinates": [
-                    [
-                        -119.574394,
-                        34.15426
-                    ],
-                    [
-                        -119.574394,
-                        34.15426
-                    ],
                     [
                         -119.595394,
                         34.178001
@@ -2908,13 +2945,13 @@
                 "type": "C30J",
                 "description": "Lockheed Martin HC-130J Hercules",
                 "operator": "United States Coast Guard",
-                "altitude": 850,
-                "ground_speed": 187.1,
-                "track": 282.03,
+                "altitude": 875,
+                "ground_speed": 186.9,
+                "track": 281.73,
                 "squawk": "1277",
-                "rssi": -3.8,
+                "rssi": -2.6,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-04-12T22:41:03.380869+00:00",
+                "last_seen": "2025-04-12T22:42:03.371564+00:00",
                 "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
                 "category": "A3"
@@ -2922,14 +2959,6 @@
             "geometry": {
                 "type": "LineString",
                 "coordinates": [
-                    [
-                        -158.154449,
-                        21.209898
-                    ],
-                    [
-                        -158.153941,
-                        21.21027
-                    ],
                     [
                         -158.170665,
                         21.155548
@@ -3913,6 +3942,14 @@
                     [
                         -155.983937,
                         19.095216
+                    ],
+                    [
+                        -156.036571,
+                        19.105318
+                    ],
+                    [
+                        -156.037347,
+                        19.105453
                     ]
                 ]
             }
@@ -3940,73 +3977,12 @@
                 "type": "LineString",
                 "coordinates": [
                     [
-                        -123.119226,
-                        48.327461
-                    ],
-                    [
                         -123.159978,
                         48.299973
                     ],
                     [
                         -123.183048,
                         48.284447
-                    ]
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "hex": "AE26B0",
-                "flight": "C6590   ",
-                "type": "AS65",
-                "description": "Eurocopter MH-65D Dolphin",
-                "operator": "United States Coast Guard",
-                "altitude": -125,
-                "ground_speed": 105.9,
-                "track": 190.89,
-                "squawk": "1200",
-                "rssi": -18.5,
-                "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-04-12T18:48:03.189574+00:00",
-                "nav_qnh": 0.0,
-                "nav_altitude_mcp": 0,
-                "category": "A7"
-            },
-            "geometry": {
-                "type": "LineString",
-                "coordinates": [
-                    [
-                        -124.025705,
-                        44.953674
-                    ],
-                    [
-                        -124.025705,
-                        44.953674
-                    ],
-                    [
-                        -124.028451,
-                        44.927948
-                    ],
-                    [
-                        -124.028451,
-                        44.927948
-                    ],
-                    [
-                        -124.029563,
-                        44.922089
-                    ],
-                    [
-                        -124.029563,
-                        44.922089
-                    ],
-                    [
-                        -124.062783,
-                        44.86496
-                    ],
-                    [
-                        -124.062783,
-                        44.86496
                     ]
                 ]
             }
@@ -4365,13 +4341,13 @@
                 "type": "C30J",
                 "description": "Lockheed Martin HC-130J Hercules",
                 "operator": "Unknown",
-                "altitude": 19000,
-                "ground_speed": 341.4,
-                "track": 130.13,
+                "altitude": 19025,
+                "ground_speed": 344.7,
+                "track": 130.53,
                 "squawk": "1754",
-                "rssi": -12.3,
+                "rssi": -11.9,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-04-12T22:41:03.380901+00:00",
+                "last_seen": "2025-04-12T22:42:03.371580+00:00",
                 "nav_qnh": 1012.8,
                 "nav_altitude_mcp": 0,
                 "category": "A3"
@@ -5086,6 +5062,10 @@
                     [
                         -103.333511,
                         35.028278
+                    ],
+                    [
+                        -103.244691,
+                        34.966095
                     ]
                 ]
             }
@@ -6278,12 +6258,12 @@
                 "description": "Eurocopter MH-65D Dolphin",
                 "operator": "United States Coast Guard",
                 "altitude": "ground",
-                "ground_speed": 0.0,
+                "ground_speed": 2.2,
                 "track": 0.0,
                 "squawk": "1200",
-                "rssi": -22.0,
+                "rssi": -18.8,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-04-12T22:41:03.380858+00:00",
+                "last_seen": "2025-04-12T22:42:03.371552+00:00",
                 "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
                 "category": "A7"
@@ -6306,6 +6286,14 @@
                     [
                         -117.181703,
                         32.726386
+                    ],
+                    [
+                        -117.181618,
+                        32.726349
+                    ],
+                    [
+                        -117.181591,
+                        32.726351
                     ]
                 ]
             }
