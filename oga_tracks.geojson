@@ -597,12 +597,12 @@
                 "description": "BELL 412",
                 "operator": "ORANGE COUNTY FIRE AUTHORITY",
                 "altitude": "ground",
-                "ground_speed": 0.3,
+                "ground_speed": 0.0,
                 "track": 0.0,
                 "squawk": "4202",
-                "rssi": -23.0,
+                "rssi": -35.0,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-04-12T17:56:03.032617+00:00",
+                "last_seen": "2025-04-12T17:57:03.337390+00:00",
                 "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
                 "category": "A7"
@@ -1121,6 +1121,14 @@
                     [
                         -117.978478,
                         33.872967
+                    ],
+                    [
+                        -117.978487,
+                        33.872968
+                    ],
+                    [
+                        -117.978487,
+                        33.872968
                     ]
                 ]
             }
@@ -1133,13 +1141,13 @@
                 "type": "AS50",
                 "description": "AEROSPATIALE AS-350 Ecureuil",
                 "operator": "COUNTY OF ORANGE - AIR SUPPORT",
-                "altitude": 600,
-                "ground_speed": 59.9,
-                "track": 75.5,
+                "altitude": 700,
+                "ground_speed": 63.9,
+                "track": 129.92,
                 "squawk": "4204",
-                "rssi": -5.3,
+                "rssi": -5.2,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-04-12T17:56:03.032649+00:00",
+                "last_seen": "2025-04-12T17:57:03.337423+00:00",
                 "nav_qnh": 1016.0,
                 "nav_altitude_mcp": 0,
                 "category": "A7"
@@ -1526,6 +1534,14 @@
                     [
                         -117.979711,
                         33.809647
+                    ],
+                    [
+                        -117.982063,
+                        33.80982
+                    ],
+                    [
+                        -117.981785,
+                        33.809647
                     ]
                 ]
             }
@@ -1539,12 +1555,12 @@
                 "description": "SIKORSKY UH-60 Black Hawk",
                 "operator": "Unknown",
                 "altitude": 200,
-                "ground_speed": 70.5,
-                "track": 235.41,
+                "ground_speed": 72.2,
+                "track": 222.75,
                 "squawk": "7101",
-                "rssi": -28.3,
+                "rssi": -29.4,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-04-12T17:56:03.032629+00:00",
+                "last_seen": "2025-04-12T17:57:03.337409+00:00",
                 "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
                 "category": "A7"
@@ -1783,6 +1799,43 @@
                     [
                         -117.685217,
                         32.707764
+                    ],
+                    [
+                        -117.704885,
+                        32.694614
+                    ],
+                    [
+                        -117.704169,
+                        32.695267
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "hex": "AE4D3F",
+                "flight": "Unknown",
+                "type": "H60",
+                "description": "Unknown",
+                "operator": "Unknown",
+                "altitude": "ground",
+                "ground_speed": 2.8,
+                "track": 0.0,
+                "squawk": "N/A",
+                "rssi": -25.5,
+                "api_source": "https://opendata.adsb.fi/api/v2/hex/",
+                "last_seen": "2025-04-12T17:57:03.336560+00:00",
+                "nav_qnh": 0.0,
+                "nav_altitude_mcp": 0,
+                "category": "Unknown"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -117.208548,
+                        32.712605
                     ]
                 ]
             }
