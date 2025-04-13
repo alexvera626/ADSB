@@ -310,13 +310,13 @@
                 "type": "AS50",
                 "description": "AEROSPATIALE AS-350 Ecureuil",
                 "operator": "COUNTY OF LOS ANGELES",
-                "altitude": 600,
-                "ground_speed": 73.9,
-                "track": 300.03,
+                "altitude": 700,
+                "ground_speed": 70.8,
+                "track": 246.7,
                 "squawk": "1206",
-                "rssi": -17.7,
+                "rssi": -16.1,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-04-13T18:32:03.118235+00:00",
+                "last_seen": "2025-04-13T18:33:03.093354+00:00",
                 "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
                 "category": "A7"
@@ -1183,6 +1183,43 @@
                     [
                         -118.142853,
                         34.025217
+                    ],
+                    [
+                        -118.165855,
+                        34.02936
+                    ],
+                    [
+                        -118.165855,
+                        34.02936
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "hex": "A1588A",
+                "flight": "Unknown",
+                "type": "UH1",
+                "description": "BELL UH-1 Huey",
+                "operator": "ORANGE COUNTY SHERIFFS DEPT",
+                "altitude": "ground",
+                "ground_speed": 0.0,
+                "track": 0.0,
+                "squawk": "N/A",
+                "rssi": -21.3,
+                "api_source": "https://opendata.adsb.fi/api/v2/hex/",
+                "last_seen": "2025-04-13T18:33:03.093237+00:00",
+                "nav_qnh": 0.0,
+                "nav_altitude_mcp": 0,
+                "category": "Unknown"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -117.871614,
+                        33.675353
                     ]
                 ]
             }
