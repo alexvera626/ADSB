@@ -13,9 +13,9 @@
                 "ground_speed": 0.0,
                 "track": 0.0,
                 "squawk": "1206",
-                "rssi": -28.9,
+                "rssi": -30.0,
                 "api_source": "https://opendata.adsb.fi/api/v2/hex/",
-                "last_seen": "2025-04-13T22:03:02.441514+00:00",
+                "last_seen": "2025-04-13T22:04:03.543153+00:00",
                 "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
                 "category": "A7"
@@ -23,14 +23,6 @@
             "geometry": {
                 "type": "LineString",
                 "coordinates": [
-                    [
-                        -118.168441,
-                        34.030014
-                    ],
-                    [
-                        -118.168441,
-                        34.030014
-                    ],
                     [
                         -118.171692,
                         34.00177
@@ -810,6 +802,10 @@
                     [
                         -118.168343,
                         34.050705
+                    ],
+                    [
+                        -118.168343,
+                        34.050694
                     ]
                 ]
             }
@@ -1151,13 +1147,13 @@
                 "type": "SHIP",
                 "description": "Zeppelin LZ N07-101",
                 "operator": "GOODYEAR TIRE & RUBBER CO",
-                "altitude": 2125,
-                "ground_speed": 28.1,
-                "track": 184.09,
+                "altitude": 2000,
+                "ground_speed": 24.5,
+                "track": 101.77,
                 "squawk": "N/A",
-                "rssi": -9.0,
+                "rssi": -7.1,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-04-13T22:03:02.441572+00:00",
+                "last_seen": "2025-04-13T22:04:03.543254+00:00",
                 "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
                 "category": "B2"
@@ -1628,6 +1624,39 @@
                     [
                         -116.252632,
                         33.676447
+                    ],
+                    [
+                        -116.249485,
+                        33.671513
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "hex": "A17E8E",
+                "flight": "N196B   ",
+                "type": "B350",
+                "description": "BEECHCRAFT Super King Air 350",
+                "operator": "DEPARTMENT OF HOMELAND SECURITY",
+                "altitude": 225,
+                "ground_speed": 146.2,
+                "track": 182.74,
+                "squawk": "4406",
+                "rssi": -4.7,
+                "api_source": "https://opendata.adsb.fi/api/v2/hex/",
+                "last_seen": "2025-04-13T22:04:03.543172+00:00",
+                "nav_qnh": 1018.4,
+                "nav_altitude_mcp": 17504,
+                "category": "A2"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -90.419458,
+                        30.507869
                     ]
                 ]
             }
