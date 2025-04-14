@@ -9,13 +9,13 @@
                 "type": "H60",
                 "description": "Sikorsky MH-60T Jayhawk",
                 "operator": "United States Coast Guard",
-                "altitude": 1500,
-                "ground_speed": 83.2,
-                "track": 237.26,
+                "altitude": 1050,
+                "ground_speed": 84.4,
+                "track": 238.57,
                 "squawk": "0227",
-                "rssi": -2.1,
+                "rssi": -2.0,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-04-14T13:00:03.607759+00:00",
+                "last_seen": "2025-04-14T13:01:02.475870+00:00",
                 "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
                 "category": "A7"
@@ -322,6 +322,10 @@
                     [
                         -76.399569,
                         37.176407
+                    ],
+                    [
+                        -76.424003,
+                        37.164048
                     ]
                 ]
             }
@@ -334,13 +338,13 @@
                 "type": "AS65",
                 "description": "Eurocopter MH-65D Dolphin",
                 "operator": "United States Coast Guard",
-                "altitude": 475,
-                "ground_speed": 126.6,
-                "track": 260.91,
+                "altitude": 525,
+                "ground_speed": 127.4,
+                "track": 261.42,
                 "squawk": "4433",
-                "rssi": -11.2,
+                "rssi": -8.0,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-04-14T13:00:03.607748+00:00",
+                "last_seen": "2025-04-14T13:01:02.475860+00:00",
                 "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
                 "category": "A7"
@@ -555,6 +559,14 @@
                     [
                         -75.659558,
                         39.278091
+                    ],
+                    [
+                        -75.70343,
+                        39.272957
+                    ],
+                    [
+                        -75.703861,
+                        39.272919
                     ]
                 ]
             }
@@ -566,14 +578,14 @@
                 "flight": "Unknown",
                 "type": "AS65",
                 "description": "Eurocopter MH-65D Dolphin",
-                "operator": "United States Coast Guard",
+                "operator": "Unknown",
                 "altitude": 0,
                 "ground_speed": 0.0,
                 "track": 0.0,
                 "squawk": "N/A",
-                "rssi": -28.1,
-                "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-04-14T12:55:03.129516+00:00",
+                "rssi": -25.3,
+                "api_source": "https://opendata.adsb.fi/api/v2/hex/",
+                "last_seen": "2025-04-14T13:01:02.475263+00:00",
                 "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
                 "category": "A7"
@@ -655,18 +667,51 @@
         {
             "type": "Feature",
             "properties": {
+                "hex": "AE26AE",
+                "flight": "C6588   ",
+                "type": "AS65",
+                "description": "Eurocopter MH-65D Dolphin",
+                "operator": "United States Coast Guard",
+                "altitude": 1250,
+                "ground_speed": 73.4,
+                "track": 342.55,
+                "squawk": "4422",
+                "rssi": -13.8,
+                "api_source": "https://api.airplanes.live/v2/hex/",
+                "last_seen": "2025-04-14T13:01:02.475838+00:00",
+                "nav_qnh": 0.0,
+                "nav_altitude_mcp": 0,
+                "category": "A7"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -82.839405,
+                        42.642362
+                    ],
+                    [
+                        -82.839405,
+                        42.642362
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
                 "hex": "AE26A5",
                 "flight": "C6579   ",
                 "type": "AS65",
                 "description": "Eurocopter MH-65D Dolphin",
                 "operator": "United States Coast Guard",
-                "altitude": 225,
-                "ground_speed": 63.0,
-                "track": 79.94,
+                "altitude": 1075,
+                "ground_speed": 67.9,
+                "track": 80.68,
                 "squawk": "4670",
-                "rssi": -18.0,
+                "rssi": -13.0,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-04-14T13:00:03.607733+00:00",
+                "last_seen": "2025-04-14T13:01:02.475828+00:00",
                 "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
                 "category": "A7"
@@ -681,6 +726,14 @@
                     [
                         -80.266166,
                         25.902689
+                    ],
+                    [
+                        -80.246369,
+                        25.905716
+                    ],
+                    [
+                        -80.246369,
+                        25.905716
                     ]
                 ]
             }
