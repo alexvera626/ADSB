@@ -9,13 +9,13 @@
                 "type": "AS50",
                 "description": "AEROSPATIALE AS-350 Ecureuil",
                 "operator": "COUNTY OF ORANGE - AIR SUPPORT",
-                "altitude": "ground",
+                "altitude": 0,
                 "ground_speed": 0.0,
                 "track": 0.0,
                 "squawk": "4204",
-                "rssi": -25.7,
+                "rssi": -26.8,
                 "api_source": "https://opendata.adsb.fi/api/v2/hex/",
-                "last_seen": "2025-04-15T14:30:02.928196+00:00",
+                "last_seen": "2025-04-15T16:28:02.695053+00:00",
                 "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
                 "category": "A7"
@@ -214,6 +214,39 @@
                     [
                         -117.871642,
                         33.675121
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "hex": "AD60D8",
+                "flight": "N961LA  ",
+                "type": "AS50",
+                "description": "AEROSPATIALE AS-350 Ecureuil",
+                "operator": "COUNTY OF LOS ANGELES",
+                "altitude": 300,
+                "ground_speed": 100.3,
+                "track": 355.43,
+                "squawk": "1206",
+                "rssi": -13.3,
+                "api_source": "https://api.airplanes.live/v2/hex/",
+                "last_seen": "2025-04-15T16:28:02.695273+00:00",
+                "nav_qnh": 0.0,
+                "nav_altitude_mcp": 0,
+                "category": "A7"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -118.149204,
+                        33.829046
+                    ],
+                    [
+                        -118.149204,
+                        33.829046
                     ]
                 ]
             }
