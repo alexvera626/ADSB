@@ -24,10 +24,6 @@
                 "type": "LineString",
                 "coordinates": [
                     [
-                        -81.883466,
-                        30.361044
-                    ],
-                    [
                         -81.884335,
                         30.362869
                     ],
@@ -846,17 +842,17 @@
             "type": "Feature",
             "properties": {
                 "hex": "AE2684",
-                "flight": "C6543   ",
+                "flight": "Unknown",
                 "type": "AS65",
                 "description": "Eurocopter MH-65D Dolphin",
                 "operator": "Unknown",
-                "altitude": 525,
-                "ground_speed": 0.0,
+                "altitude": "ground",
+                "ground_speed": 2.2,
                 "track": 0.0,
                 "squawk": "N/A",
-                "rssi": -26.9,
-                "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-04-18T02:33:03.227226+00:00",
+                "rssi": -31.6,
+                "api_source": "https://opendata.adsb.fi/api/v2/hex/",
+                "last_seen": "2025-04-18T02:37:02.782879+00:00",
                 "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
                 "category": "A7"
@@ -864,14 +860,6 @@
             "geometry": {
                 "type": "LineString",
                 "coordinates": [
-                    [
-                        -82.840972,
-                        42.612122
-                    ],
-                    [
-                        -82.841034,
-                        42.611572
-                    ],
                     [
                         -82.843156,
                         42.586075
@@ -2411,6 +2399,10 @@
                     [
                         -82.840347,
                         42.6259
+                    ],
+                    [
+                        -82.844467,
+                        42.625999
                     ]
                 ]
             }
@@ -2437,14 +2429,6 @@
             "geometry": {
                 "type": "LineString",
                 "coordinates": [
-                    [
-                        -81.29867,
-                        29.182388
-                    ],
-                    [
-                        -81.29867,
-                        29.182388
-                    ],
                     [
                         -81.298247,
                         29.210541
@@ -3035,14 +3019,6 @@
                 "type": "LineString",
                 "coordinates": [
                     [
-                        -122.177707,
-                        40.087901
-                    ],
-                    [
-                        -122.177707,
-                        40.087901
-                    ],
-                    [
                         -122.206848,
                         40.11557
                     ],
@@ -3528,99 +3504,6 @@
         {
             "type": "Feature",
             "properties": {
-                "hex": "AE2917",
-                "flight": "C6040   ",
-                "type": "H60",
-                "description": "Sikorsky MH-60T Jayhawk",
-                "operator": "United States Coast Guard",
-                "altitude": "ground",
-                "ground_speed": 2.2,
-                "track": 0.0,
-                "squawk": "1200",
-                "rssi": -21.7,
-                "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-04-17T22:44:02.923171+00:00",
-                "nav_qnh": 0.0,
-                "nav_altitude_mcp": 0,
-                "category": "A7"
-            },
-            "geometry": {
-                "type": "LineString",
-                "coordinates": [
-                    [
-                        -117.207712,
-                        32.69245
-                    ],
-                    [
-                        -117.207922,
-                        32.692496
-                    ],
-                    [
-                        -117.207137,
-                        32.692345
-                    ],
-                    [
-                        -117.206763,
-                        32.692291
-                    ],
-                    [
-                        -117.206818,
-                        32.692291
-                    ],
-                    [
-                        -117.211871,
-                        32.704788
-                    ],
-                    [
-                        -117.211871,
-                        32.704788
-                    ],
-                    [
-                        -117.193348,
-                        32.716727
-                    ],
-                    [
-                        -117.19281,
-                        32.716736
-                    ],
-                    [
-                        -117.175299,
-                        32.72599
-                    ],
-                    [
-                        -117.175748,
-                        32.726316
-                    ],
-                    [
-                        -117.180835,
-                        32.726303
-                    ],
-                    [
-                        -117.180835,
-                        32.726303
-                    ],
-                    [
-                        -117.181087,
-                        32.726735
-                    ],
-                    [
-                        -117.181087,
-                        32.726735
-                    ],
-                    [
-                        -117.181087,
-                        32.726968
-                    ],
-                    [
-                        -117.181087,
-                        32.726968
-                    ]
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
                 "hex": "AE270A",
                 "flight": "C2312   ",
                 "type": "CN35",
@@ -3931,6 +3814,91 @@
                     [
                         -88.261787,
                         30.711731
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "hex": "AE2917",
+                "flight": "C6040   ",
+                "type": "H60",
+                "description": "Sikorsky MH-60T Jayhawk",
+                "operator": "United States Coast Guard",
+                "altitude": "ground",
+                "ground_speed": 2.2,
+                "track": 0.0,
+                "squawk": "1200",
+                "rssi": -21.7,
+                "api_source": "https://api.airplanes.live/v2/hex/",
+                "last_seen": "2025-04-17T22:44:02.923171+00:00",
+                "nav_qnh": 0.0,
+                "nav_altitude_mcp": 0,
+                "category": "A7"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -117.207137,
+                        32.692345
+                    ],
+                    [
+                        -117.206763,
+                        32.692291
+                    ],
+                    [
+                        -117.206818,
+                        32.692291
+                    ],
+                    [
+                        -117.211871,
+                        32.704788
+                    ],
+                    [
+                        -117.211871,
+                        32.704788
+                    ],
+                    [
+                        -117.193348,
+                        32.716727
+                    ],
+                    [
+                        -117.19281,
+                        32.716736
+                    ],
+                    [
+                        -117.175299,
+                        32.72599
+                    ],
+                    [
+                        -117.175748,
+                        32.726316
+                    ],
+                    [
+                        -117.180835,
+                        32.726303
+                    ],
+                    [
+                        -117.180835,
+                        32.726303
+                    ],
+                    [
+                        -117.181087,
+                        32.726735
+                    ],
+                    [
+                        -117.181087,
+                        32.726735
+                    ],
+                    [
+                        -117.181087,
+                        32.726968
+                    ],
+                    [
+                        -117.181087,
+                        32.726968
                     ]
                 ]
             }
@@ -12662,12 +12630,12 @@
                 "description": "Alenia C-27J Spartan",
                 "operator": "Unknown",
                 "altitude": 22000,
-                "ground_speed": 276.2,
-                "track": 337.43,
+                "ground_speed": 278.4,
+                "track": 337.4,
                 "squawk": "1310",
-                "rssi": -5.4,
+                "rssi": -7.4,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-04-18T02:36:02.639290+00:00",
+                "last_seen": "2025-04-18T02:37:02.783049+00:00",
                 "nav_qnh": 1013.6,
                 "nav_altitude_mcp": 22016,
                 "category": "A2"
@@ -13906,6 +13874,14 @@
                     [
                         -118.631044,
                         34.337769
+                    ],
+                    [
+                        -118.666592,
+                        34.40904
+                    ],
+                    [
+                        -118.666592,
+                        34.40904
                     ]
                 ]
             }
@@ -16166,12 +16142,12 @@
                 "description": "Eurocopter MH-65D Dolphin",
                 "operator": "United States Coast Guard",
                 "altitude": 1050,
-                "ground_speed": 106.4,
-                "track": 350.8,
+                "ground_speed": 104.8,
+                "track": 352.87,
                 "squawk": "1200",
-                "rssi": -29.1,
+                "rssi": -27.8,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-04-18T02:36:02.639311+00:00",
+                "last_seen": "2025-04-18T02:37:02.783070+00:00",
                 "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
                 "category": "A7"
@@ -16766,6 +16742,14 @@
                     [
                         -88.275586,
                         30.545065
+                    ],
+                    [
+                        -88.280145,
+                        30.573275
+                    ],
+                    [
+                        -88.27994,
+                        30.571793
                     ]
                 ]
             }
@@ -17068,13 +17052,13 @@
                 "type": "AS65",
                 "description": "Eurocopter MH-65D Dolphin",
                 "operator": "United States Coast Guard",
-                "altitude": 500,
-                "ground_speed": 108.7,
-                "track": 63.2,
+                "altitude": 425,
+                "ground_speed": 102.6,
+                "track": 29.81,
                 "squawk": "1200",
-                "rssi": -23.8,
+                "rssi": -23.4,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-04-18T02:36:02.639301+00:00",
+                "last_seen": "2025-04-18T02:37:02.783060+00:00",
                 "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
                 "category": "A7"
@@ -17241,6 +17225,14 @@
                     [
                         -122.3486,
                         38.036545
+                    ],
+                    [
+                        -122.315408,
+                        38.050735
+                    ],
+                    [
+                        -122.315232,
+                        38.050964
                     ]
                 ]
             }
