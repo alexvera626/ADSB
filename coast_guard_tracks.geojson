@@ -24,14 +24,6 @@
                 "type": "LineString",
                 "coordinates": [
                     [
-                        -118.631044,
-                        34.337769
-                    ],
-                    [
-                        -118.631044,
-                        34.337769
-                    ],
-                    [
                         -118.666592,
                         34.40904
                     ],
@@ -661,6 +653,35 @@
         {
             "type": "Feature",
             "properties": {
+                "hex": "AE2684",
+                "flight": "Unknown",
+                "type": "AS65",
+                "description": "Eurocopter MH-65D Dolphin",
+                "operator": "Unknown",
+                "altitude": "ground",
+                "ground_speed": 2.2,
+                "track": 0.0,
+                "squawk": "N/A",
+                "rssi": -31.6,
+                "api_source": "https://opendata.adsb.fi/api/v2/hex/",
+                "last_seen": "2025-04-18T02:37:02.782879+00:00",
+                "nav_qnh": 0.0,
+                "nav_altitude_mcp": 0,
+                "category": "A7"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -82.844467,
+                        42.625999
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
                 "hex": "AE2694",
                 "flight": "C6562   ",
                 "type": "AS65",
@@ -680,14 +701,6 @@
             "geometry": {
                 "type": "LineString",
                 "coordinates": [
-                    [
-                        -122.3486,
-                        38.036545
-                    ],
-                    [
-                        -122.3486,
-                        38.036545
-                    ],
                     [
                         -122.315408,
                         38.050735
@@ -1178,14 +1191,6 @@
                 "type": "LineString",
                 "coordinates": [
                     [
-                        -88.275586,
-                        30.545065
-                    ],
-                    [
-                        -88.275586,
-                        30.545065
-                    ],
-                    [
                         -88.280145,
                         30.573275
                     ],
@@ -1232,108 +1237,6 @@
                     [
                         -88.258075,
                         30.692505
-                    ]
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "hex": "AE2BF1",
-                "flight": "Unknown",
-                "type": "H60",
-                "description": "SIKORSKY UH-60 Black Hawk",
-                "operator": "United States Navy",
-                "altitude": 950,
-                "ground_speed": 96.2,
-                "track": 69.3,
-                "squawk": "1200",
-                "rssi": -16.0,
-                "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-04-18T04:46:02.940829+00:00",
-                "nav_qnh": 0.0,
-                "nav_altitude_mcp": 0,
-                "category": "Unknown"
-            },
-            "geometry": {
-                "type": "LineString",
-                "coordinates": [
-                    [
-                        -157.790375,
-                        21.44345
-                    ],
-                    [
-                        -157.78894,
-                        21.441467
-                    ],
-                    [
-                        -157.78894,
-                        21.441467
-                    ],
-                    [
-                        -157.78478,
-                        21.437538
-                    ],
-                    [
-                        -157.78478,
-                        21.437538
-                    ],
-                    [
-                        -158.117574,
-                        21.594233
-                    ],
-                    [
-                        -158.107744,
-                        21.578796
-                    ],
-                    [
-                        -158.061829,
-                        21.506296
-                    ],
-                    [
-                        -158.059454,
-                        21.475067
-                    ],
-                    [
-                        -158.065033,
-                        21.486511
-                    ],
-                    [
-                        -158.040228,
-                        21.480652
-                    ],
-                    [
-                        -158.049566,
-                        21.477219
-                    ]
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "hex": "AE2684",
-                "flight": "Unknown",
-                "type": "AS65",
-                "description": "Eurocopter MH-65D Dolphin",
-                "operator": "Unknown",
-                "altitude": "ground",
-                "ground_speed": 2.2,
-                "track": 0.0,
-                "squawk": "N/A",
-                "rssi": -31.6,
-                "api_source": "https://opendata.adsb.fi/api/v2/hex/",
-                "last_seen": "2025-04-18T02:37:02.782879+00:00",
-                "nav_qnh": 0.0,
-                "nav_altitude_mcp": 0,
-                "category": "A7"
-            },
-            "geometry": {
-                "type": "LineString",
-                "coordinates": [
-                    [
-                        -82.844467,
-                        42.625999
                     ]
                 ]
             }
@@ -2200,6 +2103,79 @@
                     [
                         -122.389185,
                         37.632866
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "hex": "AE2BF1",
+                "flight": "Unknown",
+                "type": "H60",
+                "description": "SIKORSKY UH-60 Black Hawk",
+                "operator": "United States Navy",
+                "altitude": 950,
+                "ground_speed": 96.2,
+                "track": 69.3,
+                "squawk": "1200",
+                "rssi": -16.0,
+                "api_source": "https://api.airplanes.live/v2/hex/",
+                "last_seen": "2025-04-18T04:46:02.940829+00:00",
+                "nav_qnh": 0.0,
+                "nav_altitude_mcp": 0,
+                "category": "Unknown"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -157.790375,
+                        21.44345
+                    ],
+                    [
+                        -157.78894,
+                        21.441467
+                    ],
+                    [
+                        -157.78894,
+                        21.441467
+                    ],
+                    [
+                        -157.78478,
+                        21.437538
+                    ],
+                    [
+                        -157.78478,
+                        21.437538
+                    ],
+                    [
+                        -158.117574,
+                        21.594233
+                    ],
+                    [
+                        -158.107744,
+                        21.578796
+                    ],
+                    [
+                        -158.061829,
+                        21.506296
+                    ],
+                    [
+                        -158.059454,
+                        21.475067
+                    ],
+                    [
+                        -158.065033,
+                        21.486511
+                    ],
+                    [
+                        -158.040228,
+                        21.480652
+                    ],
+                    [
+                        -158.049566,
+                        21.477219
                     ]
                 ]
             }
@@ -5022,12 +4998,12 @@
                 "description": "Eurocopter MH-65D Dolphin",
                 "operator": "United States Coast Guard",
                 "altitude": "ground",
-                "ground_speed": 2.2,
+                "ground_speed": 6.2,
                 "track": 0.0,
-                "squawk": "N/A",
-                "rssi": -20.9,
+                "squawk": "1200",
+                "rssi": -17.5,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-04-18T06:17:03.327926+00:00",
+                "last_seen": "2025-04-18T06:36:03.643522+00:00",
                 "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
                 "category": "A7"
@@ -5130,6 +5106,10 @@
                     [
                         -158.071089,
                         21.301197
+                    ],
+                    [
+                        -158.071664,
+                        21.301025
                     ]
                 ]
             }
