@@ -9,13 +9,13 @@
                 "type": "AS50",
                 "description": "AEROSPATIALE AS-350 Ecureuil",
                 "operator": "COUNTY OF LOS ANGELES",
-                "altitude": 300,
-                "ground_speed": 53.8,
-                "track": 9.64,
+                "altitude": 500,
+                "ground_speed": 78.1,
+                "track": 71.33,
                 "squawk": "1206",
-                "rssi": -9.9,
+                "rssi": -6.0,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-04-19T09:02:02.610267+00:00",
+                "last_seen": "2025-04-19T09:03:03.623099+00:00",
                 "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
                 "category": "A7"
@@ -23,22 +23,6 @@
             "geometry": {
                 "type": "LineString",
                 "coordinates": [
-                    [
-                        -118.237438,
-                        34.055615
-                    ],
-                    [
-                        -118.237667,
-                        34.055662
-                    ],
-                    [
-                        -118.245625,
-                        34.051392
-                    ],
-                    [
-                        -118.245625,
-                        34.051392
-                    ],
                     [
                         -118.251231,
                         34.048279
@@ -830,6 +814,14 @@
                     [
                         -118.282956,
                         33.892868
+                    ],
+                    [
+                        -118.270626,
+                        33.898129
+                    ],
+                    [
+                        -118.270054,
+                        33.898269
                     ]
                 ]
             }
@@ -4640,6 +4632,35 @@
                     [
                         -123.201538,
                         39.414244
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "hex": "A385E3",
+                "flight": "Unknown",
+                "type": "AS50",
+                "description": "AEROSPATIALE AS-350 Ecureuil",
+                "operator": "CITY OF ANAHEIM",
+                "altitude": "ground",
+                "ground_speed": 0.0,
+                "track": 0.0,
+                "squawk": "N/A",
+                "rssi": -33.2,
+                "api_source": "https://api.airplanes.live/v2/hex/",
+                "last_seen": "2025-04-19T09:03:03.623081+00:00",
+                "nav_qnh": 0.0,
+                "nav_altitude_mcp": 0,
+                "category": "Unknown"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -117.982793,
+                        33.872514
                     ]
                 ]
             }
