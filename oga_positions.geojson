@@ -10,12 +10,12 @@
                 "description": "AEROSPATIALE AS-350 Ecureuil",
                 "operator": "CITY OF ANAHEIM",
                 "altitude": "ground",
-                "ground_speed": 0.8,
-                "track": 348.75,
+                "ground_speed": 0.0,
+                "track": 0.0,
                 "squawk": "N/A",
                 "rssi": null,
-                "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-04-19T10:05:02.386217+00:00",
+                "api_source": "https://opendata.adsb.fi/api/v2/hex/",
+                "last_seen": "2025-04-19T10:06:03.402868+00:00",
                 "nav_qnh": null,
                 "nav_altitude_mcp": null,
                 "category": "A7"
@@ -23,8 +23,35 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -117.983187,
-                    33.872269
+                    -117.983208,
+                    33.872281
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "hex": "AC4597",
+                "flight": "CMD3    ",
+                "type": "EC35",
+                "description": "AIRBUS HELICOPTERS EC-135/635",
+                "operator": "REACH AIR MEDICAL SERVICES LLC",
+                "altitude": 5400,
+                "ground_speed": 119.2,
+                "track": 168.88,
+                "squawk": "4246",
+                "rssi": null,
+                "api_source": "https://opendata.adsb.fi/api/v2/hex/",
+                "last_seen": "2025-04-19T10:06:03.402829+00:00",
+                "nav_qnh": null,
+                "nav_altitude_mcp": null,
+                "category": "A7"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -123.282043,
+                    39.274401
                 ]
             }
         },
