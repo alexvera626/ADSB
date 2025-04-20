@@ -9,13 +9,13 @@
                 "type": "AS50",
                 "description": "AEROSPATIALE AS-350 Ecureuil",
                 "operator": "ORANGE COUNTY SHERIFF'S DEPARTMENT",
-                "altitude": 0,
-                "ground_speed": 38.5,
-                "track": 207.9,
+                "altitude": "ground",
+                "ground_speed": 0.1,
+                "track": 0.0,
                 "squawk": "4204",
                 "rssi": null,
-                "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-04-20T02:43:03.303142+00:00",
+                "api_source": "https://opendata.adsb.fi/api/v2/hex/",
+                "last_seen": "2025-04-20T02:44:03.569262+00:00",
                 "nav_qnh": null,
                 "nav_altitude_mcp": null,
                 "category": "A7"
@@ -23,8 +23,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -117.86996,
-                    33.6763
+                    -117.871571,
+                    33.675435
                 ]
             }
         },
@@ -36,13 +36,13 @@
                 "type": "B06",
                 "description": "BELL 206 JetRanger",
                 "operator": "PASADENA POLICE DEPARTMENT",
-                "altitude": 2100,
-                "ground_speed": 65.1,
-                "track": 183.52,
+                "altitude": 2200,
+                "ground_speed": 60.6,
+                "track": 37.63,
                 "squawk": "1200",
                 "rssi": null,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-04-20T02:43:03.303163+00:00",
+                "last_seen": "2025-04-20T02:44:03.569365+00:00",
                 "nav_qnh": null,
                 "nav_altitude_mcp": null,
                 "category": "A7"
@@ -50,8 +50,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -118.172722,
-                    34.138618
+                    -118.161392,
+                    34.134428
                 ]
             }
         },
@@ -63,13 +63,13 @@
                 "type": "SHIP",
                 "description": "Zeppelin LZ N07-101",
                 "operator": "GOODYEAR TIRE & RUBBER CO",
-                "altitude": 3175,
-                "ground_speed": 8.1,
-                "track": 150.26,
+                "altitude": 3250,
+                "ground_speed": 18.0,
+                "track": 199.44,
                 "squawk": "4244",
                 "rssi": null,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-04-20T02:43:03.303153+00:00",
+                "last_seen": "2025-04-20T02:44:03.569355+00:00",
                 "nav_qnh": null,
                 "nav_altitude_mcp": null,
                 "category": "B2"
@@ -77,8 +77,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -115.190277,
-                    36.1008
+                    -115.19165,
+                    36.096954
                 ]
             }
         },
@@ -90,13 +90,13 @@
                 "type": "B407",
                 "description": "BELL 407",
                 "operator": "SAN DIEGO COUNTY SHERIFF DEPT",
-                "altitude": 2025,
-                "ground_speed": 78.1,
-                "track": 177.8,
+                "altitude": 2075,
+                "ground_speed": 82.5,
+                "track": 186.26,
                 "squawk": "4267",
                 "rssi": null,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-04-20T02:43:03.303132+00:00",
+                "last_seen": "2025-04-20T02:44:03.569345+00:00",
                 "nav_qnh": null,
                 "nav_altitude_mcp": null,
                 "category": "A7"
@@ -104,8 +104,35 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -116.875025,
+                    -116.875698,
                     33.05046
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "hex": "AE4F4D",
+                "flight": "Unknown",
+                "type": "H60",
+                "description": "Unknown",
+                "operator": "Unknown",
+                "altitude": -100,
+                "ground_speed": 4.3,
+                "track": 315.0,
+                "squawk": "1200",
+                "rssi": null,
+                "api_source": "https://opendata.adsb.fi/api/v2/hex/",
+                "last_seen": "2025-04-20T02:44:03.569242+00:00",
+                "nav_qnh": null,
+                "nav_altitude_mcp": null,
+                "category": "A7"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -117.803705,
+                    32.704742
                 ]
             }
         }
