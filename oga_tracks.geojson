@@ -1402,13 +1402,13 @@
                 "type": "B350",
                 "description": "BEECHCRAFT Super King Air 350",
                 "operator": "DEPARTMENT OF HOMELAND SECURITY",
-                "altitude": 12800,
-                "ground_speed": 215.1,
-                "track": 70.72,
+                "altitude": 14275,
+                "ground_speed": 229.6,
+                "track": 70.93,
                 "squawk": "2125",
-                "rssi": -15.7,
+                "rssi": -10.4,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-04-21T14:32:03.393462+00:00",
+                "last_seen": "2025-04-21T14:33:03.079710+00:00",
                 "nav_qnh": 1024.0,
                 "nav_altitude_mcp": 15008,
                 "category": "A2"
@@ -2319,6 +2319,14 @@
                     [
                         -77.145877,
                         39.309448
+                    ],
+                    [
+                        -77.072077,
+                        39.329132
+                    ],
+                    [
+                        -77.072077,
+                        39.329132
                     ]
                 ]
             }
@@ -2331,13 +2339,13 @@
                 "type": "AS50",
                 "description": "AEROSPATIALE AS-350 Ecureuil",
                 "operator": "TINY BUBBLES AVIATION INC",
-                "altitude": 1775,
-                "ground_speed": 101.0,
-                "track": 146.31,
+                "altitude": 1600,
+                "ground_speed": 104.3,
+                "track": 147.53,
                 "squawk": "1200",
-                "rssi": -10.0,
+                "rssi": -6.9,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-04-21T14:32:03.393491+00:00",
+                "last_seen": "2025-04-21T14:33:03.079756+00:00",
                 "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
                 "category": "A7"
@@ -3108,6 +3116,72 @@
                     [
                         -118.277378,
                         34.144251
+                    ],
+                    [
+                        -118.260155,
+                        34.119578
+                    ],
+                    [
+                        -118.260155,
+                        34.119578
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "hex": "A1D898",
+                "flight": "TROY327 ",
+                "type": "B350",
+                "description": "BEECHCRAFT Super King Air 350",
+                "operator": "DEPARTMENT OF HOMELAND SECURITY",
+                "altitude": "ground",
+                "ground_speed": 0.1,
+                "track": 106.88,
+                "squawk": "4403",
+                "rssi": -9.3,
+                "api_source": "https://opendata.adsb.fi/api/v2/hex/",
+                "last_seen": "2025-04-21T14:33:03.079465+00:00",
+                "nav_qnh": 0.0,
+                "nav_altitude_mcp": 0,
+                "category": "A2"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -117.209491,
+                        32.701748
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "hex": "ADDF5C",
+                "flight": "Unknown",
+                "type": "AS50",
+                "description": "AEROSPATIALE AS-350 Ecureuil",
+                "operator": "COUNTY OF RIVERSIDE CALIFORNIA",
+                "altitude": 1925,
+                "ground_speed": 77.2,
+                "track": 198.9,
+                "squawk": "N/A",
+                "rssi": -23.6,
+                "api_source": "https://api.airplanes.live/v2/hex/",
+                "last_seen": "2025-04-21T14:33:03.079688+00:00",
+                "nav_qnh": 0.0,
+                "nav_altitude_mcp": 0,
+                "category": "Unknown"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -117.133312,
+                        33.5927
                     ]
                 ]
             }
