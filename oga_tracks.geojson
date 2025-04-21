@@ -24,22 +24,6 @@
                 "type": "LineString",
                 "coordinates": [
                     [
-                        -118.686161,
-                        34.23959
-                    ],
-                    [
-                        -118.686144,
-                        34.239624
-                    ],
-                    [
-                        -118.685022,
-                        34.240631
-                    ],
-                    [
-                        -118.685022,
-                        34.240631
-                    ],
-                    [
                         -118.683872,
                         34.242011
                     ],
@@ -452,22 +436,6 @@
             "geometry": {
                 "type": "LineString",
                 "coordinates": [
-                    [
-                        -117.889915,
-                        33.803787
-                    ],
-                    [
-                        -117.889915,
-                        33.803787
-                    ],
-                    [
-                        -117.87077,
-                        33.796366
-                    ],
-                    [
-                        -117.87077,
-                        33.796366
-                    ],
                     [
                         -117.880039,
                         33.797716
@@ -966,22 +934,6 @@
                 "type": "LineString",
                 "coordinates": [
                     [
-                        -117.167508,
-                        33.691177
-                    ],
-                    [
-                        -117.167508,
-                        33.691177
-                    ],
-                    [
-                        -117.134885,
-                        33.694839
-                    ],
-                    [
-                        -117.134885,
-                        33.694839
-                    ],
-                    [
                         -117.101422,
                         33.698593
                     ],
@@ -1004,96 +956,6 @@
                     [
                         -117.03825,
                         33.722305
-                    ]
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "hex": "A31AA0",
-                "flight": "N3A     ",
-                "type": "SHIP",
-                "description": "Zeppelin LZ N07-101",
-                "operator": "GOODYEAR TIRE & RUBBER CO",
-                "altitude": 2675,
-                "ground_speed": 40.0,
-                "track": 173.6,
-                "squawk": "N/A",
-                "rssi": -49.5,
-                "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-04-21T19:39:03.323088+00:00",
-                "nav_qnh": 0.0,
-                "nav_altitude_mcp": 0,
-                "category": "Unknown"
-            },
-            "geometry": {
-                "type": "LineString",
-                "coordinates": [
-                    [
-                        -114.638428,
-                        35.02338
-                    ],
-                    [
-                        -114.636391,
-                        35.01025
-                    ],
-                    [
-                        -114.634201,
-                        34.998901
-                    ],
-                    [
-                        -114.63105,
-                        34.984779
-                    ],
-                    [
-                        -114.627533,
-                        34.973091
-                    ],
-                    [
-                        -114.626877,
-                        34.967918
-                    ]
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "hex": "A38627",
-                "flight": "REH81   ",
-                "type": "EC35",
-                "description": "AIRBUS HELICOPTERS EC-135/635",
-                "operator": "REACH AIR MEDICAL SERVICES LLC",
-                "altitude": "ground",
-                "ground_speed": 0.1,
-                "track": 0.0,
-                "squawk": "1200",
-                "rssi": -18.5,
-                "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-04-21T19:35:02.537409+00:00",
-                "nav_qnh": 0.0,
-                "nav_altitude_mcp": 0,
-                "category": "A7"
-            },
-            "geometry": {
-                "type": "LineString",
-                "coordinates": [
-                    [
-                        -121.393224,
-                        38.657375
-                    ],
-                    [
-                        -121.393224,
-                        38.657375
-                    ],
-                    [
-                        -121.393119,
-                        38.656769
-                    ],
-                    [
-                        -121.393119,
-                        38.656769
                     ]
                 ]
             }
@@ -1120,10 +982,6 @@
             "geometry": {
                 "type": "LineString",
                 "coordinates": [
-                    [
-                        -122.542949,
-                        48.758535
-                    ],
                     [
                         -122.561236,
                         48.712774
@@ -1718,6 +1576,47 @@
         {
             "type": "Feature",
             "properties": {
+                "hex": "A31AA0",
+                "flight": "N3A     ",
+                "type": "SHIP",
+                "description": "Zeppelin LZ N07-101",
+                "operator": "GOODYEAR TIRE & RUBBER CO",
+                "altitude": 2675,
+                "ground_speed": 40.0,
+                "track": 173.6,
+                "squawk": "N/A",
+                "rssi": -49.5,
+                "api_source": "https://api.airplanes.live/v2/hex/",
+                "last_seen": "2025-04-21T19:39:03.323088+00:00",
+                "nav_qnh": 0.0,
+                "nav_altitude_mcp": 0,
+                "category": "Unknown"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -114.634201,
+                        34.998901
+                    ],
+                    [
+                        -114.63105,
+                        34.984779
+                    ],
+                    [
+                        -114.627533,
+                        34.973091
+                    ],
+                    [
+                        -114.626877,
+                        34.967918
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
                 "hex": "AC4597",
                 "flight": "CMD3    ",
                 "type": "EC35",
@@ -2153,13 +2052,13 @@
                 "type": "AS50",
                 "description": "AEROSPATIALE AS-350 Ecureuil",
                 "operator": "COUNTY OF LOS ANGELES",
-                "altitude": 1100,
-                "ground_speed": 92.9,
-                "track": 202.15,
+                "altitude": 1000,
+                "ground_speed": 87.1,
+                "track": 183.29,
                 "squawk": "1206",
-                "rssi": -20.2,
+                "rssi": -9.9,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-04-21T23:34:02.920173+00:00",
+                "last_seen": "2025-04-21T23:35:02.603554+00:00",
                 "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
                 "category": "A7"
@@ -3202,6 +3101,14 @@
                     [
                         -118.129578,
                         34.113247
+                    ],
+                    [
+                        -118.136267,
+                        34.08902
+                    ],
+                    [
+                        -118.136267,
+                        34.08902
                     ]
                 ]
             }
@@ -4626,12 +4533,12 @@
                 "description": "Sikorsky MH-60S Seahawk",
                 "operator": "Unknown",
                 "altitude": 550,
-                "ground_speed": 82.2,
-                "track": 93.49,
-                "squawk": "1200",
-                "rssi": -11.1,
+                "ground_speed": 80.2,
+                "track": 54.13,
+                "squawk": "N/A",
+                "rssi": -11.8,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-04-21T23:34:02.920163+00:00",
+                "last_seen": "2025-04-21T23:35:02.603543+00:00",
                 "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
                 "category": "A7"
@@ -4774,6 +4681,14 @@
                     [
                         -117.195758,
                         32.568318
+                    ],
+                    [
+                        -117.169806,
+                        32.575673
+                    ],
+                    [
+                        -117.17254,
+                        32.574005
                     ]
                 ]
             }
