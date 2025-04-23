@@ -1023,13 +1023,13 @@
                 "type": "AS50",
                 "description": "AEROSPATIALE AS-350 Ecureuil",
                 "operator": "COUNTY OF LOS ANGELES",
-                "altitude": 900,
-                "ground_speed": 117.9,
-                "track": 79.74,
+                "altitude": 1000,
+                "ground_speed": 110.1,
+                "track": 87.4,
                 "squawk": "1206",
-                "rssi": -20.6,
+                "rssi": -18.6,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-04-23T15:35:03.334972+00:00",
+                "last_seen": "2025-04-23T15:36:03.009111+00:00",
                 "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
                 "category": "A7"
@@ -1956,6 +1956,14 @@
                     [
                         -118.077793,
                         33.96712
+                    ],
+                    [
+                        -118.041033,
+                        33.968353
+                    ],
+                    [
+                        -118.039742,
+                        33.968377
                     ]
                 ]
             }
@@ -2715,9 +2723,9 @@
                 "ground_speed": 0.0,
                 "track": 0.0,
                 "squawk": "1200",
-                "rssi": -8.7,
+                "rssi": -8.8,
                 "api_source": "https://opendata.adsb.fi/api/v2/hex/",
-                "last_seen": "2025-04-23T15:35:03.334763+00:00",
+                "last_seen": "2025-04-23T15:36:03.008888+00:00",
                 "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
                 "category": "A7"
@@ -2792,6 +2800,43 @@
                     [
                         -117.209303,
                         32.702934
+                    ],
+                    [
+                        -117.209303,
+                        32.702923
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "hex": "A1F0C0",
+                "flight": "N224KB  ",
+                "type": "B06",
+                "description": "BELL 206 JetRanger",
+                "operator": "PASADENA POLICE DEPARTMENT",
+                "altitude": 1600,
+                "ground_speed": 54.0,
+                "track": 182.12,
+                "squawk": "1200",
+                "rssi": -3.6,
+                "api_source": "https://api.airplanes.live/v2/hex/",
+                "last_seen": "2025-04-23T15:36:03.009121+00:00",
+                "nav_qnh": 0.0,
+                "nav_altitude_mcp": 0,
+                "category": "A7"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -118.172951,
+                        34.174137
+                    ],
+                    [
+                        -118.172951,
+                        34.173625
                     ]
                 ]
             }
