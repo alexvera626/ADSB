@@ -9,13 +9,13 @@
                 "type": "Unknown",
                 "description": "Unknown",
                 "operator": "Unknown",
-                "altitude": 225,
-                "ground_speed": 74.9,
-                "track": 251.32,
+                "altitude": 175,
+                "ground_speed": 78.1,
+                "track": 350.42,
                 "squawk": "1200",
-                "rssi": -13.9,
+                "rssi": -11.7,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-04-23T19:30:03.238195+00:00",
+                "last_seen": "2025-04-23T19:31:03.045931+00:00",
                 "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
                 "category": "A7"
@@ -23,10 +23,6 @@
             "geometry": {
                 "type": "LineString",
                 "coordinates": [
-                    [
-                        -117.209303,
-                        32.702934
-                    ],
                     [
                         -117.209309,
                         32.702935
@@ -1510,6 +1506,14 @@
                     [
                         -117.125134,
                         32.564255
+                    ],
+                    [
+                        -117.111679,
+                        32.560823
+                    ],
+                    [
+                        -117.111566,
+                        32.560455
                     ]
                 ]
             }
@@ -1525,10 +1529,10 @@
                 "altitude": "ground",
                 "ground_speed": 0.0,
                 "track": 0.0,
-                "squawk": "1206",
-                "rssi": -31.1,
+                "squawk": "N/A",
+                "rssi": -31.3,
                 "api_source": "https://opendata.adsb.fi/api/v2/hex/",
-                "last_seen": "2025-04-23T19:30:03.238029+00:00",
+                "last_seen": "2025-04-23T19:31:03.045816+00:00",
                 "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
                 "category": "A7"
@@ -1536,14 +1540,6 @@
             "geometry": {
                 "type": "LineString",
                 "coordinates": [
-                    [
-                        -118.221803,
-                        33.929352
-                    ],
-                    [
-                        -118.221803,
-                        33.929352
-                    ],
                     [
                         -118.190746,
                         33.941469
@@ -2154,6 +2150,10 @@
                     ],
                     [
                         -118.168344,
+                        34.050704
+                    ],
+                    [
+                        -118.16833,
                         34.050704
                     ]
                 ]
@@ -9646,12 +9646,12 @@
                 "description": "AEROSPATIALE AS-350 Ecureuil",
                 "operator": "COUNTY OF RIVERSIDE CALIFORNIA",
                 "altitude": 2400,
-                "ground_speed": 96.0,
-                "track": 181.79,
+                "ground_speed": 102.6,
+                "track": 60.19,
                 "squawk": "0131",
-                "rssi": -23.9,
+                "rssi": -8.9,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-04-23T19:30:03.238205+00:00",
+                "last_seen": "2025-04-23T19:31:03.045953+00:00",
                 "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
                 "category": "A7"
@@ -9746,6 +9746,43 @@
                     [
                         -117.242282,
                         33.921936
+                    ],
+                    [
+                        -117.220029,
+                        33.91571
+                    ],
+                    [
+                        -117.214928,
+                        33.917862
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "hex": "AE4FDA",
+                "flight": "Unknown",
+                "type": "H60",
+                "description": "SIKORSKY UH-60 Black Hawk",
+                "operator": "Unknown",
+                "altitude": "ground",
+                "ground_speed": 5.2,
+                "track": 163.12,
+                "squawk": "N/A",
+                "rssi": -49.5,
+                "api_source": "https://api.airplanes.live/v2/hex/",
+                "last_seen": "2025-04-23T19:31:03.045941+00:00",
+                "nav_qnh": 0.0,
+                "nav_altitude_mcp": 0,
+                "category": "Unknown"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -117.202849,
+                        32.697544
                     ]
                 ]
             }
