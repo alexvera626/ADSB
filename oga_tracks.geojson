@@ -579,16 +579,16 @@
             "properties": {
                 "hex": "AE4F4D",
                 "flight": "SHWK411 ",
-                "type": "Unknown",
+                "type": "H60",
                 "description": "Unknown",
                 "operator": "Unknown",
                 "altitude": 25,
-                "ground_speed": 23.8,
-                "track": 14.62,
-                "squawk": "1200",
-                "rssi": -31.3,
-                "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-04-24T15:03:02.132853+00:00",
+                "ground_speed": 0.0,
+                "track": 0.0,
+                "squawk": "N/A",
+                "rssi": -19.0,
+                "api_source": "https://opendata.adsb.fi/api/v2/hex/",
+                "last_seen": "2025-04-24T15:04:02.953296+00:00",
                 "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
                 "category": "A7"
@@ -723,6 +723,39 @@
                     [
                         -117.478208,
                         32.64741
+                    ],
+                    [
+                        -117.478152,
+                        32.648248
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "hex": "A1588A",
+                "flight": "Unknown",
+                "type": "UH1",
+                "description": "BELL UH-1 Huey",
+                "operator": "ORANGE COUNTY SHERIFFS DEPT",
+                "altitude": "ground",
+                "ground_speed": 0.7,
+                "track": 0.0,
+                "squawk": "N/A",
+                "rssi": -23.0,
+                "api_source": "https://opendata.adsb.fi/api/v2/hex/",
+                "last_seen": "2025-04-24T15:04:02.953313+00:00",
+                "nav_qnh": 0.0,
+                "nav_altitude_mcp": 0,
+                "category": "Unknown"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -117.871528,
+                        33.674981
                     ]
                 ]
             }
