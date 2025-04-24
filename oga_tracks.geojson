@@ -579,16 +579,16 @@
             "properties": {
                 "hex": "AE4F4D",
                 "flight": "SHWK411 ",
-                "type": "Unknown",
+                "type": "H60",
                 "description": "Unknown",
                 "operator": "Unknown",
                 "altitude": 50,
-                "ground_speed": 63.7,
-                "track": 136.27,
+                "ground_speed": 72.0,
+                "track": 205.5,
                 "squawk": "N/A",
-                "rssi": -27.1,
-                "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-04-24T15:25:02.396579+00:00",
+                "rssi": -17.2,
+                "api_source": "https://opendata.adsb.fi/api/v2/hex/",
+                "last_seen": "2025-04-24T15:26:03.595145+00:00",
                 "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
                 "category": "A7"
@@ -847,6 +847,10 @@
                     [
                         -117.445193,
                         32.638193
+                    ],
+                    [
+                        -117.436597,
+                        32.616806
                     ]
                 ]
             }
@@ -1026,11 +1030,11 @@
                 "operator": "LAPD AIR SUPPORT DIVISION",
                 "altitude": "ground",
                 "ground_speed": 0.0,
-                "track": 0.0,
+                "track": 225.0,
                 "squawk": "1200",
-                "rssi": -10.4,
+                "rssi": -16.1,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-04-24T15:25:02.396499+00:00",
+                "last_seen": "2025-04-24T15:26:03.595177+00:00",
                 "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
                 "category": "A7"
@@ -1045,6 +1049,43 @@
                     [
                         -118.229692,
                         34.054482
+                    ],
+                    [
+                        -118.229734,
+                        34.054539
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "hex": "AAFD01",
+                "flight": "Unknown",
+                "type": "DH8C",
+                "description": "DE HAVILLAND DHC-8-300 Dash 8",
+                "operator": "US DEPARTMENT OF HOMELAND SECURITY",
+                "altitude": 1425,
+                "ground_speed": 142.0,
+                "track": 144.0,
+                "squawk": "N/A",
+                "rssi": -49.5,
+                "api_source": "https://api.airplanes.live/v2/hex/",
+                "last_seen": "2025-04-24T15:26:03.595195+00:00",
+                "nav_qnh": 0.0,
+                "nav_altitude_mcp": 0,
+                "category": "Unknown"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -95.391971,
+                        30.32753
+                    ],
+                    [
+                        -95.39283,
+                        30.328491
                     ]
                 ]
             }
