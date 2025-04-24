@@ -578,17 +578,17 @@
             "type": "Feature",
             "properties": {
                 "hex": "AE4F4D",
-                "flight": "Unknown",
+                "flight": "SHWK411 ",
                 "type": "H60",
                 "description": "Unknown",
                 "operator": "Unknown",
-                "altitude": 0,
-                "ground_speed": 2.9,
-                "track": 45.0,
-                "squawk": "N/A",
-                "rssi": -21.2,
+                "altitude": 50,
+                "ground_speed": 60.4,
+                "track": 65.56,
+                "squawk": "1200",
+                "rssi": -14.2,
                 "api_source": "https://opendata.adsb.fi/api/v2/hex/",
-                "last_seen": "2025-04-24T15:50:03.636899+00:00",
+                "last_seen": "2025-04-24T15:51:02.879573+00:00",
                 "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
                 "category": "A7"
@@ -959,6 +959,10 @@
                     [
                         -117.445605,
                         32.606415
+                    ],
+                    [
+                        -117.435443,
+                        32.608017
                     ]
                 ]
             }
@@ -1136,13 +1140,13 @@
                 "type": "AS50",
                 "description": "AEROSPATIALE AS-350 Ecureuil",
                 "operator": "LAPD AIR SUPPORT DIVISION",
-                "altitude": 1450,
-                "ground_speed": 120.6,
-                "track": 307.25,
+                "altitude": 1300,
+                "ground_speed": 116.8,
+                "track": 312.57,
                 "squawk": "0262",
-                "rssi": -10.5,
+                "rssi": -9.7,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-04-24T15:50:03.636959+00:00",
+                "last_seen": "2025-04-24T15:51:02.879620+00:00",
                 "nav_qnh": 1016.0,
                 "nav_altitude_mcp": 7008,
                 "category": "A7"
@@ -1333,6 +1337,14 @@
                     [
                         -118.562996,
                         34.161346
+                    ],
+                    [
+                        -118.592377,
+                        34.181912
+                    ],
+                    [
+                        -118.592377,
+                        34.181912
                     ]
                 ]
             }
@@ -1345,13 +1357,13 @@
                 "type": "DH8C",
                 "description": "DE HAVILLAND DHC-8-300 Dash 8",
                 "operator": "US DEPARTMENT OF HOMELAND SECURITY",
-                "altitude": 4925,
-                "ground_speed": 172.8,
-                "track": 209.09,
+                "altitude": 5525,
+                "ground_speed": 163.7,
+                "track": 207.66,
                 "squawk": "5256",
-                "rssi": -17.9,
+                "rssi": -9.9,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-04-24T15:50:03.636970+00:00",
+                "last_seen": "2025-04-24T15:51:02.879632+00:00",
                 "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
                 "category": "Unknown"
@@ -1538,6 +1550,39 @@
                     [
                         -94.767366,
                         29.429813
+                    ],
+                    [
+                        -94.794132,
+                        29.386798
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "hex": "A30D54",
+                "flight": "N296S   ",
+                "type": "AS50",
+                "description": "AEROSPATIALE AS-350 Ecureuil",
+                "operator": "DEPARTMENT OF HOMELAND SECURITY",
+                "altitude": 1025,
+                "ground_speed": 62.0,
+                "track": 89.08,
+                "squawk": "4402",
+                "rssi": -10.1,
+                "api_source": "https://api.airplanes.live/v2/hex/",
+                "last_seen": "2025-04-24T15:51:02.879813+00:00",
+                "nav_qnh": 0.0,
+                "nav_altitude_mcp": 0,
+                "category": "A7"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -78.215986,
+                        43.371091
                     ]
                 ]
             }
