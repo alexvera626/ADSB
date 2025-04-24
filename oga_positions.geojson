@@ -31,18 +31,18 @@
         {
             "type": "Feature",
             "properties": {
-                "hex": "AE4F4D",
-                "flight": "SHWK411 ",
-                "type": "H60",
-                "description": "Unknown",
-                "operator": "Unknown",
-                "altitude": 50,
-                "ground_speed": 86.1,
-                "track": 38.87,
+                "hex": "A1C5F2",
+                "flight": "N213PF  ",
+                "type": "AS50",
+                "description": "AEROSPATIALE AS-350 Ecureuil",
+                "operator": "LAPD AIR SUPPORT DIVISION",
+                "altitude": "ground",
+                "ground_speed": 0.0,
+                "track": 0.0,
                 "squawk": "1200",
                 "rssi": null,
-                "api_source": "https://opendata.adsb.fi/api/v2/hex/",
-                "last_seen": "2025-04-24T15:24:02.707598+00:00",
+                "api_source": "https://api.airplanes.live/v2/hex/",
+                "last_seen": "2025-04-24T15:25:02.396499+00:00",
                 "nav_qnh": null,
                 "nav_altitude_mcp": null,
                 "category": "A7"
@@ -50,8 +50,35 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -117.458533,
-                    32.638798
+                    -118.229692,
+                    34.054482
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "hex": "AE4F4D",
+                "flight": "SHWK411 ",
+                "type": "Unknown",
+                "description": "Unknown",
+                "operator": "Unknown",
+                "altitude": 50,
+                "ground_speed": 63.7,
+                "track": 136.27,
+                "squawk": "N/A",
+                "rssi": null,
+                "api_source": "https://api.airplanes.live/v2/hex/",
+                "last_seen": "2025-04-24T15:25:02.396579+00:00",
+                "nav_qnh": null,
+                "nav_altitude_mcp": null,
+                "category": "A7"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -117.445193,
+                    32.638193
                 ]
             }
         }
