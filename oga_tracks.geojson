@@ -10,12 +10,12 @@
                 "description": "BEECH 300 Super King Air",
                 "operator": "DEPARTMENT OF HOMELAND SECURITY",
                 "altitude": 23000,
-                "ground_speed": 286.1,
-                "track": 80.34,
+                "ground_speed": 290.0,
+                "track": 80.47,
                 "squawk": "4635",
-                "rssi": -18.0,
+                "rssi": -20.2,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-04-25T19:45:03.060712+00:00",
+                "last_seen": "2025-04-25T19:46:03.402173+00:00",
                 "nav_qnh": 1013.6,
                 "nav_altitude_mcp": 23008,
                 "category": "A2"
@@ -762,6 +762,14 @@
                     [
                         -94.016327,
                         30.044721
+                    ],
+                    [
+                        -93.924536,
+                        30.058128
+                    ],
+                    [
+                        -93.923196,
+                        30.058319
                     ]
                 ]
             }
@@ -5029,9 +5037,9 @@
                 "ground_speed": 0.0,
                 "track": 0.0,
                 "squawk": "1200",
-                "rssi": -23.7,
+                "rssi": -23.4,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-04-25T19:45:03.060748+00:00",
+                "last_seen": "2025-04-25T19:46:03.402193+00:00",
                 "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
                 "category": "A7"
@@ -5746,6 +5754,10 @@
                     [
                         -118.410473,
                         34.25735
+                    ],
+                    [
+                        -118.410476,
+                        34.257362
                     ]
                 ]
             }
@@ -6283,9 +6295,9 @@
                 "ground_speed": 0.0,
                 "track": 0.0,
                 "squawk": "1200",
-                "rssi": -26.3,
+                "rssi": -26.4,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-04-25T19:45:03.060522+00:00",
+                "last_seen": "2025-04-25T19:46:03.402036+00:00",
                 "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
                 "category": "A7"
@@ -7208,6 +7220,10 @@
                     [
                         -118.241898,
                         34.053154
+                    ],
+                    [
+                        -118.241901,
+                        34.053148
                     ]
                 ]
             }
@@ -7389,17 +7405,17 @@
             "type": "Feature",
             "properties": {
                 "hex": "AE4FA1",
-                "flight": "Unknown",
+                "flight": "HEX37   ",
                 "type": "H60",
                 "description": "SIKORSKY UH-60 Black Hawk",
                 "operator": "Unknown",
                 "altitude": 850,
-                "ground_speed": 109.4,
-                "track": 323.55,
-                "squawk": "N/A",
-                "rssi": -29.7,
+                "ground_speed": 108.2,
+                "track": 324.4,
+                "squawk": "7101",
+                "rssi": -28.6,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-04-25T19:45:03.060692+00:00",
+                "last_seen": "2025-04-25T19:46:03.402154+00:00",
                 "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
                 "category": "A7"
@@ -7694,6 +7710,14 @@
                     [
                         -118.17702,
                         32.903641
+                    ],
+                    [
+                        -118.212274,
+                        32.947719
+                    ],
+                    [
+                        -118.211078,
+                        32.946304
                     ]
                 ]
             }
@@ -7706,13 +7730,13 @@
                 "type": "Unknown",
                 "description": "Unknown",
                 "operator": "Unknown",
-                "altitude": 1250,
-                "ground_speed": 87.7,
-                "track": 135.92,
+                "altitude": 1350,
+                "ground_speed": 80.8,
+                "track": 158.2,
                 "squawk": "1200",
-                "rssi": -13.0,
+                "rssi": -17.5,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-04-25T19:45:03.060702+00:00",
+                "last_seen": "2025-04-25T19:46:03.402164+00:00",
                 "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
                 "category": "A7"
@@ -7843,6 +7867,43 @@
                     [
                         -116.921558,
                         32.620834
+                    ],
+                    [
+                        -116.901089,
+                        32.604536
+                    ],
+                    [
+                        -116.900921,
+                        32.604117
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "hex": "AE2778",
+                "flight": "FFAB123 ",
+                "type": "H60",
+                "description": "Sikorsky MH-60S Seahawk ",
+                "operator": "Unknown",
+                "altitude": "ground",
+                "ground_speed": 0.0,
+                "track": 0.0,
+                "squawk": "N/A",
+                "rssi": -14.9,
+                "api_source": "https://opendata.adsb.fi/api/v2/hex/",
+                "last_seen": "2025-04-25T19:46:03.401945+00:00",
+                "nav_qnh": 0.0,
+                "nav_altitude_mcp": 0,
+                "category": "A7"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -117.205101,
+                        32.711826
                     ]
                 ]
             }
