@@ -9,13 +9,13 @@
                 "type": "AS50",
                 "description": "AEROSPATIALE AS-350 Ecureuil",
                 "operator": "ORANGE COUNTY SHERIFF'S DEPARTMENT",
-                "altitude": 1050,
-                "ground_speed": 74.0,
-                "track": 269.23,
+                "altitude": 950,
+                "ground_speed": 76.5,
+                "track": 252.51,
                 "squawk": "4204",
-                "rssi": -28.7,
+                "rssi": -33.4,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-04-28T02:11:02.495040+00:00",
+                "last_seen": "2025-04-28T02:12:02.690202+00:00",
                 "nav_qnh": 1018.4,
                 "nav_altitude_mcp": 512,
                 "category": "A7"
@@ -23,22 +23,6 @@
             "geometry": {
                 "type": "LineString",
                 "coordinates": [
-                    [
-                        -117.729321,
-                        33.785054
-                    ],
-                    [
-                        -117.729772,
-                        33.784836
-                    ],
-                    [
-                        -117.733794,
-                        33.781071
-                    ],
-                    [
-                        -117.733808,
-                        33.781048
-                    ],
                     [
                         -117.733906,
                         33.780922
@@ -1090,6 +1074,14 @@
                     [
                         -117.767776,
                         33.892685
+                    ],
+                    [
+                        -117.791462,
+                        33.88826
+                    ],
+                    [
+                        -117.792215,
+                        33.88797
                     ]
                 ]
             }
@@ -1116,22 +1108,6 @@
             "geometry": {
                 "type": "LineString",
                 "coordinates": [
-                    [
-                        -118.17853,
-                        34.009506
-                    ],
-                    [
-                        -118.178474,
-                        34.008728
-                    ],
-                    [
-                        -118.180604,
-                        33.985657
-                    ],
-                    [
-                        -118.180604,
-                        33.985657
-                    ],
                     [
                         -118.181893,
                         33.961304
@@ -1918,6 +1894,35 @@
         {
             "type": "Feature",
             "properties": {
+                "hex": "AE4D5A",
+                "flight": "BULET45 ",
+                "type": "H60",
+                "description": "SIKORSKY UH-60 Black Hawk",
+                "operator": "Unknown",
+                "altitude": 0,
+                "ground_speed": 138.0,
+                "track": 246.96,
+                "squawk": "N/A",
+                "rssi": -19.8,
+                "api_source": "https://opendata.adsb.fi/api/v2/hex/",
+                "last_seen": "2025-04-27T22:13:02.810061+00:00",
+                "nav_qnh": 0.0,
+                "nav_altitude_mcp": 0,
+                "category": "A7"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -118.539061,
+                        32.761929
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
                 "hex": "A40442",
                 "flight": "Unknown",
                 "type": "AS50",
@@ -1937,22 +1942,6 @@
             "geometry": {
                 "type": "LineString",
                 "coordinates": [
-                    [
-                        -118.575215,
-                        34.253036
-                    ],
-                    [
-                        -118.575103,
-                        34.252579
-                    ],
-                    [
-                        -118.574318,
-                        34.251846
-                    ],
-                    [
-                        -118.574295,
-                        34.251787
-                    ],
                     [
                         -118.556101,
                         34.270889
@@ -2272,39 +2261,6 @@
                     [
                         -118.410544,
                         34.25735
-                    ]
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "hex": "AE4D5A",
-                "flight": "BULET45 ",
-                "type": "H60",
-                "description": "SIKORSKY UH-60 Black Hawk",
-                "operator": "Unknown",
-                "altitude": 0,
-                "ground_speed": 138.0,
-                "track": 246.96,
-                "squawk": "N/A",
-                "rssi": -19.8,
-                "api_source": "https://opendata.adsb.fi/api/v2/hex/",
-                "last_seen": "2025-04-27T22:13:02.810061+00:00",
-                "nav_qnh": 0.0,
-                "nav_altitude_mcp": 0,
-                "category": "A7"
-            },
-            "geometry": {
-                "type": "LineString",
-                "coordinates": [
-                    [
-                        -118.53078,
-                        32.764847
-                    ],
-                    [
-                        -118.539061,
-                        32.761929
                     ]
                 ]
             }
