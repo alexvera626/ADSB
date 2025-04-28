@@ -3201,13 +3201,13 @@
                 "type": "H60",
                 "description": "SIKORSKY UH-60 Black Hawk",
                 "operator": "Unknown",
-                "altitude": 100,
-                "ground_speed": 78.4,
-                "track": 322.25,
+                "altitude": 0,
+                "ground_speed": 76.7,
+                "track": 320.29,
                 "squawk": "4402",
-                "rssi": -33.5,
-                "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-04-28T15:41:02.850672+00:00",
+                "rssi": -27.9,
+                "api_source": "https://opendata.adsb.fi/api/v2/hex/",
+                "last_seen": "2025-04-28T15:42:03.056667+00:00",
                 "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
                 "category": "A7"
@@ -3470,6 +3470,35 @@
                     [
                         -117.486223,
                         33.311524
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "hex": "A154D3",
+                "flight": "N185SD  ",
+                "type": "AS50",
+                "description": "AEROSPATIALE AS-350 Ecureuil",
+                "operator": "ORANGE COUNTY SHERIFF'S DEPARTMENT",
+                "altitude": "ground",
+                "ground_speed": 0.0,
+                "track": 0.0,
+                "squawk": "4204",
+                "rssi": -16.8,
+                "api_source": "https://opendata.adsb.fi/api/v2/hex/",
+                "last_seen": "2025-04-28T15:42:03.056639+00:00",
+                "nav_qnh": 0.0,
+                "nav_altitude_mcp": 0,
+                "category": "A7"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -117.871628,
+                        33.67527
                     ]
                 ]
             }
