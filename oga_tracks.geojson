@@ -24,14 +24,6 @@
                 "type": "LineString",
                 "coordinates": [
                     [
-                        -118.417397,
-                        34.259887
-                    ],
-                    [
-                        -118.417397,
-                        34.259887
-                    ],
-                    [
                         -118.411275,
                         34.257797
                     ],
@@ -1728,12 +1720,12 @@
                 "description": "SIKORSKY UH-60 Black Hawk",
                 "operator": "Unknown",
                 "altitude": 3400,
-                "ground_speed": 144.1,
-                "track": 91.59,
+                "ground_speed": 0.0,
+                "track": 0.0,
                 "squawk": "N/A",
-                "rssi": -17.6,
+                "rssi": -17.3,
                 "api_source": "https://opendata.adsb.fi/api/v2/hex/",
-                "last_seen": "2025-04-29T18:03:03.315492+00:00",
+                "last_seen": "2025-04-29T18:04:02.867784+00:00",
                 "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
                 "category": "A7"
@@ -2060,6 +2052,10 @@
                     [
                         -116.529895,
                         32.58815
+                    ],
+                    [
+                        -116.507703,
+                        32.58902
                     ]
                 ]
             }
@@ -2365,13 +2361,13 @@
                 "type": "AS50",
                 "description": "AEROSPATIALE AS-350 Ecureuil",
                 "operator": "COUNTY OF LOS ANGELES",
-                "altitude": 800,
-                "ground_speed": 81.2,
-                "track": 4.24,
+                "altitude": 700,
+                "ground_speed": 89.7,
+                "track": 7.05,
                 "squawk": "1206",
-                "rssi": -6.2,
+                "rssi": -5.3,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-04-29T18:03:03.315540+00:00",
+                "last_seen": "2025-04-29T18:04:02.867853+00:00",
                 "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
                 "category": "A7"
@@ -3110,6 +3106,14 @@
                     [
                         -118.156872,
                         34.045933
+                    ],
+                    [
+                        -118.158127,
+                        34.068466
+                    ],
+                    [
+                        -118.158073,
+                        34.069069
                     ]
                 ]
             }
@@ -3313,12 +3317,12 @@
                 "description": "AGUSTA AW-139",
                 "operator": "LOS ANGELES FIRE DEPARTMENT",
                 "altitude": 50,
-                "ground_speed": 1.2,
-                "track": 90.0,
+                "ground_speed": 1.6,
+                "track": 135.0,
                 "squawk": "1206",
-                "rssi": -9.6,
+                "rssi": -5.1,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-04-29T18:03:03.315682+00:00",
+                "last_seen": "2025-04-29T18:04:02.868336+00:00",
                 "nav_qnh": 1017.6,
                 "nav_altitude_mcp": 736,
                 "category": "A7"
@@ -3497,6 +3501,14 @@
                     [
                         -118.197899,
                         34.004455
+                    ],
+                    [
+                        -118.197644,
+                        34.004379
+                    ],
+                    [
+                        -118.197588,
+                        34.004379
                     ]
                 ]
             }
@@ -3642,13 +3654,13 @@
                 "type": "AS50",
                 "description": "AEROSPATIALE AS-350 Ecureuil",
                 "operator": "CITY OF ANAHEIM",
-                "altitude": 700,
-                "ground_speed": 62.6,
-                "track": 218.52,
+                "altitude": 1000,
+                "ground_speed": 77.1,
+                "track": 99.71,
                 "squawk": "4301",
-                "rssi": -5.3,
+                "rssi": -7.9,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-04-29T18:03:03.315692+00:00",
+                "last_seen": "2025-04-29T18:04:02.868348+00:00",
                 "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
                 "category": "A7"
@@ -3667,6 +3679,47 @@
                     [
                         -117.997055,
                         33.868801
+                    ],
+                    [
+                        -117.983322,
+                        33.857768
+                    ],
+                    [
+                        -117.982626,
+                        33.857666
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "hex": "A31AA0",
+                "flight": "N3A     ",
+                "type": "SHIP",
+                "description": "Zeppelin LZ N07-101",
+                "operator": "GOODYEAR TIRE & RUBBER CO",
+                "altitude": -100,
+                "ground_speed": 1.2,
+                "track": 180.0,
+                "squawk": "N/A",
+                "rssi": -17.4,
+                "api_source": "https://api.airplanes.live/v2/hex/",
+                "last_seen": "2025-04-29T18:04:02.868381+00:00",
+                "nav_qnh": 0.0,
+                "nav_altitude_mcp": 0,
+                "category": "B2"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -118.276062,
+                        33.855394
+                    ],
+                    [
+                        -118.276006,
+                        33.855377
                     ]
                 ]
             }
