@@ -24,14 +24,6 @@
                 "type": "LineString",
                 "coordinates": [
                     [
-                        -117.697935,
-                        32.872537
-                    ],
-                    [
-                        -117.698071,
-                        32.872925
-                    ],
-                    [
                         -117.707135,
                         32.892059
                     ],
@@ -1492,13 +1484,13 @@
                 "type": "BE30",
                 "description": "BEECH 300 Super King Air",
                 "operator": "DEPARTMENT OF HOMELAND SECURITY",
-                "altitude": 1600,
-                "ground_speed": 205.1,
-                "track": 135.4,
+                "altitude": 925,
+                "ground_speed": 185.3,
+                "track": 133.69,
                 "squawk": "2253",
-                "rssi": -18.5,
+                "rssi": -22.6,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-04-29T15:34:03.063817+00:00",
+                "last_seen": "2025-04-29T15:35:03.257839+00:00",
                 "nav_qnh": 1021.6,
                 "nav_altitude_mcp": 448,
                 "category": "A2"
@@ -1817,6 +1809,14 @@
                     [
                         -90.492177,
                         30.584885
+                    ],
+                    [
+                        -90.466095,
+                        30.562754
+                    ],
+                    [
+                        -90.466095,
+                        30.562754
                     ]
                 ]
             }
@@ -2030,19 +2030,19 @@
             "type": "Feature",
             "properties": {
                 "hex": "A7FB70",
-                "flight": "REH80   ",
+                "flight": "Unknown",
                 "type": "AS50",
                 "description": "AEROSPATIALE AS-350 Ecureuil",
                 "operator": "REACH AIR MEDICAL SERVICES LLC",
                 "altitude": "ground",
-                "ground_speed": 0.2,
-                "track": 333.43,
-                "squawk": "1200",
-                "rssi": -24.2,
+                "ground_speed": 0.0,
+                "track": 0.0,
+                "squawk": "N/A",
+                "rssi": -24.6,
                 "api_source": "https://opendata.adsb.fi/api/v2/hex/",
-                "last_seen": "2025-04-29T15:33:03.378735+00:00",
-                "nav_qnh": 1019.2,
-                "nav_altitude_mcp": 3488,
+                "last_seen": "2025-04-29T15:35:03.256980+00:00",
+                "nav_qnh": 0.0,
+                "nav_altitude_mcp": 0,
                 "category": "A7"
             },
             "geometry": {
@@ -2171,6 +2171,68 @@
                     [
                         -121.850204,
                         39.741843
+                    ],
+                    [
+                        -121.850201,
+                        39.74184
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "hex": "AAFD01",
+                "flight": "Unknown",
+                "type": "DH8C",
+                "description": "DE HAVILLAND DHC-8-300 Dash 8",
+                "operator": "US DEPARTMENT OF HOMELAND SECURITY, US CUSTOMS & BORDER PROTECTI",
+                "altitude": 1625,
+                "ground_speed": 167.9,
+                "track": 58.39,
+                "squawk": "4745",
+                "rssi": -17.9,
+                "api_source": "https://opendata.adsb.fi/api/v2/hex/",
+                "last_seen": "2025-04-29T15:35:03.255825+00:00",
+                "nav_qnh": 0.0,
+                "nav_altitude_mcp": 0,
+                "category": "Unknown"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -95.369029,
+                        30.350098
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "hex": "AE6988",
+                "flight": "Unknown",
+                "type": "H60",
+                "description": "SIKORSKY UH-60 Black Hawk",
+                "operator": "Unknown",
+                "altitude": "ground",
+                "ground_speed": 7.8,
+                "track": 227.81,
+                "squawk": "N/A",
+                "rssi": -23.3,
+                "api_source": "https://opendata.adsb.fi/api/v2/hex/",
+                "last_seen": "2025-04-29T15:35:03.256954+00:00",
+                "nav_qnh": 0.0,
+                "nav_altitude_mcp": 0,
+                "category": "Unknown"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -117.211555,
+                        32.702568
                     ]
                 ]
             }
