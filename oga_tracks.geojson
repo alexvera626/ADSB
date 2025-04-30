@@ -1853,9 +1853,9 @@
                 "ground_speed": 0.0,
                 "track": 0.0,
                 "squawk": "4204",
-                "rssi": -31.8,
+                "rssi": -33.9,
                 "api_source": "https://opendata.adsb.fi/api/v2/hex/",
-                "last_seen": "2025-04-30T16:51:02.666475+00:00",
+                "last_seen": "2025-04-30T16:52:02.398427+00:00",
                 "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
                 "category": "A7"
@@ -2498,6 +2498,10 @@
                     [
                         -117.744055,
                         33.765548
+                    ],
+                    [
+                        -117.744055,
+                        33.765537
                     ],
                     [
                         -117.744055,
@@ -3836,18 +3840,51 @@
         {
             "type": "Feature",
             "properties": {
+                "hex": "A1DA3B",
+                "flight": "N21844  ",
+                "type": "B412",
+                "description": "BELL 412",
+                "operator": "LOS ANGELES POLICE DEPT AIR SUPPORT DIVISION",
+                "altitude": "ground",
+                "ground_speed": 0.7,
+                "track": 0.0,
+                "squawk": "N/A",
+                "rssi": -26.3,
+                "api_source": "https://api.airplanes.live/v2/hex/",
+                "last_seen": "2025-04-30T16:52:02.398740+00:00",
+                "nav_qnh": 0.0,
+                "nav_altitude_mcp": 0,
+                "category": "A7"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -118.496419,
+                        34.216026
+                    ],
+                    [
+                        -118.496418,
+                        34.216023
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
                 "hex": "A0F740",
                 "flight": "TROY326 ",
                 "type": "B350",
                 "description": "BEECHCRAFT Super King Air 350",
                 "operator": "DEPARTMENT OF HOMELAND SECURITY",
-                "altitude": 21475,
-                "ground_speed": 256.2,
-                "track": 167.37,
+                "altitude": 22125,
+                "ground_speed": 258.9,
+                "track": 167.74,
                 "squawk": "2611",
-                "rssi": -11.9,
+                "rssi": -17.1,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-04-30T16:51:02.666722+00:00",
+                "last_seen": "2025-04-30T16:52:02.398765+00:00",
                 "nav_qnh": 1012.8,
                 "nav_altitude_mcp": 23008,
                 "category": "A2"
@@ -3990,6 +4027,14 @@
                     [
                         -122.423542,
                         47.783126
+                    ],
+                    [
+                        -122.401287,
+                        47.715578
+                    ],
+                    [
+                        -122.40033,
+                        47.712662
                     ]
                 ]
             }
