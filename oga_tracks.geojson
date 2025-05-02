@@ -24,14 +24,6 @@
                 "type": "LineString",
                 "coordinates": [
                     [
-                        -118.473704,
-                        34.216232
-                    ],
-                    [
-                        -118.473473,
-                        34.215895
-                    ],
-                    [
                         -118.471125,
                         34.21637
                     ],
@@ -817,14 +809,6 @@
                 "type": "LineString",
                 "coordinates": [
                     [
-                        -118.066369,
-                        33.779022
-                    ],
-                    [
-                        -118.066521,
-                        33.778304
-                    ],
-                    [
                         -118.071098,
                         33.757122
                     ],
@@ -1512,12 +1496,12 @@
                 "description": "Sikorsky MH-60R Seahawk",
                 "operator": "United States Navy",
                 "altitude": 275,
-                "ground_speed": 73.2,
-                "track": 212.17,
+                "ground_speed": 75.0,
+                "track": 201.09,
                 "squawk": "1200",
-                "rssi": -14.4,
+                "rssi": -19.8,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-05-02T01:16:03.427896+00:00",
+                "last_seen": "2025-05-02T01:17:03.399414+00:00",
                 "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
                 "category": "A7"
@@ -1525,10 +1509,6 @@
             "geometry": {
                 "type": "LineString",
                 "coordinates": [
-                    [
-                        -117.597327,
-                        33.16983
-                    ],
                     [
                         -117.583209,
                         33.191162
@@ -2952,71 +2932,14 @@
                     [
                         -117.326305,
                         32.851169
-                    ]
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "hex": "A17E8E",
-                "flight": "N196B   ",
-                "type": "BE30",
-                "description": "BEECH 300 Super King Air",
-                "operator": "DEPARTMENT OF HOMELAND SECURITY",
-                "altitude": 950,
-                "ground_speed": 111.8,
-                "track": 201.52,
-                "squawk": "4530",
-                "rssi": -24.2,
-                "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-05-01T21:21:03.046658+00:00",
-                "nav_qnh": 1009.6,
-                "nav_altitude_mcp": 800,
-                "category": "A2"
-            },
-            "geometry": {
-                "type": "LineString",
-                "coordinates": [
-                    [
-                        -84.34436,
-                        39.245352
                     ],
                     [
-                        -84.344971,
-                        39.244049
+                        -117.337067,
+                        32.832688
                     ],
                     [
-                        -84.364372,
-                        39.204346
-                    ],
-                    [
-                        -84.364563,
-                        39.204014
-                    ],
-                    [
-                        -84.381042,
-                        39.170356
-                    ],
-                    [
-                        -84.381329,
-                        39.169785
-                    ],
-                    [
-                        -84.397644,
-                        39.137956
-                    ],
-                    [
-                        -84.39751,
-                        39.138245
-                    ],
-                    [
-                        -84.403992,
-                        39.12413
-                    ],
-                    [
-                        -84.40372,
-                        39.124649
+                        -117.33717,
+                        32.832413
                     ]
                 ]
             }
@@ -3030,12 +2953,12 @@
                 "description": "SIKORSKY UH-60 Black Hawk",
                 "operator": "Unknown",
                 "altitude": 175,
-                "ground_speed": 78.3,
-                "track": 151.8,
+                "ground_speed": 93.8,
+                "track": 144.11,
                 "squawk": "N/A",
-                "rssi": -11.0,
+                "rssi": -18.4,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-05-02T01:16:03.427915+00:00",
+                "last_seen": "2025-05-02T01:17:03.399427+00:00",
                 "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
                 "category": "A7"
@@ -4290,6 +4213,14 @@
                     [
                         -117.318823,
                         32.654617
+                    ],
+                    [
+                        -117.301362,
+                        32.637029
+                    ],
+                    [
+                        -117.305859,
+                        32.640244
                     ]
                 ]
             }
@@ -5398,18 +5329,75 @@
         {
             "type": "Feature",
             "properties": {
+                "hex": "A17E8E",
+                "flight": "N196B   ",
+                "type": "BE30",
+                "description": "BEECH 300 Super King Air",
+                "operator": "DEPARTMENT OF HOMELAND SECURITY",
+                "altitude": 950,
+                "ground_speed": 111.8,
+                "track": 201.52,
+                "squawk": "4530",
+                "rssi": -24.2,
+                "api_source": "https://api.airplanes.live/v2/hex/",
+                "last_seen": "2025-05-01T21:21:03.046658+00:00",
+                "nav_qnh": 1009.6,
+                "nav_altitude_mcp": 800,
+                "category": "A2"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -84.364372,
+                        39.204346
+                    ],
+                    [
+                        -84.364563,
+                        39.204014
+                    ],
+                    [
+                        -84.381042,
+                        39.170356
+                    ],
+                    [
+                        -84.381329,
+                        39.169785
+                    ],
+                    [
+                        -84.397644,
+                        39.137956
+                    ],
+                    [
+                        -84.39751,
+                        39.138245
+                    ],
+                    [
+                        -84.403992,
+                        39.12413
+                    ],
+                    [
+                        -84.40372,
+                        39.124649
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
                 "hex": "A154D3",
                 "flight": "N185SD  ",
                 "type": "AS50",
                 "description": "AEROSPATIALE AS-350 Ecureuil",
                 "operator": "ORANGE COUNTY SHERIFF'S DEPARTMENT",
-                "altitude": 550,
-                "ground_speed": 83.2,
-                "track": 151.28,
+                "altitude": 500,
+                "ground_speed": 86.1,
+                "track": 141.13,
                 "squawk": "4204",
-                "rssi": -5.9,
+                "rssi": -24.6,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-05-02T01:16:03.427886+00:00",
+                "last_seen": "2025-05-02T01:17:03.399398+00:00",
                 "nav_qnh": 1014.4,
                 "nav_altitude_mcp": 512,
                 "category": "A7"
@@ -6036,6 +6024,14 @@
                     [
                         -117.764209,
                         33.517181
+                    ],
+                    [
+                        -117.749652,
+                        33.502991
+                    ],
+                    [
+                        -117.746588,
+                        33.498851
                     ]
                 ]
             }
@@ -6113,13 +6109,13 @@
                 "type": "H60",
                 "description": "SIKORSKY UH-60 Black Hawk",
                 "operator": "Unknown",
-                "altitude": 2100,
-                "ground_speed": 145.4,
-                "track": 82.09,
-                "squawk": "4402",
-                "rssi": -29.3,
-                "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-05-02T01:16:03.427906+00:00",
+                "altitude": 1800,
+                "ground_speed": 116.6,
+                "track": 112.17,
+                "squawk": "N/A",
+                "rssi": -22.9,
+                "api_source": "https://opendata.adsb.fi/api/v2/hex/",
+                "last_seen": "2025-05-02T01:17:03.398995+00:00",
                 "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
                 "category": "A7"
@@ -7518,6 +7514,10 @@
                     [
                         -116.815924,
                         32.632599
+                    ],
+                    [
+                        -116.7633,
+                        32.629761
                     ]
                 ]
             }
@@ -11381,13 +11381,13 @@
                 "type": "AS50",
                 "description": "AEROSPATIALE AS-350 Ecureuil",
                 "operator": "LAPD AIR SUPPORT DIVISION",
-                "altitude": 775,
-                "ground_speed": 54.7,
-                "track": 198.1,
+                "altitude": 550,
+                "ground_speed": 58.0,
+                "track": 195.0,
                 "squawk": "0202",
-                "rssi": -12.4,
+                "rssi": -7.5,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-05-02T01:16:03.427717+00:00",
+                "last_seen": "2025-05-02T01:17:03.399093+00:00",
                 "nav_qnh": 1013.6,
                 "nav_altitude_mcp": 10016,
                 "category": "A7"
@@ -12514,6 +12514,14 @@
                     [
                         -118.22216,
                         34.061295
+                    ],
+                    [
+                        -118.227768,
+                        34.058315
+                    ],
+                    [
+                        -118.227913,
+                        34.0578
                     ]
                 ]
             }
@@ -13392,13 +13400,13 @@
                 "type": "AS32",
                 "description": "AEROSPATIALE AS-332 Super Puma",
                 "operator": "COUNTY OF LOS ANGELES",
-                "altitude": 1400,
-                "ground_speed": 92.4,
-                "track": 174.41,
+                "altitude": 175,
+                "ground_speed": 50.9,
+                "track": 135.0,
                 "squawk": "1206",
-                "rssi": -13.6,
+                "rssi": -8.4,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-05-02T01:16:03.427925+00:00",
+                "last_seen": "2025-05-02T01:17:03.399437+00:00",
                 "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
                 "category": "A7"
@@ -13533,6 +13541,14 @@
                     [
                         -118.153095,
                         33.834492
+                    ],
+                    [
+                        -118.148861,
+                        33.817594
+                    ],
+                    [
+                        -118.148689,
+                        33.817408
                     ]
                 ]
             }
@@ -13549,9 +13565,9 @@
                 "ground_speed": 211.8,
                 "track": 280.89,
                 "squawk": "5146",
-                "rssi": -22.0,
+                "rssi": -7.4,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-05-02T01:16:03.427935+00:00",
+                "last_seen": "2025-05-02T01:17:03.399448+00:00",
                 "nav_qnh": 1014.4,
                 "nav_altitude_mcp": 11488,
                 "category": "A2"
@@ -13818,6 +13834,14 @@
                     [
                         -118.068256,
                         33.348907
+                    ],
+                    [
+                        -118.136098,
+                        33.359985
+                    ],
+                    [
+                        -118.137276,
+                        33.360218
                     ]
                 ]
             }
@@ -13830,13 +13854,13 @@
                 "type": "B06",
                 "description": "BELL 206 JetRanger",
                 "operator": "PASADENA POLICE DEPARTMENT",
-                "altitude": 1800,
-                "ground_speed": 71.2,
-                "track": 199.71,
+                "altitude": 1900,
+                "ground_speed": 66.5,
+                "track": 257.85,
                 "squawk": "1200",
-                "rssi": -15.0,
+                "rssi": -13.9,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-05-02T01:16:03.427945+00:00",
+                "last_seen": "2025-05-02T01:17:03.399458+00:00",
                 "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
                 "category": "A7"
@@ -14235,6 +14259,14 @@
                     [
                         -118.051459,
                         34.165466
+                    ],
+                    [
+                        -118.04781,
+                        34.168179
+                    ],
+                    [
+                        -118.048152,
+                        34.168121
                     ]
                 ]
             }
