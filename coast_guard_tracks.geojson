@@ -9,16 +9,16 @@
                 "type": "CN35",
                 "description": "CASA HC-144A Ocean Sentry",
                 "operator": "Unknown",
-                "altitude": 0,
+                "altitude": 1450,
                 "ground_speed": 0.0,
                 "track": 0.0,
                 "squawk": "N/A",
-                "rssi": -24.5,
+                "rssi": -24.7,
                 "api_source": "https://opendata.adsb.fi/api/v2/hex/",
-                "last_seen": "2025-05-03T18:06:02.719042+00:00",
+                "last_seen": "2025-05-03T20:32:03.629803+00:00",
                 "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
-                "category": "A2"
+                "category": "Unknown"
             },
             "geometry": {
                 "type": "LineString",
@@ -3578,12 +3578,12 @@
                 "description": "Eurocopter MH-65D Dolphin",
                 "operator": "United States Coast Guard",
                 "altitude": 1675,
-                "ground_speed": 115.6,
-                "track": 300.11,
+                "ground_speed": 114.7,
+                "track": 312.17,
                 "squawk": "1200",
-                "rssi": -16.7,
+                "rssi": -13.9,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-05-03T20:31:03.193301+00:00",
+                "last_seen": "2025-05-03T20:32:03.630420+00:00",
                 "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
                 "category": "A7"
@@ -4446,6 +4446,14 @@
                     [
                         -122.705406,
                         48.114487
+                    ],
+                    [
+                        -122.739395,
+                        48.136505
+                    ],
+                    [
+                        -122.740314,
+                        48.137062
                     ]
                 ]
             }
@@ -4462,9 +4470,9 @@
                 "ground_speed": 0.0,
                 "track": 0.0,
                 "squawk": "N/A",
-                "rssi": -30.6,
+                "rssi": -24.0,
                 "api_source": "https://opendata.adsb.fi/api/v2/hex/",
-                "last_seen": "2025-05-03T20:31:03.193163+00:00",
+                "last_seen": "2025-05-03T20:32:03.630276+00:00",
                 "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
                 "category": "A0"
@@ -5990,6 +5998,35 @@
                     [
                         -158.146146,
                         21.331604
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "hex": "AE6CEB",
+                "flight": "C6056   ",
+                "type": "H60",
+                "description": "SIKORSKY UH-60 Black Hawk",
+                "operator": "Unknown",
+                "altitude": "ground",
+                "ground_speed": 0.0,
+                "track": 0.0,
+                "squawk": "N/A",
+                "rssi": -22.7,
+                "api_source": "https://opendata.adsb.fi/api/v2/hex/",
+                "last_seen": "2025-05-03T20:32:03.630383+00:00",
+                "nav_qnh": 0.0,
+                "nav_altitude_mcp": 0,
+                "category": "A7"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -117.181255,
+                        32.726514
                     ]
                 ]
             }
