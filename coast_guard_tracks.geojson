@@ -24,14 +24,6 @@
                 "type": "LineString",
                 "coordinates": [
                     [
-                        -121.832085,
-                        36.58287
-                    ],
-                    [
-                        -121.832428,
-                        36.582962
-                    ],
-                    [
                         -121.844456,
                         36.58708
                     ],
@@ -889,14 +881,6 @@
                 "type": "LineString",
                 "coordinates": [
                     [
-                        -122.478051,
-                        47.690161
-                    ],
-                    [
-                        -122.478121,
-                        47.690161
-                    ],
-                    [
                         -122.48616,
                         47.688629
                     ],
@@ -1518,6 +1502,35 @@
         {
             "type": "Feature",
             "properties": {
+                "hex": "AE2907",
+                "flight": "C6023   ",
+                "type": "H60",
+                "description": "Sikorsky MH-60T Jayhawk",
+                "operator": "Unknown",
+                "altitude": 0,
+                "ground_speed": 55.4,
+                "track": 172.75,
+                "squawk": "N/A",
+                "rssi": -28.2,
+                "api_source": "https://opendata.adsb.fi/api/v2/hex/",
+                "last_seen": "2025-05-04T18:16:02.574466+00:00",
+                "nav_qnh": 0.0,
+                "nav_altitude_mcp": 0,
+                "category": "A7"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -70.517932,
+                        41.662079
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
                 "hex": "AE4AE1",
                 "flight": "C2709   ",
                 "type": "C27J",
@@ -1537,14 +1550,6 @@
             "geometry": {
                 "type": "LineString",
                 "coordinates": [
-                    [
-                        -81.91199,
-                        26.86972
-                    ],
-                    [
-                        -81.912584,
-                        26.871115
-                    ],
                     [
                         -81.934947,
                         26.92543
@@ -2003,14 +2008,6 @@
             "geometry": {
                 "type": "LineString",
                 "coordinates": [
-                    [
-                        -83.076839,
-                        35.997894
-                    ],
-                    [
-                        -83.078438,
-                        35.997728
-                    ],
                     [
                         -83.16885,
                         35.994827
@@ -3598,35 +3595,6 @@
                     [
                         -103.777752,
                         33.681839
-                    ]
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "hex": "AE2907",
-                "flight": "C6023   ",
-                "type": "H60",
-                "description": "Sikorsky MH-60T Jayhawk",
-                "operator": "Unknown",
-                "altitude": 0,
-                "ground_speed": 55.4,
-                "track": 172.75,
-                "squawk": "N/A",
-                "rssi": -28.2,
-                "api_source": "https://opendata.adsb.fi/api/v2/hex/",
-                "last_seen": "2025-05-04T18:16:02.574466+00:00",
-                "nav_qnh": 0.0,
-                "nav_altitude_mcp": 0,
-                "category": "A7"
-            },
-            "geometry": {
-                "type": "LineString",
-                "coordinates": [
-                    [
-                        -70.517932,
-                        41.662079
                     ]
                 ]
             }
