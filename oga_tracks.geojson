@@ -590,14 +590,14 @@
                 "type": "BE30",
                 "description": "BEECH 300 Super King Air",
                 "operator": "DEPARTMENT OF HOMELAND SECURITY",
-                "altitude": 1725,
-                "ground_speed": 176.8,
-                "track": 208.74,
+                "altitude": 625,
+                "ground_speed": 144.0,
+                "track": 219.9,
                 "squawk": "7375",
-                "rssi": -23.0,
+                "rssi": -49.5,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-05-04T16:30:02.911770+00:00",
-                "nav_qnh": 1015.2,
+                "last_seen": "2025-05-04T16:31:03.540816+00:00",
+                "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
                 "category": "A2"
             },
@@ -1739,6 +1739,14 @@
                     [
                         -90.360297,
                         30.541946
+                    ],
+                    [
+                        -90.372781,
+                        30.523636
+                    ],
+                    [
+                        -90.383064,
+                        30.511597
                     ]
                 ]
             }
@@ -1868,6 +1876,35 @@
                     [
                         -122.57489,
                         38.951002
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "hex": "A1511C",
+                "flight": "N184SD  ",
+                "type": "AS50",
+                "description": "AEROSPATIALE AS-350 Ecureuil",
+                "operator": "COUNTY OF ORANGE - AIR SUPPORT",
+                "altitude": "ground",
+                "ground_speed": 0.0,
+                "track": 0.0,
+                "squawk": "4204",
+                "rssi": -20.7,
+                "api_source": "https://opendata.adsb.fi/api/v2/hex/",
+                "last_seen": "2025-05-04T16:31:03.540734+00:00",
+                "nav_qnh": 0.0,
+                "nav_altitude_mcp": 0,
+                "category": "A7"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -117.871699,
+                        33.675237
                     ]
                 ]
             }
