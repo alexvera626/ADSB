@@ -4530,9 +4530,9 @@
                 "ground_speed": 0.0,
                 "track": 0.0,
                 "squawk": "N/A",
-                "rssi": -26.6,
+                "rssi": -23.9,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-05-04T21:41:02.935132+00:00",
+                "last_seen": "2025-05-04T21:42:02.661269+00:00",
                 "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
                 "category": "A0"
@@ -5311,13 +5311,13 @@
                 "type": "C30J",
                 "description": "Lockheed Martin HC-130J Hercules",
                 "operator": "United States Coast Guard",
-                "altitude": 275,
-                "ground_speed": 151.2,
-                "track": 25.89,
+                "altitude": "ground",
+                "ground_speed": 63.5,
+                "track": 54.92,
                 "squawk": "1200",
-                "rssi": -11.0,
+                "rssi": -8.7,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-05-04T21:41:02.935153+00:00",
+                "last_seen": "2025-05-04T21:42:02.661281+00:00",
                 "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
                 "category": "A3"
@@ -6264,6 +6264,14 @@
                     [
                         -158.102151,
                         21.282669
+                    ],
+                    [
+                        -158.07176,
+                        21.304992
+                    ],
+                    [
+                        -158.071052,
+                        21.305454
                     ]
                 ]
             }
@@ -6974,9 +6982,9 @@
                 "ground_speed": 89.0,
                 "track": 14.97,
                 "squawk": "N/A",
-                "rssi": -19.2,
+                "rssi": -19.4,
                 "api_source": "https://opendata.adsb.fi/api/v2/hex/",
-                "last_seen": "2025-05-04T21:41:02.934908+00:00",
+                "last_seen": "2025-05-04T21:42:02.661066+00:00",
                 "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
                 "category": "A7"
@@ -7243,6 +7251,10 @@
                     [
                         -80.21642,
                         25.471756
+                    ],
+                    [
+                        -80.215587,
+                        25.474548
                     ]
                 ]
             }
@@ -7251,20 +7263,20 @@
             "type": "Feature",
             "properties": {
                 "hex": "AE2238",
-                "flight": "Unknown",
+                "flight": "C2302   ",
                 "type": "CN35",
                 "description": "CASA HC-144B Ocean Sentry",
                 "operator": "United States Coast Guard",
-                "altitude": 3100,
-                "ground_speed": 165.6,
-                "track": 32.92,
-                "squawk": "N/A",
-                "rssi": -30.4,
+                "altitude": 4300,
+                "ground_speed": 165.3,
+                "track": 23.15,
+                "squawk": "4420",
+                "rssi": -25.6,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-05-04T21:41:02.935102+00:00",
-                "nav_qnh": 0.0,
-                "nav_altitude_mcp": 0,
-                "category": "Unknown"
+                "last_seen": "2025-05-04T21:42:02.661241+00:00",
+                "nav_qnh": 1016.0,
+                "nav_altitude_mcp": 5504,
+                "category": "A2"
             },
             "geometry": {
                 "type": "LineString",
@@ -7316,6 +7328,43 @@
                     [
                         -70.782038,
                         41.546662
+                    ],
+                    [
+                        -70.434499,
+                        41.486796
+                    ],
+                    [
+                        -70.433541,
+                        41.488565
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "hex": "AE223D",
+                "flight": "Unknown",
+                "type": "CN35",
+                "description": "CASA HC-144B Ocean Sentry",
+                "operator": "United States Coast Guard",
+                "altitude": 10550,
+                "ground_speed": 208.8,
+                "track": 119.88,
+                "squawk": "0270",
+                "rssi": -26.1,
+                "api_source": "https://api.airplanes.live/v2/hex/",
+                "last_seen": "2025-05-04T21:42:02.661251+00:00",
+                "nav_qnh": 0.0,
+                "nav_altitude_mcp": 0,
+                "category": "Unknown"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -81.837311,
+                        24.397064
                     ]
                 ]
             }
