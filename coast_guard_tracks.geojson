@@ -24,14 +24,6 @@
                 "type": "LineString",
                 "coordinates": [
                     [
-                        -117.539648,
-                        33.015335
-                    ],
-                    [
-                        -117.539648,
-                        33.015335
-                    ],
-                    [
                         -117.492792,
                         33.020096
                     ],
@@ -1513,14 +1505,6 @@
                 "type": "LineString",
                 "coordinates": [
                     [
-                        -76.564437,
-                        38.090763
-                    ],
-                    [
-                        -76.564437,
-                        38.090763
-                    ],
-                    [
                         -76.571125,
                         38.059061
                     ],
@@ -1850,14 +1834,6 @@
                 "type": "LineString",
                 "coordinates": [
                     [
-                        -78.739518,
-                        33.695526
-                    ],
-                    [
-                        -78.739518,
-                        33.695526
-                    ],
-                    [
                         -78.714743,
                         33.712784
                     ],
@@ -1979,6 +1955,43 @@
         {
             "type": "Feature",
             "properties": {
+                "hex": "AE2907",
+                "flight": "Unknown",
+                "type": "H60",
+                "description": "Sikorsky MH-60T Jayhawk",
+                "operator": "Unknown",
+                "altitude": 700,
+                "ground_speed": 0.0,
+                "track": 0.0,
+                "squawk": "N/A",
+                "rssi": -25.0,
+                "api_source": "https://opendata.adsb.fi/api/v2/hex/",
+                "last_seen": "2025-05-05T18:38:03.094161+00:00",
+                "nav_qnh": 0.0,
+                "nav_altitude_mcp": 0,
+                "category": "A7"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -70.531013,
+                        41.643211
+                    ],
+                    [
+                        -70.534654,
+                        41.646796
+                    ],
+                    [
+                        -70.539125,
+                        41.653034
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
                 "hex": "AE290C",
                 "flight": "        ",
                 "type": "H60",
@@ -1998,14 +2011,6 @@
             "geometry": {
                 "type": "LineString",
                 "coordinates": [
-                    [
-                        -87.952588,
-                        30.841137
-                    ],
-                    [
-                        -87.952588,
-                        30.841137
-                    ],
                     [
                         -87.912975,
                         30.849518
@@ -2295,14 +2300,6 @@
             "geometry": {
                 "type": "LineString",
                 "coordinates": [
-                    [
-                        -88.929547,
-                        30.420956
-                    ],
-                    [
-                        -88.929547,
-                        30.420956
-                    ],
                     [
                         -88.913646,
                         30.425171
@@ -2769,14 +2766,6 @@
                 "type": "LineString",
                 "coordinates": [
                     [
-                        -117.282678,
-                        32.994919
-                    ],
-                    [
-                        -117.282349,
-                        32.993637
-                    ],
-                    [
                         -117.286853,
                         33.014282
                     ],
@@ -2926,6 +2915,35 @@
         {
             "type": "Feature",
             "properties": {
+                "hex": "AE5DEF",
+                "flight": "C20616  ",
+                "type": "C30J",
+                "description": "Lockheed HC-130J Hercules",
+                "operator": "United States Coast Guard",
+                "altitude": 200,
+                "ground_speed": 125.0,
+                "track": 95.4,
+                "squawk": "N/A",
+                "rssi": -49.5,
+                "api_source": "https://api.airplanes.live/v2/hex/",
+                "last_seen": "2025-05-05T18:25:02.536445+00:00",
+                "nav_qnh": 0.0,
+                "nav_altitude_mcp": 0,
+                "category": "Unknown"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -76.198013,
+                        36.261585
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
                 "hex": "AE26A8",
                 "flight": "C6582   ",
                 "type": "AS65",
@@ -2945,10 +2963,6 @@
             "geometry": {
                 "type": "LineString",
                 "coordinates": [
-                    [
-                        -80.110077,
-                        25.81559
-                    ],
                     [
                         -80.117694,
                         25.861771
@@ -3095,88 +3109,18 @@
         {
             "type": "Feature",
             "properties": {
-                "hex": "AE5DEF",
-                "flight": "C20616  ",
-                "type": "C30J",
-                "description": "Lockheed HC-130J Hercules",
-                "operator": "United States Coast Guard",
-                "altitude": 200,
-                "ground_speed": 125.0,
-                "track": 95.4,
-                "squawk": "N/A",
-                "rssi": -49.5,
-                "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-05-05T18:25:02.536445+00:00",
-                "nav_qnh": 0.0,
-                "nav_altitude_mcp": 0,
-                "category": "Unknown"
-            },
-            "geometry": {
-                "type": "LineString",
-                "coordinates": [
-                    [
-                        -76.226692,
-                        36.251541
-                    ],
-                    [
-                        -76.198013,
-                        36.261585
-                    ]
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "hex": "AE2907",
-                "flight": "Unknown",
-                "type": "H60",
-                "description": "Sikorsky MH-60T Jayhawk",
-                "operator": "Unknown",
-                "altitude": 700,
-                "ground_speed": 0.0,
-                "track": 0.0,
-                "squawk": "N/A",
-                "rssi": -25.0,
-                "api_source": "https://opendata.adsb.fi/api/v2/hex/",
-                "last_seen": "2025-05-05T18:38:03.094161+00:00",
-                "nav_qnh": 0.0,
-                "nav_altitude_mcp": 0,
-                "category": "A7"
-            },
-            "geometry": {
-                "type": "LineString",
-                "coordinates": [
-                    [
-                        -70.531013,
-                        41.643211
-                    ],
-                    [
-                        -70.534654,
-                        41.646796
-                    ],
-                    [
-                        -70.539125,
-                        41.653034
-                    ]
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
                 "hex": "AE57D3",
                 "flight": "C2009   ",
                 "type": "C30J",
                 "description": "Lockheed Martin HC-130J Hercules",
                 "operator": "United States Coast Guard",
-                "altitude": 5950,
-                "ground_speed": 244.3,
-                "track": 141.82,
+                "altitude": 5000,
+                "ground_speed": 246.6,
+                "track": 142.25,
                 "squawk": "1753",
-                "rssi": -1.6,
+                "rssi": -2.7,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-05-05T22:23:03.263338+00:00",
+                "last_seen": "2025-05-05T22:24:03.050969+00:00",
                 "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
                 "category": "A3"
@@ -4379,6 +4323,14 @@
                     [
                         -156.159472,
                         19.606842
+                    ],
+                    [
+                        -156.115772,
+                        19.553558
+                    ],
+                    [
+                        -156.115772,
+                        19.553558
                     ]
                 ]
             }
@@ -9140,13 +9092,13 @@
                 "type": "C30J",
                 "description": "Lockheed Martin HC-130J Hercules",
                 "operator": "Unknown",
-                "altitude": 0,
-                "ground_speed": 0.0,
-                "track": 0.0,
+                "altitude": 12700,
+                "ground_speed": 258.4,
+                "track": 109.91,
                 "squawk": "N/A",
-                "rssi": -21.1,
-                "api_source": "https://opendata.adsb.fi/api/v2/hex/",
-                "last_seen": "2025-05-05T22:23:03.263202+00:00",
+                "rssi": -21.9,
+                "api_source": "https://api.airplanes.live/v2/hex/",
+                "last_seen": "2025-05-05T22:24:03.050990+00:00",
                 "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
                 "category": "A3"
@@ -9861,6 +9813,14 @@
                     [
                         -159.315491,
                         21.197891
+                    ],
+                    [
+                        -159.092468,
+                        21.193954
+                    ],
+                    [
+                        -159.092468,
+                        21.193954
                     ]
                 ]
             }
@@ -13605,9 +13565,9 @@
                 "ground_speed": 0.0,
                 "track": 0.0,
                 "squawk": "5147",
-                "rssi": -26.2,
+                "rssi": -25.6,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-05-05T22:23:03.263290+00:00",
+                "last_seen": "2025-05-05T22:24:03.050947+00:00",
                 "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
                 "category": "A7"
@@ -14062,6 +14022,14 @@
                     [
                         -77.046283,
                         38.846329
+                    ],
+                    [
+                        -77.046283,
+                        38.846363
+                    ],
+                    [
+                        -77.046283,
+                        38.846363
                     ]
                 ]
             }
@@ -14227,9 +14195,9 @@
                 "ground_speed": 0.0,
                 "track": 0.0,
                 "squawk": "5145",
-                "rssi": -24.7,
+                "rssi": -23.9,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-05-05T22:23:03.263327+00:00",
+                "last_seen": "2025-05-05T22:24:03.050959+00:00",
                 "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
                 "category": "A7"
@@ -14256,6 +14224,14 @@
                     [
                         -77.045746,
                         38.846203
+                    ],
+                    [
+                        -77.045746,
+                        38.846201
+                    ],
+                    [
+                        -77.045746,
+                        38.846201
                     ]
                 ]
             }
