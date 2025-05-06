@@ -24,14 +24,6 @@
                 "type": "LineString",
                 "coordinates": [
                     [
-                        -74.860482,
-                        39.478592
-                    ],
-                    [
-                        -74.860046,
-                        39.479277
-                    ],
-                    [
                         -74.831941,
                         39.511734
                     ],
@@ -112,14 +104,6 @@
             "geometry": {
                 "type": "LineString",
                 "coordinates": [
-                    [
-                        -80.117587,
-                        26.128002
-                    ],
-                    [
-                        -80.117587,
-                        26.128002
-                    ],
                     [
                         -80.09535,
                         26.141456
@@ -486,14 +470,6 @@
                 "type": "LineString",
                 "coordinates": [
                     [
-                        -76.863755,
-                        38.827332
-                    ],
-                    [
-                        -76.863755,
-                        38.827332
-                    ],
-                    [
                         -76.863695,
                         38.824768
                     ],
@@ -734,14 +710,6 @@
             "geometry": {
                 "type": "LineString",
                 "coordinates": [
-                    [
-                        -89.793414,
-                        30.222153
-                    ],
-                    [
-                        -89.793629,
-                        30.221146
-                    ],
                     [
                         -89.793629,
                         30.221146
@@ -1304,55 +1272,18 @@
         {
             "type": "Feature",
             "properties": {
-                "hex": "AE57D2",
-                "flight": "C2008   ",
-                "type": "C30J",
-                "description": "Lockheed Martin HC-130J Hercules",
-                "operator": "United States Coast Guard",
-                "altitude": 0,
-                "ground_speed": 0.0,
-                "track": 0.0,
-                "squawk": "N/A",
-                "rssi": -29.5,
-                "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-05-06T15:09:03.242115+00:00",
-                "nav_qnh": 0.0,
-                "nav_altitude_mcp": 0,
-                "category": "A3"
-            },
-            "geometry": {
-                "type": "LineString",
-                "coordinates": [
-                    [
-                        -75.006237,
-                        35.367966
-                    ],
-                    [
-                        -74.956684,
-                        35.328506
-                    ],
-                    [
-                        -74.942093,
-                        35.316833
-                    ]
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
                 "hex": "AE2673",
                 "flight": "Unknown",
                 "type": "AS65",
                 "description": "Eurocopter MH-65D Dolphin",
                 "operator": "United States Coast Guard",
-                "altitude": 200,
-                "ground_speed": 54.0,
-                "track": 131.0,
+                "altitude": "ground",
+                "ground_speed": 24.0,
+                "track": 262.6,
                 "squawk": "1200",
                 "rssi": -49.5,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-05-06T19:06:03.324029+00:00",
+                "last_seen": "2025-05-06T19:07:03.567039+00:00",
                 "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
                 "category": "A7"
@@ -1360,10 +1291,6 @@
             "geometry": {
                 "type": "LineString",
                 "coordinates": [
-                    [
-                        -81.567619,
-                        29.707031
-                    ],
                     [
                         -81.568695,
                         29.707357
@@ -2115,6 +2042,14 @@
                     [
                         -81.868713,
                         30.366119
+                    ],
+                    [
+                        -81.868524,
+                        30.36393
+                    ],
+                    [
+                        -81.871323,
+                        30.363464
                     ]
                 ]
             }
@@ -2141,10 +2076,6 @@
             "geometry": {
                 "type": "LineString",
                 "coordinates": [
-                    [
-                        -95.156496,
-                        29.279526
-                    ],
                     [
                         -95.16611,
                         29.255173
@@ -2351,10 +2282,6 @@
                 "type": "LineString",
                 "coordinates": [
                     [
-                        -80.142081,
-                        26.120484
-                    ],
-                    [
                         -80.142077,
                         26.120476
                     ],
@@ -2477,6 +2404,35 @@
                     [
                         -80.277892,
                         25.910091
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "hex": "AE57D2",
+                "flight": "C2008   ",
+                "type": "C30J",
+                "description": "Lockheed Martin HC-130J Hercules",
+                "operator": "United States Coast Guard",
+                "altitude": 0,
+                "ground_speed": 0.0,
+                "track": 0.0,
+                "squawk": "N/A",
+                "rssi": -29.5,
+                "api_source": "https://api.airplanes.live/v2/hex/",
+                "last_seen": "2025-05-06T15:09:03.242115+00:00",
+                "nav_qnh": 0.0,
+                "nav_altitude_mcp": 0,
+                "category": "A3"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -74.942093,
+                        35.316833
                     ]
                 ]
             }
@@ -3603,13 +3559,13 @@
                 "type": "CN35",
                 "description": "CASA HC-144B Ocean Sentry",
                 "operator": "United States Coast Guard",
-                "altitude": 875,
-                "ground_speed": 121.3,
-                "track": 184.25,
+                "altitude": 1275,
+                "ground_speed": 147.2,
+                "track": 3.12,
                 "squawk": "4424",
-                "rssi": -17.5,
+                "rssi": -11.5,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-05-06T19:06:03.324059+00:00",
+                "last_seen": "2025-05-06T19:07:03.567068+00:00",
                 "nav_qnh": 1016.0,
                 "nav_altitude_mcp": 1504,
                 "category": "A2"
@@ -3924,6 +3880,10 @@
                     [
                         -89.456231,
                         30.348175
+                    ],
+                    [
+                        -89.430688,
+                        30.361928
                     ]
                 ]
             }
@@ -5718,13 +5678,13 @@
                 "type": "AS65",
                 "description": "Eurocopter MH-65D Dolphin",
                 "operator": "United States Coast Guard",
-                "altitude": 4325,
-                "ground_speed": 101.4,
-                "track": 40.6,
+                "altitude": 4925,
+                "ground_speed": 100.5,
+                "track": 80.26,
                 "squawk": "4664",
-                "rssi": -17.2,
+                "rssi": -22.1,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-05-06T19:06:03.324017+00:00",
+                "last_seen": "2025-05-06T19:07:03.567028+00:00",
                 "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
                 "category": "A7"
@@ -5943,6 +5903,14 @@
                     [
                         -89.905001,
                         30.133118
+                    ],
+                    [
+                        -89.880634,
+                        30.149743
+                    ],
+                    [
+                        -89.880174,
+                        30.149826
                     ]
                 ]
             }
@@ -6957,9 +6925,9 @@
                 "ground_speed": 0.0,
                 "track": 0.0,
                 "squawk": "N/A",
-                "rssi": -27.9,
+                "rssi": -31.1,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-05-06T19:06:03.324088+00:00",
+                "last_seen": "2025-05-06T19:07:03.567089+00:00",
                 "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
                 "category": "A0"
@@ -10816,11 +10784,11 @@
                 "operator": "United States Coast Guard",
                 "altitude": 600,
                 "ground_speed": 2.0,
-                "track": 180.0,
+                "track": 57.0,
                 "squawk": "4422",
                 "rssi": -49.5,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-05-06T19:06:03.324050+00:00",
+                "last_seen": "2025-05-06T19:07:03.567057+00:00",
                 "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
                 "category": "A7"
@@ -11503,6 +11471,14 @@
                     [
                         -82.841515,
                         42.47105
+                    ],
+                    [
+                        -82.841596,
+                        42.471039
+                    ],
+                    [
+                        -82.841576,
+                        42.471004
                     ]
                 ]
             }
@@ -11580,13 +11556,13 @@
                 "type": "H60",
                 "description": "Sikorsky MH-60T Jayhawk",
                 "operator": "United States Coast Guard",
-                "altitude": 75,
-                "ground_speed": 96.7,
-                "track": 277.12,
-                "squawk": "1277",
-                "rssi": -28.6,
+                "altitude": 100,
+                "ground_speed": 105.0,
+                "track": 342.26,
+                "squawk": "N/A",
+                "rssi": -27.9,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-05-06T19:06:03.324076+00:00",
+                "last_seen": "2025-05-06T19:07:03.567078+00:00",
                 "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
                 "category": "A7"
@@ -11837,6 +11813,14 @@
                     [
                         -82.974405,
                         28.250877
+                    ],
+                    [
+                        -82.984691,
+                        28.27974
+                    ],
+                    [
+                        -82.98486,
+                        28.280228
                     ]
                 ]
             }
