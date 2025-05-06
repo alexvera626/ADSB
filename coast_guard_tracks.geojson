@@ -24,14 +24,6 @@
                 "type": "LineString",
                 "coordinates": [
                     [
-                        -88.513507,
-                        30.753479
-                    ],
-                    [
-                        -88.512891,
-                        30.753851
-                    ],
-                    [
                         -88.477679,
                         30.773217
                     ],
@@ -128,14 +120,6 @@
             "geometry": {
                 "type": "LineString",
                 "coordinates": [
-                    [
-                        -122.356169,
-                        37.754144
-                    ],
-                    [
-                        -122.356229,
-                        37.754144
-                    ],
                     [
                         -122.361722,
                         37.757403
@@ -634,14 +618,6 @@
                 "type": "LineString",
                 "coordinates": [
                     [
-                        -74.713684,
-                        39.415826
-                    ],
-                    [
-                        -74.713002,
-                        39.415787
-                    ],
-                    [
                         -74.677356,
                         39.4254
                     ],
@@ -698,14 +674,6 @@
             "geometry": {
                 "type": "LineString",
                 "coordinates": [
-                    [
-                        -88.99563,
-                        30.386647
-                    ],
-                    [
-                        -88.994536,
-                        30.386765
-                    ],
                     [
                         -88.969702,
                         30.388603
@@ -1027,14 +995,6 @@
             "geometry": {
                 "type": "LineString",
                 "coordinates": [
-                    [
-                        -88.353589,
-                        30.279996
-                    ],
-                    [
-                        -88.353589,
-                        30.279996
-                    ],
                     [
                         -88.310083,
                         30.305646
@@ -2303,12 +2263,12 @@
                 "description": "Alenia HC-27J Spartan",
                 "operator": "United States Coast Guard",
                 "altitude": 21000,
-                "ground_speed": 297.0,
-                "track": 99.0,
+                "ground_speed": 288.0,
+                "track": 100.0,
                 "squawk": "6323",
-                "rssi": -11.7,
+                "rssi": -7.8,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-05-06T23:40:03.487130+00:00",
+                "last_seen": "2025-05-06T23:41:03.681521+00:00",
                 "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
                 "category": "A0"
@@ -2903,6 +2863,63 @@
                     [
                         -90.196978,
                         38.793673
+                    ],
+                    [
+                        -90.100985,
+                        38.781629
+                    ],
+                    [
+                        -90.10536,
+                        38.782233
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "hex": "AE6CEB",
+                "flight": "C6056   ",
+                "type": "H60",
+                "description": "Sikorsky MH-60T Jayhawk",
+                "operator": "United States Coast Guard",
+                "altitude": "ground",
+                "ground_speed": 0.0,
+                "track": 0.0,
+                "squawk": "N/A",
+                "rssi": -13.6,
+                "api_source": "https://api.airplanes.live/v2/hex/",
+                "last_seen": "2025-05-06T19:44:02.692894+00:00",
+                "nav_qnh": 0.0,
+                "nav_altitude_mcp": 0,
+                "category": "A7"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -117.180959,
+                        32.726269
+                    ],
+                    [
+                        -117.180959,
+                        32.726269
+                    ],
+                    [
+                        -117.181357,
+                        32.726921
+                    ],
+                    [
+                        -117.181357,
+                        32.726921
+                    ],
+                    [
+                        -117.181082,
+                        32.726967
+                    ],
+                    [
+                        -117.181082,
+                        32.726967
                     ]
                 ]
             }
@@ -3956,63 +3973,6 @@
                     [
                         -121.400294,
                         38.651478
-                    ]
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "hex": "AE6CEB",
-                "flight": "C6056   ",
-                "type": "H60",
-                "description": "Sikorsky MH-60T Jayhawk",
-                "operator": "United States Coast Guard",
-                "altitude": "ground",
-                "ground_speed": 0.0,
-                "track": 0.0,
-                "squawk": "N/A",
-                "rssi": -13.6,
-                "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-05-06T19:44:02.692894+00:00",
-                "nav_qnh": 0.0,
-                "nav_altitude_mcp": 0,
-                "category": "A7"
-            },
-            "geometry": {
-                "type": "LineString",
-                "coordinates": [
-                    [
-                        -117.17855,
-                        32.727015
-                    ],
-                    [
-                        -117.178693,
-                        32.72699
-                    ],
-                    [
-                        -117.180959,
-                        32.726269
-                    ],
-                    [
-                        -117.180959,
-                        32.726269
-                    ],
-                    [
-                        -117.181357,
-                        32.726921
-                    ],
-                    [
-                        -117.181357,
-                        32.726921
-                    ],
-                    [
-                        -117.181082,
-                        32.726967
-                    ],
-                    [
-                        -117.181082,
-                        32.726967
                     ]
                 ]
             }
@@ -9214,15 +9174,15 @@
                 "type": "C30J",
                 "description": "Lockheed HC-130J Hercules",
                 "operator": "United States Coast Guard",
-                "altitude": 1000,
-                "ground_speed": 134.0,
-                "track": 221.07,
-                "squawk": "N/A",
-                "rssi": -28.9,
+                "altitude": 2925,
+                "ground_speed": 194.0,
+                "track": 127.46,
+                "squawk": "4655",
+                "rssi": -26.3,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-05-06T23:38:02.415708+00:00",
+                "last_seen": "2025-05-06T23:41:03.681533+00:00",
                 "nav_qnh": 1016.0,
-                "nav_altitude_mcp": 0,
+                "nav_altitude_mcp": 3008,
                 "category": "A3"
             },
             "geometry": {
@@ -9691,6 +9651,14 @@
                     [
                         -77.555471,
                         35.381423
+                    ],
+                    [
+                        -77.569084,
+                        35.277054
+                    ],
+                    [
+                        -77.569084,
+                        35.277054
                     ]
                 ]
             }
