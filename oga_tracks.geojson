@@ -9064,14 +9064,14 @@
                 "type": "AS50",
                 "description": "AEROSPATIALE AS-350 Ecureuil",
                 "operator": "ANAHEIM POLICE DEPT",
-                "altitude": 0,
-                "ground_speed": 25.0,
-                "track": 267.71,
-                "squawk": "4301",
-                "rssi": -27.8,
+                "altitude": "ground",
+                "ground_speed": 5.8,
+                "track": 286.88,
+                "squawk": "N/A",
+                "rssi": -27.3,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-05-08T00:01:03.628183+00:00",
-                "nav_qnh": 1013.6,
+                "last_seen": "2025-05-08T00:02:02.606116+00:00",
+                "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
                 "category": "A7"
             },
@@ -9153,6 +9153,47 @@
                     [
                         -117.981954,
                         33.872177
+                    ],
+                    [
+                        -117.982979,
+                        33.872235
+                    ],
+                    [
+                        -117.982794,
+                        33.872189
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "hex": "A19F67",
+                "flight": "TROY    ",
+                "type": "AS50",
+                "description": "AEROSPATIALE AS-350 Ecureuil",
+                "operator": "DEPARTMENT OF HOMELAND SECURITY",
+                "altitude": 1000,
+                "ground_speed": 105.7,
+                "track": 190.35,
+                "squawk": "4403",
+                "rssi": -14.2,
+                "api_source": "https://api.airplanes.live/v2/hex/",
+                "last_seen": "2025-05-08T00:02:02.606126+00:00",
+                "nav_qnh": 1017.6,
+                "nav_altitude_mcp": 5504,
+                "category": "A7"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -82.854096,
+                        42.621786
+                    ],
+                    [
+                        -82.85433,
+                        42.620865
                     ]
                 ]
             }
