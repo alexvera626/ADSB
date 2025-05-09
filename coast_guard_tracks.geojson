@@ -24,22 +24,6 @@
                 "type": "LineString",
                 "coordinates": [
                     [
-                        -122.288086,
-                        40.405838
-                    ],
-                    [
-                        -122.288007,
-                        40.404922
-                    ],
-                    [
-                        -122.276334,
-                        40.353295
-                    ],
-                    [
-                        -122.276459,
-                        40.352783
-                    ],
-                    [
                         -122.298868,
                         40.302134
                     ],
@@ -437,14 +421,6 @@
                 "type": "LineString",
                 "coordinates": [
                     [
-                        -119.242859,
-                        34.177368
-                    ],
-                    [
-                        -119.242744,
-                        34.177443
-                    ],
-                    [
                         -119.243088,
                         34.177908
                     ],
@@ -682,55 +658,6 @@
         {
             "type": "Feature",
             "properties": {
-                "hex": "AE57D3",
-                "flight": "C2009   ",
-                "type": "C30J",
-                "description": "Lockheed Martin HC-130J Hercules",
-                "operator": "United States Coast Guard",
-                "altitude": "ground",
-                "ground_speed": 4.2,
-                "track": 0.0,
-                "squawk": "3610",
-                "rssi": -21.4,
-                "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-05-09T04:33:03.233186+00:00",
-                "nav_qnh": 0.0,
-                "nav_altitude_mcp": 0,
-                "category": "A3"
-            },
-            "geometry": {
-                "type": "LineString",
-                "coordinates": [
-                    [
-                        -158.077189,
-                        21.30142
-                    ],
-                    [
-                        -158.070882,
-                        21.305458
-                    ],
-                    [
-                        -158.07181,
-                        21.304958
-                    ],
-                    [
-                        -158.072993,
-                        21.302967
-                    ],
-                    [
-                        -158.073311,
-                        21.302013
-                    ],
-                    [
-                        -158.072388,
-                        21.300911
-                    ]
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
                 "hex": "AE26AD",
                 "flight": "Unknown",
                 "type": "AS65",
@@ -750,14 +677,6 @@
             "geometry": {
                 "type": "LineString",
                 "coordinates": [
-                    [
-                        -123.079271,
-                        48.330368
-                    ],
-                    [
-                        -123.080961,
-                        48.330963
-                    ],
                     [
                         -123.082725,
                         48.331511
@@ -904,14 +823,6 @@
                 "type": "LineString",
                 "coordinates": [
                     [
-                        -123.406265,
-                        48.154999
-                    ],
-                    [
-                        -123.425621,
-                        48.160198
-                    ],
-                    [
                         -123.42424,
                         48.164249
                     ],
@@ -942,6 +853,43 @@
                     [
                         -123.407097,
                         48.141018
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "hex": "AE57D3",
+                "flight": "C2009   ",
+                "type": "C30J",
+                "description": "Lockheed Martin HC-130J Hercules",
+                "operator": "United States Coast Guard",
+                "altitude": "ground",
+                "ground_speed": 4.2,
+                "track": 0.0,
+                "squawk": "3610",
+                "rssi": -21.4,
+                "api_source": "https://api.airplanes.live/v2/hex/",
+                "last_seen": "2025-05-09T04:33:03.233186+00:00",
+                "nav_qnh": 0.0,
+                "nav_altitude_mcp": 0,
+                "category": "A3"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -158.072993,
+                        21.302967
+                    ],
+                    [
+                        -158.073311,
+                        21.302013
+                    ],
+                    [
+                        -158.072388,
+                        21.300911
                     ]
                 ]
             }
