@@ -4,6 +4,39 @@
         {
             "type": "Feature",
             "properties": {
+                "hex": "AE2708",
+                "flight": "C2310   ",
+                "type": "CN35",
+                "description": "CASA HC-144B Ocean Sentry",
+                "operator": "United States Coast Guard",
+                "altitude": 575,
+                "ground_speed": 107.4,
+                "track": 144.09,
+                "squawk": "1200",
+                "rssi": -30.2,
+                "api_source": "https://api.airplanes.live/v2/hex/",
+                "last_seen": "2025-05-13T05:26:03.209503+00:00",
+                "nav_qnh": 1012.0,
+                "nav_altitude_mcp": 1504,
+                "category": "A2"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -88.261844,
+                        30.711731
+                    ],
+                    [
+                        -88.261844,
+                        30.711731
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
                 "hex": "AE2661",
                 "flight": "C6507   ",
                 "type": "AS65",
@@ -23,14 +56,6 @@
             "geometry": {
                 "type": "LineString",
                 "coordinates": [
-                    [
-                        -158.07893,
-                        21.300247
-                    ],
-                    [
-                        -158.078715,
-                        21.300395
-                    ],
                     [
                         -158.078617,
                         21.300476
@@ -729,40 +754,68 @@
         {
             "type": "Feature",
             "properties": {
-                "hex": "AE2708",
-                "flight": "C2310   ",
-                "type": "CN35",
-                "description": "CASA HC-144B Ocean Sentry",
+                "hex": "AE26B2",
+                "flight": "C6592   ",
+                "type": "AS65",
+                "description": "Eurocopter MH-65D Dolphin",
                 "operator": "United States Coast Guard",
-                "altitude": 575,
-                "ground_speed": 107.4,
-                "track": 144.09,
+                "altitude": 276,
+                "ground_speed": 30.0,
+                "track": 272.5,
                 "squawk": "1200",
-                "rssi": -30.2,
+                "rssi": -49.5,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-05-13T05:26:03.209503+00:00",
-                "nav_qnh": 1012.0,
-                "nav_altitude_mcp": 1504,
-                "category": "A2"
+                "last_seen": "2025-05-13T06:08:02.311456+00:00",
+                "nav_qnh": 0.0,
+                "nav_altitude_mcp": 0,
+                "category": "Unknown"
             },
             "geometry": {
                 "type": "LineString",
                 "coordinates": [
                     [
-                        -88.280035,
-                        30.733462
+                        -123.14785,
+                        48.329369
                     ],
                     [
-                        -88.280035,
-                        30.733462
+                        -123.173431,
+                        48.312752
                     ],
                     [
-                        -88.261844,
-                        30.711731
+                        -123.197937,
+                        48.295441
                     ],
                     [
-                        -88.261844,
-                        30.711731
+                        -123.226631,
+                        48.273087
+                    ],
+                    [
+                        -123.249489,
+                        48.252182
+                    ],
+                    [
+                        -123.273399,
+                        48.230865
+                    ],
+                    [
+                        -123.300354,
+                        48.206379
+                    ],
+                    [
+                        -123.326813,
+                        48.180122
+                    ],
+                    [
+                        -123.348862,
+                        48.154331
+                    ],
+                    [
+                        -123.378319,
+                        48.139801
+                    ],
+                    [
+                        -123.404633,
+                        48.140926
                     ]
                 ]
             }
@@ -789,10 +842,6 @@
             "geometry": {
                 "type": "LineString",
                 "coordinates": [
-                    [
-                        -118.487988,
-                        32.636765
-                    ],
                     [
                         -118.509409,
                         32.637122
@@ -1488,75 +1537,6 @@
                     [
                         -118.157444,
                         33.81643
-                    ]
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "hex": "AE26B2",
-                "flight": "C6592   ",
-                "type": "AS65",
-                "description": "Eurocopter MH-65D Dolphin",
-                "operator": "United States Coast Guard",
-                "altitude": 276,
-                "ground_speed": 30.0,
-                "track": 272.5,
-                "squawk": "1200",
-                "rssi": -49.5,
-                "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-05-13T06:08:02.311456+00:00",
-                "nav_qnh": 0.0,
-                "nav_altitude_mcp": 0,
-                "category": "Unknown"
-            },
-            "geometry": {
-                "type": "LineString",
-                "coordinates": [
-                    [
-                        -123.14785,
-                        48.329369
-                    ],
-                    [
-                        -123.173431,
-                        48.312752
-                    ],
-                    [
-                        -123.197937,
-                        48.295441
-                    ],
-                    [
-                        -123.226631,
-                        48.273087
-                    ],
-                    [
-                        -123.249489,
-                        48.252182
-                    ],
-                    [
-                        -123.273399,
-                        48.230865
-                    ],
-                    [
-                        -123.300354,
-                        48.206379
-                    ],
-                    [
-                        -123.326813,
-                        48.180122
-                    ],
-                    [
-                        -123.348862,
-                        48.154331
-                    ],
-                    [
-                        -123.378319,
-                        48.139801
-                    ],
-                    [
-                        -123.404633,
-                        48.140926
                     ]
                 ]
             }
