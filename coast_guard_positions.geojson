@@ -5,17 +5,17 @@
             "type": "Feature",
             "properties": {
                 "hex": "AE266C",
-                "flight": "C6518   ",
+                "flight": "Unknown",
                 "type": "AS65",
                 "description": "Eurocopter MH-65D Dolphin",
                 "operator": "Unknown",
                 "altitude": "ground",
-                "ground_speed": 6.2,
+                "ground_speed": 4.2,
                 "track": 0.0,
-                "squawk": "1200",
+                "squawk": "N/A",
                 "rssi": null,
                 "api_source": "https://opendata.adsb.fi/api/v2/hex/",
-                "last_seen": "2025-05-13T23:35:02.782390+00:00",
+                "last_seen": "2025-05-13T23:36:03.204976+00:00",
                 "nav_qnh": null,
                 "nav_altitude_mcp": null,
                 "category": "A7"
@@ -23,8 +23,35 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -81.890332,
-                    30.21942
+                    -81.889478,
+                    30.220917
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "hex": "AE26B2",
+                "flight": "C6592   ",
+                "type": "AS65",
+                "description": "Eurocopter MH-65D Dolphin",
+                "operator": "United States Coast Guard",
+                "altitude": 250,
+                "ground_speed": 74.0,
+                "track": 252.6,
+                "squawk": "1200",
+                "rssi": null,
+                "api_source": "https://api.airplanes.live/v2/hex/",
+                "last_seen": "2025-05-13T23:36:03.205215+00:00",
+                "nav_qnh": null,
+                "nav_altitude_mcp": null,
+                "category": "Unknown"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -123.172424,
+                    48.323086
                 ]
             }
         },
