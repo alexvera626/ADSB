@@ -1413,14 +1413,14 @@
                 "description": "AEROSPATIALE AS-350 Ecureuil",
                 "operator": "CITY OF ANAHEIM",
                 "altitude": "ground",
-                "ground_speed": 4.2,
-                "track": 265.6,
+                "ground_speed": 0.0,
+                "track": 0.0,
                 "squawk": "4301",
-                "rssi": -8.7,
-                "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-05-14T23:18:02.896428+00:00",
-                "nav_qnh": 1014.4,
-                "nav_altitude_mcp": 4000,
+                "rssi": -19.0,
+                "api_source": "https://opendata.adsb.fi/api/v2/hex/",
+                "last_seen": "2025-05-14T23:19:02.865365+00:00",
+                "nav_qnh": 0.0,
+                "nav_altitude_mcp": 0,
                 "category": "A7"
             },
             "geometry": {
@@ -2197,13 +2197,13 @@
                 "type": "H60",
                 "description": "Sikorsky MH-60R Seahawk",
                 "operator": "United States Navy",
-                "altitude": 225,
-                "ground_speed": 74.3,
-                "track": 313.36,
+                "altitude": 600,
+                "ground_speed": 87.7,
+                "track": 316.85,
                 "squawk": "4007",
-                "rssi": -12.3,
+                "rssi": -17.1,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-05-14T23:18:02.896440+00:00",
+                "last_seen": "2025-05-14T23:19:02.865582+00:00",
                 "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
                 "category": "A7"
@@ -3890,6 +3890,14 @@
                     [
                         -117.425061,
                         33.234924
+                    ],
+                    [
+                        -117.445001,
+                        33.247101
+                    ],
+                    [
+                        -117.445001,
+                        33.247101
                     ]
                 ]
             }
@@ -4047,13 +4055,13 @@
                 "type": "H60",
                 "description": "Sikorsky UH-60M Black Hawk",
                 "operator": "Unknown",
-                "altitude": 125,
-                "ground_speed": 37.4,
-                "track": 235.89,
+                "altitude": -75,
+                "ground_speed": 4.5,
+                "track": 333.43,
                 "squawk": "4757",
-                "rssi": -15.0,
+                "rssi": -5.9,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-05-14T23:18:02.896476+00:00",
+                "last_seen": "2025-05-14T23:19:02.865611+00:00",
                 "nav_qnh": 1015.2,
                 "nav_altitude_mcp": 0,
                 "category": "A7"
@@ -5072,6 +5080,14 @@
                     [
                         -118.046638,
                         33.794312
+                    ],
+                    [
+                        -118.051571,
+                        33.791656
+                    ],
+                    [
+                        -118.051683,
+                        33.791702
                     ]
                 ]
             }
@@ -5084,13 +5100,13 @@
                 "type": "Unknown",
                 "description": "Unknown",
                 "operator": "Unknown",
-                "altitude": 1400,
-                "ground_speed": 164.5,
-                "track": 107.33,
+                "altitude": 1450,
+                "ground_speed": 164.8,
+                "track": 107.67,
                 "squawk": "1200",
-                "rssi": -24.0,
+                "rssi": -26.7,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-05-14T23:18:02.896452+00:00",
+                "last_seen": "2025-05-14T23:19:02.865591+00:00",
                 "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
                 "category": "A7"
@@ -6349,6 +6365,14 @@
                     [
                         -117.887476,
                         33.206543
+                    ],
+                    [
+                        -117.835544,
+                        33.192863
+                    ],
+                    [
+                        -117.835992,
+                        33.192956
                     ]
                 ]
             }
@@ -7469,18 +7493,47 @@
         {
             "type": "Feature",
             "properties": {
+                "hex": "AE4B62",
+                "flight": "Unknown",
+                "type": "H53S",
+                "description": "Sikorsky CH-53E Super Stallion",
+                "operator": "United States Marine Corps",
+                "altitude": 1075,
+                "ground_speed": 0.0,
+                "track": 0.0,
+                "squawk": "1200",
+                "rssi": -21.4,
+                "api_source": "https://api.airplanes.live/v2/hex/",
+                "last_seen": "2025-05-14T23:19:02.865570+00:00",
+                "nav_qnh": 0.0,
+                "nav_altitude_mcp": 0,
+                "category": "Unknown"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -117.363886,
+                        33.219035
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
                 "hex": "AE4FCF",
                 "flight": "ST710   ",
                 "type": "H60",
                 "description": "SIKORSKY UH-60 Black Hawk",
                 "operator": "Unknown",
                 "altitude": 300,
-                "ground_speed": 113.1,
-                "track": 315.0,
-                "squawk": "N/A",
-                "rssi": -11.6,
+                "ground_speed": 112.5,
+                "track": 316.8,
+                "squawk": "1200",
+                "rssi": -12.3,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-05-14T23:18:02.896464+00:00",
+                "last_seen": "2025-05-14T23:19:02.865601+00:00",
                 "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
                 "category": "A7"
@@ -8239,6 +8292,14 @@
                     [
                         -117.351977,
                         32.69629
+                    ],
+                    [
+                        -117.379275,
+                        32.719054
+                    ],
+                    [
+                        -117.379523,
+                        32.719254
                     ]
                 ]
             }
@@ -11961,13 +12022,13 @@
                 "type": "Unknown",
                 "description": "Unknown",
                 "operator": "Unknown",
-                "altitude": 75,
-                "ground_speed": 57.3,
-                "track": 286.22,
-                "squawk": "N/A",
-                "rssi": -11.6,
+                "altitude": 325,
+                "ground_speed": 76.7,
+                "track": 50.29,
+                "squawk": "1200",
+                "rssi": -10.3,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-05-14T23:18:02.896488+00:00",
+                "last_seen": "2025-05-14T23:19:02.865620+00:00",
                 "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
                 "category": "A7"
@@ -12078,6 +12139,14 @@
                     [
                         -117.121619,
                         32.562103
+                    ],
+                    [
+                        -117.114807,
+                        32.553497
+                    ],
+                    [
+                        -117.118966,
+                        32.553282
                     ]
                 ]
             }
