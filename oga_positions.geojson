@@ -8,14 +8,14 @@
                 "flight": "N183SD  ",
                 "type": "AS50",
                 "description": "AEROSPATIALE AS-350 Ecureuil",
-                "operator": "ORANGE COUNTY SHERIFF'S DEPARTMENT",
+                "operator": "ORANGE COUNTY SHERIFF'S DEPARTMENT, C/O CORONER AIR SUPPORT",
                 "altitude": "ground",
-                "ground_speed": 5.2,
-                "track": 194.06,
+                "ground_speed": 14.8,
+                "track": 0.0,
                 "squawk": "4204",
                 "rssi": null,
-                "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-05-15T16:29:02.589514+00:00",
+                "api_source": "https://opendata.adsb.fi/api/v2/hex/",
+                "last_seen": "2025-05-15T16:30:02.989916+00:00",
                 "nav_qnh": null,
                 "nav_altitude_mcp": null,
                 "category": "A7"
@@ -23,8 +23,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -117.734098,
-                    33.781772
+                    -117.734229,
+                    33.781013
                 ]
             }
         },
@@ -59,17 +59,17 @@
             "type": "Feature",
             "properties": {
                 "hex": "A19F67",
-                "flight": "Unknown",
+                "flight": "TROY    ",
                 "type": "AS50",
                 "description": "AEROSPATIALE AS-350 Ecureuil",
                 "operator": "DEPARTMENT OF HOMELAND SECURITY",
-                "altitude": 2225,
-                "ground_speed": 81.6,
-                "track": 120.96,
-                "squawk": "N/A",
+                "altitude": 2175,
+                "ground_speed": 101.0,
+                "track": 121.64,
+                "squawk": "4401",
                 "rssi": null,
-                "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-05-15T16:29:02.589553+00:00",
+                "api_source": "https://opendata.adsb.fi/api/v2/hex/",
+                "last_seen": "2025-05-15T16:30:02.989966+00:00",
                 "nav_qnh": null,
                 "nav_altitude_mcp": null,
                 "category": "A7"
@@ -77,8 +77,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -92.624728,
-                    44.48341
+                    -92.590697,
+                    44.469817
                 ]
             }
         },
@@ -133,6 +133,33 @@
                 "coordinates": [
                     -111.220205,
                     32.407806
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "hex": "A4DC0C",
+                "flight": "N412FA  ",
+                "type": "H60",
+                "description": "Sikorsky S-70M Firehawk",
+                "operator": "ORANGE COUNTY FIRE AUTHORITY",
+                "altitude": -50,
+                "ground_speed": 0.7,
+                "track": 0.0,
+                "squawk": "N/A",
+                "rssi": null,
+                "api_source": "https://api.airplanes.live/v2/hex/",
+                "last_seen": "2025-05-15T16:30:02.990161+00:00",
+                "nav_qnh": null,
+                "nav_altitude_mcp": null,
+                "category": "A7"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -117.978142,
+                    33.873093
                 ]
             }
         }
