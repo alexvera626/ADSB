@@ -24,14 +24,6 @@
                 "type": "LineString",
                 "coordinates": [
                     [
-                        -122.202719,
-                        37.25259
-                    ],
-                    [
-                        -122.202719,
-                        37.25259
-                    ],
-                    [
                         -122.185165,
                         37.221819
                     ],
@@ -419,12 +411,12 @@
                 "description": "Alenia HC-27J Spartan",
                 "operator": "United States Coast Guard",
                 "altitude": 21000,
-                "ground_speed": 322.1,
-                "track": 121.02,
+                "ground_speed": 324.0,
+                "track": 121.1,
                 "squawk": "0031",
-                "rssi": -29.2,
+                "rssi": -28.8,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-05-15T13:39:02.273253+00:00",
+                "last_seen": "2025-05-15T13:40:02.513539+00:00",
                 "nav_qnh": 1013.6,
                 "nav_altitude_mcp": 20992,
                 "category": "A2"
@@ -959,6 +951,14 @@
                     [
                         -79.066479,
                         25.09026
+                    ],
+                    [
+                        -78.97761,
+                        25.041641
+                    ],
+                    [
+                        -78.986053,
+                        25.046265
                     ]
                 ]
             }
@@ -972,12 +972,12 @@
                 "description": "Alenia HC-27J Spartan",
                 "operator": "United States Coast Guard",
                 "altitude": 925,
-                "ground_speed": 179.3,
-                "track": 356.8,
+                "ground_speed": 170.1,
+                "track": 102.57,
                 "squawk": "1200",
-                "rssi": -29.5,
+                "rssi": -28.1,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-05-15T13:39:02.273266+00:00",
+                "last_seen": "2025-05-15T13:40:02.513549+00:00",
                 "nav_qnh": 1016.0,
                 "nav_altitude_mcp": 992,
                 "category": "A2"
@@ -1192,6 +1192,14 @@
                     [
                         -83.026534,
                         28.243515
+                    ],
+                    [
+                        -82.981083,
+                        28.256882
+                    ],
+                    [
+                        -82.981083,
+                        28.256882
                     ]
                 ]
             }
@@ -1203,14 +1211,14 @@
                 "flight": "C6516   ",
                 "type": "AS65",
                 "description": "Eurocopter MH-65D Dolphin",
-                "operator": "Unknown",
-                "altitude": 75,
-                "ground_speed": 2.3,
-                "track": 243.43,
+                "operator": "United States Coast Guard",
+                "altitude": 0,
+                "ground_speed": 8.1,
+                "track": 277.12,
                 "squawk": "N/A",
-                "rssi": -28.0,
-                "api_source": "https://opendata.adsb.fi/api/v2/hex/",
-                "last_seen": "2025-05-15T13:39:02.272649+00:00",
+                "rssi": 0.0,
+                "api_source": "https://api.airplanes.live/v2/hex/",
+                "last_seen": "2025-05-15T13:40:02.513496+00:00",
                 "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
                 "category": "A7"
@@ -1361,6 +1369,14 @@
                     [
                         -80.837622,
                         32.037415
+                    ],
+                    [
+                        -80.840204,
+                        32.037506
+                    ],
+                    [
+                        -80.840204,
+                        32.037506
                     ]
                 ]
             }
@@ -1374,12 +1390,12 @@
                 "description": "Eurocopter MH-65D Dolphin",
                 "operator": "United States Coast Guard",
                 "altitude": 425,
-                "ground_speed": 87.6,
-                "track": 263.44,
+                "ground_speed": 82.2,
+                "track": 266.51,
                 "squawk": "4427",
-                "rssi": -15.0,
+                "rssi": -13.0,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-05-15T13:39:02.273231+00:00",
+                "last_seen": "2025-05-15T13:40:02.513507+00:00",
                 "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
                 "category": "A7"
@@ -1410,6 +1426,80 @@
                     [
                         -80.341856,
                         25.903713
+                    ],
+                    [
+                        -80.368255,
+                        25.902145
+                    ],
+                    [
+                        -80.368255,
+                        25.902145
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "hex": "AE26BB",
+                "flight": "Unknown",
+                "type": "AS65",
+                "description": "Eurocopter MH-65D Dolphin",
+                "operator": "United States Coast Guard",
+                "altitude": "ground",
+                "ground_speed": 5.2,
+                "track": 61.88,
+                "squawk": "5147",
+                "rssi": -28.6,
+                "api_source": "https://api.airplanes.live/v2/hex/",
+                "last_seen": "2025-05-15T13:40:02.513517+00:00",
+                "nav_qnh": 0.0,
+                "nav_altitude_mcp": 0,
+                "category": "Unknown"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -77.045746,
+                        38.845783
+                    ],
+                    [
+                        -77.045746,
+                        38.845783
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "hex": "AE270A",
+                "flight": "C2312   ",
+                "type": "CN35",
+                "description": "CASA HC-144B Ocean Sentry",
+                "operator": "United States Coast Guard",
+                "altitude": 1525,
+                "ground_speed": 121.6,
+                "track": 143.7,
+                "squawk": "7352",
+                "rssi": -19.3,
+                "api_source": "https://api.airplanes.live/v2/hex/",
+                "last_seen": "2025-05-15T13:40:02.513529+00:00",
+                "nav_qnh": 1012.8,
+                "nav_altitude_mcp": 3008,
+                "category": "A2"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -88.229553,
+                        30.672944
+                    ],
+                    [
+                        -88.229553,
+                        30.672944
                     ]
                 ]
             }
