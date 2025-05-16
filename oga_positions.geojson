@@ -8,14 +8,14 @@
                 "flight": "N183SD  ",
                 "type": "AS50",
                 "description": "AEROSPATIALE AS-350 Ecureuil",
-                "operator": "ORANGE COUNTY SHERIFF'S DEPARTMENT",
-                "altitude": 0,
-                "ground_speed": 9.5,
-                "track": 198.43,
-                "squawk": "N/A",
+                "operator": "ORANGE COUNTY SHERIFF'S DEPARTMENT, C/O CORONER AIR SUPPORT",
+                "altitude": "ground",
+                "ground_speed": 0.7,
+                "track": 0.0,
+                "squawk": "4204",
                 "rssi": null,
-                "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-05-16T16:42:03.395655+00:00",
+                "api_source": "https://opendata.adsb.fi/api/v2/hex/",
+                "last_seen": "2025-05-16T16:43:02.545306+00:00",
                 "nav_qnh": null,
                 "nav_altitude_mcp": null,
                 "category": "A7"
@@ -23,8 +23,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -117.870577,
-                    33.675293
+                    -117.87146,
+                    33.675076
                 ]
             }
         },
@@ -36,13 +36,13 @@
                 "type": "AS50",
                 "description": "AEROSPATIALE AS-350 Ecureuil",
                 "operator": "DEPARTMENT OF HOMELAND SECURITY",
-                "altitude": 2350,
-                "ground_speed": 110.6,
-                "track": 330.19,
+                "altitude": 2325,
+                "ground_speed": 119.5,
+                "track": 335.79,
                 "squawk": "4401",
                 "rssi": null,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-05-16T16:42:03.395665+00:00",
+                "last_seen": "2025-05-16T16:43:02.545479+00:00",
                 "nav_qnh": null,
                 "nav_altitude_mcp": null,
                 "category": "A7"
@@ -50,8 +50,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -88.481843,
-                    41.92043
+                    -88.498681,
+                    41.949509
                 ]
             }
         },
@@ -112,18 +112,18 @@
         {
             "type": "Feature",
             "properties": {
-                "hex": "AE6014",
-                "flight": "KNIFE05 ",
-                "type": "H60",
-                "description": "SIKORSKY UH-60 Black Hawk",
-                "operator": "Unknown",
-                "altitude": 7275,
-                "ground_speed": 162.8,
-                "track": 26.25,
-                "squawk": "1200",
+                "hex": "AD60D8",
+                "flight": "N961LA  ",
+                "type": "AS50",
+                "description": "AEROSPATIALE AS-350 Ecureuil",
+                "operator": "COUNTY OF LOS ANGELES",
+                "altitude": 400,
+                "ground_speed": 81.4,
+                "track": 335.32,
+                "squawk": "1206",
                 "rssi": null,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-05-16T16:42:03.395645+00:00",
+                "last_seen": "2025-05-16T16:43:02.545469+00:00",
                 "nav_qnh": null,
                 "nav_altitude_mcp": null,
                 "category": "A7"
@@ -131,8 +131,35 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -116.858545,
-                    35.005325
+                    -118.148861,
+                    33.81913
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "hex": "AE6014",
+                "flight": "KNIFE05 ",
+                "type": "H60",
+                "description": "SIKORSKY UH-60 Black Hawk",
+                "operator": "Unknown",
+                "altitude": 6275,
+                "ground_speed": 158.3,
+                "track": 26.24,
+                "squawk": "1200",
+                "rssi": null,
+                "api_source": "https://api.airplanes.live/v2/hex/",
+                "last_seen": "2025-05-16T16:43:02.545459+00:00",
+                "nav_qnh": null,
+                "nav_altitude_mcp": null,
+                "category": "A7"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -116.834387,
+                    35.045517
                 ]
             }
         }
