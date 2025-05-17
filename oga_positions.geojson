@@ -4,18 +4,18 @@
         {
             "type": "Feature",
             "properties": {
-                "hex": "A154D3",
-                "flight": "N185SD  ",
+                "hex": "A14D65",
+                "flight": "N183SD  ",
                 "type": "AS50",
                 "description": "AEROSPATIALE AS-350 Ecureuil",
-                "operator": "ORANGE COUNTY SHERIFF'S DEPARTMENT",
-                "altitude": 25,
-                "ground_speed": 61.6,
-                "track": 223.03,
-                "squawk": "N/A",
+                "operator": "ORANGE COUNTY SHERIFF'S DEPARTMENT, C/O CORONER AIR SUPPORT",
+                "altitude": "ground",
+                "ground_speed": 0.0,
+                "track": 0.0,
+                "squawk": "4204",
                 "rssi": null,
-                "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-05-17T16:25:03.052595+00:00",
+                "api_source": "https://opendata.adsb.fi/api/v2/hex/",
+                "last_seen": "2025-05-17T16:26:02.540112+00:00",
                 "nav_qnh": null,
                 "nav_altitude_mcp": null,
                 "category": "A7"
@@ -23,8 +23,35 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -117.873099,
-                    33.671997
+                    -117.871488,
+                    33.67503
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "hex": "A154D3",
+                "flight": "N185SD  ",
+                "type": "AS50",
+                "description": "AEROSPATIALE AS-350 Ecureuil",
+                "operator": "ORANGE COUNTY SHERIFF'S DEPARTMENT",
+                "altitude": 575,
+                "ground_speed": 114.9,
+                "track": 7.0,
+                "squawk": "4204",
+                "rssi": null,
+                "api_source": "https://api.airplanes.live/v2/hex/",
+                "last_seen": "2025-05-17T16:26:02.540273+00:00",
+                "nav_qnh": null,
+                "nav_altitude_mcp": null,
+                "category": "A7"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -117.879295,
+                    33.690041
                 ]
             }
         },
@@ -63,13 +90,13 @@
                 "type": "SHIP",
                 "description": "Zeppelin LZ N07-101",
                 "operator": "GOODYEAR TIRE & RUBBER CO",
-                "altitude": 3675,
-                "ground_speed": 34.1,
-                "track": 58.17,
-                "squawk": "1200",
+                "altitude": 3775,
+                "ground_speed": 54.1,
+                "track": 62.49,
+                "squawk": "N/A",
                 "rssi": null,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-05-17T16:25:03.052605+00:00",
+                "last_seen": "2025-05-17T16:26:02.540283+00:00",
                 "nav_qnh": null,
                 "nav_altitude_mcp": null,
                 "category": "B2"
@@ -77,8 +104,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -94.446657,
-                    37.166701
+                    -94.432983,
+                    37.173172
                 ]
             }
         },
@@ -106,33 +133,6 @@
                 "coordinates": [
                     -121.396582,
                     38.667469
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "hex": "AD395A",
-                "flight": "N951LB  ",
-                "type": "AS32",
-                "description": "AEROSPATIALE AS-332 Super Puma",
-                "operator": "COUNTY OF LOS ANGELES",
-                "altitude": "ground",
-                "ground_speed": 0.1,
-                "track": 243.43,
-                "squawk": "1206",
-                "rssi": null,
-                "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-05-17T15:56:02.428313+00:00",
-                "nav_qnh": null,
-                "nav_altitude_mcp": null,
-                "category": "A7"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -118.168273,
-                    34.050865
                 ]
             }
         }
