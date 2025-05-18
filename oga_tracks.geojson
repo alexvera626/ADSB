@@ -24,22 +24,6 @@
                 "type": "LineString",
                 "coordinates": [
                     [
-                        -116.359058,
-                        33.40123
-                    ],
-                    [
-                        -116.359058,
-                        33.40123
-                    ],
-                    [
-                        -116.358893,
-                        33.401413
-                    ],
-                    [
-                        -116.358893,
-                        33.401413
-                    ],
-                    [
                         -116.33302,
                         33.43103
                     ],
@@ -198,9 +182,9 @@
                 "ground_speed": 0.0,
                 "track": 0.0,
                 "squawk": "4204",
-                "rssi": -18.1,
+                "rssi": -18.8,
                 "api_source": "https://opendata.adsb.fi/api/v2/hex/",
-                "last_seen": "2025-05-18T16:50:02.913042+00:00",
+                "last_seen": "2025-05-18T16:51:02.976603+00:00",
                 "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
                 "category": "A7"
@@ -596,13 +580,13 @@
                 "type": "AS50",
                 "description": "AEROSPATIALE AS-350 Ecureuil",
                 "operator": "LAPD AIR SUPPORT DIVISION",
-                "altitude": 450,
-                "ground_speed": 52.0,
-                "track": 101.09,
+                "altitude": 425,
+                "ground_speed": 48.9,
+                "track": 149.24,
                 "squawk": "0263",
-                "rssi": -16.9,
+                "rssi": -15.8,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-05-18T16:50:02.913193+00:00",
+                "last_seen": "2025-05-18T16:51:02.976784+00:00",
                 "nav_qnh": 1015.2,
                 "nav_altitude_mcp": 10016,
                 "category": "A7"
@@ -1545,6 +1529,14 @@
                     [
                         -118.265973,
                         33.772156
+                    ],
+                    [
+                        -118.268337,
+                        33.773323
+                    ],
+                    [
+                        -118.268337,
+                        33.773323
                     ]
                 ]
             }
@@ -1557,13 +1549,13 @@
                 "type": "SHIP",
                 "description": "Zeppelin LZ N07-101",
                 "operator": "GOODYEAR TIRE & RUBBER CO",
-                "altitude": 4050,
-                "ground_speed": 56.9,
-                "track": 71.57,
+                "altitude": 3975,
+                "ground_speed": 55.8,
+                "track": 75.47,
                 "squawk": "1200",
-                "rssi": -17.2,
+                "rssi": -18.5,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-05-18T16:50:02.913182+00:00",
+                "last_seen": "2025-05-18T16:51:02.976774+00:00",
                 "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
                 "category": "B2"
@@ -2050,6 +2042,14 @@
                     [
                         -88.461317,
                         39.528442
+                    ],
+                    [
+                        -88.442889,
+                        39.532941
+                    ],
+                    [
+                        -88.443643,
+                        39.532928
                     ]
                 ]
             }
@@ -2552,6 +2552,39 @@
                     [
                         -117.871558,
                         33.675087
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "hex": "A4CAAA",
+                "flight": "CFR230  ",
+                "type": "V10",
+                "description": "NORTH AMERICAN OV-10 Bronco",
+                "operator": "USDA FOREST SERVICE FEPP",
+                "altitude": "ground",
+                "ground_speed": 6.2,
+                "track": 315.0,
+                "squawk": "1255",
+                "rssi": -10.0,
+                "api_source": "https://api.airplanes.live/v2/hex/",
+                "last_seen": "2025-05-18T16:51:02.976763+00:00",
+                "nav_qnh": 0.0,
+                "nav_altitude_mcp": 0,
+                "category": "A1"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -120.411573,
+                        38.036682
+                    ],
+                    [
+                        -120.411573,
+                        38.036682
                     ]
                 ]
             }
