@@ -2758,13 +2758,13 @@
                 "type": "V10",
                 "description": "NORTH AMERICAN OV-10 Bronco",
                 "operator": "USDA FOREST SERVICE FEPP",
-                "altitude": -100,
-                "ground_speed": 56.0,
-                "track": 0.0,
+                "altitude": "ground",
+                "ground_speed": 14.2,
+                "track": 84.38,
                 "squawk": "1255",
-                "rssi": -13.2,
+                "rssi": -18.7,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-05-20T16:03:03.177778+00:00",
+                "last_seen": "2025-05-20T16:04:03.213327+00:00",
                 "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
                 "category": "A1"
@@ -2955,6 +2955,14 @@
                     [
                         -121.400598,
                         38.66066
+                    ],
+                    [
+                        -121.400657,
+                        38.664047
+                    ],
+                    [
+                        -121.400055,
+                        38.667301
                     ]
                 ]
             }
@@ -2968,19 +2976,23 @@
                 "description": "AEROSPATIALE AS-350 Ecureuil",
                 "operator": "ORANGE COUNTY SHERIFF'S DEPARTMENT",
                 "altitude": "ground",
-                "ground_speed": 3.1,
-                "track": 270.0,
+                "ground_speed": 0.0,
+                "track": 0.0,
                 "squawk": "4204",
-                "rssi": -13.7,
+                "rssi": -11.4,
                 "api_source": "https://opendata.adsb.fi/api/v2/hex/",
-                "last_seen": "2025-05-20T16:03:03.177481+00:00",
-                "nav_qnh": 1013.6,
-                "nav_altitude_mcp": 800,
+                "last_seen": "2025-05-20T16:04:03.213000+00:00",
+                "nav_qnh": 0.0,
+                "nav_altitude_mcp": 0,
                 "category": "A7"
             },
             "geometry": {
                 "type": "LineString",
                 "coordinates": [
+                    [
+                        -117.871742,
+                        33.675156
+                    ],
                     [
                         -117.871742,
                         33.675156
@@ -3000,9 +3012,9 @@
                 "ground_speed": 325.6,
                 "track": 47.49,
                 "squawk": "0732",
-                "rssi": -13.5,
+                "rssi": -20.9,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-05-20T16:03:03.177808+00:00",
+                "last_seen": "2025-05-20T16:04:03.213394+00:00",
                 "nav_qnh": 1012.8,
                 "nav_altitude_mcp": 20992,
                 "category": "A2"
@@ -3505,6 +3517,14 @@
                     [
                         -84.635296,
                         36.320709
+                    ],
+                    [
+                        -84.553242,
+                        36.381363
+                    ],
+                    [
+                        -84.553242,
+                        36.381363
                     ]
                 ]
             }
@@ -3517,13 +3537,13 @@
                 "type": "BE30",
                 "description": "BEECH 300 Super King Air",
                 "operator": "DEPARTMENT OF HOMELAND SECURITY",
-                "altitude": 1575,
-                "ground_speed": 153.8,
-                "track": 62.94,
+                "altitude": 800,
+                "ground_speed": 160.0,
+                "track": 64.8,
                 "squawk": "4404",
-                "rssi": -26.4,
+                "rssi": -27.4,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-05-20T16:03:03.177798+00:00",
+                "last_seen": "2025-05-20T16:04:03.213382+00:00",
                 "nav_qnh": 1013.6,
                 "nav_altitude_mcp": 1696,
                 "category": "A2"
@@ -3898,6 +3918,14 @@
                     [
                         -81.564368,
                         31.220398
+                    ],
+                    [
+                        -81.547744,
+                        31.227081
+                    ],
+                    [
+                        -81.520439,
+                        31.237701
                     ]
                 ]
             }
@@ -3911,12 +3939,12 @@
                 "description": "DE HAVILLAND DHC-8-300 Dash 8",
                 "operator": "US DEPARTMENT OF HOMELAND SECURITY",
                 "altitude": 9100,
-                "ground_speed": 196.0,
-                "track": 142.0,
+                "ground_speed": 198.0,
+                "track": 142.2,
                 "squawk": "5232",
                 "rssi": -49.5,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-05-20T16:03:03.177550+00:00",
+                "last_seen": "2025-05-20T16:04:03.213115+00:00",
                 "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
                 "category": "Unknown"
@@ -4231,6 +4259,10 @@
                     [
                         -94.515648,
                         28.607483
+                    ],
+                    [
+                        -94.462494,
+                        28.54788
                     ]
                 ]
             }
@@ -4239,17 +4271,17 @@
             "type": "Feature",
             "properties": {
                 "hex": "AC4597",
-                "flight": "CMD3    ",
+                "flight": "Unknown",
                 "type": "EC35",
                 "description": "AIRBUS HELICOPTERS EC-135/635",
                 "operator": "REACH AIR MEDICAL SERVICES LLC",
-                "altitude": 1500,
-                "ground_speed": 0.7,
+                "altitude": "ground",
+                "ground_speed": 0.0,
                 "track": 0.0,
                 "squawk": "N/A",
-                "rssi": -0.6,
+                "rssi": -21.9,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-05-20T15:50:02.400440+00:00",
+                "last_seen": "2025-05-20T16:04:03.213338+00:00",
                 "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
                 "category": "A7"
@@ -4276,13 +4308,13 @@
                 "type": "H60",
                 "description": "Sikorsky MH-60R Seahawk",
                 "operator": "United States Navy",
-                "altitude": 375,
-                "ground_speed": 80.7,
-                "track": 227.01,
+                "altitude": 350,
+                "ground_speed": 87.0,
+                "track": 171.4,
                 "squawk": "1200",
-                "rssi": -8.6,
+                "rssi": -15.8,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-05-20T16:03:03.177789+00:00",
+                "last_seen": "2025-05-20T16:04:03.213356+00:00",
                 "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
                 "category": "A7"
@@ -4309,6 +4341,14 @@
                     [
                         -117.228516,
                         32.705841
+                    ],
+                    [
+                        -117.231016,
+                        32.683349
+                    ],
+                    [
+                        -117.231016,
+                        32.683535
                     ]
                 ]
             }
