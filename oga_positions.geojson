@@ -5,26 +5,26 @@
             "type": "Feature",
             "properties": {
                 "hex": "A23434",
-                "flight": "N241FA  ",
+                "flight": "00000000",
                 "type": "B412",
                 "description": "BELL 412",
                 "operator": "ORANGE COUNTY FIRE AUTHORITY",
                 "altitude": 1000,
-                "ground_speed": 28.2,
-                "track": 6.12,
+                "ground_speed": 2.1,
+                "track": 270.0,
                 "squawk": "N/A",
                 "rssi": null,
-                "api_source": "https://opendata.adsb.fi/api/v2/hex/",
-                "last_seen": "2025-05-20T04:32:03.244360+00:00",
+                "api_source": "https://api.airplanes.live/v2/hex/",
+                "last_seen": "2025-05-20T04:35:03.156253+00:00",
                 "nav_qnh": null,
                 "nav_altitude_mcp": null,
-                "category": "A7"
+                "category": "A0"
             },
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -117.70792,
-                    33.776581
+                    -117.707015,
+                    33.77742
                 ]
             }
         },
@@ -36,13 +36,13 @@
                 "type": "B407",
                 "description": "BELL 407",
                 "operator": "SAN DIEGO COUNTY SHERIFF DEPARTMENT",
-                "altitude": 1525,
-                "ground_speed": 89.0,
-                "track": 152.57,
+                "altitude": 1425,
+                "ground_speed": 93.9,
+                "track": 161.37,
                 "squawk": "1200",
                 "rssi": null,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-05-20T04:34:03.123548+00:00",
+                "last_seen": "2025-05-20T04:35:03.156276+00:00",
                 "nav_qnh": null,
                 "nav_altitude_mcp": null,
                 "category": "A7"
@@ -50,8 +50,35 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -117.06449,
-                    33.098969
+                    -117.052185,
+                    33.075806
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "hex": "A90F0D",
+                "flight": "N683HB  ",
+                "type": "Unknown",
+                "description": "Unknown",
+                "operator": "Bank Of Utah Trustee",
+                "altitude": 325,
+                "ground_speed": 42.6,
+                "track": 9.46,
+                "squawk": "4301",
+                "rssi": null,
+                "api_source": "https://api.airplanes.live/v2/hex/",
+                "last_seen": "2025-05-20T04:35:03.156240+00:00",
+                "nav_qnh": null,
+                "nav_altitude_mcp": null,
+                "category": "A7"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -118.000339,
+                    33.698593
                 ]
             }
         }
