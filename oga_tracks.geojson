@@ -10,12 +10,12 @@
                 "description": "AEROSPATIALE AS-350 Ecureuil",
                 "operator": "LAPD AIR SUPPORT DIVISION",
                 "altitude": 1175,
-                "ground_speed": 67.5,
-                "track": 152.68,
+                "ground_speed": 65.0,
+                "track": 157.38,
                 "squawk": "1200",
-                "rssi": -4.8,
+                "rssi": -3.8,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-05-21T09:46:03.420657+00:00",
+                "last_seen": "2025-05-21T09:47:03.182166+00:00",
                 "nav_qnh": 1012.8,
                 "nav_altitude_mcp": 10016,
                 "category": "A7"
@@ -23,14 +23,6 @@
             "geometry": {
                 "type": "LineString",
                 "coordinates": [
-                    [
-                        -118.298707,
-                        34.045715
-                    ],
-                    [
-                        -118.298707,
-                        34.045715
-                    ],
                     [
                         -118.303696,
                         34.049011
@@ -802,6 +794,14 @@
                     [
                         -118.447639,
                         34.055328
+                    ],
+                    [
+                        -118.447976,
+                        34.055328
+                    ],
+                    [
+                        -118.447976,
+                        34.055328
                     ]
                 ]
             }
@@ -828,14 +828,6 @@
             "geometry": {
                 "type": "LineString",
                 "coordinates": [
-                    [
-                        -117.538891,
-                        33.753771
-                    ],
-                    [
-                        -117.538891,
-                        33.753771
-                    ],
                     [
                         -117.536888,
                         33.756983
@@ -1094,43 +1086,6 @@
         {
             "type": "Feature",
             "properties": {
-                "hex": "AC4597",
-                "flight": "CMD3    ",
-                "type": "EC35",
-                "description": "AIRBUS HELICOPTERS EC-135/635",
-                "operator": "REACH AIR MEDICAL SERVICES LLC",
-                "altitude": "ground",
-                "ground_speed": 0.1,
-                "track": 132.19,
-                "squawk": "1200",
-                "rssi": -24.4,
-                "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-05-21T05:48:02.933035+00:00",
-                "nav_qnh": 0.0,
-                "nav_altitude_mcp": 0,
-                "category": "A7"
-            },
-            "geometry": {
-                "type": "LineString",
-                "coordinates": [
-                    [
-                        -121.053589,
-                        38.933685
-                    ],
-                    [
-                        -121.053772,
-                        38.933964
-                    ],
-                    [
-                        -121.053787,
-                        38.934127
-                    ]
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
                 "hex": "A90F0D",
                 "flight": "N683HB  ",
                 "type": "Unknown",
@@ -1150,14 +1105,6 @@
             "geometry": {
                 "type": "LineString",
                 "coordinates": [
-                    [
-                        -118.034592,
-                        33.718251
-                    ],
-                    [
-                        -118.034592,
-                        33.718251
-                    ],
                     [
                         -118.015881,
                         33.72002
@@ -1607,14 +1554,6 @@
             "geometry": {
                 "type": "LineString",
                 "coordinates": [
-                    [
-                        -117.826351,
-                        33.83931
-                    ],
-                    [
-                        -117.826351,
-                        33.83931
-                    ],
                     [
                         -117.792776,
                         33.848053
@@ -2372,14 +2311,6 @@
             "geometry": {
                 "type": "LineString",
                 "coordinates": [
-                    [
-                        -118.154932,
-                        33.926926
-                    ],
-                    [
-                        -118.154932,
-                        33.926926
-                    ],
                     [
                         -118.115387,
                         33.926899
@@ -3415,6 +3346,35 @@
                     [
                         -118.140807,
                         33.816696
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "hex": "AC4597",
+                "flight": "CMD3    ",
+                "type": "EC35",
+                "description": "AIRBUS HELICOPTERS EC-135/635",
+                "operator": "REACH AIR MEDICAL SERVICES LLC",
+                "altitude": "ground",
+                "ground_speed": 0.1,
+                "track": 132.19,
+                "squawk": "1200",
+                "rssi": -24.4,
+                "api_source": "https://api.airplanes.live/v2/hex/",
+                "last_seen": "2025-05-21T05:48:02.933035+00:00",
+                "nav_qnh": 0.0,
+                "nav_altitude_mcp": 0,
+                "category": "A7"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -121.053787,
+                        38.934127
                     ]
                 ]
             }
