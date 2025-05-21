@@ -842,13 +842,13 @@
                 "type": "AS50",
                 "description": "AEROSPATIALE AS-350 Ecureuil",
                 "operator": "TINY BUBBLES AVIATION INC",
-                "altitude": 1900,
-                "ground_speed": 111.4,
-                "track": 338.96,
-                "squawk": "1200",
-                "rssi": -10.2,
+                "altitude": 2250,
+                "ground_speed": 33.6,
+                "track": 323.47,
+                "squawk": "0205",
+                "rssi": -17.7,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-05-21T13:53:03.273363+00:00",
+                "last_seen": "2025-05-21T13:54:03.177749+00:00",
                 "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
                 "category": "A7"
@@ -1371,6 +1371,43 @@
                     [
                         -118.272082,
                         34.129395
+                    ],
+                    [
+                        -118.282185,
+                        34.151373
+                    ],
+                    [
+                        -118.282185,
+                        34.151373
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "hex": "A154D3",
+                "flight": "N185SD  ",
+                "type": "AS50",
+                "description": "AEROSPATIALE AS-350 Ecureuil",
+                "operator": "ORANGE COUNTY SHERIFF'S DEPARTMENT",
+                "altitude": "ground",
+                "ground_speed": 0.7,
+                "track": 0.0,
+                "squawk": "4204",
+                "rssi": -18.2,
+                "api_source": "https://opendata.adsb.fi/api/v2/hex/",
+                "last_seen": "2025-05-21T13:54:03.177593+00:00",
+                "nav_qnh": 1012.0,
+                "nav_altitude_mcp": 800,
+                "category": "A7"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -117.871656,
+                        33.675156
                     ]
                 ]
             }
