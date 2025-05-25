@@ -338,13 +338,13 @@
                 "type": "AS65",
                 "description": "Eurocopter MH-65D Dolphin",
                 "operator": "Unknown",
-                "altitude": 100,
-                "ground_speed": 0.0,
-                "track": 0.0,
+                "altitude": 75,
+                "ground_speed": 70.7,
+                "track": 26.93,
                 "squawk": "N/A",
-                "rssi": -23.8,
+                "rssi": -24.9,
                 "api_source": "https://opendata.adsb.fi/api/v2/hex/",
-                "last_seen": "2025-05-25T13:15:03.622872+00:00",
+                "last_seen": "2025-05-25T13:16:03.412721+00:00",
                 "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
                 "category": "A7"
@@ -515,6 +515,10 @@
                     [
                         -79.955335,
                         26.059433
+                    ],
+                    [
+                        -79.966477,
+                        26.063461
                     ]
                 ]
             }
@@ -527,13 +531,13 @@
                 "type": "AS65",
                 "description": "Eurocopter MH-65D Dolphin",
                 "operator": "United States Coast Guard",
-                "altitude": 225,
-                "ground_speed": 56.0,
-                "track": 341.24,
+                "altitude": 250,
+                "ground_speed": 65.8,
+                "track": 28.12,
                 "squawk": "4437",
-                "rssi": -7.3,
+                "rssi": -3.4,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-05-25T13:15:03.622982+00:00",
+                "last_seen": "2025-05-25T13:16:03.412863+00:00",
                 "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
                 "category": "A7"
@@ -660,6 +664,14 @@
                     [
                         -74.5271,
                         39.275378
+                    ],
+                    [
+                        -74.527771,
+                        39.290834
+                    ],
+                    [
+                        -74.527608,
+                        39.291092
                     ]
                 ]
             }
@@ -673,12 +685,12 @@
                 "description": "Eurocopter MH-65D Dolphin",
                 "operator": "United States Coast Guard",
                 "altitude": 500,
-                "ground_speed": 91.1,
-                "track": 267.48,
+                "ground_speed": 116.3,
+                "track": 234.81,
                 "squawk": "1200",
-                "rssi": -6.9,
+                "rssi": -5.9,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-05-25T13:15:03.622970+00:00",
+                "last_seen": "2025-05-25T13:16:03.412852+00:00",
                 "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
                 "category": "A7"
@@ -713,6 +725,47 @@
                     [
                         -81.163916,
                         32.014435
+                    ],
+                    [
+                        -81.194843,
+                        32.002441
+                    ],
+                    [
+                        -81.194843,
+                        32.002441
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "hex": "AE27F7",
+                "flight": "Unknown",
+                "type": "H60",
+                "description": "Sikorsky MH-60T Jayhawk",
+                "operator": "Unknown",
+                "altitude": "ground",
+                "ground_speed": 9.2,
+                "track": 222.19,
+                "squawk": "N/A",
+                "rssi": -30.0,
+                "api_source": "https://api.airplanes.live/v2/hex/",
+                "last_seen": "2025-05-25T13:16:03.412874+00:00",
+                "nav_qnh": 0.0,
+                "nav_altitude_mcp": 0,
+                "category": "Unknown"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -82.694312,
+                        27.911247
+                    ],
+                    [
+                        -82.694312,
+                        27.911247
                     ]
                 ]
             }
