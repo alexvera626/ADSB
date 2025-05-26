@@ -9,13 +9,13 @@
                 "type": "AS50",
                 "description": "AEROSPATIALE AS-350 Ecureuil",
                 "operator": "TINY BUBBLES AVIATION INC",
-                "altitude": 1625,
-                "ground_speed": 45.5,
-                "track": 261.16,
+                "altitude": 1650,
+                "ground_speed": 31.3,
+                "track": 253.3,
                 "squawk": "1200",
-                "rssi": -7.6,
+                "rssi": -10.2,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-05-26T14:59:02.765473+00:00",
+                "last_seen": "2025-05-26T15:00:02.737010+00:00",
                 "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
                 "category": "A7"
@@ -82,6 +82,14 @@
                     [
                         -118.54208,
                         34.177256
+                    ],
+                    [
+                        -118.559128,
+                        34.171326
+                    ],
+                    [
+                        -118.559464,
+                        34.171234
                     ]
                 ]
             }
@@ -94,13 +102,13 @@
                 "type": "AS50",
                 "description": "AEROSPATIALE AS-350 Ecureuil",
                 "operator": "City Of Ontario",
-                "altitude": 825,
+                "altitude": 725,
                 "ground_speed": 60.0,
-                "track": 101.4,
+                "track": 98.5,
                 "squawk": "1200",
                 "rssi": -49.5,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-05-26T14:59:02.765457+00:00",
+                "last_seen": "2025-05-26T15:00:02.736982+00:00",
                 "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
                 "category": "Unknown"
@@ -535,6 +543,10 @@
                     [
                         -98.179642,
                         26.460012
+                    ],
+                    [
+                        -98.152863,
+                        26.455589
                     ]
                 ]
             }
@@ -736,6 +748,35 @@
                     [
                         -118.406721,
                         34.258438
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "hex": "A1511C",
+                "flight": "N184SD  ",
+                "type": "AS50",
+                "description": "AEROSPATIALE AS-350 Ecureuil",
+                "operator": "COUNTY OF ORANGE - AIR SUPPORT",
+                "altitude": "ground",
+                "ground_speed": 0.0,
+                "track": 0.0,
+                "squawk": "4204",
+                "rssi": -20.3,
+                "api_source": "https://opendata.adsb.fi/api/v2/hex/",
+                "last_seen": "2025-05-26T15:00:02.736811+00:00",
+                "nav_qnh": 0.0,
+                "nav_altitude_mcp": 0,
+                "category": "A7"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -117.871684,
+                        33.675201
                     ]
                 ]
             }
