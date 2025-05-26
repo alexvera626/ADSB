@@ -24,22 +24,6 @@
                 "type": "LineString",
                 "coordinates": [
                     [
-                        -118.499966,
-                        34.217617
-                    ],
-                    [
-                        -118.499544,
-                        34.217377
-                    ],
-                    [
-                        -118.494701,
-                        34.216965
-                    ],
-                    [
-                        -118.494673,
-                        34.216849
-                    ],
-                    [
                         -118.494487,
                         34.216616
                     ],
@@ -72,22 +56,6 @@
             "geometry": {
                 "type": "LineString",
                 "coordinates": [
-                    [
-                        -118.151207,
-                        33.875924
-                    ],
-                    [
-                        -118.151207,
-                        33.877041
-                    ],
-                    [
-                        -118.151737,
-                        33.909393
-                    ],
-                    [
-                        -118.151737,
-                        33.909393
-                    ],
                     [
                         -118.121624,
                         33.927224
@@ -1311,36 +1279,20 @@
                 "type": "AS50",
                 "description": "AEROSPATIALE AS-350 Ecureuil",
                 "operator": "COUNTY OF ORANGE - AIR SUPPORT",
-                "altitude": 100,
-                "ground_speed": 54.2,
-                "track": 202.78,
+                "altitude": "ground",
+                "ground_speed": 0.0,
+                "track": 0.0,
                 "squawk": "4204",
-                "rssi": -34.8,
-                "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-05-26T07:01:03.268286+00:00",
-                "nav_qnh": 1016.8,
+                "rssi": -22.0,
+                "api_source": "https://opendata.adsb.fi/api/v2/hex/",
+                "last_seen": "2025-05-26T07:03:02.861403+00:00",
+                "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
                 "category": "A7"
             },
             "geometry": {
                 "type": "LineString",
                 "coordinates": [
-                    [
-                        -117.918334,
-                        33.724594
-                    ],
-                    [
-                        -117.919064,
-                        33.72421
-                    ],
-                    [
-                        -117.910038,
-                        33.714706
-                    ],
-                    [
-                        -117.910038,
-                        33.714706
-                    ],
                     [
                         -117.882236,
                         33.713562
@@ -2456,6 +2408,14 @@
                     [
                         -117.868391,
                         33.678909
+                    ],
+                    [
+                        -117.871698,
+                        33.675179
+                    ],
+                    [
+                        -117.871698,
+                        33.675179
                     ]
                 ]
             }
@@ -2482,14 +2442,6 @@
             "geometry": {
                 "type": "LineString",
                 "coordinates": [
-                    [
-                        -118.532581,
-                        34.220096
-                    ],
-                    [
-                        -118.532587,
-                        34.220089
-                    ],
                     [
                         -118.522682,
                         34.22446
@@ -2533,35 +2485,6 @@
                     [
                         -118.49499,
                         34.216713
-                    ]
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "hex": "A0F740",
-                "flight": "Unknown",
-                "type": "B350",
-                "description": "BEECHCRAFT Super King Air 350",
-                "operator": "DEPARTMENT OF HOMELAND SECURITY",
-                "altitude": "ground",
-                "ground_speed": 9.2,
-                "track": 0.0,
-                "squawk": "4403",
-                "rssi": -12.3,
-                "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-05-26T03:02:02.717152+00:00",
-                "nav_qnh": 0.0,
-                "nav_altitude_mcp": 0,
-                "category": "A2"
-            },
-            "geometry": {
-                "type": "LineString",
-                "coordinates": [
-                    [
-                        -117.258341,
-                        33.891083
                     ]
                 ]
             }
