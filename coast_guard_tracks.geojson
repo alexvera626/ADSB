@@ -10,12 +10,12 @@
                 "description": "GULFSTREAM 5",
                 "operator": "Unknown",
                 "altitude": 40000,
-                "ground_speed": 441.0,
-                "track": 284.98,
+                "ground_speed": 443.6,
+                "track": 284.76,
                 "squawk": "0625",
-                "rssi": -16.5,
+                "rssi": -14.3,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-05-27T22:24:03.840393+00:00",
+                "last_seen": "2025-05-27T22:25:03.134792+00:00",
                 "nav_qnh": 1013.6,
                 "nav_altitude_mcp": 40000,
                 "category": "A3"
@@ -23,14 +23,6 @@
             "geometry": {
                 "type": "LineString",
                 "coordinates": [
-                    [
-                        23.806703,
-                        46.516068
-                    ],
-                    [
-                        23.806703,
-                        46.516068
-                    ],
                     [
                         23.896019,
                         46.40369
@@ -1206,6 +1198,14 @@
                     [
                         7.228241,
                         52.356216
+                    ],
+                    [
+                        7.038574,
+                        52.386978
+                    ],
+                    [
+                        7.039871,
+                        52.386749
                     ]
                 ]
             }
@@ -1232,14 +1232,6 @@
             "geometry": {
                 "type": "LineString",
                 "coordinates": [
-                    [
-                        -123.130614,
-                        43.740463
-                    ],
-                    [
-                        -123.130614,
-                        43.740463
-                    ],
                     [
                         -123.08801,
                         43.74971
@@ -1679,14 +1671,6 @@
                 "type": "LineString",
                 "coordinates": [
                     [
-                        -70.620117,
-                        42.016374
-                    ],
-                    [
-                        -70.620117,
-                        42.016374
-                    ],
-                    [
                         -70.645585,
                         41.987228
                     ],
@@ -1799,14 +1783,6 @@
             "geometry": {
                 "type": "LineString",
                 "coordinates": [
-                    [
-                        -122.818542,
-                        38.884339
-                    ],
-                    [
-                        -122.818542,
-                        38.884339
-                    ],
                     [
                         -122.768993,
                         38.918243
@@ -2034,6 +2010,43 @@
                     [
                         -121.395806,
                         38.67675
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "hex": "AE4DFF",
+                "flight": "C6047   ",
+                "type": "H60",
+                "description": "Sikorsky MH-60T Jayhawk",
+                "operator": "Unknown",
+                "altitude": 700,
+                "ground_speed": 93.7,
+                "track": 210.12,
+                "squawk": "N/A",
+                "rssi": -13.9,
+                "api_source": "https://opendata.adsb.fi/api/v2/hex/",
+                "last_seen": "2025-05-27T18:59:03.181674+00:00",
+                "nav_qnh": 0.0,
+                "nav_altitude_mcp": 0,
+                "category": "A7"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -85.493905,
+                        44.820099
+                    ],
+                    [
+                        -85.493055,
+                        44.816162
+                    ],
+                    [
+                        -85.490962,
+                        44.817169
                     ]
                 ]
             }
@@ -2383,43 +2396,6 @@
                     [
                         -158.072357,
                         21.30142
-                    ]
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "hex": "AE4DFF",
-                "flight": "C6047   ",
-                "type": "H60",
-                "description": "Sikorsky MH-60T Jayhawk",
-                "operator": "Unknown",
-                "altitude": 700,
-                "ground_speed": 93.7,
-                "track": 210.12,
-                "squawk": "N/A",
-                "rssi": -13.9,
-                "api_source": "https://opendata.adsb.fi/api/v2/hex/",
-                "last_seen": "2025-05-27T18:59:03.181674+00:00",
-                "nav_qnh": 0.0,
-                "nav_altitude_mcp": 0,
-                "category": "A7"
-            },
-            "geometry": {
-                "type": "LineString",
-                "coordinates": [
-                    [
-                        -85.493905,
-                        44.820099
-                    ],
-                    [
-                        -85.493055,
-                        44.816162
-                    ],
-                    [
-                        -85.490962,
-                        44.817169
                     ]
                 ]
             }
@@ -5695,20 +5671,20 @@
             "type": "Feature",
             "properties": {
                 "hex": "AE266C",
-                "flight": "C6518   ",
+                "flight": "Unknown",
                 "type": "AS65",
                 "description": "Eurocopter MH-65D Dolphin",
                 "operator": "Unknown",
-                "altitude": -25,
-                "ground_speed": 3.1,
-                "track": 90.0,
-                "squawk": "1200",
-                "rssi": -24.7,
+                "altitude": "ground",
+                "ground_speed": 5.8,
+                "track": 0.0,
+                "squawk": "N/A",
+                "rssi": -26.7,
                 "api_source": "https://opendata.adsb.fi/api/v2/hex/",
-                "last_seen": "2025-05-27T20:50:03.013377+00:00",
+                "last_seen": "2025-05-27T22:25:03.134608+00:00",
                 "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
-                "category": "A7"
+                "category": "Unknown"
             },
             "geometry": {
                 "type": "LineString",
@@ -6160,6 +6136,10 @@
                     [
                         -81.890112,
                         30.220782
+                    ],
+                    [
+                        -81.890326,
+                        30.219189
                     ]
                 ]
             }
@@ -6659,11 +6639,11 @@
                 "operator": "United States Coast Guard",
                 "altitude": 375,
                 "ground_speed": 125.0,
-                "track": 26.3,
+                "track": 26.5,
                 "squawk": "4430",
                 "rssi": -49.5,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-05-27T22:24:03.840459+00:00",
+                "last_seen": "2025-05-27T22:25:03.134827+00:00",
                 "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
                 "category": "Unknown"
@@ -6774,6 +6754,10 @@
                     [
                         -97.232788,
                         27.553024
+                    ],
+                    [
+                        -97.215683,
+                        27.583694
                     ]
                 ]
             }
@@ -9011,13 +8995,13 @@
                 "type": "CN35",
                 "description": "CASA HC-144B Ocean Sentry",
                 "operator": "United States Coast Guard",
-                "altitude": 1700,
-                "ground_speed": 178.0,
-                "track": 255.9,
+                "altitude": 1675,
+                "ground_speed": 173.9,
+                "track": 256.36,
                 "squawk": "1316",
-                "rssi": -49.5,
+                "rssi": -25.4,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-05-27T22:24:03.840405+00:00",
+                "last_seen": "2025-05-27T22:25:03.134802+00:00",
                 "nav_qnh": 1024.8,
                 "nav_altitude_mcp": 2016,
                 "category": "A2"
@@ -10048,6 +10032,10 @@
                     [
                         -76.319275,
                         36.331375
+                    ],
+                    [
+                        -76.38379,
+                        36.318427
                     ]
                 ]
             }
@@ -10378,12 +10366,12 @@
                 "description": "CASA HC-144B Ocean Sentry",
                 "operator": "United States Coast Guard",
                 "altitude": 1400,
-                "ground_speed": 184.6,
-                "track": 355.34,
+                "ground_speed": 182.3,
+                "track": 356.86,
                 "squawk": "4424",
-                "rssi": -21.7,
+                "rssi": -18.3,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-05-27T22:24:03.840425+00:00",
+                "last_seen": "2025-05-27T22:25:03.134817+00:00",
                 "nav_qnh": 1016.8,
                 "nav_altitude_mcp": 1504,
                 "category": "A2"
@@ -10710,6 +10698,14 @@
                     [
                         -81.585371,
                         25.974147
+                    ],
+                    [
+                        -81.589862,
+                        26.025055
+                    ],
+                    [
+                        -81.589862,
+                        26.025055
                     ]
                 ]
             }
@@ -11303,13 +11299,13 @@
                 "type": "AS65",
                 "description": "Eurocopter MH-65D Dolphin",
                 "operator": "United States Coast Guard",
-                "altitude": 75,
-                "ground_speed": 94.1,
-                "track": 2.44,
+                "altitude": 100,
+                "ground_speed": 73.6,
+                "track": 7.03,
                 "squawk": "1200",
-                "rssi": -32.1,
+                "rssi": -21.1,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-05-27T22:24:03.840504+00:00",
+                "last_seen": "2025-05-27T22:25:03.134845+00:00",
                 "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
                 "category": "A7"
@@ -11684,6 +11680,14 @@
                     [
                         -117.258313,
                         32.718356
+                    ],
+                    [
+                        -117.255847,
+                        32.748615
+                    ],
+                    [
+                        -117.255847,
+                        32.748615
                     ]
                 ]
             }
@@ -11697,12 +11701,12 @@
                 "description": "Alenia HC-27J Spartan",
                 "operator": "United States Coast Guard",
                 "altitude": 13900,
-                "ground_speed": 277.6,
-                "track": 347.52,
+                "ground_speed": 276.2,
+                "track": 347.88,
                 "squawk": "5757",
-                "rssi": -21.7,
+                "rssi": -24.5,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-05-27T22:24:03.840517+00:00",
+                "last_seen": "2025-05-27T22:25:03.134855+00:00",
                 "nav_qnh": 1016.8,
                 "nav_altitude_mcp": 14016,
                 "category": "A2"
@@ -11901,6 +11905,14 @@
                     [
                         -83.01935,
                         29.011093
+                    ],
+                    [
+                        -83.037845,
+                        29.085652
+                    ],
+                    [
+                        -83.037845,
+                        29.085652
                     ]
                 ]
             }
