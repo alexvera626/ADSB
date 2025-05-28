@@ -9,13 +9,13 @@
                 "type": "AS50",
                 "description": "AEROSPATIALE AS-350 Ecureuil",
                 "operator": "LAPD AIR SUPPORT DIVISION",
-                "altitude": 1375,
-                "ground_speed": 66.1,
-                "track": 176.53,
+                "altitude": 1750,
+                "ground_speed": 61.5,
+                "track": 158.03,
                 "squawk": "0215",
-                "rssi": -12.0,
+                "rssi": -11.9,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-05-28T05:17:02.847463+00:00",
+                "last_seen": "2025-05-28T05:18:03.464578+00:00",
                 "nav_qnh": 1016.0,
                 "nav_altitude_mcp": 10016,
                 "category": "A7"
@@ -23,22 +23,6 @@
             "geometry": {
                 "type": "LineString",
                 "coordinates": [
-                    [
-                        -118.241501,
-                        34.047189
-                    ],
-                    [
-                        -118.241043,
-                        34.04691
-                    ],
-                    [
-                        -118.223934,
-                        34.061853
-                    ],
-                    [
-                        -118.223934,
-                        34.061853
-                    ],
                     [
                         -118.229942,
                         34.053916
@@ -770,6 +754,14 @@
                     [
                         -118.424206,
                         34.153422
+                    ],
+                    [
+                        -118.420887,
+                        34.137873
+                    ],
+                    [
+                        -118.420715,
+                        34.137594
                     ]
                 ]
             }
@@ -796,22 +788,6 @@
             "geometry": {
                 "type": "LineString",
                 "coordinates": [
-                    [
-                        -117.592548,
-                        33.500153
-                    ],
-                    [
-                        -117.593789,
-                        33.494754
-                    ],
-                    [
-                        -117.587384,
-                        33.524734
-                    ],
-                    [
-                        -117.588812,
-                        33.513794
-                    ],
                     [
                         -117.5877,
                         33.549081
@@ -1289,22 +1265,6 @@
             "geometry": {
                 "type": "LineString",
                 "coordinates": [
-                    [
-                        -117.218188,
-                        32.711609
-                    ],
-                    [
-                        -117.217675,
-                        32.711792
-                    ],
-                    [
-                        -117.213519,
-                        32.708908
-                    ],
-                    [
-                        -117.213519,
-                        32.708908
-                    ],
                     [
                         -117.213737,
                         32.708498
@@ -2463,63 +2423,6 @@
         {
             "type": "Feature",
             "properties": {
-                "hex": "A7FB70",
-                "flight": "Unknown",
-                "type": "AS50",
-                "description": "AEROSPATIALE AS-350 Ecureuil",
-                "operator": "REACH AIR MEDICAL SERVICES LLC",
-                "altitude": "ground",
-                "ground_speed": 0.0,
-                "track": 0.0,
-                "squawk": "1200",
-                "rssi": -25.8,
-                "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-05-28T03:39:02.624022+00:00",
-                "nav_qnh": 0.0,
-                "nav_altitude_mcp": 0,
-                "category": "Unknown"
-            },
-            "geometry": {
-                "type": "LineString",
-                "coordinates": [
-                    [
-                        -122.26189,
-                        39.201553
-                    ],
-                    [
-                        -122.262695,
-                        39.201826
-                    ],
-                    [
-                        -122.264159,
-                        39.21048
-                    ],
-                    [
-                        -122.239136,
-                        39.211043
-                    ],
-                    [
-                        -122.197644,
-                        39.202332
-                    ],
-                    [
-                        -122.16576,
-                        39.184753
-                    ],
-                    [
-                        -122.148623,
-                        39.166489
-                    ],
-                    [
-                        -122.132562,
-                        39.162231
-                    ]
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
                 "hex": "A0AF01",
                 "flight": "Unknown",
                 "type": "Unknown",
@@ -2539,22 +2442,6 @@
             "geometry": {
                 "type": "LineString",
                 "coordinates": [
-                    [
-                        -117.175019,
-                        32.673526
-                    ],
-                    [
-                        -117.175355,
-                        32.673759
-                    ],
-                    [
-                        -117.205664,
-                        32.694031
-                    ],
-                    [
-                        -117.204785,
-                        32.693619
-                    ],
                     [
                         -117.211761,
                         32.698362
@@ -2598,6 +2485,47 @@
                     [
                         -117.209477,
                         32.701737
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "hex": "A7FB70",
+                "flight": "Unknown",
+                "type": "AS50",
+                "description": "AEROSPATIALE AS-350 Ecureuil",
+                "operator": "REACH AIR MEDICAL SERVICES LLC",
+                "altitude": "ground",
+                "ground_speed": 0.0,
+                "track": 0.0,
+                "squawk": "1200",
+                "rssi": -25.8,
+                "api_source": "https://api.airplanes.live/v2/hex/",
+                "last_seen": "2025-05-28T03:39:02.624022+00:00",
+                "nav_qnh": 0.0,
+                "nav_altitude_mcp": 0,
+                "category": "Unknown"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -122.197644,
+                        39.202332
+                    ],
+                    [
+                        -122.16576,
+                        39.184753
+                    ],
+                    [
+                        -122.148623,
+                        39.166489
+                    ],
+                    [
+                        -122.132562,
+                        39.162231
                     ]
                 ]
             }
@@ -3875,13 +3803,13 @@
                 "type": "AS50",
                 "description": "AEROSPATIALE AS-350 Ecureuil",
                 "operator": "CITY OF ANAHEIM",
-                "altitude": 1100,
-                "ground_speed": 62.6,
-                "track": 63.43,
+                "altitude": 1200,
+                "ground_speed": 66.1,
+                "track": 86.53,
                 "squawk": "4301",
-                "rssi": -8.3,
+                "rssi": -14.5,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-05-28T05:17:02.847819+00:00",
+                "last_seen": "2025-05-28T05:18:03.464640+00:00",
                 "nav_qnh": 1014.4,
                 "nav_altitude_mcp": 4000,
                 "category": "A7"
@@ -4708,6 +4636,14 @@
                     [
                         -117.843647,
                         33.851763
+                    ],
+                    [
+                        -117.823324,
+                        33.858353
+                    ],
+                    [
+                        -117.822932,
+                        33.858398
                     ]
                 ]
             }
@@ -9782,11 +9718,11 @@
                 "operator": "City Of Ontario",
                 "altitude": 1000,
                 "ground_speed": 70.0,
-                "track": 88.0,
+                "track": 90.9,
                 "squawk": "1200",
                 "rssi": -49.5,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-05-28T05:17:02.847842+00:00",
+                "last_seen": "2025-05-28T05:18:03.464650+00:00",
                 "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
                 "category": "Unknown"
@@ -10005,6 +9941,10 @@
                     [
                         -98.425842,
                         26.266983
+                    ],
+                    [
+                        -98.402161,
+                        26.266754
                     ]
                 ]
             }
