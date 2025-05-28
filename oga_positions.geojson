@@ -36,13 +36,13 @@
                 "type": "AS50",
                 "description": "AEROSPATIALE AS-350 Ecureuil",
                 "operator": "CITY OF ANAHEIM",
-                "altitude": 1200,
-                "ground_speed": 90.8,
-                "track": 288.63,
+                "altitude": 1100,
+                "ground_speed": 52.8,
+                "track": 242.95,
                 "squawk": "4301",
                 "rssi": null,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-05-28T22:36:03.151939+00:00",
+                "last_seen": "2025-05-28T22:37:02.547097+00:00",
                 "nav_qnh": null,
                 "nav_altitude_mcp": null,
                 "category": "A7"
@@ -50,8 +50,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -117.743674,
-                    33.866272
+                    -117.769626,
+                    33.863068
                 ]
             }
         },
@@ -63,13 +63,13 @@
                 "type": "H500",
                 "description": "Unknown",
                 "operator": "CITY OF HUNTINGTON BEACH",
-                "altitude": 600,
-                "ground_speed": 80.5,
-                "track": 237.69,
+                "altitude": 500,
+                "ground_speed": 76.1,
+                "track": 241.75,
                 "squawk": "N/A",
                 "rssi": null,
                 "api_source": "https://opendata.adsb.fi/api/v2/hex/",
-                "last_seen": "2025-05-28T22:36:03.151747+00:00",
+                "last_seen": "2025-05-28T22:37:02.546926+00:00",
                 "nav_qnh": null,
                 "nav_altitude_mcp": null,
                 "category": "A7"
@@ -77,8 +77,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -117.69126,
-                    33.459183
+                    -117.699939,
+                    33.455521
                 ]
             }
         },
@@ -90,13 +90,13 @@
                 "type": "EC35",
                 "description": "AIRBUS HELICOPTERS EC-135/635",
                 "operator": "REACH AIR MEDICAL SERVICES LLC",
-                "altitude": 1725,
-                "ground_speed": 26.9,
-                "track": 15.07,
+                "altitude": "ground",
+                "ground_speed": 1.1,
+                "track": 336.8,
                 "squawk": "1200",
                 "rssi": null,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-05-28T22:36:03.151929+00:00",
+                "last_seen": "2025-05-28T22:37:02.547086+00:00",
                 "nav_qnh": null,
                 "nav_altitude_mcp": null,
                 "category": "A7"
@@ -104,8 +104,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -121.054409,
-                    38.931747
+                    -121.053797,
+                    38.934116
                 ]
             }
         },
@@ -123,7 +123,7 @@
                 "squawk": "1206",
                 "rssi": null,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-05-28T22:36:03.151861+00:00",
+                "last_seen": "2025-05-28T22:37:02.547048+00:00",
                 "nav_qnh": null,
                 "nav_altitude_mcp": null,
                 "category": "A7"
@@ -139,6 +139,33 @@
         {
             "type": "Feature",
             "properties": {
+                "hex": "AD60D8",
+                "flight": "N961LA  ",
+                "type": "AS50",
+                "description": "AEROSPATIALE AS-350 Ecureuil",
+                "operator": "COUNTY OF LOS ANGELES",
+                "altitude": 0,
+                "ground_speed": 51.2,
+                "track": 231.34,
+                "squawk": "1206",
+                "rssi": null,
+                "api_source": "https://api.airplanes.live/v2/hex/",
+                "last_seen": "2025-05-28T22:37:02.547147+00:00",
+                "nav_qnh": null,
+                "nav_altitude_mcp": null,
+                "category": "A7"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -118.141984,
+                    33.815094
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
                 "hex": "AE2606",
                 "flight": "LSXX    ",
                 "type": "H60",
@@ -147,10 +174,10 @@
                 "altitude": 200,
                 "ground_speed": 114.8,
                 "track": 138.53,
-                "squawk": "N/A",
+                "squawk": "1200",
                 "rssi": null,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-05-28T22:36:03.151949+00:00",
+                "last_seen": "2025-05-28T22:37:02.547107+00:00",
                 "nav_qnh": null,
                 "nav_altitude_mcp": null,
                 "category": "A7"
@@ -158,8 +185,35 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -117.488068,
-                    33.159668
+                    -117.464777,
+                    33.137375
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "hex": "AE4F8A",
+                "flight": "FFAB123 ",
+                "type": "H60",
+                "description": "Sikorsky MH-60R Seahawk",
+                "operator": "United States Navy",
+                "altitude": "ground",
+                "ground_speed": 5.2,
+                "track": 0.0,
+                "squawk": "1200",
+                "rssi": null,
+                "api_source": "https://api.airplanes.live/v2/hex/",
+                "last_seen": "2025-05-28T22:37:02.547117+00:00",
+                "nav_qnh": null,
+                "nav_altitude_mcp": null,
+                "category": "A7"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -117.210896,
+                    32.705051
                 ]
             }
         },
@@ -172,12 +226,12 @@
                 "description": "Bell/Boeing CMV-22B Osprey",
                 "operator": "Unknown",
                 "altitude": "ground",
-                "ground_speed": 4.2,
+                "ground_speed": 0.1,
                 "track": 0.0,
-                "squawk": "1200",
+                "squawk": "N/A",
                 "rssi": null,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-05-28T22:36:03.151959+00:00",
+                "last_seen": "2025-05-28T22:37:02.547127+00:00",
                 "nav_qnh": null,
                 "nav_altitude_mcp": null,
                 "category": "A7"
@@ -185,8 +239,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -117.204895,
-                    32.708301
+                    -117.205389,
+                    32.708473
                 ]
             }
         },
@@ -204,7 +258,7 @@
                 "squawk": "1206",
                 "rssi": null,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-05-28T22:36:03.151969+00:00",
+                "last_seen": "2025-05-28T22:37:02.547137+00:00",
                 "nav_qnh": null,
                 "nav_altitude_mcp": null,
                 "category": "A7"
@@ -212,8 +266,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -118.053225,
-                    33.792618
+                    -118.053231,
+                    33.792619
                 ]
             }
         }
