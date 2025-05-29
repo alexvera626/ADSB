@@ -24,14 +24,6 @@
                 "type": "LineString",
                 "coordinates": [
                     [
-                        -118.402977,
-                        34.078566
-                    ],
-                    [
-                        -118.404007,
-                        34.078379
-                    ],
-                    [
                         -118.429815,
                         34.070297
                     ],
@@ -1097,14 +1089,6 @@
                 "type": "LineString",
                 "coordinates": [
                     [
-                        -118.004655,
-                        34.004883
-                    ],
-                    [
-                        -118.003349,
-                        34.005339
-                    ],
-                    [
                         -117.994285,
                         34.012207
                     ],
@@ -1433,14 +1417,6 @@
             "geometry": {
                 "type": "LineString",
                 "coordinates": [
-                    [
-                        -118.028814,
-                        33.799255
-                    ],
-                    [
-                        -118.028011,
-                        33.799485
-                    ],
                     [
                         -118.032345,
                         33.800079
@@ -2312,13 +2288,13 @@
                 "type": "H60",
                 "description": "Sikorsky MH-60R Seahawk",
                 "operator": "United States Navy",
-                "altitude": 0,
-                "ground_speed": 0.0,
-                "track": 0.0,
+                "altitude": 200,
+                "ground_speed": 85.5,
+                "track": 151.34,
                 "squawk": "N/A",
-                "rssi": -26.9,
+                "rssi": -26.4,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-05-29T03:12:03.464448+00:00",
+                "last_seen": "2025-05-29T03:13:02.654625+00:00",
                 "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
                 "category": "A7"
@@ -2326,14 +2302,6 @@
             "geometry": {
                 "type": "LineString",
                 "coordinates": [
-                    [
-                        -117.233899,
-                        32.547363
-                    ],
-                    [
-                        -117.234491,
-                        32.546951
-                    ],
                     [
                         -117.252764,
                         32.553142
@@ -3821,6 +3789,14 @@
                     [
                         -117.710546,
                         32.371123
+                    ],
+                    [
+                        -117.687957,
+                        32.358181
+                    ],
+                    [
+                        -117.690872,
+                        32.362278
                     ]
                 ]
             }
@@ -3847,14 +3823,6 @@
             "geometry": {
                 "type": "LineString",
                 "coordinates": [
-                    [
-                        -118.287441,
-                        34.261597
-                    ],
-                    [
-                        -118.288113,
-                        34.26265
-                    ],
                     [
                         -118.288479,
                         34.286515
@@ -4565,14 +4533,6 @@
                 "type": "LineString",
                 "coordinates": [
                     [
-                        -122.625275,
-                        48.531034
-                    ],
-                    [
-                        -122.625781,
-                        48.529637
-                    ],
-                    [
                         -122.640381,
                         48.487507
                     ],
@@ -5052,12 +5012,12 @@
                 "description": "Sikorsky MH-60S Seahawk",
                 "operator": "United States Navy",
                 "altitude": 275,
-                "ground_speed": 106.9,
-                "track": 187.52,
+                "ground_speed": 103.9,
+                "track": 210.02,
                 "squawk": "1200",
-                "rssi": -15.5,
+                "rssi": -24.2,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-05-29T03:12:03.464438+00:00",
+                "last_seen": "2025-05-29T03:13:02.654616+00:00",
                 "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
                 "category": "A7"
@@ -6148,6 +6108,14 @@
                     [
                         -117.280566,
                         32.895534
+                    ],
+                    [
+                        -117.292561,
+                        32.868533
+                    ],
+                    [
+                        -117.292449,
+                        32.86872
                     ]
                 ]
             }
@@ -7781,20 +7749,20 @@
             "type": "Feature",
             "properties": {
                 "hex": "AD5711",
-                "flight": "N959LA  ",
+                "flight": "Unknown",
                 "type": "AS50",
                 "description": "AEROSPATIALE AS-350 Ecureuil",
                 "operator": "COUNTY OF LOS ANGELES",
                 "altitude": "ground",
-                "ground_speed": 0.0,
-                "track": 0.0,
+                "ground_speed": 0.3,
+                "track": 272.81,
                 "squawk": "N/A",
-                "rssi": -23.8,
-                "api_source": "https://opendata.adsb.fi/api/v2/hex/",
-                "last_seen": "2025-05-29T03:09:02.699683+00:00",
+                "rssi": -29.6,
+                "api_source": "https://api.airplanes.live/v2/hex/",
+                "last_seen": "2025-05-29T03:13:02.654650+00:00",
                 "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
-                "category": "A7"
+                "category": "Unknown"
             },
             "geometry": {
                 "type": "LineString",
@@ -7802,6 +7770,35 @@
                     [
                         -118.142012,
                         33.815128
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "hex": "A36968",
+                "flight": "Unknown",
+                "type": "B407",
+                "description": "BELL 407",
+                "operator": "SAN DIEGO COUNTY SHERIFF DEPARTMENT",
+                "altitude": 300,
+                "ground_speed": 0.7,
+                "track": 0.0,
+                "squawk": "N/A",
+                "rssi": -31.7,
+                "api_source": "https://api.airplanes.live/v2/hex/",
+                "last_seen": "2025-05-29T03:13:02.654635+00:00",
+                "nav_qnh": 1015.2,
+                "nav_altitude_mcp": 0,
+                "category": "Unknown"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -116.972479,
+                        32.820282
                     ]
                 ]
             }
