@@ -6,16 +6,16 @@
             "properties": {
                 "hex": "A0AF01",
                 "flight": "TROY307 ",
-                "type": "B350",
+                "type": "Unknown",
                 "description": "Unknown",
                 "operator": "DEPARTMENT OF HOMELAND SECURITY",
                 "altitude": "ground",
-                "ground_speed": 0.0,
-                "track": 0.0,
-                "squawk": "2013",
+                "ground_speed": 6.2,
+                "track": 284.06,
+                "squawk": "N/A",
                 "rssi": null,
-                "api_source": "https://opendata.adsb.fi/api/v2/hex/",
-                "last_seen": "2025-05-29T03:32:02.837749+00:00",
+                "api_source": "https://api.airplanes.live/v2/hex/",
+                "last_seen": "2025-05-29T03:33:02.955217+00:00",
                 "nav_qnh": null,
                 "nav_altitude_mcp": null,
                 "category": "A2"
@@ -23,8 +23,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -117.209491,
-                    32.701737
+                    -117.209688,
+                    32.702271
                 ]
             }
         },
@@ -37,12 +37,12 @@
                 "description": "BELL 407",
                 "operator": "SAN DIEGO COUNTY SHERIFF DEPARTMENT",
                 "altitude": 925,
-                "ground_speed": 69.4,
-                "track": 335.28,
+                "ground_speed": 73.6,
+                "track": 47.2,
                 "squawk": "1200",
                 "rssi": null,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-05-29T03:32:02.838460+00:00",
+                "last_seen": "2025-05-29T03:33:02.955207+00:00",
                 "nav_qnh": null,
                 "nav_altitude_mcp": null,
                 "category": "A7"
@@ -50,8 +50,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -117.013623,
-                    32.735733
+                    -117.010616,
+                    32.753968
                 ]
             }
         },
@@ -85,18 +85,18 @@
         {
             "type": "Feature",
             "properties": {
-                "hex": "AE4F8A",
-                "flight": "FFAB123 ",
+                "hex": "AE2606",
+                "flight": "Unknown",
                 "type": "H60",
-                "description": "Sikorsky MH-60R Seahawk",
+                "description": "Sikorsky MH-60S Seahawk",
                 "operator": "United States Navy",
-                "altitude": 975,
-                "ground_speed": 85.3,
-                "track": 4.71,
-                "squawk": "1200",
+                "altitude": -75,
+                "ground_speed": 0.0,
+                "track": 0.0,
+                "squawk": "N/A",
                 "rssi": null,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-05-29T03:32:02.838450+00:00",
+                "last_seen": "2025-05-29T03:33:02.955186+00:00",
                 "nav_qnh": null,
                 "nav_altitude_mcp": null,
                 "category": "A7"
@@ -104,8 +104,35 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -117.532411,
-                    32.620875
+                    -117.11662,
+                    32.565399
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "hex": "AE4F8A",
+                "flight": "FFAB123 ",
+                "type": "H60",
+                "description": "Sikorsky MH-60R Seahawk",
+                "operator": "United States Navy",
+                "altitude": 975,
+                "ground_speed": 86.1,
+                "track": 3.33,
+                "squawk": "1200",
+                "rssi": null,
+                "api_source": "https://api.airplanes.live/v2/hex/",
+                "last_seen": "2025-05-29T03:33:02.955197+00:00",
+                "nav_qnh": null,
+                "nav_altitude_mcp": null,
+                "category": "A7"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -117.530505,
+                    32.645315
                 ]
             }
         }
