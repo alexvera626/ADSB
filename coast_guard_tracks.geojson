@@ -899,13 +899,13 @@
                 "type": "CN35",
                 "description": "CASA HC-144B Ocean Sentry",
                 "operator": "United States Coast Guard",
-                "altitude": 425,
-                "ground_speed": 157.5,
-                "track": 4.73,
+                "altitude": 375,
+                "ground_speed": 139.0,
+                "track": 6.9,
                 "squawk": "4423",
-                "rssi": -22.5,
+                "rssi": -49.5,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-05-30T13:04:03.056718+00:00",
+                "last_seen": "2025-05-30T13:05:03.677102+00:00",
                 "nav_qnh": 1017.6,
                 "nav_altitude_mcp": 512,
                 "category": "A2"
@@ -1332,6 +1332,14 @@
                     [
                         -80.085046,
                         26.178497
+                    ],
+                    [
+                        -80.078289,
+                        26.222317
+                    ],
+                    [
+                        -80.078979,
+                        26.217056
                     ]
                 ]
             }
@@ -1457,6 +1465,35 @@
                     [
                         -80.277733,
                         25.907624
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "hex": "AE2692",
+                "flight": "Unknown",
+                "type": "AS65",
+                "description": "Eurocopter MH-65D Dolphin",
+                "operator": "Unknown",
+                "altitude": 825,
+                "ground_speed": 33.1,
+                "track": 174.81,
+                "squawk": "N/A",
+                "rssi": -24.9,
+                "api_source": "https://api.airplanes.live/v2/hex/",
+                "last_seen": "2025-05-30T13:05:03.677114+00:00",
+                "nav_qnh": 0.0,
+                "nav_altitude_mcp": 0,
+                "category": "Unknown"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -82.84394,
+                        42.62295
                     ]
                 ]
             }
