@@ -9,13 +9,13 @@
                 "type": "Unknown",
                 "description": "Unknown",
                 "operator": "CITY OF HUNTINGTON BEACH",
-                "altitude": 900,
-                "ground_speed": 53.0,
-                "track": 88.92,
+                "altitude": 925,
+                "ground_speed": 56.8,
+                "track": 345.72,
                 "squawk": "4301",
-                "rssi": -8.7,
+                "rssi": -10.4,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-05-30T08:42:03.095692+00:00",
+                "last_seen": "2025-05-30T08:43:02.409941+00:00",
                 "nav_qnh": 1013.6,
                 "nav_altitude_mcp": 0,
                 "category": "A7"
@@ -23,14 +23,6 @@
             "geometry": {
                 "type": "LineString",
                 "coordinates": [
-                    [
-                        -117.752781,
-                        33.634131
-                    ],
-                    [
-                        -117.752838,
-                        33.633945
-                    ],
                     [
                         -117.759144,
                         33.63826
@@ -974,6 +966,14 @@
                     [
                         -117.988792,
                         33.719284
+                    ],
+                    [
+                        -117.993107,
+                        33.714946
+                    ],
+                    [
+                        -117.993107,
+                        33.714946
                     ]
                 ]
             }
@@ -986,28 +986,20 @@
                 "type": "AS50",
                 "description": "AEROSPATIALE AS-350 Ecureuil",
                 "operator": "ORANGE COUNTY SHERIFF'S DEPARTMENT, C/O CORONER AIR SUPPORT",
-                "altitude": 0,
+                "altitude": "ground",
                 "ground_speed": 0.0,
                 "track": 0.0,
                 "squawk": "4204",
-                "rssi": -13.4,
+                "rssi": -13.7,
                 "api_source": "https://opendata.adsb.fi/api/v2/hex/",
-                "last_seen": "2025-05-30T08:42:03.095613+00:00",
-                "nav_qnh": 0.0,
+                "last_seen": "2025-05-30T08:43:02.409867+00:00",
+                "nav_qnh": 1014.4,
                 "nav_altitude_mcp": 0,
                 "category": "A7"
             },
             "geometry": {
                 "type": "LineString",
                 "coordinates": [
-                    [
-                        -117.885879,
-                        33.747574
-                    ],
-                    [
-                        -117.885876,
-                        33.747253
-                    ],
                     [
                         -117.86783,
                         33.743362
@@ -1235,47 +1227,10 @@
                     [
                         -117.871684,
                         33.675156
-                    ]
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "hex": "A4DC0C",
-                "flight": "Unknown",
-                "type": "H60",
-                "description": "Sikorsky S-70M Firehawk",
-                "operator": "ORANGE COUNTY FIRE AUTHORITY",
-                "altitude": "ground",
-                "ground_speed": 0.1,
-                "track": 0.0,
-                "squawk": "N/A",
-                "rssi": -30.3,
-                "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-05-30T04:48:02.915932+00:00",
-                "nav_qnh": 0.0,
-                "nav_altitude_mcp": 0,
-                "category": "A7"
-            },
-            "geometry": {
-                "type": "LineString",
-                "coordinates": [
-                    [
-                        -117.977974,
-                        33.873207
                     ],
                     [
-                        -117.978072,
-                        33.873107
-                    ],
-                    [
-                        -117.978072,
-                        33.873104
-                    ],
-                    [
-                        -117.978015,
-                        33.873014
+                        -117.871684,
+                        33.675156
                     ]
                 ]
             }
@@ -1289,12 +1244,12 @@
                 "description": "AEROSPATIALE AS-350 Ecureuil",
                 "operator": "COUNTY OF LOS ANGELES",
                 "altitude": 600,
-                "ground_speed": 85.7,
-                "track": 78.56,
+                "ground_speed": 80.8,
+                "track": 77.86,
                 "squawk": "1206",
-                "rssi": -12.2,
+                "rssi": -4.2,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-05-30T08:42:03.095713+00:00",
+                "last_seen": "2025-05-30T08:43:02.409962+00:00",
                 "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
                 "category": "A7"
@@ -1302,14 +1257,6 @@
             "geometry": {
                 "type": "LineString",
                 "coordinates": [
-                    [
-                        -118.239011,
-                        34.04155
-                    ],
-                    [
-                        -118.238339,
-                        34.041412
-                    ],
                     [
                         -118.212147,
                         34.042395
@@ -2053,6 +2000,47 @@
                     [
                         -118.091873,
                         33.887695
+                    ],
+                    [
+                        -118.065528,
+                        33.896301
+                    ],
+                    [
+                        -118.065528,
+                        33.896301
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "hex": "A4DC0C",
+                "flight": "Unknown",
+                "type": "H60",
+                "description": "Sikorsky S-70M Firehawk",
+                "operator": "ORANGE COUNTY FIRE AUTHORITY",
+                "altitude": "ground",
+                "ground_speed": 0.1,
+                "track": 0.0,
+                "squawk": "N/A",
+                "rssi": -30.3,
+                "api_source": "https://api.airplanes.live/v2/hex/",
+                "last_seen": "2025-05-30T04:48:02.915932+00:00",
+                "nav_qnh": 0.0,
+                "nav_altitude_mcp": 0,
+                "category": "A7"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -117.978072,
+                        33.873104
+                    ],
+                    [
+                        -117.978015,
+                        33.873014
                     ]
                 ]
             }
@@ -4284,13 +4272,13 @@
                 "type": "B407",
                 "description": "BELL 407",
                 "operator": "SAN DIEGO COUNTY SHERIFF DEPARTMENT",
-                "altitude": 1150,
-                "ground_speed": 82.4,
-                "track": 54.38,
+                "altitude": 1250,
+                "ground_speed": 83.5,
+                "track": 78.96,
                 "squawk": "4267",
-                "rssi": -18.6,
+                "rssi": -10.1,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-05-30T08:42:03.095703+00:00",
+                "last_seen": "2025-05-30T08:43:02.409952+00:00",
                 "nav_qnh": 1011.2,
                 "nav_altitude_mcp": 0,
                 "category": "A7"
@@ -4449,6 +4437,14 @@
                     [
                         -116.926649,
                         32.809412
+                    ],
+                    [
+                        -116.928275,
+                        32.808295
+                    ],
+                    [
+                        -116.928275,
+                        32.808295
                     ]
                 ]
             }
