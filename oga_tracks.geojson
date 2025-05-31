@@ -9,13 +9,13 @@
                 "type": "AS50",
                 "description": "AEROSPATIALE AS-350 Ecureuil",
                 "operator": "LAPD AIR SUPPORT DIVISION",
-                "altitude": 0,
+                "altitude": "ground",
                 "ground_speed": 0.0,
                 "track": 0.0,
-                "squawk": "4201",
-                "rssi": -30.8,
+                "squawk": "N/A",
+                "rssi": -18.1,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-05-31T08:43:02.770165+00:00",
+                "last_seen": "2025-05-31T08:45:02.419436+00:00",
                 "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
                 "category": "Unknown"
@@ -23,14 +23,6 @@
             "geometry": {
                 "type": "LineString",
                 "coordinates": [
-                    [
-                        -118.323956,
-                        34.081545
-                    ],
-                    [
-                        -118.323956,
-                        34.081545
-                    ],
                     [
                         -118.341408,
                         34.081033
@@ -806,6 +798,75 @@
                     [
                         -118.229819,
                         34.054321
+                    ],
+                    [
+                        -118.229833,
+                        34.054264
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "hex": "AC4597",
+                "flight": "CMD3    ",
+                "type": "EC35",
+                "description": "AIRBUS HELICOPTERS EC-135/635",
+                "operator": "REACH AIR MEDICAL SERVICES LLC",
+                "altitude": "ground",
+                "ground_speed": 0.2,
+                "track": 71.57,
+                "squawk": "1200",
+                "rssi": -22.5,
+                "api_source": "https://api.airplanes.live/v2/hex/",
+                "last_seen": "2025-05-31T04:49:02.824985+00:00",
+                "nav_qnh": 1014.4,
+                "nav_altitude_mcp": 0,
+                "category": "A7"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -121.088196,
+                        38.954447
+                    ],
+                    [
+                        -121.088196,
+                        38.954447
+                    ],
+                    [
+                        -121.092503,
+                        38.93367
+                    ],
+                    [
+                        -121.09198,
+                        38.932847
+                    ],
+                    [
+                        -121.07047,
+                        38.913071
+                    ],
+                    [
+                        -121.07047,
+                        38.913071
+                    ],
+                    [
+                        -121.05542,
+                        38.930193
+                    ],
+                    [
+                        -121.055364,
+                        38.930328
+                    ],
+                    [
+                        -121.054648,
+                        38.933167
+                    ],
+                    [
+                        -121.053797,
+                        38.934128
                     ]
                 ]
             }
@@ -819,12 +880,12 @@
                 "description": "AEROSPATIALE AS-350 Ecureuil",
                 "operator": "COUNTY OF LOS ANGELES",
                 "altitude": 700,
-                "ground_speed": 80.1,
-                "track": 207.53,
+                "ground_speed": 77.0,
+                "track": 204.57,
                 "squawk": "1206",
-                "rssi": -7.8,
+                "rssi": -20.1,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-05-31T08:44:02.659627+00:00",
+                "last_seen": "2025-05-31T08:45:02.419457+00:00",
                 "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
                 "category": "A7"
@@ -832,14 +893,6 @@
             "geometry": {
                 "type": "LineString",
                 "coordinates": [
-                    [
-                        -118.205099,
-                        33.988037
-                    ],
-                    [
-                        -118.205099,
-                        33.988037
-                    ],
                     [
                         -118.166367,
                         34.000443
@@ -1719,6 +1772,14 @@
                     [
                         -118.058968,
                         34.063203
+                    ],
+                    [
+                        -118.066593,
+                        34.042282
+                    ],
+                    [
+                        -118.066593,
+                        34.042282
                     ]
                 ]
             }
@@ -1745,14 +1806,6 @@
             "geometry": {
                 "type": "LineString",
                 "coordinates": [
-                    [
-                        -122.386902,
-                        40.579834
-                    ],
-                    [
-                        -122.386902,
-                        40.579834
-                    ],
                     [
                         -122.386536,
                         40.582993
@@ -2664,71 +2717,6 @@
                     [
                         -122.131069,
                         39.162277
-                    ]
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "hex": "AC4597",
-                "flight": "CMD3    ",
-                "type": "EC35",
-                "description": "AIRBUS HELICOPTERS EC-135/635",
-                "operator": "REACH AIR MEDICAL SERVICES LLC",
-                "altitude": "ground",
-                "ground_speed": 0.2,
-                "track": 71.57,
-                "squawk": "1200",
-                "rssi": -22.5,
-                "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-05-31T04:49:02.824985+00:00",
-                "nav_qnh": 1014.4,
-                "nav_altitude_mcp": 0,
-                "category": "A7"
-            },
-            "geometry": {
-                "type": "LineString",
-                "coordinates": [
-                    [
-                        -121.088196,
-                        38.954447
-                    ],
-                    [
-                        -121.088196,
-                        38.954447
-                    ],
-                    [
-                        -121.092503,
-                        38.93367
-                    ],
-                    [
-                        -121.09198,
-                        38.932847
-                    ],
-                    [
-                        -121.07047,
-                        38.913071
-                    ],
-                    [
-                        -121.07047,
-                        38.913071
-                    ],
-                    [
-                        -121.05542,
-                        38.930193
-                    ],
-                    [
-                        -121.055364,
-                        38.930328
-                    ],
-                    [
-                        -121.054648,
-                        38.933167
-                    ],
-                    [
-                        -121.053797,
-                        38.934128
                     ]
                 ]
             }
