@@ -9,13 +9,13 @@
                 "type": "AS50",
                 "description": "AEROSPATIALE AS-350 Ecureuil",
                 "operator": "COUNTY OF LOS ANGELES",
-                "altitude": 500,
-                "ground_speed": 67.1,
-                "track": 92.56,
+                "altitude": 600,
+                "ground_speed": 70.0,
+                "track": 270.0,
                 "squawk": "1206",
-                "rssi": -10.5,
+                "rssi": -7.8,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-06-01T21:25:03.207900+00:00",
+                "last_seen": "2025-06-01T21:26:03.608573+00:00",
                 "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
                 "category": "A7"
@@ -23,14 +23,6 @@
             "geometry": {
                 "type": "LineString",
                 "coordinates": [
-                    [
-                        -118.178642,
-                        33.965836
-                    ],
-                    [
-                        -118.178642,
-                        33.965836
-                    ],
                     [
                         -118.188343,
                         33.94254
@@ -698,6 +690,14 @@
                     [
                         -118.107262,
                         33.871827
+                    ],
+                    [
+                        -118.106671,
+                        33.875427
+                    ],
+                    [
+                        -118.107033,
+                        33.875412
                     ]
                 ]
             }
@@ -724,14 +724,6 @@
             "geometry": {
                 "type": "LineString",
                 "coordinates": [
-                    [
-                        -117.239447,
-                        32.969879
-                    ],
-                    [
-                        -117.239447,
-                        32.969879
-                    ],
                     [
                         -117.212518,
                         32.968248
@@ -893,14 +885,6 @@
             "geometry": {
                 "type": "LineString",
                 "coordinates": [
-                    [
-                        -116.684475,
-                        33.922988
-                    ],
-                    [
-                        -116.684475,
-                        33.922988
-                    ],
                     [
                         -116.868579,
                         33.926285
@@ -2461,13 +2445,13 @@
                 "type": "AS50",
                 "description": "AEROSPATIALE AS-350 Ecureuil",
                 "operator": "ORANGE COUNTY SHERIFF'S DEPARTMENT",
-                "altitude": 1175,
-                "ground_speed": 120.3,
-                "track": 3.81,
+                "altitude": 1025,
+                "ground_speed": 86.6,
+                "track": 6.63,
                 "squawk": "4204",
-                "rssi": -14.3,
+                "rssi": -8.7,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-06-01T21:25:03.207955+00:00",
+                "last_seen": "2025-06-01T21:26:03.608641+00:00",
                 "nav_qnh": 1012.0,
                 "nav_altitude_mcp": 992,
                 "category": "A7"
@@ -3502,6 +3486,14 @@
                     [
                         -117.935715,
                         33.675749
+                    ],
+                    [
+                        -117.935371,
+                        33.705962
+                    ],
+                    [
+                        -117.935318,
+                        33.706421
                     ]
                 ]
             }
@@ -3515,12 +3507,12 @@
                 "description": "NORTH AMERICAN OV-10 Bronco",
                 "operator": "USDA FOREST SERVICE FEPP",
                 "altitude": 3000,
-                "ground_speed": 143.2,
-                "track": 349.95,
+                "ground_speed": 146.7,
+                "track": 295.87,
                 "squawk": "5306",
-                "rssi": -12.0,
+                "rssi": -6.6,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-06-01T21:25:03.207945+00:00",
+                "last_seen": "2025-06-01T21:26:03.608631+00:00",
                 "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
                 "category": "A1"
@@ -3947,6 +3939,14 @@
                     [
                         -121.306458,
                         39.076274
+                    ],
+                    [
+                        -121.302736,
+                        39.071091
+                    ],
+                    [
+                        -121.303512,
+                        39.071365
                     ]
                 ]
             }
@@ -5180,6 +5180,35 @@
                     [
                         -121.028931,
                         38.995273
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "hex": "A1588A",
+                "flight": "N186SD  ",
+                "type": "UH1",
+                "description": "BELL UH-1 Huey",
+                "operator": "ORANGE COUNTY SHERIFFS DEPT",
+                "altitude": "ground",
+                "ground_speed": 0.0,
+                "track": 0.0,
+                "squawk": "N/A",
+                "rssi": -23.3,
+                "api_source": "https://opendata.adsb.fi/api/v2/hex/",
+                "last_seen": "2025-06-01T21:26:03.608512+00:00",
+                "nav_qnh": 0.0,
+                "nav_altitude_mcp": 0,
+                "category": "A7"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -117.87153,
+                        33.674915
                     ]
                 ]
             }
