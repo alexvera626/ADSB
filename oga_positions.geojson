@@ -15,7 +15,7 @@
                 "squawk": "4674",
                 "rssi": null,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-06-03T15:05:02.537769+00:00",
+                "last_seen": "2025-06-03T15:06:02.945077+00:00",
                 "nav_qnh": null,
                 "nav_altitude_mcp": null,
                 "category": "A2"
@@ -23,7 +23,7 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -117.209496,
+                    -117.209482,
                     32.701733
                 ]
             }
@@ -36,13 +36,13 @@
                 "type": "AS50",
                 "description": "AEROSPATIALE AS-350 Ecureuil",
                 "operator": "LAPD AIR SUPPORT DIVISION",
-                "altitude": 375,
-                "ground_speed": 25.3,
-                "track": 198.43,
+                "altitude": "ground",
+                "ground_speed": 0.9,
+                "track": 126.6,
                 "squawk": "1200",
                 "rssi": null,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-06-03T15:05:02.537549+00:00",
+                "last_seen": "2025-06-03T15:06:02.944903+00:00",
                 "nav_qnh": null,
                 "nav_altitude_mcp": null,
                 "category": "A7"
@@ -50,8 +50,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -118.228397,
-                    34.056128
+                    -118.229685,
+                    34.054812
                 ]
             }
         },
@@ -63,13 +63,13 @@
                 "type": "SHIP",
                 "description": "Zeppelin LZ N07-101",
                 "operator": "GOODYEAR TIRE & RUBBER CO",
-                "altitude": 1525,
-                "ground_speed": 19.2,
-                "track": 308.66,
+                "altitude": 1550,
+                "ground_speed": 18.7,
+                "track": 254.48,
                 "squawk": "N/A",
                 "rssi": null,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-06-03T15:05:02.537750+00:00",
+                "last_seen": "2025-06-03T15:06:02.945059+00:00",
                 "nav_qnh": null,
                 "nav_altitude_mcp": null,
                 "category": "B2"
@@ -77,8 +77,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -81.330872,
-                    41.024551
+                    -81.338562,
+                    41.024048
                 ]
             }
         },
@@ -106,6 +106,33 @@
                 "coordinates": [
                     -118.410602,
                     34.257294
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "hex": "AAFD01",
+                "flight": "Unknown",
+                "type": "DH8C",
+                "description": "DE HAVILLAND DHC-8-300 Dash 8",
+                "operator": "US DEPARTMENT OF HOMELAND SECURITY, US CUSTOMS & BORDER PROTECTI",
+                "altitude": 1775,
+                "ground_speed": 165.5,
+                "track": 61.89,
+                "squawk": "5234",
+                "rssi": null,
+                "api_source": "https://opendata.adsb.fi/api/v2/hex/",
+                "last_seen": "2025-06-03T15:06:02.944176+00:00",
+                "nav_qnh": null,
+                "nav_altitude_mcp": null,
+                "category": "Unknown"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -95.366337,
+                    30.344971
                 ]
             }
         }
