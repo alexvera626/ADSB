@@ -940,13 +940,13 @@
                 "type": "BE30",
                 "description": "BEECH 300 Super King Air",
                 "operator": "DEPARTMENT OF HOMELAND SECURITY",
-                "altitude": 7250,
-                "ground_speed": 170.0,
-                "track": 0.34,
+                "altitude": 8800,
+                "ground_speed": 168.0,
+                "track": 1.02,
                 "squawk": "3614",
-                "rssi": -21.7,
+                "rssi": -18.3,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-06-05T12:53:02.780572+00:00",
+                "last_seen": "2025-06-05T12:54:02.649245+00:00",
                 "nav_qnh": 1017.6,
                 "nav_altitude_mcp": 16000,
                 "category": "A2"
@@ -989,6 +989,14 @@
                     [
                         -80.382182,
                         25.536713
+                    ],
+                    [
+                        -80.381775,
+                        25.582123
+                    ],
+                    [
+                        -80.381724,
+                        25.584137
                     ]
                 ]
             }
@@ -1001,13 +1009,13 @@
                 "type": "AS50",
                 "description": "AEROSPATIALE AS-350 Ecureuil",
                 "operator": "TINY BUBBLES AVIATION INC",
-                "altitude": 975,
+                "altitude": "ground",
                 "ground_speed": 0.7,
                 "track": 0.0,
                 "squawk": "1200",
-                "rssi": -23.2,
+                "rssi": -21.2,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-06-05T12:53:02.780594+00:00",
+                "last_seen": "2025-06-05T12:54:02.649265+00:00",
                 "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
                 "category": "A7"
@@ -1018,6 +1026,39 @@
                     [
                         -118.410473,
                         34.257373
+                    ],
+                    [
+                        -118.410476,
+                        34.257385
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "hex": "A31AA0",
+                "flight": "N3A     ",
+                "type": "SHIP",
+                "description": "Zeppelin LZ N07-101",
+                "operator": "GOODYEAR TIRE & RUBBER CO",
+                "altitude": 2025,
+                "ground_speed": 6.1,
+                "track": 170.54,
+                "squawk": "N/A",
+                "rssi": -13.2,
+                "api_source": "https://api.airplanes.live/v2/hex/",
+                "last_seen": "2025-06-05T12:54:02.649230+00:00",
+                "nav_qnh": 0.0,
+                "nav_altitude_mcp": 0,
+                "category": "B2"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -81.530151,
+                        41.081818
                     ]
                 ]
             }
