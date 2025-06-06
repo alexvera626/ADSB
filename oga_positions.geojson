@@ -32,17 +32,17 @@
             "type": "Feature",
             "properties": {
                 "hex": "A1588A",
-                "flight": "N186SD  ",
+                "flight": "Unknown",
                 "type": "UH1",
                 "description": "BELL UH-1 Huey",
                 "operator": "ORANGE COUNTY SHERIFFS DEPT",
-                "altitude": "ground",
-                "ground_speed": 8.2,
-                "track": 165.94,
-                "squawk": "N/A",
+                "altitude": 1500,
+                "ground_speed": 39.2,
+                "track": 37.75,
+                "squawk": "4204",
                 "rssi": null,
-                "api_source": "https://opendata.adsb.fi/api/v2/hex/",
-                "last_seen": "2025-06-06T18:17:02.631590+00:00",
+                "api_source": "https://api.airplanes.live/v2/hex/",
+                "last_seen": "2025-06-06T18:19:02.854646+00:00",
                 "nav_qnh": null,
                 "nav_altitude_mcp": null,
                 "category": "A7"
@@ -50,8 +50,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -117.687733,
-                    33.736656
+                    -117.690311,
+                    33.73645
                 ]
             }
         },
@@ -90,13 +90,13 @@
                 "type": "AS50",
                 "description": "AEROSPATIALE AS-350 Ecureuil",
                 "operator": "TINY BUBBLES AVIATION INC",
-                "altitude": 1300,
-                "ground_speed": 119.9,
-                "track": 160.51,
+                "altitude": 1350,
+                "ground_speed": 116.1,
+                "track": 169.08,
                 "squawk": "1200",
                 "rssi": null,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-06-06T18:18:02.845144+00:00",
+                "last_seen": "2025-06-06T18:19:02.854676+00:00",
                 "nav_qnh": null,
                 "nav_altitude_mcp": null,
                 "category": "A7"
@@ -104,8 +104,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -118.266925,
-                    34.12381
+                    -118.255806,
+                    34.092671
                 ]
             }
         },
@@ -123,7 +123,7 @@
                 "squawk": "N/A",
                 "rssi": null,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-06-06T18:16:03.300944+00:00",
+                "last_seen": "2025-06-06T18:19:02.854686+00:00",
                 "nav_qnh": null,
                 "nav_altitude_mcp": null,
                 "category": "A7"
@@ -131,8 +131,35 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -117.118268,
-                    32.561142
+                    -117.118238,
+                    32.561149
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "hex": "AE4FAE",
+                "flight": "Unknown",
+                "type": "H60",
+                "description": "SIKORSKY UH-60 Black Hawk",
+                "operator": "Unknown",
+                "altitude": 0,
+                "ground_speed": 0.0,
+                "track": 0.0,
+                "squawk": "N/A",
+                "rssi": null,
+                "api_source": "https://opendata.adsb.fi/api/v2/hex/",
+                "last_seen": "2025-06-06T18:19:02.854547+00:00",
+                "nav_qnh": null,
+                "nav_altitude_mcp": null,
+                "category": "A7"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -117.116675,
+                    32.566727
                 ]
             }
         }
