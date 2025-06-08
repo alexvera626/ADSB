@@ -2149,17 +2149,17 @@
             "type": "Feature",
             "properties": {
                 "hex": "AE2689",
-                "flight": "C6551   ",
+                "flight": "Unknown",
                 "type": "AS65",
                 "description": "Eurocopter MH-65D Dolphin",
                 "operator": "Unknown",
                 "altitude": 0,
-                "ground_speed": 0.0,
-                "track": 0.0,
-                "squawk": "4423",
-                "rssi": -29.8,
+                "ground_speed": 89.0,
+                "track": 14.97,
+                "squawk": "N/A",
+                "rssi": -30.0,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-06-08T15:09:03.568015+00:00",
+                "last_seen": "2025-06-08T15:13:03.362836+00:00",
                 "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
                 "category": "A7"
@@ -2631,20 +2631,20 @@
             "type": "Feature",
             "properties": {
                 "hex": "AE4DFF",
-                "flight": "C6047   ",
+                "flight": "Unknown",
                 "type": "H60",
                 "description": "Sikorsky MH-60T Jayhawk",
                 "operator": "Unknown",
-                "altitude": 1450,
-                "ground_speed": 131.5,
-                "track": 55.22,
-                "squawk": "1200",
-                "rssi": -12.4,
-                "api_source": "https://opendata.adsb.fi/api/v2/hex/",
-                "last_seen": "2025-06-08T15:12:03.075731+00:00",
+                "altitude": 1425,
+                "ground_speed": 68.6,
+                "track": 133.23,
+                "squawk": "N/A",
+                "rssi": -23.0,
+                "api_source": "https://api.airplanes.live/v2/hex/",
+                "last_seen": "2025-06-08T15:13:03.362867+00:00",
                 "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
-                "category": "A7"
+                "category": "Unknown"
             },
             "geometry": {
                 "type": "LineString",
@@ -2792,6 +2792,10 @@
                     [
                         -85.439602,
                         44.705185
+                    ],
+                    [
+                        -85.409658,
+                        44.725714
                     ]
                 ]
             }
@@ -3195,13 +3199,13 @@
                 "type": "AS65",
                 "description": "Eurocopter MH-65D Dolphin",
                 "operator": "Unknown",
-                "altitude": 425,
-                "ground_speed": 111.0,
-                "track": 151.2,
-                "squawk": "1277",
+                "altitude": 375,
+                "ground_speed": 121.0,
+                "track": 92.3,
+                "squawk": "N/A",
                 "rssi": -49.5,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-06-08T15:12:03.076714+00:00",
+                "last_seen": "2025-06-08T15:13:03.362850+00:00",
                 "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
                 "category": "Unknown"
@@ -3260,6 +3264,39 @@
                     [
                         -97.509155,
                         27.719101
+                    ],
+                    [
+                        -97.481483,
+                        27.70166
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "hex": "AE5DEF",
+                "flight": "C2016   ",
+                "type": "C30J",
+                "description": "Lockheed HC-130J Hercules",
+                "operator": "United States Coast Guard",
+                "altitude": 0,
+                "ground_speed": 6.8,
+                "track": 0.0,
+                "squawk": "N/A",
+                "rssi": -21.0,
+                "api_source": "https://api.airplanes.live/v2/hex/",
+                "last_seen": "2025-06-08T15:13:03.362901+00:00",
+                "nav_qnh": 0.0,
+                "nav_altitude_mcp": 0,
+                "category": "A3"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -122.300835,
+                        47.526169
                     ]
                 ]
             }
