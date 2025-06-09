@@ -24,22 +24,6 @@
                 "type": "LineString",
                 "coordinates": [
                     [
-                        -120.943909,
-                        39.357217
-                    ],
-                    [
-                        -120.945496,
-                        39.356565
-                    ],
-                    [
-                        -121.004578,
-                        39.324444
-                    ],
-                    [
-                        -121.004578,
-                        39.324444
-                    ],
-                    [
                         -121.071485,
                         39.298737
                     ],
@@ -170,13 +154,13 @@
                 "type": "AS50",
                 "description": "AEROSPATIALE AS-350 Ecureuil",
                 "operator": "ORANGE COUNTY SHERIFF'S DEPARTMENT",
-                "altitude": 1050,
-                "ground_speed": 71.1,
-                "track": 267.58,
+                "altitude": 1125,
+                "ground_speed": 69.0,
+                "track": 359.17,
                 "squawk": "4204",
-                "rssi": -6.7,
+                "rssi": -7.7,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-06-09T06:56:03.225999+00:00",
+                "last_seen": "2025-06-09T06:57:03.455160+00:00",
                 "nav_qnh": 1013.6,
                 "nav_altitude_mcp": 3488,
                 "category": "A7"
@@ -184,22 +168,6 @@
             "geometry": {
                 "type": "LineString",
                 "coordinates": [
-                    [
-                        -117.933769,
-                        33.756191
-                    ],
-                    [
-                        -117.933468,
-                        33.756546
-                    ],
-                    [
-                        -117.933188,
-                        33.756226
-                    ],
-                    [
-                        -117.933188,
-                        33.756226
-                    ],
                     [
                         -117.934197,
                         33.755127
@@ -407,6 +375,14 @@
                     [
                         -117.942156,
                         33.731003
+                    ],
+                    [
+                        -117.935206,
+                        33.728851
+                    ],
+                    [
+                        -117.9352,
+                        33.729145
                     ]
                 ]
             }
@@ -433,22 +409,6 @@
             "geometry": {
                 "type": "LineString",
                 "coordinates": [
-                    [
-                        -117.83947,
-                        33.827789
-                    ],
-                    [
-                        -117.839524,
-                        33.828049
-                    ],
-                    [
-                        -117.850174,
-                        33.823059
-                    ],
-                    [
-                        -117.850174,
-                        33.823059
-                    ],
                     [
                         -117.847023,
                         33.830954
@@ -1391,55 +1351,6 @@
         {
             "type": "Feature",
             "properties": {
-                "hex": "A31E37",
-                "flight": "PD10    ",
-                "type": "AS50",
-                "description": "AEROSPATIALE AS-350 Ecureuil",
-                "operator": "CITY OF ONTARIO",
-                "altitude": 0,
-                "ground_speed": 0.0,
-                "track": 0.0,
-                "squawk": "N/A",
-                "rssi": -9.0,
-                "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-06-09T02:59:03.034994+00:00",
-                "nav_qnh": 0.0,
-                "nav_altitude_mcp": 0,
-                "category": "A7"
-            },
-            "geometry": {
-                "type": "LineString",
-                "coordinates": [
-                    [
-                        -117.679998,
-                        34.07254
-                    ],
-                    [
-                        -117.679996,
-                        34.072979
-                    ],
-                    [
-                        -117.680569,
-                        34.102261
-                    ],
-                    [
-                        -117.680569,
-                        34.102261
-                    ],
-                    [
-                        -117.691841,
-                        34.109942
-                    ],
-                    [
-                        -117.691841,
-                        34.109942
-                    ]
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
                 "hex": "AD395A",
                 "flight": "N951LB  ",
                 "type": "AS32",
@@ -1459,14 +1370,6 @@
             "geometry": {
                 "type": "LineString",
                 "coordinates": [
-                    [
-                        -118.17158,
-                        34.049469
-                    ],
-                    [
-                        -118.17158,
-                        34.049469
-                    ],
                     [
                         -118.202133,
                         34.04705
@@ -1810,6 +1713,39 @@
                     [
                         -118.142796,
                         33.814847
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "hex": "A31E37",
+                "flight": "PD10    ",
+                "type": "AS50",
+                "description": "AEROSPATIALE AS-350 Ecureuil",
+                "operator": "CITY OF ONTARIO",
+                "altitude": 0,
+                "ground_speed": 0.0,
+                "track": 0.0,
+                "squawk": "N/A",
+                "rssi": -9.0,
+                "api_source": "https://api.airplanes.live/v2/hex/",
+                "last_seen": "2025-06-09T02:59:03.034994+00:00",
+                "nav_qnh": 0.0,
+                "nav_altitude_mcp": 0,
+                "category": "A7"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -117.691841,
+                        34.109942
+                    ],
+                    [
+                        -117.691841,
+                        34.109942
                     ]
                 ]
             }
