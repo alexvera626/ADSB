@@ -24,14 +24,6 @@
                 "type": "LineString",
                 "coordinates": [
                     [
-                        -118.174382,
-                        33.984879
-                    ],
-                    [
-                        -118.173934,
-                        33.985336
-                    ],
-                    [
                         -118.14602,
                         34.001221
                     ],
@@ -718,28 +710,20 @@
                 "type": "AS50",
                 "description": "AEROSPATIALE AS-350 Ecureuil",
                 "operator": "ORANGE COUNTY SHERIFF'S DEPARTMENT",
-                "altitude": 1175,
-                "ground_speed": 13.0,
-                "track": 202.62,
+                "altitude": "ground",
+                "ground_speed": 0.1,
+                "track": 0.0,
                 "squawk": "4204",
-                "rssi": -23.4,
-                "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-06-09T21:03:03.270972+00:00",
-                "nav_qnh": 1014.4,
-                "nav_altitude_mcp": 3488,
+                "rssi": -29.0,
+                "api_source": "https://opendata.adsb.fi/api/v2/hex/",
+                "last_seen": "2025-06-09T21:04:03.609937+00:00",
+                "nav_qnh": 0.0,
+                "nav_altitude_mcp": 0,
                 "category": "A7"
             },
             "geometry": {
                 "type": "LineString",
                 "coordinates": [
-                    [
-                        -117.788123,
-                        33.751648
-                    ],
-                    [
-                        -117.788348,
-                        33.75174
-                    ],
                     [
                         -117.821274,
                         33.767411
@@ -1731,6 +1715,10 @@
                     [
                         -117.733555,
                         33.781516
+                    ],
+                    [
+                        -117.733822,
+                        33.780956
                     ]
                 ]
             }
@@ -1757,14 +1745,6 @@
             "geometry": {
                 "type": "LineString",
                 "coordinates": [
-                    [
-                        -118.087635,
-                        33.752141
-                    ],
-                    [
-                        -118.087578,
-                        33.752421
-                    ],
                     [
                         -118.073788,
                         33.771228
@@ -1850,14 +1830,6 @@
             "geometry": {
                 "type": "LineString",
                 "coordinates": [
-                    [
-                        -118.077278,
-                        33.739712
-                    ],
-                    [
-                        -118.077393,
-                        33.739153
-                    ],
                     [
                         -118.065376,
                         33.709686
@@ -2143,14 +2115,6 @@
             "geometry": {
                 "type": "LineString",
                 "coordinates": [
-                    [
-                        -83.620439,
-                        42.239822
-                    ],
-                    [
-                        -83.620329,
-                        42.239685
-                    ],
                     [
                         -83.610077,
                         42.237946
@@ -3257,10 +3221,6 @@
                 "type": "LineString",
                 "coordinates": [
                     [
-                        -97.322388,
-                        27.719101
-                    ],
-                    [
                         -97.309174,
                         27.707474
                     ],
@@ -3711,17 +3671,17 @@
             "type": "Feature",
             "properties": {
                 "hex": "A31E37",
-                "flight": "PD30    ",
+                "flight": "PD10    ",
                 "type": "AS50",
                 "description": "AEROSPATIALE AS-350 Ecureuil",
                 "operator": "CITY OF ONTARIO",
                 "altitude": 0,
-                "ground_speed": 7.8,
-                "track": 250.31,
-                "squawk": "4274",
-                "rssi": -9.8,
+                "ground_speed": 0.7,
+                "track": 340.31,
+                "squawk": "N/A",
+                "rssi": -10.3,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-06-09T18:34:03.305921+00:00",
+                "last_seen": "2025-06-09T21:04:03.610230+00:00",
                 "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
                 "category": "A7"
@@ -4416,6 +4376,14 @@
                     [
                         -117.691884,
                         34.109907
+                    ],
+                    [
+                        -117.692385,
+                        34.10955
+                    ],
+                    [
+                        -117.692385,
+                        34.10955
                     ]
                 ]
             }
@@ -5674,13 +5642,13 @@
                 "type": "H60",
                 "description": "SIKORSKY UH-60 Black Hawk",
                 "operator": "Unknown",
-                "altitude": 3975,
-                "ground_speed": 102.9,
-                "track": 122.3,
+                "altitude": 3800,
+                "ground_speed": 101.2,
+                "track": 159.78,
                 "squawk": "5117",
-                "rssi": -7.2,
+                "rssi": -11.2,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-06-09T21:03:03.271039+00:00",
+                "last_seen": "2025-06-09T21:04:03.610260+00:00",
                 "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
                 "category": "A7"
@@ -6803,6 +6771,14 @@
                     [
                         -117.027712,
                         32.942319
+                    ],
+                    [
+                        -117.002769,
+                        32.923744
+                    ],
+                    [
+                        -117.002601,
+                        32.923279
                     ]
                 ]
             }
@@ -8591,14 +8567,14 @@
                 "type": "EC35",
                 "description": "AIRBUS HELICOPTERS EC-135/635",
                 "operator": "REACH AIR MEDICAL SERVICES LLC",
-                "altitude": 0,
-                "ground_speed": 0.0,
-                "track": 208.12,
+                "altitude": 475,
+                "ground_speed": 78.3,
+                "track": 26.57,
                 "squawk": "1200",
-                "rssi": -17.4,
+                "rssi": -8.9,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-06-09T21:03:03.270954+00:00",
-                "nav_qnh": 0.0,
+                "last_seen": "2025-06-09T21:04:03.610188+00:00",
+                "nav_qnh": 1013.6,
                 "nav_altitude_mcp": 0,
                 "category": "A7"
             },
@@ -8704,6 +8680,14 @@
                     [
                         -121.314987,
                         38.731532
+                    ],
+                    [
+                        -121.317444,
+                        38.728622
+                    ],
+                    [
+                        -121.317261,
+                        38.728948
                     ]
                 ]
             }
@@ -9890,13 +9874,13 @@
                 "type": "AS50",
                 "description": "AEROSPATIALE AS-350 Ecureuil",
                 "operator": "REACH AIR MEDICAL SERVICES LLC",
-                "altitude": 1125,
-                "ground_speed": 118.5,
-                "track": 185.33,
+                "altitude": 875,
+                "ground_speed": 112.4,
+                "track": 184.59,
                 "squawk": "1200",
-                "rssi": -9.0,
+                "rssi": -5.2,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-06-09T21:03:03.271002+00:00",
+                "last_seen": "2025-06-09T21:04:03.610220+00:00",
                 "nav_qnh": 1011.2,
                 "nav_altitude_mcp": 1408,
                 "category": "A7"
@@ -10147,6 +10131,14 @@
                     [
                         -121.447946,
                         38.627518
+                    ],
+                    [
+                        -121.453369,
+                        38.595762
+                    ],
+                    [
+                        -121.45343,
+                        38.595343
                     ]
                 ]
             }
@@ -10157,15 +10149,15 @@
                 "hex": "AE1844",
                 "flight": "FFAB123 ",
                 "type": "H60",
-                "description": "SIKORSKY UH-60 Black Hawk",
-                "operator": "Unknown",
+                "description": "Sikorsky MH-60S Seahawk",
+                "operator": "United States Navy",
                 "altitude": 150,
-                "ground_speed": 75.0,
-                "track": 1.53,
-                "squawk": "N/A",
-                "rssi": -21.0,
-                "api_source": "https://opendata.adsb.fi/api/v2/hex/",
-                "last_seen": "2025-06-09T21:03:03.270843+00:00",
+                "ground_speed": 71.8,
+                "track": 257.12,
+                "squawk": "1200",
+                "rssi": -29.4,
+                "api_source": "https://api.airplanes.live/v2/hex/",
+                "last_seen": "2025-06-09T21:04:03.610250+00:00",
                 "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
                 "category": "A7"
@@ -10508,6 +10500,14 @@
                     [
                         -117.442914,
                         32.629349
+                    ],
+                    [
+                        -117.460162,
+                        32.653381
+                    ],
+                    [
+                        -117.460162,
+                        32.653381
                     ]
                 ]
             }
@@ -10553,13 +10553,13 @@
                 "type": "AS50",
                 "description": "AEROSPATIALE AS-350 Ecureuil",
                 "operator": "ANAHEIM POLICE DEPT",
-                "altitude": 1025,
-                "ground_speed": 65.2,
-                "track": 48.73,
+                "altitude": 1000,
+                "ground_speed": 58.4,
+                "track": 173.12,
                 "squawk": "4301",
-                "rssi": -18.5,
+                "rssi": -10.1,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-06-09T21:03:03.270983+00:00",
+                "last_seen": "2025-06-09T21:04:03.610198+00:00",
                 "nav_qnh": 1013.6,
                 "nav_altitude_mcp": 0,
                 "category": "A7"
@@ -10790,6 +10790,14 @@
                     [
                         -117.936271,
                         33.83432
+                    ],
+                    [
+                        -117.945042,
+                        33.837611
+                    ],
+                    [
+                        -117.945015,
+                        33.837341
                     ]
                 ]
             }
@@ -10803,12 +10811,12 @@
                 "description": "SIKORSKY UH-60 Black Hawk",
                 "operator": "Unknown",
                 "altitude": 350,
-                "ground_speed": 86.5,
-                "track": 240.17,
+                "ground_speed": 67.0,
+                "track": 271.71,
                 "squawk": "4504",
-                "rssi": -13.7,
+                "rssi": -14.3,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-06-09T21:03:03.270993+00:00",
+                "last_seen": "2025-06-09T21:04:03.610209+00:00",
                 "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
                 "category": "A7"
@@ -10931,6 +10939,14 @@
                     [
                         -118.933813,
                         32.939346
+                    ],
+                    [
+                        -118.949871,
+                        32.931984
+                    ],
+                    [
+                        -118.949871,
+                        32.931984
                     ]
                 ]
             }
