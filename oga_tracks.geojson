@@ -571,13 +571,13 @@
                 "type": "AS50",
                 "description": "AEROSPATIALE AS-350 Ecureuil",
                 "operator": "Unknown",
-                "altitude": 1000,
+                "altitude": 925,
                 "ground_speed": 50.0,
-                "track": 340.0,
+                "track": 240.0,
                 "squawk": "1200",
                 "rssi": -49.5,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-06-10T14:10:02.522770+00:00",
+                "last_seen": "2025-06-10T14:11:02.965814+00:00",
                 "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
                 "category": "Unknown"
@@ -944,6 +944,68 @@
                     [
                         -98.378395,
                         26.311604
+                    ],
+                    [
+                        -98.373085,
+                        26.308731
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "hex": "AAFD01",
+                "flight": "Unknown",
+                "type": "DH8C",
+                "description": "DE HAVILLAND DHC-8-300 Dash 8",
+                "operator": "US DEPARTMENT OF HOMELAND SECURITY, US CUSTOMS & BORDER PROTECTI",
+                "altitude": 675,
+                "ground_speed": 145.2,
+                "track": 143.68,
+                "squawk": "N/A",
+                "rssi": -21.8,
+                "api_source": "https://opendata.adsb.fi/api/v2/hex/",
+                "last_seen": "2025-06-10T14:11:02.965121+00:00",
+                "nav_qnh": 0.0,
+                "nav_altitude_mcp": 0,
+                "category": "Unknown"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -95.401099,
+                        30.338745
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "hex": "A0F9B2",
+                "flight": "00000000",
+                "type": "B350",
+                "description": "BEECHCRAFT Super King Air 350",
+                "operator": "DEPARTMENT OF HOMELAND SECURITY",
+                "altitude": 600,
+                "ground_speed": 139.9,
+                "track": 96.57,
+                "squawk": "4403",
+                "rssi": -5.2,
+                "api_source": "https://opendata.adsb.fi/api/v2/hex/",
+                "last_seen": "2025-06-10T14:11:02.965694+00:00",
+                "nav_qnh": 1017.6,
+                "nav_altitude_mcp": 11488,
+                "category": "A2"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -80.360311,
+                        25.497849
                     ]
                 ]
             }
