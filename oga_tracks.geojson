@@ -728,13 +728,13 @@
                 "type": "AS32",
                 "description": "AEROSPATIALE AS-332 Super Puma",
                 "operator": "COUNTY OF LOS ANGELES",
-                "altitude": 0,
-                "ground_speed": 0.0,
-                "track": 0.0,
-                "squawk": "N/A",
-                "rssi": -32.0,
+                "altitude": 5650,
+                "ground_speed": 26.6,
+                "track": 145.71,
+                "squawk": "1206",
+                "rssi": -10.9,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-06-11T17:00:02.544422+00:00",
+                "last_seen": "2025-06-11T17:02:02.761796+00:00",
                 "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
                 "category": "A7"
@@ -1041,6 +1041,14 @@
                     [
                         -118.076649,
                         34.275901
+                    ],
+                    [
+                        -118.073044,
+                        34.278973
+                    ],
+                    [
+                        -118.072815,
+                        34.27874
                     ]
                 ]
             }
@@ -1391,9 +1399,9 @@
                 "ground_speed": 0.7,
                 "track": 0.0,
                 "squawk": "4711",
-                "rssi": -5.2,
+                "rssi": -9.1,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-06-11T17:01:03.318426+00:00",
+                "last_seen": "2025-06-11T17:02:02.761816+00:00",
                 "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
                 "category": "A7"
@@ -1880,6 +1888,43 @@
                     [
                         -117.926759,
                         34.051241
+                    ],
+                    [
+                        -117.964368,
+                        34.062433
+                    ],
+                    [
+                        -117.965892,
+                        34.063171
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "hex": "A385E3",
+                "flight": "Unknown",
+                "type": "AS50",
+                "description": "AEROSPATIALE AS-350 Ecureuil",
+                "operator": "CITY OF ANAHEIM",
+                "altitude": "ground",
+                "ground_speed": 0.2,
+                "track": 0.0,
+                "squawk": "N/A",
+                "rssi": -29.3,
+                "api_source": "https://opendata.adsb.fi/api/v2/hex/",
+                "last_seen": "2025-06-11T17:02:02.761590+00:00",
+                "nav_qnh": 0.0,
+                "nav_altitude_mcp": 0,
+                "category": "Unknown"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -117.98285,
+                        33.872475
                     ]
                 ]
             }
