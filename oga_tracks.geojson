@@ -24,14 +24,6 @@
                 "type": "LineString",
                 "coordinates": [
                     [
-                        -121.580688,
-                        38.922233
-                    ],
-                    [
-                        -121.58026,
-                        38.921677
-                    ],
-                    [
                         -121.559937,
                         38.894162
                     ],
@@ -442,13 +434,13 @@
                 "type": "B412",
                 "description": "BELL 412",
                 "operator": "COUNTY OF LOS ANGELES FIRE DEPARTMENT",
-                "altitude": 0,
+                "altitude": "ground",
                 "ground_speed": 0.0,
                 "track": 0.0,
-                "squawk": "1206",
-                "rssi": -24.8,
+                "squawk": "N/A",
+                "rssi": -27.0,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-06-12T17:17:02.738168+00:00",
+                "last_seen": "2025-06-12T17:18:03.467721+00:00",
                 "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
                 "category": "A7"
@@ -740,14 +732,14 @@
                 "description": "AEROSPATIALE AS-350 Ecureuil",
                 "operator": "ORANGE COUNTY SHERIFF'S DEPARTMENT",
                 "altitude": 800,
-                "ground_speed": 68.7,
-                "track": 167.38,
-                "squawk": "4204",
-                "rssi": -25.6,
+                "ground_speed": 0.0,
+                "track": 0.0,
+                "squawk": "N/A",
+                "rssi": -26.6,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-06-12T17:17:02.738158+00:00",
-                "nav_qnh": 1012.0,
-                "nav_altitude_mcp": 3488,
+                "last_seen": "2025-06-12T17:18:03.467711+00:00",
+                "nav_qnh": 0.0,
+                "nav_altitude_mcp": 0,
                 "category": "A7"
             },
             "geometry": {
@@ -1196,6 +1188,14 @@
                     [
                         -117.675177,
                         33.530553
+                    ],
+                    [
+                        -117.669397,
+                        33.511093
+                    ],
+                    [
+                        -117.674897,
+                        33.529668
                     ]
                 ]
             }
@@ -1549,13 +1549,13 @@
                 "type": "AS50",
                 "description": "AEROSPATIALE AS-350 Ecureuil",
                 "operator": "CITY OF ONTARIO",
-                "altitude": 2025,
-                "ground_speed": 71.0,
-                "track": 269.19,
+                "altitude": 1900,
+                "ground_speed": 88.9,
+                "track": 140.94,
                 "squawk": "4274",
-                "rssi": -16.6,
+                "rssi": -9.3,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-06-12T17:17:02.738187+00:00",
+                "last_seen": "2025-06-12T17:18:03.467740+00:00",
                 "nav_qnh": 1012.0,
                 "nav_altitude_mcp": 8000,
                 "category": "A7"
@@ -2122,6 +2122,14 @@
                     [
                         -117.474861,
                         34.111525
+                    ],
+                    [
+                        -117.468006,
+                        34.09433
+                    ],
+                    [
+                        -117.467726,
+                        34.094009
                     ]
                 ]
             }
@@ -2134,13 +2142,13 @@
                 "type": "H60",
                 "description": "SIKORSKY UH-60 Black Hawk",
                 "operator": "Unknown",
-                "altitude": 2675,
-                "ground_speed": 130.0,
-                "track": 233.13,
+                "altitude": 2650,
+                "ground_speed": 132.4,
+                "track": 231.75,
                 "squawk": "1200",
-                "rssi": -10.9,
+                "rssi": -10.7,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-06-12T17:17:02.738219+00:00",
+                "last_seen": "2025-06-12T17:18:03.467772+00:00",
                 "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
                 "category": "A7"
@@ -2579,6 +2587,47 @@
                     [
                         -117.372437,
                         33.18425
+                    ],
+                    [
+                        -117.406549,
+                        33.162048
+                    ],
+                    [
+                        -117.407428,
+                        33.161499
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "hex": "AD535A",
+                "flight": "N958LA  ",
+                "type": "AS50",
+                "description": "AEROSPATIALE AS-350 Ecureuil",
+                "operator": "COUNTY OF LOS ANGELES",
+                "altitude": 500,
+                "ground_speed": 102.0,
+                "track": 0.56,
+                "squawk": "1206",
+                "rssi": -17.7,
+                "api_source": "https://api.airplanes.live/v2/hex/",
+                "last_seen": "2025-06-12T17:18:03.467529+00:00",
+                "nav_qnh": 0.0,
+                "nav_altitude_mcp": 0,
+                "category": "A7"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -118.143217,
+                        33.836609
+                    ],
+                    [
+                        -118.143196,
+                        33.837053
                     ]
                 ]
             }
