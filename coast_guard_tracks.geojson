@@ -24,14 +24,6 @@
                 "type": "LineString",
                 "coordinates": [
                     [
-                        -120.745299,
-                        37.133696
-                    ],
-                    [
-                        -120.745299,
-                        37.133696
-                    ],
-                    [
                         -120.765868,
                         37.210373
                     ],
@@ -1041,14 +1033,6 @@
                 "type": "LineString",
                 "coordinates": [
                     [
-                        -82.760074,
-                        42.691987
-                    ],
-                    [
-                        -82.760074,
-                        42.691987
-                    ],
-                    [
                         -82.791755,
                         42.662612
                     ],
@@ -1105,14 +1089,6 @@
             "geometry": {
                 "type": "LineString",
                 "coordinates": [
-                    [
-                        -81.663409,
-                        30.021678
-                    ],
-                    [
-                        -81.658575,
-                        30.018931
-                    ],
                     [
                         -81.684211,
                         30.027832
@@ -1310,14 +1286,6 @@
             "geometry": {
                 "type": "LineString",
                 "coordinates": [
-                    [
-                        -122.315807,
-                        37.877833
-                    ],
-                    [
-                        -122.315807,
-                        37.877833
-                    ],
                     [
                         -122.31509,
                         37.876344
@@ -2176,14 +2144,6 @@
                 "type": "LineString",
                 "coordinates": [
                     [
-                        -82.733119,
-                        42.723037
-                    ],
-                    [
-                        -82.733119,
-                        42.723037
-                    ],
-                    [
                         -82.76314,
                         42.699016
                     ],
@@ -2252,10 +2212,6 @@
             "geometry": {
                 "type": "LineString",
                 "coordinates": [
-                    [
-                        -157.118372,
-                        20.962738
-                    ],
                     [
                         -157.113131,
                         20.94604
@@ -2538,10 +2494,6 @@
                 "type": "LineString",
                 "coordinates": [
                     [
-                        -85.462254,
-                        44.817902
-                    ],
-                    [
                         -85.497829,
                         44.795197
                     ],
@@ -2556,71 +2508,6 @@
                     [
                         -85.56983,
                         44.741449
-                    ]
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "hex": "AE26BF",
-                "flight": "C6608   ",
-                "type": "AS65",
-                "description": "Eurocopter MH-65D Dolphin",
-                "operator": "Unknown",
-                "altitude": "ground",
-                "ground_speed": 4.2,
-                "track": 281.25,
-                "squawk": "4422",
-                "rssi": -28.4,
-                "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-06-13T04:35:03.229467+00:00",
-                "nav_qnh": 0.0,
-                "nav_altitude_mcp": 0,
-                "category": "A7"
-            },
-            "geometry": {
-                "type": "LineString",
-                "coordinates": [
-                    [
-                        -124.163361,
-                        41.100366
-                    ],
-                    [
-                        -124.169312,
-                        41.12851
-                    ],
-                    [
-                        -124.164484,
-                        41.083607
-                    ],
-                    [
-                        -124.156182,
-                        41.05372
-                    ],
-                    [
-                        -124.126038,
-                        41.039612
-                    ],
-                    [
-                        -124.115051,
-                        41.022034
-                    ],
-                    [
-                        -124.118164,
-                        40.996811
-                    ],
-                    [
-                        -124.109053,
-                        40.97933
-                    ],
-                    [
-                        -124.111238,
-                        40.975885
-                    ],
-                    [
-                        -124.112869,
-                        40.975685
                     ]
                 ]
             }
@@ -4912,18 +4799,79 @@
         {
             "type": "Feature",
             "properties": {
+                "hex": "AE26BF",
+                "flight": "C6608   ",
+                "type": "AS65",
+                "description": "Eurocopter MH-65D Dolphin",
+                "operator": "Unknown",
+                "altitude": "ground",
+                "ground_speed": 4.2,
+                "track": 281.25,
+                "squawk": "4422",
+                "rssi": -28.4,
+                "api_source": "https://api.airplanes.live/v2/hex/",
+                "last_seen": "2025-06-13T04:35:03.229467+00:00",
+                "nav_qnh": 0.0,
+                "nav_altitude_mcp": 0,
+                "category": "A7"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -124.169312,
+                        41.12851
+                    ],
+                    [
+                        -124.164484,
+                        41.083607
+                    ],
+                    [
+                        -124.156182,
+                        41.05372
+                    ],
+                    [
+                        -124.126038,
+                        41.039612
+                    ],
+                    [
+                        -124.115051,
+                        41.022034
+                    ],
+                    [
+                        -124.118164,
+                        40.996811
+                    ],
+                    [
+                        -124.109053,
+                        40.97933
+                    ],
+                    [
+                        -124.111238,
+                        40.975885
+                    ],
+                    [
+                        -124.112869,
+                        40.975685
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
                 "hex": "AE5DED",
                 "flight": "C2014   ",
                 "type": "C30J",
                 "description": "Lockheed Martin HC-130J Hercules",
                 "operator": "Unknown",
                 "altitude": 13375,
-                "ground_speed": 332.3,
-                "track": 55.54,
+                "ground_speed": 338.7,
+                "track": 55.47,
                 "squawk": "1200",
-                "rssi": -19.6,
+                "rssi": -23.8,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-06-13T06:42:02.290789+00:00",
+                "last_seen": "2025-06-13T06:43:02.583132+00:00",
                 "nav_qnh": 1018.4,
                 "nav_altitude_mcp": 0,
                 "category": "A3"
@@ -5350,6 +5298,14 @@
                     [
                         -155.780725,
                         56.571117
+                    ],
+                    [
+                        -155.64712,
+                        56.621254
+                    ],
+                    [
+                        -155.641508,
+                        56.623306
                     ]
                 ]
             }
