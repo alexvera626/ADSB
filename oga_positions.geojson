@@ -4,18 +4,45 @@
         {
             "type": "Feature",
             "properties": {
+                "hex": "A1511C",
+                "flight": "N184SD  ",
+                "type": "AS50",
+                "description": "AEROSPATIALE AS-350 Ecureuil",
+                "operator": "COUNTY OF ORANGE - AIR SUPPORT",
+                "altitude": "ground",
+                "ground_speed": 0.0,
+                "track": 0.0,
+                "squawk": "4204",
+                "rssi": null,
+                "api_source": "https://opendata.adsb.fi/api/v2/hex/",
+                "last_seen": "2025-06-13T20:06:03.299760+00:00",
+                "nav_qnh": null,
+                "nav_altitude_mcp": null,
+                "category": "A7"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -117.871165,
+                    33.675499
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
                 "hex": "AAFD01",
                 "flight": "Unknown",
                 "type": "DH8C",
                 "description": "DE HAVILLAND DHC-8-300 Dash 8",
                 "operator": "US DEPARTMENT OF HOMELAND SECURITY",
                 "altitude": 23000,
-                "ground_speed": 277.1,
-                "track": 101.03,
+                "ground_speed": 278.3,
+                "track": 101.19,
                 "squawk": "2331",
                 "rssi": null,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-06-13T20:05:02.700452+00:00",
+                "last_seen": "2025-06-13T20:06:03.300226+00:00",
                 "nav_qnh": null,
                 "nav_altitude_mcp": null,
                 "category": "Unknown"
@@ -23,8 +50,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -101.936316,
-                    31.661387
+                    -101.846062,
+                    31.646164
                 ]
             }
         },
@@ -60,16 +87,16 @@
             "properties": {
                 "hex": "AE1843",
                 "flight": "FFAB123 ",
-                "type": "H60",
+                "type": "Unknown",
                 "description": "Unknown",
                 "operator": "Unknown",
-                "altitude": 75,
-                "ground_speed": 15.3,
-                "track": 168.69,
-                "squawk": "1200",
+                "altitude": 125,
+                "ground_speed": 9.2,
+                "track": 12.53,
+                "squawk": "N/A",
                 "rssi": null,
-                "api_source": "https://opendata.adsb.fi/api/v2/hex/",
-                "last_seen": "2025-06-13T20:05:02.700398+00:00",
+                "api_source": "https://api.airplanes.live/v2/hex/",
+                "last_seen": "2025-06-13T20:06:03.300356+00:00",
                 "nav_qnh": null,
                 "nav_altitude_mcp": null,
                 "category": "A7"
@@ -77,8 +104,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -117.396091,
-                    32.623901
+                    -117.396497,
+                    32.624313
                 ]
             }
         }
