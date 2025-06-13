@@ -1235,13 +1235,13 @@
                 "type": "EC35",
                 "description": "AIRBUS HELICOPTERS EC-135/635",
                 "operator": "REACH AIR MEDICAL SERVICES LLC",
-                "altitude": "ground",
-                "ground_speed": 0.0,
-                "track": 0.0,
+                "altitude": 425,
+                "ground_speed": 9.2,
+                "track": 220.6,
                 "squawk": "5217",
-                "rssi": -20.2,
+                "rssi": -3.7,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-06-13T17:05:03.809809+00:00",
+                "last_seen": "2025-06-13T17:06:03.951907+00:00",
                 "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
                 "category": "A7"
@@ -2264,6 +2264,22 @@
                     [
                         -117.165523,
                         32.754204
+                    ],
+                    [
+                        -117.165619,
+                        32.754135
+                    ],
+                    [
+                        -117.165619,
+                        32.754135
+                    ],
+                    [
+                        -117.165658,
+                        32.754108
+                    ],
+                    [
+                        -117.165658,
+                        32.754108
                     ]
                 ]
             }
@@ -3492,13 +3508,13 @@
                 "type": "DH8C",
                 "description": "DE HAVILLAND DHC-8-300 Dash 8",
                 "operator": "US DEPARTMENT OF HOMELAND SECURITY",
-                "altitude": 7575,
-                "ground_speed": 187.5,
-                "track": 172.65,
+                "altitude": 8675,
+                "ground_speed": 191.0,
+                "track": 126.27,
                 "squawk": "7235",
-                "rssi": -9.6,
+                "rssi": -7.7,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-06-13T17:05:03.809646+00:00",
+                "last_seen": "2025-06-13T17:06:03.951718+00:00",
                 "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
                 "category": "A0"
@@ -3573,6 +3589,47 @@
                     [
                         -117.309265,
                         33.760254
+                    ],
+                    [
+                        -117.294731,
+                        33.711688
+                    ],
+                    [
+                        -117.293873,
+                        33.711175
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "hex": "AE1843",
+                "flight": "FFAB123 ",
+                "type": "Unknown",
+                "description": "Unknown",
+                "operator": "Unknown",
+                "altitude": "ground",
+                "ground_speed": 5.8,
+                "track": 0.0,
+                "squawk": "1200",
+                "rssi": -16.3,
+                "api_source": "https://api.airplanes.live/v2/hex/",
+                "last_seen": "2025-06-13T17:06:03.951855+00:00",
+                "nav_qnh": 0.0,
+                "nav_altitude_mcp": 0,
+                "category": "A7"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -117.210584,
+                        32.704134
+                    ],
+                    [
+                        -117.210594,
+                        32.704159
                     ]
                 ]
             }
