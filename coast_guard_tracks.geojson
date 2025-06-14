@@ -1838,17 +1838,17 @@
             "type": "Feature",
             "properties": {
                 "hex": "AE290D",
-                "flight": "C6030   ",
+                "flight": "Unknown",
                 "type": "H60",
                 "description": "Sikorsky MH-60T Jayhawk",
                 "operator": "Unknown",
-                "altitude": 175,
-                "ground_speed": 56.4,
-                "track": 209.74,
+                "altitude": 625,
+                "ground_speed": 98.0,
+                "track": 171.79,
                 "squawk": "N/A",
-                "rssi": -29.1,
-                "api_source": "https://opendata.adsb.fi/api/v2/hex/",
-                "last_seen": "2025-06-14T14:15:03.326913+00:00",
+                "rssi": -25.1,
+                "api_source": "https://api.airplanes.live/v2/hex/",
+                "last_seen": "2025-06-14T14:16:02.808204+00:00",
                 "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
                 "category": "A7"
@@ -2259,6 +2259,14 @@
                     [
                         -76.5905,
                         36.69278
+                    ],
+                    [
+                        -76.604861,
+                        36.664449
+                    ],
+                    [
+                        -76.605738,
+                        36.666963
                     ]
                 ]
             }
@@ -2464,13 +2472,13 @@
                 "type": "H60",
                 "description": "Sikorsky MH-60T Jayhawk",
                 "operator": "Unknown",
-                "altitude": 300,
-                "ground_speed": 119.6,
-                "track": 75.96,
+                "altitude": 325,
+                "ground_speed": 118.6,
+                "track": 72.33,
                 "squawk": "1200",
-                "rssi": -34.2,
+                "rssi": -24.3,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-06-14T14:15:03.327104+00:00",
+                "last_seen": "2025-06-14T14:16:02.808214+00:00",
                 "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
                 "category": "A7"
@@ -2757,6 +2765,14 @@
                     [
                         -82.622417,
                         28.1884
+                    ],
+                    [
+                        -82.585496,
+                        28.195129
+                    ],
+                    [
+                        -82.585496,
+                        28.195129
                     ]
                 ]
             }
@@ -2770,12 +2786,12 @@
                 "description": "CASA HC-144B Ocean Sentry",
                 "operator": "United States Coast Guard",
                 "altitude": 2350,
-                "ground_speed": 157.5,
-                "track": 85.63,
+                "ground_speed": 158.2,
+                "track": 87.1,
                 "squawk": "0346",
                 "rssi": -28.4,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-06-14T14:15:03.327073+00:00",
+                "last_seen": "2025-06-14T14:16:02.808183+00:00",
                 "nav_qnh": 1018.4,
                 "nav_altitude_mcp": 2496,
                 "category": "A2"
@@ -3018,6 +3034,14 @@
                     [
                         -89.219312,
                         30.25793
+                    ],
+                    [
+                        -89.169401,
+                        30.261246
+                    ],
+                    [
+                        -89.169401,
+                        30.261246
                     ]
                 ]
             }
@@ -3031,12 +3055,12 @@
                 "description": "Sikorsky MH-60T Jayhawk",
                 "operator": "Unknown",
                 "altitude": 2850,
-                "ground_speed": 148.0,
-                "track": 63.3,
+                "ground_speed": 147.0,
+                "track": 63.6,
                 "squawk": "1541",
                 "rssi": -49.5,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-06-14T14:15:03.327087+00:00",
+                "last_seen": "2025-06-14T14:16:02.808194+00:00",
                 "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
                 "category": "A7"
@@ -3283,6 +3307,10 @@
                     [
                         -86.857101,
                         31.233215
+                    ],
+                    [
+                        -86.814407,
+                        31.251308
                     ]
                 ]
             }
@@ -3316,6 +3344,39 @@
                     [
                         -85.589709,
                         44.772903
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "hex": "AE57D2",
+                "flight": "C2008   ",
+                "type": "C30J",
+                "description": "Lockheed Martin HC-130J Hercules",
+                "operator": "Unknown",
+                "altitude": 875,
+                "ground_speed": 155.0,
+                "track": 256.95,
+                "squawk": "N/A",
+                "rssi": -31.3,
+                "api_source": "https://api.airplanes.live/v2/hex/",
+                "last_seen": "2025-06-14T14:16:02.808224+00:00",
+                "nav_qnh": 1016.8,
+                "nav_altitude_mcp": 0,
+                "category": "A3"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -75.789928,
+                        36.070862
+                    ],
+                    [
+                        -75.789928,
+                        36.070862
                     ]
                 ]
             }
