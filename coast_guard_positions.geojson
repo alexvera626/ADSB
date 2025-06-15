@@ -9,13 +9,13 @@
                 "type": "AS65",
                 "description": "Eurocopter MH-65D Dolphin",
                 "operator": "Unknown",
-                "altitude": "ground",
-                "ground_speed": 7.8,
-                "track": 0.0,
-                "squawk": "N/A",
+                "altitude": 300,
+                "ground_speed": 51.9,
+                "track": 304.0,
+                "squawk": "1200",
                 "rssi": null,
-                "api_source": "https://opendata.adsb.fi/api/v2/hex/",
-                "last_seen": "2025-06-15T04:23:03.081758+00:00",
+                "api_source": "https://api.airplanes.live/v2/hex/",
+                "last_seen": "2025-06-15T04:24:03.727019+00:00",
                 "nav_qnh": null,
                 "nav_altitude_mcp": null,
                 "category": "A7"
@@ -23,8 +23,62 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -117.668072,
-                    33.144646
+                    -117.673187,
+                    33.148453
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "hex": "AE26B2",
+                "flight": "C6592   ",
+                "type": "AS65",
+                "description": "Eurocopter MH-65D Dolphin",
+                "operator": "Unknown",
+                "altitude": 200,
+                "ground_speed": 137.0,
+                "track": 58.1,
+                "squawk": "1277",
+                "rssi": null,
+                "api_source": "https://api.airplanes.live/v2/hex/",
+                "last_seen": "2025-06-15T04:24:03.727030+00:00",
+                "nav_qnh": null,
+                "nav_altitude_mcp": null,
+                "category": "Unknown"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -123.145752,
+                    48.176819
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "hex": "AE290E",
+                "flight": "Unknown",
+                "type": "H60",
+                "description": "Sikorsky MH-60T Jayhawk",
+                "operator": "Unknown",
+                "altitude": 600,
+                "ground_speed": 0.0,
+                "track": 0.0,
+                "squawk": "N/A",
+                "rssi": null,
+                "api_source": "https://api.airplanes.live/v2/hex/",
+                "last_seen": "2025-06-15T04:24:03.727048+00:00",
+                "nav_qnh": null,
+                "nav_altitude_mcp": null,
+                "category": "Unknown"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -71.123054,
+                    41.763428
                 ]
             }
         }
