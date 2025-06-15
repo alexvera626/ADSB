@@ -226,13 +226,13 @@
                 "type": "AS32",
                 "description": "AEROSPATIALE AS-332 Super Puma",
                 "operator": "COUNTY OF LOS ANGELES",
-                "altitude": "ground",
-                "ground_speed": 0.0,
-                "track": 0.0,
-                "squawk": "N/A",
-                "rssi": -28.6,
+                "altitude": 600,
+                "ground_speed": 35.6,
+                "track": 51.84,
+                "squawk": "1206",
+                "rssi": -6.8,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-06-15T15:07:02.696146+00:00",
+                "last_seen": "2025-06-15T15:36:03.406559+00:00",
                 "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
                 "category": "A7"
@@ -331,6 +331,47 @@
                     [
                         -118.168357,
                         34.050865
+                    ],
+                    [
+                        -118.167824,
+                        34.051117
+                    ],
+                    [
+                        -118.167656,
+                        34.051208
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "hex": "AE4F8A",
+                "flight": "RS49    ",
+                "type": "H60",
+                "description": "Sikorsky MH-60R Seahawk",
+                "operator": "United States Navy",
+                "altitude": "ground",
+                "ground_speed": 0.0,
+                "track": 284.06,
+                "squawk": "4731",
+                "rssi": -5.4,
+                "api_source": "https://api.airplanes.live/v2/hex/",
+                "last_seen": "2025-06-15T15:36:03.406549+00:00",
+                "nav_qnh": 0.0,
+                "nav_altitude_mcp": 0,
+                "category": "A7"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -117.200173,
+                        32.735068
+                    ],
+                    [
+                        -117.200173,
+                        32.735068
                     ]
                 ]
             }
