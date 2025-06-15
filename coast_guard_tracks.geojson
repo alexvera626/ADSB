@@ -10,12 +10,12 @@
                 "description": "Eurocopter MH-65D Dolphin",
                 "operator": "Unknown",
                 "altitude": 75,
-                "ground_speed": 9.2,
-                "track": 347.47,
-                "squawk": "N/A",
-                "rssi": -26.4,
+                "ground_speed": 7.3,
+                "track": 344.05,
+                "squawk": "1200",
+                "rssi": -25.4,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-06-15T03:56:03.241935+00:00",
+                "last_seen": "2025-06-15T03:57:03.016303+00:00",
                 "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
                 "category": "A7"
@@ -1258,6 +1258,14 @@
                     [
                         -117.651654,
                         33.088715
+                    ],
+                    [
+                        -117.652308,
+                        33.091007
+                    ],
+                    [
+                        -117.652196,
+                        33.090634
                     ]
                 ]
             }
@@ -4738,6 +4746,35 @@
                     [
                         -123.418442,
                         48.141949
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "hex": "AE290E",
+                "flight": "C6031   ",
+                "type": "H60",
+                "description": "Sikorsky MH-60T Jayhawk",
+                "operator": "Unknown",
+                "altitude": 350,
+                "ground_speed": 126.7,
+                "track": 11.84,
+                "squawk": "1277",
+                "rssi": -17.1,
+                "api_source": "https://opendata.adsb.fi/api/v2/hex/",
+                "last_seen": "2025-06-15T03:57:03.016227+00:00",
+                "nav_qnh": 0.0,
+                "nav_altitude_mcp": 0,
+                "category": "A7"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -71.360696,
+                        41.654388
                     ]
                 ]
             }
