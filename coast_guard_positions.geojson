@@ -31,18 +31,18 @@
         {
             "type": "Feature",
             "properties": {
-                "hex": "AE5DEE",
-                "flight": "C2015   ",
+                "hex": "AE57D3",
+                "flight": "C2009   ",
                 "type": "C30J",
                 "description": "Lockheed Martin HC-130J Hercules",
                 "operator": "Unknown",
-                "altitude": 25000,
-                "ground_speed": 339.4,
-                "track": 134.52,
-                "squawk": "1420",
+                "altitude": "ground",
+                "ground_speed": 0.0,
+                "track": 0.0,
+                "squawk": "5226",
                 "rssi": null,
-                "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-06-16T05:02:02.731782+00:00",
+                "api_source": "https://opendata.adsb.fi/api/v2/hex/",
+                "last_seen": "2025-06-16T05:03:03.472849+00:00",
                 "nav_qnh": null,
                 "nav_altitude_mcp": null,
                 "category": "A3"
@@ -50,8 +50,35 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -100.915089,
-                    34.796122
+                    -118.157301,
+                    33.816709
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "hex": "AE5DEE",
+                "flight": "C2015   ",
+                "type": "C30J",
+                "description": "Lockheed Martin HC-130J Hercules",
+                "operator": "Unknown",
+                "altitude": 25000,
+                "ground_speed": 337.3,
+                "track": 134.64,
+                "squawk": "1420",
+                "rssi": null,
+                "api_source": "https://api.airplanes.live/v2/hex/",
+                "last_seen": "2025-06-16T05:03:03.473382+00:00",
+                "nav_qnh": null,
+                "nav_altitude_mcp": null,
+                "category": "A3"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -100.832744,
+                    34.728882
                 ]
             }
         }
