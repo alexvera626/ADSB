@@ -58,6 +58,33 @@
         {
             "type": "Feature",
             "properties": {
+                "hex": "AE2699",
+                "flight": "C6567   ",
+                "type": "AS65",
+                "description": "Eurocopter MH-65D Dolphin",
+                "operator": "Unknown",
+                "altitude": 150,
+                "ground_speed": 41.8,
+                "track": 281.04,
+                "squawk": "0351",
+                "rssi": null,
+                "api_source": "https://api.airplanes.live/v2/hex/",
+                "last_seen": "2025-06-18T19:23:03.554307+00:00",
+                "nav_qnh": null,
+                "nav_altitude_mcp": null,
+                "category": "A7"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.39283,
+                    37.632084
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
                 "hex": "AE2708",
                 "flight": "C2310   ",
                 "type": "CN35",
@@ -117,13 +144,13 @@
                 "type": "H60",
                 "description": "Sikorsky MH-60T Jayhawk",
                 "operator": "Unknown",
-                "altitude": 274,
-                "ground_speed": 7.0,
-                "track": 48.1,
-                "squawk": "0146",
+                "altitude": "ground",
+                "ground_speed": 6.2,
+                "track": 0.0,
+                "squawk": "N/A",
                 "rssi": null,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-06-18T19:20:03.312708+00:00",
+                "last_seen": "2025-06-18T19:23:03.554318+00:00",
                 "nav_qnh": null,
                 "nav_altitude_mcp": null,
                 "category": "A7"
@@ -131,8 +158,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -82.695229,
-                    27.910332
+                    -82.693616,
+                    27.912268
                 ]
             }
         },
@@ -144,13 +171,13 @@
                 "type": "C27J",
                 "description": "Alenia HC-27J Spartan",
                 "operator": "Unknown",
-                "altitude": 2725,
-                "ground_speed": 217.7,
-                "track": 259.41,
+                "altitude": 1475,
+                "ground_speed": 201.1,
+                "track": 268.01,
                 "squawk": "1200",
                 "rssi": null,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-06-18T19:22:03.369855+00:00",
+                "last_seen": "2025-06-18T19:23:03.554328+00:00",
                 "nav_qnh": null,
                 "nav_altitude_mcp": null,
                 "category": "A2"
@@ -158,35 +185,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -121.165161,
-                    38.809856
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "hex": "AE4DFF",
-                "flight": "C6047   ",
-                "type": "H60",
-                "description": "Sikorsky MH-60T Jayhawk",
-                "operator": "Unknown",
-                "altitude": 1425,
-                "ground_speed": 51.6,
-                "track": 121.53,
-                "squawk": "1200",
-                "rssi": null,
-                "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-06-18T19:22:03.369865+00:00",
-                "nav_qnh": null,
-                "nav_altitude_mcp": null,
-                "category": "A7"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -85.423792,
-                    44.722735
+                    -121.237244,
+                    38.804782
                 ]
             }
         },
@@ -226,12 +226,12 @@
                 "description": "Lockheed Martin HC-130J Hercules",
                 "operator": "Unknown",
                 "altitude": "ground",
-                "ground_speed": 2.8,
+                "ground_speed": 7.2,
                 "track": 0.0,
                 "squawk": "3746",
                 "rssi": null,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-06-18T19:22:03.369875+00:00",
+                "last_seen": "2025-06-18T19:23:03.554351+00:00",
                 "nav_qnh": null,
                 "nav_altitude_mcp": null,
                 "category": "A3"
@@ -239,8 +239,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -121.397812,
-                    38.677531
+                    -121.397842,
+                    38.679172
                 ]
             }
         },
@@ -258,7 +258,7 @@
                 "squawk": "1200",
                 "rssi": null,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-06-18T19:22:03.369886+00:00",
+                "last_seen": "2025-06-18T19:23:03.554361+00:00",
                 "nav_qnh": null,
                 "nav_altitude_mcp": null,
                 "category": "A3"
@@ -280,12 +280,12 @@
                 "description": "Lockheed Martin HC-130J Hercules",
                 "operator": "Unknown",
                 "altitude": 20000,
-                "ground_speed": 300.1,
-                "track": 242.41,
+                "ground_speed": 300.6,
+                "track": 242.24,
                 "squawk": "1464",
                 "rssi": null,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-06-18T19:22:03.369902+00:00",
+                "last_seen": "2025-06-18T19:23:03.554377+00:00",
                 "nav_qnh": null,
                 "nav_altitude_mcp": null,
                 "category": "A3"
@@ -293,8 +293,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -85.434596,
-                    37.554474
+                    -85.527729,
+                    37.515657
                 ]
             }
         }
