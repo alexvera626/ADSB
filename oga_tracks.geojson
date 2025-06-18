@@ -3743,10 +3743,10 @@
                 "altitude": 22000,
                 "ground_speed": 0.0,
                 "track": 0.0,
-                "squawk": "0130",
-                "rssi": -24.9,
+                "squawk": "N/A",
+                "rssi": -24.5,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-06-18T18:52:03.047076+00:00",
+                "last_seen": "2025-06-18T18:53:03.230498+00:00",
                 "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
                 "category": "Unknown"
@@ -5079,13 +5079,13 @@
                 "type": "AS50",
                 "description": "AEROSPATIALE AS-350 Ecureuil",
                 "operator": "CITY OF ANAHEIM",
-                "altitude": 4600,
-                "ground_speed": 80.6,
-                "track": 258.55,
+                "altitude": 4700,
+                "ground_speed": 77.1,
+                "track": 272.97,
                 "squawk": "4301",
-                "rssi": -3.1,
+                "rssi": -11.4,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-06-18T18:52:03.047064+00:00",
+                "last_seen": "2025-06-18T18:53:03.230488+00:00",
                 "nav_qnh": 1010.4,
                 "nav_altitude_mcp": 4000,
                 "category": "A7"
@@ -5580,6 +5580,14 @@
                     [
                         -117.994938,
                         34.073864
+                    ],
+                    [
+                        -118.021246,
+                        34.072632
+                    ],
+                    [
+                        -118.021246,
+                        34.072632
                     ]
                 ]
             }
@@ -5954,6 +5962,39 @@
                     [
                         -118.141193,
                         33.81643
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "hex": "A32EAF",
+                "flight": "FIRE4   ",
+                "type": "A139",
+                "description": "AGUSTA AW-139",
+                "operator": "CITY OF LOS ANGELES",
+                "altitude": 1275,
+                "ground_speed": 92.7,
+                "track": 304.89,
+                "squawk": "1200",
+                "rssi": -8.8,
+                "api_source": "https://api.airplanes.live/v2/hex/",
+                "last_seen": "2025-06-18T18:53:03.230477+00:00",
+                "nav_qnh": 1010.4,
+                "nav_altitude_mcp": 800,
+                "category": "A7"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -118.49775,
+                        34.211517
+                    ],
+                    [
+                        -118.497975,
+                        34.211609
                     ]
                 ]
             }
