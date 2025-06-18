@@ -8328,13 +8328,13 @@
                 "type": "H60",
                 "description": "Sikorsky MH-60T Jayhawk",
                 "operator": "Unknown",
-                "altitude": 500,
-                "ground_speed": 83.0,
-                "track": 220.6,
+                "altitude": "ground",
+                "ground_speed": 0.6,
+                "track": 180.0,
                 "squawk": "1200",
-                "rssi": -19.2,
+                "rssi": -10.7,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-06-18T05:06:02.667115+00:00",
+                "last_seen": "2025-06-18T05:07:02.387443+00:00",
                 "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
                 "category": "A7"
@@ -9461,6 +9461,14 @@
                     [
                         -117.208081,
                         32.72049
+                    ],
+                    [
+                        -117.213191,
+                        32.709604
+                    ],
+                    [
+                        -117.21319,
+                        32.709606
                     ]
                 ]
             }
@@ -11593,6 +11601,35 @@
                     [
                         -158.165072,
                         21.363876
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "hex": "AE2680",
+                "flight": "C6538   ",
+                "type": "AS65",
+                "description": "Eurocopter MH-65D Dolphin",
+                "operator": "Unknown",
+                "altitude": "ground",
+                "ground_speed": 0.0,
+                "track": 56.25,
+                "squawk": "N/A",
+                "rssi": -18.5,
+                "api_source": "https://api.airplanes.live/v2/hex/",
+                "last_seen": "2025-06-18T05:07:02.387416+00:00",
+                "nav_qnh": 0.0,
+                "nav_altitude_mcp": 0,
+                "category": "A7"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -158.072891,
+                        21.30242
                     ]
                 ]
             }
