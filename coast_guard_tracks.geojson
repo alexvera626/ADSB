@@ -4,6 +4,35 @@
         {
             "type": "Feature",
             "properties": {
+                "hex": "AE2676",
+                "flight": "Unknown",
+                "type": "AS65",
+                "description": "Eurocopter MH-65D Dolphin",
+                "operator": "Unknown",
+                "altitude": "ground",
+                "ground_speed": 3.2,
+                "track": 0.0,
+                "squawk": "N/A",
+                "rssi": -27.4,
+                "api_source": "https://opendata.adsb.fi/api/v2/hex/",
+                "last_seen": "2025-06-19T03:39:02.285801+00:00",
+                "nav_qnh": 0.0,
+                "nav_altitude_mcp": 0,
+                "category": "A7"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -81.889262,
+                        30.220757
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
                 "hex": "AE2699",
                 "flight": "C6567   ",
                 "type": "AS65",
@@ -23,10 +52,6 @@
             "geometry": {
                 "type": "LineString",
                 "coordinates": [
-                    [
-                        -122.158326,
-                        37.190369
-                    ],
                     [
                         -122.17539,
                         37.216141
@@ -200,14 +225,6 @@
             "geometry": {
                 "type": "LineString",
                 "coordinates": [
-                    [
-                        -122.095757,
-                        36.746292
-                    ],
-                    [
-                        -122.095757,
-                        36.746292
-                    ],
                     [
                         -122.06319,
                         36.746195
@@ -735,35 +752,6 @@
                     [
                         -121.395104,
                         38.678295
-                    ]
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "hex": "AE2676",
-                "flight": "Unknown",
-                "type": "AS65",
-                "description": "Eurocopter MH-65D Dolphin",
-                "operator": "Unknown",
-                "altitude": "ground",
-                "ground_speed": 3.2,
-                "track": 0.0,
-                "squawk": "N/A",
-                "rssi": -27.4,
-                "api_source": "https://opendata.adsb.fi/api/v2/hex/",
-                "last_seen": "2025-06-19T03:39:02.285801+00:00",
-                "nav_qnh": 0.0,
-                "nav_altitude_mcp": 0,
-                "category": "A7"
-            },
-            "geometry": {
-                "type": "LineString",
-                "coordinates": [
-                    [
-                        -81.889262,
-                        30.220757
                     ]
                 ]
             }
