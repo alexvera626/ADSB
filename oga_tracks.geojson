@@ -24,22 +24,6 @@
                 "type": "LineString",
                 "coordinates": [
                     [
-                        -117.773108,
-                        33.523499
-                    ],
-                    [
-                        -117.775007,
-                        33.524966
-                    ],
-                    [
-                        -117.781952,
-                        33.529587
-                    ],
-                    [
-                        -117.80468,
-                        33.543727
-                    ],
-                    [
                         -117.820634,
                         33.553665
                     ],
@@ -280,22 +264,6 @@
             "geometry": {
                 "type": "LineString",
                 "coordinates": [
-                    [
-                        -117.531738,
-                        34.113602
-                    ],
-                    [
-                        -117.53185,
-                        34.113739
-                    ],
-                    [
-                        -117.553883,
-                        34.123256
-                    ],
-                    [
-                        -117.554169,
-                        34.123349
-                    ],
                     [
                         -117.579746,
                         34.125677
@@ -1135,13 +1103,13 @@
                 "type": "AS50",
                 "description": "AEROSPATIALE AS-350 Ecureuil",
                 "operator": "COUNTY OF ORANGE - AIR SUPPORT",
-                "altitude": 0,
-                "ground_speed": 67.6,
-                "track": 119.22,
-                "squawk": "N/A",
-                "rssi": -18.9,
-                "api_source": "https://opendata.adsb.fi/api/v2/hex/",
-                "last_seen": "2025-06-20T02:26:02.729300+00:00",
+                "altitude": 400,
+                "ground_speed": 62.0,
+                "track": 311.1,
+                "squawk": "4204",
+                "rssi": -49.5,
+                "api_source": "https://api.airplanes.live/v2/hex/",
+                "last_seen": "2025-06-20T02:27:03.572697+00:00",
                 "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
                 "category": "A7"
@@ -2004,6 +1972,14 @@
                     [
                         -117.660881,
                         33.459702
+                    ],
+                    [
+                        -117.649785,
+                        33.442848
+                    ],
+                    [
+                        -117.648468,
+                        33.441833
                     ]
                 ]
             }
@@ -3383,13 +3359,13 @@
                 "type": "EC35",
                 "description": "AIRBUS HELICOPTERS EC-135/635",
                 "operator": "REACH AIR MEDICAL SERVICES LLC",
-                "altitude": 4700,
-                "ground_speed": 106.8,
-                "track": 218.16,
-                "squawk": "0210",
-                "rssi": -18.8,
+                "altitude": 5425,
+                "ground_speed": 114.7,
+                "track": 186.51,
+                "squawk": "1200",
+                "rssi": -17.3,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-06-20T02:26:02.729489+00:00",
+                "last_seen": "2025-06-20T02:27:03.572786+00:00",
                 "nav_qnh": 1002.4,
                 "nav_altitude_mcp": 7488,
                 "category": "A7"
@@ -3556,6 +3532,22 @@
                     [
                         -116.500929,
                         33.724411
+                    ],
+                    [
+                        -116.511497,
+                        33.695301
+                    ],
+                    [
+                        -116.511497,
+                        33.695301
+                    ],
+                    [
+                        -116.511523,
+                        33.695023
+                    ],
+                    [
+                        -116.511523,
+                        33.695023
                     ]
                 ]
             }
@@ -3568,13 +3560,13 @@
                 "type": "AS32",
                 "description": "AEROSPATIALE AS-332 Super Puma",
                 "operator": "COUNTY OF LOS ANGELES",
-                "altitude": 5250,
-                "ground_speed": 124.7,
-                "track": 200.18,
+                "altitude": 4525,
+                "ground_speed": 147.4,
+                "track": 198.19,
                 "squawk": "1206",
-                "rssi": -9.8,
+                "rssi": -17.3,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-06-20T02:26:02.729439+00:00",
+                "last_seen": "2025-06-20T02:27:03.572687+00:00",
                 "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
                 "category": "A7"
@@ -3593,6 +3585,43 @@
                     [
                         -118.092556,
                         34.240847
+                    ],
+                    [
+                        -118.10709,
+                        34.205467
+                    ],
+                    [
+                        -118.107343,
+                        34.204834
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "hex": "A1F894",
+                "flight": "Unknown",
+                "type": "AS50",
+                "description": "AEROSPATIALE AS-350 Ecureuil",
+                "operator": "ANAHEIM POLICE DEPT",
+                "altitude": "ground",
+                "ground_speed": 5.8,
+                "track": 0.0,
+                "squawk": "N/A",
+                "rssi": -16.8,
+                "api_source": "https://opendata.adsb.fi/api/v2/hex/",
+                "last_seen": "2025-06-20T02:27:03.572492+00:00",
+                "nav_qnh": 0.0,
+                "nav_altitude_mcp": 0,
+                "category": "Unknown"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -117.983136,
+                        33.872316
                     ]
                 ]
             }
