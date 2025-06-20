@@ -747,17 +747,17 @@
             "type": "Feature",
             "properties": {
                 "hex": "AE277C",
-                "flight": "GH72    ",
+                "flight": "Unknown",
                 "type": "Unknown",
                 "description": "Unknown",
                 "operator": "Unknown",
-                "altitude": 675,
+                "altitude": 300,
                 "ground_speed": 0.0,
                 "track": 0.0,
                 "squawk": "7102",
-                "rssi": -22.1,
+                "rssi": -26.7,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-06-20T16:14:03.639250+00:00",
+                "last_seen": "2025-06-20T16:15:02.704421+00:00",
                 "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
                 "category": "Unknown"
@@ -792,6 +792,10 @@
                     [
                         -117.632895,
                         32.744796
+                    ],
+                    [
+                        -117.293436,
+                        32.760793
                     ]
                 ]
             }
@@ -804,13 +808,13 @@
                 "type": "AS32",
                 "description": "AEROSPATIALE AS-332 Super Puma",
                 "operator": "COUNTY OF LOS ANGELES",
-                "altitude": 1600,
-                "ground_speed": 128.9,
-                "track": 99.83,
+                "altitude": 1675,
+                "ground_speed": 127.3,
+                "track": 103.16,
                 "squawk": "1206",
-                "rssi": -19.5,
+                "rssi": -19.9,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-06-20T16:14:03.639217+00:00",
+                "last_seen": "2025-06-20T16:15:02.704401+00:00",
                 "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
                 "category": "A7"
@@ -969,6 +973,14 @@
                     [
                         -118.007626,
                         34.156998
+                    ],
+                    [
+                        -117.968102,
+                        34.150861
+                    ],
+                    [
+                        -117.966785,
+                        34.150582
                     ]
                 ]
             }
@@ -1102,13 +1114,13 @@
                 "type": "AS50",
                 "description": "AEROSPATIALE AS-350 Ecureuil",
                 "operator": "ANAHEIM POLICE DEPT",
-                "altitude": 1000,
-                "ground_speed": 75.0,
-                "track": 90.76,
+                "altitude": 1100,
+                "ground_speed": 71.2,
+                "track": 65.96,
                 "squawk": "4301",
-                "rssi": -16.8,
+                "rssi": -12.5,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-06-20T16:14:03.639178+00:00",
+                "last_seen": "2025-06-20T16:15:02.704374+00:00",
                 "nav_qnh": 1013.6,
                 "nav_altitude_mcp": 0,
                 "category": "A7"
@@ -1223,6 +1235,43 @@
                     [
                         -117.800274,
                         33.861213
+                    ],
+                    [
+                        -117.777922,
+                        33.863297
+                    ],
+                    [
+                        -117.777443,
+                        33.863448
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "hex": "A16926",
+                "flight": "N190LA  ",
+                "type": "H60",
+                "description": "SIKORSKY UH-60 Black Hawk",
+                "operator": "COUNTY OF LOS ANGELES FIRE DEPARTMENT",
+                "altitude": "ground",
+                "ground_speed": 0.0,
+                "track": 0.0,
+                "squawk": "1206",
+                "rssi": -19.6,
+                "api_source": "https://api.airplanes.live/v2/hex/",
+                "last_seen": "2025-06-20T16:15:02.704385+00:00",
+                "nav_qnh": 0.0,
+                "nav_altitude_mcp": 0,
+                "category": "A7"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -118.408627,
+                        34.258209
                     ]
                 ]
             }
