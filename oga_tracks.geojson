@@ -755,9 +755,9 @@
                 "ground_speed": 0.0,
                 "track": 0.0,
                 "squawk": "7102",
-                "rssi": -27.3,
+                "rssi": -26.8,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-06-20T16:45:03.041246+00:00",
+                "last_seen": "2025-06-20T16:46:02.934421+00:00",
                 "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
                 "category": "Unknown"
@@ -852,6 +852,10 @@
                     [
                         -117.604896,
                         32.740559
+                    ],
+                    [
+                        -117.593841,
+                        32.733977
                     ]
                 ]
             }
@@ -1258,13 +1262,13 @@
                 "type": "AS50",
                 "description": "AEROSPATIALE AS-350 Ecureuil",
                 "operator": "ANAHEIM POLICE DEPT",
-                "altitude": 1525,
-                "ground_speed": 67.0,
-                "track": 178.29,
+                "altitude": 1375,
+                "ground_speed": 59.8,
+                "track": 159.44,
                 "squawk": "4301",
-                "rssi": -9.9,
+                "rssi": -22.0,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-06-20T16:45:03.041206+00:00",
+                "last_seen": "2025-06-20T16:46:02.934411+00:00",
                 "nav_qnh": 1013.6,
                 "nav_altitude_mcp": 0,
                 "category": "A7"
@@ -1627,6 +1631,14 @@
                     [
                         -118.019829,
                         33.830535
+                    ],
+                    [
+                        -118.023545,
+                        33.813263
+                    ],
+                    [
+                        -118.023545,
+                        33.813263
                     ]
                 ]
             }
@@ -1704,6 +1716,35 @@
                     [
                         -118.408627,
                         34.258152
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "hex": "AE4D5A",
+                "flight": "BULET45 ",
+                "type": "H60",
+                "description": "SIKORSKY UH-60 Black Hawk",
+                "operator": "Unknown",
+                "altitude": "ground",
+                "ground_speed": 7.2,
+                "track": 0.0,
+                "squawk": "N/A",
+                "rssi": -30.6,
+                "api_source": "https://opendata.adsb.fi/api/v2/hex/",
+                "last_seen": "2025-06-20T16:46:02.934240+00:00",
+                "nav_qnh": 0.0,
+                "nav_altitude_mcp": 0,
+                "category": "A7"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -117.792732,
+                        32.694683
                     ]
                 ]
             }
