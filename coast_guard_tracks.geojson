@@ -9,13 +9,13 @@
                 "type": "H60",
                 "description": "Sikorsky MH-60T Jayhawk",
                 "operator": "Unknown",
-                "altitude": 1100,
-                "ground_speed": 68.6,
-                "track": 135.59,
+                "altitude": 1225,
+                "ground_speed": 71.7,
+                "track": 30.14,
                 "squawk": "1200",
-                "rssi": -4.3,
+                "rssi": -4.8,
                 "api_source": "https://opendata.adsb.fi/api/v2/hex/",
-                "last_seen": "2025-06-20T12:57:03.328988+00:00",
+                "last_seen": "2025-06-20T12:58:02.820749+00:00",
                 "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
                 "category": "A7"
@@ -142,6 +142,10 @@
                     [
                         -85.581665,
                         44.734268
+                    ],
+                    [
+                        -85.553217,
+                        44.73428
                     ]
                 ]
             }
@@ -155,12 +159,12 @@
                 "description": "Eurocopter MH-65D Dolphin",
                 "operator": "Unknown",
                 "altitude": 175,
-                "ground_speed": 92.7,
-                "track": 147.34,
+                "ground_speed": 92.4,
+                "track": 146.48,
                 "squawk": "1277",
-                "rssi": -26.3,
+                "rssi": -32.0,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-06-20T12:57:03.329027+00:00",
+                "last_seen": "2025-06-20T12:58:02.820822+00:00",
                 "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
                 "category": "A7"
@@ -415,6 +419,14 @@
                     [
                         -75.042816,
                         38.270782
+                    ],
+                    [
+                        -75.031712,
+                        38.257645
+                    ],
+                    [
+                        -75.031712,
+                        38.257645
                     ]
                 ]
             }
@@ -427,13 +439,13 @@
                 "type": "H60",
                 "description": "Sikorsky MH-60T Jayhawk",
                 "operator": "Unknown",
-                "altitude": 1475,
-                "ground_speed": 73.0,
-                "track": 0.0,
-                "squawk": "1200",
-                "rssi": -30.0,
+                "altitude": 0,
+                "ground_speed": 143.2,
+                "track": 28.35,
+                "squawk": "N/A",
+                "rssi": -29.6,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-06-20T12:57:03.329038+00:00",
+                "last_seen": "2025-06-20T12:58:02.820845+00:00",
                 "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
                 "category": "A7"
@@ -544,6 +556,39 @@
                     [
                         -70.520346,
                         41.644375
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "hex": "AE2709",
+                "flight": "C2311   ",
+                "type": "CN35",
+                "description": "CASA HC-144B Ocean Sentry",
+                "operator": "United States Coast Guard",
+                "altitude": 450,
+                "ground_speed": 129.3,
+                "track": 152.84,
+                "squawk": "4424",
+                "rssi": -11.2,
+                "api_source": "https://api.airplanes.live/v2/hex/",
+                "last_seen": "2025-06-20T12:58:02.820834+00:00",
+                "nav_qnh": 1019.2,
+                "nav_altitude_mcp": 1504,
+                "category": "Unknown"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -80.263781,
+                        25.895416
+                    ],
+                    [
+                        -80.263781,
+                        25.895416
                     ]
                 ]
             }
