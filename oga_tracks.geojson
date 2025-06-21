@@ -24,14 +24,6 @@
                 "type": "LineString",
                 "coordinates": [
                     [
-                        -117.581406,
-                        34.031548
-                    ],
-                    [
-                        -117.581463,
-                        34.03206
-                    ],
-                    [
                         -117.609787,
                         34.036715
                     ],
@@ -961,15 +953,15 @@
                 "type": "EC35",
                 "description": "AIRBUS HELICOPTERS EC-135/635",
                 "operator": "REACH AIR MEDICAL SERVICES LLC",
-                "altitude": 4050,
-                "ground_speed": 106.5,
-                "track": 264.61,
+                "altitude": 3825,
+                "ground_speed": 105.5,
+                "track": 264.56,
                 "squawk": "5246",
-                "rssi": -14.2,
+                "rssi": -12.6,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-06-21T13:35:03.209539+00:00",
-                "nav_qnh": 1012.0,
-                "nav_altitude_mcp": 3808,
+                "last_seen": "2025-06-21T13:36:02.172566+00:00",
+                "nav_qnh": 0.0,
+                "nav_altitude_mcp": 0,
                 "category": "A7"
             },
             "geometry": {
@@ -1598,6 +1590,51 @@
                     [
                         -116.905627,
                         32.742783
+                    ],
+                    [
+                        -116.939429,
+                        32.740142
+                    ],
+                    [
+                        -116.939429,
+                        32.740142
+                    ],
+                    [
+                        -116.94007,
+                        32.740082
+                    ],
+                    [
+                        -116.94007,
+                        32.740082
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "hex": "A1511C",
+                "flight": "N184SD  ",
+                "type": "AS50",
+                "description": "AEROSPATIALE AS-350 Ecureuil",
+                "operator": "COUNTY OF ORANGE - AIR SUPPORT",
+                "altitude": "ground",
+                "ground_speed": 0.0,
+                "track": 0.0,
+                "squawk": "4204",
+                "rssi": -22.7,
+                "api_source": "https://opendata.adsb.fi/api/v2/hex/",
+                "last_seen": "2025-06-21T13:36:02.172399+00:00",
+                "nav_qnh": 0.0,
+                "nav_altitude_mcp": 0,
+                "category": "A7"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -117.871699,
+                        33.675202
                     ]
                 ]
             }
