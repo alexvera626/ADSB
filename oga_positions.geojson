@@ -64,12 +64,12 @@
                 "description": "AIRBUS HELICOPTERS EC-135/635",
                 "operator": "REACH AIR MEDICAL SERVICES LLC",
                 "altitude": "ground",
-                "ground_speed": 0.1,
+                "ground_speed": 0.0,
                 "track": 0.0,
                 "squawk": "5246",
                 "rssi": null,
                 "api_source": "https://opendata.adsb.fi/api/v2/hex/",
-                "last_seen": "2025-06-21T14:21:03.455977+00:00",
+                "last_seen": "2025-06-21T14:42:03.195456+00:00",
                 "nav_qnh": null,
                 "nav_altitude_mcp": null,
                 "category": "A7"
@@ -78,7 +78,34 @@
                 "type": "Point",
                 "coordinates": [
                     -117.142575,
-                    32.81472
+                    32.814732
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "hex": "AD395A",
+                "flight": "N951LB  ",
+                "type": "AS32",
+                "description": "AEROSPATIALE AS-332 Super Puma",
+                "operator": "COUNTY OF LOS ANGELES",
+                "altitude": 700,
+                "ground_speed": 97.9,
+                "track": 348.8,
+                "squawk": "1206",
+                "rssi": null,
+                "api_source": "https://api.airplanes.live/v2/hex/",
+                "last_seen": "2025-06-21T14:42:03.195571+00:00",
+                "nav_qnh": null,
+                "nav_altitude_mcp": null,
+                "category": "A7"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -118.150406,
+                    33.822994
                 ]
             }
         }
