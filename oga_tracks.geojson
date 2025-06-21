@@ -24,18 +24,6 @@
                 "type": "LineString",
                 "coordinates": [
                     [
-                        -117.983201,
-                        33.87228
-                    ],
-                    [
-                        -117.983185,
-                        33.87228
-                    ],
-                    [
-                        -117.983201,
-                        33.87228
-                    ],
-                    [
                         -117.983193,
                         33.872269
                     ]
@@ -252,12 +240,12 @@
                 "description": "AIRBUS HELICOPTERS EC-135/635",
                 "operator": "REACH AIR MEDICAL SERVICES LLC",
                 "altitude": "ground",
-                "ground_speed": 0.1,
+                "ground_speed": 0.0,
                 "track": 0.0,
                 "squawk": "5246",
-                "rssi": -22.5,
+                "rssi": -21.0,
                 "api_source": "https://opendata.adsb.fi/api/v2/hex/",
-                "last_seen": "2025-06-21T14:21:03.455977+00:00",
+                "last_seen": "2025-06-21T14:42:03.195456+00:00",
                 "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
                 "category": "A7"
@@ -1184,6 +1172,14 @@
                     [
                         -117.142575,
                         32.81472
+                    ],
+                    [
+                        -117.142575,
+                        32.814732
+                    ],
+                    [
+                        -117.142575,
+                        32.814732
                     ]
                 ]
             }
@@ -1886,6 +1882,39 @@
                     [
                         -118.407183,
                         34.258723
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "hex": "AD395A",
+                "flight": "N951LB  ",
+                "type": "AS32",
+                "description": "AEROSPATIALE AS-332 Super Puma",
+                "operator": "COUNTY OF LOS ANGELES",
+                "altitude": 700,
+                "ground_speed": 97.9,
+                "track": 348.8,
+                "squawk": "1206",
+                "rssi": -21.4,
+                "api_source": "https://api.airplanes.live/v2/hex/",
+                "last_seen": "2025-06-21T14:42:03.195571+00:00",
+                "nav_qnh": 0.0,
+                "nav_altitude_mcp": 0,
+                "category": "A7"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -118.150406,
+                        33.822994
+                    ],
+                    [
+                        -118.150406,
+                        33.822994
                     ]
                 ]
             }
