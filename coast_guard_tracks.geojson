@@ -186,13 +186,13 @@
                 "type": "C30J",
                 "description": "Lockheed Martin HC-130J Hercules",
                 "operator": "Unknown",
-                "altitude": 3275,
-                "ground_speed": 227.7,
-                "track": 133.93,
+                "altitude": 2750,
+                "ground_speed": 219.3,
+                "track": 133.15,
                 "squawk": "5343",
-                "rssi": -14.4,
+                "rssi": -15.4,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-06-22T14:20:02.575190+00:00",
+                "last_seen": "2025-06-22T14:21:02.910958+00:00",
                 "nav_qnh": 1022.4,
                 "nav_altitude_mcp": 0,
                 "category": "A3"
@@ -883,6 +883,14 @@
                     [
                         -76.656303,
                         36.636566
+                    ],
+                    [
+                        -76.600069,
+                        36.593364
+                    ],
+                    [
+                        -76.600399,
+                        36.593674
                     ]
                 ]
             }
@@ -2544,12 +2552,12 @@
                 "description": "Sikorsky MH-60T Jayhawk",
                 "operator": "Unknown",
                 "altitude": 350,
-                "ground_speed": 120.1,
-                "track": 271.91,
+                "ground_speed": 87.6,
+                "track": 186.56,
                 "squawk": "4654",
-                "rssi": -18.8,
+                "rssi": -20.4,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-06-22T14:20:02.575178+00:00",
+                "last_seen": "2025-06-22T14:21:02.910946+00:00",
                 "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
                 "category": "A7"
@@ -2884,6 +2892,10 @@
                     [
                         -82.160938,
                         27.782329
+                    ],
+                    [
+                        -82.163262,
+                        27.786938
                     ]
                 ]
             }
@@ -3242,6 +3254,35 @@
                     [
                         -94.909355,
                         29.491104
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "hex": "AE5DEE",
+                "flight": "C2015   ",
+                "type": "C30J",
+                "description": "Lockheed Martin HC-130J Hercules",
+                "operator": "Unknown",
+                "altitude": "ground",
+                "ground_speed": 0.0,
+                "track": 0.0,
+                "squawk": "1200",
+                "rssi": -6.7,
+                "api_source": "https://api.airplanes.live/v2/hex/",
+                "last_seen": "2025-06-22T14:21:02.910969+00:00",
+                "nav_qnh": 0.0,
+                "nav_altitude_mcp": 0,
+                "category": "A3"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -121.395836,
+                        38.67754
                     ]
                 ]
             }
