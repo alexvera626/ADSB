@@ -24,22 +24,6 @@
                 "type": "LineString",
                 "coordinates": [
                     [
-                        -118.252856,
-                        33.980026
-                    ],
-                    [
-                        -118.253059,
-                        33.980247
-                    ],
-                    [
-                        -118.268719,
-                        33.995041
-                    ],
-                    [
-                        -118.268831,
-                        33.995178
-                    ],
-                    [
                         -118.291168,
                         34.017768
                     ],
@@ -873,22 +857,6 @@
                 "type": "LineString",
                 "coordinates": [
                     [
-                        -118.543321,
-                        34.33168
-                    ],
-                    [
-                        -118.543321,
-                        34.33168
-                    ],
-                    [
-                        -118.54405,
-                        34.332642
-                    ],
-                    [
-                        -118.54405,
-                        34.332642
-                    ],
-                    [
                         -118.543489,
                         34.332184
                     ],
@@ -1025,22 +993,6 @@
             "geometry": {
                 "type": "LineString",
                 "coordinates": [
-                    [
-                        -118.703384,
-                        34.352107
-                    ],
-                    [
-                        -118.702641,
-                        34.352386
-                    ],
-                    [
-                        -118.698363,
-                        34.345734
-                    ],
-                    [
-                        -118.698363,
-                        34.345734
-                    ],
                     [
                         -118.698699,
                         34.345551
@@ -1379,127 +1331,18 @@
         {
             "type": "Feature",
             "properties": {
-                "hex": "A5F058",
-                "flight": "Unknown",
-                "type": "H60",
-                "description": "SIKORSKY UH-60 Black Hawk",
-                "operator": "CALIFORNIA DEPT OF FORESTRY AND FIRE PROTECTION, CAL FIRE",
-                "altitude": 0,
-                "ground_speed": 92.2,
-                "track": 130.6,
-                "squawk": "N/A",
-                "rssi": -28.0,
-                "api_source": "https://opendata.adsb.fi/api/v2/hex/",
-                "last_seen": "2025-06-23T02:43:03.161285+00:00",
-                "nav_qnh": 0.0,
-                "nav_altitude_mcp": 0,
-                "category": "A7"
-            },
-            "geometry": {
-                "type": "LineString",
-                "coordinates": [
-                    [
-                        -120.410634,
-                        38.037694
-                    ],
-                    [
-                        -120.410634,
-                        38.037601
-                    ],
-                    [
-                        -120.410741,
-                        38.037094
-                    ],
-                    [
-                        -120.410741,
-                        38.037094
-                    ],
-                    [
-                        -120.412246,
-                        38.03653
-                    ],
-                    [
-                        -120.412246,
-                        38.03653
-                    ],
-                    [
-                        -120.403787,
-                        38.011276
-                    ],
-                    [
-                        -120.40323,
-                        38.010321
-                    ],
-                    [
-                        -120.383765,
-                        37.976012
-                    ],
-                    [
-                        -120.38345,
-                        37.975433
-                    ],
-                    [
-                        -120.364692,
-                        37.938766
-                    ],
-                    [
-                        -120.364692,
-                        37.938766
-                    ],
-                    [
-                        -120.345253,
-                        37.903018
-                    ],
-                    [
-                        -120.345582,
-                        37.90361
-                    ],
-                    [
-                        -120.326707,
-                        37.870331
-                    ],
-                    [
-                        -120.326123,
-                        37.869324
-                    ],
-                    [
-                        -120.337073,
-                        37.8452
-                    ],
-                    [
-                        -120.329278,
-                        37.852341
-                    ],
-                    [
-                        -120.320512,
-                        37.820618
-                    ],
-                    [
-                        -120.283171,
-                        37.794617
-                    ],
-                    [
-                        -120.283171,
-                        37.794617
-                    ]
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
                 "hex": "A7FB70",
                 "flight": "REH80   ",
                 "type": "AS50",
                 "description": "AEROSPATIALE AS-350 Ecureuil",
                 "operator": "REACH AIR MEDICAL SERVICES LLC",
-                "altitude": 1575,
+                "altitude": "ground",
                 "ground_speed": 100.0,
-                "track": 352.1,
+                "track": 349.9,
                 "squawk": "1200",
                 "rssi": -49.5,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-06-23T03:41:02.557514+00:00",
+                "last_seen": "2025-06-23T03:42:03.348875+00:00",
                 "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
                 "category": "A7"
@@ -2054,6 +1897,10 @@
                     [
                         -122.333313,
                         40.10257
+                    ],
+                    [
+                        -122.340195,
+                        40.132824
                     ]
                 ]
             }
@@ -5686,18 +5533,111 @@
         {
             "type": "Feature",
             "properties": {
+                "hex": "A5F058",
+                "flight": "Unknown",
+                "type": "H60",
+                "description": "SIKORSKY UH-60 Black Hawk",
+                "operator": "CALIFORNIA DEPT OF FORESTRY AND FIRE PROTECTION, CAL FIRE",
+                "altitude": 0,
+                "ground_speed": 92.2,
+                "track": 130.6,
+                "squawk": "N/A",
+                "rssi": -28.0,
+                "api_source": "https://opendata.adsb.fi/api/v2/hex/",
+                "last_seen": "2025-06-23T02:43:03.161285+00:00",
+                "nav_qnh": 0.0,
+                "nav_altitude_mcp": 0,
+                "category": "A7"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -120.412246,
+                        38.03653
+                    ],
+                    [
+                        -120.412246,
+                        38.03653
+                    ],
+                    [
+                        -120.403787,
+                        38.011276
+                    ],
+                    [
+                        -120.40323,
+                        38.010321
+                    ],
+                    [
+                        -120.383765,
+                        37.976012
+                    ],
+                    [
+                        -120.38345,
+                        37.975433
+                    ],
+                    [
+                        -120.364692,
+                        37.938766
+                    ],
+                    [
+                        -120.364692,
+                        37.938766
+                    ],
+                    [
+                        -120.345253,
+                        37.903018
+                    ],
+                    [
+                        -120.345582,
+                        37.90361
+                    ],
+                    [
+                        -120.326707,
+                        37.870331
+                    ],
+                    [
+                        -120.326123,
+                        37.869324
+                    ],
+                    [
+                        -120.337073,
+                        37.8452
+                    ],
+                    [
+                        -120.329278,
+                        37.852341
+                    ],
+                    [
+                        -120.320512,
+                        37.820618
+                    ],
+                    [
+                        -120.283171,
+                        37.794617
+                    ],
+                    [
+                        -120.283171,
+                        37.794617
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
                 "hex": "A9079F",
                 "flight": "N681HB  ",
                 "type": "H500",
                 "description": "HUGHES 500",
                 "operator": "CITY OF HUNTINGTON BEACH",
-                "altitude": 1025,
-                "ground_speed": 79.2,
-                "track": 24.62,
+                "altitude": 950,
+                "ground_speed": 76.1,
+                "track": 24.88,
                 "squawk": "4301",
-                "rssi": -9.0,
+                "rssi": -11.4,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-06-23T03:41:02.557471+00:00",
+                "last_seen": "2025-06-23T03:42:03.348796+00:00",
                 "nav_qnh": 1012.0,
                 "nav_altitude_mcp": 0,
                 "category": "A7"
@@ -6024,6 +5964,14 @@
                     [
                         -118.001289,
                         33.705729
+                    ],
+                    [
+                        -117.999386,
+                        33.707153
+                    ],
+                    [
+                        -117.999115,
+                        33.707591
                     ]
                 ]
             }
@@ -6036,13 +5984,13 @@
                 "type": "B407",
                 "description": "BELL 407",
                 "operator": "SAN DIEGO COUNTY SHERIFF DEPARTMENT",
-                "altitude": 1500,
-                "ground_speed": 65.1,
-                "track": 252.12,
+                "altitude": 1250,
+                "ground_speed": 57.7,
+                "track": 98.97,
                 "squawk": "1200",
-                "rssi": -24.0,
+                "rssi": -24.2,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-06-23T03:41:02.557482+00:00",
+                "last_seen": "2025-06-23T03:42:03.348824+00:00",
                 "nav_qnh": 1012.8,
                 "nav_altitude_mcp": 0,
                 "category": "A7"
@@ -6185,6 +6133,14 @@
                     [
                         -116.925842,
                         32.748734
+                    ],
+                    [
+                        -116.936938,
+                        32.73912
+                    ],
+                    [
+                        -116.936609,
+                        32.739075
                     ]
                 ]
             }
