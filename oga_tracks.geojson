@@ -4,55 +4,6 @@
         {
             "type": "Feature",
             "properties": {
-                "hex": "A9079F",
-                "flight": "Unknown",
-                "type": "H500",
-                "description": "HUGHES 500",
-                "operator": "CITY OF HUNTINGTON BEACH",
-                "altitude": 0,
-                "ground_speed": 9.9,
-                "track": 203.96,
-                "squawk": "N/A",
-                "rssi": -22.0,
-                "api_source": "https://opendata.adsb.fi/api/v2/hex/",
-                "last_seen": "2025-06-23T08:31:02.909406+00:00",
-                "nav_qnh": 0.0,
-                "nav_altitude_mcp": 0,
-                "category": "A7"
-            },
-            "geometry": {
-                "type": "LineString",
-                "coordinates": [
-                    [
-                        -117.915139,
-                        33.620087
-                    ],
-                    [
-                        -117.95275,
-                        33.664856
-                    ],
-                    [
-                        -117.970295,
-                        33.681976
-                    ],
-                    [
-                        -117.987783,
-                        33.699234
-                    ],
-                    [
-                        -118.000507,
-                        33.696945
-                    ],
-                    [
-                        -118.002357,
-                        33.695251
-                    ]
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
                 "hex": "A1F894",
                 "flight": "N226PD  ",
                 "type": "AS50",
@@ -72,22 +23,6 @@
             "geometry": {
                 "type": "LineString",
                 "coordinates": [
-                    [
-                        -117.931394,
-                        33.848099
-                    ],
-                    [
-                        -117.931137,
-                        33.848086
-                    ],
-                    [
-                        -117.915287,
-                        33.848784
-                    ],
-                    [
-                        -117.915287,
-                        33.848784
-                    ],
                     [
                         -117.899265,
                         33.848644
@@ -578,22 +513,6 @@
                 "type": "LineString",
                 "coordinates": [
                     [
-                        -117.751408,
-                        34.072281
-                    ],
-                    [
-                        -117.751579,
-                        34.072048
-                    ],
-                    [
-                        -117.762566,
-                        34.056221
-                    ],
-                    [
-                        -117.762566,
-                        34.056221
-                    ],
-                    [
                         -117.764511,
                         34.038438
                     ],
@@ -704,6 +623,51 @@
                     [
                         -117.69296,
                         34.109562
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "hex": "A9079F",
+                "flight": "Unknown",
+                "type": "H500",
+                "description": "HUGHES 500",
+                "operator": "CITY OF HUNTINGTON BEACH",
+                "altitude": 0,
+                "ground_speed": 9.9,
+                "track": 203.96,
+                "squawk": "N/A",
+                "rssi": -22.0,
+                "api_source": "https://opendata.adsb.fi/api/v2/hex/",
+                "last_seen": "2025-06-23T08:31:02.909406+00:00",
+                "nav_qnh": 0.0,
+                "nav_altitude_mcp": 0,
+                "category": "A7"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -117.95275,
+                        33.664856
+                    ],
+                    [
+                        -117.970295,
+                        33.681976
+                    ],
+                    [
+                        -117.987783,
+                        33.699234
+                    ],
+                    [
+                        -118.000507,
+                        33.696945
+                    ],
+                    [
+                        -118.002357,
+                        33.695251
                     ]
                 ]
             }
