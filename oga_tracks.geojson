@@ -1226,12 +1226,12 @@
                 "description": "AEROSPATIALE AS-350 Ecureuil",
                 "operator": "COUNTY OF ORANGE - AIR SUPPORT",
                 "altitude": 1300,
-                "ground_speed": 72.0,
-                "track": 99.59,
+                "ground_speed": 75.7,
+                "track": 135.54,
                 "squawk": "4204",
-                "rssi": -26.9,
+                "rssi": -23.1,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-06-25T15:04:02.819946+00:00",
+                "last_seen": "2025-06-25T15:05:02.782546+00:00",
                 "nav_qnh": 1016.0,
                 "nav_altitude_mcp": 0,
                 "category": "A7"
@@ -1534,6 +1534,14 @@
                     [
                         -117.783415,
                         33.895615
+                    ],
+                    [
+                        -117.760097,
+                        33.887695
+                    ],
+                    [
+                        -117.760097,
+                        33.887695
                     ]
                 ]
             }
@@ -1542,17 +1550,17 @@
             "type": "Feature",
             "properties": {
                 "hex": "A16926",
-                "flight": "N190LA  ",
+                "flight": "Unknown",
                 "type": "H60",
                 "description": "SIKORSKY UH-60 Black Hawk",
                 "operator": "COUNTY OF LOS ANGELES FIRE DEPARTMENT",
                 "altitude": "ground",
-                "ground_speed": 0.1,
+                "ground_speed": 0.0,
                 "track": 0.0,
                 "squawk": "1206",
-                "rssi": -19.0,
+                "rssi": -19.2,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-06-25T15:04:02.819929+00:00",
+                "last_seen": "2025-06-25T15:05:02.782529+00:00",
                 "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
                 "category": "A7"
@@ -1663,6 +1671,10 @@
                     [
                         -118.408655,
                         34.25806
+                    ],
+                    [
+                        -118.40867,
+                        34.258083
                     ]
                 ]
             }
@@ -1836,6 +1848,35 @@
                     [
                         -117.177319,
                         32.577621
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "hex": "AAFD01",
+                "flight": "Unknown",
+                "type": "DH8C",
+                "description": "DE HAVILLAND DHC-8-300 Dash 8",
+                "operator": "US DEPARTMENT OF HOMELAND SECURITY, US CUSTOMS & BORDER PROTECTI",
+                "altitude": 1450,
+                "ground_speed": 154.4,
+                "track": 61.77,
+                "squawk": "4626",
+                "rssi": -20.9,
+                "api_source": "https://opendata.adsb.fi/api/v2/hex/",
+                "last_seen": "2025-06-25T15:05:02.781779+00:00",
+                "nav_qnh": 0.0,
+                "nav_altitude_mcp": 0,
+                "category": "Unknown"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -95.374457,
+                        30.346892
                     ]
                 ]
             }
