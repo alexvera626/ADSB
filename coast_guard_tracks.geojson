@@ -10,12 +10,12 @@
                 "description": "Sikorsky MH-60T Jayhawk",
                 "operator": "Unknown",
                 "altitude": 1225,
-                "ground_speed": 131.9,
-                "track": 244.41,
-                "squawk": "1200",
-                "rssi": -2.0,
+                "ground_speed": 134.0,
+                "track": 228.93,
+                "squawk": "N/A",
+                "rssi": -1.7,
                 "api_source": "https://opendata.adsb.fi/api/v2/hex/",
-                "last_seen": "2025-06-25T13:00:03.742185+00:00",
+                "last_seen": "2025-06-25T13:01:03.263671+00:00",
                 "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
                 "category": "A7"
@@ -34,6 +34,39 @@
                     [
                         -85.67531,
                         44.685333
+                    ],
+                    [
+                        -85.736501,
+                        44.646622
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "hex": "AE2919",
+                "flight": "C6042   ",
+                "type": "H60",
+                "description": "Sikorsky MH-60T Jayhawk",
+                "operator": "Unknown",
+                "altitude": "ground",
+                "ground_speed": 0.0,
+                "track": 0.0,
+                "squawk": "N/A",
+                "rssi": -29.9,
+                "api_source": "https://api.airplanes.live/v2/hex/",
+                "last_seen": "2025-06-25T13:01:03.263745+00:00",
+                "nav_qnh": 0.0,
+                "nav_altitude_mcp": 0,
+                "category": "A7"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -82.691021,
+                        27.916271
                     ]
                 ]
             }
