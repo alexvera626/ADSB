@@ -9,13 +9,13 @@
                 "type": "H60",
                 "description": "Sikorsky MH-60T Jayhawk",
                 "operator": "Unknown",
-                "altitude": 1225,
-                "ground_speed": 134.0,
-                "track": 228.93,
-                "squawk": "N/A",
+                "altitude": 1200,
+                "ground_speed": 131.9,
+                "track": 229.3,
+                "squawk": "1200",
                 "rssi": -1.7,
                 "api_source": "https://opendata.adsb.fi/api/v2/hex/",
-                "last_seen": "2025-06-25T13:01:03.263671+00:00",
+                "last_seen": "2025-06-25T13:02:02.171774+00:00",
                 "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
                 "category": "A7"
@@ -38,6 +38,10 @@
                     [
                         -85.736501,
                         44.646622
+                    ],
+                    [
+                        -85.772876,
+                        44.624463
                     ]
                 ]
             }
@@ -67,6 +71,35 @@
                     [
                         -82.691021,
                         27.916271
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "hex": "AE26BD",
+                "flight": "C6606   ",
+                "type": "AS65",
+                "description": "Eurocopter MH-65D Dolphin",
+                "operator": "Unknown",
+                "altitude": "ground",
+                "ground_speed": 0.0,
+                "track": 168.75,
+                "squawk": "5147",
+                "rssi": -23.2,
+                "api_source": "https://api.airplanes.live/v2/hex/",
+                "last_seen": "2025-06-25T13:02:02.171847+00:00",
+                "nav_qnh": 0.0,
+                "nav_altitude_mcp": 0,
+                "category": "A7"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -77.045716,
+                        38.846214
                     ]
                 ]
             }
