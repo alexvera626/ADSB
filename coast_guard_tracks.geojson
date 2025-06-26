@@ -10,12 +10,12 @@
                 "description": "Eurocopter MH-65D Dolphin",
                 "operator": "Unknown",
                 "altitude": 3900,
-                "ground_speed": 108.3,
-                "track": 281.73,
+                "ground_speed": 107.1,
+                "track": 281.31,
                 "squawk": "4162",
-                "rssi": -20.8,
+                "rssi": -19.1,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-06-26T12:40:02.782469+00:00",
+                "last_seen": "2025-06-26T12:41:03.492542+00:00",
                 "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
                 "category": "A7"
@@ -498,6 +498,14 @@
                     [
                         -85.098692,
                         43.000488
+                    ],
+                    [
+                        -85.119579,
+                        43.003647
+                    ],
+                    [
+                        -85.139636,
+                        43.006668
                     ]
                 ]
             }
@@ -514,9 +522,9 @@
                 "ground_speed": 308.3,
                 "track": 50.53,
                 "squawk": "1360",
-                "rssi": -10.7,
+                "rssi": -10.2,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-06-26T12:40:02.782479+00:00",
+                "last_seen": "2025-06-26T12:41:03.492553+00:00",
                 "nav_qnh": 1012.8,
                 "nav_altitude_mcp": 0,
                 "category": "A3"
@@ -923,6 +931,14 @@
                     [
                         -82.3498,
                         30.749954
+                    ],
+                    [
+                        -82.272931,
+                        30.804686
+                    ],
+                    [
+                        -82.271711,
+                        30.805573
                     ]
                 ]
             }
@@ -935,13 +951,13 @@
                 "type": "H60",
                 "description": "Sikorsky MH-60T Jayhawk",
                 "operator": "Unknown",
-                "altitude": 125,
-                "ground_speed": 63.1,
-                "track": 207.38,
+                "altitude": 150,
+                "ground_speed": 88.5,
+                "track": 5.84,
                 "squawk": "1277",
-                "rssi": -9.3,
+                "rssi": -8.8,
                 "api_source": "https://opendata.adsb.fi/api/v2/hex/",
-                "last_seen": "2025-06-26T12:40:02.782371+00:00",
+                "last_seen": "2025-06-26T12:41:03.492395+00:00",
                 "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
                 "category": "A7"
@@ -1084,6 +1100,43 @@
                     [
                         -82.727579,
                         28.362717
+                    ],
+                    [
+                        -82.734644,
+                        28.368049
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "hex": "AE6CEB",
+                "flight": "C6056   ",
+                "type": "H60",
+                "description": "Sikorsky MH-60T Jayhawk",
+                "operator": "United States Coast Guard",
+                "altitude": "ground",
+                "ground_speed": 2.8,
+                "track": 0.0,
+                "squawk": "1277",
+                "rssi": -13.5,
+                "api_source": "https://api.airplanes.live/v2/hex/",
+                "last_seen": "2025-06-26T12:41:03.492585+00:00",
+                "nav_qnh": 0.0,
+                "nav_altitude_mcp": 0,
+                "category": "A7"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -117.181297,
+                        32.726433
+                    ],
+                    [
+                        -117.181302,
+                        32.726418
                     ]
                 ]
             }
