@@ -24,14 +24,6 @@
                 "type": "LineString",
                 "coordinates": [
                     [
-                        -122.429969,
-                        37.961721
-                    ],
-                    [
-                        -122.435104,
-                        37.968657
-                    ],
-                    [
                         -122.4092,
                         37.930252
                     ],
@@ -417,14 +409,6 @@
                 "type": "LineString",
                 "coordinates": [
                     [
-                        -122.370678,
-                        37.850042
-                    ],
-                    [
-                        -122.370678,
-                        37.850042
-                    ],
-                    [
                         -122.370398,
                         37.850098
                     ],
@@ -558,6 +542,51 @@
         {
             "type": "Feature",
             "properties": {
+                "hex": "AE4E01",
+                "flight": "Unknown",
+                "type": "H60",
+                "description": "Sikorsky MH-60T Jayhawk",
+                "operator": "Unknown",
+                "altitude": 275,
+                "ground_speed": 116.0,
+                "track": 17.6,
+                "squawk": "1200",
+                "rssi": -49.5,
+                "api_source": "https://api.airplanes.live/v2/hex/",
+                "last_seen": "2025-06-26T04:05:03.802386+00:00",
+                "nav_qnh": 0.0,
+                "nav_altitude_mcp": 0,
+                "category": "Unknown"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -88.255096,
+                        30.536034
+                    ],
+                    [
+                        -88.273209,
+                        30.592896
+                    ],
+                    [
+                        -88.274048,
+                        30.62965
+                    ],
+                    [
+                        -88.270676,
+                        30.637985
+                    ],
+                    [
+                        -88.244553,
+                        30.689888
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
                 "hex": "AE6CEB",
                 "flight": "C6056   ",
                 "type": "H60",
@@ -577,14 +606,6 @@
             "geometry": {
                 "type": "LineString",
                 "coordinates": [
-                    [
-                        -117.672253,
-                        33.021149
-                    ],
-                    [
-                        -117.672318,
-                        33.021411
-                    ],
                     [
                         -117.652148,
                         33.010345
@@ -1524,55 +1545,6 @@
                     [
                         -117.181101,
                         32.726956
-                    ]
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "hex": "AE4E01",
-                "flight": "Unknown",
-                "type": "H60",
-                "description": "Sikorsky MH-60T Jayhawk",
-                "operator": "Unknown",
-                "altitude": 275,
-                "ground_speed": 116.0,
-                "track": 17.6,
-                "squawk": "1200",
-                "rssi": -49.5,
-                "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-06-26T04:05:03.802386+00:00",
-                "nav_qnh": 0.0,
-                "nav_altitude_mcp": 0,
-                "category": "Unknown"
-            },
-            "geometry": {
-                "type": "LineString",
-                "coordinates": [
-                    [
-                        -88.233086,
-                        30.471497
-                    ],
-                    [
-                        -88.255096,
-                        30.536034
-                    ],
-                    [
-                        -88.273209,
-                        30.592896
-                    ],
-                    [
-                        -88.274048,
-                        30.62965
-                    ],
-                    [
-                        -88.270676,
-                        30.637985
-                    ],
-                    [
-                        -88.244553,
-                        30.689888
                     ]
                 ]
             }
