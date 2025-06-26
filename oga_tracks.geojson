@@ -279,13 +279,13 @@
                 "type": "AS50",
                 "description": "AEROSPATIALE AS-350 Ecureuil",
                 "operator": "LAPD AIR SUPPORT DIVISION",
-                "altitude": 1050,
-                "ground_speed": 125.5,
-                "track": 329.35,
+                "altitude": 1100,
+                "ground_speed": 122.6,
+                "track": 334.9,
                 "squawk": "1200",
-                "rssi": -12.0,
+                "rssi": -13.5,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-06-26T15:45:02.768327+00:00",
+                "last_seen": "2025-06-26T15:46:02.592114+00:00",
                 "nav_qnh": 1013.6,
                 "nav_altitude_mcp": 10016,
                 "category": "A7"
@@ -416,6 +416,14 @@
                     [
                         -118.245009,
                         34.100418
+                    ],
+                    [
+                        -118.266701,
+                        34.129211
+                    ],
+                    [
+                        -118.266701,
+                        34.129211
                     ]
                 ]
             }
@@ -509,6 +517,35 @@
                     [
                         -118.168329,
                         34.050785
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "hex": "A1511C",
+                "flight": "N184SD  ",
+                "type": "AS50",
+                "description": "AEROSPATIALE AS-350 Ecureuil",
+                "operator": "COUNTY OF ORANGE - AIR SUPPORT",
+                "altitude": "ground",
+                "ground_speed": 11.2,
+                "track": 0.0,
+                "squawk": "4204",
+                "rssi": -16.1,
+                "api_source": "https://opendata.adsb.fi/api/v2/hex/",
+                "last_seen": "2025-06-26T15:46:02.591388+00:00",
+                "nav_qnh": 0.0,
+                "nav_altitude_mcp": 0,
+                "category": "A7"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -117.87146,
+                        33.674595
                     ]
                 ]
             }
