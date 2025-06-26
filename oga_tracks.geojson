@@ -279,13 +279,13 @@
                 "type": "AS50",
                 "description": "AEROSPATIALE AS-350 Ecureuil",
                 "operator": "LAPD AIR SUPPORT DIVISION",
-                "altitude": 825,
-                "ground_speed": 53.1,
-                "track": 183.24,
+                "altitude": 800,
+                "ground_speed": 47.8,
+                "track": 37.35,
                 "squawk": "1200",
-                "rssi": -13.6,
+                "rssi": -14.4,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-06-26T16:05:03.441456+00:00",
+                "last_seen": "2025-06-26T16:06:02.948341+00:00",
                 "nav_qnh": 1013.6,
                 "nav_altitude_mcp": 10016,
                 "category": "A7"
@@ -576,6 +576,14 @@
                     [
                         -118.226452,
                         34.056128
+                    ],
+                    [
+                        -118.224606,
+                        34.053085
+                    ],
+                    [
+                        -118.224564,
+                        34.053148
                     ]
                 ]
             }
@@ -681,13 +689,13 @@
                 "type": "AS50",
                 "description": "AEROSPATIALE AS-350 Ecureuil",
                 "operator": "COUNTY OF ORANGE - AIR SUPPORT",
-                "altitude": 1200,
-                "ground_speed": 62.6,
-                "track": 77.07,
+                "altitude": 1400,
+                "ground_speed": 65.7,
+                "track": 76.81,
                 "squawk": "4204",
-                "rssi": -25.6,
+                "rssi": -16.5,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-06-26T16:05:03.441606+00:00",
+                "last_seen": "2025-06-26T16:06:02.948450+00:00",
                 "nav_qnh": 1014.4,
                 "nav_altitude_mcp": 0,
                 "category": "A7"
@@ -850,6 +858,14 @@
                     [
                         -117.832432,
                         33.844129
+                    ],
+                    [
+                        -117.811432,
+                        33.849715
+                    ],
+                    [
+                        -117.811432,
+                        33.849715
                     ]
                 ]
             }
@@ -860,15 +876,15 @@
                 "hex": "AE1844",
                 "flight": "SHWK405 ",
                 "type": "H60",
-                "description": "Sikorsky MH-60S Seahawk",
-                "operator": "United States Navy",
+                "description": "SIKORSKY UH-60 Black Hawk",
+                "operator": "Unknown",
                 "altitude": 2425,
-                "ground_speed": 107.4,
-                "track": 80.89,
+                "ground_speed": 0.0,
+                "track": 0.0,
                 "squawk": "1200",
-                "rssi": -23.9,
-                "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-06-26T16:05:03.441628+00:00",
+                "rssi": -22.5,
+                "api_source": "https://opendata.adsb.fi/api/v2/hex/",
+                "last_seen": "2025-06-26T16:06:02.948323+00:00",
                 "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
                 "category": "A7"
@@ -1027,6 +1043,10 @@
                     [
                         -116.845038,
                         32.565582
+                    ],
+                    [
+                        -116.825699,
+                        32.568597
                     ]
                 ]
             }
@@ -1039,13 +1059,13 @@
                 "type": "AS50",
                 "description": "AEROSPATIALE AS-350 Ecureuil",
                 "operator": "REACH AIR MEDICAL SERVICES LLC",
-                "altitude": 1425,
-                "ground_speed": 117.9,
-                "track": 122.88,
+                "altitude": 1400,
+                "ground_speed": 122.3,
+                "track": 129.03,
                 "squawk": "1200",
-                "rssi": -21.1,
+                "rssi": -13.6,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-06-26T16:05:03.441590+00:00",
+                "last_seen": "2025-06-26T16:06:02.948440+00:00",
                 "nav_qnh": 1012.8,
                 "nav_altitude_mcp": 1408,
                 "category": "A7"
@@ -1136,6 +1156,47 @@
                     [
                         -121.730225,
                         38.906079
+                    ],
+                    [
+                        -121.696045,
+                        38.88662
+                    ],
+                    [
+                        -121.696045,
+                        38.88662
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "hex": "A9079F",
+                "flight": "N681HB  ",
+                "type": "H500",
+                "description": "HUGHES 500",
+                "operator": "CITY OF HUNTINGTON BEACH",
+                "altitude": 500,
+                "ground_speed": 48.2,
+                "track": 274.76,
+                "squawk": "4301",
+                "rssi": -7.0,
+                "api_source": "https://api.airplanes.live/v2/hex/",
+                "last_seen": "2025-06-26T16:06:02.948430+00:00",
+                "nav_qnh": 1014.4,
+                "nav_altitude_mcp": 0,
+                "category": "A7"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -118.009531,
+                        33.693924
+                    ],
+                    [
+                        -118.009531,
+                        33.693924
                     ]
                 ]
             }
