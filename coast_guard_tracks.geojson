@@ -24,22 +24,6 @@
                 "type": "LineString",
                 "coordinates": [
                     [
-                        -122.4092,
-                        37.930252
-                    ],
-                    [
-                        -122.408832,
-                        37.929786
-                    ],
-                    [
-                        -122.389128,
-                        37.905765
-                    ],
-                    [
-                        -122.388806,
-                        37.905396
-                    ],
-                    [
                         -122.357775,
                         37.894409
                     ],
@@ -409,22 +393,6 @@
                 "type": "LineString",
                 "coordinates": [
                     [
-                        -122.370398,
-                        37.850098
-                    ],
-                    [
-                        -122.37038,
-                        37.850135
-                    ],
-                    [
-                        -122.370105,
-                        37.850189
-                    ],
-                    [
-                        -122.370105,
-                        37.850189
-                    ],
-                    [
                         -122.369783,
                         37.850275
                     ],
@@ -542,51 +510,6 @@
         {
             "type": "Feature",
             "properties": {
-                "hex": "AE4E01",
-                "flight": "Unknown",
-                "type": "H60",
-                "description": "Sikorsky MH-60T Jayhawk",
-                "operator": "Unknown",
-                "altitude": 275,
-                "ground_speed": 116.0,
-                "track": 17.6,
-                "squawk": "1200",
-                "rssi": -49.5,
-                "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-06-26T04:05:03.802386+00:00",
-                "nav_qnh": 0.0,
-                "nav_altitude_mcp": 0,
-                "category": "Unknown"
-            },
-            "geometry": {
-                "type": "LineString",
-                "coordinates": [
-                    [
-                        -88.255096,
-                        30.536034
-                    ],
-                    [
-                        -88.273209,
-                        30.592896
-                    ],
-                    [
-                        -88.274048,
-                        30.62965
-                    ],
-                    [
-                        -88.270676,
-                        30.637985
-                    ],
-                    [
-                        -88.244553,
-                        30.689888
-                    ]
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
                 "hex": "AE6CEB",
                 "flight": "C6056   ",
                 "type": "H60",
@@ -606,22 +529,6 @@
             "geometry": {
                 "type": "LineString",
                 "coordinates": [
-                    [
-                        -117.652148,
-                        33.010345
-                    ],
-                    [
-                        -117.666433,
-                        33.014754
-                    ],
-                    [
-                        -117.632465,
-                        33.021225
-                    ],
-                    [
-                        -117.632812,
-                        33.021194
-                    ],
                     [
                         -117.624954,
                         33.005257
@@ -1545,6 +1452,47 @@
                     [
                         -117.181101,
                         32.726956
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "hex": "AE4E01",
+                "flight": "Unknown",
+                "type": "H60",
+                "description": "Sikorsky MH-60T Jayhawk",
+                "operator": "Unknown",
+                "altitude": 275,
+                "ground_speed": 116.0,
+                "track": 17.6,
+                "squawk": "1200",
+                "rssi": -49.5,
+                "api_source": "https://api.airplanes.live/v2/hex/",
+                "last_seen": "2025-06-26T04:05:03.802386+00:00",
+                "nav_qnh": 0.0,
+                "nav_altitude_mcp": 0,
+                "category": "Unknown"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -88.273209,
+                        30.592896
+                    ],
+                    [
+                        -88.274048,
+                        30.62965
+                    ],
+                    [
+                        -88.270676,
+                        30.637985
+                    ],
+                    [
+                        -88.244553,
+                        30.689888
                     ]
                 ]
             }
