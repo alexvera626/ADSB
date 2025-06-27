@@ -722,13 +722,13 @@
                 "type": "AS50",
                 "description": "AEROSPATIALE AS-350 Ecureuil",
                 "operator": "COUNTY OF ORANGE - AIR SUPPORT",
-                "altitude": 900,
-                "ground_speed": 85.4,
-                "track": 343.69,
+                "altitude": 1000,
+                "ground_speed": 83.2,
+                "track": 3.45,
                 "squawk": "4204",
-                "rssi": -25.4,
+                "rssi": -30.8,
                 "api_source": "https://opendata.adsb.fi/api/v2/hex/",
-                "last_seen": "2025-06-27T15:04:03.358850+00:00",
+                "last_seen": "2025-06-27T15:05:02.832562+00:00",
                 "nav_qnh": 1013.6,
                 "nav_altitude_mcp": 0,
                 "category": "A7"
@@ -899,6 +899,43 @@
                     [
                         -117.665771,
                         33.515671
+                    ],
+                    [
+                        -117.673077,
+                        33.538513
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "hex": "A03F75",
+                "flight": "00000000",
+                "type": "BE30",
+                "description": "BEECH 300 Super King Air",
+                "operator": "DEPARTMENT OF HOMELAND SECURITY",
+                "altitude": 6525,
+                "ground_speed": 158.8,
+                "track": 199.12,
+                "squawk": "4403",
+                "rssi": -5.3,
+                "api_source": "https://api.airplanes.live/v2/hex/",
+                "last_seen": "2025-06-27T15:05:02.832871+00:00",
+                "nav_qnh": 1020.8,
+                "nav_altitude_mcp": 11488,
+                "category": "A2"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -81.690728,
+                        30.099152
+                    ],
+                    [
+                        -81.690566,
+                        30.099564
                     ]
                 ]
             }
