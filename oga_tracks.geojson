@@ -24,14 +24,6 @@
                 "type": "LineString",
                 "coordinates": [
                     [
-                        -121.14679,
-                        39.060726
-                    ],
-                    [
-                        -121.14679,
-                        39.060726
-                    ],
-                    [
                         -121.185648,
                         39.007233
                     ],
@@ -542,32 +534,24 @@
             "type": "Feature",
             "properties": {
                 "hex": "A154D3",
-                "flight": "Unknown",
+                "flight": "N185SD  ",
                 "type": "AS50",
                 "description": "AEROSPATIALE AS-350 Ecureuil",
                 "operator": "ORANGE COUNTY SHERIFF'S DEPARTMENT",
-                "altitude": 25,
+                "altitude": "ground",
                 "ground_speed": 0.0,
-                "track": 0.0,
-                "squawk": "N/A",
-                "rssi": -21.1,
-                "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-06-28T22:12:02.617053+00:00",
+                "track": 208.12,
+                "squawk": "4204",
+                "rssi": -21.4,
+                "api_source": "https://opendata.adsb.fi/api/v2/hex/",
+                "last_seen": "2025-06-28T22:13:03.333821+00:00",
                 "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
-                "category": "Unknown"
+                "category": "A7"
             },
             "geometry": {
                 "type": "LineString",
                 "coordinates": [
-                    [
-                        -117.709762,
-                        33.786667
-                    ],
-                    [
-                        -117.709351,
-                        33.786776
-                    ],
                     [
                         -117.715871,
                         33.788727
@@ -975,6 +959,10 @@
                     [
                         -117.871698,
                         33.67519
+                    ],
+                    [
+                        -117.871699,
+                        33.675214
                     ]
                 ]
             }
@@ -1001,14 +989,6 @@
             "geometry": {
                 "type": "LineString",
                 "coordinates": [
-                    [
-                        -118.412533,
-                        34.236797
-                    ],
-                    [
-                        -118.412304,
-                        34.235633
-                    ],
                     [
                         -118.406296,
                         34.206584
@@ -1244,13 +1224,13 @@
                 "type": "AS50",
                 "description": "AEROSPATIALE AS-350 Ecureuil",
                 "operator": "CITY OF ONTARIO",
-                "altitude": 1375,
-                "ground_speed": 48.0,
-                "track": 267.61,
+                "altitude": 1550,
+                "ground_speed": 60.6,
+                "track": 52.37,
                 "squawk": "4274",
-                "rssi": -23.1,
+                "rssi": -30.1,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-06-28T22:12:02.617065+00:00",
+                "last_seen": "2025-06-28T22:13:03.333911+00:00",
                 "nav_qnh": 1013.6,
                 "nav_altitude_mcp": 8512,
                 "category": "A7"
@@ -1258,14 +1238,6 @@
             "geometry": {
                 "type": "LineString",
                 "coordinates": [
-                    [
-                        -117.907391,
-                        34.019677
-                    ],
-                    [
-                        -117.907391,
-                        34.019677
-                    ],
                     [
                         -117.90453,
                         34.022098
@@ -1909,6 +1881,43 @@
                     [
                         -117.594405,
                         34.063843
+                    ],
+                    [
+                        -117.597485,
+                        34.066276
+                    ],
+                    [
+                        -117.596741,
+                        34.066835
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "hex": "A13F4E",
+                "flight": "N18LA   ",
+                "type": "B412",
+                "description": "BELL 412",
+                "operator": "COUNTY OF LOS ANGELES FIRE DEPARTMENT",
+                "altitude": "ground",
+                "ground_speed": 0.1,
+                "track": 0.0,
+                "squawk": "1206",
+                "rssi": -16.8,
+                "api_source": "https://api.airplanes.live/v2/hex/",
+                "last_seen": "2025-06-28T18:13:03.476993+00:00",
+                "nav_qnh": 0.0,
+                "nav_altitude_mcp": 0,
+                "category": "A7"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -118.407183,
+                        34.258724
                     ]
                 ]
             }
@@ -1935,14 +1944,6 @@
             "geometry": {
                 "type": "LineString",
                 "coordinates": [
-                    [
-                        -116.720207,
-                        33.568359
-                    ],
-                    [
-                        -116.713986,
-                        33.565292
-                    ],
                     [
                         -116.700028,
                         33.495918
@@ -2750,39 +2751,6 @@
                     [
                         -117.024132,
                         33.730587
-                    ]
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "hex": "A13F4E",
-                "flight": "N18LA   ",
-                "type": "B412",
-                "description": "BELL 412",
-                "operator": "COUNTY OF LOS ANGELES FIRE DEPARTMENT",
-                "altitude": "ground",
-                "ground_speed": 0.1,
-                "track": 0.0,
-                "squawk": "1206",
-                "rssi": -16.8,
-                "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-06-28T18:13:03.476993+00:00",
-                "nav_qnh": 0.0,
-                "nav_altitude_mcp": 0,
-                "category": "A7"
-            },
-            "geometry": {
-                "type": "LineString",
-                "coordinates": [
-                    [
-                        -118.407183,
-                        34.258724
-                    ],
-                    [
-                        -118.407183,
-                        34.258724
                     ]
                 ]
             }
