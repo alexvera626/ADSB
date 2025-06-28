@@ -9,13 +9,13 @@
                 "type": "EC35",
                 "description": "AIRBUS HELICOPTERS EC-135/635",
                 "operator": "REACH AIR MEDICAL SERVICES LLC",
-                "altitude": 1725,
-                "ground_speed": 15.3,
-                "track": 11.31,
+                "altitude": "ground",
+                "ground_speed": 0.3,
+                "track": 45.0,
                 "squawk": "1200",
-                "rssi": -14.4,
+                "rssi": -21.0,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-06-28T07:29:02.916710+00:00",
+                "last_seen": "2025-06-28T07:30:02.875022+00:00",
                 "nav_qnh": 1010.4,
                 "nav_altitude_mcp": 0,
                 "category": "A7"
@@ -23,14 +23,6 @@
             "geometry": {
                 "type": "LineString",
                 "coordinates": [
-                    [
-                        -120.302144,
-                        37.736501
-                    ],
-                    [
-                        -120.301812,
-                        37.735977
-                    ],
                     [
                         -120.282261,
                         37.704333
@@ -1126,6 +1118,14 @@
                     [
                         -121.05417,
                         38.933212
+                    ],
+                    [
+                        -121.054016,
+                        38.933685
+                    ],
+                    [
+                        -121.053802,
+                        38.934127
                     ]
                 ]
             }
@@ -1152,14 +1152,6 @@
             "geometry": {
                 "type": "LineString",
                 "coordinates": [
-                    [
-                        -117.246149,
-                        32.633881
-                    ],
-                    [
-                        -117.24643,
-                        32.633538
-                    ],
                     [
                         -117.261749,
                         32.618271
@@ -1685,14 +1677,6 @@
             "geometry": {
                 "type": "LineString",
                 "coordinates": [
-                    [
-                        -117.881985,
-                        33.729051
-                    ],
-                    [
-                        -117.881731,
-                        33.729401
-                    ],
                     [
                         -117.874031,
                         33.747579
@@ -2322,14 +2306,6 @@
             "geometry": {
                 "type": "LineString",
                 "coordinates": [
-                    [
-                        -117.351361,
-                        32.14176
-                    ],
-                    [
-                        -117.350912,
-                        32.140875
-                    ],
                     [
                         -117.325633,
                         32.090087
@@ -3036,63 +3012,6 @@
         {
             "type": "Feature",
             "properties": {
-                "hex": "AE4FAE",
-                "flight": "SHWK404 ",
-                "type": "H60",
-                "description": "SIKORSKY UH-60 Black Hawk",
-                "operator": "Unknown",
-                "altitude": -75,
-                "ground_speed": 5.1,
-                "track": 191.31,
-                "squawk": "1200",
-                "rssi": -19.5,
-                "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-06-28T03:33:03.463431+00:00",
-                "nav_qnh": 0.0,
-                "nav_altitude_mcp": 0,
-                "category": "A7"
-            },
-            "geometry": {
-                "type": "LineString",
-                "coordinates": [
-                    [
-                        -117.208034,
-                        32.692519
-                    ],
-                    [
-                        -117.208146,
-                        32.692566
-                    ],
-                    [
-                        -117.206633,
-                        32.69238
-                    ],
-                    [
-                        -117.206633,
-                        32.69238
-                    ],
-                    [
-                        -117.212421,
-                        32.702408
-                    ],
-                    [
-                        -117.21263,
-                        32.702156
-                    ],
-                    [
-                        -117.211322,
-                        32.703644
-                    ],
-                    [
-                        -117.211322,
-                        32.703644
-                    ]
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
                 "hex": "AE278C",
                 "flight": "LS10    ",
                 "type": "H60",
@@ -3112,14 +3031,6 @@
             "geometry": {
                 "type": "LineString",
                 "coordinates": [
-                    [
-                        -117.470417,
-                        33.300166
-                    ],
-                    [
-                        -117.470417,
-                        33.300166
-                    ],
                     [
                         -117.469501,
                         33.295532
@@ -3614,10 +3525,6 @@
                         39.162093
                     ],
                     [
-                        -122.132339,
-                        39.162093
-                    ],
-                    [
                         -122.132338,
                         39.162094
                     ],
@@ -3636,6 +3543,55 @@
                     [
                         -122.131905,
                         39.162048
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "hex": "AE4FAE",
+                "flight": "SHWK404 ",
+                "type": "H60",
+                "description": "SIKORSKY UH-60 Black Hawk",
+                "operator": "Unknown",
+                "altitude": -75,
+                "ground_speed": 5.1,
+                "track": 191.31,
+                "squawk": "1200",
+                "rssi": -19.5,
+                "api_source": "https://api.airplanes.live/v2/hex/",
+                "last_seen": "2025-06-28T03:33:03.463431+00:00",
+                "nav_qnh": 0.0,
+                "nav_altitude_mcp": 0,
+                "category": "A7"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -117.206633,
+                        32.69238
+                    ],
+                    [
+                        -117.206633,
+                        32.69238
+                    ],
+                    [
+                        -117.212421,
+                        32.702408
+                    ],
+                    [
+                        -117.21263,
+                        32.702156
+                    ],
+                    [
+                        -117.211322,
+                        32.703644
+                    ],
+                    [
+                        -117.211322,
+                        32.703644
                     ]
                 ]
             }
@@ -3906,12 +3862,12 @@
                 "description": "AEROSPATIALE AS-350 Ecureuil",
                 "operator": "COUNTY OF RIVERSIDE CALIFORNIA",
                 "altitude": "ground",
-                "ground_speed": 64.0,
-                "track": 316.6,
+                "ground_speed": 89.0,
+                "track": 103.9,
                 "squawk": "0130",
                 "rssi": -49.5,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-06-28T07:29:02.916720+00:00",
+                "last_seen": "2025-06-28T07:30:02.875033+00:00",
                 "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
                 "category": "Unknown"
@@ -4810,6 +4766,10 @@
                     [
                         -116.841057,
                         33.952927
+                    ],
+                    [
+                        -116.845879,
+                        33.94194
                     ]
                 ]
             }
@@ -4822,13 +4782,13 @@
                 "type": "B06",
                 "description": "BELL 206 JetRanger",
                 "operator": "PASADENA POLICE DEPARTMENT",
-                "altitude": 1800,
-                "ground_speed": 71.4,
-                "track": 78.69,
+                "altitude": 1900,
+                "ground_speed": 68.7,
+                "track": 253.94,
                 "squawk": "1200",
-                "rssi": -10.1,
+                "rssi": -20.5,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-06-28T07:29:02.916739+00:00",
+                "last_seen": "2025-06-28T07:30:02.875052+00:00",
                 "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
                 "category": "A7"
@@ -5539,6 +5499,14 @@
                     [
                         -118.145199,
                         34.143041
+                    ],
+                    [
+                        -118.148766,
+                        34.154434
+                    ],
+                    [
+                        -118.148766,
+                        34.154434
                     ]
                 ]
             }
