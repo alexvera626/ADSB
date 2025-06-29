@@ -262,9 +262,9 @@
                 "ground_speed": 0.0,
                 "track": 0.0,
                 "squawk": "1200",
-                "rssi": -22.2,
+                "rssi": -21.4,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-06-29T16:00:02.866065+00:00",
+                "last_seen": "2025-06-29T16:01:02.450158+00:00",
                 "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
                 "category": "A7"
@@ -823,6 +823,10 @@
                     [
                         -118.247293,
                         34.043976
+                    ],
+                    [
+                        -118.247279,
+                        34.043976
                     ]
                 ]
             }
@@ -1024,13 +1028,13 @@
                 "type": "AS50",
                 "description": "AEROSPATIALE AS-350 Ecureuil",
                 "operator": "COUNTY OF ORANGE - AIR SUPPORT",
-                "altitude": 1100,
-                "ground_speed": 81.6,
-                "track": 101.31,
+                "altitude": 1000,
+                "ground_speed": 53.7,
+                "track": 63.43,
                 "squawk": "4204",
-                "rssi": -12.1,
+                "rssi": -29.4,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-06-29T16:00:02.866124+00:00",
+                "last_seen": "2025-06-29T16:01:02.450230+00:00",
                 "nav_qnh": 1015.2,
                 "nav_altitude_mcp": 0,
                 "category": "A7"
@@ -1409,6 +1413,14 @@
                     [
                         -117.777641,
                         33.888519
+                    ],
+                    [
+                        -117.773952,
+                        33.889936
+                    ],
+                    [
+                        -117.773323,
+                        33.890169
                     ]
                 ]
             }
@@ -1421,13 +1433,13 @@
                 "type": "AS32",
                 "description": "AEROSPATIALE AS-332 Super Puma",
                 "operator": "COUNTY OF LOS ANGELES",
-                "altitude": 550,
-                "ground_speed": 44.1,
-                "track": 86.1,
+                "altitude": "ground",
+                "ground_speed": 0.1,
+                "track": 239.06,
                 "squawk": "1206",
-                "rssi": -11.7,
+                "rssi": -26.0,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-06-29T16:00:02.866114+00:00",
+                "last_seen": "2025-06-29T16:01:02.450210+00:00",
                 "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
                 "category": "A7"
@@ -1514,6 +1526,47 @@
                     [
                         -118.168201,
                         34.052776
+                    ],
+                    [
+                        -118.16788,
+                        34.051071
+                    ],
+                    [
+                        -118.168245,
+                        34.050911
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "hex": "A7FB70",
+                "flight": "REH80   ",
+                "type": "AS50",
+                "description": "AEROSPATIALE AS-350 Ecureuil",
+                "operator": "REACH AIR MEDICAL SERVICES LLC",
+                "altitude": 750,
+                "ground_speed": 111.1,
+                "track": 254.34,
+                "squawk": "1200",
+                "rssi": -9.5,
+                "api_source": "https://api.airplanes.live/v2/hex/",
+                "last_seen": "2025-06-29T16:01:02.450220+00:00",
+                "nav_qnh": 0.0,
+                "nav_altitude_mcp": 0,
+                "category": "A7"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -122.150757,
+                        39.160813
+                    ],
+                    [
+                        -122.157715,
+                        39.15923
                     ]
                 ]
             }
