@@ -261,12 +261,12 @@
                 "description": "GENERAL ATOMICS MQ-9 Reaper",
                 "operator": "GENERAL ATOMICS AERONAUTICAL SYSTEMS INC",
                 "altitude": 26000,
-                "ground_speed": 186.4,
-                "track": 221.3,
+                "ground_speed": 185.6,
+                "track": 221.51,
                 "squawk": "1621",
-                "rssi": -29.2,
+                "rssi": -29.6,
                 "api_source": "https://opendata.adsb.fi/api/v2/hex/",
-                "last_seen": "2025-06-30T15:08:03.238270+00:00",
+                "last_seen": "2025-06-30T15:09:03.089984+00:00",
                 "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
                 "category": "B6"
@@ -669,6 +669,39 @@
                     [
                         -99.821918,
                         47.409637
+                    ],
+                    [
+                        -99.876498,
+                        47.367554
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "hex": "A0AF01",
+                "flight": "TROY307 ",
+                "type": "Unknown",
+                "description": "Unknown",
+                "operator": "DEPARTMENT OF HOMELAND SECURITY",
+                "altitude": "ground",
+                "ground_speed": 7.2,
+                "track": 151.88,
+                "squawk": "N/A",
+                "rssi": -21.7,
+                "api_source": "https://api.airplanes.live/v2/hex/",
+                "last_seen": "2025-06-30T15:09:03.090107+00:00",
+                "nav_qnh": 0.0,
+                "nav_altitude_mcp": 0,
+                "category": "A2"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -117.258639,
+                        33.890704
                     ]
                 ]
             }
