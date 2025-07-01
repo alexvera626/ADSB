@@ -206,15 +206,15 @@
                 "type": "EC35",
                 "description": "AIRBUS HELICOPTERS EC-135/635",
                 "operator": "REACH AIR MEDICAL SERVICES LLC",
-                "altitude": 3700,
-                "ground_speed": 124.3,
-                "track": 273.69,
+                "altitude": 3250,
+                "ground_speed": 127.3,
+                "track": 274.05,
                 "squawk": "1200",
-                "rssi": -26.2,
+                "rssi": -20.8,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-07-01T16:50:03.204160+00:00",
-                "nav_qnh": 0.0,
-                "nav_altitude_mcp": 0,
+                "last_seen": "2025-07-01T16:51:03.495746+00:00",
+                "nav_qnh": 1005.6,
+                "nav_altitude_mcp": 736,
                 "category": "A7"
             },
             "geometry": {
@@ -587,6 +587,22 @@
                     [
                         -115.984211,
                         33.691763
+                    ],
+                    [
+                        -116.026892,
+                        33.694244
+                    ],
+                    [
+                        -116.026892,
+                        33.694244
+                    ],
+                    [
+                        -116.027564,
+                        33.69429
+                    ],
+                    [
+                        -116.027564,
+                        33.69429
                     ]
                 ]
             }
@@ -1637,13 +1653,13 @@
                 "type": "H60",
                 "description": "Sikorsky MH-60S Seahawk",
                 "operator": "United States Navy",
-                "altitude": "ground",
-                "ground_speed": 21.5,
-                "track": 285.12,
+                "altitude": 75,
+                "ground_speed": 64.0,
+                "track": 284.47,
                 "squawk": "1200",
-                "rssi": -18.0,
+                "rssi": -18.1,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-07-01T16:46:03.220581+00:00",
+                "last_seen": "2025-07-01T16:51:03.495684+00:00",
                 "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
                 "category": "A7"
@@ -2122,6 +2138,14 @@
                     [
                         -117.117551,
                         32.567026
+                    ],
+                    [
+                        -117.121564,
+                        32.567963
+                    ],
+                    [
+                        -117.121937,
+                        32.568039
                     ]
                 ]
             }
@@ -2793,12 +2817,12 @@
                 "description": "DE HAVILLAND DHC-8-300 Dash 8",
                 "operator": "US DEPARTMENT OF HOMELAND SECURITY",
                 "altitude": 21000,
-                "ground_speed": 260.7,
-                "track": 31.19,
+                "ground_speed": 259.0,
+                "track": 31.42,
                 "squawk": "7336",
-                "rssi": -10.2,
+                "rssi": -9.1,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-07-01T16:50:03.203580+00:00",
+                "last_seen": "2025-07-01T16:51:03.495592+00:00",
                 "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
                 "category": "Unknown"
@@ -3197,6 +3221,14 @@
                     [
                         -93.413123,
                         33.009842
+                    ],
+                    [
+                        -93.36787,
+                        33.072339
+                    ],
+                    [
+                        -93.367035,
+                        33.073471
                     ]
                 ]
             }
@@ -3210,12 +3242,12 @@
                 "description": "BEECHCRAFT Super King Air 350",
                 "operator": "DEPARTMENT OF HOMELAND SECURITY",
                 "altitude": 21000,
-                "ground_speed": 249.0,
+                "ground_speed": 250.0,
                 "track": 180.46,
                 "squawk": "7016",
-                "rssi": -18.8,
+                "rssi": -16.3,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-07-01T16:50:03.204104+00:00",
+                "last_seen": "2025-07-01T16:51:03.495694+00:00",
                 "nav_qnh": 1012.8,
                 "nav_altitude_mcp": 20992,
                 "category": "A2"
@@ -3454,6 +3486,47 @@
                     [
                         -122.860039,
                         47.103561
+                    ],
+                    [
+                        -122.861,
+                        47.034439
+                    ],
+                    [
+                        -122.861,
+                        47.033295
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "hex": "AE278C",
+                "flight": "LSXX    ",
+                "type": "H60",
+                "description": "SIKORSKY UH-60 Black Hawk",
+                "operator": "Unknown",
+                "altitude": "ground",
+                "ground_speed": 8.2,
+                "track": 255.94,
+                "squawk": "1200",
+                "rssi": -11.9,
+                "api_source": "https://api.airplanes.live/v2/hex/",
+                "last_seen": "2025-07-01T16:51:03.495755+00:00",
+                "nav_qnh": 0.0,
+                "nav_altitude_mcp": 0,
+                "category": "A7"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -117.204797,
+                        32.713538
+                    ],
+                    [
+                        -117.20484,
+                        32.713509
                     ]
                 ]
             }
