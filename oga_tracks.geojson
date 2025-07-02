@@ -10,12 +10,12 @@
                 "description": "DE HAVILLAND DHC-8-300 Dash 8",
                 "operator": "US DEPARTMENT OF HOMELAND SECURITY",
                 "altitude": 22000,
-                "ground_speed": 250.6,
-                "track": 222.09,
+                "ground_speed": 252.1,
+                "track": 222.11,
                 "squawk": "4160",
-                "rssi": -8.1,
+                "rssi": -9.3,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-07-02T15:26:01.899040+00:00",
+                "last_seen": "2025-07-02T15:27:02.837173+00:00",
                 "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
                 "category": "Unknown"
@@ -1026,6 +1026,14 @@
                     [
                         -89.501209,
                         35.986404
+                    ],
+                    [
+                        -89.559495,
+                        35.933998
+                    ],
+                    [
+                        -89.560079,
+                        35.933486
                     ]
                 ]
             }
@@ -1038,13 +1046,13 @@
                 "type": "AS50",
                 "description": "AEROSPATIALE AS-350 Ecureuil",
                 "operator": "Unknown",
-                "altitude": 725,
+                "altitude": 825,
                 "ground_speed": 100.0,
-                "track": 277.6,
+                "track": 281.6,
                 "squawk": "1200",
                 "rssi": -49.5,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-07-02T15:26:01.899246+00:00",
+                "last_seen": "2025-07-02T15:27:02.837335+00:00",
                 "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
                 "category": "Unknown"
@@ -1171,6 +1179,10 @@
                     [
                         -98.328728,
                         26.318161
+                    ],
+                    [
+                        -98.353394,
+                        26.32196
                     ]
                 ]
             }
@@ -1493,6 +1505,35 @@
                     [
                         -118.406889,
                         34.258438
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "hex": "A2097B",
+                "flight": "N230LA  ",
+                "type": "AS50",
+                "description": "AEROSPATIALE AS-350 Ecureuil",
+                "operator": "LAPD AIR SUPPORT DIVISION",
+                "altitude": "ground",
+                "ground_speed": 0.0,
+                "track": 329.06,
+                "squawk": "1200",
+                "rssi": -13.9,
+                "api_source": "https://api.airplanes.live/v2/hex/",
+                "last_seen": "2025-07-02T15:27:02.837185+00:00",
+                "nav_qnh": 1012.0,
+                "nav_altitude_mcp": 10016,
+                "category": "A7"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -118.229244,
+                        34.054321
                     ]
                 ]
             }
