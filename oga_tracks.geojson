@@ -24,14 +24,6 @@
                 "type": "LineString",
                 "coordinates": [
                     [
-                        -118.277519,
-                        34.001587
-                    ],
-                    [
-                        -118.277519,
-                        34.001587
-                    ],
-                    [
                         -118.288822,
                         33.972613
                     ],
@@ -1257,14 +1249,6 @@
                 "type": "LineString",
                 "coordinates": [
                     [
-                        -117.226923,
-                        32.702545
-                    ],
-                    [
-                        -117.226923,
-                        32.702545
-                    ],
-                    [
                         -117.210949,
                         32.699688
                     ],
@@ -1286,33 +1270,58 @@
         {
             "type": "Feature",
             "properties": {
-                "hex": "A1F894",
-                "flight": "Unknown",
-                "type": "AS50",
-                "description": "AEROSPATIALE AS-350 Ecureuil",
-                "operator": "ANAHEIM POLICE DEPT",
+                "hex": "A1588A",
+                "flight": "N186SD  ",
+                "type": "UH1",
+                "description": "BELL UH-1 Huey",
+                "operator": "ORANGE COUNTY SHERIFFS DEPT",
                 "altitude": "ground",
                 "ground_speed": 0.0,
-                "track": 185.62,
-                "squawk": "N/A",
-                "rssi": -25.9,
-                "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-07-02T02:51:02.981171+00:00",
+                "track": 0.0,
+                "squawk": "4204",
+                "rssi": -19.6,
+                "api_source": "https://opendata.adsb.fi/api/v2/hex/",
+                "last_seen": "2025-07-01T22:55:02.868134+00:00",
                 "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
-                "category": "Unknown"
+                "category": "A7"
             },
             "geometry": {
                 "type": "LineString",
                 "coordinates": [
                     [
-                        -117.857797,
-                        33.850891
+                        -117.871754,
+                        33.67511
                     ],
                     [
-                        -117.857797,
-                        33.850891
-                    ],
+                        -117.871728,
+                        33.675132
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "hex": "A1F894",
+                "flight": "N226PD  ",
+                "type": "AS50",
+                "description": "AEROSPATIALE AS-350 Ecureuil",
+                "operator": "ANAHEIM POLICE DEPT",
+                "altitude": 750,
+                "ground_speed": 64.0,
+                "track": 243.03,
+                "squawk": "4301",
+                "rssi": -4.6,
+                "api_source": "https://api.airplanes.live/v2/hex/",
+                "last_seen": "2025-07-02T02:52:03.491718+00:00",
+                "nav_qnh": 1013.6,
+                "nav_altitude_mcp": 0,
+                "category": "A7"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
                     [
                         -117.837842,
                         33.855469
@@ -1980,6 +1989,14 @@
                     [
                         -117.982752,
                         33.872486
+                    ],
+                    [
+                        -117.994621,
+                        33.869476
+                    ],
+                    [
+                        -117.994902,
+                        33.869339
                     ]
                 ]
             }
@@ -2006,14 +2023,6 @@
             "geometry": {
                 "type": "LineString",
                 "coordinates": [
-                    [
-                        -117.110951,
-                        32.565246
-                    ],
-                    [
-                        -117.110951,
-                        32.565246
-                    ],
                     [
                         -117.130792,
                         32.56723
@@ -4997,14 +5006,6 @@
                 "type": "LineString",
                 "coordinates": [
                     [
-                        -118.411149,
-                        34.009277
-                    ],
-                    [
-                        -118.411149,
-                        34.009277
-                    ],
-                    [
                         -118.351879,
                         34.032991
                     ],
@@ -6027,13 +6028,13 @@
                 "type": "H60",
                 "description": "SIKORSKY UH-60 Black Hawk",
                 "operator": "Unknown",
-                "altitude": 450,
-                "ground_speed": 113.7,
-                "track": 201.15,
+                "altitude": 425,
+                "ground_speed": 100.3,
+                "track": 196.81,
                 "squawk": "1200",
-                "rssi": -20.2,
+                "rssi": -19.6,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-07-02T02:51:02.981215+00:00",
+                "last_seen": "2025-07-02T02:52:03.491750+00:00",
                 "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
                 "category": "A7"
@@ -6041,14 +6042,6 @@
             "geometry": {
                 "type": "LineString",
                 "coordinates": [
-                    [
-                        -117.286676,
-                        32.59746
-                    ],
-                    [
-                        -117.286676,
-                        32.59746
-                    ],
                     [
                         -117.278044,
                         32.58247
@@ -7440,39 +7433,14 @@
                     [
                         -117.233762,
                         32.669569
-                    ]
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "hex": "A1588A",
-                "flight": "N186SD  ",
-                "type": "UH1",
-                "description": "BELL UH-1 Huey",
-                "operator": "ORANGE COUNTY SHERIFFS DEPT",
-                "altitude": "ground",
-                "ground_speed": 0.0,
-                "track": 0.0,
-                "squawk": "4204",
-                "rssi": -19.6,
-                "api_source": "https://opendata.adsb.fi/api/v2/hex/",
-                "last_seen": "2025-07-01T22:55:02.868134+00:00",
-                "nav_qnh": 0.0,
-                "nav_altitude_mcp": 0,
-                "category": "A7"
-            },
-            "geometry": {
-                "type": "LineString",
-                "coordinates": [
-                    [
-                        -117.871754,
-                        33.67511
                     ],
                     [
-                        -117.871728,
-                        33.675132
+                        -117.245435,
+                        32.642303
+                    ],
+                    [
+                        -117.245599,
+                        32.641937
                     ]
                 ]
             }
@@ -7485,13 +7453,13 @@
                 "type": "H60",
                 "description": "SIKORSKY UH-60 Black Hawk",
                 "operator": "Unknown",
-                "altitude": 25,
-                "ground_speed": 0.7,
-                "track": 0.0,
+                "altitude": 250,
+                "ground_speed": 58.3,
+                "track": 275.91,
                 "squawk": "1200",
-                "rssi": -15.7,
+                "rssi": -15.9,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-07-02T02:33:02.989788+00:00",
+                "last_seen": "2025-07-02T02:52:03.491760+00:00",
                 "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
                 "category": "A7"
@@ -8874,6 +8842,14 @@
                     [
                         -117.211285,
                         32.703738
+                    ],
+                    [
+                        -117.215936,
+                        32.704102
+                    ],
+                    [
+                        -117.216211,
+                        32.704102
                     ]
                 ]
             }
@@ -9347,9 +9323,9 @@
                 "ground_speed": 0.0,
                 "track": 0.0,
                 "squawk": "1200",
-                "rssi": -20.1,
+                "rssi": -22.4,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-07-02T02:51:02.981194+00:00",
+                "last_seen": "2025-07-02T02:52:03.491729+00:00",
                 "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
                 "category": "A7"
@@ -10352,6 +10328,14 @@
                     [
                         -117.203632,
                         32.712982
+                    ],
+                    [
+                        -117.203634,
+                        32.712991
+                    ],
+                    [
+                        -117.203634,
+                        32.712991
                     ]
                 ]
             }
@@ -11956,13 +11940,13 @@
                 "type": "Unknown",
                 "description": "Unknown",
                 "operator": "CITY OF HUNTINGTON BEACH",
-                "altitude": 950,
-                "ground_speed": 73.5,
-                "track": 258.23,
+                "altitude": 925,
+                "ground_speed": 53.0,
+                "track": 180.0,
                 "squawk": "4301",
-                "rssi": -28.4,
+                "rssi": -4.0,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-07-02T02:51:02.981161+00:00",
+                "last_seen": "2025-07-02T02:52:03.491687+00:00",
                 "nav_qnh": 1008.8,
                 "nav_altitude_mcp": 0,
                 "category": "A7"
@@ -12417,6 +12401,14 @@
                     [
                         -117.99036,
                         33.653823
+                    ],
+                    [
+                        -117.985317,
+                        33.656891
+                    ],
+                    [
+                        -117.985317,
+                        33.656662
                     ]
                 ]
             }
