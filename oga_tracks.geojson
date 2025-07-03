@@ -24,14 +24,6 @@
                 "type": "LineString",
                 "coordinates": [
                     [
-                        -120.980744,
-                        37.763855
-                    ],
-                    [
-                        -120.980789,
-                        37.764432
-                    ],
-                    [
                         -120.982789,
                         37.797775
                     ],
@@ -303,12 +295,12 @@
                 "description": "AEROSPATIALE AS-350 Ecureuil",
                 "operator": "ORANGE COUNTY SHERIFF'S DEPARTMENT",
                 "altitude": "ground",
-                "ground_speed": 0.7,
+                "ground_speed": 0.0,
                 "track": 0.0,
                 "squawk": "4204",
-                "rssi": -15.7,
+                "rssi": -15.5,
                 "api_source": "https://opendata.adsb.fi/api/v2/hex/",
-                "last_seen": "2025-07-03T19:00:03.145795+00:00",
+                "last_seen": "2025-07-03T19:01:03.014887+00:00",
                 "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
                 "category": "A7"
@@ -316,14 +308,6 @@
             "geometry": {
                 "type": "LineString",
                 "coordinates": [
-                    [
-                        -117.781845,
-                        33.749863
-                    ],
-                    [
-                        -117.781677,
-                        33.750046
-                    ],
                     [
                         -117.757759,
                         33.743296
@@ -4285,15 +4269,15 @@
                 "type": "AS50",
                 "description": "AEROSPATIALE AS-350 Ecureuil",
                 "operator": "CITY OF ANAHEIM",
-                "altitude": 1300,
-                "ground_speed": 92.6,
-                "track": 127.98,
+                "altitude": 1100,
+                "ground_speed": 88.7,
+                "track": 119.74,
                 "squawk": "N/A",
-                "rssi": -4.1,
+                "rssi": -29.8,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-07-03T18:59:03.667150+00:00",
-                "nav_qnh": 0.0,
-                "nav_altitude_mcp": 0,
+                "last_seen": "2025-07-03T19:01:03.015311+00:00",
+                "nav_qnh": 1013.6,
+                "nav_altitude_mcp": 4000,
                 "category": "A7"
             },
             "geometry": {
@@ -4674,6 +4658,47 @@
                     [
                         -118.893314,
                         34.04187
+                    ],
+                    [
+                        -118.834123,
+                        34.021774
+                    ],
+                    [
+                        -118.832946,
+                        34.020905
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "hex": "A054AD",
+                "flight": "N120LA  ",
+                "type": "B412",
+                "description": "BELL 412",
+                "operator": "COUNTY OF LOS ANGELES FIRE DEPT",
+                "altitude": 900,
+                "ground_speed": 0.7,
+                "track": 0.0,
+                "squawk": "1206",
+                "rssi": -1.8,
+                "api_source": "https://api.airplanes.live/v2/hex/",
+                "last_seen": "2025-07-03T19:01:03.015321+00:00",
+                "nav_qnh": 0.0,
+                "nav_altitude_mcp": 0,
+                "category": "A7"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -118.406945,
+                        34.258713
+                    ],
+                    [
+                        -118.406945,
+                        34.258713
                     ]
                 ]
             }
