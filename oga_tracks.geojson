@@ -446,20 +446,20 @@
             "type": "Feature",
             "properties": {
                 "hex": "AC4597",
-                "flight": "CMD3    ",
+                "flight": "Unknown",
                 "type": "EC35",
                 "description": "AIRBUS HELICOPTERS EC-135/635",
                 "operator": "REACH AIR MEDICAL SERVICES LLC",
-                "altitude": "ground",
-                "ground_speed": 0.1,
-                "track": 279.46,
-                "squawk": "1200",
-                "rssi": -21.6,
+                "altitude": 0,
+                "ground_speed": 0.0,
+                "track": 0.0,
+                "squawk": "N/A",
+                "rssi": -23.1,
                 "api_source": "https://opendata.adsb.fi/api/v2/hex/",
-                "last_seen": "2025-07-03T14:07:02.303478+00:00",
-                "nav_qnh": 1008.8,
+                "last_seen": "2025-07-03T14:54:02.892800+00:00",
+                "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
-                "category": "A7"
+                "category": "Unknown"
             },
             "geometry": {
                 "type": "LineString",
@@ -1176,13 +1176,13 @@
                 "type": "AS50",
                 "description": "AEROSPATIALE AS-350 Ecureuil",
                 "operator": "ORANGE COUNTY SHERIFF'S DEPARTMENT",
-                "altitude": 1425,
-                "ground_speed": 71.3,
-                "track": 157.75,
+                "altitude": 1375,
+                "ground_speed": 58.0,
+                "track": 105.0,
                 "squawk": "4204",
-                "rssi": -10.0,
+                "rssi": -12.2,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-07-03T14:53:03.202931+00:00",
+                "last_seen": "2025-07-03T14:54:02.892997+00:00",
                 "nav_qnh": 1012.8,
                 "nav_altitude_mcp": 192,
                 "category": "A7"
@@ -1501,6 +1501,14 @@
                     [
                         -117.771251,
                         33.784973
+                    ],
+                    [
+                        -117.756734,
+                        33.771378
+                    ],
+                    [
+                        -117.756734,
+                        33.771378
                     ]
                 ]
             }
