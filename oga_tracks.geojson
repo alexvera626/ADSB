@@ -24,14 +24,6 @@
                 "type": "LineString",
                 "coordinates": [
                     [
-                        -117.774639,
-                        33.811123
-                    ],
-                    [
-                        -117.774639,
-                        33.811123
-                    ],
-                    [
                         -117.800455,
                         33.812393
                     ],
@@ -613,43 +605,6 @@
         {
             "type": "Feature",
             "properties": {
-                "hex": "A7FB70",
-                "flight": "REH80   ",
-                "type": "AS50",
-                "description": "AEROSPATIALE AS-350 Ecureuil",
-                "operator": "REACH AIR MEDICAL SERVICES LLC",
-                "altitude": 300,
-                "ground_speed": 70.1,
-                "track": 87.55,
-                "squawk": "1200",
-                "rssi": -23.7,
-                "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-07-04T15:58:02.956996+00:00",
-                "nav_qnh": 0.0,
-                "nav_altitude_mcp": 0,
-                "category": "A7"
-            },
-            "geometry": {
-                "type": "LineString",
-                "coordinates": [
-                    [
-                        -122.156385,
-                        39.147858
-                    ],
-                    [
-                        -122.154419,
-                        39.151316
-                    ],
-                    [
-                        -122.137518,
-                        39.169006
-                    ]
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
                 "hex": "A31E37",
                 "flight": "PD20    ",
                 "type": "AS50",
@@ -669,14 +624,6 @@
             "geometry": {
                 "type": "LineString",
                 "coordinates": [
-                    [
-                        -117.576714,
-                        34.13643
-                    ],
-                    [
-                        -117.576714,
-                        34.13643
-                    ],
                     [
                         -117.600803,
                         34.137547
@@ -844,6 +791,35 @@
                     [
                         -117.692385,
                         34.110077
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "hex": "A7FB70",
+                "flight": "REH80   ",
+                "type": "AS50",
+                "description": "AEROSPATIALE AS-350 Ecureuil",
+                "operator": "REACH AIR MEDICAL SERVICES LLC",
+                "altitude": 300,
+                "ground_speed": 70.1,
+                "track": 87.55,
+                "squawk": "1200",
+                "rssi": -23.7,
+                "api_source": "https://api.airplanes.live/v2/hex/",
+                "last_seen": "2025-07-04T15:58:02.956996+00:00",
+                "nav_qnh": 0.0,
+                "nav_altitude_mcp": 0,
+                "category": "A7"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -122.137518,
+                        39.169006
                     ]
                 ]
             }
@@ -1843,13 +1819,13 @@
                 "type": "AS50",
                 "description": "AEROSPATIALE AS-350 Ecureuil",
                 "operator": "TINY BUBBLES AVIATION INC",
-                "altitude": 1125,
-                "ground_speed": 60.2,
-                "track": 138.37,
+                "altitude": "ground",
+                "ground_speed": 8.2,
+                "track": 106.88,
                 "squawk": "0267",
-                "rssi": -6.8,
+                "rssi": -14.2,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-07-04T19:57:02.564150+00:00",
+                "last_seen": "2025-07-04T19:58:02.595517+00:00",
                 "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
                 "category": "A7"
@@ -2624,6 +2600,14 @@
                     [
                         -118.42051,
                         34.265945
+                    ],
+                    [
+                        -118.410673,
+                        34.257351
+                    ],
+                    [
+                        -118.410715,
+                        34.257362
                     ]
                 ]
             }
