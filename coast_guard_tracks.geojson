@@ -4,6 +4,39 @@
         {
             "type": "Feature",
             "properties": {
+                "hex": "AE223C",
+                "flight": "Unknown",
+                "type": "CN35",
+                "description": "CASA HC-144A Ocean Sentry",
+                "operator": "Unknown",
+                "altitude": "ground",
+                "ground_speed": 3.2,
+                "track": 0.0,
+                "squawk": "N/A",
+                "rssi": -27.6,
+                "api_source": "https://opendata.adsb.fi/api/v2/hex/",
+                "last_seen": "2025-07-04T22:42:03.261227+00:00",
+                "nav_qnh": 0.0,
+                "nav_altitude_mcp": 0,
+                "category": "A2"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -99.084185,
+                        29.974194
+                    ],
+                    [
+                        -99.085954,
+                        29.979304
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
                 "hex": "AE269C",
                 "flight": "C6570   ",
                 "type": "AS65",
@@ -23,14 +56,6 @@
             "geometry": {
                 "type": "LineString",
                 "coordinates": [
-                    [
-                        -97.898201,
-                        29.697674
-                    ],
-                    [
-                        -97.899601,
-                        29.697767
-                    ],
                     [
                         -97.940423,
                         29.704052
@@ -485,14 +510,6 @@
                 "type": "LineString",
                 "coordinates": [
                     [
-                        -82.700641,
-                        27.921287
-                    ],
-                    [
-                        -82.700853,
-                        27.922032
-                    ],
-                    [
                         -82.693885,
                         27.935989
                     ],
@@ -539,39 +556,6 @@
                     [
                         -82.692811,
                         27.912803
-                    ]
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "hex": "AE223C",
-                "flight": "Unknown",
-                "type": "CN35",
-                "description": "CASA HC-144A Ocean Sentry",
-                "operator": "Unknown",
-                "altitude": "ground",
-                "ground_speed": 3.2,
-                "track": 0.0,
-                "squawk": "N/A",
-                "rssi": -27.6,
-                "api_source": "https://opendata.adsb.fi/api/v2/hex/",
-                "last_seen": "2025-07-04T22:42:03.261227+00:00",
-                "nav_qnh": 0.0,
-                "nav_altitude_mcp": 0,
-                "category": "A2"
-            },
-            "geometry": {
-                "type": "LineString",
-                "coordinates": [
-                    [
-                        -99.084185,
-                        29.974194
-                    ],
-                    [
-                        -99.085954,
-                        29.979304
                     ]
                 ]
             }
@@ -849,13 +833,13 @@
                 "type": "C30J",
                 "description": "Lockheed Martin HC-130J Hercules",
                 "operator": "Unknown",
-                "altitude": 27000,
-                "ground_speed": 367.1,
-                "track": 98.62,
+                "altitude": 26975,
+                "ground_speed": 367.6,
+                "track": 99.08,
                 "squawk": "2254",
-                "rssi": -14.8,
+                "rssi": -18.9,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-07-05T02:36:02.873550+00:00",
+                "last_seen": "2025-07-05T02:37:03.031136+00:00",
                 "nav_qnh": 1012.8,
                 "nav_altitude_mcp": 0,
                 "category": "A3"
@@ -2550,6 +2534,14 @@
                     [
                         -72.300502,
                         44.819733
+                    ],
+                    [
+                        -72.159446,
+                        44.80394
+                    ],
+                    [
+                        -72.159446,
+                        44.80394
                     ]
                 ]
             }
