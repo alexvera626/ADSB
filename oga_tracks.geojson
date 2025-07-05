@@ -9,13 +9,13 @@
                 "type": "H60",
                 "description": "SIKORSKY UH-60 Black Hawk",
                 "operator": "CALIFORNIA DEPT OF FORESTRY AND FIRE PROTECTION",
-                "altitude": 2875,
-                "ground_speed": 122.4,
-                "track": 157.42,
+                "altitude": 2700,
+                "ground_speed": 125.7,
+                "track": 158.54,
                 "squawk": "1255",
-                "rssi": -6.0,
+                "rssi": -12.1,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-07-05T23:15:03.306787+00:00",
+                "last_seen": "2025-07-05T23:16:03.378090+00:00",
                 "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
                 "category": "A7"
@@ -23,14 +23,6 @@
             "geometry": {
                 "type": "LineString",
                 "coordinates": [
-                    [
-                        -120.399579,
-                        38.119858
-                    ],
-                    [
-                        -120.399579,
-                        38.119858
-                    ],
                     [
                         -120.401858,
                         38.117386
@@ -666,6 +658,14 @@
                     [
                         -120.374749,
                         37.947429
+                    ],
+                    [
+                        -120.358449,
+                        37.915494
+                    ],
+                    [
+                        -120.35821,
+                        37.915075
                     ]
                 ]
             }
@@ -692,14 +692,6 @@
             "geometry": {
                 "type": "LineString",
                 "coordinates": [
-                    [
-                        -117.815981,
-                        33.622467
-                    ],
-                    [
-                        -117.815437,
-                        33.622959
-                    ],
                     [
                         -117.824838,
                         33.644165
@@ -766,59 +758,6 @@
         {
             "type": "Feature",
             "properties": {
-                "hex": "A7FB70",
-                "flight": "REH80   ",
-                "type": "AS50",
-                "description": "AEROSPATIALE AS-350 Ecureuil",
-                "operator": "REACH AIR MEDICAL SERVICES LLC",
-                "altitude": 75,
-                "ground_speed": 47.9,
-                "track": 26.03,
-                "squawk": "1200",
-                "rssi": -22.6,
-                "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-07-05T19:21:03.273061+00:00",
-                "nav_qnh": 0.0,
-                "nav_altitude_mcp": 0,
-                "category": "A7"
-            },
-            "geometry": {
-                "type": "LineString",
-                "coordinates": [
-                    [
-                        -122.028669,
-                        39.099609
-                    ],
-                    [
-                        -122.052185,
-                        39.108023
-                    ],
-                    [
-                        -122.087646,
-                        39.12143
-                    ],
-                    [
-                        -122.121582,
-                        39.131252
-                    ],
-                    [
-                        -122.152527,
-                        39.137258
-                    ],
-                    [
-                        -122.14307,
-                        39.144562
-                    ],
-                    [
-                        -122.135189,
-                        39.16214
-                    ]
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
                 "hex": "A1511C",
                 "flight": "N184SD  ",
                 "type": "AS50",
@@ -838,14 +777,6 @@
             "geometry": {
                 "type": "LineString",
                 "coordinates": [
-                    [
-                        -117.770915,
-                        33.613815
-                    ],
-                    [
-                        -117.770355,
-                        33.614639
-                    ],
                     [
                         -117.774982,
                         33.618257
@@ -1613,6 +1544,51 @@
                     [
                         -117.871193,
                         33.675201
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "hex": "A7FB70",
+                "flight": "REH80   ",
+                "type": "AS50",
+                "description": "AEROSPATIALE AS-350 Ecureuil",
+                "operator": "REACH AIR MEDICAL SERVICES LLC",
+                "altitude": 75,
+                "ground_speed": 47.9,
+                "track": 26.03,
+                "squawk": "1200",
+                "rssi": -22.6,
+                "api_source": "https://api.airplanes.live/v2/hex/",
+                "last_seen": "2025-07-05T19:21:03.273061+00:00",
+                "nav_qnh": 0.0,
+                "nav_altitude_mcp": 0,
+                "category": "A7"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -122.087646,
+                        39.12143
+                    ],
+                    [
+                        -122.121582,
+                        39.131252
+                    ],
+                    [
+                        -122.152527,
+                        39.137258
+                    ],
+                    [
+                        -122.14307,
+                        39.144562
+                    ],
+                    [
+                        -122.135189,
+                        39.16214
                     ]
                 ]
             }
