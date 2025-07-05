@@ -1110,20 +1110,20 @@
             "type": "Feature",
             "properties": {
                 "hex": "A154D3",
-                "flight": "N185SD  ",
+                "flight": "Unknown",
                 "type": "AS50",
                 "description": "AEROSPATIALE AS-350 Ecureuil",
                 "operator": "ORANGE COUNTY SHERIFF'S DEPARTMENT",
-                "altitude": -50,
+                "altitude": 0,
                 "ground_speed": 0.0,
                 "track": 0.0,
-                "squawk": "4204",
-                "rssi": -12.5,
-                "api_source": "https://opendata.adsb.fi/api/v2/hex/",
-                "last_seen": "2025-07-05T20:40:03.048234+00:00",
+                "squawk": "N/A",
+                "rssi": -23.0,
+                "api_source": "https://api.airplanes.live/v2/hex/",
+                "last_seen": "2025-07-05T20:41:02.901181+00:00",
                 "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
-                "category": "A7"
+                "category": "Unknown"
             },
             "geometry": {
                 "type": "LineString",
@@ -1796,13 +1796,13 @@
                 "type": "EC35",
                 "description": "AIRBUS HELICOPTERS EC-135/635",
                 "operator": "REACH AIR MEDICAL SERVICES LLC",
-                "altitude": 9375,
-                "ground_speed": 136.0,
-                "track": 62.87,
+                "altitude": 9025,
+                "ground_speed": 134.2,
+                "track": 64.39,
                 "squawk": "1200",
-                "rssi": -21.3,
+                "rssi": -27.3,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-07-05T20:40:03.048385+00:00",
+                "last_seen": "2025-07-05T20:41:02.901170+00:00",
                 "nav_qnh": 1025.6,
                 "nav_altitude_mcp": 0,
                 "category": "A7"
@@ -2097,6 +2097,14 @@
                     [
                         -120.192017,
                         38.919998
+                    ],
+                    [
+                        -120.175682,
+                        38.926712
+                    ],
+                    [
+                        -120.170044,
+                        38.92889
                     ]
                 ]
             }
