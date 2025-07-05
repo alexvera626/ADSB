@@ -590,18 +590,47 @@
         {
             "type": "Feature",
             "properties": {
+                "hex": "A7FB70",
+                "flight": "REH80   ",
+                "type": "AS50",
+                "description": "AEROSPATIALE AS-350 Ecureuil",
+                "operator": "REACH AIR MEDICAL SERVICES LLC",
+                "altitude": 500,
+                "ground_speed": 127.1,
+                "track": 129.57,
+                "squawk": "1200",
+                "rssi": -24.9,
+                "api_source": "https://api.airplanes.live/v2/hex/",
+                "last_seen": "2025-07-05T15:08:03.413985+00:00",
+                "nav_qnh": 0.0,
+                "nav_altitude_mcp": 0,
+                "category": "A7"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -121.975409,
+                        39.078598
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
                 "hex": "A4CAAA",
                 "flight": "CFR230  ",
                 "type": "V10",
                 "description": "NORTH AMERICAN OV-10 Bronco",
                 "operator": "USDA FOREST SERVICE FEPP",
                 "altitude": 4200,
-                "ground_speed": 187.0,
-                "track": 179.39,
+                "ground_speed": 212.4,
+                "track": 188.66,
                 "squawk": "1255",
-                "rssi": -5.0,
+                "rssi": -9.6,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-07-05T15:07:02.486664+00:00",
+                "last_seen": "2025-07-05T15:08:03.413975+00:00",
                 "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
                 "category": "A1"
@@ -624,6 +653,14 @@
                     [
                         -121.081909,
                         39.189024
+                    ],
+                    [
+                        -121.085571,
+                        39.133347
+                    ],
+                    [
+                        -121.085754,
+                        39.13237
                     ]
                 ]
             }
