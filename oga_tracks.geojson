@@ -9,13 +9,13 @@
                 "type": "H60",
                 "description": "SIKORSKY UH-60 Black Hawk",
                 "operator": "CALIFORNIA DEPT OF FORESTRY AND FIRE PROTECTION",
-                "altitude": 2625,
-                "ground_speed": 127.8,
-                "track": 159.86,
+                "altitude": 2450,
+                "ground_speed": 127.9,
+                "track": 158.45,
                 "squawk": "1255",
-                "rssi": -21.0,
+                "rssi": -27.4,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-07-05T23:17:02.892682+00:00",
+                "last_seen": "2025-07-05T23:18:02.719308+00:00",
                 "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
                 "category": "A7"
@@ -23,14 +23,6 @@
             "geometry": {
                 "type": "LineString",
                 "coordinates": [
-                    [
-                        -120.401858,
-                        38.117386
-                    ],
-                    [
-                        -120.401858,
-                        38.117386
-                    ],
                     [
                         -120.401917,
                         38.117298
@@ -674,6 +666,14 @@
                     [
                         -120.343343,
                         37.882163
+                    ],
+                    [
+                        -120.327341,
+                        37.848971
+                    ],
+                    [
+                        -120.327341,
+                        37.848971
                     ]
                 ]
             }
@@ -700,14 +700,6 @@
             "geometry": {
                 "type": "LineString",
                 "coordinates": [
-                    [
-                        -117.824838,
-                        33.644165
-                    ],
-                    [
-                        -117.824838,
-                        33.644165
-                    ],
                     [
                         -117.855377,
                         33.666346
@@ -766,6 +758,47 @@
         {
             "type": "Feature",
             "properties": {
+                "hex": "A7FB70",
+                "flight": "REH80   ",
+                "type": "AS50",
+                "description": "AEROSPATIALE AS-350 Ecureuil",
+                "operator": "REACH AIR MEDICAL SERVICES LLC",
+                "altitude": 75,
+                "ground_speed": 47.9,
+                "track": 26.03,
+                "squawk": "1200",
+                "rssi": -22.6,
+                "api_source": "https://api.airplanes.live/v2/hex/",
+                "last_seen": "2025-07-05T19:21:03.273061+00:00",
+                "nav_qnh": 0.0,
+                "nav_altitude_mcp": 0,
+                "category": "A7"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -122.121582,
+                        39.131252
+                    ],
+                    [
+                        -122.152527,
+                        39.137258
+                    ],
+                    [
+                        -122.14307,
+                        39.144562
+                    ],
+                    [
+                        -122.135189,
+                        39.16214
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
                 "hex": "A1511C",
                 "flight": "N184SD  ",
                 "type": "AS50",
@@ -785,14 +818,6 @@
             "geometry": {
                 "type": "LineString",
                 "coordinates": [
-                    [
-                        -117.774982,
-                        33.618257
-                    ],
-                    [
-                        -117.774982,
-                        33.618257
-                    ],
                     [
                         -117.77596,
                         33.596329
@@ -1552,51 +1577,6 @@
                     [
                         -117.871193,
                         33.675201
-                    ]
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "hex": "A7FB70",
-                "flight": "REH80   ",
-                "type": "AS50",
-                "description": "AEROSPATIALE AS-350 Ecureuil",
-                "operator": "REACH AIR MEDICAL SERVICES LLC",
-                "altitude": 75,
-                "ground_speed": 47.9,
-                "track": 26.03,
-                "squawk": "1200",
-                "rssi": -22.6,
-                "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-07-05T19:21:03.273061+00:00",
-                "nav_qnh": 0.0,
-                "nav_altitude_mcp": 0,
-                "category": "A7"
-            },
-            "geometry": {
-                "type": "LineString",
-                "coordinates": [
-                    [
-                        -122.087646,
-                        39.12143
-                    ],
-                    [
-                        -122.121582,
-                        39.131252
-                    ],
-                    [
-                        -122.152527,
-                        39.137258
-                    ],
-                    [
-                        -122.14307,
-                        39.144562
-                    ],
-                    [
-                        -122.135189,
-                        39.16214
                     ]
                 ]
             }
