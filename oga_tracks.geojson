@@ -693,13 +693,13 @@
                 "type": "AS50",
                 "description": "AEROSPATIALE AS-350 Ecureuil",
                 "operator": "CITY OF ONTARIO",
-                "altitude": 2000,
-                "ground_speed": 57.7,
-                "track": 205.68,
+                "altitude": 2075,
+                "ground_speed": 63.0,
+                "track": 48.22,
                 "squawk": "4274",
-                "rssi": -21.6,
+                "rssi": -23.1,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-07-08T16:25:02.934656+00:00",
+                "last_seen": "2025-07-08T16:26:02.964195+00:00",
                 "nav_qnh": 1018.4,
                 "nav_altitude_mcp": 8512,
                 "category": "A7"
@@ -1142,6 +1142,14 @@
                     [
                         -117.624607,
                         34.079078
+                    ],
+                    [
+                        -117.611725,
+                        34.072998
+                    ],
+                    [
+                        -117.611557,
+                        34.073135
                     ]
                 ]
             }
@@ -1150,20 +1158,20 @@
             "type": "Feature",
             "properties": {
                 "hex": "A03F75",
-                "flight": "Unknown",
+                "flight": "00000000",
                 "type": "BE30",
                 "description": "BEECH 300 Super King Air",
                 "operator": "DEPARTMENT OF HOMELAND SECURITY",
-                "altitude": 5025,
-                "ground_speed": 172.8,
-                "track": 163.87,
-                "squawk": "N/A",
-                "rssi": -22.8,
+                "altitude": 6875,
+                "ground_speed": 174.6,
+                "track": 156.37,
+                "squawk": "4401",
+                "rssi": -18.8,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-07-08T16:25:02.934666+00:00",
-                "nav_qnh": 0.0,
-                "nav_altitude_mcp": 0,
-                "category": "Unknown"
+                "last_seen": "2025-07-08T16:26:02.964205+00:00",
+                "nav_qnh": 1020.8,
+                "nav_altitude_mcp": 7488,
+                "category": "A2"
             },
             "geometry": {
                 "type": "LineString",
@@ -1183,6 +1191,47 @@
                     [
                         -81.388496,
                         31.118317
+                    ],
+                    [
+                        -81.360352,
+                        31.069662
+                    ],
+                    [
+                        -81.360352,
+                        31.069662
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "hex": "A1588A",
+                "flight": "N186SD  ",
+                "type": "UH1",
+                "description": "BELL UH-1 Huey",
+                "operator": "ORANGE COUNTY SHERIFFS DEPT",
+                "altitude": "ground",
+                "ground_speed": 0.7,
+                "track": 0.0,
+                "squawk": "N/A",
+                "rssi": -9.0,
+                "api_source": "https://api.airplanes.live/v2/hex/",
+                "last_seen": "2025-07-08T16:26:02.964184+00:00",
+                "nav_qnh": 0.0,
+                "nav_altitude_mcp": 0,
+                "category": "A7"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -117.871488,
+                        33.675041
+                    ],
+                    [
+                        -117.871474,
+                        33.675053
                     ]
                 ]
             }
