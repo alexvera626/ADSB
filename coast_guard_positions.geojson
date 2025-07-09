@@ -12,10 +12,10 @@
                 "altitude": "ground",
                 "ground_speed": 0.0,
                 "track": 0.0,
-                "squawk": "N/A",
+                "squawk": "1200",
                 "rssi": null,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-07-09T03:47:02.905393+00:00",
+                "last_seen": "2025-07-09T03:48:03.453673+00:00",
                 "nav_qnh": null,
                 "nav_altitude_mcp": null,
                 "category": "A3"
@@ -63,13 +63,13 @@
                 "type": "AS65",
                 "description": "Eurocopter MH-65D Dolphin",
                 "operator": "Unknown",
-                "altitude": 75,
-                "ground_speed": 113.2,
-                "track": 17.47,
+                "altitude": 150,
+                "ground_speed": 108.3,
+                "track": 11.73,
                 "squawk": "4420",
                 "rssi": null,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-07-09T03:47:02.905423+00:00",
+                "last_seen": "2025-07-09T03:48:03.453692+00:00",
                 "nav_qnh": null,
                 "nav_altitude_mcp": null,
                 "category": "A7"
@@ -77,8 +77,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -124.145081,
-                    40.9086
+                    -124.134646,
+                    40.939016
                 ]
             }
         },
@@ -117,13 +117,13 @@
                 "type": "H60",
                 "description": "Sikorsky MH-60T Jayhawk",
                 "operator": "Unknown",
-                "altitude": -125,
-                "ground_speed": 3.2,
-                "track": 108.43,
+                "altitude": "ground",
+                "ground_speed": 1.6,
+                "track": 0.0,
                 "squawk": "1200",
                 "rssi": null,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-07-09T03:47:02.905438+00:00",
+                "last_seen": "2025-07-09T03:48:03.453718+00:00",
                 "nav_qnh": null,
                 "nav_altitude_mcp": null,
                 "category": "A7"
@@ -131,8 +131,35 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -117.208136,
-                    32.69252
+                    -117.207188,
+                    32.69236
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "hex": "AE2BF1",
+                "flight": "ER33    ",
+                "type": "H60",
+                "description": "SIKORSKY UH-60 Black Hawk",
+                "operator": "Unknown",
+                "altitude": 350,
+                "ground_speed": 141.0,
+                "track": 270.81,
+                "squawk": "1200",
+                "rssi": null,
+                "api_source": "https://opendata.adsb.fi/api/v2/hex/",
+                "last_seen": "2025-07-09T03:48:03.453444+00:00",
+                "nav_qnh": null,
+                "nav_altitude_mcp": null,
+                "category": "A7"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -157.177551,
+                    21.059738
                 ]
             }
         }
