@@ -9506,14 +9506,14 @@
                 "type": "C30J",
                 "description": "Lockheed Martin HC-130J Hercules",
                 "operator": "Unknown",
-                "altitude": 9850,
-                "ground_speed": 247.6,
-                "track": 299.26,
-                "squawk": "2336",
-                "rssi": -17.1,
+                "altitude": 0,
+                "ground_speed": 0.0,
+                "track": 0.0,
+                "squawk": "N/A",
+                "rssi": -17.6,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-07-09T05:17:03.103536+00:00",
-                "nav_qnh": 1016.8,
+                "last_seen": "2025-07-09T05:18:03.113238+00:00",
+                "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
                 "category": "A3"
             },
@@ -9871,6 +9871,39 @@
                     [
                         -158.510132,
                         21.339779
+                    ],
+                    [
+                        -158.580577,
+                        21.377905
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "hex": "AE2680",
+                "flight": "C6538   ",
+                "type": "AS65",
+                "description": "Eurocopter MH-65D Dolphin",
+                "operator": "Unknown",
+                "altitude": "ground",
+                "ground_speed": 7.8,
+                "track": 0.0,
+                "squawk": "1200",
+                "rssi": -16.0,
+                "api_source": "https://api.airplanes.live/v2/hex/",
+                "last_seen": "2025-07-09T05:18:03.113256+00:00",
+                "nav_qnh": 0.0,
+                "nav_altitude_mcp": 0,
+                "category": "A7"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -158.0723,
+                        21.301884
                     ]
                 ]
             }
