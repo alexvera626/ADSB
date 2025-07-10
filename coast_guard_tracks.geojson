@@ -24,14 +24,6 @@
                 "type": "LineString",
                 "coordinates": [
                     [
-                        -98.532338,
-                        28.828358
-                    ],
-                    [
-                        -98.532176,
-                        28.831616
-                    ],
-                    [
                         -98.534528,
                         28.775162
                     ],
@@ -236,14 +228,6 @@
             "geometry": {
                 "type": "LineString",
                 "coordinates": [
-                    [
-                        -74.502848,
-                        40.075099
-                    ],
-                    [
-                        -74.502848,
-                        40.075099
-                    ],
                     [
                         -74.532593,
                         40.052765
@@ -522,14 +506,6 @@
                 "type": "LineString",
                 "coordinates": [
                     [
-                        -87.881685,
-                        30.874054
-                    ],
-                    [
-                        -87.893799,
-                        30.856659
-                    ],
-                    [
                         -87.920453,
                         30.821166
                     ],
@@ -698,14 +674,6 @@
             "geometry": {
                 "type": "LineString",
                 "coordinates": [
-                    [
-                        -78.243577,
-                        37.058075
-                    ],
-                    [
-                        -78.243577,
-                        37.058075
-                    ],
                     [
                         -78.323504,
                         37.018479
@@ -2260,10 +2228,6 @@
             "geometry": {
                 "type": "LineString",
                 "coordinates": [
-                    [
-                        -75.087075,
-                        39.360306
-                    ],
                     [
                         -75.110046,
                         39.368483
@@ -8317,13 +8281,13 @@
                 "type": "H60",
                 "description": "Sikorsky MH-60T Jayhawk",
                 "operator": "Unknown",
-                "altitude": 900,
-                "ground_speed": 71.2,
-                "track": 197.16,
+                "altitude": 1200,
+                "ground_speed": 68.5,
+                "track": 25.07,
                 "squawk": "1200",
-                "rssi": -11.5,
+                "rssi": -7.5,
                 "api_source": "https://opendata.adsb.fi/api/v2/hex/",
-                "last_seen": "2025-07-10T00:07:02.947705+00:00",
+                "last_seen": "2025-07-10T00:08:02.814442+00:00",
                 "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
                 "category": "A7"
@@ -8598,6 +8562,10 @@
                     [
                         -85.577087,
                         44.736282
+                    ],
+                    [
+                        -85.555573,
+                        44.730103
                     ]
                 ]
             }
@@ -9690,12 +9658,12 @@
                 "description": "Eurocopter MH-65D Dolphin",
                 "operator": "Unknown",
                 "altitude": 1825,
-                "ground_speed": 135.0,
-                "track": 161.43,
+                "ground_speed": 115.6,
+                "track": 264.04,
                 "squawk": "1200",
-                "rssi": -9.6,
+                "rssi": -7.1,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-07-10T00:07:02.947902+00:00",
+                "last_seen": "2025-07-10T00:08:02.815182+00:00",
                 "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
                 "category": "A7"
@@ -9926,6 +9894,14 @@
                     [
                         -81.765692,
                         30.035597
+                    ],
+                    [
+                        -81.786643,
+                        30.013687
+                    ],
+                    [
+                        -81.786643,
+                        30.013687
                     ]
                 ]
             }
@@ -9968,12 +9944,12 @@
                 "description": "CASA HC-144B Ocean Sentry",
                 "operator": "United States Coast Guard",
                 "altitude": 375,
-                "ground_speed": 200.7,
-                "track": 9.46,
+                "ground_speed": 202.5,
+                "track": 9.09,
                 "squawk": "4423",
-                "rssi": -25.8,
+                "rssi": -24.5,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-07-10T00:07:02.947857+00:00",
+                "last_seen": "2025-07-10T00:08:02.815148+00:00",
                 "nav_qnh": 1017.6,
                 "nav_altitude_mcp": 512,
                 "category": "A2"
@@ -10028,6 +10004,47 @@
                     [
                         -80.076546,
                         26.003149
+                    ],
+                    [
+                        -80.066131,
+                        26.059891
+                    ],
+                    [
+                        -80.066131,
+                        26.059891
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "hex": "AE269A",
+                "flight": "C6568   ",
+                "type": "AS65",
+                "description": "Eurocopter MH-65D Dolphin",
+                "operator": "Unknown",
+                "altitude": 350,
+                "ground_speed": 96.2,
+                "track": 253.07,
+                "squawk": "4424",
+                "rssi": -13.9,
+                "api_source": "https://api.airplanes.live/v2/hex/",
+                "last_seen": "2025-07-10T00:08:02.815194+00:00",
+                "nav_qnh": 0.0,
+                "nav_altitude_mcp": 0,
+                "category": "A7"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -80.281431,
+                        25.908322
+                    ],
+                    [
+                        -80.281431,
+                        25.908322
                     ]
                 ]
             }
