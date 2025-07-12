@@ -24,22 +24,6 @@
                 "type": "LineString",
                 "coordinates": [
                     [
-                        -82.896208,
-                        28.034921
-                    ],
-                    [
-                        -82.895543,
-                        28.035233
-                    ],
-                    [
-                        -82.815787,
-                        28.062469
-                    ],
-                    [
-                        -82.815787,
-                        28.062469
-                    ],
-                    [
                         -82.739545,
                         28.075049
                     ],
@@ -133,6 +117,39 @@
         {
             "type": "Feature",
             "properties": {
+                "hex": "AE269C",
+                "flight": "C6570   ",
+                "type": "AS65",
+                "description": "Eurocopter MH-65D Dolphin",
+                "operator": "Unknown",
+                "altitude": "ground",
+                "ground_speed": 0.0,
+                "track": 0.0,
+                "squawk": "N/A",
+                "rssi": -18.0,
+                "api_source": "https://opendata.adsb.fi/api/v2/hex/",
+                "last_seen": "2025-07-11T23:49:03.169462+00:00",
+                "nav_qnh": 0.0,
+                "nav_altitude_mcp": 0,
+                "category": "A7"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -99.084911,
+                        29.977686
+                    ],
+                    [
+                        -99.085693,
+                        29.979001
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
                 "hex": "AE223C",
                 "flight": "Unknown",
                 "type": "CN35",
@@ -152,10 +169,6 @@
             "geometry": {
                 "type": "LineString",
                 "coordinates": [
-                    [
-                        -99.089621,
-                        29.977767
-                    ],
                     [
                         -99.072714,
                         29.963882
@@ -535,39 +548,6 @@
                     [
                         -97.520348,
                         27.783371
-                    ]
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "hex": "AE269C",
-                "flight": "C6570   ",
-                "type": "AS65",
-                "description": "Eurocopter MH-65D Dolphin",
-                "operator": "Unknown",
-                "altitude": "ground",
-                "ground_speed": 0.0,
-                "track": 0.0,
-                "squawk": "N/A",
-                "rssi": -18.0,
-                "api_source": "https://opendata.adsb.fi/api/v2/hex/",
-                "last_seen": "2025-07-11T23:49:03.169462+00:00",
-                "nav_qnh": 0.0,
-                "nav_altitude_mcp": 0,
-                "category": "A7"
-            },
-            "geometry": {
-                "type": "LineString",
-                "coordinates": [
-                    [
-                        -99.084911,
-                        29.977686
-                    ],
-                    [
-                        -99.085693,
-                        29.979001
                     ]
                 ]
             }
@@ -5194,17 +5174,17 @@
             "type": "Feature",
             "properties": {
                 "hex": "AE2917",
-                "flight": "C6040   ",
+                "flight": "Unknown",
                 "type": "H60",
                 "description": "Sikorsky MH-60T Jayhawk",
                 "operator": "Unknown",
                 "altitude": "ground",
                 "ground_speed": 5.2,
                 "track": 0.0,
-                "squawk": "N/A",
+                "squawk": "1200",
                 "rssi": -34.9,
                 "api_source": "https://opendata.adsb.fi/api/v2/hex/",
-                "last_seen": "2025-07-12T03:35:03.371443+00:00",
+                "last_seen": "2025-07-12T03:43:03.001547+00:00",
                 "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
                 "category": "A7"
@@ -5835,6 +5815,10 @@
                     [
                         -117.869788,
                         32.647305
+                    ],
+                    [
+                        -117.883575,
+                        32.64299
                     ]
                 ]
             }
