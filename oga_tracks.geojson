@@ -4,6 +4,47 @@
         {
             "type": "Feature",
             "properties": {
+                "hex": "A31E37",
+                "flight": "PD50    ",
+                "type": "AS50",
+                "description": "AEROSPATIALE AS-350 Ecureuil",
+                "operator": "CITY OF ONTARIO",
+                "altitude": 1475,
+                "ground_speed": 38.9,
+                "track": 287.97,
+                "squawk": "4274",
+                "rssi": -34.1,
+                "api_source": "https://api.airplanes.live/v2/hex/",
+                "last_seen": "2025-07-13T07:45:02.761040+00:00",
+                "nav_qnh": 1015.2,
+                "nav_altitude_mcp": 8512,
+                "category": "A7"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -117.683697,
+                        34.108429
+                    ],
+                    [
+                        -117.683773,
+                        34.108545
+                    ],
+                    [
+                        -117.691152,
+                        34.110168
+                    ],
+                    [
+                        -117.686332,
+                        34.11113
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
                 "hex": "ADDF5C",
                 "flight": "N993SD  ",
                 "type": "AS50",
@@ -23,18 +64,6 @@
             "geometry": {
                 "type": "LineString",
                 "coordinates": [
-                    [
-                        -117.220702,
-                        33.937637
-                    ],
-                    [
-                        -117.217312,
-                        33.932019
-                    ],
-                    [
-                        -117.221823,
-                        33.9375
-                    ],
                     [
                         -117.217507,
                         33.93219
@@ -278,55 +307,6 @@
                     [
                         -117.057438,
                         33.743902
-                    ]
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "hex": "A31E37",
-                "flight": "PD50    ",
-                "type": "AS50",
-                "description": "AEROSPATIALE AS-350 Ecureuil",
-                "operator": "CITY OF ONTARIO",
-                "altitude": 1475,
-                "ground_speed": 38.9,
-                "track": 287.97,
-                "squawk": "4274",
-                "rssi": -34.1,
-                "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-07-13T07:45:02.761040+00:00",
-                "nav_qnh": 1015.2,
-                "nav_altitude_mcp": 8512,
-                "category": "A7"
-            },
-            "geometry": {
-                "type": "LineString",
-                "coordinates": [
-                    [
-                        -117.696141,
-                        34.098724
-                    ],
-                    [
-                        -117.695217,
-                        34.098444
-                    ],
-                    [
-                        -117.683697,
-                        34.108429
-                    ],
-                    [
-                        -117.683773,
-                        34.108545
-                    ],
-                    [
-                        -117.691152,
-                        34.110168
-                    ],
-                    [
-                        -117.686332,
-                        34.11113
                     ]
                 ]
             }
