@@ -24,22 +24,6 @@
                 "type": "LineString",
                 "coordinates": [
                     [
-                        -80.247243,
-                        25.554932
-                    ],
-                    [
-                        -80.247872,
-                        25.554525
-                    ],
-                    [
-                        -80.207761,
-                        25.576032
-                    ],
-                    [
-                        -80.206466,
-                        25.576637
-                    ],
-                    [
                         -80.163523,
                         25.595581
                     ],
@@ -409,22 +393,6 @@
                 "type": "LineString",
                 "coordinates": [
                     [
-                        -77.05896,
-                        38.752271
-                    ],
-                    [
-                        -77.05896,
-                        38.752271
-                    ],
-                    [
-                        -77.085693,
-                        38.759579
-                    ],
-                    [
-                        -77.085266,
-                        38.76051
-                    ],
-                    [
                         -77.078735,
                         38.787045
                     ],
@@ -513,22 +481,6 @@
             "geometry": {
                 "type": "LineString",
                 "coordinates": [
-                    [
-                        -79.956409,
-                        32.775375
-                    ],
-                    [
-                        -79.956409,
-                        32.775375
-                    ],
-                    [
-                        -79.945268,
-                        32.76137
-                    ],
-                    [
-                        -79.944651,
-                        32.761137
-                    ],
                     [
                         -79.920538,
                         32.754822
@@ -1035,22 +987,6 @@
                 "type": "LineString",
                 "coordinates": [
                     [
-                        -83.048151,
-                        42.550919
-                    ],
-                    [
-                        -83.048151,
-                        42.550919
-                    ],
-                    [
-                        -83.009886,
-                        42.568222
-                    ],
-                    [
-                        -83.008451,
-                        42.568771
-                    ],
-                    [
                         -82.965812,
                         42.582961
                     ],
@@ -1119,22 +1055,6 @@
             "geometry": {
                 "type": "LineString",
                 "coordinates": [
-                    [
-                        -82.443942,
-                        28.476013
-                    ],
-                    [
-                        -82.443942,
-                        28.476013
-                    ],
-                    [
-                        -82.457622,
-                        28.456009
-                    ],
-                    [
-                        -82.457455,
-                        28.455474
-                    ],
                     [
                         -82.450508,
                         28.423167
@@ -1477,39 +1397,6 @@
         {
             "type": "Feature",
             "properties": {
-                "hex": "AE4DFF",
-                "flight": "Unknown",
-                "type": "H60",
-                "description": "Sikorsky MH-60T Jayhawk",
-                "operator": "Unknown",
-                "altitude": 1675,
-                "ground_speed": 129.5,
-                "track": 226.57,
-                "squawk": "N/A",
-                "rssi": -14.7,
-                "api_source": "https://opendata.adsb.fi/api/v2/hex/",
-                "last_seen": "2025-07-13T14:51:03.275934+00:00",
-                "nav_qnh": 0.0,
-                "nav_altitude_mcp": 0,
-                "category": "A7"
-            },
-            "geometry": {
-                "type": "LineString",
-                "coordinates": [
-                    [
-                        -85.905583,
-                        44.54309
-                    ],
-                    [
-                        -86.115663,
-                        44.380622
-                    ]
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
                 "hex": "AE57D2",
                 "flight": "C2008   ",
                 "type": "C30J",
@@ -1529,22 +1416,6 @@
             "geometry": {
                 "type": "LineString",
                 "coordinates": [
-                    [
-                        -76.738758,
-                        35.817307
-                    ],
-                    [
-                        -76.723315,
-                        35.870082
-                    ],
-                    [
-                        -76.708775,
-                        35.919388
-                    ],
-                    [
-                        -76.70327,
-                        35.938933
-                    ],
                     [
                         -76.700699,
                         35.947545
@@ -1766,14 +1637,6 @@
             "geometry": {
                 "type": "LineString",
                 "coordinates": [
-                    [
-                        -95.461684,
-                        29.238556
-                    ],
-                    [
-                        -95.461713,
-                        29.219164
-                    ],
                     [
                         -95.462252,
                         29.196633
@@ -2073,6 +1936,35 @@
                     [
                         -95.166532,
                         29.612823
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "hex": "AE4DFF",
+                "flight": "Unknown",
+                "type": "H60",
+                "description": "Sikorsky MH-60T Jayhawk",
+                "operator": "Unknown",
+                "altitude": 1675,
+                "ground_speed": 129.5,
+                "track": 226.57,
+                "squawk": "N/A",
+                "rssi": -14.7,
+                "api_source": "https://opendata.adsb.fi/api/v2/hex/",
+                "last_seen": "2025-07-13T14:51:03.275934+00:00",
+                "nav_qnh": 0.0,
+                "nav_altitude_mcp": 0,
+                "category": "A7"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -86.115663,
+                        44.380622
                     ]
                 ]
             }
@@ -3099,13 +2991,13 @@
                 "type": "H60",
                 "description": "Sikorsky MH-60T Jayhawk",
                 "operator": "Unknown",
-                "altitude": 1200,
-                "ground_speed": 86.4,
-                "track": 76.61,
-                "squawk": "N/A",
-                "rssi": -24.8,
+                "altitude": 1450,
+                "ground_speed": 123.2,
+                "track": 137.63,
+                "squawk": "4021",
+                "rssi": -4.3,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-07-13T18:45:02.691805+00:00",
+                "last_seen": "2025-07-13T18:46:03.149698+00:00",
                 "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
                 "category": "A7"
@@ -4364,6 +4256,14 @@
                     [
                         -117.313879,
                         33.402969
+                    ],
+                    [
+                        -117.281295,
+                        33.389732
+                    ],
+                    [
+                        -117.281295,
+                        33.389732
                     ]
                 ]
             }
@@ -6444,13 +6344,13 @@
                 "type": "AS65",
                 "description": "Eurocopter MH-65D Dolphin",
                 "operator": "Unknown",
-                "altitude": 600,
-                "ground_speed": 42.0,
-                "track": 1.36,
+                "altitude": 500,
+                "ground_speed": 27.2,
+                "track": 36.03,
                 "squawk": "1200",
-                "rssi": -19.1,
+                "rssi": -26.1,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-07-13T18:45:02.691855+00:00",
+                "last_seen": "2025-07-13T18:46:03.149746+00:00",
                 "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
                 "category": "A7"
@@ -7977,6 +7877,22 @@
                     [
                         -122.283184,
                         47.896806
+                    ],
+                    [
+                        -122.281424,
+                        47.909049
+                    ],
+                    [
+                        -122.281424,
+                        47.909049
+                    ],
+                    [
+                        -122.281424,
+                        47.909049
+                    ],
+                    [
+                        -122.281424,
+                        47.909049
                     ]
                 ]
             }
@@ -7989,13 +7905,13 @@
                 "type": "AS65",
                 "description": "Eurocopter MH-65D Dolphin",
                 "operator": "Unknown",
-                "altitude": 350,
-                "ground_speed": 0.0,
+                "altitude": 0,
+                "ground_speed": 1.2,
                 "track": 0.0,
                 "squawk": "N/A",
-                "rssi": -13.1,
+                "rssi": -14.6,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-07-13T18:45:02.691785+00:00",
+                "last_seen": "2025-07-13T18:46:03.149677+00:00",
                 "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
                 "category": "A7"
@@ -8599,12 +8515,12 @@
                 "description": "Lockheed Martin HC-130J Hercules",
                 "operator": "Unknown",
                 "altitude": 20000,
-                "ground_speed": 343.9,
-                "track": 249.93,
+                "ground_speed": 343.5,
+                "track": 250.09,
                 "squawk": "5270",
-                "rssi": -13.7,
+                "rssi": -24.4,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-07-13T18:45:02.691755+00:00",
+                "last_seen": "2025-07-13T18:46:03.149647+00:00",
                 "nav_qnh": 1012.8,
                 "nav_altitude_mcp": 0,
                 "category": "A3"
@@ -8755,6 +8671,14 @@
                     [
                         -155.758839,
                         57.163834
+                    ],
+                    [
+                        -155.923977,
+                        57.131424
+                    ],
+                    [
+                        -155.923977,
+                        57.131424
                     ]
                 ]
             }
@@ -8768,12 +8692,12 @@
                 "description": "Eurocopter MH-65D Dolphin",
                 "operator": "Unknown",
                 "altitude": 1000,
-                "ground_speed": 126.5,
-                "track": 184.99,
+                "ground_speed": 125.7,
+                "track": 174.06,
                 "squawk": "4435",
-                "rssi": -12.0,
+                "rssi": -8.6,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-07-13T18:45:02.691776+00:00",
+                "last_seen": "2025-07-13T18:46:03.149667+00:00",
                 "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
                 "category": "A7"
@@ -8928,6 +8852,14 @@
                     [
                         -74.751913,
                         40.027057
+                    ],
+                    [
+                        -74.753113,
+                        39.991653
+                    ],
+                    [
+                        -74.753113,
+                        39.991653
                     ]
                 ]
             }
@@ -8942,11 +8874,11 @@
                 "operator": "Unknown",
                 "altitude": 2000,
                 "ground_speed": 135.8,
-                "track": 226.79,
+                "track": 226.19,
                 "squawk": "0307",
-                "rssi": -22.4,
+                "rssi": -18.3,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-07-13T18:45:02.691765+00:00",
+                "last_seen": "2025-07-13T18:46:03.149657+00:00",
                 "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
                 "category": "A7"
@@ -9057,6 +8989,14 @@
                     [
                         -75.0802,
                         40.328201
+                    ],
+                    [
+                        -75.115967,
+                        40.302292
+                    ],
+                    [
+                        -75.116333,
+                        40.302063
                     ]
                 ]
             }
