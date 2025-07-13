@@ -4,18 +4,45 @@
         {
             "type": "Feature",
             "properties": {
+                "hex": "A1511C",
+                "flight": "N184SD  ",
+                "type": "AS50",
+                "description": "AEROSPATIALE AS-350 Ecureuil",
+                "operator": "COUNTY OF ORANGE - AIR SUPPORT",
+                "altitude": "ground",
+                "ground_speed": 8.2,
+                "track": 0.0,
+                "squawk": "4204",
+                "rssi": null,
+                "api_source": "https://opendata.adsb.fi/api/v2/hex/",
+                "last_seen": "2025-07-13T21:15:03.513635+00:00",
+                "nav_qnh": null,
+                "nav_altitude_mcp": null,
+                "category": "A7"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -117.870983,
+                    33.675167
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
                 "hex": "A4CAAA",
                 "flight": "CFR230  ",
                 "type": "V10",
                 "description": "NORTH AMERICAN OV-10 Bronco",
                 "operator": "USDA FOREST SERVICE FEPP",
-                "altitude": 4300,
-                "ground_speed": 135.2,
-                "track": 301.69,
+                "altitude": 4200,
+                "ground_speed": 133.8,
+                "track": 143.82,
                 "squawk": "1255",
                 "rssi": null,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-07-13T21:14:02.817602+00:00",
+                "last_seen": "2025-07-13T21:15:03.513685+00:00",
                 "nav_qnh": null,
                 "nav_altitude_mcp": null,
                 "category": "A1"
@@ -23,8 +50,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -121.032043,
-                    39.018829
+                    -121.015479,
+                    39.036575
                 ]
             }
         },
@@ -37,12 +64,12 @@
                 "description": "AEROSPATIALE AS-350 Ecureuil",
                 "operator": "REACH AIR MEDICAL SERVICES LLC",
                 "altitude": 1475,
-                "ground_speed": 113.0,
-                "track": 190.71,
+                "ground_speed": 110.9,
+                "track": 195.16,
                 "squawk": "1200",
                 "rssi": null,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-07-13T21:14:02.818315+00:00",
+                "last_seen": "2025-07-13T21:15:03.513695+00:00",
                 "nav_qnh": null,
                 "nav_altitude_mcp": null,
                 "category": "A7"
@@ -50,8 +77,35 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -122.03661,
-                    38.261238
+                    -122.048552,
+                    38.231258
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "hex": "AE4D35",
+                "flight": "Unknown",
+                "type": "H60",
+                "description": "SIKORSKY UH-60 Black Hawk",
+                "operator": "Unknown",
+                "altitude": 1850,
+                "ground_speed": 103.4,
+                "track": 29.54,
+                "squawk": "N/A",
+                "rssi": null,
+                "api_source": "https://opendata.adsb.fi/api/v2/hex/",
+                "last_seen": "2025-07-13T21:15:03.513598+00:00",
+                "nav_qnh": null,
+                "nav_altitude_mcp": null,
+                "category": "A7"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -116.739994,
+                    32.980631
                 ]
             }
         }
