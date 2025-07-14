@@ -9,13 +9,13 @@
                 "type": "AS50",
                 "description": "AEROSPATIALE AS-350 Ecureuil",
                 "operator": "COUNTY OF ORANGE - AIR SUPPORT",
-                "altitude": 2400,
-                "ground_speed": 50.9,
-                "track": 109.5,
+                "altitude": 2300,
+                "ground_speed": 48.0,
+                "track": 357.61,
                 "squawk": "4204",
                 "rssi": null,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-07-14T04:05:02.549257+00:00",
+                "last_seen": "2025-07-14T04:06:02.815948+00:00",
                 "nav_qnh": null,
                 "nav_altitude_mcp": null,
                 "category": "A7"
@@ -23,8 +23,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -117.608871,
-                    33.703262
+                    -117.605782,
+                    33.705077
                 ]
             }
         },
@@ -86,17 +86,17 @@
             "type": "Feature",
             "properties": {
                 "hex": "A4D855",
-                "flight": "N411FA  ",
+                "flight": "Unknown",
                 "type": "H60",
-                "description": "SIKORSKY UH-60 Black Hawk",
+                "description": "Sikorsky S-70M Firehawk",
                 "operator": "ORANGE COUNTY FIRE AUTHORITY",
-                "altitude": 975,
+                "altitude": "ground",
                 "ground_speed": 30.0,
-                "track": 270.0,
-                "squawk": "N/A",
+                "track": 296.2,
+                "squawk": "4202",
                 "rssi": null,
-                "api_source": "https://opendata.adsb.fi/api/v2/hex/",
-                "last_seen": "2025-07-14T04:05:02.549108+00:00",
+                "api_source": "https://api.airplanes.live/v2/hex/",
+                "last_seen": "2025-07-14T04:06:02.815928+00:00",
                 "nav_qnh": null,
                 "nav_altitude_mcp": null,
                 "category": "A7"
@@ -104,8 +104,35 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -117.707576,
-                    33.77742
+                    -117.71788,
+                    33.779934
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "hex": "A9079F",
+                "flight": "N681HB  ",
+                "type": "H500",
+                "description": "HUGHES 500",
+                "operator": "CITY OF HUNTINGTON BEACH",
+                "altitude": 800,
+                "ground_speed": 46.0,
+                "track": 271.25,
+                "squawk": "4301",
+                "rssi": null,
+                "api_source": "https://api.airplanes.live/v2/hex/",
+                "last_seen": "2025-07-14T04:06:02.815917+00:00",
+                "nav_qnh": null,
+                "nav_altitude_mcp": null,
+                "category": "A7"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -118.009195,
+                    33.693649
                 ]
             }
         }
