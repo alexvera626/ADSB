@@ -4,18 +4,18 @@
         {
             "type": "Feature",
             "properties": {
-                "hex": "A23434",
-                "flight": "N241FA  ",
-                "type": "B412",
-                "description": "BELL 412",
-                "operator": "ORANGE COUNTY FIRE AUTHORITY",
-                "altitude": 700,
-                "ground_speed": 79.1,
-                "track": 177.1,
-                "squawk": "0250",
+                "hex": "A1F894",
+                "flight": "N226PD  ",
+                "type": "AS50",
+                "description": "AEROSPATIALE AS-350 Ecureuil",
+                "operator": "ANAHEIM POLICE DEPT",
+                "altitude": "ground",
+                "ground_speed": 8.8,
+                "track": 206.57,
+                "squawk": "4301",
                 "rssi": null,
-                "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-07-15T03:42:02.818192+00:00",
+                "api_source": "https://opendata.adsb.fi/api/v2/hex/",
+                "last_seen": "2025-07-15T03:43:03.567152+00:00",
                 "nav_qnh": null,
                 "nav_altitude_mcp": null,
                 "category": "A7"
@@ -23,8 +23,35 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -117.985039,
-                    33.864379
+                    -117.871184,
+                    33.675516
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "hex": "A23434",
+                "flight": "N241FA  ",
+                "type": "B412",
+                "description": "BELL 412",
+                "operator": "ORANGE COUNTY FIRE AUTHORITY",
+                "altitude": 1000,
+                "ground_speed": 109.0,
+                "track": 91.05,
+                "squawk": "0424",
+                "rssi": null,
+                "api_source": "https://api.airplanes.live/v2/hex/",
+                "last_seen": "2025-07-15T03:43:03.567377+00:00",
+                "nav_qnh": null,
+                "nav_altitude_mcp": null,
+                "category": "A7"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -117.957001,
+                    33.853905
                 ]
             }
         },
@@ -63,13 +90,13 @@
                 "type": "H500",
                 "description": "HUGHES 500",
                 "operator": "CITY OF HUNTINGTON BEACH",
-                "altitude": 75,
-                "ground_speed": 39.8,
-                "track": 205.28,
+                "altitude": 650,
+                "ground_speed": 71.3,
+                "track": 284.62,
                 "squawk": "4301",
                 "rssi": null,
-                "api_source": "https://opendata.adsb.fi/api/v2/hex/",
-                "last_seen": "2025-07-15T03:42:02.817997+00:00",
+                "api_source": "https://api.airplanes.live/v2/hex/",
+                "last_seen": "2025-07-15T03:43:03.567346+00:00",
                 "nav_qnh": null,
                 "nav_altitude_mcp": null,
                 "category": "A7"
@@ -77,8 +104,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -117.871456,
-                    33.674073
+                    -117.888177,
+                    33.672455
                 ]
             }
         },
@@ -106,33 +133,6 @@
                 "coordinates": [
                     -121.314423,
                     38.669163
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "hex": "AE4FDA",
-                "flight": "Unknown",
-                "type": "H60",
-                "description": "SIKORSKY UH-60 Black Hawk",
-                "operator": "Unknown",
-                "altitude": 175,
-                "ground_speed": 70.8,
-                "track": 293.3,
-                "squawk": "N/A",
-                "rssi": null,
-                "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-07-15T03:42:02.818259+00:00",
-                "nav_qnh": null,
-                "nav_altitude_mcp": null,
-                "category": "A7"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -117.863402,
-                    32.78297
                 ]
             }
         }
