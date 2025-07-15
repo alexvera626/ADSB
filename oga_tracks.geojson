@@ -24,14 +24,6 @@
                 "type": "LineString",
                 "coordinates": [
                     [
-                        -121.017449,
-                        39.201187
-                    ],
-                    [
-                        -121.017449,
-                        39.201187
-                    ],
-                    [
                         -121.014648,
                         39.238928
                     ],
@@ -286,17 +278,17 @@
             "type": "Feature",
             "properties": {
                 "hex": "A31E37",
-                "flight": "PD50    ",
+                "flight": "PD30    ",
                 "type": "AS50",
                 "description": "AEROSPATIALE AS-350 Ecureuil",
                 "operator": "CITY OF ONTARIO",
-                "altitude": 1441,
-                "ground_speed": 3.0,
-                "track": 230.1,
-                "squawk": "4274",
-                "rssi": -49.5,
+                "altitude": "ground",
+                "ground_speed": 0.0,
+                "track": 0.0,
+                "squawk": "N/A",
+                "rssi": -9.4,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-07-14T22:30:03.633380+00:00",
+                "last_seen": "2025-07-15T01:40:02.762332+00:00",
                 "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
                 "category": "A7"
@@ -304,14 +296,6 @@
             "geometry": {
                 "type": "LineString",
                 "coordinates": [
-                    [
-                        -117.707062,
-                        34.061341
-                    ],
-                    [
-                        -117.709986,
-                        34.061966
-                    ],
                     [
                         -117.71206,
                         34.052536
@@ -679,6 +663,14 @@
                     [
                         -117.693169,
                         34.109451
+                    ],
+                    [
+                        -117.692441,
+                        34.109631
+                    ],
+                    [
+                        -117.692441,
+                        34.109631
                     ]
                 ]
             }
@@ -705,14 +697,6 @@
             "geometry": {
                 "type": "LineString",
                 "coordinates": [
-                    [
-                        -122.35692,
-                        48.192581
-                    ],
-                    [
-                        -122.35692,
-                        48.192581
-                    ],
                     [
                         -122.374596,
                         48.253098
@@ -843,67 +827,6 @@
         {
             "type": "Feature",
             "properties": {
-                "hex": "A00399",
-                "flight": "Unknown",
-                "type": "AS50",
-                "description": "AEROSPATIALE AS-350 Ecureuil",
-                "operator": "Unknown",
-                "altitude": "ground",
-                "ground_speed": 100.0,
-                "track": 293.4,
-                "squawk": "1200",
-                "rssi": -49.5,
-                "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-07-14T21:47:02.933943+00:00",
-                "nav_qnh": 0.0,
-                "nav_altitude_mcp": 0,
-                "category": "Unknown"
-            },
-            "geometry": {
-                "type": "LineString",
-                "coordinates": [
-                    [
-                        -97.865051,
-                        26.392792
-                    ],
-                    [
-                        -97.898804,
-                        26.401474
-                    ],
-                    [
-                        -97.932281,
-                        26.415161
-                    ],
-                    [
-                        -97.961334,
-                        26.423609
-                    ],
-                    [
-                        -97.999153,
-                        26.424307
-                    ],
-                    [
-                        -98.028,
-                        26.423859
-                    ],
-                    [
-                        -98.063011,
-                        26.435619
-                    ],
-                    [
-                        -98.096397,
-                        26.446978
-                    ],
-                    [
-                        -98.106819,
-                        26.450912
-                    ]
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
                 "hex": "A5F058",
                 "flight": "CFR601  ",
                 "type": "H60",
@@ -1014,6 +937,63 @@
                     [
                         -120.410741,
                         38.037094
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "hex": "A00399",
+                "flight": "Unknown",
+                "type": "AS50",
+                "description": "AEROSPATIALE AS-350 Ecureuil",
+                "operator": "Unknown",
+                "altitude": "ground",
+                "ground_speed": 100.0,
+                "track": 293.4,
+                "squawk": "1200",
+                "rssi": -49.5,
+                "api_source": "https://api.airplanes.live/v2/hex/",
+                "last_seen": "2025-07-14T21:47:02.933943+00:00",
+                "nav_qnh": 0.0,
+                "nav_altitude_mcp": 0,
+                "category": "Unknown"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -97.898804,
+                        26.401474
+                    ],
+                    [
+                        -97.932281,
+                        26.415161
+                    ],
+                    [
+                        -97.961334,
+                        26.423609
+                    ],
+                    [
+                        -97.999153,
+                        26.424307
+                    ],
+                    [
+                        -98.028,
+                        26.423859
+                    ],
+                    [
+                        -98.063011,
+                        26.435619
+                    ],
+                    [
+                        -98.096397,
+                        26.446978
+                    ],
+                    [
+                        -98.106819,
+                        26.450912
                     ]
                 ]
             }
@@ -2886,12 +2866,12 @@
                 "description": "NORTH AMERICAN OV-10 Bronco",
                 "operator": "USDA FOREST SERVICE FEPP",
                 "altitude": 5800,
-                "ground_speed": 153.5,
-                "track": 283.95,
+                "ground_speed": 146.2,
+                "track": 142.5,
                 "squawk": "1255",
-                "rssi": -9.5,
+                "rssi": -17.0,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-07-15T01:39:02.866600+00:00",
+                "last_seen": "2025-07-15T01:40:02.762299+00:00",
                 "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
                 "category": "A1"
@@ -3318,6 +3298,14 @@
                     [
                         -120.938721,
                         39.210205
+                    ],
+                    [
+                        -120.922991,
+                        39.224808
+                    ],
+                    [
+                        -120.922991,
+                        39.224808
                     ]
                 ]
             }
@@ -3330,13 +3318,13 @@
                 "type": "Q9",
                 "description": "GENERAL ATOMICS MQ-9 Reaper",
                 "operator": "GENERAL ATOMICS AERONAUTICAL SYSTEMS INC",
-                "altitude": 3375,
-                "ground_speed": 99.0,
-                "track": 270.0,
+                "altitude": 3025,
+                "ground_speed": 78.0,
+                "track": 269.27,
                 "squawk": "5216",
-                "rssi": -9.2,
+                "rssi": -9.5,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-07-15T01:39:02.866629+00:00",
+                "last_seen": "2025-07-15T01:40:02.762321+00:00",
                 "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
                 "category": "B6"
@@ -4875,6 +4863,14 @@
                     [
                         -117.634506,
                         34.566852
+                    ],
+                    [
+                        -117.667666,
+                        34.566605
+                    ],
+                    [
+                        -117.667666,
+                        34.566605
                     ]
                 ]
             }
@@ -7583,13 +7579,13 @@
                 "type": "AS50",
                 "description": "AEROSPATIALE AS-350 Ecureuil",
                 "operator": "ANAHEIM POLICE DEPT",
-                "altitude": 1250,
-                "ground_speed": 74.3,
-                "track": 123.48,
+                "altitude": 1125,
+                "ground_speed": 72.6,
+                "track": 119.74,
                 "squawk": "4301",
-                "rssi": -3.8,
+                "rssi": -9.6,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-07-15T01:39:02.866619+00:00",
+                "last_seen": "2025-07-15T01:40:02.762311+00:00",
                 "nav_qnh": 1013.6,
                 "nav_altitude_mcp": 0,
                 "category": "A7"
@@ -7824,6 +7820,14 @@
                     [
                         -117.950788,
                         33.81308
+                    ],
+                    [
+                        -117.930279,
+                        33.801301
+                    ],
+                    [
+                        -117.930279,
+                        33.801301
                     ]
                 ]
             }
