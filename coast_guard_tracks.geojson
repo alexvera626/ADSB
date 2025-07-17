@@ -24,14 +24,6 @@
                 "type": "LineString",
                 "coordinates": [
                     [
-                        -81.614315,
-                        29.896637
-                    ],
-                    [
-                        -81.614847,
-                        29.899478
-                    ],
-                    [
                         -81.598744,
                         29.895475
                     ],
@@ -264,14 +256,6 @@
             "geometry": {
                 "type": "LineString",
                 "coordinates": [
-                    [
-                        -74.597961,
-                        39.449996
-                    ],
-                    [
-                        -74.597961,
-                        39.449996
-                    ],
                     [
                         -74.58236,
                         39.475159
@@ -1143,14 +1127,6 @@
                 "type": "LineString",
                 "coordinates": [
                     [
-                        -81.862042,
-                        30.15221
-                    ],
-                    [
-                        -81.862042,
-                        30.15221
-                    ],
-                    [
                         -81.877368,
                         30.175254
                     ],
@@ -1207,14 +1183,6 @@
             "geometry": {
                 "type": "LineString",
                 "coordinates": [
-                    [
-                        -121.36372,
-                        38.478143
-                    ],
-                    [
-                        -121.364994,
-                        38.481431
-                    ],
                     [
                         -121.340632,
                         38.429091
@@ -1877,6 +1845,83 @@
         {
             "type": "Feature",
             "properties": {
+                "hex": "AE5DEE",
+                "flight": "Unknown",
+                "type": "C30J",
+                "description": "Lockheed Martin HC-130J Hercules",
+                "operator": "Unknown",
+                "altitude": 0,
+                "ground_speed": 0.0,
+                "track": 0.0,
+                "squawk": "N/A",
+                "rssi": -25.7,
+                "api_source": "https://api.airplanes.live/v2/hex/",
+                "last_seen": "2025-07-17T01:05:03.235136+00:00",
+                "nav_qnh": 0.0,
+                "nav_altitude_mcp": 0,
+                "category": "A3"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -76.027202,
+                        36.322663
+                    ],
+                    [
+                        -76.184978,
+                        36.245865
+                    ],
+                    [
+                        -76.147467,
+                        36.221039
+                    ],
+                    [
+                        -76.087933,
+                        36.251358
+                    ],
+                    [
+                        -76.04187,
+                        36.251358
+                    ],
+                    [
+                        -76.055019,
+                        36.264147
+                    ],
+                    [
+                        -76.026707,
+                        36.229294
+                    ],
+                    [
+                        -75.990328,
+                        36.239707
+                    ],
+                    [
+                        -76.018467,
+                        36.273056
+                    ],
+                    [
+                        -76.054493,
+                        36.269314
+                    ],
+                    [
+                        -76.073341,
+                        36.267426
+                    ],
+                    [
+                        -76.09236,
+                        36.259491
+                    ],
+                    [
+                        -76.205578,
+                        36.248474
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
                 "hex": "AE2125",
                 "flight": "Unknown",
                 "type": "C27J",
@@ -1896,10 +1941,6 @@
             "geometry": {
                 "type": "LineString",
                 "coordinates": [
-                    [
-                        -76.082253,
-                        36.258236
-                    ],
                     [
                         -76.28129,
                         36.269128
@@ -2743,87 +2784,6 @@
                     [
                         -75.931149,
                         36.269623
-                    ]
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "hex": "AE5DEE",
-                "flight": "Unknown",
-                "type": "C30J",
-                "description": "Lockheed Martin HC-130J Hercules",
-                "operator": "Unknown",
-                "altitude": 0,
-                "ground_speed": 0.0,
-                "track": 0.0,
-                "squawk": "N/A",
-                "rssi": -25.7,
-                "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-07-17T01:05:03.235136+00:00",
-                "nav_qnh": 0.0,
-                "nav_altitude_mcp": 0,
-                "category": "A3"
-            },
-            "geometry": {
-                "type": "LineString",
-                "coordinates": [
-                    [
-                        -76.049818,
-                        36.33877
-                    ],
-                    [
-                        -76.027202,
-                        36.322663
-                    ],
-                    [
-                        -76.184978,
-                        36.245865
-                    ],
-                    [
-                        -76.147467,
-                        36.221039
-                    ],
-                    [
-                        -76.087933,
-                        36.251358
-                    ],
-                    [
-                        -76.04187,
-                        36.251358
-                    ],
-                    [
-                        -76.055019,
-                        36.264147
-                    ],
-                    [
-                        -76.026707,
-                        36.229294
-                    ],
-                    [
-                        -75.990328,
-                        36.239707
-                    ],
-                    [
-                        -76.018467,
-                        36.273056
-                    ],
-                    [
-                        -76.054493,
-                        36.269314
-                    ],
-                    [
-                        -76.073341,
-                        36.267426
-                    ],
-                    [
-                        -76.09236,
-                        36.259491
-                    ],
-                    [
-                        -76.205578,
-                        36.248474
                     ]
                 ]
             }
@@ -6573,12 +6533,12 @@
                 "description": "Sikorsky MH-60T Jayhawk",
                 "operator": "Unknown",
                 "altitude": 300,
-                "ground_speed": 132.4,
-                "track": 64.02,
+                "ground_speed": 134.5,
+                "track": 81.45,
                 "squawk": "1200",
-                "rssi": -15.6,
+                "rssi": -21.0,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-07-17T03:59:02.889445+00:00",
+                "last_seen": "2025-07-17T04:00:03.496410+00:00",
                 "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
                 "category": "A7"
@@ -7569,6 +7529,14 @@
                     [
                         -117.22879,
                         32.659973
+                    ],
+                    [
+                        -117.191274,
+                        32.677762
+                    ],
+                    [
+                        -117.190558,
+                        32.677872
                     ]
                 ]
             }
@@ -8123,17 +8091,17 @@
             "type": "Feature",
             "properties": {
                 "hex": "AE26BA",
-                "flight": "C6603   ",
+                "flight": "Unknown",
                 "type": "AS65",
                 "description": "Eurocopter MH-65D Dolphin",
                 "operator": "Unknown",
-                "altitude": 300,
-                "ground_speed": 61.8,
-                "track": 350.69,
+                "altitude": 0,
+                "ground_speed": 63.6,
+                "track": 24.15,
                 "squawk": "N/A",
                 "rssi": -28.8,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-07-17T03:59:02.889427+00:00",
+                "last_seen": "2025-07-17T04:00:03.496386+00:00",
                 "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
                 "category": "A7"
@@ -8320,13 +8288,13 @@
                 "type": "AS65",
                 "description": "Eurocopter MH-65D Dolphin",
                 "operator": "Unknown",
-                "altitude": 50,
-                "ground_speed": 5.0,
-                "track": 306.87,
+                "altitude": 25,
+                "ground_speed": 4.2,
+                "track": 284.04,
                 "squawk": "1200",
-                "rssi": -13.9,
+                "rssi": -8.4,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-07-17T03:59:02.889397+00:00",
+                "last_seen": "2025-07-17T04:00:03.496365+00:00",
                 "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
                 "category": "A7"
@@ -8725,6 +8693,14 @@
                     [
                         -122.405811,
                         37.845291
+                    ],
+                    [
+                        -122.407877,
+                        37.845573
+                    ],
+                    [
+                        -122.407915,
+                        37.845612
                     ]
                 ]
             }
@@ -8737,13 +8713,13 @@
                 "type": "AS65",
                 "description": "Eurocopter MH-65D Dolphin",
                 "operator": "Unknown",
-                "altitude": 50,
-                "ground_speed": 3.1,
-                "track": 90.0,
+                "altitude": 25,
+                "ground_speed": 3.2,
+                "track": 71.57,
                 "squawk": "1200",
-                "rssi": -8.6,
+                "rssi": -13.5,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-07-17T03:59:02.889408+00:00",
+                "last_seen": "2025-07-17T04:00:03.496376+00:00",
                 "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
                 "category": "A7"
@@ -9070,6 +9046,14 @@
                     [
                         -122.360931,
                         37.85463
+                    ],
+                    [
+                        -122.360171,
+                        37.854767
+                    ],
+                    [
+                        -122.360171,
+                        37.854767
                     ]
                 ]
             }
