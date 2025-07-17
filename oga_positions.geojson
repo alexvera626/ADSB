@@ -31,18 +31,18 @@
         {
             "type": "Feature",
             "properties": {
-                "hex": "A9079F",
-                "flight": "N681HB  ",
-                "type": "H500",
-                "description": "HUGHES 500",
-                "operator": "CITY OF HUNTINGTON BEACH",
-                "altitude": 1600,
-                "ground_speed": 64.4,
-                "track": 117.76,
+                "hex": "A385E3",
+                "flight": "N326PD  ",
+                "type": "AS50",
+                "description": "AEROSPATIALE AS-350 Ecureuil",
+                "operator": "CITY OF ANAHEIM",
+                "altitude": "ground",
+                "ground_speed": 0.3,
+                "track": 0.0,
                 "squawk": "4301",
                 "rssi": null,
-                "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-07-17T09:06:02.616901+00:00",
+                "api_source": "https://opendata.adsb.fi/api/v2/hex/",
+                "last_seen": "2025-07-17T09:07:02.786524+00:00",
                 "nav_qnh": null,
                 "nav_altitude_mcp": null,
                 "category": "A7"
@@ -50,8 +50,35 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -117.876148,
-                    33.624123
+                    -117.982821,
+                    33.872514
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "hex": "A9079F",
+                "flight": "N681HB  ",
+                "type": "H500",
+                "description": "HUGHES 500",
+                "operator": "CITY OF HUNTINGTON BEACH",
+                "altitude": 1650,
+                "ground_speed": 64.0,
+                "track": 179.1,
+                "squawk": "4301",
+                "rssi": null,
+                "api_source": "https://api.airplanes.live/v2/hex/",
+                "last_seen": "2025-07-17T09:07:02.786590+00:00",
+                "nav_qnh": null,
+                "nav_altitude_mcp": null,
+                "category": "A7"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -117.864803,
+                    33.610107
                 ]
             }
         }
