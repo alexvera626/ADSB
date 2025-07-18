@@ -9,13 +9,13 @@
                 "type": "AS50",
                 "description": "AEROSPATIALE AS-350 Ecureuil",
                 "operator": "Unknown",
-                "altitude": 10375,
+                "altitude": 10400,
                 "ground_speed": 80.0,
-                "track": 71.9,
+                "track": 43.5,
                 "squawk": "0342",
                 "rssi": null,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-07-18T19:26:03.145934+00:00",
+                "last_seen": "2025-07-18T19:27:03.174069+00:00",
                 "nav_qnh": null,
                 "nav_altitude_mcp": null,
                 "category": "Unknown"
@@ -23,8 +23,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -97.215271,
-                    26.190569
+                    -97.196785,
+                    26.205885
                 ]
             }
         },
@@ -37,12 +37,12 @@
                 "description": "BEECHCRAFT Super King Air 350",
                 "operator": "DEPARTMENT OF HOMELAND SECURITY",
                 "altitude": 1950,
-                "ground_speed": 172.3,
-                "track": 285.49,
+                "ground_speed": 165.0,
+                "track": 0.35,
                 "squawk": "1200",
                 "rssi": null,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-07-18T19:26:03.145950+00:00",
+                "last_seen": "2025-07-18T19:27:03.174086+00:00",
                 "nav_qnh": null,
                 "nav_altitude_mcp": null,
                 "category": "A2"
@@ -50,8 +50,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -122.442844,
-                    48.782556
+                    -122.492282,
+                    48.807182
                 ]
             }
         },
@@ -63,13 +63,13 @@
                 "type": "AS50",
                 "description": "AEROSPATIALE AS-350 Ecureuil",
                 "operator": "ANAHEIM POLICE DEPT",
-                "altitude": 75,
-                "ground_speed": 42.1,
-                "track": 265.91,
-                "squawk": "4301",
+                "altitude": "ground",
+                "ground_speed": 4.8,
+                "track": 261.87,
+                "squawk": "N/A",
                 "rssi": null,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-07-18T19:26:03.145915+00:00",
+                "last_seen": "2025-07-18T19:27:03.174023+00:00",
                 "nav_qnh": null,
                 "nav_altitude_mcp": null,
                 "category": "A7"
@@ -77,8 +77,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -117.977974,
-                    33.872498
+                    -117.982821,
+                    33.872176
                 ]
             }
         },
@@ -166,33 +166,6 @@
         {
             "type": "Feature",
             "properties": {
-                "hex": "AD60D8",
-                "flight": "N961LA  ",
-                "type": "AS50",
-                "description": "AEROSPATIALE AS-350 Ecureuil",
-                "operator": "COUNTY OF LOS ANGELES",
-                "altitude": "ground",
-                "ground_speed": 0.0,
-                "track": 0.0,
-                "squawk": "4304",
-                "rssi": null,
-                "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-07-18T19:16:02.949439+00:00",
-                "nav_qnh": null,
-                "nav_altitude_mcp": null,
-                "category": "A7"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -118.158982,
-                    34.035576
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
                 "hex": "AE2761",
                 "flight": "BRACE04 ",
                 "type": "H60",
@@ -225,13 +198,13 @@
                 "type": "H60",
                 "description": "Sikorsky MH-60S Seahawk",
                 "operator": "United States Navy",
-                "altitude": 5900,
-                "ground_speed": 127.4,
-                "track": 171.42,
+                "altitude": 5675,
+                "ground_speed": 120.8,
+                "track": 169.99,
                 "squawk": "1200",
                 "rssi": null,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-07-18T19:26:03.145925+00:00",
+                "last_seen": "2025-07-18T19:27:03.174059+00:00",
                 "nav_qnh": null,
                 "nav_altitude_mcp": null,
                 "category": "A7"
@@ -239,8 +212,35 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -116.867505,
-                    33.407135
+                    -116.861684,
+                    33.371437
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "hex": "AE4FCF",
+                "flight": "Unknown",
+                "type": "H60",
+                "description": "SIKORSKY UH-60 Black Hawk",
+                "operator": "Unknown",
+                "altitude": 275,
+                "ground_speed": 99.7,
+                "track": 105.71,
+                "squawk": "N/A",
+                "rssi": null,
+                "api_source": "https://api.airplanes.live/v2/hex/",
+                "last_seen": "2025-07-18T19:27:03.174033+00:00",
+                "nav_qnh": null,
+                "nav_altitude_mcp": null,
+                "category": "A7"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -157.527865,
+                    21.35257
                 ]
             }
         }
