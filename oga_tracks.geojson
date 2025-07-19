@@ -671,20 +671,20 @@
             "type": "Feature",
             "properties": {
                 "hex": "AE1FCA",
-                "flight": "G72187  ",
+                "flight": "Unknown",
                 "type": "EC45",
                 "description": "Airbus Helicopters UH-72A Lakota",
                 "operator": "Unknown",
-                "altitude": 6700,
-                "ground_speed": 113.2,
-                "track": 32.01,
-                "squawk": "1200",
-                "rssi": -16.7,
+                "altitude": 0,
+                "ground_speed": 131.8,
+                "track": 127.91,
+                "squawk": "N/A",
+                "rssi": -17.8,
                 "api_source": "https://opendata.adsb.fi/api/v2/hex/",
-                "last_seen": "2025-07-19T19:06:02.353545+00:00",
-                "nav_qnh": 1022.4,
+                "last_seen": "2025-07-19T19:56:02.929240+00:00",
+                "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
-                "category": "A7"
+                "category": "Unknown"
             },
             "geometry": {
                 "type": "LineString",
@@ -1161,13 +1161,13 @@
                 "type": "AS50",
                 "description": "AEROSPATIALE AS-350 Ecureuil",
                 "operator": "LAPD AIR SUPPORT DIVISION",
-                "altitude": 1250,
-                "ground_speed": 3.1,
-                "track": 180.0,
+                "altitude": 1225,
+                "ground_speed": 21.4,
+                "track": 349.22,
                 "squawk": "0212",
-                "rssi": -5.6,
+                "rssi": -14.9,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-07-19T19:55:02.571671+00:00",
+                "last_seen": "2025-07-19T19:56:02.929350+00:00",
                 "nav_qnh": 1017.6,
                 "nav_altitude_mcp": 10016,
                 "category": "A7"
@@ -2318,6 +2318,14 @@
                     [
                         -118.404479,
                         34.149353
+                    ],
+                    [
+                        -118.407506,
+                        34.153473
+                    ],
+                    [
+                        -118.407555,
+                        34.153748
                     ]
                 ]
             }
