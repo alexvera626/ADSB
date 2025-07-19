@@ -24,14 +24,6 @@
                 "type": "LineString",
                 "coordinates": [
                     [
-                        -118.467146,
-                        34.124176
-                    ],
-                    [
-                        -118.467146,
-                        34.124176
-                    ],
-                    [
                         -118.431072,
                         34.110407
                     ],
@@ -169,14 +161,6 @@
                 "type": "LineString",
                 "coordinates": [
                     [
-                        -121.055364,
-                        38.930099
-                    ],
-                    [
-                        -121.055237,
-                        38.930473
-                    ],
-                    [
                         -121.054051,
                         38.933487
                     ],
@@ -209,14 +193,6 @@
             "geometry": {
                 "type": "LineString",
                 "coordinates": [
-                    [
-                        -117.790089,
-                        34.09728
-                    ],
-                    [
-                        -117.789805,
-                        34.097076
-                    ],
                     [
                         -117.776585,
                         34.090157
@@ -1637,13 +1613,13 @@
                 "type": "AS50",
                 "description": "AEROSPATIALE AS-350 Ecureuil",
                 "operator": "COUNTY OF LOS ANGELES",
-                "altitude": 2300,
-                "ground_speed": 13.9,
-                "track": 210.26,
+                "altitude": "ground",
+                "ground_speed": 0.0,
+                "track": 0.0,
                 "squawk": "1206",
-                "rssi": -6.7,
+                "rssi": -15.6,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-07-19T20:57:02.889805+00:00",
+                "last_seen": "2025-07-19T20:58:03.429518+00:00",
                 "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
                 "category": "A7"
@@ -2626,6 +2602,14 @@
                     [
                         -118.62711,
                         34.075633
+                    ],
+                    [
+                        -118.627667,
+                        34.074852
+                    ],
+                    [
+                        -118.627667,
+                        34.074852
                     ]
                 ]
             }
@@ -4628,13 +4612,13 @@
                 "type": "AS50",
                 "description": "AEROSPATIALE AS-350 Ecureuil",
                 "operator": "ORANGE COUNTY SHERIFF'S DEPARTMENT",
-                "altitude": 1225,
-                "ground_speed": 75.3,
-                "track": 149.69,
+                "altitude": 550,
+                "ground_speed": 80.6,
+                "track": 136.01,
                 "squawk": "4204",
-                "rssi": -7.9,
+                "rssi": -10.3,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-07-19T20:57:02.889794+00:00",
+                "last_seen": "2025-07-19T20:58:03.429507+00:00",
                 "nav_qnh": 1015.2,
                 "nav_altitude_mcp": 192,
                 "category": "A7"
@@ -4965,6 +4949,43 @@
                     [
                         -118.055214,
                         33.830338
+                    ],
+                    [
+                        -118.038597,
+                        33.81387
+                    ],
+                    [
+                        -118.038118,
+                        33.813492
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "hex": "A1588A",
+                "flight": "Unknown",
+                "type": "UH1",
+                "description": "BELL UH-1 Huey",
+                "operator": "ORANGE COUNTY SHERIFFS DEPT",
+                "altitude": "ground",
+                "ground_speed": 0.7,
+                "track": 0.0,
+                "squawk": "4204",
+                "rssi": -28.1,
+                "api_source": "https://opendata.adsb.fi/api/v2/hex/",
+                "last_seen": "2025-07-19T20:58:03.429396+00:00",
+                "nav_qnh": 0.0,
+                "nav_altitude_mcp": 0,
+                "category": "Unknown"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -117.87147,
+                        33.675028
                     ]
                 ]
             }
