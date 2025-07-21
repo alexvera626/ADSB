@@ -4,6 +4,43 @@
         {
             "type": "Feature",
             "properties": {
+                "hex": "AE2907",
+                "flight": "C6023   ",
+                "type": "H60",
+                "description": "Sikorsky MH-60T Jayhawk",
+                "operator": "Unknown",
+                "altitude": 425,
+                "ground_speed": 0.0,
+                "track": 0.0,
+                "squawk": "N/A",
+                "rssi": -27.3,
+                "api_source": "https://opendata.adsb.fi/api/v2/hex/",
+                "last_seen": "2025-07-21T04:15:02.679426+00:00",
+                "nav_qnh": 0.0,
+                "nav_altitude_mcp": 0,
+                "category": "A7"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -70.488656,
+                        41.688446
+                    ],
+                    [
+                        -70.501886,
+                        41.676077
+                    ],
+                    [
+                        -70.512314,
+                        41.666107
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
                 "hex": "AE2697",
                 "flight": "C6565   ",
                 "type": "AS65",
@@ -23,18 +60,6 @@
             "geometry": {
                 "type": "LineString",
                 "coordinates": [
-                    [
-                        -81.506599,
-                        30.331879
-                    ],
-                    [
-                        -81.504445,
-                        30.328857
-                    ],
-                    [
-                        -81.51123,
-                        30.334854
-                    ],
                     [
                         -81.528387,
                         30.337069
@@ -290,55 +315,6 @@
                     [
                         -81.139414,
                         32.023564
-                    ]
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "hex": "AE2907",
-                "flight": "C6023   ",
-                "type": "H60",
-                "description": "Sikorsky MH-60T Jayhawk",
-                "operator": "Unknown",
-                "altitude": 425,
-                "ground_speed": 0.0,
-                "track": 0.0,
-                "squawk": "N/A",
-                "rssi": -27.3,
-                "api_source": "https://opendata.adsb.fi/api/v2/hex/",
-                "last_seen": "2025-07-21T04:15:02.679426+00:00",
-                "nav_qnh": 0.0,
-                "nav_altitude_mcp": 0,
-                "category": "A7"
-            },
-            "geometry": {
-                "type": "LineString",
-                "coordinates": [
-                    [
-                        -70.433988,
-                        41.739435
-                    ],
-                    [
-                        -70.418181,
-                        41.753769
-                    ],
-                    [
-                        -70.46254,
-                        41.712714
-                    ],
-                    [
-                        -70.488656,
-                        41.688446
-                    ],
-                    [
-                        -70.501886,
-                        41.676077
-                    ],
-                    [
-                        -70.512314,
-                        41.666107
                     ]
                 ]
             }
