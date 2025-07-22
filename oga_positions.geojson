@@ -36,13 +36,13 @@
                 "type": "AS50",
                 "description": "AEROSPATIALE AS-350 Ecureuil",
                 "operator": "COUNTY OF LOS ANGELES",
-                "altitude": 0,
-                "ground_speed": 31.6,
-                "track": 235.3,
+                "altitude": "ground",
+                "ground_speed": 0.1,
+                "track": 231.34,
                 "squawk": "1206",
                 "rssi": null,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-07-22T17:50:03.520772+00:00",
+                "last_seen": "2025-07-22T17:51:02.933127+00:00",
                 "nav_qnh": null,
                 "nav_altitude_mcp": null,
                 "category": "A7"
@@ -50,8 +50,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -118.037968,
-                    33.796925
+                    -118.040767,
+                    33.795284
                 ]
             }
         },
@@ -63,13 +63,13 @@
                 "type": "EC45",
                 "description": "Airbus Helicopters UH-72A Lakota",
                 "operator": "Unknown",
-                "altitude": 5350,
-                "ground_speed": 94.1,
-                "track": 46.29,
-                "squawk": "1564",
+                "altitude": 6250,
+                "ground_speed": 93.9,
+                "track": 38.95,
+                "squawk": "5633",
                 "rssi": null,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-07-22T17:50:03.520762+00:00",
+                "last_seen": "2025-07-22T17:51:02.933116+00:00",
                 "nav_qnh": null,
                 "nav_altitude_mcp": null,
                 "category": "A7"
@@ -77,8 +77,35 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -86.30024,
-                    36.432724
+                    -86.278496,
+                    36.451447
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "hex": "AE4FF8",
+                "flight": "SHWK422 ",
+                "type": "H60",
+                "description": "SIKORSKY UH-60 Black Hawk",
+                "operator": "Unknown",
+                "altitude": 175,
+                "ground_speed": 99.6,
+                "track": 38.48,
+                "squawk": "N/A",
+                "rssi": null,
+                "api_source": "https://api.airplanes.live/v2/hex/",
+                "last_seen": "2025-07-22T17:51:02.933147+00:00",
+                "nav_qnh": null,
+                "nav_altitude_mcp": null,
+                "category": "A7"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -117.352222,
+                    32.638641
                 ]
             }
         }
