@@ -24,14 +24,6 @@
                 "type": "LineString",
                 "coordinates": [
                     [
-                        -118.122253,
-                        34.104495
-                    ],
-                    [
-                        -118.122253,
-                        34.104495
-                    ],
-                    [
                         -118.156929,
                         34.116413
                     ],
@@ -152,14 +144,6 @@
             "geometry": {
                 "type": "LineString",
                 "coordinates": [
-                    [
-                        -118.21418,
-                        34.563721
-                    ],
-                    [
-                        -118.21418,
-                        34.563721
-                    ],
                     [
                         -118.243732,
                         34.547766
@@ -297,14 +281,6 @@
             "geometry": {
                 "type": "LineString",
                 "coordinates": [
-                    [
-                        -118.487269,
-                        34.151321
-                    ],
-                    [
-                        -118.487269,
-                        34.151321
-                    ],
                     [
                         -118.48938,
                         34.159241
@@ -1441,13 +1417,13 @@
                 "type": "AS50",
                 "description": "AEROSPATIALE AS-350 Ecureuil",
                 "operator": "COUNTY OF LOS ANGELES",
-                "altitude": 900,
-                "ground_speed": 22.8,
-                "track": 232.12,
+                "altitude": "ground",
+                "ground_speed": 0.1,
+                "track": 0.0,
                 "squawk": "1206",
-                "rssi": -22.0,
+                "rssi": -8.4,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-07-22T18:11:03.357825+00:00",
+                "last_seen": "2025-07-22T18:12:02.726400+00:00",
                 "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
                 "category": "A7"
@@ -2462,6 +2438,14 @@
                     [
                         -118.031616,
                         33.800858
+                    ],
+                    [
+                        -118.039699,
+                        33.795947
+                    ],
+                    [
+                        -118.039699,
+                        33.795947
                     ]
                 ]
             }
@@ -3180,13 +3164,13 @@
                 "type": "EC45",
                 "description": "Airbus Helicopters UH-72A Lakota",
                 "operator": "Unknown",
-                "altitude": 6850,
-                "ground_speed": 124.2,
-                "track": 40.1,
+                "altitude": 6875,
+                "ground_speed": 127.0,
+                "track": 40.21,
                 "squawk": "5633",
-                "rssi": -25.6,
+                "rssi": -26.2,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-07-22T18:11:03.357795+00:00",
+                "last_seen": "2025-07-22T18:12:02.726370+00:00",
                 "nav_qnh": 1018.4,
                 "nav_altitude_mcp": 0,
                 "category": "A7"
@@ -3481,6 +3465,14 @@
                     [
                         -85.728539,
                         36.98378
+                    ],
+                    [
+                        -85.700956,
+                        37.010193
+                    ],
+                    [
+                        -85.700956,
+                        37.010193
                     ]
                 ]
             }
@@ -3493,13 +3485,13 @@
                 "type": "AS50",
                 "description": "AEROSPATIALE AS-350 Ecureuil",
                 "operator": "CITY OF ANAHEIM",
-                "altitude": 1400,
-                "ground_speed": 92.2,
-                "track": 80.64,
+                "altitude": 1500,
+                "ground_speed": 91.2,
+                "track": 93.77,
                 "squawk": "4301",
-                "rssi": -15.9,
+                "rssi": -19.3,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-07-22T18:11:03.357805+00:00",
+                "last_seen": "2025-07-22T18:12:02.726380+00:00",
                 "nav_qnh": 1016.0,
                 "nav_altitude_mcp": 4000,
                 "category": "A7"
@@ -3610,6 +3602,14 @@
                     [
                         -117.664751,
                         33.873505
+                    ],
+                    [
+                        -117.635365,
+                        33.873689
+                    ],
+                    [
+                        -117.635365,
+                        33.873689
                     ]
                 ]
             }
@@ -3622,13 +3622,13 @@
                 "type": "AS32",
                 "description": "AEROSPATIALE AS-332 Super Puma",
                 "operator": "COUNTY OF LOS ANGELES",
-                "altitude": 2350,
-                "ground_speed": 141.4,
-                "track": 320.45,
+                "altitude": 2575,
+                "ground_speed": 140.9,
+                "track": 344.78,
                 "squawk": "1200",
-                "rssi": -5.5,
+                "rssi": -6.5,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-07-22T18:11:03.357816+00:00",
+                "last_seen": "2025-07-22T18:12:02.726390+00:00",
                 "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
                 "category": "A7"
@@ -3771,6 +3771,43 @@
                     [
                         -118.47353,
                         34.300108
+                    ],
+                    [
+                        -118.498255,
+                        34.331955
+                    ],
+                    [
+                        -118.498143,
+                        34.331589
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "hex": "A00399",
+                "flight": "PD20    ",
+                "type": "AS50",
+                "description": "AEROSPATIALE AS-350 Ecureuil",
+                "operator": "Unknown",
+                "altitude": "ground",
+                "ground_speed": 80.0,
+                "track": 158.7,
+                "squawk": "1200",
+                "rssi": -49.5,
+                "api_source": "https://api.airplanes.live/v2/hex/",
+                "last_seen": "2025-07-22T18:12:02.726410+00:00",
+                "nav_qnh": 0.0,
+                "nav_altitude_mcp": 0,
+                "category": "Unknown"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -98.09993,
+                        26.411591
                     ]
                 ]
             }
