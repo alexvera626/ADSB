@@ -146,13 +146,13 @@
                 "type": "AS50",
                 "description": "AEROSPATIALE AS-350 Ecureuil",
                 "operator": "Unknown",
-                "altitude": "ground",
-                "ground_speed": 0.1,
-                "track": 0.0,
+                "altitude": 350,
+                "ground_speed": 7.0,
+                "track": 270.0,
                 "squawk": "0210",
-                "rssi": -31.2,
+                "rssi": -29.5,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-07-23T14:34:02.912842+00:00",
+                "last_seen": "2025-07-23T14:35:02.614257+00:00",
                 "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
                 "category": "A7"
@@ -507,6 +507,14 @@
                     [
                         -97.654999,
                         30.203115
+                    ],
+                    [
+                        -97.654944,
+                        30.202207
+                    ],
+                    [
+                        -97.655054,
+                        30.202161
                     ]
                 ]
             }
@@ -696,9 +704,9 @@
                 "ground_speed": 289.8,
                 "track": 94.16,
                 "squawk": "2661",
-                "rssi": -20.9,
+                "rssi": -7.6,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-07-23T14:34:02.912853+00:00",
+                "last_seen": "2025-07-23T14:35:02.614267+00:00",
                 "nav_qnh": 1012.8,
                 "nav_altitude_mcp": 20992,
                 "category": "A2"
@@ -921,6 +929,55 @@
                     [
                         -120.584781,
                         48.30628
+                    ],
+                    [
+                        -120.469425,
+                        48.300647
+                    ],
+                    [
+                        -120.465449,
+                        48.300414
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "hex": "A38627",
+                "flight": "REH81   ",
+                "type": "EC35",
+                "description": "AIRBUS HELICOPTERS EC-135/635",
+                "operator": "REACH AIR MEDICAL SERVICES LLC",
+                "altitude": "ground",
+                "ground_speed": 0.0,
+                "track": 0.0,
+                "squawk": "1200",
+                "rssi": -27.9,
+                "api_source": "https://api.airplanes.live/v2/hex/",
+                "last_seen": "2025-07-23T14:35:02.614296+00:00",
+                "nav_qnh": 0.0,
+                "nav_altitude_mcp": 0,
+                "category": "A7"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -116.269852,
+                        33.744335
+                    ],
+                    [
+                        -116.269852,
+                        33.744335
+                    ],
+                    [
+                        -116.269852,
+                        33.744335
+                    ],
+                    [
+                        -116.269852,
+                        33.744335
                     ]
                 ]
             }
