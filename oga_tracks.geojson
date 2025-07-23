@@ -342,13 +342,13 @@
                 "type": "B06",
                 "description": "BELL 206 JetRanger",
                 "operator": "PASADENA POLICE DEPARTMENT",
-                "altitude": 1000,
-                "ground_speed": 25.1,
-                "track": 118.61,
-                "squawk": "1200",
-                "rssi": -7.8,
+                "altitude": "ground",
+                "ground_speed": 1.9,
+                "track": 160.31,
+                "squawk": "N/A",
+                "rssi": -10.7,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-07-23T21:27:02.850073+00:00",
+                "last_seen": "2025-07-23T21:28:02.406103+00:00",
                 "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
                 "category": "A7"
@@ -1227,6 +1227,14 @@
                     [
                         -118.17214,
                         34.184555
+                    ],
+                    [
+                        -118.171201,
+                        34.183365
+                    ],
+                    [
+                        -118.171201,
+                        34.183365
                     ]
                 ]
             }
@@ -8913,13 +8921,13 @@
                 "type": "B407",
                 "description": "BELL 407",
                 "operator": "SAN DIEGO COUNTY SHERIFF DEPARTMENT",
-                "altitude": 825,
-                "ground_speed": 76.7,
-                "track": 337.78,
+                "altitude": 775,
+                "ground_speed": 81.2,
+                "track": 38.0,
                 "squawk": "4266",
-                "rssi": -13.9,
+                "rssi": -15.8,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-07-23T21:27:02.850052+00:00",
+                "last_seen": "2025-07-23T21:28:02.406092+00:00",
                 "nav_qnh": 1016.0,
                 "nav_altitude_mcp": 0,
                 "category": "A7"
@@ -9358,6 +9366,14 @@
                     [
                         -116.967755,
                         32.846283
+                    ],
+                    [
+                        -116.97009,
+                        32.845304
+                    ],
+                    [
+                        -116.97009,
+                        32.845304
                     ]
                 ]
             }
@@ -9511,6 +9527,35 @@
                     [
                         -118.072254,
                         34.276428
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "hex": "AC4597",
+                "flight": "Unknown",
+                "type": "EC35",
+                "description": "AIRBUS HELICOPTERS EC-135/635",
+                "operator": "REACH AIR MEDICAL SERVICES LLC",
+                "altitude": 1650,
+                "ground_speed": 47.7,
+                "track": 170.34,
+                "squawk": "1200",
+                "rssi": -15.2,
+                "api_source": "https://api.airplanes.live/v2/hex/",
+                "last_seen": "2025-07-23T21:28:02.406065+00:00",
+                "nav_qnh": 1017.6,
+                "nav_altitude_mcp": 0,
+                "category": "Unknown"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -121.053812,
+                        38.932892
                     ]
                 ]
             }
