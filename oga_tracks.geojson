@@ -1612,13 +1612,13 @@
                 "type": "AS50",
                 "description": "AEROSPATIALE AS-350 Ecureuil",
                 "operator": "COUNTY OF ORANGE - AIR SUPPORT",
-                "altitude": 100,
-                "ground_speed": 70.8,
-                "track": 103.06,
+                "altitude": 200,
+                "ground_speed": 66.3,
+                "track": 113.09,
                 "squawk": "4204",
-                "rssi": -16.0,
+                "rssi": -23.1,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-07-24T18:08:02.880316+00:00",
+                "last_seen": "2025-07-24T18:09:02.765149+00:00",
                 "nav_qnh": 1019.2,
                 "nav_altitude_mcp": 0,
                 "category": "A7"
@@ -2297,6 +2297,14 @@
                     [
                         -117.923241,
                         33.603873
+                    ],
+                    [
+                        -117.904301,
+                        33.600986
+                    ],
+                    [
+                        -117.902012,
+                        33.600521
                     ]
                 ]
             }
@@ -7129,13 +7137,13 @@
                 "type": "EC35",
                 "description": "AIRBUS HELICOPTERS EC-135/635",
                 "operator": "REACH AIR MEDICAL SERVICES LLC",
-                "altitude": 1550,
-                "ground_speed": 30.6,
-                "track": 11.31,
+                "altitude": "ground",
+                "ground_speed": 0.1,
+                "track": 135.0,
                 "squawk": "1200",
-                "rssi": -11.1,
+                "rssi": -21.9,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-07-24T18:08:02.880305+00:00",
+                "last_seen": "2025-07-24T18:09:02.765128+00:00",
                 "nav_qnh": 1017.6,
                 "nav_altitude_mcp": 0,
                 "category": "A7"
@@ -7430,6 +7438,14 @@
                     [
                         -121.054932,
                         38.93308
+                    ],
+                    [
+                        -121.054932,
+                        38.93308
+                    ],
+                    [
+                        -121.053797,
+                        38.934116
                     ]
                 ]
             }
@@ -7438,18 +7454,18 @@
             "type": "Feature",
             "properties": {
                 "hex": "A1F894",
-                "flight": "Unknown",
+                "flight": "N226PD  ",
                 "type": "AS50",
                 "description": "AEROSPATIALE AS-350 Ecureuil",
                 "operator": "ANAHEIM POLICE DEPT",
-                "altitude": "ground",
-                "ground_speed": 0.0,
-                "track": 0.0,
+                "altitude": 275,
+                "ground_speed": 51.2,
+                "track": 128.66,
                 "squawk": "4301",
-                "rssi": -25.2,
-                "api_source": "https://opendata.adsb.fi/api/v2/hex/",
-                "last_seen": "2025-07-24T18:08:02.880130+00:00",
-                "nav_qnh": 0.0,
+                "rssi": -12.3,
+                "api_source": "https://api.airplanes.live/v2/hex/",
+                "last_seen": "2025-07-24T18:09:02.765139+00:00",
+                "nav_qnh": 1013.6,
                 "nav_altitude_mcp": 0,
                 "category": "A7"
             },
@@ -7859,6 +7875,14 @@
                     [
                         -117.982724,
                         33.872177
+                    ],
+                    [
+                        -117.967156,
+                        33.871674
+                    ],
+                    [
+                        -117.967324,
+                        33.871765
                     ]
                 ]
             }
@@ -8052,6 +8076,39 @@
                     [
                         -121.001507,
                         39.224121
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "hex": "A07232",
+                "flight": "00000000",
+                "type": "Unknown",
+                "description": "Unknown",
+                "operator": "DEPARTMENT OF HOMELAND SECURITY",
+                "altitude": 1100,
+                "ground_speed": 143.0,
+                "track": 196.66,
+                "squawk": "4534",
+                "rssi": -7.2,
+                "api_source": "https://api.airplanes.live/v2/hex/",
+                "last_seen": "2025-07-24T18:09:02.765159+00:00",
+                "nav_qnh": 1017.6,
+                "nav_altitude_mcp": 3008,
+                "category": "A2"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -122.543166,
+                        48.765564
+                    ],
+                    [
+                        -122.543022,
+                        48.765936
                     ]
                 ]
             }
