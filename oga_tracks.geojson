@@ -905,13 +905,13 @@
                 "type": "H60",
                 "description": "SIKORSKY UH-60 Black Hawk",
                 "operator": "COUNTY OF LOS ANGELES FIRE DEPARTMENT",
-                "altitude": 3725,
-                "ground_speed": 57.7,
-                "track": 33.69,
+                "altitude": "ground",
+                "ground_speed": 0.0,
+                "track": 0.0,
                 "squawk": "1206",
-                "rssi": -10.1,
+                "rssi": -10.6,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-07-25T15:21:02.260490+00:00",
+                "last_seen": "2025-07-25T15:22:02.768321+00:00",
                 "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
                 "category": "A7"
@@ -1074,6 +1074,14 @@
                     [
                         -118.414307,
                         34.352572
+                    ],
+                    [
+                        -118.411517,
+                        34.353154
+                    ],
+                    [
+                        -118.411531,
+                        34.353154
                     ]
                 ]
             }
@@ -1087,12 +1095,12 @@
                 "description": "SIKORSKY UH-60 Black Hawk",
                 "operator": "Unknown",
                 "altitude": 0,
-                "ground_speed": 65.9,
-                "track": 221.92,
+                "ground_speed": 66.1,
+                "track": 39.47,
                 "squawk": "1200",
-                "rssi": -17.3,
+                "rssi": -17.1,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-07-25T15:21:02.260511+00:00",
+                "last_seen": "2025-07-25T15:22:02.768353+00:00",
                 "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
                 "category": "A7"
@@ -1291,6 +1299,47 @@
                     [
                         -117.311627,
                         32.601974
+                    ],
+                    [
+                        -117.322559,
+                        32.608246
+                    ],
+                    [
+                        -117.322559,
+                        32.608246
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "hex": "A07232",
+                "flight": "00000000",
+                "type": "Unknown",
+                "description": "Unknown",
+                "operator": "DEPARTMENT OF HOMELAND SECURITY",
+                "altitude": 3300,
+                "ground_speed": 162.1,
+                "track": 195.75,
+                "squawk": "2627",
+                "rssi": -22.3,
+                "api_source": "https://api.airplanes.live/v2/hex/",
+                "last_seen": "2025-07-25T15:22:02.768332+00:00",
+                "nav_qnh": 1016.0,
+                "nav_altitude_mcp": 8992,
+                "category": "A2"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -122.560296,
+                        48.710772
+                    ],
+                    [
+                        -122.560296,
+                        48.710772
                     ]
                 ]
             }
