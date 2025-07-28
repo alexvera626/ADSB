@@ -24,14 +24,6 @@
                 "type": "LineString",
                 "coordinates": [
                     [
-                        -121.283142,
-                        38.704368
-                    ],
-                    [
-                        -121.283691,
-                        38.703949
-                    ],
-                    [
                         -121.314737,
                         38.681717
                     ],
@@ -789,14 +781,6 @@
                 "type": "LineString",
                 "coordinates": [
                     [
-                        -117.880498,
-                        33.798477
-                    ],
-                    [
-                        -117.88044,
-                        33.798787
-                    ],
-                    [
                         -117.883415,
                         33.794457
                     ],
@@ -1001,14 +985,6 @@
             "geometry": {
                 "type": "LineString",
                 "coordinates": [
-                    [
-                        -117.599618,
-                        34.031158
-                    ],
-                    [
-                        -117.599773,
-                        34.031129
-                    ],
                     [
                         -117.603934,
                         34.031158
@@ -1222,14 +1198,6 @@
             "geometry": {
                 "type": "LineString",
                 "coordinates": [
-                    [
-                        -118.229511,
-                        47.971429
-                    ],
-                    [
-                        -118.231201,
-                        47.971476
-                    ],
                     [
                         -118.328881,
                         47.974316
@@ -1661,13 +1629,13 @@
                 "type": "H60",
                 "description": "SIKORSKY UH-60 Black Hawk",
                 "operator": "Unknown",
-                "altitude": 900,
+                "altitude": -75,
                 "ground_speed": 0.0,
                 "track": 0.0,
                 "squawk": "1200",
-                "rssi": -11.9,
+                "rssi": -23.1,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-07-28T23:52:02.875974+00:00",
+                "last_seen": "2025-07-28T23:53:02.329533+00:00",
                 "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
                 "category": "Unknown"
@@ -4545,6 +4513,35 @@
                     [
                         -117.213245,
                         32.709457
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "hex": "A1ED21",
+                "flight": "N223LA  ",
+                "type": "AS50",
+                "description": "AEROSPATIALE AS-350 Ecureuil",
+                "operator": "LAPD AIR SUPPORT DIVISION",
+                "altitude": "ground",
+                "ground_speed": 3.8,
+                "track": 270.0,
+                "squawk": "1200",
+                "rssi": -14.2,
+                "api_source": "https://api.airplanes.live/v2/hex/",
+                "last_seen": "2025-07-28T23:53:02.329555+00:00",
+                "nav_qnh": 1016.8,
+                "nav_altitude_mcp": 10016,
+                "category": "A7"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -118.230042,
+                        34.053974
                     ]
                 ]
             }
