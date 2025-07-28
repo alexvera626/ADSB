@@ -656,12 +656,12 @@
                 "description": "DE HAVILLAND DHC-8-300 Dash 8",
                 "operator": "US DEPARTMENT OF HOMELAND SECURITY",
                 "altitude": 6750,
-                "ground_speed": 180.1,
-                "track": 111.15,
-                "squawk": "5267",
-                "rssi": -27.2,
+                "ground_speed": 180.0,
+                "track": 70.2,
+                "squawk": "N/A",
+                "rssi": -49.5,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-07-28T15:15:02.401370+00:00",
+                "last_seen": "2025-07-28T16:00:03.537359+00:00",
                 "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
                 "category": "Unknown"
@@ -960,6 +960,10 @@
                     [
                         -94.256771,
                         28.312838
+                    ],
+                    [
+                        -92.864418,
+                        28.155632
                     ]
                 ]
             }
@@ -976,9 +980,9 @@
                 "ground_speed": 278.3,
                 "track": 100.14,
                 "squawk": "N/A",
-                "rssi": -28.3,
+                "rssi": -29.1,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-07-28T15:59:02.394083+00:00",
+                "last_seen": "2025-07-28T16:00:03.537526+00:00",
                 "nav_qnh": 1013.6,
                 "nav_altitude_mcp": 20992,
                 "category": "A2"
@@ -1685,6 +1689,43 @@
                     [
                         -113.524887,
                         47.762329
+                    ],
+                    [
+                        -113.485062,
+                        47.757523
+                    ],
+                    [
+                        -113.485062,
+                        47.757523
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "hex": "A7FB70",
+                "flight": "REH80   ",
+                "type": "AS50",
+                "description": "AEROSPATIALE AS-350 Ecureuil",
+                "operator": "REACH AIR MEDICAL SERVICES LLC",
+                "altitude": 250,
+                "ground_speed": 66.1,
+                "track": 267.4,
+                "squawk": "1200",
+                "rssi": -12.9,
+                "api_source": "https://api.airplanes.live/v2/hex/",
+                "last_seen": "2025-07-28T16:00:03.537510+00:00",
+                "nav_qnh": 0.0,
+                "nav_altitude_mcp": 0,
+                "category": "A7"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -122.136169,
+                        39.162582
                     ]
                 ]
             }
