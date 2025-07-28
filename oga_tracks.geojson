@@ -656,12 +656,12 @@
                 "description": "DE HAVILLAND DHC-8-300 Dash 8",
                 "operator": "US DEPARTMENT OF HOMELAND SECURITY",
                 "altitude": 2725,
-                "ground_speed": 190.0,
-                "track": 334.8,
+                "ground_speed": 191.0,
+                "track": 334.91,
                 "squawk": "5267",
-                "rssi": -17.5,
+                "rssi": -30.8,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-07-28T16:56:03.042156+00:00",
+                "last_seen": "2025-07-28T16:57:03.309594+00:00",
                 "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
                 "category": "Unknown"
@@ -1240,6 +1240,10 @@
                     [
                         -94.665894,
                         29.96372
+                    ],
+                    [
+                        -94.690407,
+                        30.007874
                     ]
                 ]
             }
@@ -2292,13 +2296,13 @@
                 "type": "BE30",
                 "description": "BEECH 300 Super King Air",
                 "operator": "DEPARTMENT OF HOMELAND SECURITY",
-                "altitude": 3375,
-                "ground_speed": 202.2,
-                "track": 267.73,
+                "altitude": 2875,
+                "ground_speed": 205.6,
+                "track": 253.33,
                 "squawk": "N/A",
-                "rssi": -27.8,
+                "rssi": -28.8,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-07-28T16:56:03.042313+00:00",
+                "last_seen": "2025-07-28T16:57:03.309713+00:00",
                 "nav_qnh": 1017.6,
                 "nav_altitude_mcp": 3008,
                 "category": "A2"
@@ -2425,6 +2429,43 @@
                     [
                         -80.111542,
                         25.273407
+                    ],
+                    [
+                        -80.183819,
+                        25.260129
+                    ],
+                    [
+                        -80.176979,
+                        25.261991
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "hex": "AE2BF0",
+                "flight": "FFAB123 ",
+                "type": "H60",
+                "description": "SIKORSKY UH-60 Black Hawk",
+                "operator": "Unknown",
+                "altitude": 325,
+                "ground_speed": 68.6,
+                "track": 7.54,
+                "squawk": "N/A",
+                "rssi": -31.3,
+                "api_source": "https://opendata.adsb.fi/api/v2/hex/",
+                "last_seen": "2025-07-28T16:57:03.309542+00:00",
+                "nav_qnh": 0.0,
+                "nav_altitude_mcp": 0,
+                "category": "A7"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -117.468127,
+                        31.213043
                     ]
                 ]
             }
