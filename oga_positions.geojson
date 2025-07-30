@@ -36,13 +36,13 @@
                 "type": "AS50",
                 "description": "AEROSPATIALE AS-350 Ecureuil",
                 "operator": "ANAHEIM POLICE DEPT",
-                "altitude": -25,
-                "ground_speed": 16.3,
-                "track": 280.62,
-                "squawk": "4301",
+                "altitude": "ground",
+                "ground_speed": 0.9,
+                "track": 0.0,
+                "squawk": "N/A",
                 "rssi": null,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-07-30T19:29:03.411459+00:00",
+                "last_seen": "2025-07-30T19:30:02.479029+00:00",
                 "nav_qnh": null,
                 "nav_altitude_mcp": null,
                 "category": "A7"
@@ -50,8 +50,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -117.982235,
-                    33.872013
+                    -117.98299,
+                    33.872292
                 ]
             }
         },
@@ -63,13 +63,13 @@
                 "type": "AS50",
                 "description": "AEROSPATIALE AS-350 Ecureuil",
                 "operator": "CITY OF ONTARIO",
-                "altitude": 1850,
-                "ground_speed": 83.2,
-                "track": 283.2,
+                "altitude": 1750,
+                "ground_speed": 87.7,
+                "track": 97.21,
                 "squawk": "4274",
                 "rssi": null,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-07-30T19:29:03.411470+00:00",
+                "last_seen": "2025-07-30T19:30:02.479081+00:00",
                 "nav_qnh": null,
                 "nav_altitude_mcp": null,
                 "category": "A7"
@@ -77,8 +77,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -117.621918,
-                    34.086526
+                    -117.615967,
+                    34.074609
                 ]
             }
         },
@@ -90,13 +90,13 @@
                 "type": "A139",
                 "description": "AGUSTA AW-139",
                 "operator": "CITY OF LOS ANGELES",
-                "altitude": "ground",
-                "ground_speed": 0.0,
-                "track": 0.0,
+                "altitude": 1525,
+                "ground_speed": 77.9,
+                "track": 167.39,
                 "squawk": "1200",
                 "rssi": null,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-07-30T19:29:03.411431+00:00",
+                "last_seen": "2025-07-30T19:30:02.478986+00:00",
                 "nav_qnh": null,
                 "nav_altitude_mcp": null,
                 "category": "A7"
@@ -104,8 +104,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -118.603606,
-                    34.139614
+                    -118.602905,
+                    34.136032
                 ]
             }
         },
@@ -193,33 +193,6 @@
         {
             "type": "Feature",
             "properties": {
-                "hex": "A7FB70",
-                "flight": "REH80   ",
-                "type": "AS50",
-                "description": "AEROSPATIALE AS-350 Ecureuil",
-                "operator": "REACH AIR MEDICAL SERVICES LLC",
-                "altitude": 150,
-                "ground_speed": 27.9,
-                "track": 248.96,
-                "squawk": "1200",
-                "rssi": null,
-                "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-07-30T19:00:02.390169+00:00",
-                "nav_qnh": null,
-                "nav_altitude_mcp": null,
-                "category": "A7"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -122.128143,
-                    39.163284
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
                 "hex": "AE1844",
                 "flight": "FFAB123 ",
                 "type": "H60",
@@ -241,6 +214,60 @@
                 "coordinates": [
                     -117.211327,
                     32.703587
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "hex": "AE2761",
+                "flight": "Unknown",
+                "type": "H60",
+                "description": "SIKORSKY UH-60 Black Hawk",
+                "operator": "Unknown",
+                "altitude": 250,
+                "ground_speed": 53.1,
+                "track": 317.29,
+                "squawk": "4000",
+                "rssi": null,
+                "api_source": "https://api.airplanes.live/v2/hex/",
+                "last_seen": "2025-07-30T19:30:02.479013+00:00",
+                "nav_qnh": null,
+                "nav_altitude_mcp": null,
+                "category": "Unknown"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -118.633454,
+                    33.029185
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "hex": "AE4FA1",
+                "flight": "FFAB123 ",
+                "type": "H60",
+                "description": "SIKORSKY UH-60 Black Hawk",
+                "operator": "Unknown",
+                "altitude": "ground",
+                "ground_speed": 7.2,
+                "track": 284.06,
+                "squawk": "1200",
+                "rssi": null,
+                "api_source": "https://api.airplanes.live/v2/hex/",
+                "last_seen": "2025-07-30T19:30:02.479067+00:00",
+                "nav_qnh": null,
+                "nav_altitude_mcp": null,
+                "category": "A7"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -117.210472,
+                    32.705275
                 ]
             }
         },
