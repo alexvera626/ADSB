@@ -9,13 +9,13 @@
                 "type": "UH1",
                 "description": "BELL UH-1 Huey",
                 "operator": "ORANGE COUNTY SHERIFFS DEPT",
-                "altitude": 700,
-                "ground_speed": 29.6,
-                "track": 101.69,
+                "altitude": 800,
+                "ground_speed": 102.4,
+                "track": 80.45,
                 "squawk": "4204",
                 "rssi": null,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-08-02T16:37:02.392490+00:00",
+                "last_seen": "2025-08-02T16:38:03.168448+00:00",
                 "nav_qnh": null,
                 "nav_altitude_mcp": null,
                 "category": "A7"
@@ -23,8 +23,35 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -117.775904,
-                    33.595139
+                    -117.755013,
+                    33.596564
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "hex": "A31AA0",
+                "flight": "Unknown",
+                "type": "SHIP",
+                "description": "Zeppelin LZ N07-101",
+                "operator": "GOODYEAR TIRE & RUBBER CO",
+                "altitude": 2100,
+                "ground_speed": 66.5,
+                "track": 254.29,
+                "squawk": "N/A",
+                "rssi": null,
+                "api_source": "https://opendata.adsb.fi/api/v2/hex/",
+                "last_seen": "2025-08-02T16:38:03.168409+00:00",
+                "nav_qnh": null,
+                "nav_altitude_mcp": null,
+                "category": "B2"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -83.657018,
+                    40.455245
                 ]
             }
         },
@@ -52,33 +79,6 @@
                 "coordinates": [
                     -118.072198,
                     34.276531
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "hex": "AE4FCF",
-                "flight": "Unknown",
-                "type": "H60",
-                "description": "SIKORSKY UH-60 Black Hawk",
-                "operator": "Unknown",
-                "altitude": 250,
-                "ground_speed": 134.0,
-                "track": 181.28,
-                "squawk": "N/A",
-                "rssi": null,
-                "api_source": "https://opendata.adsb.fi/api/v2/hex/",
-                "last_seen": "2025-08-02T16:37:02.392417+00:00",
-                "nav_qnh": null,
-                "nav_altitude_mcp": null,
-                "category": "A7"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -118.434635,
-                    32.08357
                 ]
             }
         }
