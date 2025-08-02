@@ -4,59 +4,6 @@
         {
             "type": "Feature",
             "properties": {
-                "hex": "AE269B",
-                "flight": "Unknown",
-                "type": "AS65",
-                "description": "Eurocopter MH-65D Dolphin",
-                "operator": "Unknown",
-                "altitude": 1650,
-                "ground_speed": 92.4,
-                "track": 238.72,
-                "squawk": "N/A",
-                "rssi": -28.9,
-                "api_source": "https://opendata.adsb.fi/api/v2/hex/",
-                "last_seen": "2025-08-02T04:38:02.684998+00:00",
-                "nav_qnh": 0.0,
-                "nav_altitude_mcp": 0,
-                "category": "A7"
-            },
-            "geometry": {
-                "type": "LineString",
-                "coordinates": [
-                    [
-                        -123.572388,
-                        48.208237
-                    ],
-                    [
-                        -123.280546,
-                        48.194366
-                    ],
-                    [
-                        -123.215121,
-                        48.137481
-                    ],
-                    [
-                        -123.179123,
-                        48.125931
-                    ],
-                    [
-                        -123.137238,
-                        48.123734
-                    ],
-                    [
-                        -123.106956,
-                        48.11998
-                    ],
-                    [
-                        -123.111351,
-                        48.107666
-                    ]
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
                 "hex": "AE2917",
                 "flight": "C6040   ",
                 "type": "H60",
@@ -76,10 +23,6 @@
             "geometry": {
                 "type": "LineString",
                 "coordinates": [
-                    [
-                        -117.756958,
-                        32.915497
-                    ],
                     [
                         -117.757246,
                         32.91806
@@ -497,14 +440,6 @@
             "geometry": {
                 "type": "LineString",
                 "coordinates": [
-                    [
-                        -144.280985,
-                        59.503396
-                    ],
-                    [
-                        -144.280985,
-                        59.503396
-                    ],
                     [
                         -144.348513,
                         59.549064
@@ -1000,6 +935,55 @@
                     [
                         -151.252766,
                         58.236923
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "hex": "AE269B",
+                "flight": "Unknown",
+                "type": "AS65",
+                "description": "Eurocopter MH-65D Dolphin",
+                "operator": "Unknown",
+                "altitude": 1650,
+                "ground_speed": 92.4,
+                "track": 238.72,
+                "squawk": "N/A",
+                "rssi": -28.9,
+                "api_source": "https://opendata.adsb.fi/api/v2/hex/",
+                "last_seen": "2025-08-02T04:38:02.684998+00:00",
+                "nav_qnh": 0.0,
+                "nav_altitude_mcp": 0,
+                "category": "A7"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -123.280546,
+                        48.194366
+                    ],
+                    [
+                        -123.215121,
+                        48.137481
+                    ],
+                    [
+                        -123.179123,
+                        48.125931
+                    ],
+                    [
+                        -123.137238,
+                        48.123734
+                    ],
+                    [
+                        -123.106956,
+                        48.11998
+                    ],
+                    [
+                        -123.111351,
+                        48.107666
                     ]
                 ]
             }
