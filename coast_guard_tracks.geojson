@@ -1209,17 +1209,17 @@
             "type": "Feature",
             "properties": {
                 "hex": "AE2907",
-                "flight": "C6023   ",
+                "flight": "Unknown",
                 "type": "H60",
                 "description": "Sikorsky MH-60T Jayhawk",
                 "operator": "Unknown",
-                "altitude": 1250,
-                "ground_speed": 134.6,
-                "track": 64.01,
-                "squawk": "1277",
+                "altitude": 0,
+                "ground_speed": 0.0,
+                "track": 0.0,
+                "squawk": "N/A",
                 "rssi": -30.4,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-08-04T05:04:03.583908+00:00",
+                "last_seen": "2025-08-04T05:15:03.121831+00:00",
                 "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
                 "category": "A7"
@@ -2208,6 +2208,39 @@
                     [
                         -84.588831,
                         45.588684
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "hex": "AE266A",
+                "flight": "C6516   ",
+                "type": "AS65",
+                "description": "Eurocopter MH-65D Dolphin",
+                "operator": "Unknown",
+                "altitude": 450,
+                "ground_speed": 59.1,
+                "track": 93.88,
+                "squawk": "1277",
+                "rssi": -18.1,
+                "api_source": "https://api.airplanes.live/v2/hex/",
+                "last_seen": "2025-08-04T05:15:03.121798+00:00",
+                "nav_qnh": 0.0,
+                "nav_altitude_mcp": 0,
+                "category": "A7"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -79.988821,
+                        32.703599
+                    ],
+                    [
+                        -79.988708,
+                        32.703598
                     ]
                 ]
             }
