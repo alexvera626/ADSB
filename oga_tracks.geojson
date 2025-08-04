@@ -10,12 +10,12 @@
                 "description": "AEROSPATIALE AS-350 Ecureuil",
                 "operator": "Unknown",
                 "altitude": "ground",
-                "ground_speed": 50.0,
-                "track": 122.7,
+                "ground_speed": 60.0,
+                "track": 111.2,
                 "squawk": "1200",
                 "rssi": -49.5,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-08-04T16:12:02.030787+00:00",
+                "last_seen": "2025-08-04T16:13:03.030672+00:00",
                 "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
                 "category": "Unknown"
@@ -597,6 +597,10 @@
                     ],
                     [
                         -97.98214,
+                        26.173737
+                    ],
+                    [
+                        -97.984627,
                         26.173737
                     ]
                 ]
@@ -1222,6 +1226,35 @@
         {
             "type": "Feature",
             "properties": {
+                "hex": "A154D3",
+                "flight": "N185SD  ",
+                "type": "AS50",
+                "description": "AEROSPATIALE AS-350 Ecureuil",
+                "operator": "ORANGE COUNTY SHERIFF'S DEPARTMENT",
+                "altitude": "ground",
+                "ground_speed": 0.0,
+                "track": 0.0,
+                "squawk": "4204",
+                "rssi": -11.9,
+                "api_source": "https://opendata.adsb.fi/api/v2/hex/",
+                "last_seen": "2025-08-04T16:13:03.030536+00:00",
+                "nav_qnh": 0.0,
+                "nav_altitude_mcp": 0,
+                "category": "A7"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -117.87167,
+                        33.675213
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
                 "hex": "A13F4E",
                 "flight": "N18LA   ",
                 "type": "B412",
@@ -1432,15 +1465,15 @@
                 "type": "BE30",
                 "description": "BEECH 300 Super King Air",
                 "operator": "DEPARTMENT OF HOMELAND SECURITY",
-                "altitude": 275,
-                "ground_speed": 137.0,
-                "track": 180.42,
+                "altitude": 200,
+                "ground_speed": 136.0,
+                "track": 180.0,
                 "squawk": "3763",
-                "rssi": -33.7,
+                "rssi": -34.6,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-08-04T16:12:02.030845+00:00",
-                "nav_qnh": 1016.0,
-                "nav_altitude_mcp": 352,
+                "last_seen": "2025-08-04T16:13:03.030698+00:00",
+                "nav_qnh": 0.0,
+                "nav_altitude_mcp": 0,
                 "category": "A2"
             },
             "geometry": {
@@ -2297,6 +2330,14 @@
                     [
                         -84.35907,
                         30.42482
+                    ],
+                    [
+                        -84.359125,
+                        30.418256
+                    ],
+                    [
+                        -84.359125,
+                        30.420258
                     ]
                 ]
             }
