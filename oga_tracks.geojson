@@ -9,13 +9,13 @@
                 "type": "AS50",
                 "description": "AEROSPATIALE AS-350 Ecureuil",
                 "operator": "TINY BUBBLES AVIATION INC",
-                "altitude": 1375,
-                "ground_speed": 103.8,
-                "track": 327.99,
+                "altitude": "ground",
+                "ground_speed": 12.2,
+                "track": 135.0,
                 "squawk": "1200",
-                "rssi": -4.4,
+                "rssi": -15.7,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-08-06T13:52:03.440848+00:00",
+                "last_seen": "2025-08-06T13:53:02.937572+00:00",
                 "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
                 "category": "A7"
@@ -326,6 +326,47 @@
                     [
                         -118.413792,
                         34.253835
+                    ],
+                    [
+                        -118.414536,
+                        34.25998
+                    ],
+                    [
+                        -118.411191,
+                        34.257763
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "hex": "A13F4E",
+                "flight": "N18LA   ",
+                "type": "B412",
+                "description": "BELL 412",
+                "operator": "COUNTY OF LOS ANGELES FIRE DEPARTMENT",
+                "altitude": 975,
+                "ground_speed": 61.1,
+                "track": 272.82,
+                "squawk": "N/A",
+                "rssi": -27.1,
+                "api_source": "https://api.airplanes.live/v2/hex/",
+                "last_seen": "2025-08-06T13:53:02.937551+00:00",
+                "nav_qnh": 0.0,
+                "nav_altitude_mcp": 0,
+                "category": "A7"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -117.784704,
+                        34.090759
+                    ],
+                    [
+                        -117.784704,
+                        34.090759
                     ]
                 ]
             }
