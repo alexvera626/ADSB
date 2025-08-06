@@ -719,13 +719,13 @@
                 "type": "SHIP",
                 "description": "Zeppelin LZ N07-101",
                 "operator": "GOODYEAR TIRE & RUBBER CO",
-                "altitude": 1300,
-                "ground_speed": 36.7,
-                "track": 150.64,
+                "altitude": 1350,
+                "ground_speed": 0.0,
+                "track": 0.0,
                 "squawk": "N/A",
-                "rssi": -17.4,
+                "rssi": -15.3,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-08-06T15:53:02.366540+00:00",
+                "last_seen": "2025-08-06T15:54:02.917537+00:00",
                 "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
                 "category": "B2"
@@ -841,12 +841,12 @@
                 "description": "Unknown",
                 "operator": "DEPARTMENT OF HOMELAND SECURITY",
                 "altitude": 18000,
-                "ground_speed": 265.4,
-                "track": 335.75,
+                "ground_speed": 265.0,
+                "track": 335.95,
                 "squawk": "4667",
-                "rssi": -9.2,
+                "rssi": -7.5,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-08-06T15:53:02.366891+00:00",
+                "last_seen": "2025-08-06T15:54:02.917557+00:00",
                 "nav_qnh": 1013.6,
                 "nav_altitude_mcp": 18016,
                 "category": "A2"
@@ -1193,6 +1193,14 @@
                     [
                         -118.266449,
                         34.108266
+                    ],
+                    [
+                        -118.303127,
+                        34.176744
+                    ],
+                    [
+                        -118.303127,
+                        34.176744
                     ]
                 ]
             }
@@ -1310,13 +1318,13 @@
                 "type": "B412",
                 "description": "BELL 412",
                 "operator": "ORANGE COUNTY FIRE AUTHORITY",
-                "altitude": 400,
-                "ground_speed": 82.2,
-                "track": 175.82,
+                "altitude": 800,
+                "ground_speed": 105.0,
+                "track": 91.09,
                 "squawk": "4202",
-                "rssi": -8.5,
+                "rssi": -10.4,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-08-06T15:53:02.366530+00:00",
+                "last_seen": "2025-08-06T15:54:02.917516+00:00",
                 "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
                 "category": "A7"
@@ -1331,6 +1339,47 @@
                     [
                         -117.985149,
                         33.86467
+                    ],
+                    [
+                        -117.958355,
+                        33.854233
+                    ],
+                    [
+                        -117.958355,
+                        33.854233
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "hex": "A4D855",
+                "flight": "N411FA  ",
+                "type": "H60",
+                "description": "Sikorsky S-70M Firehawk",
+                "operator": "ORANGE COUNTY FIRE AUTHORITY",
+                "altitude": 400,
+                "ground_speed": 79.1,
+                "track": 103.16,
+                "squawk": "4202",
+                "rssi": -7.2,
+                "api_source": "https://api.airplanes.live/v2/hex/",
+                "last_seen": "2025-08-06T15:54:02.917526+00:00",
+                "nav_qnh": 0.0,
+                "nav_altitude_mcp": 0,
+                "category": "A7"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -117.965641,
+                        33.871688
+                    ],
+                    [
+                        -117.965641,
+                        33.871688
                     ]
                 ]
             }
