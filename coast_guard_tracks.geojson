@@ -9,16 +9,16 @@
                 "type": "H60",
                 "description": "Sikorsky MH-60T Jayhawk",
                 "operator": "Unknown",
-                "altitude": 0,
-                "ground_speed": 126.9,
-                "track": 69.71,
+                "altitude": -150,
+                "ground_speed": 127.1,
+                "track": 72.14,
                 "squawk": "1277",
-                "rssi": -29.9,
-                "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-08-07T11:56:03.343623+00:00",
+                "rssi": -21.3,
+                "api_source": "https://opendata.adsb.fi/api/v2/hex/",
+                "last_seen": "2025-08-07T11:57:02.974586+00:00",
                 "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
-                "category": "A7"
+                "category": "Unknown"
             },
             "geometry": {
                 "type": "LineString",
@@ -962,6 +962,39 @@
                     [
                         -72.082031,
                         41.221802
+                    ],
+                    [
+                        -71.926866,
+                        41.248355
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "hex": "AE223C",
+                "flight": "C2305   ",
+                "type": "CN35",
+                "description": "CASA HC-144B Ocean Sentry",
+                "operator": "United States Coast Guard",
+                "altitude": 1350,
+                "ground_speed": 157.0,
+                "track": 89.64,
+                "squawk": "N/A",
+                "rssi": -24.1,
+                "api_source": "https://api.airplanes.live/v2/hex/",
+                "last_seen": "2025-08-07T11:57:02.975057+00:00",
+                "nav_qnh": 1019.2,
+                "nav_altitude_mcp": 1504,
+                "category": "A2"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -97.044724,
+                        27.785568
                     ]
                 ]
             }
