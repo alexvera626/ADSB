@@ -903,13 +903,13 @@
                 "type": "SHIP",
                 "description": "Zeppelin LZ N07-101",
                 "operator": "GOODYEAR TIRE & RUBBER CO",
-                "altitude": 2050,
-                "ground_speed": 19.3,
-                "track": 201.25,
+                "altitude": 2000,
+                "ground_speed": 21.2,
+                "track": 171.87,
                 "squawk": "1200",
-                "rssi": -9.3,
+                "rssi": -6.4,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-08-07T15:17:02.644128+00:00",
+                "last_seen": "2025-08-07T15:18:02.745474+00:00",
                 "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
                 "category": "B2"
@@ -1528,6 +1528,14 @@
                     [
                         -94.181213,
                         36.07283
+                    ],
+                    [
+                        -94.181957,
+                        36.067566
+                    ],
+                    [
+                        -94.181957,
+                        36.067566
                     ]
                 ]
             }
@@ -2051,9 +2059,9 @@
                 "ground_speed": 253.2,
                 "track": 80.91,
                 "squawk": "4564",
-                "rssi": -19.5,
+                "rssi": -18.9,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-08-07T15:17:02.643946+00:00",
+                "last_seen": "2025-08-07T15:18:02.745286+00:00",
                 "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
                 "category": "A2"
@@ -2292,6 +2300,43 @@
                     [
                         -93.828035,
                         30.081253
+                    ],
+                    [
+                        -93.747546,
+                        30.092484
+                    ],
+                    [
+                        -93.747546,
+                        30.092484
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "hex": "A16926",
+                "flight": "N190LA  ",
+                "type": "H60",
+                "description": "SIKORSKY UH-60 Black Hawk",
+                "operator": "COUNTY OF LOS ANGELES FIRE DEPARTMENT",
+                "altitude": "ground",
+                "ground_speed": 0.1,
+                "track": 0.0,
+                "squawk": "1206",
+                "rssi": -15.9,
+                "api_source": "https://api.airplanes.live/v2/hex/",
+                "last_seen": "2025-08-07T15:18:02.745446+00:00",
+                "nav_qnh": 0.0,
+                "nav_altitude_mcp": 0,
+                "category": "A7"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -118.408066,
+                        34.258564
                     ]
                 ]
             }
