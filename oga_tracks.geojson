@@ -24,14 +24,6 @@
                 "type": "LineString",
                 "coordinates": [
                     [
-                        -118.271129,
-                        34.24292
-                    ],
-                    [
-                        -118.271129,
-                        34.24292
-                    ],
-                    [
                         -118.266701,
                         34.266953
                     ],
@@ -318,24 +310,20 @@
                 "type": "SHIP",
                 "description": "Zeppelin LZ N07-101",
                 "operator": "GOODYEAR TIRE & RUBBER CO",
-                "altitude": 0,
-                "ground_speed": 0.0,
+                "altitude": "ground",
+                "ground_speed": 1.0,
                 "track": 0.0,
                 "squawk": "N/A",
-                "rssi": -30.2,
-                "api_source": "https://opendata.adsb.fi/api/v2/hex/",
-                "last_seen": "2025-08-07T19:39:02.369082+00:00",
+                "rssi": -49.5,
+                "api_source": "https://api.airplanes.live/v2/hex/",
+                "last_seen": "2025-08-07T20:16:02.114852+00:00",
                 "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
-                "category": "B2"
+                "category": "Unknown"
             },
             "geometry": {
                 "type": "LineString",
                 "coordinates": [
-                    [
-                        -94.167328,
-                        36.005455
-                    ],
                     [
                         -94.161797,
                         36.01202
@@ -1667,6 +1655,10 @@
                     [
                         -94.161888,
                         36.01181
+                    ],
+                    [
+                        -94.167656,
+                        36.005676
                     ]
                 ]
             }
@@ -1693,14 +1685,6 @@
             "geometry": {
                 "type": "LineString",
                 "coordinates": [
-                    [
-                        -81.337119,
-                        30.017349
-                    ],
-                    [
-                        -81.336688,
-                        30.016937
-                    ],
                     [
                         -81.400829,
                         30.030991
@@ -1798,10 +1782,6 @@
             "geometry": {
                 "type": "LineString",
                 "coordinates": [
-                    [
-                        -77.999367,
-                        25.665482
-                    ],
                     [
                         -78.078278,
                         25.698278
@@ -8383,13 +8363,13 @@
                 "type": "EC35",
                 "description": "AIRBUS HELICOPTERS EC-135/635",
                 "operator": "REACH AIR MEDICAL SERVICES LLC",
-                "altitude": 2925,
-                "ground_speed": 126.2,
-                "track": 163.43,
+                "altitude": 2425,
+                "ground_speed": 128.4,
+                "track": 161.85,
                 "squawk": "1200",
-                "rssi": -2.8,
+                "rssi": -9.1,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-08-07T20:15:02.945054+00:00",
+                "last_seen": "2025-08-07T20:16:02.114842+00:00",
                 "nav_qnh": 1015.2,
                 "nav_altitude_mcp": 0,
                 "category": "A7"
@@ -8492,6 +8472,14 @@
                     [
                         -120.893127,
                         38.582774
+                    ],
+                    [
+                        -120.879941,
+                        38.549881
+                    ],
+                    [
+                        -120.879702,
+                        38.549332
                     ]
                 ]
             }
