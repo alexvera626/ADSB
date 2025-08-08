@@ -24,14 +24,6 @@
                 "type": "LineString",
                 "coordinates": [
                     [
-                        -118.023937,
-                        32.893858
-                    ],
-                    [
-                        -118.02453,
-                        32.894211
-                    ],
-                    [
                         -117.989703,
                         32.87384
                     ],
@@ -598,32 +590,24 @@
             "type": "Feature",
             "properties": {
                 "hex": "AE4F4D",
-                "flight": "LW704   ",
-                "type": "Unknown",
+                "flight": "Unknown",
+                "type": "H60",
                 "description": "Unknown",
                 "operator": "Unknown",
-                "altitude": 200,
-                "ground_speed": 47.0,
-                "track": 319.8,
+                "altitude": "ground",
+                "ground_speed": 4.8,
+                "track": 0.0,
                 "squawk": "N/A",
-                "rssi": -49.5,
-                "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-08-07T22:27:02.946191+00:00",
+                "rssi": -15.6,
+                "api_source": "https://opendata.adsb.fi/api/v2/hex/",
+                "last_seen": "2025-08-08T00:58:02.233111+00:00",
                 "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
-                "category": "A7"
+                "category": "Unknown"
             },
             "geometry": {
                 "type": "LineString",
                 "coordinates": [
-                    [
-                        -117.523106,
-                        32.728411
-                    ],
-                    [
-                        -117.523106,
-                        32.728411
-                    ],
                     [
                         -117.556177,
                         32.750896
@@ -1365,14 +1349,6 @@
             "geometry": {
                 "type": "LineString",
                 "coordinates": [
-                    [
-                        -119.86021,
-                        34.566061
-                    ],
-                    [
-                        -119.86021,
-                        34.566061
-                    ],
                     [
                         -119.822107,
                         34.541977
@@ -2175,14 +2151,6 @@
                 "type": "LineString",
                 "coordinates": [
                     [
-                        -122.912148,
-                        48.501613
-                    ],
-                    [
-                        -122.912645,
-                        48.501251
-                    ],
-                    [
                         -122.938096,
                         48.448776
                     ],
@@ -2729,55 +2697,6 @@
                     [
                         -122.541997,
                         48.830017
-                    ]
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "hex": "A31AA0",
-                "flight": "Unknown",
-                "type": "SHIP",
-                "description": "Zeppelin LZ N07-101",
-                "operator": "GOODYEAR TIRE & RUBBER CO",
-                "altitude": "ground",
-                "ground_speed": 1.0,
-                "track": 0.0,
-                "squawk": "N/A",
-                "rssi": -49.5,
-                "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-08-07T23:03:02.409464+00:00",
-                "nav_qnh": 0.0,
-                "nav_altitude_mcp": 0,
-                "category": "Unknown"
-            },
-            "geometry": {
-                "type": "LineString",
-                "coordinates": [
-                    [
-                        -94.167793,
-                        36.005642
-                    ],
-                    [
-                        -94.167824,
-                        36.00563
-                    ],
-                    [
-                        -94.167854,
-                        36.005642
-                    ],
-                    [
-                        -94.167824,
-                        36.00563
-                    ],
-                    [
-                        -94.167793,
-                        36.005688
-                    ],
-                    [
-                        -94.167854,
-                        36.005642
                     ]
                 ]
             }
@@ -3600,13 +3519,13 @@
                 "type": "B06",
                 "description": "BELL 206 JetRanger",
                 "operator": "PASADENA POLICE DEPARTMENT",
-                "altitude": 1500,
-                "ground_speed": 71.1,
-                "track": 103.84,
+                "altitude": 1700,
+                "ground_speed": 66.5,
+                "track": 96.91,
                 "squawk": "1200",
-                "rssi": -19.1,
+                "rssi": -5.5,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-08-08T00:57:02.578378+00:00",
+                "last_seen": "2025-08-08T00:58:02.233390+00:00",
                 "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
                 "category": "A7"
@@ -4397,6 +4316,14 @@
                     [
                         -117.951237,
                         34.130035
+                    ],
+                    [
+                        -117.929764,
+                        34.126514
+                    ],
+                    [
+                        -117.929432,
+                        34.126511
                     ]
                 ]
             }
@@ -5230,18 +5157,63 @@
         {
             "type": "Feature",
             "properties": {
+                "hex": "A31AA0",
+                "flight": "Unknown",
+                "type": "SHIP",
+                "description": "Zeppelin LZ N07-101",
+                "operator": "GOODYEAR TIRE & RUBBER CO",
+                "altitude": "ground",
+                "ground_speed": 1.0,
+                "track": 0.0,
+                "squawk": "N/A",
+                "rssi": -49.5,
+                "api_source": "https://api.airplanes.live/v2/hex/",
+                "last_seen": "2025-08-07T23:03:02.409464+00:00",
+                "nav_qnh": 0.0,
+                "nav_altitude_mcp": 0,
+                "category": "Unknown"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -94.167824,
+                        36.00563
+                    ],
+                    [
+                        -94.167854,
+                        36.005642
+                    ],
+                    [
+                        -94.167824,
+                        36.00563
+                    ],
+                    [
+                        -94.167793,
+                        36.005688
+                    ],
+                    [
+                        -94.167854,
+                        36.005642
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
                 "hex": "A40442",
                 "flight": "N358TV  ",
                 "type": "AS50",
                 "description": "AEROSPATIALE AS-350 Ecureuil",
                 "operator": "TINY BUBBLES AVIATION INC",
-                "altitude": 7275,
-                "ground_speed": 79.1,
-                "track": 55.3,
+                "altitude": 7250,
+                "ground_speed": 72.3,
+                "track": 94.76,
                 "squawk": "1200",
-                "rssi": -7.4,
+                "rssi": -5.8,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-08-08T00:57:02.578397+00:00",
+                "last_seen": "2025-08-08T00:58:02.233409+00:00",
                 "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
                 "category": "A7"
@@ -6644,6 +6616,14 @@
                     [
                         -118.680034,
                         34.414856
+                    ],
+                    [
+                        -118.65638,
+                        34.418564
+                    ],
+                    [
+                        -118.655987,
+                        34.418518
                     ]
                 ]
             }
@@ -7878,12 +7858,12 @@
                 "description": "SIKORSKY UH-60 Black Hawk",
                 "operator": "Unknown",
                 "altitude": 475,
-                "ground_speed": 79.6,
-                "track": 14.56,
+                "ground_speed": 83.4,
+                "track": 45.0,
                 "squawk": "7102",
                 "rssi": -25.0,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-08-08T00:57:02.578407+00:00",
+                "last_seen": "2025-08-08T00:58:02.233419+00:00",
                 "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
                 "category": "A7"
@@ -8138,6 +8118,14 @@
                     [
                         -117.733008,
                         32.824951
+                    ],
+                    [
+                        -117.72334,
+                        32.845505
+                    ],
+                    [
+                        -117.722955,
+                        32.845825
                     ]
                 ]
             }
