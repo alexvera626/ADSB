@@ -1780,13 +1780,13 @@
                 "type": "AS50",
                 "description": "AEROSPATIALE AS-350 Ecureuil",
                 "operator": "Unknown",
-                "altitude": 650,
-                "ground_speed": 80.0,
-                "track": 96.3,
+                "altitude": 700,
+                "ground_speed": 50.0,
+                "track": 159.4,
                 "squawk": "1200",
                 "rssi": -49.5,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-08-08T14:55:03.607789+00:00",
+                "last_seen": "2025-08-08T14:56:02.163063+00:00",
                 "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
                 "category": "Unknown"
@@ -2161,6 +2161,10 @@
                     [
                         -98.101898,
                         26.370071
+                    ],
+                    [
+                        -98.083344,
+                        26.366547
                     ]
                 ]
             }
@@ -2568,12 +2572,12 @@
                 "description": "Unknown",
                 "operator": "DEPARTMENT OF HOMELAND SECURITY",
                 "altitude": "ground",
-                "ground_speed": 9.8,
+                "ground_speed": 15.5,
                 "track": 0.0,
                 "squawk": "7654",
-                "rssi": -10.7,
+                "rssi": -16.0,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-08-08T14:55:03.607821+00:00",
+                "last_seen": "2025-08-08T14:56:02.163154+00:00",
                 "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
                 "category": "A2"
@@ -2612,6 +2616,47 @@
                     [
                         -117.212297,
                         32.702866
+                    ],
+                    [
+                        -117.211481,
+                        32.706043
+                    ],
+                    [
+                        -117.211459,
+                        32.706116
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "hex": "AAFD01",
+                "flight": "TROY509 ",
+                "type": "DH8C",
+                "description": "DE HAVILLAND DHC-8-300 Dash 8",
+                "operator": "US DEPARTMENT OF HOMELAND SECURITY",
+                "altitude": 1225,
+                "ground_speed": 165.4,
+                "track": 86.19,
+                "squawk": "N/A",
+                "rssi": -19.6,
+                "api_source": "https://api.airplanes.live/v2/hex/",
+                "last_seen": "2025-08-08T14:56:02.162867+00:00",
+                "nav_qnh": 0.0,
+                "nav_altitude_mcp": 0,
+                "category": "A2"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -95.386694,
+                        30.333252
+                    ],
+                    [
+                        -95.385388,
+                        30.333392
                     ]
                 ]
             }
