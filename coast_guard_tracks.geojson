@@ -24,14 +24,6 @@
                 "type": "LineString",
                 "coordinates": [
                     [
-                        -95.501562,
-                        29.625916
-                    ],
-                    [
-                        -95.501242,
-                        29.626449
-                    ],
-                    [
                         -95.513975,
                         29.645966
                     ],
@@ -320,14 +312,6 @@
             "geometry": {
                 "type": "LineString",
                 "coordinates": [
-                    [
-                        -82.678986,
-                        27.910813
-                    ],
-                    [
-                        -82.679063,
-                        27.910767
-                    ],
                     [
                         -82.679329,
                         27.910499
@@ -629,10 +613,6 @@
             "geometry": {
                 "type": "LineString",
                 "coordinates": [
-                    [
-                        -79.107582,
-                        37.963715
-                    ],
                     [
                         -79.109265,
                         38.008273
@@ -936,15 +916,15 @@
                 "type": "CN35",
                 "description": "CASA HC-144B Ocean Sentry",
                 "operator": "United States Coast Guard",
-                "altitude": 3400,
-                "ground_speed": 215.4,
-                "track": 12.88,
+                "altitude": 2325,
+                "ground_speed": 212.8,
+                "track": 12.21,
                 "squawk": "4772",
-                "rssi": -27.2,
+                "rssi": -25.3,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-08-09T18:48:03.534695+00:00",
+                "last_seen": "2025-08-09T18:49:03.282386+00:00",
                 "nav_qnh": 1016.8,
-                "nav_altitude_mcp": 3008,
+                "nav_altitude_mcp": 1600,
                 "category": "A2"
             },
             "geometry": {
@@ -1337,6 +1317,14 @@
                     [
                         -80.90332,
                         25.658936
+                    ],
+                    [
+                        -80.889282,
+                        25.716293
+                    ],
+                    [
+                        -80.889282,
+                        25.716293
                     ]
                 ]
             }
@@ -2843,13 +2831,13 @@
                 "type": "CN35",
                 "description": "CASA HC-144B Ocean Sentry",
                 "operator": "United States Coast Guard",
-                "altitude": 1475,
-                "ground_speed": 205.8,
-                "track": 325.69,
+                "altitude": 750,
+                "ground_speed": 192.2,
+                "track": 325.81,
                 "squawk": "1277",
-                "rssi": -24.0,
+                "rssi": -13.0,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-08-09T18:48:03.534674+00:00",
+                "last_seen": "2025-08-09T18:49:03.282360+00:00",
                 "nav_qnh": 1023.2,
                 "nav_altitude_mcp": 992,
                 "category": "A2"
@@ -4544,6 +4532,10 @@
                     [
                         -70.628856,
                         42.281982
+                    ],
+                    [
+                        -70.669747,
+                        42.326738
                     ]
                 ]
             }
@@ -8322,12 +8314,12 @@
                 "description": "Alenia C-27J Spartan",
                 "operator": "Unknown",
                 "altitude": 14050,
-                "ground_speed": 254.1,
-                "track": 334.85,
+                "ground_speed": 252.8,
+                "track": 334.96,
                 "squawk": "3313",
-                "rssi": -16.2,
+                "rssi": -12.6,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-08-09T18:48:03.534664+00:00",
+                "last_seen": "2025-08-09T18:49:03.282318+00:00",
                 "nav_qnh": 1011.2,
                 "nav_altitude_mcp": 14016,
                 "category": "A2"
@@ -8530,6 +8522,14 @@
                     [
                         -121.870323,
                         39.497726
+                    ],
+                    [
+                        -121.908203,
+                        39.560557
+                    ],
+                    [
+                        -121.908203,
+                        39.560557
                     ]
                 ]
             }
@@ -8543,12 +8543,12 @@
                 "description": "Sikorsky MH-60T Jayhawk",
                 "operator": "Unknown",
                 "altitude": 250,
-                "ground_speed": 76.2,
-                "track": 160.85,
+                "ground_speed": 77.8,
+                "track": 154.09,
                 "squawk": "1277",
-                "rssi": -30.5,
+                "rssi": -30.8,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-08-09T18:48:03.534730+00:00",
+                "last_seen": "2025-08-09T18:49:03.282408+00:00",
                 "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
                 "category": "A7"
@@ -8775,6 +8775,43 @@
                     [
                         -117.707688,
                         32.770401
+                    ],
+                    [
+                        -117.698016,
+                        32.750519
+                    ],
+                    [
+                        -117.698016,
+                        32.750519
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "hex": "AE2699",
+                "flight": "C6567   ",
+                "type": "AS65",
+                "description": "Eurocopter MH-65D Dolphin",
+                "operator": "Unknown",
+                "altitude": "ground",
+                "ground_speed": 7.2,
+                "track": 0.0,
+                "squawk": "1200",
+                "rssi": -16.5,
+                "api_source": "https://api.airplanes.live/v2/hex/",
+                "last_seen": "2025-08-09T18:49:03.282396+00:00",
+                "nav_qnh": 0.0,
+                "nav_altitude_mcp": 0,
+                "category": "A7"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -122.389448,
+                        37.632465
                     ]
                 ]
             }
