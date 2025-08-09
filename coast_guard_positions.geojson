@@ -4,18 +4,45 @@
         {
             "type": "Feature",
             "properties": {
+                "hex": "AE223A",
+                "flight": "C2303   ",
+                "type": "CN35",
+                "description": "CASA HC-144B Ocean Sentry",
+                "operator": "United States Coast Guard",
+                "altitude": 750,
+                "ground_speed": 125.1,
+                "track": 87.71,
+                "squawk": "4425",
+                "rssi": null,
+                "api_source": "https://api.airplanes.live/v2/hex/",
+                "last_seen": "2025-08-09T15:11:02.999138+00:00",
+                "nav_qnh": null,
+                "nav_altitude_mcp": null,
+                "category": "A2"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -81.806234,
+                    24.555725
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
                 "hex": "AE26A1",
                 "flight": "C6575   ",
                 "type": "AS65",
                 "description": "Eurocopter MH-65D Dolphin",
                 "operator": "Unknown",
                 "altitude": -25,
-                "ground_speed": 90.7,
-                "track": 228.58,
+                "ground_speed": 89.3,
+                "track": 221.37,
                 "squawk": "4434",
                 "rssi": null,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-08-09T15:10:02.526864+00:00",
+                "last_seen": "2025-08-09T15:11:02.999160+00:00",
                 "nav_qnh": null,
                 "nav_altitude_mcp": null,
                 "category": "A7"
@@ -23,8 +50,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -74.622009,
-                    39.222495
+                    -74.644099,
+                    39.204529
                 ]
             }
         },
@@ -58,18 +85,18 @@
         {
             "type": "Feature",
             "properties": {
-                "hex": "AE27F7",
-                "flight": "C6006   ",
-                "type": "H60",
-                "description": "Sikorsky MH-60T Jayhawk",
+                "hex": "AE26AE",
+                "flight": "C6588   ",
+                "type": "AS65",
+                "description": "Eurocopter MH-65D Dolphin",
                 "operator": "Unknown",
-                "altitude": 200,
-                "ground_speed": 85.9,
-                "track": 335.22,
-                "squawk": "1200",
+                "altitude": "ground",
+                "ground_speed": 1.6,
+                "track": 0.0,
+                "squawk": "N/A",
                 "rssi": null,
-                "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-08-09T15:10:02.526890+00:00",
+                "api_source": "https://opendata.adsb.fi/api/v2/hex/",
+                "last_seen": "2025-08-09T15:11:02.998990+00:00",
                 "nav_qnh": null,
                 "nav_altitude_mcp": null,
                 "category": "A7"
@@ -77,8 +104,35 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -82.856034,
-                    28.091812
+                    -87.86704,
+                    42.420296
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "hex": "AE27F7",
+                "flight": "C6006   ",
+                "type": "H60",
+                "description": "Sikorsky MH-60T Jayhawk",
+                "operator": "Unknown",
+                "altitude": 200,
+                "ground_speed": 85.7,
+                "track": 277.37,
+                "squawk": "N/A",
+                "rssi": null,
+                "api_source": "https://api.airplanes.live/v2/hex/",
+                "last_seen": "2025-08-09T15:11:02.999174+00:00",
+                "nav_qnh": null,
+                "nav_altitude_mcp": null,
+                "category": "A7"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -82.86438,
+                    28.104813
                 ]
             }
         }
