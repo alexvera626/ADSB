@@ -24,14 +24,6 @@
                 "type": "LineString",
                 "coordinates": [
                     [
-                        -117.06566,
-                        33.07192
-                    ],
-                    [
-                        -117.06566,
-                        33.07192
-                    ],
-                    [
                         -117.084494,
                         33.097663
                     ],
@@ -682,13 +674,13 @@
                 "type": "AS50",
                 "description": "AEROSPATIALE AS-350 Ecureuil",
                 "operator": "COUNTY OF LOS ANGELES",
-                "altitude": 1500,
-                "ground_speed": 115.0,
-                "track": 254.88,
+                "altitude": 1700,
+                "ground_speed": 117.2,
+                "track": 243.65,
                 "squawk": "1206",
-                "rssi": -17.8,
+                "rssi": -15.6,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-08-10T05:48:02.624073+00:00",
+                "last_seen": "2025-08-10T05:49:03.293128+00:00",
                 "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
                 "category": "A7"
@@ -696,14 +688,6 @@
             "geometry": {
                 "type": "LineString",
                 "coordinates": [
-                    [
-                        -118.124159,
-                        34.627075
-                    ],
-                    [
-                        -118.124159,
-                        34.627075
-                    ],
                     [
                         -118.121166,
                         34.598787
@@ -1375,91 +1359,14 @@
                     [
                         -117.940923,
                         33.990326
-                    ]
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "hex": "A40442",
-                "flight": "N358TV  ",
-                "type": "AS50",
-                "description": "AEROSPATIALE AS-350 Ecureuil",
-                "operator": "TINY BUBBLES AVIATION INC",
-                "altitude": "ground",
-                "ground_speed": 0.3,
-                "track": 0.0,
-                "squawk": "N/A",
-                "rssi": -15.0,
-                "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-08-10T01:56:02.726397+00:00",
-                "nav_qnh": 0.0,
-                "nav_altitude_mcp": 0,
-                "category": "A7"
-            },
-            "geometry": {
-                "type": "LineString",
-                "coordinates": [
-                    [
-                        -118.495172,
-                        34.309799
                     ],
                     [
-                        -118.495172,
-                        34.309845
+                        -117.977371,
+                        33.980434
                     ],
                     [
-                        -118.494443,
-                        34.310623
-                    ],
-                    [
-                        -118.494443,
-                        34.310623
-                    ],
-                    [
-                        -118.49453,
-                        34.311606
-                    ],
-                    [
-                        -118.49453,
-                        34.311606
-                    ],
-                    [
-                        -118.470325,
-                        34.310908
-                    ],
-                    [
-                        -118.470789,
-                        34.311172
-                    ],
-                    [
-                        -118.44286,
-                        34.287306
-                    ],
-                    [
-                        -118.442314,
-                        34.286774
-                    ],
-                    [
-                        -118.418716,
-                        34.26416
-                    ],
-                    [
-                        -118.418716,
-                        34.26416
-                    ],
-                    [
-                        -118.410602,
-                        34.257236
-                    ],
-                    [
-                        -118.410487,
-                        34.257326
-                    ],
-                    [
-                        -118.410501,
-                        34.257373
+                        -117.977694,
+                        33.980301
                     ]
                 ]
             }
@@ -1700,18 +1607,95 @@
         {
             "type": "Feature",
             "properties": {
+                "hex": "A40442",
+                "flight": "N358TV  ",
+                "type": "AS50",
+                "description": "AEROSPATIALE AS-350 Ecureuil",
+                "operator": "TINY BUBBLES AVIATION INC",
+                "altitude": "ground",
+                "ground_speed": 0.3,
+                "track": 0.0,
+                "squawk": "N/A",
+                "rssi": -15.0,
+                "api_source": "https://api.airplanes.live/v2/hex/",
+                "last_seen": "2025-08-10T01:56:02.726397+00:00",
+                "nav_qnh": 0.0,
+                "nav_altitude_mcp": 0,
+                "category": "A7"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -118.494443,
+                        34.310623
+                    ],
+                    [
+                        -118.494443,
+                        34.310623
+                    ],
+                    [
+                        -118.49453,
+                        34.311606
+                    ],
+                    [
+                        -118.49453,
+                        34.311606
+                    ],
+                    [
+                        -118.470325,
+                        34.310908
+                    ],
+                    [
+                        -118.470789,
+                        34.311172
+                    ],
+                    [
+                        -118.44286,
+                        34.287306
+                    ],
+                    [
+                        -118.442314,
+                        34.286774
+                    ],
+                    [
+                        -118.418716,
+                        34.26416
+                    ],
+                    [
+                        -118.418716,
+                        34.26416
+                    ],
+                    [
+                        -118.410602,
+                        34.257236
+                    ],
+                    [
+                        -118.410487,
+                        34.257326
+                    ],
+                    [
+                        -118.410501,
+                        34.257373
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
                 "hex": "A1F0C0",
                 "flight": "N224KB  ",
                 "type": "B06",
                 "description": "BELL 206 JetRanger",
                 "operator": "PASADENA POLICE DEPARTMENT",
-                "altitude": 2100,
-                "ground_speed": 91.0,
-                "track": 77.95,
+                "altitude": 2000,
+                "ground_speed": 92.1,
+                "track": 86.89,
                 "squawk": "1200",
-                "rssi": -19.9,
+                "rssi": -11.7,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-08-10T05:48:02.624083+00:00",
+                "last_seen": "2025-08-10T05:49:03.293138+00:00",
                 "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
                 "category": "A7"
@@ -2694,6 +2678,14 @@
                     [
                         -117.864579,
                         34.104355
+                    ],
+                    [
+                        -117.834423,
+                        34.106506
+                    ],
+                    [
+                        -117.833918,
+                        34.106552
                     ]
                 ]
             }
@@ -3532,13 +3524,13 @@
                 "type": "Unknown",
                 "description": "Unknown",
                 "operator": "CITY OF HUNTINGTON BEACH",
-                "altitude": 1100,
-                "ground_speed": 69.4,
-                "track": 36.21,
+                "altitude": 1150,
+                "ground_speed": 70.0,
+                "track": 181.64,
                 "squawk": "4301",
-                "rssi": -14.0,
+                "rssi": -14.5,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-08-10T05:48:02.624062+00:00",
+                "last_seen": "2025-08-10T05:49:03.293108+00:00",
                 "nav_qnh": 1011.2,
                 "nav_altitude_mcp": 0,
                 "category": "A7"
@@ -4077,6 +4069,14 @@
                     [
                         -118.045125,
                         33.734344
+                    ],
+                    [
+                        -118.033619,
+                        33.7284
+                    ],
+                    [
+                        -118.033619,
+                        33.727981
                     ]
                 ]
             }
