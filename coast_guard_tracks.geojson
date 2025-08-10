@@ -24,14 +24,6 @@
                 "type": "LineString",
                 "coordinates": [
                     [
-                        -122.35968,
-                        39.599894
-                    ],
-                    [
-                        -122.360229,
-                        39.600357
-                    ],
-                    [
                         -122.419495,
                         39.648541
                     ],
@@ -848,14 +840,6 @@
             "geometry": {
                 "type": "LineString",
                 "coordinates": [
-                    [
-                        -122.320258,
-                        37.792145
-                    ],
-                    [
-                        -122.320258,
-                        37.792145
-                    ],
                     [
                         -122.32524,
                         37.816664
@@ -2010,22 +1994,6 @@
                 "type": "LineString",
                 "coordinates": [
                     [
-                        -122.450661,
-                        47.684738
-                    ],
-                    [
-                        -122.450661,
-                        47.684738
-                    ],
-                    [
-                        -122.450661,
-                        47.684738
-                    ],
-                    [
-                        -122.450661,
-                        47.684738
-                    ],
-                    [
                         -122.442204,
                         47.693512
                     ],
@@ -2803,14 +2771,6 @@
                 "type": "LineString",
                 "coordinates": [
                     [
-                        -91.393945,
-                        31.240602
-                    ],
-                    [
-                        -91.393945,
-                        31.240602
-                    ],
-                    [
                         -91.49101,
                         31.248143
                     ],
@@ -2907,14 +2867,6 @@
             "geometry": {
                 "type": "LineString",
                 "coordinates": [
-                    [
-                        -82.037923,
-                        27.93125
-                    ],
-                    [
-                        -82.045484,
-                        27.930038
-                    ],
                     [
                         -82.081189,
                         27.930954
@@ -4968,12 +4920,12 @@
                 "description": "Eurocopter MH-65D Dolphin",
                 "operator": "Unknown",
                 "altitude": "ground",
-                "ground_speed": 0.0,
-                "track": 0.0,
+                "ground_speed": 2.8,
+                "track": 298.12,
                 "squawk": "1200",
-                "rssi": -14.5,
-                "api_source": "https://opendata.adsb.fi/api/v2/hex/",
-                "last_seen": "2025-08-10T22:38:02.908276+00:00",
+                "rssi": -15.9,
+                "api_source": "https://api.airplanes.live/v2/hex/",
+                "last_seen": "2025-08-10T22:39:03.004787+00:00",
                 "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
                 "category": "A7"
@@ -5020,6 +4972,14 @@
                     [
                         -117.209421,
                         32.701306
+                    ],
+                    [
+                        -117.2098,
+                        32.701679
+                    ],
+                    [
+                        -117.2098,
+                        32.701679
                     ]
                 ]
             }
@@ -5065,6 +5025,35 @@
                     [
                         -82.844249,
                         42.626026
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "hex": "AE2BF1",
+                "flight": "Unknown",
+                "type": "H60",
+                "description": "SIKORSKY UH-60 Black Hawk",
+                "operator": "Unknown",
+                "altitude": 425,
+                "ground_speed": 92.7,
+                "track": 147.34,
+                "squawk": "N/A",
+                "rssi": -12.7,
+                "api_source": "https://api.airplanes.live/v2/hex/",
+                "last_seen": "2025-08-10T22:39:03.004799+00:00",
+                "nav_qnh": 0.0,
+                "nav_altitude_mcp": 0,
+                "category": "Unknown"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -157.705594,
+                        21.387405
                     ]
                 ]
             }
