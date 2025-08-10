@@ -4700,13 +4700,13 @@
                 "type": "C30J",
                 "description": "Lockheed Martin HC-130J Hercules",
                 "operator": "Unknown",
-                "altitude": 1000,
-                "ground_speed": 156.5,
-                "track": 349.7,
+                "altitude": 975,
+                "ground_speed": 157.2,
+                "track": 357.08,
                 "squawk": "0402",
-                "rssi": -20.8,
+                "rssi": -22.0,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-08-10T22:28:03.211891+00:00",
+                "last_seen": "2025-08-10T22:29:02.946945+00:00",
                 "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
                 "category": "A3"
@@ -5237,6 +5237,14 @@
                     [
                         -157.798309,
                         21.644277
+                    ],
+                    [
+                        -157.800526,
+                        21.661057
+                    ],
+                    [
+                        -157.800526,
+                        21.661057
                     ]
                 ]
             }
@@ -5439,6 +5447,35 @@
                     [
                         -158.063349,
                         21.588821
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "hex": "AE2681",
+                "flight": "C6539   ",
+                "type": "AS65",
+                "description": "Eurocopter MH-65D Dolphin",
+                "operator": "Unknown",
+                "altitude": "ground",
+                "ground_speed": 0.0,
+                "track": 0.0,
+                "squawk": "1200",
+                "rssi": -17.0,
+                "api_source": "https://opendata.adsb.fi/api/v2/hex/",
+                "last_seen": "2025-08-10T22:29:02.944637+00:00",
+                "nav_qnh": 0.0,
+                "nav_altitude_mcp": 0,
+                "category": "A7"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -117.209365,
+                        32.701841
                     ]
                 ]
             }
