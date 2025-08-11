@@ -4,18 +4,45 @@
         {
             "type": "Feature",
             "properties": {
+                "hex": "A07232",
+                "flight": "00000000",
+                "type": "Unknown",
+                "description": "Unknown",
+                "operator": "DEPARTMENT OF HOMELAND SECURITY",
+                "altitude": 1550,
+                "ground_speed": 185.8,
+                "track": 237.08,
+                "squawk": "1200",
+                "rssi": null,
+                "api_source": "https://api.airplanes.live/v2/hex/",
+                "last_seen": "2025-08-11T20:09:02.513687+00:00",
+                "nav_qnh": null,
+                "nav_altitude_mcp": null,
+                "category": "A2"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -122.56897,
+                    48.824034
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
                 "hex": "A1ED21",
                 "flight": "N223LA  ",
                 "type": "AS50",
                 "description": "AEROSPATIALE AS-350 Ecureuil",
                 "operator": "LAPD AIR SUPPORT DIVISION",
-                "altitude": 900,
-                "ground_speed": 76.1,
-                "track": 93.01,
+                "altitude": 975,
+                "ground_speed": 78.0,
+                "track": 120.84,
                 "squawk": "1200",
                 "rssi": null,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-08-11T20:08:02.238914+00:00",
+                "last_seen": "2025-08-11T20:09:02.513735+00:00",
                 "nav_qnh": null,
                 "nav_altitude_mcp": null,
                 "category": "A7"
@@ -23,8 +50,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -118.28234,
-                    34.082886
+                    -118.25655,
+                    34.077495
                 ]
             }
         },
@@ -79,6 +106,33 @@
                 "coordinates": [
                     -116.26988,
                     33.744347
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "hex": "AE4FAE",
+                "flight": "SHWK404 ",
+                "type": "H60",
+                "description": "SIKORSKY UH-60 Black Hawk",
+                "operator": "Unknown",
+                "altitude": 50,
+                "ground_speed": 5.0,
+                "track": 36.87,
+                "squawk": "N/A",
+                "rssi": null,
+                "api_source": "https://opendata.adsb.fi/api/v2/hex/",
+                "last_seen": "2025-08-11T20:09:02.513567+00:00",
+                "nav_qnh": null,
+                "nav_altitude_mcp": null,
+                "category": "A7"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -117.39923,
+                    32.626974
                 ]
             }
         },
