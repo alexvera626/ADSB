@@ -24,14 +24,6 @@
                 "type": "LineString",
                 "coordinates": [
                     [
-                        -118.28901,
-                        33.925552
-                    ],
-                    [
-                        -118.28901,
-                        33.925552
-                    ],
-                    [
                         -118.260928,
                         33.919189
                     ],
@@ -919,18 +911,47 @@
         {
             "type": "Feature",
             "properties": {
+                "hex": "A2097B",
+                "flight": "N230LA  ",
+                "type": "AS50",
+                "description": "AEROSPATIALE AS-350 Ecureuil",
+                "operator": "LAPD AIR SUPPORT DIVISION",
+                "altitude": "ground",
+                "ground_speed": 0.7,
+                "track": 0.0,
+                "squawk": "1200",
+                "rssi": -26.9,
+                "api_source": "https://api.airplanes.live/v2/hex/",
+                "last_seen": "2025-08-13T14:11:03.283356+00:00",
+                "nav_qnh": 1013.6,
+                "nav_altitude_mcp": 6496,
+                "category": "A7"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -118.229748,
+                        34.054527
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
                 "hex": "A13F4E",
                 "flight": "N18LA   ",
                 "type": "B412",
                 "description": "BELL 412",
                 "operator": "COUNTY OF LOS ANGELES FIRE DEPARTMENT",
-                "altitude": 575,
-                "ground_speed": 108.0,
-                "track": 270.0,
+                "altitude": 700,
+                "ground_speed": 105.1,
+                "track": 267.82,
                 "squawk": "1206",
-                "rssi": -12.2,
+                "rssi": -12.6,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-08-13T14:10:02.801534+00:00",
+                "last_seen": "2025-08-13T14:11:03.283488+00:00",
                 "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
                 "category": "A7"
@@ -1001,6 +1022,14 @@
                     [
                         -118.059362,
                         34.072723
+                    ],
+                    [
+                        -118.094003,
+                        34.072311
+                    ],
+                    [
+                        -118.093835,
+                        34.072311
                     ]
                 ]
             }
