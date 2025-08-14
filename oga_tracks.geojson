@@ -24,22 +24,6 @@
                 "type": "LineString",
                 "coordinates": [
                     [
-                        -116.529796,
-                        33.460678
-                    ],
-                    [
-                        -116.529796,
-                        33.460678
-                    ],
-                    [
-                        -116.52962,
-                        33.461243
-                    ],
-                    [
-                        -116.52962,
-                        33.461243
-                    ],
-                    [
                         -116.522678,
                         33.491682
                     ],
@@ -291,12 +275,12 @@
                 "description": "SIKORSKY UH-60 Black Hawk",
                 "operator": "COUNTY OF LOS ANGELES FIRE DEPARTMENT",
                 "altitude": 4050,
-                "ground_speed": 123.4,
-                "track": 154.06,
-                "squawk": "1255",
+                "ground_speed": 0.0,
+                "track": 0.0,
+                "squawk": "N/A",
                 "rssi": -16.8,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-08-14T12:22:02.673184+00:00",
+                "last_seen": "2025-08-14T12:23:02.882386+00:00",
                 "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
                 "category": "A7"
@@ -1495,6 +1479,14 @@
                     [
                         -118.797741,
                         34.741237
+                    ],
+                    [
+                        -118.775099,
+                        34.713409
+                    ],
+                    [
+                        -118.775099,
+                        34.713409
                     ],
                     [
                         -118.775099,
@@ -3090,6 +3082,35 @@
                     [
                         -118.14065,
                         33.816826
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "hex": "A00399",
+                "flight": "PD20    ",
+                "type": "AS50",
+                "description": "AEROSPATIALE AS-350 Ecureuil",
+                "operator": "Unknown",
+                "altitude": "ground",
+                "ground_speed": 100.0,
+                "track": 245.4,
+                "squawk": "1200",
+                "rssi": -49.5,
+                "api_source": "https://api.airplanes.live/v2/hex/",
+                "last_seen": "2025-08-14T12:23:02.882399+00:00",
+                "nav_qnh": 0.0,
+                "nav_altitude_mcp": 0,
+                "category": "Unknown"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -98.173515,
+                        26.415436
                     ]
                 ]
             }
