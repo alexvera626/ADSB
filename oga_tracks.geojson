@@ -566,13 +566,13 @@
                 "type": "AS50",
                 "description": "AEROSPATIALE AS-350 Ecureuil",
                 "operator": "ORANGE COUNTY SHERIFF'S DEPARTMENT",
-                "altitude": 850,
-                "ground_speed": 86.4,
-                "track": 163.87,
+                "altitude": 950,
+                "ground_speed": 92.1,
+                "track": 159.01,
                 "squawk": "4204",
-                "rssi": -7.7,
+                "rssi": -12.1,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-08-15T14:36:03.313784+00:00",
+                "last_seen": "2025-08-15T14:37:03.726287+00:00",
                 "nav_qnh": 1013.6,
                 "nav_altitude_mcp": 192,
                 "category": "A7"
@@ -647,6 +647,14 @@
                     [
                         -117.900341,
                         33.738327
+                    ],
+                    [
+                        -117.891316,
+                        33.714844
+                    ],
+                    [
+                        -117.89114,
+                        33.714481
                     ]
                 ]
             }
@@ -856,15 +864,15 @@
                 "type": "BE30",
                 "description": "BEECH 300 Super King Air",
                 "operator": "DEPARTMENT OF HOMELAND SECURITY",
-                "altitude": 1750,
-                "ground_speed": 164.5,
-                "track": 85.47,
+                "altitude": 1375,
+                "ground_speed": 164.4,
+                "track": 108.43,
                 "squawk": "4403",
-                "rssi": -26.0,
+                "rssi": -27.4,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-08-15T14:36:03.313793+00:00",
-                "nav_qnh": 1019.2,
-                "nav_altitude_mcp": 1504,
+                "last_seen": "2025-08-15T14:37:03.726311+00:00",
+                "nav_qnh": 0.0,
+                "nav_altitude_mcp": 0,
                 "category": "A2"
             },
             "geometry": {
@@ -1317,6 +1325,14 @@
                     [
                         -80.938703,
                         29.39015
+                    ],
+                    [
+                        -80.92149,
+                        29.38028
+                    ],
+                    [
+                        -80.92149,
+                        29.38028
                     ]
                 ]
             }
@@ -1530,6 +1546,39 @@
                     [
                         -118.406653,
                         34.258339
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "hex": "A31AA0",
+                "flight": "Unknown",
+                "type": "SHIP",
+                "description": "Zeppelin LZ N07-101",
+                "operator": "GOODYEAR TIRE & RUBBER CO",
+                "altitude": "ground",
+                "ground_speed": 0.7,
+                "track": 0.0,
+                "squawk": "N/A",
+                "rssi": -8.0,
+                "api_source": "https://api.airplanes.live/v2/hex/",
+                "last_seen": "2025-08-15T14:37:03.726301+00:00",
+                "nav_qnh": 0.0,
+                "nav_altitude_mcp": 0,
+                "category": "Unknown"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -112.373377,
+                        33.420224
+                    ],
+                    [
+                        -112.373377,
+                        33.420224
                     ]
                 ]
             }
