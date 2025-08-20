@@ -5,17 +5,17 @@
             "type": "Feature",
             "properties": {
                 "hex": "AE2125",
-                "flight": "Unknown",
+                "flight": "        ",
                 "type": "C27J",
                 "description": "ALENIA C-27J Spartan",
                 "operator": "Unknown",
                 "altitude": 7425,
-                "ground_speed": 156.7,
-                "track": 150.98,
-                "squawk": "N/A",
+                "ground_speed": 158.8,
+                "track": 106.84,
+                "squawk": "1277",
                 "rssi": null,
                 "api_source": "https://opendata.adsb.fi/api/v2/hex/",
-                "last_seen": "2025-08-20T08:09:03.000271+00:00",
+                "last_seen": "2025-08-20T08:10:02.927841+00:00",
                 "nav_qnh": null,
                 "nav_altitude_mcp": null,
                 "category": "A2"
@@ -23,8 +23,35 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -116.246284,
-                    29.946854
+                    -116.206248,
+                    29.909866
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "hex": "AE290A",
+                "flight": "C6026   ",
+                "type": "H60",
+                "description": "Sikorsky MH-60T Jayhawk",
+                "operator": "Unknown",
+                "altitude": 6175,
+                "ground_speed": 123.0,
+                "track": 339.5,
+                "squawk": "1277",
+                "rssi": null,
+                "api_source": "https://api.airplanes.live/v2/hex/",
+                "last_seen": "2025-08-20T08:10:02.927971+00:00",
+                "nav_qnh": null,
+                "nav_altitude_mcp": null,
+                "category": "Unknown"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -116.094467,
+                    29.952484
                 ]
             }
         }
