@@ -24,14 +24,6 @@
                 "type": "LineString",
                 "coordinates": [
                     [
-                        -118.423705,
-                        34.172424
-                    ],
-                    [
-                        -118.423873,
-                        34.172195
-                    ],
-                    [
                         -118.448704,
                         34.141434
                     ],
@@ -168,10 +160,6 @@
             "geometry": {
                 "type": "LineString",
                 "coordinates": [
-                    [
-                        -98.56395,
-                        26.237028
-                    ],
                     [
                         -98.579491,
                         26.25206
@@ -4483,13 +4471,13 @@
                 "type": "AS50",
                 "description": "AEROSPATIALE AS-350 Ecureuil",
                 "operator": "LAPD AIR SUPPORT DIVISION",
-                "altitude": 825,
-                "ground_speed": 40.8,
-                "track": 281.31,
+                "altitude": 1000,
+                "ground_speed": 72.9,
+                "track": 56.75,
                 "squawk": "1200",
-                "rssi": -13.0,
+                "rssi": -14.2,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-08-20T17:55:03.237373+00:00",
+                "last_seen": "2025-08-20T17:56:03.416833+00:00",
                 "nav_qnh": 1016.0,
                 "nav_altitude_mcp": 10016,
                 "category": "A7"
@@ -4528,6 +4516,14 @@
                     [
                         -118.28419,
                         34.04924
+                    ],
+                    [
+                        -118.275719,
+                        34.043558
+                    ],
+                    [
+                        -118.275375,
+                        34.043745
                     ]
                 ]
             }
@@ -5805,12 +5801,12 @@
                 "description": "DE HAVILLAND DHC-8-300 Dash 8",
                 "operator": "US DEPARTMENT OF HOMELAND SECURITY",
                 "altitude": 3475,
-                "ground_speed": 176.0,
-                "track": 142.6,
+                "ground_speed": 174.0,
+                "track": 170.5,
                 "squawk": "1200",
                 "rssi": -49.5,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-08-20T17:55:03.237089+00:00",
+                "last_seen": "2025-08-20T17:56:03.416556+00:00",
                 "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
                 "category": "Unknown"
@@ -5953,6 +5949,10 @@
                     [
                         -94.650841,
                         31.147823
+                    ],
+                    [
+                        -94.616898,
+                        31.1056
                     ]
                 ]
             }
@@ -6090,19 +6090,19 @@
             "type": "Feature",
             "properties": {
                 "hex": "A03F75",
-                "flight": "00000000",
+                "flight": "Unknown",
                 "type": "BE30",
                 "description": "BEECH 300 Super King Air",
                 "operator": "DEPARTMENT OF HOMELAND SECURITY",
-                "altitude": 21850,
-                "ground_speed": 196.3,
-                "track": 177.08,
+                "altitude": 22000,
+                "ground_speed": 247.2,
+                "track": 228.44,
                 "squawk": "3502",
-                "rssi": -34.0,
+                "rssi": -31.6,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-08-20T17:51:02.967638+00:00",
-                "nav_qnh": 0.0,
-                "nav_altitude_mcp": 0,
+                "last_seen": "2025-08-20T17:56:03.416801+00:00",
+                "nav_qnh": 1013.6,
+                "nav_altitude_mcp": 22016,
                 "category": "A2"
             },
             "geometry": {
@@ -6275,6 +6275,43 @@
                     [
                         -72.262923,
                         20.698242
+                    ],
+                    [
+                        -72.2815,
+                        20.390485
+                    ],
+                    [
+                        -72.2815,
+                        20.390485
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "hex": "A385E3",
+                "flight": "Unknown",
+                "type": "AS50",
+                "description": "AEROSPATIALE AS-350 Ecureuil",
+                "operator": "CITY OF ANAHEIM",
+                "altitude": "ground",
+                "ground_speed": 5.8,
+                "track": 112.5,
+                "squawk": "N/A",
+                "rssi": -29.3,
+                "api_source": "https://api.airplanes.live/v2/hex/",
+                "last_seen": "2025-08-20T17:56:03.416788+00:00",
+                "nav_qnh": 0.0,
+                "nav_altitude_mcp": 0,
+                "category": "Unknown"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -117.982822,
+                        33.872498
                     ]
                 ]
             }
