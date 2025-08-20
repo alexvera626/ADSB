@@ -9,13 +9,13 @@
                 "type": "H60",
                 "description": "SIKORSKY UH-60 Black Hawk",
                 "operator": "Unknown",
-                "altitude": 1550,
-                "ground_speed": 110.9,
-                "track": 76.97,
+                "altitude": 1525,
+                "ground_speed": 108.7,
+                "track": 77.24,
                 "squawk": "4561",
-                "rssi": -24.0,
+                "rssi": -27.2,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-08-20T04:24:03.151272+00:00",
+                "last_seen": "2025-08-20T04:25:02.769107+00:00",
                 "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
                 "category": "A7"
@@ -23,14 +23,6 @@
             "geometry": {
                 "type": "LineString",
                 "coordinates": [
-                    [
-                        -118.419725,
-                        33.312409
-                    ],
-                    [
-                        -118.420898,
-                        33.312595
-                    ],
                     [
                         -118.377246,
                         33.300705
@@ -1742,6 +1734,14 @@
                     [
                         -117.209379,
                         32.56762
+                    ],
+                    [
+                        -117.174627,
+                        32.57437
+                    ],
+                    [
+                        -117.174627,
+                        32.57437
                     ]
                 ]
             }
@@ -1768,14 +1768,6 @@
             "geometry": {
                 "type": "LineString",
                 "coordinates": [
-                    [
-                        -117.745916,
-                        34.034225
-                    ],
-                    [
-                        -117.745691,
-                        34.033951
-                    ],
                     [
                         -117.730333,
                         34.01564
@@ -2026,18 +2018,18 @@
         {
             "type": "Feature",
             "properties": {
-                "hex": "AE277C",
-                "flight": "GH11    ",
-                "type": "Unknown",
-                "description": "Unknown",
+                "hex": "AE1F1F",
+                "flight": "Unknown",
+                "type": "H47",
+                "description": "BOEING-VERTOL CH-47 Chinook",
                 "operator": "Unknown",
-                "altitude": 200,
-                "ground_speed": 88.8,
-                "track": 112.52,
+                "altitude": "ground",
+                "ground_speed": 6.2,
+                "track": 0.0,
                 "squawk": "N/A",
-                "rssi": -31.2,
-                "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-08-20T04:24:03.151365+00:00",
+                "rssi": -24.4,
+                "api_source": "https://opendata.adsb.fi/api/v2/hex/",
+                "last_seen": "2025-08-20T00:32:03.096235+00:00",
                 "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
                 "category": "A7"
@@ -2046,13 +2038,58 @@
                 "type": "LineString",
                 "coordinates": [
                     [
-                        -118.101215,
-                        32.150665
+                        -106.375066,
+                        31.850389
                     ],
                     [
-                        -118.101215,
-                        32.150665
+                        -106.390668,
+                        31.851562
                     ],
+                    [
+                        -106.378653,
+                        31.837913
+                    ],
+                    [
+                        -106.377869,
+                        31.836777
+                    ],
+                    [
+                        -106.377686,
+                        31.834853
+                    ],
+                    [
+                        -106.377364,
+                        31.834853
+                    ],
+                    [
+                        -106.375438,
+                        31.834763
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "hex": "AE277C",
+                "flight": "GH11    ",
+                "type": "Unknown",
+                "description": "Unknown",
+                "operator": "Unknown",
+                "altitude": 200,
+                "ground_speed": 78.3,
+                "track": 155.07,
+                "squawk": "N/A",
+                "rssi": -28.5,
+                "api_source": "https://api.airplanes.live/v2/hex/",
+                "last_seen": "2025-08-20T04:25:02.769155+00:00",
+                "nav_qnh": 0.0,
+                "nav_altitude_mcp": 0,
+                "category": "A7"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
                     [
                         -118.099292,
                         32.161011
@@ -3688,59 +3725,14 @@
                     [
                         -118.262276,
                         32.196457
-                    ]
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "hex": "AE1F1F",
-                "flight": "Unknown",
-                "type": "H47",
-                "description": "BOEING-VERTOL CH-47 Chinook",
-                "operator": "Unknown",
-                "altitude": "ground",
-                "ground_speed": 6.2,
-                "track": 0.0,
-                "squawk": "N/A",
-                "rssi": -24.4,
-                "api_source": "https://opendata.adsb.fi/api/v2/hex/",
-                "last_seen": "2025-08-20T00:32:03.096235+00:00",
-                "nav_qnh": 0.0,
-                "nav_altitude_mcp": 0,
-                "category": "A7"
-            },
-            "geometry": {
-                "type": "LineString",
-                "coordinates": [
-                    [
-                        -106.375066,
-                        31.850389
                     ],
                     [
-                        -106.390668,
-                        31.851562
+                        -118.266998,
+                        32.196075
                     ],
                     [
-                        -106.378653,
-                        31.837913
-                    ],
-                    [
-                        -106.377869,
-                        31.836777
-                    ],
-                    [
-                        -106.377686,
-                        31.834853
-                    ],
-                    [
-                        -106.377364,
-                        31.834853
-                    ],
-                    [
-                        -106.375438,
-                        31.834763
+                        -118.266998,
+                        32.196075
                     ]
                 ]
             }
@@ -3754,12 +3746,12 @@
                 "description": "SIKORSKY UH-60 Black Hawk",
                 "operator": "Unknown",
                 "altitude": 375,
-                "ground_speed": 89.8,
-                "track": 187.68,
+                "ground_speed": 92.1,
+                "track": 177.51,
                 "squawk": "1200",
-                "rssi": -29.6,
+                "rssi": -23.9,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-08-20T04:24:03.151355+00:00",
+                "last_seen": "2025-08-20T04:25:02.769145+00:00",
                 "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
                 "category": "A7"
@@ -4998,6 +4990,14 @@
                     [
                         -117.527454,
                         32.840424
+                    ],
+                    [
+                        -117.531134,
+                        32.815063
+                    ],
+                    [
+                        -117.531134,
+                        32.815063
                     ]
                 ]
             }
@@ -5010,13 +5010,13 @@
                 "type": "AS50",
                 "description": "AEROSPATIALE AS-350 Ecureuil",
                 "operator": "REACH AIR MEDICAL SERVICES LLC",
-                "altitude": 3675,
-                "ground_speed": 117.0,
-                "track": 33.15,
+                "altitude": 3125,
+                "ground_speed": 124.9,
+                "track": 29.23,
                 "squawk": "1200",
-                "rssi": -19.0,
+                "rssi": -16.8,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-08-20T04:24:03.151292+00:00",
+                "last_seen": "2025-08-20T04:25:02.769126+00:00",
                 "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
                 "category": "A7"
@@ -5775,6 +5775,14 @@
                     [
                         -122.258423,
                         39.061843
+                    ],
+                    [
+                        -122.235107,
+                        39.090333
+                    ],
+                    [
+                        -122.235107,
+                        39.090333
                     ]
                 ]
             }
@@ -7815,13 +7823,13 @@
                 "type": "AS50",
                 "description": "AEROSPATIALE AS-350 Ecureuil",
                 "operator": "COUNTY OF LOS ANGELES",
-                "altitude": 700,
-                "ground_speed": 114.2,
-                "track": 93.51,
+                "altitude": 800,
+                "ground_speed": 119.2,
+                "track": 92.89,
                 "squawk": "1206",
-                "rssi": -11.5,
+                "rssi": -10.6,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-08-20T04:24:03.151282+00:00",
+                "last_seen": "2025-08-20T04:25:02.769117+00:00",
                 "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
                 "category": "A7"
@@ -8480,6 +8488,14 @@
                     [
                         -118.128033,
                         34.041464
+                    ],
+                    [
+                        -118.089981,
+                        34.039322
+                    ],
+                    [
+                        -118.089981,
+                        34.039322
                     ]
                 ]
             }
@@ -8492,13 +8508,13 @@
                 "type": "AS50",
                 "description": "AEROSPATIALE AS-350 Ecureuil",
                 "operator": "CITY OF ANAHEIM",
-                "altitude": 347,
-                "ground_speed": 1.0,
+                "altitude": "ground",
+                "ground_speed": 0.0,
                 "track": 0.0,
-                "squawk": "4301",
-                "rssi": -12.9,
-                "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-08-20T04:23:02.748662+00:00",
+                "squawk": "N/A",
+                "rssi": -20.1,
+                "api_source": "https://opendata.adsb.fi/api/v2/hex/",
+                "last_seen": "2025-08-20T04:25:02.768887+00:00",
                 "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
                 "category": "A7"
@@ -9017,6 +9033,10 @@
                     [
                         -117.982994,
                         33.872314
+                    ],
+                    [
+                        -117.98299,
+                        33.872314
                     ]
                 ]
             }
@@ -9306,13 +9326,13 @@
                 "type": "A139",
                 "description": "AGUSTA AW-139",
                 "operator": "CITY OF LOS ANGELES",
-                "altitude": 2025,
-                "ground_speed": 138.2,
-                "track": 324.12,
+                "altitude": 2050,
+                "ground_speed": 117.6,
+                "track": 115.69,
                 "squawk": "1200",
-                "rssi": -28.5,
+                "rssi": -26.9,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-08-20T04:24:03.151246+00:00",
+                "last_seen": "2025-08-20T04:25:02.769097+00:00",
                 "nav_qnh": 1016.0,
                 "nav_altitude_mcp": 2112,
                 "category": "A7"
@@ -9639,6 +9659,14 @@
                     [
                         -118.537996,
                         34.391739
+                    ],
+                    [
+                        -118.558731,
+                        34.396145
+                    ],
+                    [
+                        -118.558731,
+                        34.396145
                     ]
                 ]
             }
@@ -9651,13 +9679,13 @@
                 "type": "H60",
                 "description": "SIKORSKY UH-60 Black Hawk",
                 "operator": "CALIFORNIA DEPT OF FORESTRY AND FIRE PROTECTION, CAL FIRE",
-                "altitude": 1000,
-                "ground_speed": 14.3,
-                "track": 192.09,
-                "squawk": "N/A",
-                "rssi": -28.4,
+                "altitude": 1150,
+                "ground_speed": 11.7,
+                "track": 210.96,
+                "squawk": "1255",
+                "rssi": -28.3,
                 "api_source": "https://opendata.adsb.fi/api/v2/hex/",
-                "last_seen": "2025-08-20T04:18:03.452472+00:00",
+                "last_seen": "2025-08-20T04:25:02.768868+00:00",
                 "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
                 "category": "A7"
@@ -9816,6 +9844,10 @@
                     [
                         -120.5485,
                         37.968238
+                    ],
+                    [
+                        -120.5485,
+                        37.967028
                     ]
                 ]
             }
