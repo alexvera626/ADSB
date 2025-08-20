@@ -465,10 +465,6 @@
                 "type": "LineString",
                 "coordinates": [
                     [
-                        -98.418274,
-                        26.260862
-                    ],
-                    [
                         -98.439346,
                         26.277016
                     ],
@@ -1109,10 +1105,6 @@
             "geometry": {
                 "type": "LineString",
                 "coordinates": [
-                    [
-                        -77.729309,
-                        24.509054
-                    ],
                     [
                         -77.645111,
                         24.472504
@@ -3827,13 +3819,13 @@
                 "type": "B412",
                 "description": "BELL 412",
                 "operator": "COUNTY OF LOS ANGELES FIRE DEPARTMENT",
-                "altitude": 850,
-                "ground_speed": 0.7,
+                "altitude": "ground",
+                "ground_speed": 0.0,
                 "track": 0.0,
-                "squawk": "1206",
-                "rssi": -9.0,
+                "squawk": "N/A",
+                "rssi": -6.6,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-08-20T17:27:02.756730+00:00",
+                "last_seen": "2025-08-20T17:28:02.966460+00:00",
                 "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
                 "category": "A7"
@@ -4200,6 +4192,14 @@
                     [
                         -117.779267,
                         34.090073
+                    ],
+                    [
+                        -117.779225,
+                        34.090084
+                    ],
+                    [
+                        -117.779225,
+                        34.090084
                     ]
                 ]
             }
@@ -5995,13 +5995,13 @@
                 "type": "DH8C",
                 "description": "DE HAVILLAND DHC-8-300 Dash 8",
                 "operator": "US DEPARTMENT OF HOMELAND SECURITY",
-                "altitude": 2025,
-                "ground_speed": 172.4,
-                "track": 49.47,
+                "altitude": 2450,
+                "ground_speed": 170.8,
+                "track": 49.03,
                 "squawk": "1200",
-                "rssi": -17.6,
+                "rssi": -19.2,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-08-20T17:27:02.756564+00:00",
+                "last_seen": "2025-08-20T17:28:02.966313+00:00",
                 "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
                 "category": "Unknown"
@@ -6024,6 +6024,14 @@
                     [
                         -95.357074,
                         30.346207
+                    ],
+                    [
+                        -95.316252,
+                        30.377518
+                    ],
+                    [
+                        -95.3159,
+                        30.377802
                     ]
                 ]
             }
@@ -6040,9 +6048,9 @@
                 "ground_speed": 0.7,
                 "track": 0.0,
                 "squawk": "N/A",
-                "rssi": -9.3,
+                "rssi": -10.4,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-08-20T17:27:02.756720+00:00",
+                "last_seen": "2025-08-20T17:28:02.966450+00:00",
                 "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
                 "category": "A7"
@@ -6057,6 +6065,47 @@
                     [
                         -118.496461,
                         34.216049
+                    ],
+                    [
+                        -118.496461,
+                        34.216049
+                    ],
+                    [
+                        -118.496461,
+                        34.216049
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "hex": "A03F75",
+                "flight": "00000000",
+                "type": "BE30",
+                "description": "BEECH 300 Super King Air",
+                "operator": "DEPARTMENT OF HOMELAND SECURITY",
+                "altitude": "ground",
+                "ground_speed": 103.2,
+                "track": 273.33,
+                "squawk": "3502",
+                "rssi": -31.3,
+                "api_source": "https://api.airplanes.live/v2/hex/",
+                "last_seen": "2025-08-20T17:28:02.966516+00:00",
+                "nav_qnh": 0.0,
+                "nav_altitude_mcp": 0,
+                "category": "A2"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -72.258377,
+                        21.773261
+                    ],
+                    [
+                        -72.258377,
+                        21.773261
                     ]
                 ]
             }
