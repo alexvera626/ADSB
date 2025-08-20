@@ -24,14 +24,6 @@
                 "type": "LineString",
                 "coordinates": [
                     [
-                        -118.045181,
-                        34.174072
-                    ],
-                    [
-                        -118.045692,
-                        34.174091
-                    ],
-                    [
                         -118.083129,
                         34.179794
                     ],
@@ -352,14 +344,6 @@
             "geometry": {
                 "type": "LineString",
                 "coordinates": [
-                    [
-                        -121.844947,
-                        38.876953
-                    ],
-                    [
-                        -121.84423,
-                        38.876404
-                    ],
                     [
                         -121.811749,
                         38.85173
@@ -785,14 +769,6 @@
             "geometry": {
                 "type": "LineString",
                 "coordinates": [
-                    [
-                        -122.501925,
-                        48.091767
-                    ],
-                    [
-                        -122.501541,
-                        48.090775
-                    ],
                     [
                         -122.479225,
                         48.034332
@@ -2054,10 +2030,6 @@
             "geometry": {
                 "type": "LineString",
                 "coordinates": [
-                    [
-                        -98.262619,
-                        26.289165
-                    ],
                     [
                         -98.229744,
                         26.288727
@@ -4159,13 +4131,13 @@
                 "type": "AS50",
                 "description": "AEROSPATIALE AS-350 Ecureuil",
                 "operator": "LAPD AIR SUPPORT DIVISION",
-                "altitude": 1175,
-                "ground_speed": 72.1,
-                "track": 136.12,
+                "altitude": 1050,
+                "ground_speed": 85.0,
+                "track": 179.33,
                 "squawk": "1200",
-                "rssi": -20.0,
+                "rssi": -20.1,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-08-20T18:11:03.063132+00:00",
+                "last_seen": "2025-08-20T18:12:03.034277+00:00",
                 "nav_qnh": 1016.0,
                 "nav_altitude_mcp": 10016,
                 "category": "A7"
@@ -4332,6 +4304,14 @@
                     [
                         -118.223305,
                         34.092578
+                    ],
+                    [
+                        -118.220215,
+                        34.072141
+                    ],
+                    [
+                        -118.220215,
+                        34.072141
                     ]
                 ]
             }
@@ -5609,12 +5589,12 @@
                 "description": "DE HAVILLAND DHC-8-300 Dash 8",
                 "operator": "US DEPARTMENT OF HOMELAND SECURITY",
                 "altitude": 2075,
-                "ground_speed": 158.0,
-                "track": 23.4,
+                "ground_speed": 154.0,
+                "track": 143.1,
                 "squawk": "1200",
                 "rssi": -49.5,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-08-20T18:11:03.062865+00:00",
+                "last_seen": "2025-08-20T18:12:03.034065+00:00",
                 "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
                 "category": "Unknown"
@@ -5833,6 +5813,14 @@
                     [
                         -94.884392,
                         31.405243
+                    ],
+                    [
+                        -94.838269,
+                        31.3959
+                    ],
+                    [
+                        -94.84185,
+                        31.400391
                     ]
                 ]
             }
@@ -6223,14 +6211,14 @@
                 "type": "AS50",
                 "description": "AEROSPATIALE AS-350 Ecureuil",
                 "operator": "CITY OF ANAHEIM",
-                "altitude": 1300,
-                "ground_speed": 73.5,
-                "track": 75.02,
+                "altitude": 1400,
+                "ground_speed": 71.5,
+                "track": 83.57,
                 "squawk": "4301",
-                "rssi": -13.7,
+                "rssi": -13.1,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-08-20T18:11:03.063015+00:00",
-                "nav_qnh": 1014.4,
+                "last_seen": "2025-08-20T18:12:03.034226+00:00",
+                "nav_qnh": 1013.6,
                 "nav_altitude_mcp": 4000,
                 "category": "A7"
             },
@@ -6360,6 +6348,43 @@
                     [
                         -117.844849,
                         33.828369
+                    ],
+                    [
+                        -117.820858,
+                        33.832809
+                    ],
+                    [
+                        -117.820858,
+                        33.832809
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "hex": "AE4F99",
+                "flight": "Unknown",
+                "type": "H60",
+                "description": "SIKORSKY UH-60 Black Hawk",
+                "operator": "Unknown",
+                "altitude": "ground",
+                "ground_speed": 4.2,
+                "track": 0.0,
+                "squawk": "1200",
+                "rssi": -14.6,
+                "api_source": "https://opendata.adsb.fi/api/v2/hex/",
+                "last_seen": "2025-08-20T18:12:03.034046+00:00",
+                "nav_qnh": 0.0,
+                "nav_altitude_mcp": 0,
+                "category": "Unknown"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -117.783471,
+                        32.717122
                     ]
                 ]
             }
