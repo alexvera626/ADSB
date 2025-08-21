@@ -505,13 +505,13 @@
                 "type": "AS50",
                 "description": "AEROSPATIALE AS-350 Ecureuil",
                 "operator": "LAPD AIR SUPPORT DIVISION",
-                "altitude": 2525,
-                "ground_speed": 90.9,
-                "track": 261.78,
+                "altitude": 2075,
+                "ground_speed": 100.0,
+                "track": 270.57,
                 "squawk": "0254",
-                "rssi": -18.4,
+                "rssi": -20.7,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-08-21T16:01:02.862785+00:00",
+                "last_seen": "2025-08-21T16:02:02.459837+00:00",
                 "nav_qnh": 1012.8,
                 "nav_altitude_mcp": 1088,
                 "category": "A7"
@@ -1042,6 +1042,14 @@
                     [
                         -117.513943,
                         33.978525
+                    ],
+                    [
+                        -117.543583,
+                        33.977827
+                    ],
+                    [
+                        -117.544406,
+                        33.977829
                     ]
                 ]
             }
@@ -1300,13 +1308,13 @@
                 "type": "H60",
                 "description": "Sikorsky MH-60S Seahawk",
                 "operator": "United States Navy",
-                "altitude": 375,
-                "ground_speed": 95.9,
-                "track": 203.36,
+                "altitude": 400,
+                "ground_speed": 96.0,
+                "track": 181.79,
                 "squawk": "1200",
-                "rssi": -23.5,
+                "rssi": -27.1,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-08-21T16:01:02.862759+00:00",
+                "last_seen": "2025-08-21T16:02:02.459818+00:00",
                 "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
                 "category": "A7"
@@ -1785,6 +1793,14 @@
                     [
                         -117.342389,
                         32.810028
+                    ],
+                    [
+                        -117.348871,
+                        32.785172
+                    ],
+                    [
+                        -117.348926,
+                        32.784485
                     ]
                 ]
             }
@@ -1797,13 +1813,13 @@
                 "type": "B412",
                 "description": "BELL 412",
                 "operator": "COUNTY OF LOS ANGELES FIRE DEPT",
-                "altitude": 2500,
-                "ground_speed": 126.5,
-                "track": 274.99,
+                "altitude": 3200,
+                "ground_speed": 85.0,
+                "track": 351.2,
                 "squawk": "1206",
-                "rssi": -3.9,
+                "rssi": -14.5,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-08-21T16:01:02.862749+00:00",
+                "last_seen": "2025-08-21T16:02:02.459808+00:00",
                 "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
                 "category": "A7"
@@ -1862,6 +1878,43 @@
                     [
                         -118.442173,
                         34.335394
+                    ],
+                    [
+                        -118.466529,
+                        34.350632
+                    ],
+                    [
+                        -118.466697,
+                        34.351456
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "hex": "AAFD01",
+                "flight": "Unknown",
+                "type": "DH8C",
+                "description": "DE HAVILLAND DHC-8-300 Dash 8",
+                "operator": "US DEPARTMENT OF HOMELAND SECURITY, US CUSTOMS & BORDER PROTECTI",
+                "altitude": 1050,
+                "ground_speed": 159.8,
+                "track": 145.71,
+                "squawk": "4574",
+                "rssi": -19.6,
+                "api_source": "https://opendata.adsb.fi/api/v2/hex/",
+                "last_seen": "2025-08-21T16:02:02.458413+00:00",
+                "nav_qnh": 0.0,
+                "nav_altitude_mcp": 0,
+                "category": "Unknown"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -95.39461,
+                        30.330093
                     ]
                 ]
             }
