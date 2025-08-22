@@ -378,13 +378,13 @@
                 "type": "H60",
                 "description": "Sikorsky UH-60M Black Hawk",
                 "operator": "Unknown",
-                "altitude": 1175,
-                "ground_speed": 107.0,
-                "track": 268.39,
+                "altitude": 275,
+                "ground_speed": 55.2,
+                "track": 234.58,
                 "squawk": "0232",
-                "rssi": -13.5,
+                "rssi": -2.9,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-08-22T14:03:03.603354+00:00",
+                "last_seen": "2025-08-22T14:04:03.461353+00:00",
                 "nav_qnh": 1008.8,
                 "nav_altitude_mcp": 0,
                 "category": "A7"
@@ -559,6 +559,14 @@
                     [
                         -118.0196,
                         33.802744
+                    ],
+                    [
+                        -118.045635,
+                        33.794923
+                    ],
+                    [
+                        -118.045921,
+                        33.794737
                     ]
                 ]
             }
@@ -596,6 +604,72 @@
                     [
                         -98.11425,
                         26.548323
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "hex": "A043A9",
+                "flight": "00000   ",
+                "type": "BE30",
+                "description": "BEECH 300 Super King Air",
+                "operator": "DEPARTMENT OF HOMELAND SECURITY",
+                "altitude": 975,
+                "ground_speed": 172.5,
+                "track": 187.66,
+                "squawk": "4406",
+                "rssi": -9.9,
+                "api_source": "https://api.airplanes.live/v2/hex/",
+                "last_seen": "2025-08-22T14:04:03.461364+00:00",
+                "nav_qnh": 1015.2,
+                "nav_altitude_mcp": 7488,
+                "category": "A2"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -81.721048,
+                        30.21666
+                    ],
+                    [
+                        -81.721143,
+                        30.215475
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "hex": "A13F4E",
+                "flight": "N18LA   ",
+                "type": "B412",
+                "description": "BELL 412",
+                "operator": "COUNTY OF LOS ANGELES FIRE DEPARTMENT",
+                "altitude": 1250,
+                "ground_speed": 96.7,
+                "track": 262.88,
+                "squawk": "1206",
+                "rssi": -28.3,
+                "api_source": "https://api.airplanes.live/v2/hex/",
+                "last_seen": "2025-08-22T14:04:03.461312+00:00",
+                "nav_qnh": 0.0,
+                "nav_altitude_mcp": 0,
+                "category": "A7"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -117.799931,
+                        34.09053
+                    ],
+                    [
+                        -117.800789,
+                        34.090483
                     ]
                 ]
             }
