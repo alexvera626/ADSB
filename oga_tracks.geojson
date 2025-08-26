@@ -965,12 +965,12 @@
                 "description": "BEECH 300 Super King Air",
                 "operator": "DEPARTMENT OF HOMELAND SECURITY",
                 "altitude": 2850,
-                "ground_speed": 190.8,
-                "track": 319.46,
+                "ground_speed": 167.6,
+                "track": 316.21,
                 "squawk": "4405",
-                "rssi": -9.9,
+                "rssi": -5.1,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-08-26T15:31:03.266960+00:00",
+                "last_seen": "2025-08-26T15:32:02.733663+00:00",
                 "nav_qnh": 1019.2,
                 "nav_altitude_mcp": 3008,
                 "category": "A2"
@@ -1369,6 +1369,14 @@
                     [
                         -81.58634,
                         30.03988
+                    ],
+                    [
+                        -81.625507,
+                        30.077913
+                    ],
+                    [
+                        -81.625287,
+                        30.077727
                     ]
                 ]
             }
@@ -1562,13 +1570,13 @@
                 "type": "H60",
                 "description": "Sikorsky MH-60S Seahawk",
                 "operator": "United States Navy",
-                "altitude": 275,
-                "ground_speed": 98.0,
-                "track": 161.57,
+                "altitude": 250,
+                "ground_speed": 99.6,
+                "track": 160.66,
                 "squawk": "1200",
-                "rssi": -4.8,
+                "rssi": -10.6,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-08-26T15:31:03.266837+00:00",
+                "last_seen": "2025-08-26T15:32:02.733635+00:00",
                 "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
                 "category": "A7"
@@ -1639,6 +1647,76 @@
                     [
                         -117.133978,
                         32.661713
+                    ],
+                    [
+                        -117.126982,
+                        32.635446
+                    ],
+                    [
+                        -117.126892,
+                        32.635208
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "hex": "A7FB70",
+                "flight": "REH80   ",
+                "type": "AS50",
+                "description": "AEROSPATIALE AS-350 Ecureuil",
+                "operator": "REACH AIR MEDICAL SERVICES LLC",
+                "altitude": "ground",
+                "ground_speed": 0.0,
+                "track": 0.0,
+                "squawk": "1200",
+                "rssi": -19.7,
+                "api_source": "https://api.airplanes.live/v2/hex/",
+                "last_seen": "2025-08-26T15:32:02.733646+00:00",
+                "nav_qnh": 0.0,
+                "nav_altitude_mcp": 0,
+                "category": "A7"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -122.132339,
+                        39.16207
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "hex": "A3524F",
+                "flight": "N313DP  ",
+                "type": "B407",
+                "description": "BELL 407",
+                "operator": "SAN DIEGO COUNTY SHERIFF DEPT",
+                "altitude": 325,
+                "ground_speed": 1.2,
+                "track": 0.0,
+                "squawk": "N/A",
+                "rssi": -13.2,
+                "api_source": "https://api.airplanes.live/v2/hex/",
+                "last_seen": "2025-08-26T15:32:02.733624+00:00",
+                "nav_qnh": 0.0,
+                "nav_altitude_mcp": 0,
+                "category": "A7"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -116.972369,
+                        32.820236
+                    ],
+                    [
+                        -116.972424,
+                        32.820236
                     ]
                 ]
             }
