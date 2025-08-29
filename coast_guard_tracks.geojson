@@ -9794,13 +9794,13 @@
                 "type": "C30J",
                 "description": "Lockheed Martin HC-130J Hercules",
                 "operator": "Unknown",
-                "altitude": 8550,
-                "ground_speed": 201.0,
-                "track": 132.58,
+                "altitude": 8025,
+                "ground_speed": 196.0,
+                "track": 133.14,
                 "squawk": "2363",
-                "rssi": -27.0,
+                "rssi": -35.6,
                 "api_source": "https://opendata.adsb.fi/api/v2/hex/",
-                "last_seen": "2025-08-29T04:45:02.888137+00:00",
+                "last_seen": "2025-08-29T04:46:02.994761+00:00",
                 "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
                 "category": "A3"
@@ -10127,6 +10127,10 @@
                     [
                         -155.347563,
                         20.184677
+                    ],
+                    [
+                        -155.325639,
+                        20.165451
                     ]
                 ]
             }
@@ -10184,6 +10188,35 @@
                     [
                         -156.921285,
                         62.750839
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "hex": "AE2661",
+                "flight": "C6507   ",
+                "type": "AS65",
+                "description": "Eurocopter MH-65D Dolphin",
+                "operator": "Unknown",
+                "altitude": "ground",
+                "ground_speed": 0.0,
+                "track": 0.0,
+                "squawk": "1200",
+                "rssi": -19.2,
+                "api_source": "https://api.airplanes.live/v2/hex/",
+                "last_seen": "2025-08-29T04:46:02.994855+00:00",
+                "nav_qnh": 0.0,
+                "nav_altitude_mcp": 0,
+                "category": "A7"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -158.072891,
+                        21.302444
                     ]
                 ]
             }
