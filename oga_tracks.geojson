@@ -9,13 +9,13 @@
                 "type": "AS50",
                 "description": "AEROSPATIALE AS-350 Ecureuil",
                 "operator": "LAPD AIR SUPPORT DIVISION",
-                "altitude": 1425,
-                "ground_speed": 59.8,
-                "track": 128.21,
+                "altitude": 1350,
+                "ground_speed": 63.6,
+                "track": 160.71,
                 "squawk": "1200",
-                "rssi": -7.0,
+                "rssi": -8.2,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-08-30T17:05:03.099043+00:00",
+                "last_seen": "2025-08-30T17:06:03.785188+00:00",
                 "nav_qnh": 1015.2,
                 "nav_altitude_mcp": 10016,
                 "category": "A7"
@@ -838,6 +838,14 @@
                     [
                         -118.34809,
                         34.128799
+                    ],
+                    [
+                        -118.336319,
+                        34.114838
+                    ],
+                    [
+                        -118.336258,
+                        34.11469
                     ]
                 ]
             }
@@ -1532,6 +1540,35 @@
                     [
                         -116.96022,
                         33.751675
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "hex": "A4DC0C",
+                "flight": "Unknown",
+                "type": "H60",
+                "description": "Sikorsky S-70M Firehawk",
+                "operator": "ORANGE COUNTY FIRE AUTHORITY",
+                "altitude": 0,
+                "ground_speed": 0.7,
+                "track": 0.0,
+                "squawk": "4202",
+                "rssi": -29.1,
+                "api_source": "https://api.airplanes.live/v2/hex/",
+                "last_seen": "2025-08-30T17:06:03.785254+00:00",
+                "nav_qnh": 0.0,
+                "nav_altitude_mcp": 0,
+                "category": "Unknown"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -117.978058,
+                        33.873084
                     ]
                 ]
             }
