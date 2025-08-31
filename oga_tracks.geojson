@@ -507,13 +507,13 @@
                 "type": "B412",
                 "description": "BELL 412",
                 "operator": "ORANGE COUNTY FIRE AUTHORITY",
-                "altitude": 1800,
-                "ground_speed": 78.7,
-                "track": 64.41,
+                "altitude": 2400,
+                "ground_speed": 82.9,
+                "track": 56.31,
                 "squawk": "4202",
-                "rssi": -16.3,
+                "rssi": -24.1,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-08-31T15:49:02.622021+00:00",
+                "last_seen": "2025-08-31T15:50:03.182257+00:00",
                 "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
                 "category": "A7"
@@ -784,6 +784,14 @@
                     [
                         -117.701298,
                         33.793488
+                    ],
+                    [
+                        -117.67622,
+                        33.805863
+                    ],
+                    [
+                        -117.67622,
+                        33.805863
                     ]
                 ]
             }
@@ -796,13 +804,13 @@
                 "type": "H60",
                 "description": "Sikorsky S-70M Firehawk",
                 "operator": "ORANGE COUNTY FIRE AUTHORITY",
-                "altitude": 1200,
-                "ground_speed": 123.3,
-                "track": 239.28,
-                "squawk": "4202",
-                "rssi": -32.1,
+                "altitude": 0,
+                "ground_speed": 0.0,
+                "track": 0.0,
+                "squawk": "N/A",
+                "rssi": -18.1,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-08-31T15:49:02.622031+00:00",
+                "last_seen": "2025-08-31T15:50:03.182284+00:00",
                 "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
                 "category": "A7"
@@ -1089,6 +1097,39 @@
                     [
                         -117.695861,
                         33.77861
+                    ],
+                    [
+                        -117.700138,
+                        33.776488
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "hex": "A7FB70",
+                "flight": "REH80   ",
+                "type": "AS50",
+                "description": "AEROSPATIALE AS-350 Ecureuil",
+                "operator": "REACH AIR MEDICAL SERVICES LLC",
+                "altitude": "ground",
+                "ground_speed": 0.0,
+                "track": 0.0,
+                "squawk": "1200",
+                "rssi": -21.6,
+                "api_source": "https://api.airplanes.live/v2/hex/",
+                "last_seen": "2025-08-31T15:50:03.182301+00:00",
+                "nav_qnh": 0.0,
+                "nav_altitude_mcp": 0,
+                "category": "A7"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -122.132338,
+                        39.162094
                     ]
                 ]
             }
