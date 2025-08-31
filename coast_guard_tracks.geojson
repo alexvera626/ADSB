@@ -479,13 +479,13 @@
                 "type": "C27J",
                 "description": "Alenia HC-27J Spartan",
                 "operator": "Unknown",
-                "altitude": 3150,
-                "ground_speed": 180.0,
-                "track": 235.87,
+                "altitude": 3175,
+                "ground_speed": 180.7,
+                "track": 243.72,
                 "squawk": "1200",
-                "rssi": -3.9,
+                "rssi": -6.7,
                 "api_source": "https://opendata.adsb.fi/api/v2/hex/",
-                "last_seen": "2025-08-31T19:28:03.066390+00:00",
+                "last_seen": "2025-08-31T19:29:03.029608+00:00",
                 "nav_qnh": 1025.6,
                 "nav_altitude_mcp": 3488,
                 "category": "A2"
@@ -844,6 +844,10 @@
                     [
                         -85.967683,
                         44.494908
+                    ],
+                    [
+                        -86.02975,
+                        44.471375
                     ]
                 ]
             }
@@ -2524,12 +2528,12 @@
                 "altitude": 7475,
                 "ground_speed": 0.0,
                 "track": 0.0,
-                "squawk": "N/A",
-                "rssi": -29.6,
+                "squawk": "4424",
+                "rssi": -27.6,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-08-31T19:28:03.066452+00:00",
-                "nav_qnh": 0.0,
-                "nav_altitude_mcp": 0,
+                "last_seen": "2025-08-31T19:29:03.029676+00:00",
+                "nav_qnh": 1014.6,
+                "nav_altitude_mcp": 7504,
                 "category": "Unknown"
             },
             "geometry": {
@@ -6079,13 +6083,13 @@
                 "type": "C30J",
                 "description": "Lockheed Martin HC-130J Hercules",
                 "operator": "Unknown",
-                "altitude": 2500,
-                "ground_speed": 244.3,
-                "track": 326.18,
+                "altitude": 2475,
+                "ground_speed": 249.1,
+                "track": 325.8,
                 "squawk": "5550",
-                "rssi": -26.6,
+                "rssi": -24.1,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-08-31T19:28:03.066431+00:00",
+                "last_seen": "2025-08-31T19:29:03.029650+00:00",
                 "nav_qnh": 1014.4,
                 "nav_altitude_mcp": 2496,
                 "category": "A3"
@@ -6956,6 +6960,14 @@
                     [
                         -156.860504,
                         71.595383
+                    ],
+                    [
+                        -156.987197,
+                        71.654461
+                    ],
+                    [
+                        -156.987197,
+                        71.654461
                     ]
                 ]
             }
@@ -9980,6 +9992,35 @@
                     [
                         -157.9636,
                         21.359005
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "hex": "AE2672",
+                "flight": "C6524   ",
+                "type": "AS65",
+                "description": "Eurocopter MH-65D Dolphin",
+                "operator": "Unknown",
+                "altitude": -150,
+                "ground_speed": 0.7,
+                "track": 0.0,
+                "squawk": "1200",
+                "rssi": -18.2,
+                "api_source": "https://api.airplanes.live/v2/hex/",
+                "last_seen": "2025-08-31T19:29:03.029663+00:00",
+                "nav_qnh": 0.0,
+                "nav_altitude_mcp": 0,
+                "category": "A7"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -158.072917,
+                        21.302397
                     ]
                 ]
             }
