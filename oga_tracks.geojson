@@ -840,12 +840,12 @@
                 "description": "Sikorsky S-70M Firehawk",
                 "operator": "ORANGE COUNTY FIRE AUTHORITY",
                 "altitude": "ground",
-                "ground_speed": 0.1,
+                "ground_speed": 0.0,
                 "track": 0.0,
                 "squawk": "4202",
-                "rssi": -35.3,
+                "rssi": -35.1,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-08-31T17:24:03.041534+00:00",
+                "last_seen": "2025-08-31T17:25:02.651448+00:00",
                 "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
                 "category": "A7"
@@ -1500,6 +1500,10 @@
                     [
                         -117.978016,
                         33.873013
+                    ],
+                    [
+                        -117.978015,
+                        33.873026
                     ]
                 ]
             }
@@ -1690,12 +1694,12 @@
                 "description": "AEROSPATIALE AS-350 Ecureuil",
                 "operator": "COUNTY OF ORANGE - AIR SUPPORT",
                 "altitude": 800,
-                "ground_speed": 62.2,
-                "track": 45.0,
+                "ground_speed": 54.6,
+                "track": 351.57,
                 "squawk": "4204",
-                "rssi": -7.8,
+                "rssi": -4.6,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-08-31T17:24:03.041552+00:00",
+                "last_seen": "2025-08-31T17:25:02.651467+00:00",
                 "nav_qnh": 1013.6,
                 "nav_altitude_mcp": 0,
                 "category": "A7"
@@ -1822,6 +1826,47 @@
                     [
                         -117.91682,
                         33.800766
+                    ],
+                    [
+                        -117.913742,
+                        33.802092
+                    ],
+                    [
+                        -117.913737,
+                        33.802551
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "hex": "A5F058",
+                "flight": "CFR601  ",
+                "type": "H60",
+                "description": "SIKORSKY UH-60 Black Hawk",
+                "operator": "CALIFORNIA DEPT OF FORESTRY AND FIRE PROTECTION",
+                "altitude": 2425,
+                "ground_speed": 100.2,
+                "track": 198.62,
+                "squawk": "1255",
+                "rssi": -3.3,
+                "api_source": "https://api.airplanes.live/v2/hex/",
+                "last_seen": "2025-08-31T17:25:02.651437+00:00",
+                "nav_qnh": 0.0,
+                "nav_altitude_mcp": 0,
+                "category": "A7"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -120.41489,
+                        38.023773
+                    ],
+                    [
+                        -120.41524,
+                        38.022903
                     ]
                 ]
             }
