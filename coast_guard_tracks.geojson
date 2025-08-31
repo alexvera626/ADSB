@@ -146,13 +146,13 @@
                 "type": "H60",
                 "description": "Sikorsky MH-60T Jayhawk",
                 "operator": "Unknown",
-                "altitude": 25,
-                "ground_speed": 24.7,
-                "track": 14.04,
-                "squawk": "1277",
-                "rssi": -25.8,
+                "altitude": 0,
+                "ground_speed": 0.0,
+                "track": 0.0,
+                "squawk": "N/A",
+                "rssi": -25.2,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-08-31T09:46:02.658033+00:00",
+                "last_seen": "2025-08-31T09:47:02.991981+00:00",
                 "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
                 "category": "A7"
@@ -551,6 +551,35 @@
                     [
                         -90.132536,
                         30.153534
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "hex": "AE5DEC",
+                "flight": "Unknown",
+                "type": "C30J",
+                "description": "Lockheed Martin HC-130J Hercules",
+                "operator": "Unknown",
+                "altitude": 2175,
+                "ground_speed": 180.1,
+                "track": 310.95,
+                "squawk": "1277",
+                "rssi": -21.7,
+                "api_source": "https://api.airplanes.live/v2/hex/",
+                "last_seen": "2025-08-31T09:47:02.991993+00:00",
+                "nav_qnh": 0.0,
+                "nav_altitude_mcp": 0,
+                "category": "Unknown"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -76.140289,
+                        36.289856
                     ]
                 ]
             }
