@@ -24,22 +24,6 @@
                 "type": "LineString",
                 "coordinates": [
                     [
-                        -117.941895,
-                        33.823506
-                    ],
-                    [
-                        -117.941608,
-                        33.823366
-                    ],
-                    [
-                        -117.940867,
-                        33.823792
-                    ],
-                    [
-                        -117.940867,
-                        33.823792
-                    ],
-                    [
                         -117.938849,
                         33.823837
                     ],
@@ -144,22 +128,6 @@
             "geometry": {
                 "type": "LineString",
                 "coordinates": [
-                    [
-                        -118.296318,
-                        34.483524
-                    ],
-                    [
-                        -118.297119,
-                        34.483151
-                    ],
-                    [
-                        -118.32466,
-                        34.4702
-                    ],
-                    [
-                        -118.32466,
-                        34.4702
-                    ],
                     [
                         -118.35902,
                         34.454407
@@ -539,35 +507,6 @@
                     [
                         -118.141592,
                         33.816261
-                    ]
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "hex": "A9079F",
-                "flight": "N681HB  ",
-                "type": "H500",
-                "description": "HUGHES 500",
-                "operator": "CITY OF HUNTINGTON BEACH",
-                "altitude": "ground",
-                "ground_speed": 0.0,
-                "track": 0.0,
-                "squawk": "4301",
-                "rssi": -23.8,
-                "api_source": "https://opendata.adsb.fi/api/v2/hex/",
-                "last_seen": "2025-09-02T05:07:02.925618+00:00",
-                "nav_qnh": 0.0,
-                "nav_altitude_mcp": 0,
-                "category": "A7"
-            },
-            "geometry": {
-                "type": "LineString",
-                "coordinates": [
-                    [
-                        -118.001278,
-                        33.69516
                     ]
                 ]
             }
@@ -1269,13 +1208,13 @@
                 "type": "AS50",
                 "description": "AEROSPATIALE AS-350 Ecureuil",
                 "operator": "REACH AIR MEDICAL SERVICES LLC",
-                "altitude": 700,
-                "ground_speed": 107.4,
-                "track": 321.42,
+                "altitude": 550,
+                "ground_speed": 100.0,
+                "track": 306.87,
                 "squawk": "1200",
-                "rssi": -10.2,
+                "rssi": -24.1,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-09-02T09:06:02.899496+00:00",
+                "last_seen": "2025-09-02T09:07:03.597105+00:00",
                 "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
                 "category": "A7"
@@ -2058,6 +1997,14 @@
                     [
                         -122.087721,
                         39.139664
+                    ],
+                    [
+                        -122.105164,
+                        39.156763
+                    ],
+                    [
+                        -122.112022,
+                        39.162277
                     ]
                 ]
             }
@@ -2070,13 +2017,13 @@
                 "type": "AS50",
                 "description": "AEROSPATIALE AS-350 Ecureuil",
                 "operator": "COUNTY OF LOS ANGELES",
-                "altitude": 500,
-                "ground_speed": 80.4,
-                "track": 259.25,
+                "altitude": 400,
+                "ground_speed": 116.1,
+                "track": 280.92,
                 "squawk": "1206",
-                "rssi": -16.1,
+                "rssi": -7.3,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-09-02T09:06:02.899473+00:00",
+                "last_seen": "2025-09-02T09:07:03.597092+00:00",
                 "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
                 "category": "A7"
@@ -2943,6 +2890,14 @@
                     [
                         -117.971249,
                         33.873689
+                    ],
+                    [
+                        -118.007641,
+                        33.872293
+                    ],
+                    [
+                        -118.008242,
+                        33.87236
                     ]
                 ]
             }
@@ -4378,6 +4333,35 @@
                     [
                         -117.871642,
                         33.67519
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "hex": "A9079F",
+                "flight": "Unknown",
+                "type": "H500",
+                "description": "HUGHES 500",
+                "operator": "CITY OF HUNTINGTON BEACH",
+                "altitude": "ground",
+                "ground_speed": 0.2,
+                "track": 270.0,
+                "squawk": "N/A",
+                "rssi": -22.0,
+                "api_source": "https://opendata.adsb.fi/api/v2/hex/",
+                "last_seen": "2025-09-02T09:07:03.594432+00:00",
+                "nav_qnh": 1012.8,
+                "nav_altitude_mcp": 0,
+                "category": "Unknown"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -118.001575,
+                        33.695208
                     ]
                 ]
             }
