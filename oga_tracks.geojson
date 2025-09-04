@@ -24,22 +24,6 @@
                 "type": "LineString",
                 "coordinates": [
                     [
-                        -118.142713,
-                        34.044479
-                    ],
-                    [
-                        -118.143105,
-                        34.044067
-                    ],
-                    [
-                        -118.168441,
-                        34.02507
-                    ],
-                    [
-                        -118.168441,
-                        34.02507
-                    ],
-                    [
                         -118.169746,
                         34.000125
                     ],
@@ -925,22 +909,6 @@
                 "type": "LineString",
                 "coordinates": [
                     [
-                        -118.265804,
-                        34.128891
-                    ],
-                    [
-                        -118.266085,
-                        34.129349
-                    ],
-                    [
-                        -118.283958,
-                        34.154958
-                    ],
-                    [
-                        -118.28419,
-                        34.155121
-                    ],
-                    [
                         -118.303585,
                         34.180748
                     ],
@@ -1006,6 +974,39 @@
         {
             "type": "Feature",
             "properties": {
+                "hex": "AE743B",
+                "flight": "Unknown",
+                "type": "H60",
+                "description": "SIKORSKY UH-60 Black Hawk",
+                "operator": "Unknown",
+                "altitude": 500,
+                "ground_speed": 100.0,
+                "track": 128.6,
+                "squawk": "6042",
+                "rssi": -49.5,
+                "api_source": "https://api.airplanes.live/v2/hex/",
+                "last_seen": "2025-09-04T06:18:03.317143+00:00",
+                "nav_qnh": 0.0,
+                "nav_altitude_mcp": 0,
+                "category": "Unknown"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        129.15802,
+                        35.002579
+                    ],
+                    [
+                        129.169754,
+                        34.9949
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
                 "hex": "A7FB70",
                 "flight": "REH80   ",
                 "type": "AS50",
@@ -1025,14 +1026,6 @@
             "geometry": {
                 "type": "LineString",
                 "coordinates": [
-                    [
-                        -122.132339,
-                        39.162105
-                    ],
-                    [
-                        -122.132338,
-                        39.162106
-                    ],
                     [
                         -122.132323,
                         39.162106
@@ -1320,43 +1313,6 @@
                     [
                         -122.132338,
                         39.162094
-                    ]
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "hex": "AE743B",
-                "flight": "Unknown",
-                "type": "H60",
-                "description": "SIKORSKY UH-60 Black Hawk",
-                "operator": "Unknown",
-                "altitude": 500,
-                "ground_speed": 100.0,
-                "track": 128.6,
-                "squawk": "6042",
-                "rssi": -49.5,
-                "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-09-04T06:18:03.317143+00:00",
-                "nav_qnh": 0.0,
-                "nav_altitude_mcp": 0,
-                "category": "Unknown"
-            },
-            "geometry": {
-                "type": "LineString",
-                "coordinates": [
-                    [
-                        129.16188,
-                        34.991959
-                    ],
-                    [
-                        129.15802,
-                        35.002579
-                    ],
-                    [
-                        129.169754,
-                        34.9949
                     ]
                 ]
             }
