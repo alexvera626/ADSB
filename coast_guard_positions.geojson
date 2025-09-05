@@ -4,18 +4,45 @@
         {
             "type": "Feature",
             "properties": {
+                "hex": "AE2672",
+                "flight": "C6524   ",
+                "type": "AS65",
+                "description": "Eurocopter MH-65D Dolphin",
+                "operator": "Unknown",
+                "altitude": 1900,
+                "ground_speed": 91.4,
+                "track": 156.8,
+                "squawk": "N/A",
+                "rssi": null,
+                "api_source": "https://opendata.adsb.fi/api/v2/hex/",
+                "last_seen": "2025-09-05T06:51:03.149114+00:00",
+                "nav_qnh": null,
+                "nav_altitude_mcp": null,
+                "category": "A7"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -158.121694,
+                    21.614902
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
                 "hex": "AE57D1",
                 "flight": "C2007   ",
                 "type": "C30J",
                 "description": "Lockheed Martin HC-130J Hercules",
                 "operator": "Unknown",
-                "altitude": 225,
-                "ground_speed": 128.6,
-                "track": 36.78,
+                "altitude": "ground",
+                "ground_speed": 91.0,
+                "track": 54.87,
                 "squawk": "1200",
                 "rssi": null,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-09-05T06:50:02.543601+00:00",
+                "last_seen": "2025-09-05T06:51:03.149567+00:00",
                 "nav_qnh": null,
                 "nav_altitude_mcp": null,
                 "category": "A3"
@@ -23,8 +50,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -158.099569,
-                    21.285545
+                    -158.071098,
+                    21.305423
                 ]
             }
         }
