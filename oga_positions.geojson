@@ -36,13 +36,13 @@
                 "type": "AS50",
                 "description": "AEROSPATIALE AS-350 Ecureuil",
                 "operator": "ORANGE COUNTY SHERIFF'S DEPARTMENT",
-                "altitude": 100,
-                "ground_speed": 10.8,
-                "track": 248.2,
+                "altitude": "ground",
+                "ground_speed": 0.7,
+                "track": 0.0,
                 "squawk": "4204",
                 "rssi": null,
-                "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-09-05T16:28:02.367695+00:00",
+                "api_source": "https://opendata.adsb.fi/api/v2/hex/",
+                "last_seen": "2025-09-05T16:29:02.503693+00:00",
                 "nav_qnh": null,
                 "nav_altitude_mcp": null,
                 "category": "A7"
@@ -50,8 +50,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -117.87117,
-                    33.675097
+                    -117.87146,
+                    33.675076
                 ]
             }
         },
@@ -63,13 +63,13 @@
                 "type": "SHIP",
                 "description": "Zeppelin LZ N07-101",
                 "operator": "GOODYEAR TIRE & RUBBER CO",
-                "altitude": 1750,
+                "altitude": 1700,
                 "ground_speed": 30.5,
                 "track": 293.2,
                 "squawk": "0326",
                 "rssi": null,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-09-05T16:28:02.367705+00:00",
+                "last_seen": "2025-09-05T16:29:02.503874+00:00",
                 "nav_qnh": null,
                 "nav_altitude_mcp": null,
                 "category": "B2"
@@ -77,8 +77,35 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -123.106533,
-                    44.076462
+                    -123.117839,
+                    44.079712
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "hex": "AD5711",
+                "flight": "N959LA  ",
+                "type": "AS50",
+                "description": "AEROSPATIALE AS-350 Ecureuil",
+                "operator": "COUNTY OF LOS ANGELES",
+                "altitude": 200,
+                "ground_speed": 62.2,
+                "track": 258.87,
+                "squawk": "1206",
+                "rssi": null,
+                "api_source": "https://api.airplanes.live/v2/hex/",
+                "last_seen": "2025-09-05T16:29:02.503864+00:00",
+                "nav_qnh": null,
+                "nav_altitude_mcp": null,
+                "category": "A7"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -118.142825,
+                    33.814911
                 ]
             }
         }
