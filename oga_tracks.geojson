@@ -835,13 +835,13 @@
                 "type": "BE30",
                 "description": "BEECH 300 Super King Air",
                 "operator": "DEPARTMENT OF HOMELAND SECURITY",
-                "altitude": 10825,
-                "ground_speed": 174.0,
-                "track": 252.61,
+                "altitude": 9925,
+                "ground_speed": 168.6,
+                "track": 252.75,
                 "squawk": "4404",
-                "rssi": -8.5,
+                "rssi": -5.4,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-09-05T14:43:02.780169+00:00",
+                "last_seen": "2025-09-05T14:44:02.662441+00:00",
                 "nav_qnh": 1016.8,
                 "nav_altitude_mcp": 0,
                 "category": "A2"
@@ -1160,6 +1160,14 @@
                     [
                         -81.38311,
                         29.947266
+                    ],
+                    [
+                        -81.433081,
+                        29.933368
+                    ],
+                    [
+                        -81.434865,
+                        29.932846
                     ]
                 ]
             }
@@ -1172,13 +1180,13 @@
                 "type": "H60",
                 "description": "Sikorsky UH-60M Black Hawk",
                 "operator": "Unknown",
-                "altitude": 1775,
-                "ground_speed": 61.4,
-                "track": 340.97,
+                "altitude": "ground",
+                "ground_speed": 8.2,
+                "track": 45.0,
                 "squawk": "4741",
-                "rssi": -9.2,
+                "rssi": -10.6,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-09-05T14:43:02.780159+00:00",
+                "last_seen": "2025-09-05T14:44:02.662404+00:00",
                 "nav_qnh": 1012.0,
                 "nav_altitude_mcp": 0,
                 "category": "A7"
@@ -1273,6 +1281,43 @@
                     [
                         -117.244778,
                         33.862982
+                    ],
+                    [
+                        -117.245856,
+                        33.867908
+                    ],
+                    [
+                        -117.245856,
+                        33.867908
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "hex": "A7FB70",
+                "flight": "REH80   ",
+                "type": "AS50",
+                "description": "AEROSPATIALE AS-350 Ecureuil",
+                "operator": "REACH AIR MEDICAL SERVICES LLC",
+                "altitude": 850,
+                "ground_speed": 104.0,
+                "track": 133.05,
+                "squawk": "1200",
+                "rssi": -17.8,
+                "api_source": "https://api.airplanes.live/v2/hex/",
+                "last_seen": "2025-09-05T14:44:02.662413+00:00",
+                "nav_qnh": 0.0,
+                "nav_altitude_mcp": 0,
+                "category": "A7"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -122.108826,
+                        39.150665
                     ]
                 ]
             }
