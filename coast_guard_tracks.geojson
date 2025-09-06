@@ -24,14 +24,6 @@
                 "type": "LineString",
                 "coordinates": [
                     [
-                        -122.327913,
-                        36.699084
-                    ],
-                    [
-                        -122.326861,
-                        36.698153
-                    ],
-                    [
                         -122.265301,
                         36.698822
                     ],
@@ -577,14 +569,6 @@
                 "type": "LineString",
                 "coordinates": [
                     [
-                        -74.270691,
-                        39.659341
-                    ],
-                    [
-                        -74.271362,
-                        39.659015
-                    ],
-                    [
                         -74.292053,
                         39.651148
                     ],
@@ -694,47 +678,6 @@
         {
             "type": "Feature",
             "properties": {
-                "hex": "AE2689",
-                "flight": "C6551   ",
-                "type": "AS65",
-                "description": "Eurocopter MH-65D Dolphin",
-                "operator": "Unknown",
-                "altitude": 25,
-                "ground_speed": 32.3,
-                "track": 7.13,
-                "squawk": "N/A",
-                "rssi": -28.8,
-                "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-09-06T01:36:02.125566+00:00",
-                "nav_qnh": 0.0,
-                "nav_altitude_mcp": 0,
-                "category": "A7"
-            },
-            "geometry": {
-                "type": "LineString",
-                "coordinates": [
-                    [
-                        -80.274716,
-                        25.899536
-                    ],
-                    [
-                        -80.274716,
-                        25.899536
-                    ],
-                    [
-                        -80.277522,
-                        25.904831
-                    ],
-                    [
-                        -80.277522,
-                        25.904831
-                    ]
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
                 "hex": "AE2918",
                 "flight": "C6041   ",
                 "type": "H60",
@@ -754,14 +697,6 @@
             "geometry": {
                 "type": "LineString",
                 "coordinates": [
-                    [
-                        -90.047643,
-                        29.824081
-                    ],
-                    [
-                        -90.047446,
-                        29.825041
-                    ],
                     [
                         -90.031289,
                         29.823645
@@ -1009,6 +944,39 @@
                     [
                         -90.029943,
                         29.818291
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "hex": "AE2689",
+                "flight": "C6551   ",
+                "type": "AS65",
+                "description": "Eurocopter MH-65D Dolphin",
+                "operator": "Unknown",
+                "altitude": 25,
+                "ground_speed": 32.3,
+                "track": 7.13,
+                "squawk": "N/A",
+                "rssi": -28.8,
+                "api_source": "https://api.airplanes.live/v2/hex/",
+                "last_seen": "2025-09-06T01:36:02.125566+00:00",
+                "nav_qnh": 0.0,
+                "nav_altitude_mcp": 0,
+                "category": "A7"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -80.277522,
+                        25.904831
+                    ],
+                    [
+                        -80.277522,
+                        25.904831
                     ]
                 ]
             }
