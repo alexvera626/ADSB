@@ -170,15 +170,15 @@
                 "type": "CN35",
                 "description": "CASA HC-144A Ocean Sentry",
                 "operator": "Unknown",
-                "altitude": 225,
-                "ground_speed": 141.4,
-                "track": 274.46,
+                "altitude": 250,
+                "ground_speed": 116.5,
+                "track": 60.13,
                 "squawk": "4420",
-                "rssi": -15.9,
+                "rssi": -22.0,
                 "api_source": "https://opendata.adsb.fi/api/v2/hex/",
-                "last_seen": "2025-09-08T13:27:03.045917+00:00",
+                "last_seen": "2025-09-08T13:28:02.917001+00:00",
                 "nav_qnh": 1023.2,
-                "nav_altitude_mcp": 512,
+                "nav_altitude_mcp": 192,
                 "category": "A2"
             },
             "geometry": {
@@ -327,6 +327,10 @@
                     [
                         -70.503762,
                         41.480392
+                    ],
+                    [
+                        -70.493837,
+                        41.502594
                     ]
                 ]
             }
@@ -629,13 +633,13 @@
                 "type": "AS65",
                 "description": "Eurocopter MH-65D Dolphin",
                 "operator": "Unknown",
-                "altitude": 1900,
-                "ground_speed": 96.1,
-                "track": 257.99,
+                "altitude": 1925,
+                "ground_speed": 106.1,
+                "track": 267.84,
                 "squawk": "4725",
-                "rssi": -20.3,
+                "rssi": -15.4,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-09-08T13:27:03.047019+00:00",
+                "last_seen": "2025-09-08T13:28:02.917584+00:00",
                 "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
                 "category": "A7"
@@ -738,6 +742,14 @@
                     [
                         -83.222871,
                         42.671494
+                    ],
+                    [
+                        -83.261037,
+                        42.669781
+                    ],
+                    [
+                        -83.261037,
+                        42.669781
                     ]
                 ]
             }
@@ -751,12 +763,12 @@
                 "description": "Eurocopter MH-65D Dolphin",
                 "operator": "Unknown",
                 "altitude": -50,
-                "ground_speed": 84.1,
-                "track": 116.87,
+                "ground_speed": 89.5,
+                "track": 129.56,
                 "squawk": "4433",
-                "rssi": -16.8,
+                "rssi": -8.8,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-09-08T13:27:03.047057+00:00",
+                "last_seen": "2025-09-08T13:28:02.917609+00:00",
                 "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
                 "category": "A7"
@@ -823,6 +835,43 @@
                     [
                         -74.546237,
                         39.29718
+                    ],
+                    [
+                        -74.521458,
+                        39.282349
+                    ],
+                    [
+                        -74.52124,
+                        39.282221
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "hex": "AE267B",
+                "flight": "Unknown",
+                "type": "AS65",
+                "description": "Eurocopter MH-65D Dolphin",
+                "operator": "Unknown",
+                "altitude": "ground",
+                "ground_speed": 0.6,
+                "track": 0.0,
+                "squawk": "N/A",
+                "rssi": -20.3,
+                "api_source": "https://api.airplanes.live/v2/hex/",
+                "last_seen": "2025-09-08T13:28:02.917595+00:00",
+                "nav_qnh": 0.0,
+                "nav_altitude_mcp": 0,
+                "category": "Unknown"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -77.04628,
+                        38.84541
                     ]
                 ]
             }
