@@ -291,12 +291,12 @@
                 "description": "Eurocopter MH-65D Dolphin",
                 "operator": "Unknown",
                 "altitude": 475,
-                "ground_speed": 94.9,
-                "track": 48.42,
-                "squawk": "4442",
-                "rssi": -10.4,
-                "api_source": "https://opendata.adsb.fi/api/v2/hex/",
-                "last_seen": "2025-09-09T13:20:02.436604+00:00",
+                "ground_speed": 0.0,
+                "track": 0.0,
+                "squawk": "N/A",
+                "rssi": -15.6,
+                "api_source": "https://api.airplanes.live/v2/hex/",
+                "last_seen": "2025-09-09T13:21:02.526607+00:00",
                 "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
                 "category": "A7"
@@ -331,6 +331,14 @@
                     [
                         -74.50116,
                         39.507767
+                    ],
+                    [
+                        -74.474243,
+                        39.525503
+                    ],
+                    [
+                        -74.500082,
+                        39.508484
                     ]
                 ]
             }
@@ -339,20 +347,20 @@
             "type": "Feature",
             "properties": {
                 "hex": "AE2238",
-                "flight": "Unknown",
+                "flight": "C2302   ",
                 "type": "CN35",
                 "description": "CASA HC-144A Ocean Sentry",
                 "operator": "Unknown",
-                "altitude": 250,
-                "ground_speed": 126.8,
-                "track": 127.95,
+                "altitude": 850,
+                "ground_speed": 137.4,
+                "track": 121.61,
                 "squawk": "4420",
-                "rssi": -22.8,
+                "rssi": -21.0,
                 "api_source": "https://opendata.adsb.fi/api/v2/hex/",
-                "last_seen": "2025-09-09T13:20:02.436138+00:00",
+                "last_seen": "2025-09-09T13:21:02.526009+00:00",
                 "nav_qnh": 1028.8,
                 "nav_altitude_mcp": 1600,
-                "category": "Unknown"
+                "category": "A2"
             },
             "geometry": {
                 "type": "LineString",
@@ -360,6 +368,10 @@
                     [
                         -70.508402,
                         41.650287
+                    ],
+                    [
+                        -70.470366,
+                        41.631454
                     ]
                 ]
             }
