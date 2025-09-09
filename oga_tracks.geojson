@@ -4,6 +4,43 @@
         {
             "type": "Feature",
             "properties": {
+                "hex": "A9079F",
+                "flight": "N681HB  ",
+                "type": "H500",
+                "description": "HUGHES 500",
+                "operator": "CITY OF HUNTINGTON BEACH",
+                "altitude": "ground",
+                "ground_speed": 0.0,
+                "track": 0.0,
+                "squawk": "4301",
+                "rssi": -22.7,
+                "api_source": "https://opendata.adsb.fi/api/v2/hex/",
+                "last_seen": "2025-09-09T07:18:02.840433+00:00",
+                "nav_qnh": 0.0,
+                "nav_altitude_mcp": 0,
+                "category": "A7"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -118.001304,
+                        33.695185
+                    ],
+                    [
+                        -118.001264,
+                        33.695171
+                    ],
+                    [
+                        -118.001261,
+                        33.695161
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
                 "hex": "AD5711",
                 "flight": "N959LA  ",
                 "type": "AS50",
@@ -23,14 +60,6 @@
             "geometry": {
                 "type": "LineString",
                 "coordinates": [
-                    [
-                        -118.115501,
-                        33.974382
-                    ],
-                    [
-                        -118.115501,
-                        33.974382
-                    ],
                     [
                         -118.111153,
                         33.955342
@@ -446,43 +475,6 @@
                     [
                         -118.140863,
                         33.81665
-                    ]
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "hex": "A9079F",
-                "flight": "N681HB  ",
-                "type": "H500",
-                "description": "HUGHES 500",
-                "operator": "CITY OF HUNTINGTON BEACH",
-                "altitude": "ground",
-                "ground_speed": 0.0,
-                "track": 0.0,
-                "squawk": "4301",
-                "rssi": -22.7,
-                "api_source": "https://opendata.adsb.fi/api/v2/hex/",
-                "last_seen": "2025-09-09T07:18:02.840433+00:00",
-                "nav_qnh": 0.0,
-                "nav_altitude_mcp": 0,
-                "category": "A7"
-            },
-            "geometry": {
-                "type": "LineString",
-                "coordinates": [
-                    [
-                        -118.001304,
-                        33.695185
-                    ],
-                    [
-                        -118.001264,
-                        33.695171
-                    ],
-                    [
-                        -118.001261,
-                        33.695161
                     ]
                 ]
             }
