@@ -9,13 +9,13 @@
                 "type": "AS50",
                 "description": "AEROSPATIALE AS-350 Ecureuil",
                 "operator": "LAPD AIR SUPPORT DIVISION",
-                "altitude": 600,
-                "ground_speed": 29.2,
-                "track": 231.95,
+                "altitude": 925,
+                "ground_speed": 74.7,
+                "track": 12.36,
                 "squawk": "1200",
-                "rssi": -5.8,
+                "rssi": -5.2,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-09-10T16:33:02.425857+00:00",
+                "last_seen": "2025-09-10T16:34:02.430908+00:00",
                 "nav_qnh": 1013.6,
                 "nav_altitude_mcp": 7008,
                 "category": "A7"
@@ -522,6 +522,14 @@
                     [
                         -118.214796,
                         34.033722
+                    ],
+                    [
+                        -118.205716,
+                        34.039124
+                    ],
+                    [
+                        -118.205624,
+                        34.039601
                     ]
                 ]
             }
@@ -1575,12 +1583,12 @@
                 "description": "Sikorsky S-70M Firehawk",
                 "operator": "ORANGE COUNTY FIRE AUTHORITY",
                 "altitude": 1000,
-                "ground_speed": 122.9,
-                "track": 158.03,
+                "ground_speed": 122.3,
+                "track": 164.83,
                 "squawk": "4202",
-                "rssi": -16.3,
+                "rssi": -18.9,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-09-10T16:33:02.425837+00:00",
+                "last_seen": "2025-09-10T16:34:02.430871+00:00",
                 "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
                 "category": "A7"
@@ -1651,6 +1659,43 @@
                     [
                         -117.762051,
                         33.714108
+                    ],
+                    [
+                        -117.751808,
+                        33.682127
+                    ],
+                    [
+                        -117.751409,
+                        33.680969
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "hex": "A9079F",
+                "flight": "N681HB  ",
+                "type": "H500",
+                "description": "HUGHES 500",
+                "operator": "CITY OF HUNTINGTON BEACH",
+                "altitude": "ground",
+                "ground_speed": 0.0,
+                "track": 0.0,
+                "squawk": "4301",
+                "rssi": -25.0,
+                "api_source": "https://opendata.adsb.fi/api/v2/hex/",
+                "last_seen": "2025-09-10T16:34:02.430717+00:00",
+                "nav_qnh": 0.0,
+                "nav_altitude_mcp": 0,
+                "category": "A7"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -118.001261,
+                        33.69515
                     ]
                 ]
             }
