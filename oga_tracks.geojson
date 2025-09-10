@@ -24,14 +24,6 @@
                 "type": "LineString",
                 "coordinates": [
                     [
-                        -118.606829,
-                        34.037109
-                    ],
-                    [
-                        -118.606829,
-                        34.037109
-                    ],
-                    [
                         -118.626167,
                         34.036926
                     ],
@@ -1449,14 +1441,6 @@
                 "type": "LineString",
                 "coordinates": [
                     [
-                        -118.215974,
-                        34.234222
-                    ],
-                    [
-                        -118.215749,
-                        34.234818
-                    ],
-                    [
                         -118.204034,
                         34.26265
                     ],
@@ -1882,14 +1866,6 @@
                 "type": "LineString",
                 "coordinates": [
                     [
-                        -117.851575,
-                        33.837341
-                    ],
-                    [
-                        -117.851127,
-                        33.837112
-                    ],
-                    [
                         -117.822708,
                         33.819672
                     ],
@@ -2296,13 +2272,13 @@
                 "type": "H60",
                 "description": "SIKORSKY UH-60 Black Hawk",
                 "operator": "Unknown",
-                "altitude": 25,
-                "ground_speed": 1.6,
-                "track": 315.0,
+                "altitude": 50,
+                "ground_speed": 2.3,
+                "track": 116.57,
                 "squawk": "1200",
-                "rssi": -23.1,
+                "rssi": -12.0,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-09-10T22:11:03.063039+00:00",
+                "last_seen": "2025-09-10T22:12:02.749139+00:00",
                 "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
                 "category": "A7"
@@ -2310,14 +2286,6 @@
             "geometry": {
                 "type": "LineString",
                 "coordinates": [
-                    [
-                        -117.126982,
-                        32.554539
-                    ],
-                    [
-                        -117.126617,
-                        32.554276
-                    ],
                     [
                         -117.105009,
                         32.562499
@@ -4057,63 +4025,14 @@
                     [
                         -117.108653,
                         32.565804
-                    ]
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "hex": "ADDF5C",
-                "flight": "Unknown",
-                "type": "AS50",
-                "description": "AEROSPATIALE AS-350 Ecureuil",
-                "operator": "COUNTY OF RIVERSIDE CALIFORNIA",
-                "altitude": "ground",
-                "ground_speed": 12.0,
-                "track": 166.0,
-                "squawk": "0131",
-                "rssi": -49.5,
-                "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-09-10T18:18:02.642769+00:00",
-                "nav_qnh": 0.0,
-                "nav_altitude_mcp": 0,
-                "category": "A7"
-            },
-            "geometry": {
-                "type": "LineString",
-                "coordinates": [
-                    [
-                        -117.081579,
-                        33.660782
                     ],
                     [
-                        -117.083817,
-                        33.648795
+                        -117.113249,
+                        32.566875
                     ],
                     [
-                        -117.077354,
-                        33.689156
-                    ],
-                    [
-                        -117.067566,
-                        33.711685
-                    ],
-                    [
-                        -117.037292,
-                        33.722858
-                    ],
-                    [
-                        -117.012581,
-                        33.732498
-                    ],
-                    [
-                        -117.023842,
-                        33.732193
-                    ],
-                    [
-                        -117.023674,
-                        33.73082
+                        -117.113249,
+                        32.566875
                     ]
                 ]
             }
@@ -4140,14 +4059,6 @@
             "geometry": {
                 "type": "LineString",
                 "coordinates": [
-                    [
-                        -118.292484,
-                        33.808749
-                    ],
-                    [
-                        -118.292942,
-                        33.809121
-                    ],
                     [
                         -118.322866,
                         33.832214
@@ -4862,14 +4773,6 @@
                 "type": "LineString",
                 "coordinates": [
                     [
-                        -117.121769,
-                        32.567759
-                    ],
-                    [
-                        -117.122273,
-                        32.567852
-                    ],
-                    [
                         -117.123102,
                         32.554642
                     ],
@@ -5240,6 +5143,55 @@
                     [
                         -117.117499,
                         32.563248
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "hex": "ADDF5C",
+                "flight": "Unknown",
+                "type": "AS50",
+                "description": "AEROSPATIALE AS-350 Ecureuil",
+                "operator": "COUNTY OF RIVERSIDE CALIFORNIA",
+                "altitude": "ground",
+                "ground_speed": 12.0,
+                "track": 166.0,
+                "squawk": "0131",
+                "rssi": -49.5,
+                "api_source": "https://api.airplanes.live/v2/hex/",
+                "last_seen": "2025-09-10T18:18:02.642769+00:00",
+                "nav_qnh": 0.0,
+                "nav_altitude_mcp": 0,
+                "category": "A7"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -117.077354,
+                        33.689156
+                    ],
+                    [
+                        -117.067566,
+                        33.711685
+                    ],
+                    [
+                        -117.037292,
+                        33.722858
+                    ],
+                    [
+                        -117.012581,
+                        33.732498
+                    ],
+                    [
+                        -117.023842,
+                        33.732193
+                    ],
+                    [
+                        -117.023674,
+                        33.73082
                     ]
                 ]
             }
@@ -7301,13 +7253,13 @@
                 "type": "B412",
                 "description": "BELL 412",
                 "operator": "COUNTY OF LOS ANGELES FIRE DEPARTMENT",
-                "altitude": 1425,
-                "ground_speed": 117.4,
-                "track": 315.0,
+                "altitude": 1450,
+                "ground_speed": 124.7,
+                "track": 318.9,
                 "squawk": "0277",
-                "rssi": -9.2,
+                "rssi": -7.7,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-09-10T22:11:03.063028+00:00",
+                "last_seen": "2025-09-10T22:12:02.749130+00:00",
                 "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
                 "category": "A7"
@@ -7934,6 +7886,14 @@
                     [
                         -118.316812,
                         34.184738
+                    ],
+                    [
+                        -118.34444,
+                        34.209145
+                    ],
+                    [
+                        -118.34444,
+                        34.209145
                     ]
                 ]
             }
@@ -7946,13 +7906,13 @@
                 "type": "AS50",
                 "description": "AEROSPATIALE AS-350 Ecureuil",
                 "operator": "LAPD AIR SUPPORT DIVISION",
-                "altitude": 975,
-                "ground_speed": 36.7,
-                "track": 281.0,
+                "altitude": 775,
+                "ground_speed": 6.4,
+                "track": 161.57,
                 "squawk": "0207",
-                "rssi": -5.0,
+                "rssi": -18.2,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-09-10T22:11:03.063083+00:00",
+                "last_seen": "2025-09-10T22:12:02.749158+00:00",
                 "nav_qnh": 1013.6,
                 "nav_altitude_mcp": 7008,
                 "category": "A7"
@@ -8831,6 +8791,14 @@
                     [
                         -118.498707,
                         34.217617
+                    ],
+                    [
+                        -118.497302,
+                        34.216644
+                    ],
+                    [
+                        -118.497302,
+                        34.216644
                     ]
                 ]
             }
@@ -9225,13 +9193,13 @@
                 "type": "AS50",
                 "description": "AEROSPATIALE AS-350 Ecureuil",
                 "operator": "ANAHEIM POLICE DEPT",
-                "altitude": 1375,
-                "ground_speed": 72.9,
-                "track": 295.16,
+                "altitude": 1225,
+                "ground_speed": 65.5,
+                "track": 238.74,
                 "squawk": "4301",
-                "rssi": -19.6,
+                "rssi": -16.7,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-09-10T22:11:03.063011+00:00",
+                "last_seen": "2025-09-10T22:12:02.749120+00:00",
                 "nav_qnh": 1013.6,
                 "nav_altitude_mcp": 0,
                 "category": "A7"
@@ -9558,6 +9526,14 @@
                     [
                         -117.823505,
                         33.896872
+                    ],
+                    [
+                        -117.84565,
+                        33.903995
+                    ],
+                    [
+                        -117.84565,
+                        33.903995
                     ]
                 ]
             }
@@ -9571,12 +9547,12 @@
                 "description": "HUGHES 500",
                 "operator": "CITY OF HUNTINGTON BEACH",
                 "altitude": 875,
-                "ground_speed": 49.5,
-                "track": 188.13,
+                "ground_speed": 55.2,
+                "track": 35.42,
                 "squawk": "4301",
-                "rssi": -8.9,
+                "rssi": -7.4,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-09-10T22:11:03.063000+00:00",
+                "last_seen": "2025-09-10T22:12:02.749110+00:00",
                 "nav_qnh": 1012.8,
                 "nav_altitude_mcp": 0,
                 "category": "A7"
@@ -9699,6 +9675,14 @@
                     [
                         -117.994061,
                         33.651306
+                    ],
+                    [
+                        -118.002357,
+                        33.655746
+                    ],
+                    [
+                        -118.002357,
+                        33.655746
                     ]
                 ]
             }
@@ -9712,12 +9696,12 @@
                 "description": "AEROSPATIALE AS-350 Ecureuil",
                 "operator": "COUNTY OF ORANGE - AIR SUPPORT",
                 "altitude": 1200,
-                "ground_speed": 88.9,
-                "track": 19.05,
+                "ground_speed": 85.3,
+                "track": 10.12,
                 "squawk": "4204",
-                "rssi": -23.7,
+                "rssi": -5.8,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-09-10T22:11:03.063049+00:00",
+                "last_seen": "2025-09-10T22:12:02.749149+00:00",
                 "nav_qnh": 1013.6,
                 "nav_altitude_mcp": 0,
                 "category": "A7"
@@ -9852,6 +9836,14 @@
                     [
                         -117.775511,
                         33.857941
+                    ],
+                    [
+                        -117.769375,
+                        33.881231
+                    ],
+                    [
+                        -117.769375,
+                        33.881231
                     ]
                 ]
             }
