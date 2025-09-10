@@ -9,13 +9,13 @@
                 "type": "AS50",
                 "description": "AEROSPATIALE AS-350 Ecureuil",
                 "operator": "LAPD AIR SUPPORT DIVISION",
-                "altitude": 1125,
-                "ground_speed": 87.9,
-                "track": 342.8,
+                "altitude": 1175,
+                "ground_speed": 82.3,
+                "track": 24.39,
                 "squawk": "1200",
-                "rssi": -13.8,
+                "rssi": -9.6,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-09-10T16:35:02.427912+00:00",
+                "last_seen": "2025-09-10T16:36:02.287016+00:00",
                 "nav_qnh": 1013.6,
                 "nav_altitude_mcp": 7008,
                 "category": "A7"
@@ -538,6 +538,14 @@
                     [
                         -118.212318,
                         34.062645
+                    ],
+                    [
+                        -118.214893,
+                        34.085269
+                    ],
+                    [
+                        -118.214722,
+                        34.085642
                     ]
                 ]
             }
@@ -1590,13 +1598,13 @@
                 "type": "H60",
                 "description": "Sikorsky S-70M Firehawk",
                 "operator": "ORANGE COUNTY FIRE AUTHORITY",
-                "altitude": 1025,
-                "ground_speed": 122.7,
-                "track": 160.97,
+                "altitude": 1000,
+                "ground_speed": 121.8,
+                "track": 159.33,
                 "squawk": "4202",
-                "rssi": -16.5,
+                "rssi": -13.4,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-09-10T16:35:02.427860+00:00",
+                "last_seen": "2025-09-10T16:36:02.286984+00:00",
                 "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
                 "category": "A7"
@@ -1683,6 +1691,14 @@
                     [
                         -117.738419,
                         33.648889
+                    ],
+                    [
+                        -117.726185,
+                        33.617615
+                    ],
+                    [
+                        -117.726059,
+                        33.617373
                     ]
                 ]
             }
@@ -1698,10 +1714,10 @@
                 "altitude": "ground",
                 "ground_speed": 0.0,
                 "track": 0.0,
-                "squawk": "N/A",
-                "rssi": -25.5,
+                "squawk": "4301",
+                "rssi": -25.8,
                 "api_source": "https://opendata.adsb.fi/api/v2/hex/",
-                "last_seen": "2025-09-10T16:35:02.427715+00:00",
+                "last_seen": "2025-09-10T16:36:02.286739+00:00",
                 "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
                 "category": "A7"
@@ -1716,6 +1732,76 @@
                     [
                         -118.001264,
                         33.69516
+                    ],
+                    [
+                        -118.001246,
+                        33.695161
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "hex": "A5F058",
+                "flight": "CFR601  ",
+                "type": "H60",
+                "description": "SIKORSKY UH-60 Black Hawk",
+                "operator": "CALIFORNIA DEPT OF FORESTRY AND FIRE PROTECTION",
+                "altitude": 25,
+                "ground_speed": 0.7,
+                "track": 0.0,
+                "squawk": "1255",
+                "rssi": -1.9,
+                "api_source": "https://api.airplanes.live/v2/hex/",
+                "last_seen": "2025-09-10T16:36:02.286973+00:00",
+                "nav_qnh": 0.0,
+                "nav_altitude_mcp": 0,
+                "category": "A7"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -121.397851,
+                        38.665695
+                    ],
+                    [
+                        -121.397911,
+                        38.665649
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "hex": "AE4FDA",
+                "flight": "ST711   ",
+                "type": "H60",
+                "description": "SIKORSKY UH-60 Black Hawk",
+                "operator": "Unknown",
+                "altitude": "ground",
+                "ground_speed": 7.2,
+                "track": 120.94,
+                "squawk": "N/A",
+                "rssi": -16.2,
+                "api_source": "https://api.airplanes.live/v2/hex/",
+                "last_seen": "2025-09-10T16:36:02.286994+00:00",
+                "nav_qnh": 0.0,
+                "nav_altitude_mcp": 0,
+                "category": "A7"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -117.203115,
+                        32.697873
+                    ],
+                    [
+                        -117.203115,
+                        32.697873
                     ]
                 ]
             }
