@@ -3341,13 +3341,13 @@
                 "type": "AS50",
                 "description": "AEROSPATIALE AS-350 Ecureuil",
                 "operator": "LAPD AIR SUPPORT DIVISION",
-                "altitude": 1550,
-                "ground_speed": 54.1,
-                "track": 334.86,
+                "altitude": 1725,
+                "ground_speed": 54.0,
+                "track": 321.01,
                 "squawk": "0231",
-                "rssi": -2.8,
+                "rssi": -4.0,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-09-11T06:58:02.531714+00:00",
+                "last_seen": "2025-09-11T06:59:01.959081+00:00",
                 "nav_qnh": 1013.6,
                 "nav_altitude_mcp": 7008,
                 "category": "A7"
@@ -4110,6 +4110,14 @@
                     [
                         -118.406467,
                         34.281021
+                    ],
+                    [
+                        -118.41468,
+                        34.293503
+                    ],
+                    [
+                        -118.414879,
+                        34.29373
                     ]
                 ]
             }
@@ -8933,6 +8941,35 @@
                     [
                         -117.982976,
                         33.872257
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "hex": "A9079F",
+                "flight": "N681HB  ",
+                "type": "H500",
+                "description": "HUGHES 500",
+                "operator": "CITY OF HUNTINGTON BEACH",
+                "altitude": "ground",
+                "ground_speed": 0.0,
+                "track": 0.0,
+                "squawk": "4301",
+                "rssi": -21.7,
+                "api_source": "https://opendata.adsb.fi/api/v2/hex/",
+                "last_seen": "2025-09-11T06:59:01.958249+00:00",
+                "nav_qnh": 0.0,
+                "nav_altitude_mcp": 0,
+                "category": "A7"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -118.001236,
+                        33.695137
                     ]
                 ]
             }
