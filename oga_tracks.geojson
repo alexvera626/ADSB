@@ -9,13 +9,13 @@
                 "type": "AS50",
                 "description": "AEROSPATIALE AS-350 Ecureuil",
                 "operator": "LAPD AIR SUPPORT DIVISION",
-                "altitude": 1225,
-                "ground_speed": 53.3,
-                "track": 329.59,
+                "altitude": 1250,
+                "ground_speed": 55.0,
+                "track": 1.04,
                 "squawk": "0201",
-                "rssi": -2.0,
+                "rssi": -4.4,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-09-11T00:32:02.197236+00:00",
+                "last_seen": "2025-09-11T00:33:02.773124+00:00",
                 "nav_qnh": 1012.0,
                 "nav_altitude_mcp": 6688,
                 "category": "A7"
@@ -23,22 +23,6 @@
             "geometry": {
                 "type": "LineString",
                 "coordinates": [
-                    [
-                        -118.278179,
-                        34.022936
-                    ],
-                    [
-                        -118.278192,
-                        34.022964
-                    ],
-                    [
-                        -118.283629,
-                        34.015045
-                    ],
-                    [
-                        -118.283629,
-                        34.015045
-                    ],
                     [
                         -118.281387,
                         34.005981
@@ -1170,6 +1154,14 @@
                     [
                         -118.470845,
                         34.229279
+                    ],
+                    [
+                        -118.468208,
+                        34.230093
+                    ],
+                    [
+                        -118.468094,
+                        34.231397
                     ]
                 ]
             }
@@ -1182,13 +1174,13 @@
                 "type": "H60",
                 "description": "SIKORSKY UH-60 Black Hawk",
                 "operator": "Unknown",
-                "altitude": 225,
-                "ground_speed": 54.2,
-                "track": 337.22,
+                "altitude": 0,
+                "ground_speed": 1.2,
+                "track": 0.0,
                 "squawk": "1200",
-                "rssi": -8.2,
+                "rssi": -20.5,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-09-11T00:32:02.197356+00:00",
+                "last_seen": "2025-09-11T00:33:02.773225+00:00",
                 "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
                 "category": "A7"
@@ -1196,22 +1188,6 @@
             "geometry": {
                 "type": "LineString",
                 "coordinates": [
-                    [
-                        -117.367168,
-                        32.611518
-                    ],
-                    [
-                        -117.366339,
-                        32.611954
-                    ],
-                    [
-                        -117.353715,
-                        32.625484
-                    ],
-                    [
-                        -117.352826,
-                        32.625549
-                    ],
                     [
                         -117.360105,
                         32.607608
@@ -2663,47 +2639,14 @@
                     [
                         -117.111119,
                         32.559194
-                    ]
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "hex": "A31AA0",
-                "flight": "Unknown",
-                "type": "SHIP",
-                "description": "Zeppelin LZ N07-101",
-                "operator": "GOODYEAR TIRE & RUBBER CO",
-                "altitude": 1425,
-                "ground_speed": 0.0,
-                "track": 0.0,
-                "squawk": "1200",
-                "rssi": -18.6,
-                "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-09-11T00:32:02.197366+00:00",
-                "nav_qnh": 0.0,
-                "nav_altitude_mcp": 0,
-                "category": "Unknown"
-            },
-            "geometry": {
-                "type": "LineString",
-                "coordinates": [
-                    [
-                        -122.325319,
-                        48.849917
                     ],
                     [
-                        -122.325319,
-                        48.849917
+                        -117.117609,
+                        32.562149
                     ],
                     [
-                        -122.329583,
-                        48.852617
-                    ],
-                    [
-                        -122.329583,
-                        48.852617
+                        -117.117789,
+                        32.56222
                     ]
                 ]
             }
@@ -2730,22 +2673,6 @@
             "geometry": {
                 "type": "LineString",
                 "coordinates": [
-                    [
-                        -118.514786,
-                        34.141737
-                    ],
-                    [
-                        -118.51608,
-                        34.142075
-                    ],
-                    [
-                        -118.55587,
-                        34.149698
-                    ],
-                    [
-                        -118.5569,
-                        34.14993
-                    ],
                     [
                         -118.59545,
                         34.163361
@@ -3752,22 +3679,6 @@
                 "type": "LineString",
                 "coordinates": [
                     [
-                        -118.369331,
-                        34.224786
-                    ],
-                    [
-                        -118.368587,
-                        34.224321
-                    ],
-                    [
-                        -118.341808,
-                        34.203745
-                    ],
-                    [
-                        -118.342094,
-                        34.203977
-                    ],
-                    [
                         -118.316364,
                         34.182129
                     ],
@@ -4138,6 +4049,47 @@
                     [
                         -118.410516,
                         34.257373
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "hex": "A31AA0",
+                "flight": "Unknown",
+                "type": "SHIP",
+                "description": "Zeppelin LZ N07-101",
+                "operator": "GOODYEAR TIRE & RUBBER CO",
+                "altitude": 1250,
+                "ground_speed": 0.0,
+                "track": 0.0,
+                "squawk": "1200",
+                "rssi": -25.4,
+                "api_source": "https://api.airplanes.live/v2/hex/",
+                "last_seen": "2025-09-11T00:33:02.773236+00:00",
+                "nav_qnh": 0.0,
+                "nav_altitude_mcp": 0,
+                "category": "Unknown"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -122.325319,
+                        48.849917
+                    ],
+                    [
+                        -122.325319,
+                        48.849917
+                    ],
+                    [
+                        -122.329583,
+                        48.852617
+                    ],
+                    [
+                        -122.329583,
+                        48.852617
                     ]
                 ]
             }
@@ -7057,13 +7009,13 @@
                 "type": "H60",
                 "description": "SIKORSKY UH-60 Black Hawk",
                 "operator": "Unknown",
-                "altitude": 625,
-                "ground_speed": 94.0,
-                "track": 128.09,
+                "altitude": 650,
+                "ground_speed": 83.1,
+                "track": 272.76,
                 "squawk": "1200",
-                "rssi": -28.6,
+                "rssi": -18.8,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-09-11T00:32:02.197465+00:00",
+                "last_seen": "2025-09-11T00:33:02.773288+00:00",
                 "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
                 "category": "A7"
@@ -7818,6 +7770,14 @@
                     [
                         -117.372268,
                         32.826404
+                    ],
+                    [
+                        -117.356946,
+                        32.840103
+                    ],
+                    [
+                        -117.356946,
+                        32.840103
                     ]
                 ]
             }
@@ -7830,13 +7790,13 @@
                 "type": "AS50",
                 "description": "AEROSPATIALE AS-350 Ecureuil",
                 "operator": "DEPARTMENT OF HOMELAND SECURITY",
-                "altitude": 1475,
-                "ground_speed": 59.0,
-                "track": 190.74,
+                "altitude": 1400,
+                "ground_speed": 50.2,
+                "track": 246.5,
                 "squawk": "4401",
-                "rssi": -12.5,
+                "rssi": -21.0,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-09-11T00:32:02.197438+00:00",
+                "last_seen": "2025-09-11T00:33:02.773278+00:00",
                 "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
                 "category": "A7"
@@ -8727,6 +8687,14 @@
                     [
                         -87.618401,
                         41.749603
+                    ],
+                    [
+                        -87.623823,
+                        41.734267
+                    ],
+                    [
+                        -87.623696,
+                        41.734314
                     ]
                 ]
             }
@@ -8739,13 +8707,13 @@
                 "type": "Unknown",
                 "description": "Unknown",
                 "operator": "DEPARTMENT OF HOMELAND SECURITY",
-                "altitude": 7950,
-                "ground_speed": 190.0,
-                "track": 92.0,
+                "altitude": 6975,
+                "ground_speed": 200.0,
+                "track": 209.1,
                 "squawk": "3533",
                 "rssi": -49.5,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-09-11T00:32:02.197390+00:00",
+                "last_seen": "2025-09-11T00:33:02.773259+00:00",
                 "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
                 "category": "A2"
@@ -9040,6 +9008,10 @@
                     [
                         -119.933586,
                         47.335201
+                    ],
+                    [
+                        -119.900253,
+                        47.2939
                     ]
                 ]
             }
