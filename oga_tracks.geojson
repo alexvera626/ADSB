@@ -9,13 +9,13 @@
                 "type": "AS50",
                 "description": "AEROSPATIALE AS-350 Ecureuil",
                 "operator": "LAPD AIR SUPPORT DIVISION",
-                "altitude": 3125,
-                "ground_speed": 56.9,
-                "track": 50.71,
+                "altitude": "ground",
+                "ground_speed": 0.1,
+                "track": 208.1,
                 "squawk": "0256",
-                "rssi": -12.3,
+                "rssi": -21.7,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-09-12T16:04:02.363862+00:00",
+                "last_seen": "2025-09-12T16:05:02.851431+00:00",
                 "nav_qnh": 1015.2,
                 "nav_altitude_mcp": 9504,
                 "category": "A7"
@@ -686,6 +686,14 @@
                     [
                         -118.607894,
                         34.323074
+                    ],
+                    [
+                        -118.607125,
+                        34.325432
+                    ],
+                    [
+                        -118.607125,
+                        34.325432
                     ]
                 ]
             }
@@ -1273,6 +1281,35 @@
                     [
                         -117.69261,
                         34.109436
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "hex": "A7FB70",
+                "flight": "REH80   ",
+                "type": "AS50",
+                "description": "AEROSPATIALE AS-350 Ecureuil",
+                "operator": "REACH AIR MEDICAL SERVICES LLC",
+                "altitude": 175,
+                "ground_speed": 50.0,
+                "track": 268.85,
+                "squawk": "N/A",
+                "rssi": -19.3,
+                "api_source": "https://api.airplanes.live/v2/hex/",
+                "last_seen": "2025-09-12T16:05:02.851387+00:00",
+                "nav_qnh": 0.0,
+                "nav_altitude_mcp": 0,
+                "category": "A7"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -122.133875,
+                        39.162323
                     ]
                 ]
             }
