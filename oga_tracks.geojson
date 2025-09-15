@@ -9,13 +9,13 @@
                 "type": "AS50",
                 "description": "AEROSPATIALE AS-350 Ecureuil",
                 "operator": "LAPD AIR SUPPORT DIVISION",
-                "altitude": 500,
-                "ground_speed": 41.8,
-                "track": 312.09,
+                "altitude": 525,
+                "ground_speed": 43.0,
+                "track": 257.91,
                 "squawk": "0230",
-                "rssi": -6.0,
+                "rssi": -7.0,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-09-15T05:00:03.046330+00:00",
+                "last_seen": "2025-09-15T05:01:02.358917+00:00",
                 "nav_qnh": 1011.2,
                 "nav_altitude_mcp": 9504,
                 "category": "A7"
@@ -23,14 +23,6 @@
             "geometry": {
                 "type": "LineString",
                 "coordinates": [
-                    [
-                        -118.366356,
-                        34.085036
-                    ],
-                    [
-                        -118.366139,
-                        34.085083
-                    ],
                     [
                         -118.375275,
                         34.089386
@@ -810,6 +802,14 @@
                     [
                         -118.268495,
                         33.956543
+                    ],
+                    [
+                        -118.268738,
+                        33.956832
+                    ],
+                    [
+                        -118.269224,
+                        33.956818
                     ]
                 ]
             }
@@ -1895,13 +1895,13 @@
                 "type": "AS50",
                 "description": "AEROSPATIALE AS-350 Ecureuil",
                 "operator": "ANAHEIM POLICE DEPT",
-                "altitude": 750,
-                "ground_speed": 85.0,
-                "track": 0.67,
+                "altitude": 1100,
+                "ground_speed": 97.4,
+                "track": 5.3,
                 "squawk": "4301",
-                "rssi": -8.8,
+                "rssi": -6.5,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-09-15T05:00:03.046310+00:00",
+                "last_seen": "2025-09-15T05:01:02.358887+00:00",
                 "nav_qnh": 1013.6,
                 "nav_altitude_mcp": 0,
                 "category": "A7"
@@ -2624,6 +2624,14 @@
                     [
                         -117.966385,
                         33.876808
+                    ],
+                    [
+                        -117.966728,
+                        33.902412
+                    ],
+                    [
+                        -117.966651,
+                        33.903168
                     ]
                 ]
             }
@@ -4743,6 +4751,35 @@
                     [
                         -117.978086,
                         33.873093
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "hex": "A9079F",
+                "flight": "N681HB  ",
+                "type": "H500",
+                "description": "HUGHES 500",
+                "operator": "CITY OF HUNTINGTON BEACH",
+                "altitude": "ground",
+                "ground_speed": 0.0,
+                "track": 45.0,
+                "squawk": "4301",
+                "rssi": -24.4,
+                "api_source": "https://opendata.adsb.fi/api/v2/hex/",
+                "last_seen": "2025-09-15T05:01:02.358602+00:00",
+                "nav_qnh": 1010.4,
+                "nav_altitude_mcp": 0,
+                "category": "A7"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -118.001264,
+                        33.695171
                     ]
                 ]
             }
