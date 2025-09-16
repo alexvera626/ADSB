@@ -9,13 +9,13 @@
                 "type": "AS65",
                 "description": "Eurocopter MH-65D Dolphin",
                 "operator": "Unknown",
-                "altitude": 975,
-                "ground_speed": 86.1,
-                "track": 350.65,
+                "altitude": 1000,
+                "ground_speed": 126.0,
+                "track": 308.23,
                 "squawk": "5147",
-                "rssi": -20.3,
+                "rssi": -10.5,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-09-16T12:54:02.016824+00:00",
+                "last_seen": "2025-09-16T12:55:02.036179+00:00",
                 "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
                 "category": "A7"
@@ -150,6 +150,14 @@
                     [
                         -77.123247,
                         38.644775
+                    ],
+                    [
+                        -77.152206,
+                        38.666565
+                    ],
+                    [
+                        -77.152832,
+                        38.66694
                     ]
                 ]
             }
@@ -183,6 +191,39 @@
                     [
                         -74.578918,
                         39.451206
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "hex": "AE2709",
+                "flight": "C2311   ",
+                "type": "CN35",
+                "description": "CASA HC-144B Ocean Sentry",
+                "operator": "United States Coast Guard",
+                "altitude": 1275,
+                "ground_speed": 132.7,
+                "track": 80.89,
+                "squawk": "6021",
+                "rssi": -13.3,
+                "api_source": "https://api.airplanes.live/v2/hex/",
+                "last_seen": "2025-09-16T12:55:02.036195+00:00",
+                "nav_qnh": 1016.8,
+                "nav_altitude_mcp": 3008,
+                "category": "A2"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -80.233258,
+                        25.917206
+                    ],
+                    [
+                        -80.232362,
+                        25.917353
                     ]
                 ]
             }
