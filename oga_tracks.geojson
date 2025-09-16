@@ -9,13 +9,13 @@
                 "type": "AS50",
                 "description": "AEROSPATIALE AS-350 Ecureuil",
                 "operator": "LAPD AIR SUPPORT DIVISION",
-                "altitude": 1700,
-                "ground_speed": 123.1,
-                "track": 298.65,
-                "squawk": "1200",
-                "rssi": -11.3,
+                "altitude": 1575,
+                "ground_speed": 132.6,
+                "track": 307.65,
+                "squawk": "0227",
+                "rssi": -6.7,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-09-16T15:20:02.159215+00:00",
+                "last_seen": "2025-09-16T15:21:02.162000+00:00",
                 "nav_qnh": 1013.6,
                 "nav_altitude_mcp": 4000,
                 "category": "A7"
@@ -78,6 +78,14 @@
                     [
                         -118.422031,
                         34.115761
+                    ],
+                    [
+                        -118.456047,
+                        34.133423
+                    ],
+                    [
+                        -118.456593,
+                        34.13373
                     ]
                 ]
             }
@@ -1002,12 +1010,12 @@
                 "description": "BEECHCRAFT Super King Air 350",
                 "operator": "DEPARTMENT OF HOMELAND SECURITY",
                 "altitude": 20000,
-                "ground_speed": 301.8,
-                "track": 219.76,
+                "ground_speed": 302.6,
+                "track": 219.64,
                 "squawk": "7407",
-                "rssi": -17.0,
+                "rssi": -16.5,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-09-16T15:20:02.159439+00:00",
+                "last_seen": "2025-09-16T15:21:02.162114+00:00",
                 "nav_qnh": 1012.8,
                 "nav_altitude_mcp": 20000,
                 "category": "A2"
@@ -1454,6 +1462,14 @@
                     [
                         -87.339848,
                         38.384903
+                    ],
+                    [
+                        -87.406642,
+                        38.321365
+                    ],
+                    [
+                        -87.407645,
+                        38.320406
                     ]
                 ]
             }
@@ -1896,6 +1912,39 @@
                     [
                         -97.113119,
                         26.927909
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "hex": "A31E37",
+                "flight": "PD10    ",
+                "type": "AS50",
+                "description": "AEROSPATIALE AS-350 Ecureuil",
+                "operator": "CITY OF ONTARIO",
+                "altitude": "ground",
+                "ground_speed": 0.7,
+                "track": 337.5,
+                "squawk": "4274",
+                "rssi": -22.3,
+                "api_source": "https://api.airplanes.live/v2/hex/",
+                "last_seen": "2025-09-16T15:21:02.162101+00:00",
+                "nav_qnh": 1014.4,
+                "nav_altitude_mcp": 8512,
+                "category": "A7"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -117.692614,
+                        34.109441
+                    ],
+                    [
+                        -117.692614,
+                        34.109441
                     ]
                 ]
             }
