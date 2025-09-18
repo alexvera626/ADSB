@@ -9,13 +9,13 @@
                 "type": "AS50",
                 "description": "AEROSPATIALE AS-350 Ecureuil",
                 "operator": "Unknown",
-                "altitude": 1000,
-                "ground_speed": 125.0,
-                "track": 316.1,
+                "altitude": 950,
+                "ground_speed": 122.0,
+                "track": 301.4,
                 "squawk": "1200",
                 "rssi": -49.5,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-09-18T14:47:02.664231+00:00",
+                "last_seen": "2025-09-18T14:48:02.551852+00:00",
                 "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
                 "category": "A7"
@@ -746,6 +746,10 @@
                     [
                         -97.469063,
                         26.057056
+                    ],
+                    [
+                        -97.499413,
+                        26.077744
                     ]
                 ]
             }
@@ -931,6 +935,68 @@
                     [
                         -118.407326,
                         34.258863
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "hex": "A1ED21",
+                "flight": "N223LA  ",
+                "type": "AS50",
+                "description": "AEROSPATIALE AS-350 Ecureuil",
+                "operator": "LAPD AIR SUPPORT DIVISION",
+                "altitude": 775,
+                "ground_speed": 109.3,
+                "track": 235.44,
+                "squawk": "1200",
+                "rssi": -13.6,
+                "api_source": "https://api.airplanes.live/v2/hex/",
+                "last_seen": "2025-09-18T14:48:02.551979+00:00",
+                "nav_qnh": 1010.4,
+                "nav_altitude_mcp": 10016,
+                "category": "A7"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -118.245513,
+                        34.044388
+                    ],
+                    [
+                        -118.24669,
+                        34.043701
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "hex": "A17E8E",
+                "flight": "N196B   ",
+                "type": "BE30",
+                "description": "BEECH 300 Super King Air",
+                "operator": "DEPARTMENT OF HOMELAND SECURITY",
+                "altitude": 1100,
+                "ground_speed": 179.0,
+                "track": 245.7,
+                "squawk": "N/A",
+                "rssi": -49.5,
+                "api_source": "https://api.airplanes.live/v2/hex/",
+                "last_seen": "2025-09-18T14:48:02.551874+00:00",
+                "nav_qnh": 0.0,
+                "nav_altitude_mcp": 0,
+                "category": "Unknown"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -90.413872,
+                        30.487701
                     ]
                 ]
             }
