@@ -24,14 +24,6 @@
                 "type": "LineString",
                 "coordinates": [
                     [
-                        -117.737171,
-                        33.789688
-                    ],
-                    [
-                        -117.736947,
-                        33.789597
-                    ],
-                    [
                         -117.732468,
                         33.780864
                     ],
@@ -2177,13 +2169,13 @@
                 "type": "AS50",
                 "description": "AEROSPATIALE AS-350 Ecureuil",
                 "operator": "LAPD AIR SUPPORT DIVISION",
-                "altitude": 750,
-                "ground_speed": 114.0,
-                "track": 100.62,
+                "altitude": 650,
+                "ground_speed": 45.8,
+                "track": 233.88,
                 "squawk": "1200",
-                "rssi": -3.5,
+                "rssi": -9.4,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-09-28T00:56:02.599934+00:00",
+                "last_seen": "2025-09-28T00:57:02.267499+00:00",
                 "nav_qnh": 1011.2,
                 "nav_altitude_mcp": 6496,
                 "category": "A7"
@@ -3210,6 +3202,14 @@
                     [
                         -118.295918,
                         34.079823
+                    ],
+                    [
+                        -118.283615,
+                        34.074236
+                    ],
+                    [
+                        -118.284645,
+                        34.074143
                     ]
                 ]
             }
@@ -3222,13 +3222,13 @@
                 "type": "SHIP",
                 "description": "Zeppelin LZ N07-101",
                 "operator": "GOODYEAR TIRE & RUBBER CO",
-                "altitude": 1525,
-                "ground_speed": 49.8,
-                "track": 141.52,
+                "altitude": 1550,
+                "ground_speed": 49.7,
+                "track": 139.9,
                 "squawk": "1200",
-                "rssi": -10.0,
+                "rssi": -11.6,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-09-28T00:56:02.599958+00:00",
+                "last_seen": "2025-09-28T00:57:02.267523+00:00",
                 "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
                 "category": "B2"
@@ -4211,6 +4211,43 @@
                     [
                         -117.288974,
                         32.899351
+                    ],
+                    [
+                        -117.279053,
+                        32.888365
+                    ],
+                    [
+                        -117.278716,
+                        32.888039
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "hex": "A1F894",
+                "flight": "N226PD  ",
+                "type": "AS50",
+                "description": "AEROSPATIALE AS-350 Ecureuil",
+                "operator": "ANAHEIM POLICE DEPT",
+                "altitude": "ground",
+                "ground_speed": 4.8,
+                "track": 0.0,
+                "squawk": "N/A",
+                "rssi": -27.0,
+                "api_source": "https://opendata.adsb.fi/api/v2/hex/",
+                "last_seen": "2025-09-28T00:57:02.267458+00:00",
+                "nav_qnh": 0.0,
+                "nav_altitude_mcp": 0,
+                "category": "A7"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -117.982936,
+                        33.872409
                     ]
                 ]
             }
