@@ -1373,13 +1373,13 @@
                 "type": "AS50",
                 "description": "AEROSPATIALE AS-350 Ecureuil",
                 "operator": "Unknown",
-                "altitude": 650,
-                "ground_speed": 60.0,
-                "track": 130.0,
+                "altitude": 750,
+                "ground_speed": 51.0,
+                "track": 126.6,
                 "squawk": "1200",
                 "rssi": -49.5,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-10-02T16:27:02.042941+00:00",
+                "last_seen": "2025-10-02T16:28:02.408028+00:00",
                 "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
                 "category": "A7"
@@ -1650,6 +1650,10 @@
                     [
                         -97.530495,
                         25.92415
+                    ],
+                    [
+                        -97.525162,
+                        25.907297
                     ]
                 ]
             }
@@ -1662,13 +1666,13 @@
                 "type": "H60",
                 "description": "SIKORSKY UH-60 Black Hawk",
                 "operator": "Unknown",
-                "altitude": 275,
-                "ground_speed": 116.1,
-                "track": 202.81,
+                "altitude": 225,
+                "ground_speed": 87.3,
+                "track": 99.89,
                 "squawk": "1200",
-                "rssi": -22.7,
+                "rssi": -23.0,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-10-02T16:27:02.043619+00:00",
+                "last_seen": "2025-10-02T16:28:02.408070+00:00",
                 "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
                 "category": "A7"
@@ -1711,6 +1715,43 @@
                     [
                         -117.242688,
                         32.64299
+                    ],
+                    [
+                        -117.243011,
+                        32.617756
+                    ],
+                    [
+                        -117.246149,
+                        32.618546
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "hex": "A32EAF",
+                "flight": "FIRE4   ",
+                "type": "A139",
+                "description": "AGUSTA AW-139",
+                "operator": "CITY OF LOS ANGELES",
+                "altitude": "ground",
+                "ground_speed": 0.0,
+                "track": 0.0,
+                "squawk": "1200",
+                "rssi": -19.9,
+                "api_source": "https://api.airplanes.live/v2/hex/",
+                "last_seen": "2025-10-02T16:28:02.408005+00:00",
+                "nav_qnh": 0.0,
+                "nav_altitude_mcp": 0,
+                "category": "A7"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -118.49719,
+                        34.21636
                     ]
                 ]
             }
