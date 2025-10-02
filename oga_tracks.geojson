@@ -9,13 +9,13 @@
                 "type": "AS50",
                 "description": "AEROSPATIALE AS-350 Ecureuil",
                 "operator": "LAPD AIR SUPPORT DIVISION",
-                "altitude": 575,
-                "ground_speed": 128.0,
-                "track": 268.66,
+                "altitude": 425,
+                "ground_speed": 113.2,
+                "track": 266.46,
                 "squawk": "1200",
-                "rssi": -3.1,
+                "rssi": -3.2,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-10-02T06:56:01.933184+00:00",
+                "last_seen": "2025-10-02T06:57:02.407163+00:00",
                 "nav_qnh": 1016.0,
                 "nav_altitude_mcp": 6496,
                 "category": "A7"
@@ -23,22 +23,6 @@
             "geometry": {
                 "type": "LineString",
                 "coordinates": [
-                    [
-                        -118.266506,
-                        34.028196
-                    ],
-                    [
-                        -118.266981,
-                        34.028
-                    ],
-                    [
-                        -118.267193,
-                        34.026939
-                    ],
-                    [
-                        -118.266925,
-                        34.02626
-                    ],
                     [
                         -118.267937,
                         34.026939
@@ -834,6 +818,14 @@
                     [
                         -118.395959,
                         34.031525
+                    ],
+                    [
+                        -118.439655,
+                        34.030012
+                    ],
+                    [
+                        -118.439655,
+                        34.030012
                     ]
                 ]
             }
@@ -860,14 +852,6 @@
             "geometry": {
                 "type": "LineString",
                 "coordinates": [
-                    [
-                        -117.889186,
-                        32.840835
-                    ],
-                    [
-                        -117.890002,
-                        32.832184
-                    ],
                     [
                         -117.890717,
                         32.84166
@@ -1301,22 +1285,6 @@
             "geometry": {
                 "type": "LineString",
                 "coordinates": [
-                    [
-                        -117.90596,
-                        33.859863
-                    ],
-                    [
-                        -117.905554,
-                        33.860275
-                    ],
-                    [
-                        -117.923241,
-                        33.868522
-                    ],
-                    [
-                        -117.923883,
-                        33.868561
-                    ],
                     [
                         -117.946921,
                         33.868698
@@ -1838,22 +1806,6 @@
             "geometry": {
                 "type": "LineString",
                 "coordinates": [
-                    [
-                        -118.286877,
-                        34.670245
-                    ],
-                    [
-                        -118.287721,
-                        34.669601
-                    ],
-                    [
-                        -118.305826,
-                        34.654816
-                    ],
-                    [
-                        -118.306217,
-                        34.654463
-                    ],
                     [
                         -118.327518,
                         34.638016
@@ -3192,22 +3144,6 @@
                 "type": "LineString",
                 "coordinates": [
                     [
-                        -117.979317,
-                        33.806514
-                    ],
-                    [
-                        -117.979936,
-                        33.806763
-                    ],
-                    [
-                        -118.000431,
-                        33.807539
-                    ],
-                    [
-                        -118.000889,
-                        33.807166
-                    ],
-                    [
                         -118.010902,
                         33.790035
                     ],
@@ -3472,22 +3408,6 @@
             "geometry": {
                 "type": "LineString",
                 "coordinates": [
-                    [
-                        -118.238507,
-                        34.070068
-                    ],
-                    [
-                        -118.238869,
-                        34.07
-                    ],
-                    [
-                        -118.244673,
-                        34.072952
-                    ],
-                    [
-                        -118.244729,
-                        34.073181
-                    ],
                     [
                         -118.240188,
                         34.077942
@@ -4398,18 +4318,87 @@
         {
             "type": "Feature",
             "properties": {
+                "hex": "AE1DAB",
+                "flight": "GH73    ",
+                "type": "H60",
+                "description": "SIKORSKY UH-60 Black Hawk",
+                "operator": "Unknown",
+                "altitude": 2550,
+                "ground_speed": 0.0,
+                "track": 0.0,
+                "squawk": "N/A",
+                "rssi": -18.5,
+                "api_source": "https://api.airplanes.live/v2/hex/",
+                "last_seen": "2025-10-02T06:57:02.407202+00:00",
+                "nav_qnh": 0.0,
+                "nav_altitude_mcp": 0,
+                "category": "Unknown"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -117.062694,
+                        32.677064
+                    ],
+                    [
+                        -117.040166,
+                        32.688238
+                    ],
+                    [
+                        -117.027546,
+                        32.664944
+                    ],
+                    [
+                        -117.015951,
+                        32.703396
+                    ],
+                    [
+                        -116.983316,
+                        32.673405
+                    ],
+                    [
+                        -116.958827,
+                        32.68239
+                    ],
+                    [
+                        -116.951945,
+                        32.680045
+                    ],
+                    [
+                        -116.914822,
+                        32.65837
+                    ],
+                    [
+                        -116.94008,
+                        32.67952
+                    ],
+                    [
+                        -116.852976,
+                        32.697743
+                    ],
+                    [
+                        -116.85155,
+                        32.70646
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
                 "hex": "AE4B4D",
                 "flight": "WLFPK12 ",
                 "type": "H53S",
-                "description": "Sikorsky CH-53E Super Stallion",
-                "operator": "United States Marine Corps",
-                "altitude": 1050,
-                "ground_speed": 53.8,
-                "track": 350.36,
-                "squawk": "1200",
+                "description": "SIKORSKY CH-53 Super Stallion",
+                "operator": "Unknown",
+                "altitude": 0,
+                "ground_speed": 34.4,
+                "track": 305.54,
+                "squawk": "N/A",
                 "rssi": -27.4,
-                "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-10-02T06:56:01.933251+00:00",
+                "api_source": "https://opendata.adsb.fi/api/v2/hex/",
+                "last_seen": "2025-10-02T06:57:02.407139+00:00",
                 "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
                 "category": "A7"
@@ -4417,14 +4406,6 @@
             "geometry": {
                 "type": "LineString",
                 "coordinates": [
-                    [
-                        -117.369525,
-                        33.255478
-                    ],
-                    [
-                        -117.369525,
-                        33.255478
-                    ],
                     [
                         -117.369578,
                         33.255569
@@ -5644,75 +5625,10 @@
                     [
                         -117.000471,
                         32.890134
-                    ]
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "hex": "AE1DAB",
-                "flight": "GH73    ",
-                "type": "H60",
-                "description": "SIKORSKY UH-60 Black Hawk",
-                "operator": "Unknown",
-                "altitude": 2725,
-                "ground_speed": 0.0,
-                "track": 0.0,
-                "squawk": "N/A",
-                "rssi": -17.1,
-                "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-10-02T06:56:01.933229+00:00",
-                "nav_qnh": 0.0,
-                "nav_altitude_mcp": 0,
-                "category": "Unknown"
-            },
-            "geometry": {
-                "type": "LineString",
-                "coordinates": [
-                    [
-                        -117.062694,
-                        32.677064
                     ],
                     [
-                        -117.040166,
-                        32.688238
-                    ],
-                    [
-                        -117.027546,
-                        32.664944
-                    ],
-                    [
-                        -117.015951,
-                        32.703396
-                    ],
-                    [
-                        -116.983316,
-                        32.673405
-                    ],
-                    [
-                        -116.958827,
-                        32.68239
-                    ],
-                    [
-                        -116.951945,
-                        32.680045
-                    ],
-                    [
-                        -116.914822,
-                        32.65837
-                    ],
-                    [
-                        -116.94008,
-                        32.67952
-                    ],
-                    [
-                        -116.852976,
-                        32.697743
-                    ],
-                    [
-                        -116.85155,
-                        32.70646
+                        -117.005273,
+                        32.894852
                     ]
                 ]
             }
@@ -7212,13 +7128,13 @@
                 "type": "AS50",
                 "description": "AEROSPATIALE AS-350 Ecureuil",
                 "operator": "CITY OF ONTARIO",
-                "altitude": 1675,
-                "ground_speed": 52.0,
-                "track": 270.0,
+                "altitude": 1625,
+                "ground_speed": 62.0,
+                "track": 270.92,
                 "squawk": "4274",
-                "rssi": -20.9,
+                "rssi": -19.0,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-10-02T06:56:01.933241+00:00",
+                "last_seen": "2025-10-02T06:57:02.407220+00:00",
                 "nav_qnh": 1016.8,
                 "nav_altitude_mcp": 8512,
                 "category": "A7"
@@ -7889,6 +7805,14 @@
                     [
                         -117.577,
                         34.108452
+                    ],
+                    [
+                        -117.597942,
+                        34.108499
+                    ],
+                    [
+                        -117.597942,
+                        34.108499
                     ]
                 ]
             }
