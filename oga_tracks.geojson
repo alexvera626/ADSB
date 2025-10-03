@@ -6963,15 +6963,15 @@
                 "type": "AS50",
                 "description": "AEROSPATIALE AS-350 Ecureuil",
                 "operator": "LAPD AIR SUPPORT DIVISION",
-                "altitude": 75,
-                "ground_speed": 43.9,
-                "track": 133.15,
+                "altitude": 100,
+                "ground_speed": 36.1,
+                "track": 165.58,
                 "squawk": "N/A",
-                "rssi": -12.1,
+                "rssi": -1.7,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-10-03T19:21:02.762079+00:00",
-                "nav_qnh": 0.0,
-                "nav_altitude_mcp": 0,
+                "last_seen": "2025-10-03T19:22:02.682320+00:00",
+                "nav_qnh": 1016.8,
+                "nav_altitude_mcp": 4000,
                 "category": "A7"
             },
             "geometry": {
@@ -7696,6 +7696,14 @@
                     [
                         -118.510138,
                         34.018845
+                    ],
+                    [
+                        -118.502627,
+                        34.012573
+                    ],
+                    [
+                        -118.501282,
+                        34.011251
                     ]
                 ]
             }
@@ -7829,6 +7837,35 @@
                     [
                         -122.144802,
                         38.736099
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "hex": "AE6BA4",
+                "flight": "SCRCH53 ",
+                "type": "V22",
+                "description": "Bell/Boeing CMV-22B Osprey",
+                "operator": "Unknown",
+                "altitude": "ground",
+                "ground_speed": 0.0,
+                "track": 0.0,
+                "squawk": "1200",
+                "rssi": -22.6,
+                "api_source": "https://opendata.adsb.fi/api/v2/hex/",
+                "last_seen": "2025-10-03T19:22:02.682301+00:00",
+                "nav_qnh": 0.0,
+                "nav_altitude_mcp": 0,
+                "category": "A7"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -117.204671,
+                        32.707381
                     ]
                 ]
             }
