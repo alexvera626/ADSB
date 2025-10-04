@@ -9,13 +9,13 @@
                 "type": "AS50",
                 "description": "AEROSPATIALE AS-350 Ecureuil",
                 "operator": "LAPD AIR SUPPORT DIVISION",
-                "altitude": 825,
-                "ground_speed": 55.4,
-                "track": 39.14,
+                "altitude": "ground",
+                "ground_speed": 4.2,
+                "track": 33.69,
                 "squawk": "1200",
-                "rssi": -8.9,
+                "rssi": -13.4,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-10-04T10:27:02.270705+00:00",
+                "last_seen": "2025-10-04T10:28:02.730314+00:00",
                 "nav_qnh": 1013.6,
                 "nav_altitude_mcp": 4000,
                 "category": "A7"
@@ -846,6 +846,14 @@
                     [
                         -118.235092,
                         34.048912
+                    ],
+                    [
+                        -118.229034,
+                        34.055042
+                    ],
+                    [
+                        -118.229034,
+                        34.055042
                     ]
                 ]
             }
@@ -872,14 +880,6 @@
             "geometry": {
                 "type": "LineString",
                 "coordinates": [
-                    [
-                        -117.909794,
-                        33.818385
-                    ],
-                    [
-                        -117.909794,
-                        33.818385
-                    ],
                     [
                         -117.92691,
                         33.82164
@@ -1606,6 +1606,108 @@
         {
             "type": "Feature",
             "properties": {
+                "hex": "A1511C",
+                "flight": "N184SD  ",
+                "type": "AS50",
+                "description": "AEROSPATIALE AS-350 Ecureuil",
+                "operator": "COUNTY OF ORANGE - AIR SUPPORT",
+                "altitude": "ground",
+                "ground_speed": 0.0,
+                "track": 0.0,
+                "squawk": "4204",
+                "rssi": -25.7,
+                "api_source": "https://opendata.adsb.fi/api/v2/hex/",
+                "last_seen": "2025-10-04T06:33:02.494399+00:00",
+                "nav_qnh": 0.0,
+                "nav_altitude_mcp": 0,
+                "category": "A7"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -117.913233,
+                        33.754623
+                    ],
+                    [
+                        -117.913233,
+                        33.754623
+                    ],
+                    [
+                        -117.889074,
+                        33.734894
+                    ],
+                    [
+                        -117.889074,
+                        33.734894
+                    ],
+                    [
+                        -117.868671,
+                        33.712784
+                    ],
+                    [
+                        -117.867908,
+                        33.711967
+                    ],
+                    [
+                        -117.864361,
+                        33.686037
+                    ],
+                    [
+                        -117.864532,
+                        33.685618
+                    ],
+                    [
+                        -117.871656,
+                        33.675282
+                    ],
+                    [
+                        -117.868054,
+                        33.679459
+                    ],
+                    [
+                        -117.871712,
+                        33.675224
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "hex": "A40442",
+                "flight": "N358TV  ",
+                "type": "AS50",
+                "description": "AEROSPATIALE AS-350 Ecureuil",
+                "operator": "TINY BUBBLES AVIATION INC",
+                "altitude": "ground",
+                "ground_speed": 0.2,
+                "track": 326.25,
+                "squawk": "1200",
+                "rssi": -16.7,
+                "api_source": "https://api.airplanes.live/v2/hex/",
+                "last_seen": "2025-10-04T06:28:02.977833+00:00",
+                "nav_qnh": 0.0,
+                "nav_altitude_mcp": 0,
+                "category": "A7"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -118.41042,
+                        34.257271
+                    ],
+                    [
+                        -118.410516,
+                        34.257373
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
                 "hex": "A7FB70",
                 "flight": "REH80   ",
                 "type": "AS50",
@@ -1625,14 +1727,6 @@
             "geometry": {
                 "type": "LineString",
                 "coordinates": [
-                    [
-                        -122.12474,
-                        39.165848
-                    ],
-                    [
-                        -122.127367,
-                        39.164658
-                    ],
                     [
                         -122.132338,
                         39.162106
@@ -2056,124 +2150,6 @@
                     [
                         -122.295816,
                         37.821636
-                    ]
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "hex": "A1511C",
-                "flight": "N184SD  ",
-                "type": "AS50",
-                "description": "AEROSPATIALE AS-350 Ecureuil",
-                "operator": "COUNTY OF ORANGE - AIR SUPPORT",
-                "altitude": "ground",
-                "ground_speed": 0.0,
-                "track": 0.0,
-                "squawk": "4204",
-                "rssi": -25.7,
-                "api_source": "https://opendata.adsb.fi/api/v2/hex/",
-                "last_seen": "2025-10-04T06:33:02.494399+00:00",
-                "nav_qnh": 0.0,
-                "nav_altitude_mcp": 0,
-                "category": "A7"
-            },
-            "geometry": {
-                "type": "LineString",
-                "coordinates": [
-                    [
-                        -117.938633,
-                        33.769692
-                    ],
-                    [
-                        -117.938633,
-                        33.769692
-                    ],
-                    [
-                        -117.913233,
-                        33.754623
-                    ],
-                    [
-                        -117.913233,
-                        33.754623
-                    ],
-                    [
-                        -117.889074,
-                        33.734894
-                    ],
-                    [
-                        -117.889074,
-                        33.734894
-                    ],
-                    [
-                        -117.868671,
-                        33.712784
-                    ],
-                    [
-                        -117.867908,
-                        33.711967
-                    ],
-                    [
-                        -117.864361,
-                        33.686037
-                    ],
-                    [
-                        -117.864532,
-                        33.685618
-                    ],
-                    [
-                        -117.871656,
-                        33.675282
-                    ],
-                    [
-                        -117.868054,
-                        33.679459
-                    ],
-                    [
-                        -117.871712,
-                        33.675224
-                    ]
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "hex": "A40442",
-                "flight": "N358TV  ",
-                "type": "AS50",
-                "description": "AEROSPATIALE AS-350 Ecureuil",
-                "operator": "TINY BUBBLES AVIATION INC",
-                "altitude": "ground",
-                "ground_speed": 0.2,
-                "track": 326.25,
-                "squawk": "1200",
-                "rssi": -16.7,
-                "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-10-04T06:28:02.977833+00:00",
-                "nav_qnh": 0.0,
-                "nav_altitude_mcp": 0,
-                "category": "A7"
-            },
-            "geometry": {
-                "type": "LineString",
-                "coordinates": [
-                    [
-                        -118.409916,
-                        34.256607
-                    ],
-                    [
-                        -118.410015,
-                        34.256675
-                    ],
-                    [
-                        -118.41042,
-                        34.257271
-                    ],
-                    [
-                        -118.410516,
-                        34.257373
                     ]
                 ]
             }
