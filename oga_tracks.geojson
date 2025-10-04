@@ -9,13 +9,13 @@
                 "type": "AS50",
                 "description": "AEROSPATIALE AS-350 Ecureuil",
                 "operator": "LAPD AIR SUPPORT DIVISION",
-                "altitude": 875,
-                "ground_speed": 69.2,
-                "track": 265.86,
+                "altitude": 850,
+                "ground_speed": 73.6,
+                "track": 328.9,
                 "squawk": "1200",
-                "rssi": -9.0,
+                "rssi": -4.9,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-10-04T08:51:02.331791+00:00",
+                "last_seen": "2025-10-04T08:52:02.183765+00:00",
                 "nav_qnh": 1013.6,
                 "nav_altitude_mcp": 4000,
                 "category": "A7"
@@ -798,6 +798,14 @@
                     [
                         -118.346857,
                         34.040359
+                    ],
+                    [
+                        -118.368416,
+                        34.044164
+                    ],
+                    [
+                        -118.368661,
+                        34.044479
                     ]
                 ]
             }
@@ -5013,6 +5021,39 @@
                     [
                         -117.692542,
                         34.109465
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "hex": "A3238A",
+                "flight": "FIRE1   ",
+                "type": "A139",
+                "description": "AGUSTA AW-139",
+                "operator": "LOS ANGELES FIRE DEPARTMENT",
+                "altitude": "ground",
+                "ground_speed": 2.8,
+                "track": 357.19,
+                "squawk": "1200",
+                "rssi": -16.9,
+                "api_source": "https://api.airplanes.live/v2/hex/",
+                "last_seen": "2025-10-04T08:52:02.183798+00:00",
+                "nav_qnh": 0.0,
+                "nav_altitude_mcp": 0,
+                "category": "A7"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -118.494023,
+                        34.216942
+                    ],
+                    [
+                        -118.494058,
+                        34.216954
                     ]
                 ]
             }
