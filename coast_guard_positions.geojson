@@ -42,7 +42,7 @@
                 "squawk": "2272",
                 "rssi": null,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-10-04T02:56:02.296154+00:00",
+                "last_seen": "2025-10-04T02:57:02.218345+00:00",
                 "nav_qnh": null,
                 "nav_altitude_mcp": null,
                 "category": "A3"
@@ -63,13 +63,13 @@
                 "type": "C30J",
                 "description": "Lockheed Martin HC-130J Hercules",
                 "operator": "Unknown",
-                "altitude": 375,
-                "ground_speed": 126.2,
-                "track": 228.86,
+                "altitude": "ground",
+                "ground_speed": 68.5,
+                "track": 202.19,
                 "squawk": "1200",
                 "rssi": null,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-10-04T02:56:02.296179+00:00",
+                "last_seen": "2025-10-04T02:57:02.218360+00:00",
                 "nav_qnh": null,
                 "nav_altitude_mcp": null,
                 "category": "A3"
@@ -77,8 +77,35 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -152.458693,
-                    57.770874
+                    -152.489038,
+                    57.744804
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "hex": "AE5DEF",
+                "flight": "C2016   ",
+                "type": "C30J",
+                "description": "LOCKHEED MARTIN C-130J Super Hercules",
+                "operator": "Unknown",
+                "altitude": 24000,
+                "ground_speed": 283.3,
+                "track": 264.53,
+                "squawk": "7223",
+                "rssi": null,
+                "api_source": "https://opendata.adsb.fi/api/v2/hex/",
+                "last_seen": "2025-10-04T02:57:02.217462+00:00",
+                "nav_qnh": null,
+                "nav_altitude_mcp": null,
+                "category": "A3"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -107.46451,
+                    44.968065
                 ]
             }
         }
