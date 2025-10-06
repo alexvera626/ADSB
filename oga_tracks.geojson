@@ -4,6 +4,39 @@
         {
             "type": "Feature",
             "properties": {
+                "hex": "A1F894",
+                "flight": "N226PD  ",
+                "type": "AS50",
+                "description": "AEROSPATIALE AS-350 Ecureuil",
+                "operator": "ANAHEIM POLICE DEPT",
+                "altitude": "ground",
+                "ground_speed": 0.0,
+                "track": 0.0,
+                "squawk": "4301",
+                "rssi": -26.5,
+                "api_source": "https://opendata.adsb.fi/api/v2/hex/",
+                "last_seen": "2025-10-06T09:29:02.636906+00:00",
+                "nav_qnh": 0.0,
+                "nav_altitude_mcp": 0,
+                "category": "A7"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -117.983208,
+                        33.872269
+                    ],
+                    [
+                        -117.983201,
+                        33.872269
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
                 "hex": "A7FB70",
                 "flight": "REH80   ",
                 "type": "AS50",
@@ -23,14 +56,6 @@
             "geometry": {
                 "type": "LineString",
                 "coordinates": [
-                    [
-                        -122.711434,
-                        38.443085
-                    ],
-                    [
-                        -122.711434,
-                        38.443085
-                    ],
                     [
                         -122.7276,
                         38.460435
@@ -324,14 +349,6 @@
             "geometry": {
                 "type": "LineString",
                 "coordinates": [
-                    [
-                        -118.22909,
-                        34.057114
-                    ],
-                    [
-                        -118.22909,
-                        34.057114
-                    ],
                     [
                         -118.228626,
                         34.056826
@@ -711,39 +728,6 @@
                     [
                         -118.229734,
                         34.054516
-                    ]
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "hex": "A1F894",
-                "flight": "N226PD  ",
-                "type": "AS50",
-                "description": "AEROSPATIALE AS-350 Ecureuil",
-                "operator": "ANAHEIM POLICE DEPT",
-                "altitude": "ground",
-                "ground_speed": 0.0,
-                "track": 0.0,
-                "squawk": "4301",
-                "rssi": -26.5,
-                "api_source": "https://opendata.adsb.fi/api/v2/hex/",
-                "last_seen": "2025-10-06T09:29:02.636906+00:00",
-                "nav_qnh": 0.0,
-                "nav_altitude_mcp": 0,
-                "category": "A7"
-            },
-            "geometry": {
-                "type": "LineString",
-                "coordinates": [
-                    [
-                        -117.983208,
-                        33.872269
-                    ],
-                    [
-                        -117.983201,
-                        33.872269
                     ]
                 ]
             }
