@@ -24,14 +24,6 @@
                 "type": "LineString",
                 "coordinates": [
                     [
-                        -118.343213,
-                        34.044388
-                    ],
-                    [
-                        -118.343213,
-                        34.044388
-                    ],
-                    [
                         -118.316308,
                         34.042328
                     ],
@@ -2003,13 +1995,13 @@
                 "type": "H500",
                 "description": "HUGHES 500",
                 "operator": "CITY OF HUNTINGTON BEACH",
-                "altitude": 1650,
-                "ground_speed": 108.1,
-                "track": 11.21,
+                "altitude": 1725,
+                "ground_speed": 116.7,
+                "track": 17.97,
                 "squawk": "1200",
-                "rssi": -4.0,
+                "rssi": -4.9,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-10-06T19:44:02.566196+00:00",
+                "last_seen": "2025-10-06T19:45:02.230941+00:00",
                 "nav_qnh": 1011.2,
                 "nav_altitude_mcp": 0,
                 "category": "A7"
@@ -2424,6 +2416,14 @@
                     [
                         -117.198907,
                         33.029755
+                    ],
+                    [
+                        -117.19077,
+                        33.059351
+                    ],
+                    [
+                        -117.190546,
+                        33.059863
                     ]
                 ]
             }
@@ -3021,13 +3021,13 @@
                 "type": "SHIP",
                 "description": "Zeppelin LZ N07-101",
                 "operator": "GOODYEAR TIRE & RUBBER CO",
-                "altitude": 150,
-                "ground_speed": 3.7,
-                "track": 236.31,
+                "altitude": 125,
+                "ground_speed": 2.1,
+                "track": 270.0,
                 "squawk": "1200",
-                "rssi": -2.9,
+                "rssi": -9.9,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-10-06T19:44:02.566208+00:00",
+                "last_seen": "2025-10-06T19:45:02.230962+00:00",
                 "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
                 "category": "B2"
@@ -3954,6 +3954,14 @@
                     [
                         -118.275333,
                         33.855469
+                    ],
+                    [
+                        -118.275776,
+                        33.855441
+                    ],
+                    [
+                        -118.275782,
+                        33.855423
                     ]
                 ]
             }
@@ -5513,13 +5521,13 @@
                 "type": "AS50",
                 "description": "AEROSPATIALE AS-350 Ecureuil",
                 "operator": "LAPD AIR SUPPORT DIVISION",
-                "altitude": 475,
-                "ground_speed": 57.8,
-                "track": 59.89,
+                "altitude": 575,
+                "ground_speed": 65.8,
+                "track": 16.78,
                 "squawk": "1200",
-                "rssi": -3.8,
+                "rssi": -3.0,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-10-06T19:44:02.565973+00:00",
+                "last_seen": "2025-10-06T19:45:02.230800+00:00",
                 "nav_qnh": 1011.2,
                 "nav_altitude_mcp": 4000,
                 "category": "A7"
@@ -6142,6 +6150,14 @@
                     [
                         -118.461316,
                         33.972061
+                    ],
+                    [
+                        -118.462029,
+                        33.980759
+                    ],
+                    [
+                        -118.461933,
+                        33.981033
                     ]
                 ]
             }
@@ -6575,20 +6591,20 @@
             "type": "Feature",
             "properties": {
                 "hex": "A1F894",
-                "flight": "Unknown",
+                "flight": "N226PD  ",
                 "type": "AS50",
                 "description": "AEROSPATIALE AS-350 Ecureuil",
                 "operator": "ANAHEIM POLICE DEPT",
-                "altitude": "ground",
-                "ground_speed": 0.5,
-                "track": 0.0,
-                "squawk": "N/A",
-                "rssi": -30.1,
-                "api_source": "https://opendata.adsb.fi/api/v2/hex/",
-                "last_seen": "2025-10-06T19:44:02.564679+00:00",
-                "nav_qnh": 0.0,
+                "altitude": 400,
+                "ground_speed": 49.8,
+                "track": 259.59,
+                "squawk": "4301",
+                "rssi": -6.6,
+                "api_source": "https://api.airplanes.live/v2/hex/",
+                "last_seen": "2025-10-06T19:45:02.230952+00:00",
+                "nav_qnh": 1013.6,
                 "nav_altitude_mcp": 0,
-                "category": "Unknown"
+                "category": "A7"
             },
             "geometry": {
                 "type": "LineString",
@@ -6596,6 +6612,55 @@
                     [
                         -117.982779,
                         33.872502
+                    ],
+                    [
+                        -117.987957,
+                        33.870524
+                    ],
+                    [
+                        -117.988186,
+                        33.870477
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "hex": "A38627",
+                "flight": "REH92   ",
+                "type": "EC35",
+                "description": "AIRBUS HELICOPTERS EC-135/635",
+                "operator": "REACH AIR MEDICAL SERVICES LLC",
+                "altitude": "ground",
+                "ground_speed": 0.0,
+                "track": 0.0,
+                "squawk": "N/A",
+                "rssi": -3.8,
+                "api_source": "https://api.airplanes.live/v2/hex/",
+                "last_seen": "2025-10-06T19:45:02.231044+00:00",
+                "nav_qnh": 0.0,
+                "nav_altitude_mcp": 0,
+                "category": "A7"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -121.393555,
+                        38.656559
+                    ],
+                    [
+                        -121.393555,
+                        38.656559
+                    ],
+                    [
+                        -121.393555,
+                        38.656571
+                    ],
+                    [
+                        -121.393555,
+                        38.656571
                     ]
                 ]
             }
