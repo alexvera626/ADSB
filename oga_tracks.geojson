@@ -24,14 +24,6 @@
                 "type": "LineString",
                 "coordinates": [
                     [
-                        -80.406901,
-                        25.470474
-                    ],
-                    [
-                        -80.409767,
-                        25.468264
-                    ],
-                    [
                         -80.403748,
                         25.472809
                     ]
@@ -61,10 +53,6 @@
                 "type": "LineString",
                 "coordinates": [
                     [
-                        -118.229685,
-                        34.054812
-                    ],
-                    [
                         -118.229656,
                         34.054801
                     ]
@@ -79,13 +67,13 @@
                 "type": "AS50",
                 "description": "AEROSPATIALE AS-350 Ecureuil",
                 "operator": "LAPD AIR SUPPORT DIVISION",
-                "altitude": 650,
-                "ground_speed": 45.3,
-                "track": 120.53,
+                "altitude": 600,
+                "ground_speed": 44.4,
+                "track": 82.23,
                 "squawk": "1200",
-                "rssi": -5.7,
+                "rssi": -7.6,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-10-07T19:08:02.276372+00:00",
+                "last_seen": "2025-10-07T19:09:02.721553+00:00",
                 "nav_qnh": 1012.8,
                 "nav_altitude_mcp": 4000,
                 "category": "A7"
@@ -988,6 +976,14 @@
                     [
                         -118.310452,
                         34.042115
+                    ],
+                    [
+                        -118.309422,
+                        34.041184
+                    ],
+                    [
+                        -118.309422,
+                        34.041184
                     ]
                 ]
             }
@@ -1666,13 +1662,13 @@
                 "type": "SHIP",
                 "description": "Zeppelin LZ N07-101",
                 "operator": "GOODYEAR TIRE & RUBBER CO",
-                "altitude": 1175,
-                "ground_speed": 30.4,
-                "track": 313.67,
+                "altitude": 1200,
+                "ground_speed": 30.0,
+                "track": 306.87,
                 "squawk": "1200",
-                "rssi": -5.2,
+                "rssi": -3.0,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-10-07T19:08:02.280055+00:00",
+                "last_seen": "2025-10-07T19:09:02.722235+00:00",
                 "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
                 "category": "B2"
@@ -2375,6 +2371,14 @@
                     [
                         -118.311431,
                         33.707016
+                    ],
+                    [
+                        -118.318998,
+                        33.713104
+                    ],
+                    [
+                        -118.318998,
+                        33.713104
                     ]
                 ]
             }
@@ -2388,12 +2392,12 @@
                 "description": "Unknown",
                 "operator": "Unknown",
                 "altitude": 300,
-                "ground_speed": 70.7,
-                "track": 236.53,
-                "squawk": "1200",
-                "rssi": -28.0,
+                "ground_speed": 74.5,
+                "track": 191.61,
+                "squawk": "N/A",
+                "rssi": -27.5,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-10-07T19:08:02.280094+00:00",
+                "last_seen": "2025-10-07T19:09:02.722258+00:00",
                 "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
                 "category": "A7"
@@ -2828,6 +2832,14 @@
                     [
                         -117.438354,
                         32.6082
+                    ],
+                    [
+                        -117.446155,
+                        32.588928
+                    ],
+                    [
+                        -117.443848,
+                        32.606049
                     ]
                 ]
             }
@@ -2836,7 +2848,7 @@
             "type": "Feature",
             "properties": {
                 "hex": "A1D898",
-                "flight": "TROY327 ",
+                "flight": "Unknown",
                 "type": "B350",
                 "description": "BEECHCRAFT Super King Air 350",
                 "operator": "DEPARTMENT OF HOMELAND SECURITY",
@@ -2844,9 +2856,9 @@
                 "ground_speed": 0.0,
                 "track": 0.0,
                 "squawk": "4401",
-                "rssi": -13.8,
+                "rssi": -15.0,
                 "api_source": "https://opendata.adsb.fi/api/v2/hex/",
-                "last_seen": "2025-10-07T19:08:02.275652+00:00",
+                "last_seen": "2025-10-07T19:09:02.720454+00:00",
                 "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
                 "category": "A2"
@@ -2965,6 +2977,72 @@
                     [
                         -117.209057,
                         32.701783
+                    ],
+                    [
+                        -117.209056,
+                        32.701778
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "hex": "A1511C",
+                "flight": "N184SD  ",
+                "type": "AS50",
+                "description": "AEROSPATIALE AS-350 Ecureuil",
+                "operator": "COUNTY OF ORANGE - AIR SUPPORT",
+                "altitude": "ground",
+                "ground_speed": 0.0,
+                "track": 0.0,
+                "squawk": "4204",
+                "rssi": -25.1,
+                "api_source": "https://opendata.adsb.fi/api/v2/hex/",
+                "last_seen": "2025-10-07T19:09:02.719717+00:00",
+                "nav_qnh": 0.0,
+                "nav_altitude_mcp": 0,
+                "category": "A7"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -117.871726,
+                        33.675213
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "hex": "A3524F",
+                "flight": "N313DP  ",
+                "type": "B407",
+                "description": "BELL 407",
+                "operator": "SAN DIEGO COUNTY SHERIFF DEPT",
+                "altitude": 775,
+                "ground_speed": 75.9,
+                "track": 167.06,
+                "squawk": "4266",
+                "rssi": -17.4,
+                "api_source": "https://api.airplanes.live/v2/hex/",
+                "last_seen": "2025-10-07T19:09:02.722225+00:00",
+                "nav_qnh": 1012.0,
+                "nav_altitude_mcp": 0,
+                "category": "A7"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -116.968359,
+                        32.822342
+                    ],
+                    [
+                        -116.968359,
+                        32.822342
                     ]
                 ]
             }
