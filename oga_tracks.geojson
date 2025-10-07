@@ -24,10 +24,6 @@
                 "type": "LineString",
                 "coordinates": [
                     [
-                        -117.628727,
-                        34.078938
-                    ],
-                    [
                         -117.606344,
                         34.072906
                     ],
@@ -422,13 +418,13 @@
                 "type": "SHIP",
                 "description": "Zeppelin LZ N07-101",
                 "operator": "GOODYEAR TIRE & RUBBER CO",
-                "altitude": 275,
-                "ground_speed": 10.1,
-                "track": 275.71,
+                "altitude": 150,
+                "ground_speed": 5.1,
+                "track": 281.31,
                 "squawk": "1200",
-                "rssi": -3.0,
+                "rssi": -4.8,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-10-07T20:55:02.055325+00:00",
+                "last_seen": "2025-10-07T20:56:02.103860+00:00",
                 "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
                 "category": "B2"
@@ -1987,6 +1983,14 @@
                     [
                         -118.272699,
                         33.854965
+                    ],
+                    [
+                        -118.275146,
+                        33.855115
+                    ],
+                    [
+                        -118.275204,
+                        33.855115
                     ]
                 ]
             }
@@ -3245,16 +3249,16 @@
             "properties": {
                 "hex": "AE277C",
                 "flight": "GH72    ",
-                "type": "Unknown",
+                "type": "H60",
                 "description": "Unknown",
                 "operator": "Unknown",
                 "altitude": "ground",
-                "ground_speed": 1.6,
-                "track": 135.0,
+                "ground_speed": 0.0,
+                "track": 0.0,
                 "squawk": "1200",
-                "rssi": -15.8,
-                "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-10-07T20:55:02.055361+00:00",
+                "rssi": -14.1,
+                "api_source": "https://opendata.adsb.fi/api/v2/hex/",
+                "last_seen": "2025-10-07T20:56:02.102894+00:00",
                 "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
                 "category": "A7"
@@ -4425,6 +4429,10 @@
                     [
                         -117.207861,
                         32.692486
+                    ],
+                    [
+                        -117.207852,
+                        32.692484
                     ]
                 ]
             }
@@ -5166,13 +5174,13 @@
                 "type": "AS50",
                 "description": "AEROSPATIALE AS-350 Ecureuil",
                 "operator": "COUNTY OF ORANGE - AIR SUPPORT",
-                "altitude": 1100,
-                "ground_speed": 116.9,
-                "track": 282.85,
+                "altitude": 900,
+                "ground_speed": 117.4,
+                "track": 285.81,
                 "squawk": "4204",
-                "rssi": -4.2,
+                "rssi": -30.1,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-10-07T20:55:02.055312+00:00",
+                "last_seen": "2025-10-07T20:56:02.103847+00:00",
                 "nav_qnh": 1011.2,
                 "nav_altitude_mcp": 0,
                 "category": "A7"
@@ -6031,6 +6039,14 @@
                     [
                         -117.779211,
                         33.647873
+                    ],
+                    [
+                        -117.817211,
+                        33.654708
+                    ],
+                    [
+                        -117.817841,
+                        33.654847
                     ]
                 ]
             }
@@ -6588,13 +6604,13 @@
                 "type": "H60",
                 "description": "Sikorsky MH-60S Seahawk",
                 "operator": "Unknown",
-                "altitude": 1000,
-                "ground_speed": 83.2,
-                "track": 4.13,
+                "altitude": 1025,
+                "ground_speed": 110.4,
+                "track": 4.68,
                 "squawk": "1200",
-                "rssi": -20.1,
+                "rssi": -15.9,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-10-07T20:55:02.055300+00:00",
+                "last_seen": "2025-10-07T20:56:02.103820+00:00",
                 "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
                 "category": "A7"
@@ -6905,6 +6921,14 @@
                     [
                         -117.432642,
                         32.795929
+                    ],
+                    [
+                        -117.430115,
+                        32.82193
+                    ],
+                    [
+                        -117.430115,
+                        32.82193
                     ]
                 ]
             }
@@ -7127,6 +7151,39 @@
                     [
                         -118.407097,
                         34.258723
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "hex": "A054AD",
+                "flight": "N120LA  ",
+                "type": "B412",
+                "description": "BELL 412",
+                "operator": "COUNTY OF LOS ANGELES FIRE DEPT",
+                "altitude": 1300,
+                "ground_speed": 61.1,
+                "track": 320.31,
+                "squawk": "1206",
+                "rssi": -2.4,
+                "api_source": "https://api.airplanes.live/v2/hex/",
+                "last_seen": "2025-10-07T20:56:02.103834+00:00",
+                "nav_qnh": 0.0,
+                "nav_altitude_mcp": 0,
+                "category": "A7"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -118.409214,
+                        34.261842
+                    ],
+                    [
+                        -118.409523,
+                        34.262146
                     ]
                 ]
             }
