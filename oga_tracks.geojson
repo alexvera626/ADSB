@@ -9,13 +9,13 @@
                 "type": "AS50",
                 "description": "AEROSPATIALE AS-350 Ecureuil",
                 "operator": "COUNTY OF ORANGE - AIR SUPPORT",
-                "altitude": 900,
-                "ground_speed": 117.4,
-                "track": 135.69,
+                "altitude": 1000,
+                "ground_speed": 106.1,
+                "track": 177.3,
                 "squawk": "4204",
-                "rssi": -9.5,
+                "rssi": -15.1,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-10-08T16:50:02.043919+00:00",
+                "last_seen": "2025-10-08T16:51:02.410109+00:00",
                 "nav_qnh": 1013.6,
                 "nav_altitude_mcp": 0,
                 "category": "A7"
@@ -318,6 +318,14 @@
                     [
                         -117.814748,
                         33.776321
+                    ],
+                    [
+                        -117.794625,
+                        33.751694
+                    ],
+                    [
+                        -117.794552,
+                        33.750652
                     ]
                 ]
             }
@@ -699,13 +707,13 @@
                 "type": "Q9",
                 "description": "GENERAL ATOMICS MQ-9 Reaper",
                 "operator": "GENERAL ATOMICS AERONAUTICAL SYSTEMS INC",
-                "altitude": 10425,
-                "ground_speed": 203.0,
-                "track": 50.0,
+                "altitude": 10450,
+                "ground_speed": 131.0,
+                "track": 141.0,
                 "squawk": "2472",
-                "rssi": -6.9,
+                "rssi": -5.7,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-10-08T16:50:02.043904+00:00",
+                "last_seen": "2025-10-08T16:51:02.410098+00:00",
                 "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
                 "category": "Unknown"
@@ -736,6 +744,10 @@
                     [
                         -117.73814,
                         34.737512
+                    ],
+                    [
+                        -117.696054,
+                        34.729282
                     ]
                 ]
             }
@@ -752,9 +764,9 @@
                 "ground_speed": 0.7,
                 "track": 0.0,
                 "squawk": "N/A",
-                "rssi": -16.8,
+                "rssi": -18.0,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-10-08T16:50:02.043932+00:00",
+                "last_seen": "2025-10-08T16:51:02.410120+00:00",
                 "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
                 "category": "B2"
@@ -809,6 +821,14 @@
                     [
                         -118.276062,
                         33.855286
+                    ],
+                    [
+                        -118.276062,
+                        33.855301
+                    ],
+                    [
+                        -118.276062,
+                        33.855286
                     ]
                 ]
             }
@@ -817,17 +837,17 @@
             "type": "Feature",
             "properties": {
                 "hex": "AE4B62",
-                "flight": "WLFPK22 ",
+                "flight": "Unknown",
                 "type": "H53S",
                 "description": "Sikorsky CH-53E Super Stallion",
                 "operator": "United States Marine Corps",
-                "altitude": 950,
-                "ground_speed": 114.0,
-                "track": 59.0,
+                "altitude": 750,
+                "ground_speed": 167.0,
+                "track": 246.0,
                 "squawk": "1200",
-                "rssi": -8.5,
+                "rssi": -8.7,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-10-08T16:50:02.043883+00:00",
+                "last_seen": "2025-10-08T16:51:02.410087+00:00",
                 "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
                 "category": "Unknown"
@@ -850,6 +870,43 @@
                     [
                         -117.119813,
                         32.867901
+                    ],
+                    [
+                        -117.149188,
+                        32.868148
+                    ],
+                    [
+                        -117.147861,
+                        32.868672
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "hex": "AE4FDA",
+                "flight": "ST711   ",
+                "type": "H60",
+                "description": "SIKORSKY UH-60 Black Hawk",
+                "operator": "Unknown",
+                "altitude": "ground",
+                "ground_speed": 5.2,
+                "track": 120.94,
+                "squawk": "1200",
+                "rssi": -14.3,
+                "api_source": "https://opendata.adsb.fi/api/v2/hex/",
+                "last_seen": "2025-10-08T16:51:02.406617+00:00",
+                "nav_qnh": 0.0,
+                "nav_altitude_mcp": 0,
+                "category": "A7"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -117.205005,
+                        32.698872
                     ]
                 ]
             }
