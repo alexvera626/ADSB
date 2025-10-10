@@ -24,14 +24,6 @@
                 "type": "LineString",
                 "coordinates": [
                     [
-                        -118.257465,
-                        34.091088
-                    ],
-                    [
-                        -118.257408,
-                        34.090902
-                    ],
-                    [
                         -118.255883,
                         34.089523
                     ],
@@ -742,32 +734,24 @@
             "type": "Feature",
             "properties": {
                 "hex": "AE2BF0",
-                "flight": "ST703   ",
+                "flight": "Unknown",
                 "type": "H60",
                 "description": "SIKORSKY UH-60 Black Hawk",
                 "operator": "Unknown",
-                "altitude": "ground",
-                "ground_speed": 3.8,
+                "altitude": 0,
+                "ground_speed": 0.0,
                 "track": 0.0,
-                "squawk": "N/A",
-                "rssi": -26.9,
-                "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-10-10T03:14:02.005597+00:00",
+                "squawk": "1200",
+                "rssi": -21.8,
+                "api_source": "https://opendata.adsb.fi/api/v2/hex/",
+                "last_seen": "2025-10-10T03:57:02.548814+00:00",
                 "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
-                "category": "A7"
+                "category": "Unknown"
             },
             "geometry": {
                 "type": "LineString",
                 "coordinates": [
-                    [
-                        -117.263694,
-                        32.609424
-                    ],
-                    [
-                        -117.263892,
-                        32.609436
-                    ],
                     [
                         -117.275353,
                         32.618269
@@ -2177,14 +2161,6 @@
             "geometry": {
                 "type": "LineString",
                 "coordinates": [
-                    [
-                        -121.803467,
-                        39.151363
-                    ],
-                    [
-                        -121.803467,
-                        39.151363
-                    ],
                     [
                         -121.766789,
                         39.149689
@@ -4413,13 +4389,13 @@
                 "type": "AS50",
                 "description": "AEROSPATIALE AS-350 Ecureuil",
                 "operator": "TINY BUBBLES AVIATION INC",
-                "altitude": 1750,
-                "ground_speed": 85.1,
-                "track": 87.31,
+                "altitude": 1625,
+                "ground_speed": 65.3,
+                "track": 78.52,
                 "squawk": "1200",
-                "rssi": -11.3,
+                "rssi": -10.7,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-10-10T03:56:02.792250+00:00",
+                "last_seen": "2025-10-10T03:57:02.551453+00:00",
                 "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
                 "category": "A7"
@@ -5250,6 +5226,14 @@
                     [
                         -118.120684,
                         34.073685
+                    ],
+                    [
+                        -118.094115,
+                        34.074371
+                    ],
+                    [
+                        -118.094115,
+                        34.074371
                     ]
                 ]
             }
@@ -5844,6 +5828,35 @@
                     [
                         -117.983193,
                         33.872269
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "hex": "AE4F8A",
+                "flight": "Unknown",
+                "type": "H60",
+                "description": "Sikorsky MH-60R Seahawk",
+                "operator": "United States Navy",
+                "altitude": 975,
+                "ground_speed": 0.0,
+                "track": 0.0,
+                "squawk": "N/A",
+                "rssi": -49.5,
+                "api_source": "https://api.airplanes.live/v2/hex/",
+                "last_seen": "2025-10-10T03:57:02.551441+00:00",
+                "nav_qnh": 0.0,
+                "nav_altitude_mcp": 0,
+                "category": "Unknown"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -118.00459,
+                        32.724564
                     ]
                 ]
             }
