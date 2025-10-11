@@ -9,13 +9,13 @@
                 "type": "AS50",
                 "description": "AEROSPATIALE AS-350 Ecureuil",
                 "operator": "LAPD AIR SUPPORT DIVISION",
-                "altitude": 1275,
-                "ground_speed": 111.2,
-                "track": 86.91,
+                "altitude": 1225,
+                "ground_speed": 109.0,
+                "track": 90.53,
                 "squawk": "0262",
-                "rssi": -18.8,
+                "rssi": -12.7,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-10-11T16:33:02.688711+00:00",
+                "last_seen": "2025-10-11T16:34:03.036000+00:00",
                 "nav_qnh": 1009.6,
                 "nav_altitude_mcp": 10016,
                 "category": "A7"
@@ -490,6 +490,14 @@
                     [
                         -118.547573,
                         34.16776
+                    ],
+                    [
+                        -118.510867,
+                        34.169037
+                    ],
+                    [
+                        -118.510867,
+                        34.169037
                     ]
                 ]
             }
@@ -775,13 +783,13 @@
                 "type": "AS50",
                 "description": "AEROSPATIALE AS-350 Ecureuil",
                 "operator": "LAPD AIR SUPPORT DIVISION",
-                "altitude": 0,
+                "altitude": 875,
                 "ground_speed": 0.0,
                 "track": 0.0,
-                "squawk": "1200",
-                "rssi": -24.8,
+                "squawk": "N/A",
+                "rssi": -23.8,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-10-11T16:33:02.687661+00:00",
+                "last_seen": "2025-10-11T16:34:03.035854+00:00",
                 "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
                 "category": "A7"
@@ -1009,6 +1017,39 @@
                     [
                         -117.606885,
                         33.464722
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "hex": "A31AA0",
+                "flight": "N3A     ",
+                "type": "SHIP",
+                "description": "Zeppelin LZ N07-101",
+                "operator": "GOODYEAR TIRE & RUBBER CO",
+                "altitude": 125,
+                "ground_speed": 0.7,
+                "track": 0.0,
+                "squawk": "N/A",
+                "rssi": -10.5,
+                "api_source": "https://api.airplanes.live/v2/hex/",
+                "last_seen": "2025-10-11T16:34:03.035976+00:00",
+                "nav_qnh": 0.0,
+                "nav_altitude_mcp": 0,
+                "category": "B2"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -118.276454,
+                        33.855423
+                    ],
+                    [
+                        -118.276398,
+                        33.855423
                     ]
                 ]
             }
