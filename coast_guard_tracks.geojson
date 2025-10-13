@@ -3409,9 +3409,9 @@
                 "ground_speed": 318.1,
                 "track": 190.32,
                 "squawk": "1525",
-                "rssi": -20.2,
+                "rssi": -27.9,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-10-13T18:04:02.995593+00:00",
+                "last_seen": "2025-10-13T18:05:02.205373+00:00",
                 "nav_qnh": 1012.8,
                 "nav_altitude_mcp": 20992,
                 "category": "A3"
@@ -4490,6 +4490,14 @@
                     [
                         -86.476135,
                         19.044707
+                    ],
+                    [
+                        -86.492271,
+                        18.960571
+                    ],
+                    [
+                        -86.492465,
+                        18.959144
                     ]
                 ]
             }
@@ -4679,13 +4687,13 @@
                 "type": "H60",
                 "description": "Sikorsky MH-60T Jayhawk",
                 "operator": "Unknown",
-                "altitude": 475,
-                "ground_speed": 126.0,
-                "track": 91.36,
+                "altitude": 450,
+                "ground_speed": 142.6,
+                "track": 18.82,
                 "squawk": "1200",
-                "rssi": -9.1,
+                "rssi": -28.9,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-10-13T18:04:02.995614+00:00",
+                "last_seen": "2025-10-13T18:05:02.205395+00:00",
                 "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
                 "category": "A7"
@@ -4936,6 +4944,14 @@
                     [
                         -117.178363,
                         32.539261
+                    ],
+                    [
+                        -117.142284,
+                        32.54993
+                    ],
+                    [
+                        -117.141724,
+                        32.551233
                     ]
                 ]
             }
@@ -5429,19 +5445,19 @@
             "type": "Feature",
             "properties": {
                 "hex": "AE2730",
-                "flight": "C2705   ",
+                "flight": "Unknown",
                 "type": "C27J",
                 "description": "Alenia HC-27J Spartan",
                 "operator": "Unknown",
                 "altitude": 22000,
-                "ground_speed": 285.7,
-                "track": 300.96,
+                "ground_speed": 285.0,
+                "track": 301.1,
                 "squawk": "3727",
-                "rssi": -14.7,
-                "api_source": "https://opendata.adsb.fi/api/v2/hex/",
-                "last_seen": "2025-10-13T18:04:02.992869+00:00",
-                "nav_qnh": 1013.6,
-                "nav_altitude_mcp": 22016,
+                "rssi": -49.5,
+                "api_source": "https://api.airplanes.live/v2/hex/",
+                "last_seen": "2025-10-13T18:05:02.205384+00:00",
+                "nav_qnh": 0.0,
+                "nav_altitude_mcp": 0,
                 "category": "A2"
             },
             "geometry": {
@@ -5914,6 +5930,14 @@
                     [
                         -86.773951,
                         28.486106
+                    ],
+                    [
+                        -86.839001,
+                        28.520508
+                    ],
+                    [
+                        -86.839005,
+                        28.520508
                     ]
                 ]
             }
@@ -5963,6 +5987,35 @@
                     [
                         -123.586899,
                         48.068539
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "hex": "AE10C1",
+                "flight": "C101    ",
+                "type": "GLF5",
+                "description": "Gulfstream Aerospace C-37A",
+                "operator": "Unknown",
+                "altitude": 7375,
+                "ground_speed": 272.5,
+                "track": 239.58,
+                "squawk": "N/A",
+                "rssi": -22.4,
+                "api_source": "https://opendata.adsb.fi/api/v2/hex/",
+                "last_seen": "2025-10-13T18:05:02.198902+00:00",
+                "nav_qnh": 1024.0,
+                "nav_altitude_mcp": 16800,
+                "category": "A3"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -97.308722,
+                        44.892138
                     ]
                 ]
             }
