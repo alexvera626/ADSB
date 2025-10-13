@@ -24,14 +24,6 @@
                 "type": "LineString",
                 "coordinates": [
                     [
-                        -82.837913,
-                        42.607132
-                    ],
-                    [
-                        -82.837913,
-                        42.607132
-                    ],
-                    [
                         -82.838383,
                         42.610706
                     ],
@@ -125,14 +117,6 @@
                 "type": "LineString",
                 "coordinates": [
                     [
-                        -81.144086,
-                        31.997772
-                    ],
-                    [
-                        -81.143562,
-                        31.997774
-                    ],
-                    [
                         -81.138922,
                         32.013382
                     ],
@@ -181,14 +165,6 @@
             "geometry": {
                 "type": "LineString",
                 "coordinates": [
-                    [
-                        -116.915955,
-                        32.59021
-                    ],
-                    [
-                        -116.921097,
-                        32.596809
-                    ],
                     [
                         -116.910626,
                         32.579865
@@ -478,14 +454,6 @@
             "geometry": {
                 "type": "LineString",
                 "coordinates": [
-                    [
-                        -80.019872,
-                        25.942026
-                    ],
-                    [
-                        -80.019872,
-                        25.942026
-                    ],
                     [
                         -80.001543,
                         25.949009
@@ -1056,14 +1024,6 @@
                 "type": "LineString",
                 "coordinates": [
                     [
-                        -92.64032,
-                        30.389747
-                    ],
-                    [
-                        -92.620825,
-                        30.396695
-                    ],
-                    [
                         -92.510425,
                         30.463862
                     ],
@@ -1236,10 +1196,6 @@
             "geometry": {
                 "type": "LineString",
                 "coordinates": [
-                    [
-                        -86.152431,
-                        44.562424
-                    ],
                     [
                         -86.169657,
                         44.587314
@@ -4842,12 +4798,12 @@
                 "description": "Alenia HC-27J Spartan",
                 "operator": "Unknown",
                 "altitude": 22000,
-                "ground_speed": 289.7,
-                "track": 299.57,
+                "ground_speed": 290.6,
+                "track": 299.48,
                 "squawk": "3727",
-                "rssi": -17.9,
+                "rssi": -11.9,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-10-13T18:37:02.546077+00:00",
+                "last_seen": "2025-10-13T18:38:02.828045+00:00",
                 "nav_qnh": 1013.6,
                 "nav_altitude_mcp": 22016,
                 "category": "A2"
@@ -5574,6 +5530,14 @@
                     [
                         -89.344321,
                         29.802091
+                    ],
+                    [
+                        -89.42478,
+                        29.841893
+                    ],
+                    [
+                        -89.42478,
+                        29.841893
                     ]
                 ]
             }
@@ -5631,17 +5595,17 @@
             "type": "Feature",
             "properties": {
                 "hex": "AE10C1",
-                "flight": "Unknown",
+                "flight": "C101    ",
                 "type": "GLF5",
                 "description": "Gulfstream Aerospace C-37A",
                 "operator": "Unknown",
                 "altitude": 43000,
-                "ground_speed": 339.1,
-                "track": 255.31,
-                "squawk": "N/A",
-                "rssi": -30.3,
-                "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-10-13T18:37:02.546066+00:00",
+                "ground_speed": 351.7,
+                "track": 255.17,
+                "squawk": "1634",
+                "rssi": -7.1,
+                "api_source": "https://opendata.adsb.fi/api/v2/hex/",
+                "last_seen": "2025-10-13T18:38:02.824279+00:00",
                 "nav_qnh": 1013.6,
                 "nav_altitude_mcp": 43008,
                 "category": "A3"
@@ -5872,6 +5836,10 @@
                     [
                         -101.372942,
                         44.113506
+                    ],
+                    [
+                        -101.575797,
+                        44.0751
                     ]
                 ]
             }
@@ -6049,6 +6017,35 @@
                     [
                         -152.597609,
                         57.641968
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "hex": "AE57D4",
+                "flight": "Unknown",
+                "type": "C30J",
+                "description": "Lockheed Martin HC-130J Hercules",
+                "operator": "Unknown",
+                "altitude": "ground",
+                "ground_speed": 6.8,
+                "track": 67.5,
+                "squawk": "N/A",
+                "rssi": -20.0,
+                "api_source": "https://api.airplanes.live/v2/hex/",
+                "last_seen": "2025-10-13T18:38:02.828058+00:00",
+                "nav_qnh": 0.0,
+                "nav_altitude_mcp": 0,
+                "category": "Unknown"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -152.503967,
+                        57.735563
                     ]
                 ]
             }
