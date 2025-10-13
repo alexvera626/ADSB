@@ -197,18 +197,47 @@
         {
             "type": "Feature",
             "properties": {
+                "hex": "A1ED21",
+                "flight": "N223LA  ",
+                "type": "AS50",
+                "description": "AEROSPATIALE AS-350 Ecureuil",
+                "operator": "LAPD AIR SUPPORT DIVISION",
+                "altitude": "ground",
+                "ground_speed": 0.1,
+                "track": 135.0,
+                "squawk": "1200",
+                "rssi": -26.4,
+                "api_source": "https://api.airplanes.live/v2/hex/",
+                "last_seen": "2025-10-13T15:24:02.409080+00:00",
+                "nav_qnh": 0.0,
+                "nav_altitude_mcp": 0,
+                "category": "A7"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -118.229454,
+                        34.055077
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
                 "hex": "A3524F",
                 "flight": "N313DP  ",
                 "type": "B407",
                 "description": "BELL 407",
                 "operator": "SAN DIEGO COUNTY SHERIFF DEPT",
-                "altitude": 1450,
-                "ground_speed": 57.1,
-                "track": 175.99,
+                "altitude": 1575,
+                "ground_speed": 69.3,
+                "track": 316.17,
                 "squawk": "4266",
-                "rssi": -24.9,
+                "rssi": -31.5,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-10-13T15:23:03.136607+00:00",
+                "last_seen": "2025-10-13T15:24:02.409068+00:00",
                 "nav_qnh": 1008.8,
                 "nav_altitude_mcp": 0,
                 "category": "A7"
@@ -415,6 +444,14 @@
                     [
                         -117.034663,
                         32.931612
+                    ],
+                    [
+                        -117.017959,
+                        32.935801
+                    ],
+                    [
+                        -117.018402,
+                        32.936325
                     ]
                 ]
             }
