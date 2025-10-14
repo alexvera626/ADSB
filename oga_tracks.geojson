@@ -67,12 +67,12 @@
                 "description": "GENERAL ATOMICS MQ-9 Reaper",
                 "operator": "GENERAL ATOMICS AERONAUTICAL SYSTEMS INC",
                 "altitude": 2525,
-                "ground_speed": 115.5,
-                "track": 163.92,
+                "ground_speed": 120.0,
+                "track": 208.92,
                 "squawk": "1220",
-                "rssi": -22.0,
+                "rssi": -23.9,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-10-14T15:11:02.287892+00:00",
+                "last_seen": "2025-10-14T15:12:02.245641+00:00",
                 "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
                 "category": "B6"
@@ -303,6 +303,10 @@
                     [
                         -97.443375,
                         48.002655
+                    ],
+                    [
+                        -97.459305,
+                        47.974274
                     ]
                 ]
             }
@@ -316,12 +320,12 @@
                 "description": "BEECH 300 Super King Air",
                 "operator": "DEPARTMENT OF HOMELAND SECURITY",
                 "altitude": 10400,
-                "ground_speed": 206.5,
-                "track": 169.4,
+                "ground_speed": 210.7,
+                "track": 155.02,
                 "squawk": "4406",
-                "rssi": -9.4,
+                "rssi": -18.3,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-10-14T15:11:02.287914+00:00",
+                "last_seen": "2025-10-14T15:12:02.245681+00:00",
                 "nav_qnh": 1017.6,
                 "nav_altitude_mcp": 10496,
                 "category": "A2"
@@ -776,6 +780,14 @@
                     [
                         -81.132202,
                         29.947495
+                    ],
+                    [
+                        -81.105405,
+                        29.896042
+                    ],
+                    [
+                        -81.104736,
+                        29.894683
                     ]
                 ]
             }
@@ -913,6 +925,35 @@
                     [
                         -89.454584,
                         30.385437
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "hex": "AAFD01",
+                "flight": "Unknown",
+                "type": "DH8C",
+                "description": "DE HAVILLAND DHC-8-300 Dash 8",
+                "operator": "US DEPARTMENT OF HOMELAND SECURITY",
+                "altitude": 875,
+                "ground_speed": 156.7,
+                "track": 146.72,
+                "squawk": "N/A",
+                "rssi": -24.8,
+                "api_source": "https://api.airplanes.live/v2/hex/",
+                "last_seen": "2025-10-14T15:12:02.240615+00:00",
+                "nav_qnh": 0.0,
+                "nav_altitude_mcp": 0,
+                "category": "Unknown"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -95.400824,
+                        30.337628
                     ]
                 ]
             }
