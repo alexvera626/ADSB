@@ -24,14 +24,6 @@
                 "type": "LineString",
                 "coordinates": [
                     [
-                        -123.419357,
-                        48.116673
-                    ],
-                    [
-                        -123.449776,
-                        48.127567
-                    ],
-                    [
                         -123.45668,
                         48.140461
                     ],
@@ -466,12 +458,12 @@
                 "description": "Lockheed Martin HC-130J Hercules",
                 "operator": "Unknown",
                 "altitude": "ground",
-                "ground_speed": 9.2,
+                "ground_speed": 10.8,
                 "track": 0.0,
-                "squawk": "7362",
-                "rssi": -19.7,
+                "squawk": "N/A",
+                "rssi": -21.3,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-10-14T00:58:02.051088+00:00",
+                "last_seen": "2025-10-14T00:59:02.677610+00:00",
                 "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
                 "category": "A3"
@@ -1550,6 +1542,14 @@
                     [
                         -82.692032,
                         27.909737
+                    ],
+                    [
+                        -82.693755,
+                        27.909565
+                    ],
+                    [
+                        -82.693755,
+                        27.909565
                     ]
                 ]
             }
@@ -3069,6 +3069,35 @@
                     [
                         -152.494698,
                         57.739846
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "hex": "AE2691",
+                "flight": "C6559   ",
+                "type": "AS65",
+                "description": "Eurocopter MH-65D Dolphin",
+                "operator": "Unknown",
+                "altitude": "ground",
+                "ground_speed": 4.2,
+                "track": 0.0,
+                "squawk": "1200",
+                "rssi": -15.2,
+                "api_source": "https://opendata.adsb.fi/api/v2/hex/",
+                "last_seen": "2025-10-14T00:59:02.675050+00:00",
+                "nav_qnh": 0.0,
+                "nav_altitude_mcp": 0,
+                "category": "A7"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -122.389273,
+                        37.632626
                     ]
                 ]
             }
