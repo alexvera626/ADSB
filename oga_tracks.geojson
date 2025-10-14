@@ -9,13 +9,13 @@
                 "type": "A139",
                 "description": "AGUSTA AW-139",
                 "operator": "LOS ANGELES FIRE DEPARTMENT",
-                "altitude": 825,
-                "ground_speed": 1.2,
-                "track": 90.0,
+                "altitude": 850,
+                "ground_speed": 0.7,
+                "track": 0.0,
                 "squawk": "0257",
-                "rssi": -8.3,
+                "rssi": -8.2,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-10-14T17:12:02.592856+00:00",
+                "last_seen": "2025-10-14T17:13:02.403834+00:00",
                 "nav_qnh": 1012.0,
                 "nav_altitude_mcp": 736,
                 "category": "A7"
@@ -126,6 +126,14 @@
                     [
                         -118.49905,
                         34.178979
+                    ],
+                    [
+                        -118.498984,
+                        34.179153
+                    ],
+                    [
+                        -118.498984,
+                        34.179153
                     ]
                 ]
             }
@@ -138,13 +146,13 @@
                 "type": "Q9",
                 "description": "GENERAL ATOMICS MQ-9 Reaper",
                 "operator": "GENERAL ATOMICS AERONAUTICAL SYSTEMS INC",
-                "altitude": 0,
-                "ground_speed": 111.7,
-                "track": 218.82,
+                "altitude": 1275,
+                "ground_speed": 123.2,
+                "track": 349.24,
                 "squawk": "N/A",
-                "rssi": -24.3,
+                "rssi": -21.1,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-10-14T17:12:02.592882+00:00",
+                "last_seen": "2025-10-14T17:13:02.403868+00:00",
                 "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
                 "category": "B6"
@@ -555,6 +563,10 @@
                     [
                         -97.410278,
                         47.954544
+                    ],
+                    [
+                        -97.400771,
+                        47.959977
                     ]
                 ]
             }
@@ -1732,9 +1744,9 @@
                 "ground_speed": 264.2,
                 "track": 125.92,
                 "squawk": "7462",
-                "rssi": -16.0,
+                "rssi": -11.0,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-10-14T17:12:02.592905+00:00",
+                "last_seen": "2025-10-14T17:13:02.404335+00:00",
                 "nav_qnh": 1013.6,
                 "nav_altitude_mcp": 20992,
                 "category": "A2"
@@ -2601,6 +2613,14 @@
                     [
                         -82.956866,
                         28.813019
+                    ],
+                    [
+                        -82.89137,
+                        28.771088
+                    ],
+                    [
+                        -82.888991,
+                        28.769562
                     ]
                 ]
             }
@@ -3278,17 +3298,17 @@
             "type": "Feature",
             "properties": {
                 "hex": "A4DC0C",
-                "flight": "N412FA  ",
+                "flight": "Unknown",
                 "type": "H60",
                 "description": "Sikorsky S-70M Firehawk",
                 "operator": "ORANGE COUNTY FIRE AUTHORITY",
                 "altitude": "ground",
                 "ground_speed": 0.0,
                 "track": 0.0,
-                "squawk": "4202",
+                "squawk": "N/A",
                 "rssi": -33.3,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-10-14T17:09:02.067014+00:00",
+                "last_seen": "2025-10-14T17:13:02.403855+00:00",
                 "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
                 "category": "A7"
@@ -3659,13 +3679,13 @@
                 "type": "B407",
                 "description": "BELL 407",
                 "operator": "SAN DIEGO COUNTY SHERIFF DEPT",
-                "altitude": 1475,
-                "ground_speed": 83.0,
-                "track": 192.53,
+                "altitude": 1300,
+                "ground_speed": 76.6,
+                "track": 213.27,
                 "squawk": "4266",
-                "rssi": -13.5,
+                "rssi": -17.9,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-10-14T17:12:02.592869+00:00",
+                "last_seen": "2025-10-14T17:13:02.403845+00:00",
                 "nav_qnh": 1013.6,
                 "nav_altitude_mcp": 0,
                 "category": "A7"
@@ -3712,6 +3732,43 @@
                     [
                         -116.965102,
                         32.739956
+                    ],
+                    [
+                        -116.975391,
+                        32.720764
+                    ],
+                    [
+                        -116.97592,
+                        32.720171
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "hex": "A07232",
+                "flight": "0000000 ",
+                "type": "Unknown",
+                "description": "Unknown",
+                "operator": "DEPARTMENT OF HOMELAND SECURITY",
+                "altitude": 1225,
+                "ground_speed": 148.2,
+                "track": 338.63,
+                "squawk": "1200",
+                "rssi": -19.7,
+                "api_source": "https://api.airplanes.live/v2/hex/",
+                "last_seen": "2025-10-14T17:13:02.403887+00:00",
+                "nav_qnh": 1018.4,
+                "nav_altitude_mcp": 6496,
+                "category": "A2"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -122.541287,
+                        48.820775
                     ]
                 ]
             }
