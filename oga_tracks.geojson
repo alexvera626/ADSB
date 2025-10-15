@@ -638,20 +638,20 @@
             "type": "Feature",
             "properties": {
                 "hex": "A0CF44",
-                "flight": "Unknown",
+                "flight": "        ",
                 "type": "B350",
                 "description": "BEECHCRAFT Super King Air 350",
                 "operator": "DEPARTMENT OF HOMELAND SECURITY",
-                "altitude": "ground",
-                "ground_speed": 11.2,
-                "track": 50.62,
-                "squawk": "N/A",
-                "rssi": -28.1,
-                "api_source": "https://opendata.adsb.fi/api/v2/hex/",
-                "last_seen": "2025-10-15T14:15:02.242388+00:00",
-                "nav_qnh": 0.0,
-                "nav_altitude_mcp": 0,
-                "category": "Unknown"
+                "altitude": 1350,
+                "ground_speed": 174.9,
+                "track": 185.91,
+                "squawk": "4406",
+                "rssi": -9.4,
+                "api_source": "https://api.airplanes.live/v2/hex/",
+                "last_seen": "2025-10-15T14:18:02.840066+00:00",
+                "nav_qnh": 1016.8,
+                "nav_altitude_mcp": 7488,
+                "category": "A2"
             },
             "geometry": {
                 "type": "LineString",
@@ -1031,6 +1031,43 @@
                     [
                         -81.657861,
                         30.231675
+                    ],
+                    [
+                        -81.721909,
+                        30.215881
+                    ],
+                    [
+                        -81.721909,
+                        30.215424
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "hex": "A15C88",
+                "flight": "Unknown",
+                "type": "B350",
+                "description": "BEECHCRAFT Super King Air 350",
+                "operator": "DEPARTMENT OF HOMELAND SECURITY",
+                "altitude": 400,
+                "ground_speed": 183.0,
+                "track": 139.3,
+                "squawk": "4407",
+                "rssi": -49.5,
+                "api_source": "https://api.airplanes.live/v2/hex/",
+                "last_seen": "2025-10-15T14:18:02.840079+00:00",
+                "nav_qnh": 0.0,
+                "nav_altitude_mcp": 0,
+                "category": "Unknown"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -97.257301,
+                        27.659637
                     ]
                 ]
             }
