@@ -9,13 +9,13 @@
                 "type": "AS50",
                 "description": "AEROSPATIALE AS-350 Ecureuil",
                 "operator": "COUNTY OF LOS ANGELES",
-                "altitude": 3850,
-                "ground_speed": 99.9,
-                "track": 119.39,
+                "altitude": 4375,
+                "ground_speed": 86.7,
+                "track": 161.15,
                 "squawk": "1206",
-                "rssi": -6.1,
+                "rssi": -5.0,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-10-15T03:13:03.280797+00:00",
+                "last_seen": "2025-10-15T03:14:02.827728+00:00",
                 "nav_qnh": 1012.8,
                 "nav_altitude_mcp": 0,
                 "category": "A7"
@@ -23,14 +23,6 @@
             "geometry": {
                 "type": "LineString",
                 "coordinates": [
-                    [
-                        -118.286819,
-                        34.651391
-                    ],
-                    [
-                        -118.286819,
-                        34.651391
-                    ],
                     [
                         -118.255995,
                         34.642227
@@ -1022,6 +1014,14 @@
                     [
                         -118.15426,
                         34.582535
+                    ],
+                    [
+                        -118.135643,
+                        34.563966
+                    ],
+                    [
+                        -118.135643,
+                        34.563966
                     ]
                 ]
             }
@@ -1048,14 +1048,6 @@
             "geometry": {
                 "type": "LineString",
                 "coordinates": [
-                    [
-                        -117.733192,
-                        33.483535
-                    ],
-                    [
-                        -117.733192,
-                        33.483535
-                    ],
                     [
                         -117.740314,
                         33.491913
@@ -1217,14 +1209,6 @@
             "geometry": {
                 "type": "LineString",
                 "coordinates": [
-                    [
-                        -79.934875,
-                        32.76297
-                    ],
-                    [
-                        -79.934875,
-                        32.76297
-                    ],
                     [
                         -79.95921,
                         32.794876
@@ -1735,10 +1719,6 @@
                 "type": "LineString",
                 "coordinates": [
                     [
-                        -97.432744,
-                        47.996614
-                    ],
-                    [
                         -97.431084,
                         47.965622
                     ],
@@ -1781,87 +1761,6 @@
                     [
                         -97.429223,
                         47.938331
-                    ]
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "hex": "A7FB70",
-                "flight": "REH80   ",
-                "type": "AS50",
-                "description": "AEROSPATIALE AS-350 Ecureuil",
-                "operator": "REACH AIR MEDICAL SERVICES LLC",
-                "altitude": 250,
-                "ground_speed": 36.1,
-                "track": 223.88,
-                "squawk": "N/A",
-                "rssi": -21.1,
-                "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-10-15T01:08:03.279079+00:00",
-                "nav_qnh": 0.0,
-                "nav_altitude_mcp": 0,
-                "category": "A7"
-            },
-            "geometry": {
-                "type": "LineString",
-                "coordinates": [
-                    [
-                        -122.730899,
-                        39.03035
-                    ],
-                    [
-                        -122.443881,
-                        39.077362
-                    ],
-                    [
-                        -122.400592,
-                        39.091095
-                    ],
-                    [
-                        -122.352295,
-                        39.108302
-                    ],
-                    [
-                        -122.334495,
-                        39.116272
-                    ],
-                    [
-                        -122.308164,
-                        39.116547
-                    ],
-                    [
-                        -122.273682,
-                        39.124363
-                    ],
-                    [
-                        -122.264282,
-                        39.127575
-                    ],
-                    [
-                        -122.241291,
-                        39.136826
-                    ],
-                    [
-                        -122.224243,
-                        39.144892
-                    ],
-                    [
-                        -122.184389,
-                        39.159897
-                    ],
-                    [
-                        -122.144165,
-                        39.172777
-                    ],
-                    [
-                        -122.129822,
-                        39.164072
-                    ],
-                    [
-                        -122.131042,
-                        39.162955
                     ]
                 ]
             }
@@ -2334,18 +2233,95 @@
         {
             "type": "Feature",
             "properties": {
+                "hex": "A7FB70",
+                "flight": "REH80   ",
+                "type": "AS50",
+                "description": "AEROSPATIALE AS-350 Ecureuil",
+                "operator": "REACH AIR MEDICAL SERVICES LLC",
+                "altitude": 250,
+                "ground_speed": 36.1,
+                "track": 223.88,
+                "squawk": "N/A",
+                "rssi": -21.1,
+                "api_source": "https://api.airplanes.live/v2/hex/",
+                "last_seen": "2025-10-15T01:08:03.279079+00:00",
+                "nav_qnh": 0.0,
+                "nav_altitude_mcp": 0,
+                "category": "A7"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -122.443881,
+                        39.077362
+                    ],
+                    [
+                        -122.400592,
+                        39.091095
+                    ],
+                    [
+                        -122.352295,
+                        39.108302
+                    ],
+                    [
+                        -122.334495,
+                        39.116272
+                    ],
+                    [
+                        -122.308164,
+                        39.116547
+                    ],
+                    [
+                        -122.273682,
+                        39.124363
+                    ],
+                    [
+                        -122.264282,
+                        39.127575
+                    ],
+                    [
+                        -122.241291,
+                        39.136826
+                    ],
+                    [
+                        -122.224243,
+                        39.144892
+                    ],
+                    [
+                        -122.184389,
+                        39.159897
+                    ],
+                    [
+                        -122.144165,
+                        39.172777
+                    ],
+                    [
+                        -122.129822,
+                        39.164072
+                    ],
+                    [
+                        -122.131042,
+                        39.162955
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
                 "hex": "A1ED21",
                 "flight": "N223LA  ",
                 "type": "AS50",
                 "description": "AEROSPATIALE AS-350 Ecureuil",
                 "operator": "LAPD AIR SUPPORT DIVISION",
-                "altitude": 850,
-                "ground_speed": 51.9,
-                "track": 39.52,
+                "altitude": 825,
+                "ground_speed": 49.0,
+                "track": 90.0,
                 "squawk": "1200",
-                "rssi": -9.3,
+                "rssi": -4.2,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-10-15T03:13:03.280822+00:00",
+                "last_seen": "2025-10-15T03:14:02.828356+00:00",
                 "nav_qnh": 1014.4,
                 "nav_altitude_mcp": 10016,
                 "category": "A7"
@@ -3216,6 +3192,14 @@
                     [
                         -118.348904,
                         34.093043
+                    ],
+                    [
+                        -118.334427,
+                        34.099328
+                    ],
+                    [
+                        -118.334427,
+                        34.099328
                     ]
                 ]
             }
@@ -3228,13 +3212,13 @@
                 "type": "AS50",
                 "description": "AEROSPATIALE AS-350 Ecureuil",
                 "operator": "ANAHEIM POLICE DEPT",
-                "altitude": 75,
-                "ground_speed": 33.0,
-                "track": 268.26,
+                "altitude": 262,
+                "ground_speed": 1.0,
+                "track": 275.3,
                 "squawk": "4301",
-                "rssi": -7.8,
+                "rssi": -49.5,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-10-15T03:13:03.280774+00:00",
+                "last_seen": "2025-10-15T03:14:02.827709+00:00",
                 "nav_qnh": 1013.6,
                 "nav_altitude_mcp": 0,
                 "category": "A7"
@@ -3953,6 +3937,14 @@
                     [
                         -117.980118,
                         33.8722
+                    ],
+                    [
+                        -117.983201,
+                        33.872269
+                    ],
+                    [
+                        -117.983185,
+                        33.872257
                     ]
                 ]
             }
