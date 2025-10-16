@@ -2233,15 +2233,15 @@
                 "type": "AS50",
                 "description": "AEROSPATIALE AS-350 Ecureuil",
                 "operator": "LAPD AIR SUPPORT DIVISION",
-                "altitude": "ground",
-                "ground_speed": 3.2,
-                "track": 0.0,
+                "altitude": 675,
+                "ground_speed": 66.7,
+                "track": 336.12,
                 "squawk": "1200",
-                "rssi": -12.8,
+                "rssi": -6.1,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-10-16T15:31:02.541823+00:00",
-                "nav_qnh": 0.0,
-                "nav_altitude_mcp": 0,
+                "last_seen": "2025-10-16T15:32:02.542120+00:00",
+                "nav_qnh": 1014.4,
+                "nav_altitude_mcp": 4000,
                 "category": "A7"
             },
             "geometry": {
@@ -2254,6 +2254,47 @@
                     [
                         -118.229931,
                         34.054104
+                    ],
+                    [
+                        -118.229027,
+                        34.059014
+                    ],
+                    [
+                        -118.229027,
+                        34.059014
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "hex": "A15C88",
+                "flight": "TROY317 ",
+                "type": "B350",
+                "description": "BEECHCRAFT Super King Air 350",
+                "operator": "DEPARTMENT OF HOMELAND SECURITY",
+                "altitude": 7500,
+                "ground_speed": 154.4,
+                "track": 155.92,
+                "squawk": "N/A",
+                "rssi": -33.2,
+                "api_source": "https://api.airplanes.live/v2/hex/",
+                "last_seen": "2025-10-16T15:32:02.544214+00:00",
+                "nav_qnh": 1012.8,
+                "nav_altitude_mcp": 7488,
+                "category": "A2"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -97.167491,
+                        26.574326
+                    ],
+                    [
+                        -97.167491,
+                        26.574326
                     ]
                 ]
             }
