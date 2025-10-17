@@ -966,13 +966,13 @@
                 "type": "AS50",
                 "description": "AEROSPATIALE AS-350 Ecureuil",
                 "operator": "TINY BUBBLES AVIATION INC",
-                "altitude": 1025,
-                "ground_speed": 66.7,
-                "track": 139.86,
+                "altitude": "ground",
+                "ground_speed": 11.8,
+                "track": 143.44,
                 "squawk": "1200",
-                "rssi": -12.8,
+                "rssi": -12.1,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-10-17T14:44:03.154406+00:00",
+                "last_seen": "2025-10-17T14:45:02.085676+00:00",
                 "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
                 "category": "A7"
@@ -1915,6 +1915,14 @@
                     [
                         -118.416882,
                         34.26254
+                    ],
+                    [
+                        -118.410504,
+                        34.257111
+                    ],
+                    [
+                        -118.410168,
+                        34.25679
                     ]
                 ]
             }
@@ -1927,13 +1935,13 @@
                 "type": "AS50",
                 "description": "AEROSPATIALE AS-350 Ecureuil",
                 "operator": "LAPD AIR SUPPORT DIVISION",
-                "altitude": 450,
-                "ground_speed": 37.2,
-                "track": 23.81,
+                "altitude": 1075,
+                "ground_speed": 104.5,
+                "track": 284.97,
                 "squawk": "1200",
-                "rssi": -8.0,
+                "rssi": -8.2,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-10-17T14:44:03.154196+00:00",
+                "last_seen": "2025-10-17T14:45:02.083380+00:00",
                 "nav_qnh": 1013.6,
                 "nav_altitude_mcp": 1312,
                 "category": "A7"
@@ -1956,6 +1964,43 @@
                     [
                         -118.228978,
                         34.055145
+                    ],
+                    [
+                        -118.248882,
+                        34.065019
+                    ],
+                    [
+                        -118.249569,
+                        34.065159
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "hex": "A15C88",
+                "flight": "TROY317 ",
+                "type": "B350",
+                "description": "BEECHCRAFT Super King Air 350",
+                "operator": "DEPARTMENT OF HOMELAND SECURITY",
+                "altitude": 625,
+                "ground_speed": 149.0,
+                "track": 141.3,
+                "squawk": "N/A",
+                "rssi": -49.5,
+                "api_source": "https://api.airplanes.live/v2/hex/",
+                "last_seen": "2025-10-17T14:45:02.085642+00:00",
+                "nav_qnh": 0.0,
+                "nav_altitude_mcp": 0,
+                "category": "Unknown"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -97.2659,
+                        27.66449
                     ]
                 ]
             }
