@@ -2380,13 +2380,13 @@
                 "type": "AS50",
                 "description": "AEROSPATIALE AS-350 Ecureuil",
                 "operator": "LAPD AIR SUPPORT DIVISION",
-                "altitude": 875,
-                "ground_speed": 77.0,
-                "track": 89.26,
+                "altitude": 975,
+                "ground_speed": 92.4,
+                "track": 103.13,
                 "squawk": "1200",
-                "rssi": -7.4,
+                "rssi": -8.9,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-10-19T20:09:02.876614+00:00",
+                "last_seen": "2025-10-19T20:10:02.144486+00:00",
                 "nav_qnh": 1016.0,
                 "nav_altitude_mcp": 10016,
                 "category": "A7"
@@ -3521,6 +3521,14 @@
                     [
                         -118.373108,
                         34.081731
+                    ],
+                    [
+                        -118.347759,
+                        34.078985
+                    ],
+                    [
+                        -118.347305,
+                        34.078903
                     ]
                 ]
             }
@@ -4527,13 +4535,13 @@
                 "type": "SHIP",
                 "description": "Zeppelin LZ N07-101",
                 "operator": "GOODYEAR TIRE & RUBBER CO",
-                "altitude": 1925,
+                "altitude": 1950,
                 "ground_speed": 33.8,
                 "track": 251.03,
                 "squawk": "0275",
-                "rssi": -9.7,
+                "rssi": -5.7,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-10-19T20:09:02.876694+00:00",
+                "last_seen": "2025-10-19T20:10:02.144560+00:00",
                 "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
                 "category": "B2"
@@ -5412,6 +5420,14 @@
                     [
                         -118.330364,
                         33.988254
+                    ],
+                    [
+                        -118.340803,
+                        33.985153
+                    ],
+                    [
+                        -118.340893,
+                        33.985089
                     ]
                 ]
             }
@@ -5424,13 +5440,13 @@
                 "type": "H60",
                 "description": "Sikorsky S-70M Firehawk",
                 "operator": "ORANGE COUNTY FIRE AUTHORITY",
-                "altitude": 1000,
-                "ground_speed": 0.7,
-                "track": 0.0,
+                "altitude": "ground",
+                "ground_speed": 0.0,
+                "track": 258.75,
                 "squawk": "N/A",
-                "rssi": 0.0,
+                "rssi": -5.0,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-10-19T20:09:02.876673+00:00",
+                "last_seen": "2025-10-19T20:10:02.144547+00:00",
                 "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
                 "category": "A7"
@@ -6085,6 +6101,14 @@
                     [
                         -117.732463,
                         33.780716
+                    ],
+                    [
+                        -117.732491,
+                        33.78075
+                    ],
+                    [
+                        -117.732491,
+                        33.78075
                     ]
                 ]
             }
@@ -6214,6 +6238,39 @@
                     [
                         -118.494987,
                         34.216686
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "hex": "A1D898",
+                "flight": "TROY327 ",
+                "type": "B350",
+                "description": "BEECHCRAFT Super King Air 350",
+                "operator": "DEPARTMENT OF HOMELAND SECURITY",
+                "altitude": "ground",
+                "ground_speed": 0.0,
+                "track": 0.0,
+                "squawk": "4402",
+                "rssi": -24.0,
+                "api_source": "https://api.airplanes.live/v2/hex/",
+                "last_seen": "2025-10-19T20:10:02.144572+00:00",
+                "nav_qnh": 0.0,
+                "nav_altitude_mcp": 0,
+                "category": "A2"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -117.209491,
+                        32.701737
+                    ],
+                    [
+                        -117.209491,
+                        32.701737
                     ]
                 ]
             }
