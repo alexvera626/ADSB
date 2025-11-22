@@ -31,18 +31,18 @@
         {
             "type": "Feature",
             "properties": {
-                "hex": "AE26B7",
-                "flight": "C6597   ",
+                "hex": "AE2672",
+                "flight": "Unknown",
                 "type": "AS65",
                 "description": "Eurocopter MH-65D Dolphin",
                 "operator": "Unknown",
-                "altitude": "ground",
-                "ground_speed": 10.2,
-                "track": 90.0,
-                "squawk": "1200",
+                "altitude": 400,
+                "ground_speed": 131.1,
+                "track": 248.52,
+                "squawk": "N/A",
                 "rssi": null,
-                "api_source": "https://opendata.adsb.fi/api/v2/hex/",
-                "last_seen": "2025-11-22T05:02:02.623231+00:00",
+                "api_source": "https://api.airplanes.live/v2/hex/",
+                "last_seen": "2025-11-22T05:04:02.091131+00:00",
                 "nav_qnh": null,
                 "nav_altitude_mcp": null,
                 "category": "A7"
@@ -50,8 +50,35 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -117.425701,
-                    32.629569
+                    -157.751287,
+                    21.46431
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "hex": "AE26B7",
+                "flight": "C6597   ",
+                "type": "AS65",
+                "description": "Eurocopter MH-65D Dolphin",
+                "operator": "Unknown",
+                "altitude": "ground",
+                "ground_speed": 10.2,
+                "track": 0.0,
+                "squawk": "1200",
+                "rssi": null,
+                "api_source": "https://opendata.adsb.fi/api/v2/hex/",
+                "last_seen": "2025-11-22T05:04:02.091023+00:00",
+                "nav_qnh": null,
+                "nav_altitude_mcp": null,
+                "category": "A7"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -117.419197,
+                    32.629532
                 ]
             }
         },
