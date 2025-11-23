@@ -58,18 +58,18 @@
         {
             "type": "Feature",
             "properties": {
-                "hex": "AE6CEB",
-                "flight": "C6056   ",
+                "hex": "AE4DFF",
+                "flight": "C6047   ",
                 "type": "H60",
                 "description": "Sikorsky MH-60T Jayhawk",
-                "operator": "United States Coast Guard",
-                "altitude": 125,
-                "ground_speed": 7.6,
-                "track": 293.2,
+                "operator": "Unknown",
+                "altitude": 2100,
+                "ground_speed": 93.2,
+                "track": 234.61,
                 "squawk": "1200",
                 "rssi": null,
-                "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-11-23T00:34:02.791471+00:00",
+                "api_source": "https://opendata.adsb.fi/api/v2/hex/",
+                "last_seen": "2025-11-23T00:36:02.239657+00:00",
                 "nav_qnh": null,
                 "nav_altitude_mcp": null,
                 "category": "A7"
@@ -77,8 +77,35 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -117.184492,
-                    32.639589
+                    -85.839062,
+                    44.625068
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "hex": "AE6CEB",
+                "flight": "C6056   ",
+                "type": "H60",
+                "description": "Sikorsky MH-60T Jayhawk",
+                "operator": "United States Coast Guard",
+                "altitude": 125,
+                "ground_speed": 6.1,
+                "track": 99.46,
+                "squawk": "1200",
+                "rssi": null,
+                "api_source": "https://api.airplanes.live/v2/hex/",
+                "last_seen": "2025-11-23T00:36:02.242726+00:00",
+                "nav_qnh": null,
+                "nav_altitude_mcp": null,
+                "category": "A7"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -117.184351,
+                    32.63942
                 ]
             }
         }
