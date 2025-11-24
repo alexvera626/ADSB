@@ -24,14 +24,6 @@
                 "type": "LineString",
                 "coordinates": [
                     [
-                        -117.598553,
-                        32.652298
-                    ],
-                    [
-                        -117.598553,
-                        32.652298
-                    ],
-                    [
                         -117.678241,
                         32.681808
                     ],
@@ -353,10 +345,6 @@
                 "type": "LineString",
                 "coordinates": [
                     [
-                        -80.084279,
-                        25.606339
-                    ],
-                    [
                         -80.080693,
                         25.692459
                     ],
@@ -654,14 +642,6 @@
                 "type": "LineString",
                 "coordinates": [
                     [
-                        -88.485987,
-                        30.596924
-                    ],
-                    [
-                        -88.485987,
-                        30.596924
-                    ],
-                    [
                         -88.381714,
                         30.586403
                     ],
@@ -755,6 +735,43 @@
         {
             "type": "Feature",
             "properties": {
+                "hex": "AE2126",
+                "flight": "Unknown",
+                "type": "C27J",
+                "description": "ALENIA C-27J Spartan",
+                "operator": "Unknown",
+                "altitude": 0,
+                "ground_speed": 110.3,
+                "track": 135.73,
+                "squawk": "N/A",
+                "rssi": -32.6,
+                "api_source": "https://opendata.adsb.fi/api/v2/hex/",
+                "last_seen": "2025-11-23T23:36:02.525275+00:00",
+                "nav_qnh": 0.0,
+                "nav_altitude_mcp": 0,
+                "category": "A2"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -97.602646,
+                        26.395203
+                    ],
+                    [
+                        -97.70002,
+                        26.33638
+                    ],
+                    [
+                        -97.710281,
+                        26.277237
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
                 "hex": "AE2730",
                 "flight": "Unknown",
                 "type": "C27J",
@@ -774,14 +791,6 @@
             "geometry": {
                 "type": "LineString",
                 "coordinates": [
-                    [
-                        -93.116272,
-                        31.468568
-                    ],
-                    [
-                        -93.116272,
-                        31.468568
-                    ],
                     [
                         -93.606155,
                         31.753654
@@ -1057,47 +1066,6 @@
                     [
                         -93.847467,
                         31.960556
-                    ]
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "hex": "AE2126",
-                "flight": "Unknown",
-                "type": "C27J",
-                "description": "ALENIA C-27J Spartan",
-                "operator": "Unknown",
-                "altitude": 0,
-                "ground_speed": 110.3,
-                "track": 135.73,
-                "squawk": "N/A",
-                "rssi": -32.6,
-                "api_source": "https://opendata.adsb.fi/api/v2/hex/",
-                "last_seen": "2025-11-23T23:36:02.525275+00:00",
-                "nav_qnh": 0.0,
-                "nav_altitude_mcp": 0,
-                "category": "A2"
-            },
-            "geometry": {
-                "type": "LineString",
-                "coordinates": [
-                    [
-                        -97.496513,
-                        26.475174
-                    ],
-                    [
-                        -97.602646,
-                        26.395203
-                    ],
-                    [
-                        -97.70002,
-                        26.33638
-                    ],
-                    [
-                        -97.710281,
-                        26.277237
                     ]
                 ]
             }
