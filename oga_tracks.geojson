@@ -334,13 +334,13 @@
                 "type": "AS50",
                 "description": "AEROSPATIALE AS-350 Ecureuil",
                 "operator": "ORANGE COUNTY SHERIFF'S DEPARTMENT",
-                "altitude": "ground",
+                "altitude": -175,
                 "ground_speed": 0.0,
                 "track": 0.0,
-                "squawk": "N/A",
-                "rssi": -32.5,
+                "squawk": "4204",
+                "rssi": -32.3,
                 "api_source": "https://opendata.adsb.fi/api/v2/hex/",
-                "last_seen": "2025-11-24T19:00:02.987137+00:00",
+                "last_seen": "2025-11-24T19:02:02.115039+00:00",
                 "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
                 "category": "A7"
@@ -874,13 +874,13 @@
                 "type": "H60",
                 "description": "SIKORSKY UH-60 Black Hawk",
                 "operator": "Unknown",
-                "altitude": 287,
-                "ground_speed": 2.0,
-                "track": 296.6,
+                "altitude": 350,
+                "ground_speed": 84.8,
+                "track": 109.29,
                 "squawk": "1200",
-                "rssi": -30.1,
+                "rssi": -28.7,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-11-24T19:00:02.987595+00:00",
+                "last_seen": "2025-11-24T19:02:02.115559+00:00",
                 "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
                 "category": "A7"
@@ -1075,6 +1075,14 @@
                     [
                         -117.117508,
                         32.563244
+                    ],
+                    [
+                        -117.123267,
+                        32.553864
+                    ],
+                    [
+                        -117.123267,
+                        32.553864
                     ]
                 ]
             }
@@ -1510,6 +1518,39 @@
                     [
                         -117.870827,
                         33.674911
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "hex": "A0F740",
+                "flight": "        ",
+                "type": "B350",
+                "description": "BEECHCRAFT Super King Air 350",
+                "operator": "DEPARTMENT OF HOMELAND SECURITY",
+                "altitude": 4225,
+                "ground_speed": 178.5,
+                "track": 241.57,
+                "squawk": "7653",
+                "rssi": -7.0,
+                "api_source": "https://api.airplanes.live/v2/hex/",
+                "last_seen": "2025-11-24T19:02:02.115574+00:00",
+                "nav_qnh": 1020.8,
+                "nav_altitude_mcp": 14016,
+                "category": "A2"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -117.090323,
+                        32.595877
+                    ],
+                    [
+                        -117.091296,
+                        32.595428
                     ]
                 ]
             }
