@@ -13,20 +13,16 @@
                 "ground_speed": 0.0,
                 "track": 0.0,
                 "squawk": "N/A",
-                "rssi": -33.6,
+                "rssi": -33.8,
                 "api_source": "https://opendata.adsb.fi/api/v2/hex/",
-                "last_seen": "2025-11-24T21:12:02.294304+00:00",
+                "last_seen": "2025-11-24T21:14:02.231493+00:00",
                 "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
-                "category": "A7"
+                "category": "Unknown"
             },
             "geometry": {
                 "type": "LineString",
                 "coordinates": [
-                    [
-                        -117.870829,
-                        33.677364
-                    ],
                     [
                         -117.870801,
                         33.677341
@@ -70,131 +66,6 @@
                     [
                         -117.870698,
                         33.67739
-                    ]
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "hex": "A30D54",
-                "flight": "N296S   ",
-                "type": "AS50",
-                "description": "AEROSPATIALE AS-350 Ecureuil",
-                "operator": "DEPARTMENT OF HOMELAND SECURITY",
-                "altitude": 1225,
-                "ground_speed": 88.6,
-                "track": 343.61,
-                "squawk": "4402",
-                "rssi": -11.7,
-                "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-11-24T18:58:02.337662+00:00",
-                "nav_qnh": 0.0,
-                "nav_altitude_mcp": 0,
-                "category": "A7"
-            },
-            "geometry": {
-                "type": "LineString",
-                "coordinates": [
-                    [
-                        -78.894695,
-                        42.751007
-                    ],
-                    [
-                        -78.894695,
-                        42.751007
-                    ],
-                    [
-                        -78.518725,
-                        42.232819
-                    ],
-                    [
-                        -78.461859,
-                        42.212082
-                    ],
-                    [
-                        -78.401371,
-                        42.203339
-                    ],
-                    [
-                        -78.300996,
-                        42.219772
-                    ],
-                    [
-                        -78.344719,
-                        42.360069
-                    ],
-                    [
-                        -78.38694,
-                        42.413139
-                    ],
-                    [
-                        -78.426964,
-                        42.46376
-                    ],
-                    [
-                        -78.466915,
-                        42.517273
-                    ],
-                    [
-                        -78.477066,
-                        42.576537
-                    ],
-                    [
-                        -78.481834,
-                        42.637665
-                    ],
-                    [
-                        -78.486903,
-                        42.697573
-                    ],
-                    [
-                        -78.486828,
-                        42.697357
-                    ],
-                    [
-                        -78.497059,
-                        42.75432
-                    ],
-                    [
-                        -78.504992,
-                        42.805344
-                    ],
-                    [
-                        -78.505242,
-                        42.799805
-                    ],
-                    [
-                        -78.508366,
-                        42.854081
-                    ],
-                    [
-                        -78.508039,
-                        42.8518
-                    ],
-                    [
-                        -78.521012,
-                        42.903442
-                    ],
-                    [
-                        -78.520595,
-                        42.901611
-                    ],
-                    [
-                        -78.527658,
-                        42.951934
-                    ],
-                    [
-                        -78.527658,
-                        42.951934
-                    ],
-                    [
-                        -78.538906,
-                        42.976607
-                    ],
-                    [
-                        -78.538906,
-                        42.976607
                     ]
                 ]
             }
@@ -348,13 +219,13 @@
                 "type": "H60",
                 "description": "SIKORSKY UH-60 Black Hawk",
                 "operator": "Unknown",
-                "altitude": 275,
-                "ground_speed": 125.7,
-                "track": 338.54,
+                "altitude": 250,
+                "ground_speed": 129.2,
+                "track": 3.55,
                 "squawk": "1200",
-                "rssi": -9.5,
+                "rssi": -22.0,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-11-24T21:12:02.294655+00:00",
+                "last_seen": "2025-11-24T21:14:02.231991+00:00",
                 "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
                 "category": "A7"
@@ -901,6 +772,14 @@
                     [
                         -117.356069,
                         32.666543
+                    ],
+                    [
+                        -117.345475,
+                        32.736232
+                    ],
+                    [
+                        -117.345419,
+                        32.736884
                     ]
                 ]
             }
@@ -1133,18 +1012,135 @@
         {
             "type": "Feature",
             "properties": {
+                "hex": "A30D54",
+                "flight": "N296S   ",
+                "type": "AS50",
+                "description": "AEROSPATIALE AS-350 Ecureuil",
+                "operator": "DEPARTMENT OF HOMELAND SECURITY",
+                "altitude": 1225,
+                "ground_speed": 88.6,
+                "track": 343.61,
+                "squawk": "4402",
+                "rssi": -11.7,
+                "api_source": "https://api.airplanes.live/v2/hex/",
+                "last_seen": "2025-11-24T18:58:02.337662+00:00",
+                "nav_qnh": 0.0,
+                "nav_altitude_mcp": 0,
+                "category": "A7"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -78.518725,
+                        42.232819
+                    ],
+                    [
+                        -78.461859,
+                        42.212082
+                    ],
+                    [
+                        -78.401371,
+                        42.203339
+                    ],
+                    [
+                        -78.300996,
+                        42.219772
+                    ],
+                    [
+                        -78.344719,
+                        42.360069
+                    ],
+                    [
+                        -78.38694,
+                        42.413139
+                    ],
+                    [
+                        -78.426964,
+                        42.46376
+                    ],
+                    [
+                        -78.466915,
+                        42.517273
+                    ],
+                    [
+                        -78.477066,
+                        42.576537
+                    ],
+                    [
+                        -78.481834,
+                        42.637665
+                    ],
+                    [
+                        -78.486903,
+                        42.697573
+                    ],
+                    [
+                        -78.486828,
+                        42.697357
+                    ],
+                    [
+                        -78.497059,
+                        42.75432
+                    ],
+                    [
+                        -78.504992,
+                        42.805344
+                    ],
+                    [
+                        -78.505242,
+                        42.799805
+                    ],
+                    [
+                        -78.508366,
+                        42.854081
+                    ],
+                    [
+                        -78.508039,
+                        42.8518
+                    ],
+                    [
+                        -78.521012,
+                        42.903442
+                    ],
+                    [
+                        -78.520595,
+                        42.901611
+                    ],
+                    [
+                        -78.527658,
+                        42.951934
+                    ],
+                    [
+                        -78.527658,
+                        42.951934
+                    ],
+                    [
+                        -78.538906,
+                        42.976607
+                    ],
+                    [
+                        -78.538906,
+                        42.976607
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
                 "hex": "AE4D35",
                 "flight": "LSXX    ",
                 "type": "H60",
                 "description": "SIKORSKY UH-60 Black Hawk",
                 "operator": "Unknown",
-                "altitude": 275,
-                "ground_speed": 92.1,
-                "track": 124.38,
+                "altitude": 350,
+                "ground_speed": 59.1,
+                "track": 123.96,
                 "squawk": "1200",
-                "rssi": -12.2,
+                "rssi": -18.6,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-11-24T21:12:02.294638+00:00",
+                "last_seen": "2025-11-24T21:14:02.231972+00:00",
                 "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
                 "category": "A7"
@@ -1371,6 +1367,14 @@
                     [
                         -117.244524,
                         32.923232
+                    ],
+                    [
+                        -117.220441,
+                        32.88858
+                    ],
+                    [
+                        -117.220141,
+                        32.888458
                     ]
                 ]
             }
@@ -1605,12 +1609,12 @@
                 "description": "BEECHCRAFT Super King Air 350",
                 "operator": "DEPARTMENT OF HOMELAND SECURITY",
                 "altitude": 22000,
-                "ground_speed": 243.1,
-                "track": 337.76,
+                "ground_speed": 242.5,
+                "track": 337.45,
                 "squawk": "7653",
-                "rssi": -22.0,
+                "rssi": -16.0,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-11-24T21:12:02.294718+00:00",
+                "last_seen": "2025-11-24T21:14:02.232069+00:00",
                 "nav_qnh": 1012.8,
                 "nav_altitude_mcp": 22016,
                 "category": "A2"
@@ -2145,6 +2149,14 @@
                     [
                         -121.52179,
                         40.257477
+                    ],
+                    [
+                        -121.587524,
+                        40.379745
+                    ],
+                    [
+                        -121.588074,
+                        40.380798
                     ]
                 ]
             }
@@ -2929,9 +2941,9 @@
                 "ground_speed": 0.0,
                 "track": 0.0,
                 "squawk": "1200",
-                "rssi": -25.9,
+                "rssi": -25.3,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-11-24T21:12:02.294699+00:00",
+                "last_seen": "2025-11-24T21:14:02.232050+00:00",
                 "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
                 "category": "A7"
@@ -3030,6 +3042,14 @@
                     [
                         -118.055999,
                         33.790695
+                    ],
+                    [
+                        -118.056006,
+                        33.790698
+                    ],
+                    [
+                        -118.056006,
+                        33.790698
                     ]
                 ]
             }
@@ -3042,13 +3062,13 @@
                 "type": "AS50",
                 "description": "AEROSPATIALE AS-350 Ecureuil",
                 "operator": "DEPARTMENT OF HOMELAND SECURITY",
-                "altitude": 1250,
-                "ground_speed": 119.2,
-                "track": 93.37,
+                "altitude": 1350,
+                "ground_speed": 118.4,
+                "track": 94.84,
                 "squawk": "4401",
-                "rssi": -4.7,
+                "rssi": -12.3,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-11-24T21:12:02.294736+00:00",
+                "last_seen": "2025-11-24T21:14:02.232088+00:00",
                 "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
                 "category": "A7"
@@ -3127,6 +3147,14 @@
                     [
                         -87.679575,
                         41.661118
+                    ],
+                    [
+                        -87.590864,
+                        41.65713
+                    ],
+                    [
+                        -87.590186,
+                        41.657089
                     ]
                 ]
             }
@@ -3135,17 +3163,17 @@
             "type": "Feature",
             "properties": {
                 "hex": "AE4FAE",
-                "flight": "Unknown",
+                "flight": "SHWK404 ",
                 "type": "H60",
                 "description": "SIKORSKY UH-60 Black Hawk",
                 "operator": "Unknown",
-                "altitude": 200,
-                "ground_speed": 90.0,
-                "track": 124.2,
-                "squawk": "1200",
-                "rssi": -49.5,
+                "altitude": 125,
+                "ground_speed": 80.8,
+                "track": 248.2,
+                "squawk": "N/A",
+                "rssi": -29.3,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-11-24T21:12:02.294773+00:00",
+                "last_seen": "2025-11-24T21:14:02.232127+00:00",
                 "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
                 "category": "A7"
@@ -3200,6 +3228,14 @@
                     [
                         -117.287514,
                         32.601555
+                    ],
+                    [
+                        -117.312012,
+                        32.578932
+                    ],
+                    [
+                        -117.289815,
+                        32.580096
                     ]
                 ]
             }
@@ -3212,13 +3248,13 @@
                 "type": "B412",
                 "description": "BELL 412",
                 "operator": "COUNTY OF LOS ANGELES FIRE DEPT",
-                "altitude": 1400,
-                "ground_speed": 110.3,
-                "track": 218.74,
+                "altitude": 1700,
+                "ground_speed": 105.7,
+                "track": 214.59,
                 "squawk": "1206",
-                "rssi": -5.1,
+                "rssi": -4.1,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-11-24T21:12:02.294673+00:00",
+                "last_seen": "2025-11-24T21:14:02.232009+00:00",
                 "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
                 "category": "A7"
@@ -3257,6 +3293,14 @@
                     [
                         -118.570004,
                         34.20286
+                    ],
+                    [
+                        -118.613836,
+                        34.155533
+                    ],
+                    [
+                        -118.61434,
+                        34.154892
                     ]
                 ]
             }
