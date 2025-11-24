@@ -24,22 +24,6 @@
                 "type": "LineString",
                 "coordinates": [
                     [
-                        -117.72691,
-                        32.673798
-                    ],
-                    [
-                        -117.72691,
-                        32.673798
-                    ],
-                    [
-                        -117.757519,
-                        32.758065
-                    ],
-                    [
-                        -117.757782,
-                        32.75885
-                    ],
-                    [
                         -117.787507,
                         32.843488
                     ],
@@ -474,17 +458,17 @@
             "type": "Feature",
             "properties": {
                 "hex": "A154D3",
-                "flight": "Unknown",
+                "flight": "N185SD  ",
                 "type": "AS50",
                 "description": "AEROSPATIALE AS-350 Ecureuil",
                 "operator": "ORANGE COUNTY SHERIFF'S DEPARTMENT",
-                "altitude": -175,
+                "altitude": "ground",
                 "ground_speed": 0.0,
                 "track": 0.0,
-                "squawk": "N/A",
-                "rssi": -31.4,
+                "squawk": "4204",
+                "rssi": -31.1,
                 "api_source": "https://opendata.adsb.fi/api/v2/hex/",
-                "last_seen": "2025-11-24T18:26:02.531534+00:00",
+                "last_seen": "2025-11-24T18:28:02.740910+00:00",
                 "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
                 "category": "A7"
@@ -938,17 +922,17 @@
             "type": "Feature",
             "properties": {
                 "hex": "AE2761",
-                "flight": "LS04    ",
+                "flight": "Unknown",
                 "type": "H60",
                 "description": "SIKORSKY UH-60 Black Hawk",
                 "operator": "Unknown",
                 "altitude": -75,
-                "ground_speed": 89.6,
-                "track": 276.41,
+                "ground_speed": 0.0,
+                "track": 0.0,
                 "squawk": "N/A",
-                "rssi": -28.4,
+                "rssi": -28.6,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-11-24T18:26:02.532076+00:00",
+                "last_seen": "2025-11-24T18:28:02.741284+00:00",
                 "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
                 "category": "A7"
@@ -1011,6 +995,14 @@
                     [
                         -117.393091,
                         32.623215
+                    ],
+                    [
+                        -117.423358,
+                        32.649948
+                    ],
+                    [
+                        -117.423358,
+                        32.649948
                     ]
                 ]
             }
@@ -1023,13 +1015,13 @@
                 "type": "H60",
                 "description": "Sikorsky MH-60S Seahawk",
                 "operator": "United States Navy",
-                "altitude": 1200,
-                "ground_speed": 128.1,
-                "track": 317.21,
+                "altitude": 1225,
+                "ground_speed": 146.6,
+                "track": 344.16,
                 "squawk": "1200",
-                "rssi": -21.7,
+                "rssi": -24.6,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-11-24T18:26:02.532092+00:00",
+                "last_seen": "2025-11-24T18:28:02.741302+00:00",
                 "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
                 "category": "A7"
@@ -1108,6 +1100,14 @@
                     [
                         -117.513336,
                         32.783157
+                    ],
+                    [
+                        -117.554205,
+                        32.844681
+                    ],
+                    [
+                        -117.554645,
+                        32.845963
                     ]
                 ]
             }
@@ -1120,13 +1120,13 @@
                 "type": "H60",
                 "description": "SIKORSKY UH-60 Black Hawk",
                 "operator": "Unknown",
-                "altitude": 3375,
-                "ground_speed": 124.0,
-                "track": 283.8,
+                "altitude": 2725,
+                "ground_speed": 120.0,
+                "track": 289.9,
                 "squawk": "1200",
                 "rssi": -49.5,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-11-24T18:26:02.532043+00:00",
+                "last_seen": "2025-11-24T18:28:02.741266+00:00",
                 "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
                 "category": "Unknown"
@@ -1149,6 +1149,47 @@
                     [
                         -116.644592,
                         32.681255
+                    ],
+                    [
+                        -116.724133,
+                        32.703415
+                    ],
+                    [
+                        -116.718254,
+                        32.701584
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "hex": "A1511C",
+                "flight": "N184SD  ",
+                "type": "AS50",
+                "description": "AEROSPATIALE AS-350 Ecureuil",
+                "operator": "COUNTY OF ORANGE - AIR SUPPORT",
+                "altitude": 500,
+                "ground_speed": 103.0,
+                "track": 348.8,
+                "squawk": "4204",
+                "rssi": -4.2,
+                "api_source": "https://api.airplanes.live/v2/hex/",
+                "last_seen": "2025-11-24T18:28:02.741320+00:00",
+                "nav_qnh": 1020.0,
+                "nav_altitude_mcp": 0,
+                "category": "A7"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -117.883301,
+                        33.681381
+                    ],
+                    [
+                        -117.883525,
+                        33.682343
                     ]
                 ]
             }
