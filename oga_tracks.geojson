@@ -610,13 +610,13 @@
                 "type": "DH8C",
                 "description": "DE HAVILLAND DHC-8-300 Dash 8",
                 "operator": "US DEPARTMENT OF HOMELAND SECURITY, US CUSTOMS & BORDER PROTECTI",
-                "altitude": 10325,
-                "ground_speed": 168.4,
-                "track": 356.25,
+                "altitude": 0,
+                "ground_speed": 0.0,
+                "track": 0.0,
                 "squawk": "N/A",
-                "rssi": -49.5,
+                "rssi": -34.4,
                 "api_source": "https://opendata.adsb.fi/api/v2/hex/",
-                "last_seen": "2025-11-25T15:56:02.575866+00:00",
+                "last_seen": "2025-11-25T16:28:02.870224+00:00",
                 "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
                 "category": "Unknown"
@@ -1412,6 +1412,39 @@
                     [
                         -117.868111,
                         33.67923
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "hex": "AE4FAE",
+                "flight": "SHWK404 ",
+                "type": "H60",
+                "description": "SIKORSKY UH-60 Black Hawk",
+                "operator": "Unknown",
+                "altitude": 225,
+                "ground_speed": 98.1,
+                "track": 182.34,
+                "squawk": "1200",
+                "rssi": -17.1,
+                "api_source": "https://api.airplanes.live/v2/hex/",
+                "last_seen": "2025-11-25T16:28:02.871611+00:00",
+                "nav_qnh": 0.0,
+                "nav_altitude_mcp": 0,
+                "category": "A7"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -117.231128,
+                        32.695592
+                    ],
+                    [
+                        -117.231128,
+                        32.695592
                     ]
                 ]
             }
