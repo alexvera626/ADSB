@@ -9,13 +9,13 @@
                 "type": "AS50",
                 "description": "AEROSPATIALE AS-350 Ecureuil",
                 "operator": "COUNTY OF ORANGE - AIR SUPPORT",
-                "altitude": 1400,
-                "ground_speed": 108.9,
-                "track": 133.51,
+                "altitude": 1700,
+                "ground_speed": 112.9,
+                "track": 140.39,
                 "squawk": "4204",
                 "rssi": null,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-11-25T15:20:01.988630+00:00",
+                "last_seen": "2025-11-25T15:22:02.592294+00:00",
                 "nav_qnh": null,
                 "nav_altitude_mcp": null,
                 "category": "A7"
@@ -23,8 +23,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -117.65483,
-                    33.446526
+                    -117.60584,
+                    33.401138
                 ]
             }
         },
@@ -36,13 +36,13 @@
                 "type": "EC35",
                 "description": "AIRBUS HELICOPTERS EC-135/635",
                 "operator": "REACH AIR MEDICAL SERVICES LLC",
-                "altitude": 2250,
-                "ground_speed": 80.2,
-                "track": 355.71,
+                "altitude": "ground",
+                "ground_speed": 0.0,
+                "track": 341.57,
                 "squawk": "1200",
                 "rssi": null,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-11-25T15:20:01.988718+00:00",
+                "last_seen": "2025-11-25T15:22:02.592403+00:00",
                 "nav_qnh": null,
                 "nav_altitude_mcp": null,
                 "category": "A7"
@@ -50,8 +50,35 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -117.262287,
-                    34.034201
+                    -117.263092,
+                    34.049446
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "hex": "AAFD01",
+                "flight": "Unknown",
+                "type": "DH8C",
+                "description": "DE HAVILLAND DHC-8-300 Dash 8",
+                "operator": "US DEPARTMENT OF HOMELAND SECURITY, US CUSTOMS & BORDER PROTECTI",
+                "altitude": 10325,
+                "ground_speed": 198.8,
+                "track": 223.57,
+                "squawk": "4406",
+                "rssi": null,
+                "api_source": "https://opendata.adsb.fi/api/v2/hex/",
+                "last_seen": "2025-11-25T15:22:02.591077+00:00",
+                "nav_qnh": null,
+                "nav_altitude_mcp": null,
+                "category": "Unknown"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -117.645886,
+                    30.578117
                 ]
             }
         }
