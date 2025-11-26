@@ -1613,20 +1613,20 @@
             "type": "Feature",
             "properties": {
                 "hex": "AE290D",
-                "flight": "C6030   ",
+                "flight": "Unknown",
                 "type": "H60",
                 "description": "Sikorsky MH-60T Jayhawk",
                 "operator": "Unknown",
-                "altitude": 575,
-                "ground_speed": 111.6,
-                "track": 173.83,
+                "altitude": 850,
+                "ground_speed": 141.4,
+                "track": 355.54,
                 "squawk": "N/A",
-                "rssi": -22.1,
+                "rssi": -21.5,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-11-26T19:56:02.269867+00:00",
+                "last_seen": "2025-11-26T23:38:02.402182+00:00",
                 "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
-                "category": "A7"
+                "category": "Unknown"
             },
             "geometry": {
                 "type": "LineString",
@@ -4155,13 +4155,13 @@
                 "type": "C30J",
                 "description": "Lockheed Martin HC-130J Hercules",
                 "operator": "Unknown",
-                "altitude": 1825,
-                "ground_speed": 207.7,
-                "track": 293.85,
+                "altitude": 1850,
+                "ground_speed": 244.9,
+                "track": 309.87,
                 "squawk": "N/A",
-                "rssi": -36.1,
+                "rssi": -34.6,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-11-26T23:36:02.646961+00:00",
+                "last_seen": "2025-11-26T23:38:02.402218+00:00",
                 "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
                 "category": "A3"
@@ -4528,6 +4528,14 @@
                     [
                         -156.671631,
                         20.809223
+                    ],
+                    [
+                        -156.782892,
+                        20.892039
+                    ],
+                    [
+                        -156.773454,
+                        20.885382
                     ]
                 ]
             }
@@ -4806,13 +4814,13 @@
                 "type": "AS65",
                 "description": "Eurocopter MH-65D Dolphin",
                 "operator": "Unknown",
-                "altitude": 450,
-                "ground_speed": 109.7,
-                "track": 288.6,
-                "squawk": "4424",
-                "rssi": -15.2,
+                "altitude": 325,
+                "ground_speed": 77.6,
+                "track": 321.8,
+                "squawk": "N/A",
+                "rssi": -18.1,
                 "api_source": "https://opendata.adsb.fi/api/v2/hex/",
-                "last_seen": "2025-11-26T23:34:02.761441+00:00",
+                "last_seen": "2025-11-26T23:38:02.401915+00:00",
                 "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
                 "category": "A7"
@@ -4911,6 +4919,10 @@
                     [
                         -80.532687,
                         25.51044
+                    ],
+                    [
+                        -80.564869,
+                        25.492331
                     ]
                 ]
             }
@@ -4972,6 +4984,35 @@
                     [
                         -95.003797,
                         29.644363
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "hex": "AE2695",
+                "flight": "Unknown",
+                "type": "AS65",
+                "description": "Eurocopter MH-65D Dolphin",
+                "operator": "Unknown",
+                "altitude": 475,
+                "ground_speed": 53.0,
+                "track": 51.6,
+                "squawk": "4431",
+                "rssi": -49.5,
+                "api_source": "https://api.airplanes.live/v2/hex/",
+                "last_seen": "2025-11-26T23:38:02.402162+00:00",
+                "nav_qnh": 0.0,
+                "nav_altitude_mcp": 0,
+                "category": "Unknown"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -97.508469,
+                        27.792524
                     ]
                 ]
             }
