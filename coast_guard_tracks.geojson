@@ -246,13 +246,13 @@
                 "type": "C27J",
                 "description": "Alenia HC-27J Spartan",
                 "operator": "Unknown",
-                "altitude": 13850,
-                "ground_speed": 217.8,
-                "track": 242.38,
+                "altitude": 13875,
+                "ground_speed": 219.2,
+                "track": 242.27,
                 "squawk": "3661",
-                "rssi": -8.8,
+                "rssi": -19.2,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-11-27T19:52:02.889195+00:00",
+                "last_seen": "2025-11-27T19:54:02.188591+00:00",
                 "nav_qnh": 1018.4,
                 "nav_altitude_mcp": 14016,
                 "category": "A2"
@@ -847,6 +847,14 @@
                     [
                         -80.711895,
                         37.275215
+                    ],
+                    [
+                        -80.843188,
+                        37.219986
+                    ],
+                    [
+                        -80.846051,
+                        37.218796
                     ]
                 ]
             }
@@ -2290,6 +2298,39 @@
                     [
                         -123.384636,
                         48.140854
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "hex": "AE2902",
+                "flight": "C6018   ",
+                "type": "H60",
+                "description": "Sikorsky MH-60T Jayhawk",
+                "operator": "Unknown",
+                "altitude": 350,
+                "ground_speed": 138.6,
+                "track": 323.21,
+                "squawk": "1200",
+                "rssi": -15.4,
+                "api_source": "https://api.airplanes.live/v2/hex/",
+                "last_seen": "2025-11-27T19:54:02.188627+00:00",
+                "nav_qnh": 0.0,
+                "nav_altitude_mcp": 0,
+                "category": "A7"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -145.456522,
+                        60.132797
+                    ],
+                    [
+                        -145.458037,
+                        60.13385
                     ]
                 ]
             }
