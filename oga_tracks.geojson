@@ -24,22 +24,6 @@
                 "type": "LineString",
                 "coordinates": [
                     [
-                        -117.999058,
-                        34.08094
-                    ],
-                    [
-                        -117.999058,
-                        34.08094
-                    ],
-                    [
-                        -117.941708,
-                        34.121475
-                    ],
-                    [
-                        -117.941608,
-                        34.121952
-                    ],
-                    [
                         -117.895464,
                         34.165283
                     ],
@@ -383,17 +367,17 @@
             "type": "Feature",
             "properties": {
                 "hex": "A154D3",
-                "flight": "N185SD  ",
+                "flight": "Unknown",
                 "type": "AS50",
                 "description": "AEROSPATIALE AS-350 Ecureuil",
                 "operator": "ORANGE COUNTY SHERIFF'S DEPARTMENT",
-                "altitude": "ground",
+                "altitude": 0,
                 "ground_speed": 0.0,
                 "track": 0.0,
-                "squawk": "N/A",
-                "rssi": -6.4,
-                "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-11-28T23:54:02.371683+00:00",
+                "squawk": "4204",
+                "rssi": -17.4,
+                "api_source": "https://opendata.adsb.fi/api/v2/hex/",
+                "last_seen": "2025-11-28T23:56:02.572152+00:00",
                 "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
                 "category": "A7"
@@ -512,6 +496,39 @@
                     [
                         -117.871376,
                         33.675007
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "hex": "A3238A",
+                "flight": "FIRE1   ",
+                "type": "A139",
+                "description": "AGUSTA AW-139",
+                "operator": "LOS ANGELES FIRE DEPARTMENT",
+                "altitude": 1250,
+                "ground_speed": 121.3,
+                "track": 184.25,
+                "squawk": "1200",
+                "rssi": -4.7,
+                "api_source": "https://api.airplanes.live/v2/hex/",
+                "last_seen": "2025-11-28T23:56:02.572316+00:00",
+                "nav_qnh": 1015.2,
+                "nav_altitude_mcp": 896,
+                "category": "A7"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -118.498031,
+                        34.188034
+                    ],
+                    [
+                        -118.498031,
+                        34.188034
                     ]
                 ]
             }
