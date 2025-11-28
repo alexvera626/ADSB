@@ -262,15 +262,15 @@
                 "type": "AS50",
                 "description": "AEROSPATIALE AS-350 Ecureuil",
                 "operator": "CITY OF ANAHEIM",
-                "altitude": 200,
-                "ground_speed": 38.8,
-                "track": 258.11,
-                "squawk": "4301",
-                "rssi": -7.9,
+                "altitude": "ground",
+                "ground_speed": 0.3,
+                "track": 0.0,
+                "squawk": "N/A",
+                "rssi": -22.8,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-11-28T19:12:02.741172+00:00",
-                "nav_qnh": 1016.8,
-                "nav_altitude_mcp": 4000,
+                "last_seen": "2025-11-28T19:14:02.131234+00:00",
+                "nav_qnh": 0.0,
+                "nav_altitude_mcp": 0,
                 "category": "A7"
             },
             "geometry": {
@@ -499,6 +499,47 @@
                     [
                         -117.977142,
                         33.872525
+                    ],
+                    [
+                        -117.983201,
+                        33.872269
+                    ],
+                    [
+                        -117.983193,
+                        33.872269
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "hex": "A054AD",
+                "flight": "N120LA  ",
+                "type": "B412",
+                "description": "BELL 412",
+                "operator": "COUNTY OF LOS ANGELES FIRE DEPT",
+                "altitude": 1200,
+                "ground_speed": 69.6,
+                "track": 288.43,
+                "squawk": "1206",
+                "rssi": -3.3,
+                "api_source": "https://api.airplanes.live/v2/hex/",
+                "last_seen": "2025-11-28T19:14:02.131250+00:00",
+                "nav_qnh": 0.0,
+                "nav_altitude_mcp": 0,
+                "category": "A7"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -118.409328,
+                        34.261144
+                    ],
+                    [
+                        -118.410759,
+                        34.261609
                     ]
                 ]
             }
