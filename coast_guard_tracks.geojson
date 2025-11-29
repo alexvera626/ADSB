@@ -4,59 +4,18 @@
         {
             "type": "Feature",
             "properties": {
-                "hex": "AE4DFF",
-                "flight": "C6047   ",
-                "type": "H60",
-                "description": "Sikorsky MH-60T Jayhawk",
-                "operator": "Unknown",
-                "altitude": 775,
-                "ground_speed": 90.6,
-                "track": 79.19,
-                "squawk": "1200",
-                "rssi": -7.4,
-                "api_source": "https://opendata.adsb.fi/api/v2/hex/",
-                "last_seen": "2025-11-29T07:58:02.022379+00:00",
-                "nav_qnh": 0.0,
-                "nav_altitude_mcp": 0,
-                "category": "A7"
-            },
-            "geometry": {
-                "type": "LineString",
-                "coordinates": [
-                    [
-                        -85.768991,
-                        44.584009
-                    ],
-                    [
-                        -85.705886,
-                        44.627303
-                    ],
-                    [
-                        -85.638361,
-                        44.694198
-                    ],
-                    [
-                        -85.608014,
-                        44.748059
-                    ]
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
                 "hex": "AE26AE",
                 "flight": "C6588   ",
                 "type": "AS65",
                 "description": "Eurocopter MH-65D Dolphin",
                 "operator": "Unknown",
-                "altitude": 800,
-                "ground_speed": 82.2,
-                "track": 288.43,
+                "altitude": 650,
+                "ground_speed": 102.1,
+                "track": 272.25,
                 "squawk": "4422",
-                "rssi": -21.0,
+                "rssi": -12.8,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-11-29T11:52:02.206499+00:00",
+                "last_seen": "2025-11-29T11:54:02.464122+00:00",
                 "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
                 "category": "A7"
@@ -64,10 +23,6 @@
             "geometry": {
                 "type": "LineString",
                 "coordinates": [
-                    [
-                        -82.839788,
-                        42.631608
-                    ],
                     [
                         -82.767875,
                         42.616699
@@ -795,6 +750,51 @@
                     [
                         -82.679081,
                         42.615175
+                    ],
+                    [
+                        -82.752345,
+                        42.621274
+                    ],
+                    [
+                        -82.752345,
+                        42.621274
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "hex": "AE4DFF",
+                "flight": "C6047   ",
+                "type": "H60",
+                "description": "Sikorsky MH-60T Jayhawk",
+                "operator": "Unknown",
+                "altitude": 775,
+                "ground_speed": 90.6,
+                "track": 79.19,
+                "squawk": "1200",
+                "rssi": -7.4,
+                "api_source": "https://opendata.adsb.fi/api/v2/hex/",
+                "last_seen": "2025-11-29T07:58:02.022379+00:00",
+                "nav_qnh": 0.0,
+                "nav_altitude_mcp": 0,
+                "category": "A7"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -85.705886,
+                        44.627303
+                    ],
+                    [
+                        -85.638361,
+                        44.694198
+                    ],
+                    [
+                        -85.608014,
+                        44.748059
                     ]
                 ]
             }
