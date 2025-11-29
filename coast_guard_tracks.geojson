@@ -270,13 +270,13 @@
                 "type": "AS65",
                 "description": "Eurocopter MH-65D Dolphin",
                 "operator": "Unknown",
-                "altitude": -500,
-                "ground_speed": 1.6,
-                "track": 45.0,
+                "altitude": -450,
+                "ground_speed": 3.2,
+                "track": 251.57,
                 "squawk": "4433",
-                "rssi": -27.0,
+                "rssi": -21.0,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-11-29T14:52:02.596729+00:00",
+                "last_seen": "2025-11-29T14:54:02.615135+00:00",
                 "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
                 "category": "A7"
@@ -535,6 +535,14 @@
                     [
                         -74.528503,
                         39.28157
+                    ],
+                    [
+                        -74.528687,
+                        39.281383
+                    ],
+                    [
+                        -74.528687,
+                        39.281383
                     ]
                 ]
             }
@@ -632,15 +640,15 @@
                 "type": "C27J",
                 "description": "Alenia HC-27J Spartan",
                 "operator": "Unknown",
-                "altitude": 16700,
-                "ground_speed": 339.6,
-                "track": 61.7,
+                "altitude": 14725,
+                "ground_speed": 339.9,
+                "track": 63.06,
                 "squawk": "1200",
-                "rssi": -15.4,
+                "rssi": -20.6,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-11-29T14:52:02.596773+00:00",
+                "last_seen": "2025-11-29T14:54:02.615197+00:00",
                 "nav_qnh": 1013.6,
-                "nav_altitude_mcp": 8992,
+                "nav_altitude_mcp": 5504,
                 "category": "A2"
             },
             "geometry": {
@@ -861,6 +869,14 @@
                     [
                         -87.174103,
                         33.507463
+                    ],
+                    [
+                        -86.972258,
+                        33.595276
+                    ],
+                    [
+                        -86.972258,
+                        33.595276
                     ]
                 ]
             }
@@ -1145,12 +1161,12 @@
                 "description": "Lockheed HC-130J Hercules",
                 "operator": "United States Coast Guard",
                 "altitude": 11400,
-                "ground_speed": 258.1,
-                "track": 305.54,
+                "ground_speed": 258.3,
+                "track": 305.23,
                 "squawk": "4631",
-                "rssi": -6.7,
+                "rssi": -15.9,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-11-29T14:52:02.596791+00:00",
+                "last_seen": "2025-11-29T14:54:02.615215+00:00",
                 "nav_qnh": 1035.2,
                 "nav_altitude_mcp": 0,
                 "category": "A3"
@@ -1201,6 +1217,43 @@
                     [
                         -76.833119,
                         36.628139
+                    ],
+                    [
+                        -76.978111,
+                        36.711411
+                    ],
+                    [
+                        -76.978111,
+                        36.711411
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "hex": "AE2125",
+                "flight": "Unknown",
+                "type": "C27J",
+                "description": "ALENIA C-27J Spartan",
+                "operator": "Unknown",
+                "altitude": "ground",
+                "ground_speed": 6.2,
+                "track": 0.0,
+                "squawk": "N/A",
+                "rssi": -30.4,
+                "api_source": "https://opendata.adsb.fi/api/v2/hex/",
+                "last_seen": "2025-11-29T14:54:02.614395+00:00",
+                "nav_qnh": 0.0,
+                "nav_altitude_mcp": 0,
+                "category": "Unknown"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -97.646894,
+                        26.224435
                     ]
                 ]
             }
