@@ -4,6 +4,55 @@
         {
             "type": "Feature",
             "properties": {
+                "hex": "AC4597",
+                "flight": "REH46   ",
+                "type": "EC35",
+                "description": "AIRBUS HELICOPTERS EC-135/635",
+                "operator": "REACH AIR MEDICAL SERVICES LLC",
+                "altitude": 625,
+                "ground_speed": 140.0,
+                "track": 143.13,
+                "squawk": "1200",
+                "rssi": -28.0,
+                "api_source": "https://opendata.adsb.fi/api/v2/hex/",
+                "last_seen": "2025-11-30T03:58:02.577866+00:00",
+                "nav_qnh": 1016.0,
+                "nav_altitude_mcp": 0,
+                "category": "A7"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -156.219993,
+                        20.113779
+                    ],
+                    [
+                        -156.186335,
+                        20.041763
+                    ],
+                    [
+                        -156.151778,
+                        19.967791
+                    ],
+                    [
+                        -156.120235,
+                        19.899216
+                    ],
+                    [
+                        -156.086958,
+                        19.828181
+                    ],
+                    [
+                        -156.024286,
+                        19.785679
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
                 "hex": "AE4F8A",
                 "flight": "Unknown",
                 "type": "H60",
@@ -23,22 +72,6 @@
             "geometry": {
                 "type": "LineString",
                 "coordinates": [
-                    [
-                        -117.845745,
-                        33.039194
-                    ],
-                    [
-                        -117.845745,
-                        33.039194
-                    ],
-                    [
-                        -117.828762,
-                        33.078112
-                    ],
-                    [
-                        -117.828481,
-                        33.07881
-                    ],
                     [
                         -117.834199,
                         33.088632
@@ -765,22 +798,6 @@
                 "type": "LineString",
                 "coordinates": [
                     [
-                        -117.158478,
-                        32.704926
-                    ],
-                    [
-                        -117.158478,
-                        32.704926
-                    ],
-                    [
-                        -117.154335,
-                        32.709883
-                    ],
-                    [
-                        -117.154392,
-                        32.710023
-                    ],
-                    [
                         -117.163136,
                         32.708859
                     ],
@@ -1274,55 +1291,6 @@
         {
             "type": "Feature",
             "properties": {
-                "hex": "AC4597",
-                "flight": "REH46   ",
-                "type": "EC35",
-                "description": "AIRBUS HELICOPTERS EC-135/635",
-                "operator": "REACH AIR MEDICAL SERVICES LLC",
-                "altitude": 625,
-                "ground_speed": 140.0,
-                "track": 143.13,
-                "squawk": "1200",
-                "rssi": -28.0,
-                "api_source": "https://opendata.adsb.fi/api/v2/hex/",
-                "last_seen": "2025-11-30T03:58:02.577866+00:00",
-                "nav_qnh": 1016.0,
-                "nav_altitude_mcp": 0,
-                "category": "A7"
-            },
-            "geometry": {
-                "type": "LineString",
-                "coordinates": [
-                    [
-                        -156.219993,
-                        20.113779
-                    ],
-                    [
-                        -156.186335,
-                        20.041763
-                    ],
-                    [
-                        -156.151778,
-                        19.967791
-                    ],
-                    [
-                        -156.120235,
-                        19.899216
-                    ],
-                    [
-                        -156.086958,
-                        19.828181
-                    ],
-                    [
-                        -156.024286,
-                        19.785679
-                    ]
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
                 "hex": "A1F0C0",
                 "flight": "N224KB  ",
                 "type": "B06",
@@ -1713,13 +1681,13 @@
                 "type": "AS50",
                 "description": "AEROSPATIALE AS-350 Ecureuil",
                 "operator": "CITY OF ANAHEIM",
-                "altitude": 800,
-                "ground_speed": 75.9,
-                "track": 282.94,
+                "altitude": "ground",
+                "ground_speed": 1.6,
+                "track": 282.99,
                 "squawk": "4301",
-                "rssi": -9.0,
+                "rssi": -24.3,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-11-30T07:44:02.666862+00:00",
+                "last_seen": "2025-11-30T07:46:02.820615+00:00",
                 "nav_qnh": 1016.8,
                 "nav_altitude_mcp": 4000,
                 "category": "A7"
@@ -2186,6 +2154,14 @@
                     [
                         -117.959633,
                         33.870896
+                    ],
+                    [
+                        -117.982993,
+                        33.872328
+                    ],
+                    [
+                        -117.982993,
+                        33.872304
                     ]
                 ]
             }
