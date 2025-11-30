@@ -643,13 +643,13 @@
                 "type": "SHIP",
                 "description": "Zeppelin LZ N07-101",
                 "operator": "GOODYEAR TIRE & RUBBER CO",
-                "altitude": 1650,
-                "ground_speed": 21.9,
-                "track": 313.15,
+                "altitude": 1475,
+                "ground_speed": 26.0,
+                "track": 247.38,
                 "squawk": "1200",
-                "rssi": -4.3,
+                "rssi": -12.8,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-11-30T22:48:02.116957+00:00",
+                "last_seen": "2025-11-30T22:50:02.527993+00:00",
                 "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
                 "category": "B2"
@@ -1360,6 +1360,14 @@
                     [
                         -118.317317,
                         33.921707
+                    ],
+                    [
+                        -118.332675,
+                        33.919601
+                    ],
+                    [
+                        -118.332675,
+                        33.919601
                     ]
                 ]
             }
@@ -1818,13 +1826,13 @@
                 "type": "AS50",
                 "description": "AEROSPATIALE AS-350 Ecureuil",
                 "operator": "LAPD AIR SUPPORT DIVISION",
-                "altitude": 1300,
-                "ground_speed": 59.0,
-                "track": 178.06,
+                "altitude": 1275,
+                "ground_speed": 96.2,
+                "track": 286.93,
                 "squawk": "0253",
-                "rssi": -11.7,
+                "rssi": -2.4,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-11-30T22:48:02.116900+00:00",
+                "last_seen": "2025-11-30T22:50:02.527958+00:00",
                 "nav_qnh": 1014.4,
                 "nav_altitude_mcp": 10016,
                 "category": "A7"
@@ -2191,6 +2199,14 @@
                     [
                         -118.538052,
                         34.184235
+                    ],
+                    [
+                        -118.538589,
+                        34.170693
+                    ],
+                    [
+                        -118.538589,
+                        34.170693
                     ]
                 ]
             }
@@ -2204,12 +2220,12 @@
                 "description": "BELL 412",
                 "operator": "ORANGE COUNTY FIRE AUTHORITY",
                 "altitude": 1100,
-                "ground_speed": 9.9,
-                "track": 293.96,
+                "ground_speed": 6.4,
+                "track": 341.57,
                 "squawk": "4202",
-                "rssi": -1.6,
+                "rssi": -4.1,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-11-30T22:48:02.116940+00:00",
+                "last_seen": "2025-11-30T22:50:02.527977+00:00",
                 "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
                 "category": "A7"
@@ -2404,6 +2420,43 @@
                     [
                         -117.704885,
                         33.776093
+                    ],
+                    [
+                        -117.705894,
+                        33.777237
+                    ],
+                    [
+                        -117.705894,
+                        33.777237
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "hex": "A154D3",
+                "flight": "N185SD  ",
+                "type": "AS50",
+                "description": "AEROSPATIALE AS-350 Ecureuil",
+                "operator": "ORANGE COUNTY SHERIFF'S DEPARTMENT",
+                "altitude": "ground",
+                "ground_speed": 0.0,
+                "track": 0.0,
+                "squawk": "4204",
+                "rssi": -19.1,
+                "api_source": "https://opendata.adsb.fi/api/v2/hex/",
+                "last_seen": "2025-11-30T22:50:02.527833+00:00",
+                "nav_qnh": 0.0,
+                "nav_altitude_mcp": 0,
+                "category": "A7"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -117.871432,
+                        33.675053
                     ]
                 ]
             }
