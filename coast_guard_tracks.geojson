@@ -383,13 +383,13 @@
                 "type": "AS65",
                 "description": "Eurocopter MH-65D Dolphin",
                 "operator": "Unknown",
-                "altitude": -350,
-                "ground_speed": 14.2,
-                "track": 8.13,
+                "altitude": "ground",
+                "ground_speed": 8.8,
+                "track": 289.69,
                 "squawk": "1200",
-                "rssi": -15.6,
+                "rssi": -15.9,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-11-30T02:20:02.589033+00:00",
+                "last_seen": "2025-11-30T02:22:02.257344+00:00",
                 "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
                 "category": "A7"
@@ -660,6 +660,14 @@
                     [
                         -81.138757,
                         32.019882
+                    ],
+                    [
+                        -81.13998,
+                        32.023727
+                    ],
+                    [
+                        -81.13998,
+                        32.023727
                     ]
                 ]
             }
@@ -769,6 +777,39 @@
                     [
                         -81.88981,
                         30.220782
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "hex": "AE2691",
+                "flight": "C6559   ",
+                "type": "AS65",
+                "description": "Eurocopter MH-65D Dolphin",
+                "operator": "Unknown",
+                "altitude": "ground",
+                "ground_speed": 0.0,
+                "track": 0.0,
+                "squawk": "1277",
+                "rssi": -9.7,
+                "api_source": "https://api.airplanes.live/v2/hex/",
+                "last_seen": "2025-11-30T02:22:02.257363+00:00",
+                "nav_qnh": 0.0,
+                "nav_altitude_mcp": 0,
+                "category": "A7"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -122.389487,
+                        37.632503
+                    ],
+                    [
+                        -122.389487,
+                        37.632503
                     ]
                 ]
             }
