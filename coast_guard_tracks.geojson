@@ -245,18 +245,95 @@
         {
             "type": "Feature",
             "properties": {
+                "hex": "AE290D",
+                "flight": "Unknown",
+                "type": "H60",
+                "description": "Sikorsky MH-60T Jayhawk",
+                "operator": "Unknown",
+                "altitude": 425,
+                "ground_speed": 114.6,
+                "track": 150.75,
+                "squawk": "1200",
+                "rssi": -18.1,
+                "api_source": "https://api.airplanes.live/v2/hex/",
+                "last_seen": "2025-11-30T16:46:02.387475+00:00",
+                "nav_qnh": 0.0,
+                "nav_altitude_mcp": 0,
+                "category": "A7"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -76.588669,
+                        36.679001
+                    ],
+                    [
+                        -76.588669,
+                        36.679001
+                    ],
+                    [
+                        -76.587925,
+                        36.658356
+                    ],
+                    [
+                        -76.587925,
+                        36.658356
+                    ],
+                    [
+                        -76.535053,
+                        36.612167
+                    ],
+                    [
+                        -76.535053,
+                        36.612167
+                    ],
+                    [
+                        -76.48819,
+                        36.569962
+                    ],
+                    [
+                        -76.48819,
+                        36.569962
+                    ],
+                    [
+                        -76.430716,
+                        36.515343
+                    ],
+                    [
+                        -76.430716,
+                        36.515343
+                    ],
+                    [
+                        -76.382563,
+                        36.466183
+                    ],
+                    [
+                        -76.354571,
+                        36.436157
+                    ],
+                    [
+                        -76.293738,
+                        36.383414
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
                 "hex": "AE109A",
                 "flight": "C102    ",
                 "type": "GLF5",
                 "description": "GULFSTREAM 5",
                 "operator": "Unknown",
-                "altitude": 35500,
-                "ground_speed": 516.9,
-                "track": 125.07,
+                "altitude": 34000,
+                "ground_speed": 521.6,
+                "track": 125.24,
                 "squawk": "2676",
-                "rssi": -16.4,
+                "rssi": -15.8,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-11-30T20:24:01.957364+00:00",
+                "last_seen": "2025-11-30T20:26:02.296976+00:00",
                 "nav_qnh": 1013.6,
                 "nav_altitude_mcp": 34016,
                 "category": "A3"
@@ -264,10 +341,6 @@
             "geometry": {
                 "type": "LineString",
                 "coordinates": [
-                    [
-                        -97.151382,
-                        44.854248
-                    ],
                     [
                         -97.151115,
                         44.91124
@@ -635,6 +708,14 @@
                     [
                         -80.734585,
                         39.792023
+                    ],
+                    [
+                        -80.433894,
+                        39.62883
+                    ],
+                    [
+                        -80.428284,
+                        39.62573
                     ]
                 ]
             }
@@ -661,10 +742,6 @@
             "geometry": {
                 "type": "LineString",
                 "coordinates": [
-                    [
-                        -81.976508,
-                        26.51738
-                    ],
                     [
                         -81.957427,
                         26.526303
@@ -883,93 +960,12 @@
                 "type": "LineString",
                 "coordinates": [
                     [
-                        -76.114769,
-                        36.211121
-                    ],
-                    [
                         -76.201815,
                         36.239055
                     ],
                     [
                         -76.214161,
                         36.238358
-                    ]
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "hex": "AE290D",
-                "flight": "Unknown",
-                "type": "H60",
-                "description": "Sikorsky MH-60T Jayhawk",
-                "operator": "Unknown",
-                "altitude": 425,
-                "ground_speed": 114.6,
-                "track": 150.75,
-                "squawk": "1200",
-                "rssi": -18.1,
-                "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-11-30T16:46:02.387475+00:00",
-                "nav_qnh": 0.0,
-                "nav_altitude_mcp": 0,
-                "category": "A7"
-            },
-            "geometry": {
-                "type": "LineString",
-                "coordinates": [
-                    [
-                        -76.588669,
-                        36.679001
-                    ],
-                    [
-                        -76.588669,
-                        36.679001
-                    ],
-                    [
-                        -76.587925,
-                        36.658356
-                    ],
-                    [
-                        -76.587925,
-                        36.658356
-                    ],
-                    [
-                        -76.535053,
-                        36.612167
-                    ],
-                    [
-                        -76.535053,
-                        36.612167
-                    ],
-                    [
-                        -76.48819,
-                        36.569962
-                    ],
-                    [
-                        -76.48819,
-                        36.569962
-                    ],
-                    [
-                        -76.430716,
-                        36.515343
-                    ],
-                    [
-                        -76.430716,
-                        36.515343
-                    ],
-                    [
-                        -76.382563,
-                        36.466183
-                    ],
-                    [
-                        -76.354571,
-                        36.436157
-                    ],
-                    [
-                        -76.293738,
-                        36.383414
                     ]
                 ]
             }
@@ -3797,12 +3793,12 @@
                 "description": "Eurocopter MH-65D Dolphin",
                 "operator": "Unknown",
                 "altitude": 4850,
-                "ground_speed": 128.3,
-                "track": 165.1,
+                "ground_speed": 135.4,
+                "track": 112.59,
                 "squawk": "4221",
-                "rssi": -17.6,
+                "rssi": -8.5,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-11-30T20:24:01.957415+00:00",
+                "last_seen": "2025-11-30T20:26:02.297011+00:00",
                 "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
                 "category": "A7"
@@ -3957,6 +3953,14 @@
                     [
                         -122.143548,
                         37.169076
+                    ],
+                    [
+                        -122.110649,
+                        37.110234
+                    ],
+                    [
+                        -122.109275,
+                        37.109768
                     ]
                 ]
             }
@@ -4002,15 +4006,15 @@
                 "type": "GLF5",
                 "description": "Gulfstream Aerospace C-37A",
                 "operator": "Unknown",
-                "altitude": 4825,
-                "ground_speed": 221.7,
-                "track": 248.29,
+                "altitude": 9450,
+                "ground_speed": 223.7,
+                "track": 244.58,
                 "squawk": "2175",
-                "rssi": -7.1,
+                "rssi": -11.9,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-11-30T20:24:01.957383+00:00",
+                "last_seen": "2025-11-30T20:26:02.296994+00:00",
                 "nav_qnh": 1020.0,
-                "nav_altitude_mcp": 11008,
+                "nav_altitude_mcp": 15008,
                 "category": "A3"
             },
             "geometry": {
@@ -4055,6 +4059,14 @@
                     [
                         -77.055956,
                         38.748734
+                    ],
+                    [
+                        -77.204773,
+                        38.716472
+                    ],
+                    [
+                        -77.207397,
+                        38.715494
                     ]
                 ]
             }
@@ -4067,13 +4079,13 @@
                 "type": "AS65",
                 "description": "Eurocopter MH-65D Dolphin",
                 "operator": "Unknown",
-                "altitude": 150,
-                "ground_speed": 81.0,
-                "track": 359.29,
-                "squawk": "4431",
-                "rssi": -27.9,
+                "altitude": 0,
+                "ground_speed": 102.2,
+                "track": 293.05,
+                "squawk": "N/A",
+                "rssi": -27.4,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-11-30T20:24:01.957430+00:00",
+                "last_seen": "2025-11-30T20:26:02.297027+00:00",
                 "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
                 "category": "A7"
