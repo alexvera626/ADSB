@@ -9,13 +9,13 @@
                 "type": "AS50",
                 "description": "AEROSPATIALE AS-350 Ecureuil",
                 "operator": "LAPD AIR SUPPORT DIVISION",
-                "altitude": 1025,
-                "ground_speed": 76.0,
-                "track": 290.82,
+                "altitude": 1300,
+                "ground_speed": 76.7,
+                "track": 282.04,
                 "squawk": "1200",
-                "rssi": -7.8,
+                "rssi": -6.2,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-12-01T21:20:02.265746+00:00",
+                "last_seen": "2025-12-01T21:22:02.501783+00:00",
                 "nav_qnh": 1016.0,
                 "nav_altitude_mcp": 10016,
                 "category": "A7"
@@ -23,14 +23,6 @@
             "geometry": {
                 "type": "LineString",
                 "coordinates": [
-                    [
-                        -118.352294,
-                        34.079865
-                    ],
-                    [
-                        -118.351879,
-                        34.079869
-                    ],
                     [
                         -118.308853,
                         34.074097
@@ -374,6 +366,14 @@
                     [
                         -118.262157,
                         34.063529
+                    ],
+                    [
+                        -118.310909,
+                        34.077123
+                    ],
+                    [
+                        -118.31188,
+                        34.077301
                     ]
                 ]
             }
@@ -400,14 +400,6 @@
             "geometry": {
                 "type": "LineString",
                 "coordinates": [
-                    [
-                        -117.117817,
-                        32.562185
-                    ],
-                    [
-                        -117.117817,
-                        32.562185
-                    ],
                     [
                         -117.127414,
                         32.562721
@@ -1089,14 +1081,6 @@
             "geometry": {
                 "type": "LineString",
                 "coordinates": [
-                    [
-                        -117.334713,
-                        32.580096
-                    ],
-                    [
-                        -117.33561,
-                        32.580235
-                    ],
                     [
                         -117.316626,
                         32.593735
@@ -1782,10 +1766,6 @@
             "geometry": {
                 "type": "LineString",
                 "coordinates": [
-                    [
-                        -117.118488,
-                        32.561142
-                    ],
                     [
                         -117.117341,
                         32.560916
@@ -2532,55 +2512,6 @@
         {
             "type": "Feature",
             "properties": {
-                "hex": "A0F9B2",
-                "flight": "TROY308 ",
-                "type": "BE30",
-                "description": "BEECH 300 Super King Air",
-                "operator": "DEPARTMENT OF HOMELAND SECURITY",
-                "altitude": "ground",
-                "ground_speed": 22.5,
-                "track": 0.0,
-                "squawk": "4404",
-                "rssi": -19.8,
-                "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-12-01T21:20:02.265914+00:00",
-                "nav_qnh": 0.0,
-                "nav_altitude_mcp": 0,
-                "category": "A2"
-            },
-            "geometry": {
-                "type": "LineString",
-                "coordinates": [
-                    [
-                        -72.271762,
-                        21.77179
-                    ],
-                    [
-                        -72.271762,
-                        21.77179
-                    ],
-                    [
-                        -72.272072,
-                        21.772994
-                    ],
-                    [
-                        -72.272072,
-                        21.772994
-                    ],
-                    [
-                        -72.279409,
-                        21.774297
-                    ],
-                    [
-                        -72.279409,
-                        21.774297
-                    ]
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
                 "hex": "AE277C",
                 "flight": "GH21    ",
                 "type": "Unknown",
@@ -2600,14 +2531,6 @@
             "geometry": {
                 "type": "LineString",
                 "coordinates": [
-                    [
-                        -117.117621,
-                        32.56343
-                    ],
-                    [
-                        -117.117621,
-                        32.56343
-                    ],
                     [
                         -117.117453,
                         32.56343
@@ -4602,6 +4525,55 @@
                     [
                         -124.315453,
                         48.064133
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "hex": "A0F9B2",
+                "flight": "TROY308 ",
+                "type": "BE30",
+                "description": "BEECH 300 Super King Air",
+                "operator": "DEPARTMENT OF HOMELAND SECURITY",
+                "altitude": 250,
+                "ground_speed": 138.5,
+                "track": 94.97,
+                "squawk": "4404",
+                "rssi": -5.4,
+                "api_source": "https://api.airplanes.live/v2/hex/",
+                "last_seen": "2025-12-01T21:22:02.501909+00:00",
+                "nav_qnh": 1014.4,
+                "nav_altitude_mcp": 16512,
+                "category": "A2"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -72.272072,
+                        21.772994
+                    ],
+                    [
+                        -72.272072,
+                        21.772994
+                    ],
+                    [
+                        -72.279409,
+                        21.774297
+                    ],
+                    [
+                        -72.279409,
+                        21.774297
+                    ],
+                    [
+                        -72.261302,
+                        21.773226
+                    ],
+                    [
+                        -72.259727,
+                        21.773117
                     ]
                 ]
             }
