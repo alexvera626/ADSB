@@ -24,14 +24,6 @@
                 "type": "LineString",
                 "coordinates": [
                     [
-                        -118.256779,
-                        33.960183
-                    ],
-                    [
-                        -118.25706,
-                        33.960617
-                    ],
-                    [
                         -118.288136,
                         33.978106
                     ],
@@ -504,14 +496,6 @@
             "geometry": {
                 "type": "LineString",
                 "coordinates": [
-                    [
-                        -117.311023,
-                        32.575333
-                    ],
-                    [
-                        -117.310419,
-                        32.574554
-                    ],
                     [
                         -117.324736,
                         32.587777
@@ -1350,14 +1334,6 @@
                 "type": "LineString",
                 "coordinates": [
                     [
-                        -81.633362,
-                        30.599158
-                    ],
-                    [
-                        -81.633642,
-                        30.597107
-                    ],
-                    [
                         -81.647913,
                         30.475983
                     ],
@@ -1470,14 +1446,6 @@
             "geometry": {
                 "type": "LineString",
                 "coordinates": [
-                    [
-                        -73.529358,
-                        22.50419
-                    ],
-                    [
-                        -73.526408,
-                        22.502235
-                    ],
                     [
                         -73.407796,
                         22.422677
@@ -1604,6 +1572,47 @@
         {
             "type": "Feature",
             "properties": {
+                "hex": "A19F67",
+                "flight": "N       ",
+                "type": "AS50",
+                "description": "AEROSPATIALE AS-350 Ecureuil",
+                "operator": "DEPARTMENT OF HOMELAND SECURITY",
+                "altitude": 550,
+                "ground_speed": 50.0,
+                "track": 357.71,
+                "squawk": "4401",
+                "rssi": -13.8,
+                "api_source": "https://api.airplanes.live/v2/hex/",
+                "last_seen": "2025-12-01T16:56:02.847138+00:00",
+                "nav_qnh": 1028.0,
+                "nav_altitude_mcp": 1696,
+                "category": "A7"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -88.27034,
+                        41.845276
+                    ],
+                    [
+                        -88.27042,
+                        41.845574
+                    ],
+                    [
+                        -88.262499,
+                        41.906231
+                    ],
+                    [
+                        -88.262499,
+                        41.906231
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
                 "hex": "AE277C",
                 "flight": "GH21    ",
                 "type": "Unknown",
@@ -1623,14 +1632,6 @@
             "geometry": {
                 "type": "LineString",
                 "coordinates": [
-                    [
-                        -117.292954,
-                        32.869139
-                    ],
-                    [
-                        -117.29295,
-                        32.86908
-                    ],
                     [
                         -117.331014,
                         32.840416
@@ -2101,59 +2102,18 @@
         {
             "type": "Feature",
             "properties": {
-                "hex": "A19F67",
-                "flight": "N       ",
-                "type": "AS50",
-                "description": "AEROSPATIALE AS-350 Ecureuil",
-                "operator": "DEPARTMENT OF HOMELAND SECURITY",
-                "altitude": 550,
-                "ground_speed": 50.0,
-                "track": 357.71,
-                "squawk": "4401",
-                "rssi": -13.8,
-                "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-12-01T16:56:02.847138+00:00",
-                "nav_qnh": 1028.0,
-                "nav_altitude_mcp": 1696,
-                "category": "A7"
-            },
-            "geometry": {
-                "type": "LineString",
-                "coordinates": [
-                    [
-                        -88.27034,
-                        41.845276
-                    ],
-                    [
-                        -88.27042,
-                        41.845574
-                    ],
-                    [
-                        -88.262499,
-                        41.906231
-                    ],
-                    [
-                        -88.262499,
-                        41.906231
-                    ]
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
                 "hex": "AE2761",
                 "flight": "FFAB123 ",
                 "type": "H60",
                 "description": "SIKORSKY UH-60 Black Hawk",
                 "operator": "Unknown",
-                "altitude": 200,
-                "ground_speed": 54.4,
-                "track": 17.1,
-                "squawk": "1200",
-                "rssi": -16.5,
-                "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-12-01T20:52:02.091642+00:00",
+                "altitude": "ground",
+                "ground_speed": 0.0,
+                "track": 0.0,
+                "squawk": "N/A",
+                "rssi": -0.6,
+                "api_source": "https://opendata.adsb.fi/api/v2/hex/",
+                "last_seen": "2025-12-01T20:54:02.044849+00:00",
                 "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
                 "category": "A7"
@@ -2840,6 +2800,10 @@
                     [
                         -117.112969,
                         32.559427
+                    ],
+                    [
+                        -117.117513,
+                        32.563328
                     ]
                 ]
             }
@@ -2852,13 +2816,13 @@
                 "type": "H60",
                 "description": "SIKORSKY UH-60 Black Hawk",
                 "operator": "Unknown",
-                "altitude": -50,
-                "ground_speed": 28.6,
-                "track": 77.91,
+                "altitude": 675,
+                "ground_speed": 111.0,
+                "track": 271.03,
                 "squawk": "1200",
-                "rssi": -12.6,
+                "rssi": -22.4,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-12-01T20:44:02.399740+00:00",
+                "last_seen": "2025-12-01T20:54:02.045113+00:00",
                 "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
                 "category": "A7"
@@ -3537,6 +3501,14 @@
                     [
                         -117.110222,
                         32.566083
+                    ],
+                    [
+                        -117.131018,
+                        32.565665
+                    ],
+                    [
+                        -117.131522,
+                        32.565665
                     ]
                 ]
             }
@@ -4762,13 +4734,13 @@
                 "type": "AS50",
                 "description": "AEROSPATIALE AS-350 Ecureuil",
                 "operator": "TINY BUBBLES AVIATION INC",
-                "altitude": 1425,
-                "ground_speed": 108.6,
-                "track": 338.39,
+                "altitude": "ground",
+                "ground_speed": 8.2,
+                "track": 329.06,
                 "squawk": "0263",
-                "rssi": -7.1,
+                "rssi": -12.1,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-12-01T20:52:02.091752+00:00",
+                "last_seen": "2025-12-01T20:54:02.045193+00:00",
                 "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
                 "category": "A7"
@@ -4991,6 +4963,14 @@
                     [
                         -118.393044,
                         34.217514
+                    ],
+                    [
+                        -118.409672,
+                        34.256256
+                    ],
+                    [
+                        -118.410316,
+                        34.257128
                     ]
                 ]
             }
@@ -5003,13 +4983,13 @@
                 "type": "B350",
                 "description": "BEECHCRAFT Super King Air 350",
                 "operator": "DEPARTMENT OF HOMELAND SECURITY",
-                "altitude": 2175,
-                "ground_speed": 160.5,
-                "track": 277.88,
+                "altitude": 2200,
+                "ground_speed": 161.1,
+                "track": 279.29,
                 "squawk": "4402",
-                "rssi": -31.6,
+                "rssi": -30.7,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-12-01T20:52:02.091658+00:00",
+                "last_seen": "2025-12-01T20:54:02.045130+00:00",
                 "nav_qnh": 1024.8,
                 "nav_altitude_mcp": 2496,
                 "category": "A2"
@@ -5120,6 +5100,14 @@
                     [
                         -123.662977,
                         48.216573
+                    ],
+                    [
+                        -123.793078,
+                        48.229841
+                    ],
+                    [
+                        -123.793078,
+                        48.229841
                     ]
                 ]
             }
