@@ -4,6 +4,43 @@
         {
             "type": "Feature",
             "properties": {
+                "hex": "AE2BF0",
+                "flight": "ST703   ",
+                "type": "H60",
+                "description": "SIKORSKY UH-60 Black Hawk",
+                "operator": "Unknown",
+                "altitude": 1400,
+                "ground_speed": 82.4,
+                "track": 236.89,
+                "squawk": "N/A",
+                "rssi": -27.6,
+                "api_source": "https://opendata.adsb.fi/api/v2/hex/",
+                "last_seen": "2025-12-02T04:22:02.661937+00:00",
+                "nav_qnh": 0.0,
+                "nav_altitude_mcp": 0,
+                "category": "A7"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -158.513938,
+                        21.370514
+                    ],
+                    [
+                        -158.553975,
+                        21.345644
+                    ],
+                    [
+                        -158.581504,
+                        21.328766
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
                 "hex": "A7FB70",
                 "flight": "REH80   ",
                 "type": "AS50",
@@ -23,22 +60,6 @@
             "geometry": {
                 "type": "LineString",
                 "coordinates": [
-                    [
-                        -121.656328,
-                        38.601105
-                    ],
-                    [
-                        -121.65741,
-                        38.601395
-                    ],
-                    [
-                        -121.709961,
-                        38.631328
-                    ],
-                    [
-                        -121.710245,
-                        38.631775
-                    ],
                     [
                         -121.728516,
                         38.681625
@@ -130,47 +151,6 @@
                     [
                         -122.131775,
                         39.162396
-                    ]
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "hex": "AE2BF0",
-                "flight": "ST703   ",
-                "type": "H60",
-                "description": "SIKORSKY UH-60 Black Hawk",
-                "operator": "Unknown",
-                "altitude": 1400,
-                "ground_speed": 82.4,
-                "track": 236.89,
-                "squawk": "N/A",
-                "rssi": -27.6,
-                "api_source": "https://opendata.adsb.fi/api/v2/hex/",
-                "last_seen": "2025-12-02T04:22:02.661937+00:00",
-                "nav_qnh": 0.0,
-                "nav_altitude_mcp": 0,
-                "category": "A7"
-            },
-            "geometry": {
-                "type": "LineString",
-                "coordinates": [
-                    [
-                        -158.427887,
-                        21.417195
-                    ],
-                    [
-                        -158.513938,
-                        21.370514
-                    ],
-                    [
-                        -158.553975,
-                        21.345644
-                    ],
-                    [
-                        -158.581504,
-                        21.328766
                     ]
                 ]
             }
