@@ -58,15 +58,15 @@
                 "type": "CN35",
                 "description": "CASA HC-144B Ocean Sentry",
                 "operator": "United States Coast Guard",
-                "altitude": 800,
-                "ground_speed": 140.2,
-                "track": 75.96,
+                "altitude": 2400,
+                "ground_speed": 146.2,
+                "track": 93.14,
                 "squawk": "4551",
-                "rssi": -12.9,
+                "rssi": -12.4,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-12-02T14:04:02.351954+00:00",
+                "last_seen": "2025-12-02T14:06:02.527669+00:00",
                 "nav_qnh": 1016.0,
-                "nav_altitude_mcp": 2016,
+                "nav_altitude_mcp": 7008,
                 "category": "A2"
             },
             "geometry": {
@@ -79,6 +79,43 @@
                     [
                         -80.24826,
                         25.916981
+                    ],
+                    [
+                        -80.156039,
+                        25.931784
+                    ],
+                    [
+                        -80.15568,
+                        25.931763
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "hex": "AE2125",
+                "flight": "C2701   ",
+                "type": "C27J",
+                "description": "ALENIA C-27J Spartan",
+                "operator": "Unknown",
+                "altitude": "ground",
+                "ground_speed": 15.5,
+                "track": 0.0,
+                "squawk": "7377",
+                "rssi": -28.3,
+                "api_source": "https://opendata.adsb.fi/api/v2/hex/",
+                "last_seen": "2025-12-02T14:06:02.526925+00:00",
+                "nav_qnh": 0.0,
+                "nav_altitude_mcp": 0,
+                "category": "A2"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -97.647599,
+                        26.221973
                     ]
                 ]
             }
