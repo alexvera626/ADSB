@@ -10,12 +10,12 @@
                 "description": "SIKORSKY UH-60 Black Hawk",
                 "operator": "Unknown",
                 "altitude": 125,
-                "ground_speed": 83.5,
-                "track": 258.96,
+                "ground_speed": 67.9,
+                "track": 225.0,
                 "squawk": "1200",
-                "rssi": -23.6,
+                "rssi": -20.4,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-12-03T04:34:01.903566+00:00",
+                "last_seen": "2025-12-03T04:36:02.601893+00:00",
                 "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
                 "category": "A7"
@@ -398,6 +398,14 @@
                     [
                         -117.533496,
                         33.263809
+                    ],
+                    [
+                        -117.522015,
+                        33.260193
+                    ],
+                    [
+                        -117.522265,
+                        33.259991
                     ]
                 ]
             }
@@ -424,22 +432,6 @@
             "geometry": {
                 "type": "LineString",
                 "coordinates": [
-                    [
-                        -117.872658,
-                        33.803116
-                    ],
-                    [
-                        -117.872658,
-                        33.803116
-                    ],
-                    [
-                        -117.902355,
-                        33.810239
-                    ],
-                    [
-                        -117.902355,
-                        33.810239
-                    ],
                     [
                         -117.927302,
                         33.804886
@@ -814,55 +806,6 @@
         {
             "type": "Feature",
             "properties": {
-                "hex": "A44360",
-                "flight": "UAV14   ",
-                "type": "Q9",
-                "description": "GENERAL ATOMICS MQ-9 Reaper",
-                "operator": "GENERAL ATOMICS AERONAUTICAL SYSTEMS INC",
-                "altitude": "ground",
-                "ground_speed": 0.0,
-                "track": 0.0,
-                "squawk": "1200",
-                "rssi": -3.7,
-                "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-12-03T03:20:02.912758+00:00",
-                "nav_qnh": 0.0,
-                "nav_altitude_mcp": 0,
-                "category": "B6"
-            },
-            "geometry": {
-                "type": "LineString",
-                "coordinates": [
-                    [
-                        -117.672186,
-                        34.56499
-                    ],
-                    [
-                        -117.672186,
-                        34.56499
-                    ],
-                    [
-                        -117.672164,
-                        34.56498
-                    ],
-                    [
-                        -117.672164,
-                        34.56498
-                    ],
-                    [
-                        -117.672186,
-                        34.565071
-                    ],
-                    [
-                        -117.672186,
-                        34.565071
-                    ]
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
                 "hex": "AE1841",
                 "flight": "RS44    ",
                 "type": "H60",
@@ -882,22 +825,6 @@
             "geometry": {
                 "type": "LineString",
                 "coordinates": [
-                    [
-                        -117.218188,
-                        32.689362
-                    ],
-                    [
-                        -117.218134,
-                        32.689545
-                    ],
-                    [
-                        -117.246204,
-                        32.636032
-                    ],
-                    [
-                        -117.246204,
-                        32.636032
-                    ],
                     [
                         -117.312853,
                         32.638472
@@ -1291,22 +1218,6 @@
             "geometry": {
                 "type": "LineString",
                 "coordinates": [
-                    [
-                        -117.991202,
-                        33.782913
-                    ],
-                    [
-                        -117.991202,
-                        33.782913
-                    ],
-                    [
-                        -117.996025,
-                        33.727701
-                    ],
-                    [
-                        -117.996025,
-                        33.727701
-                    ],
                     [
                         -118.01026,
                         33.723358
@@ -2609,6 +2520,39 @@
                     [
                         -117.213258,
                         32.709446
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "hex": "A44360",
+                "flight": "UAV14   ",
+                "type": "Q9",
+                "description": "GENERAL ATOMICS MQ-9 Reaper",
+                "operator": "GENERAL ATOMICS AERONAUTICAL SYSTEMS INC",
+                "altitude": "ground",
+                "ground_speed": 0.0,
+                "track": 0.0,
+                "squawk": "1200",
+                "rssi": -3.7,
+                "api_source": "https://api.airplanes.live/v2/hex/",
+                "last_seen": "2025-12-03T03:20:02.912758+00:00",
+                "nav_qnh": 0.0,
+                "nav_altitude_mcp": 0,
+                "category": "B6"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -117.672186,
+                        34.565071
+                    ],
+                    [
+                        -117.672186,
+                        34.565071
                     ]
                 ]
             }
