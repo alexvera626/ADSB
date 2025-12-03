@@ -24,14 +24,6 @@
                 "type": "LineString",
                 "coordinates": [
                     [
-                        -152.17358,
-                        58.111862
-                    ],
-                    [
-                        -152.172363,
-                        58.112043
-                    ],
-                    [
                         -152.018555,
                         58.117164
                     ],
@@ -473,14 +465,6 @@
                 "type": "LineString",
                 "coordinates": [
                     [
-                        -123.476116,
-                        48.129428
-                    ],
-                    [
-                        -123.475891,
-                        48.129822
-                    ],
-                    [
                         -123.422875,
                         48.141671
                     ],
@@ -513,14 +497,6 @@
             "geometry": {
                 "type": "LineString",
                 "coordinates": [
-                    [
-                        -88.062044,
-                        30.671265
-                    ],
-                    [
-                        -88.062367,
-                        30.671219
-                    ],
                     [
                         -88.122146,
                         30.672958
@@ -564,13 +540,13 @@
                 "type": "H60",
                 "description": "Sikorsky MH-60T Jayhawk",
                 "operator": "Unknown",
-                "altitude": 500,
-                "ground_speed": 80.1,
-                "track": 245.67,
+                "altitude": 450,
+                "ground_speed": 67.1,
+                "track": 349.7,
                 "squawk": "5553",
-                "rssi": -9.3,
+                "rssi": -13.0,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-12-03T06:46:01.968597+00:00",
+                "last_seen": "2025-12-03T06:48:02.488183+00:00",
                 "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
                 "category": "A7"
@@ -578,14 +554,6 @@
             "geometry": {
                 "type": "LineString",
                 "coordinates": [
-                    [
-                        -152.527742,
-                        57.724686
-                    ],
-                    [
-                        -152.528155,
-                        57.724263
-                    ],
                     [
                         -152.423767,
                         57.743908
@@ -1457,6 +1425,14 @@
                     [
                         -152.46405,
                         57.733759
+                    ],
+                    [
+                        -152.527978,
+                        57.721051
+                    ],
+                    [
+                        -152.527978,
+                        57.721051
                     ]
                 ]
             }
@@ -1483,14 +1459,6 @@
             "geometry": {
                 "type": "LineString",
                 "coordinates": [
-                    [
-                        -120.508735,
-                        37.657129
-                    ],
-                    [
-                        -120.507864,
-                        37.656097
-                    ],
                     [
                         -120.402932,
                         37.529064
@@ -2005,10 +1973,6 @@
                 "type": "LineString",
                 "coordinates": [
                     [
-                        -117.583811,
-                        32.662447
-                    ],
-                    [
                         -117.584143,
                         32.66217
                     ],
@@ -2158,47 +2122,6 @@
         {
             "type": "Feature",
             "properties": {
-                "hex": "AE6CE9",
-                "flight": "C6055   ",
-                "type": "H60",
-                "description": "Sikorsky MH-60T Jayhawk",
-                "operator": "United States Coastguard",
-                "altitude": 425,
-                "ground_speed": 72.0,
-                "track": 180.0,
-                "squawk": "4716",
-                "rssi": -32.0,
-                "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-12-03T02:50:02.076531+00:00",
-                "nav_qnh": 0.0,
-                "nav_altitude_mcp": 0,
-                "category": "A7"
-            },
-            "geometry": {
-                "type": "LineString",
-                "coordinates": [
-                    [
-                        -119.101868,
-                        34.144251
-                    ],
-                    [
-                        -119.101238,
-                        34.143925
-                    ],
-                    [
-                        -119.098803,
-                        34.138733
-                    ],
-                    [
-                        -119.098803,
-                        34.138733
-                    ]
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
                 "hex": "AE26BA",
                 "flight": "C6603   ",
                 "type": "AS65",
@@ -2218,10 +2141,6 @@
             "geometry": {
                 "type": "LineString",
                 "coordinates": [
-                    [
-                        -124.224722,
-                        40.742705
-                    ],
                     [
                         -124.217543,
                         40.75937
@@ -2312,10 +2231,6 @@
                 "type": "LineString",
                 "coordinates": [
                     [
-                        -123.926593,
-                        40.716217
-                    ],
-                    [
                         -123.92218,
                         40.72641
                     ],
@@ -2390,6 +2305,39 @@
                     [
                         -124.112674,
                         40.976606
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "hex": "AE6CE9",
+                "flight": "C6055   ",
+                "type": "H60",
+                "description": "Sikorsky MH-60T Jayhawk",
+                "operator": "United States Coastguard",
+                "altitude": 425,
+                "ground_speed": 72.0,
+                "track": 180.0,
+                "squawk": "4716",
+                "rssi": -32.0,
+                "api_source": "https://api.airplanes.live/v2/hex/",
+                "last_seen": "2025-12-03T02:50:02.076531+00:00",
+                "nav_qnh": 0.0,
+                "nav_altitude_mcp": 0,
+                "category": "A7"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -119.098803,
+                        34.138733
+                    ],
+                    [
+                        -119.098803,
+                        34.138733
                     ]
                 ]
             }
@@ -3479,12 +3427,12 @@
                 "description": "Eurocopter MH-65D Dolphin",
                 "operator": "Unknown",
                 "altitude": 450,
-                "ground_speed": 94.3,
-                "track": 4.86,
+                "ground_speed": 82.3,
+                "track": 229.93,
                 "squawk": "1277",
-                "rssi": -23.3,
+                "rssi": -19.6,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-12-03T06:46:01.968578+00:00",
+                "last_seen": "2025-12-03T06:48:02.488164+00:00",
                 "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
                 "category": "A7"
@@ -3571,6 +3519,14 @@
                     [
                         -80.046439,
                         25.998779
+                    ],
+                    [
+                        -80.070432,
+                        26.01709
+                    ],
+                    [
+                        -80.070432,
+                        26.01709
                     ]
                 ]
             }
