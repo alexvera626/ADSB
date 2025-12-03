@@ -4322,13 +4322,13 @@
                 "type": "AS65",
                 "description": "Eurocopter MH-65D Dolphin",
                 "operator": "Unknown",
-                "altitude": 225,
-                "ground_speed": 97.4,
-                "track": 342.68,
+                "altitude": 0,
+                "ground_speed": 0.0,
+                "track": 0.0,
                 "squawk": "1200",
-                "rssi": -23.7,
-                "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-12-03T16:46:02.276857+00:00",
+                "rssi": -14.3,
+                "api_source": "https://opendata.adsb.fi/api/v2/hex/",
+                "last_seen": "2025-12-03T16:48:02.316715+00:00",
                 "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
                 "category": "A7"
@@ -4964,13 +4964,13 @@
                 "type": "AS65",
                 "description": "Eurocopter MH-65D Dolphin",
                 "operator": "Unknown",
-                "altitude": 1300,
-                "ground_speed": 84.3,
-                "track": 274.76,
+                "altitude": 1325,
+                "ground_speed": 101.9,
+                "track": 316.59,
                 "squawk": "0401",
-                "rssi": -4.3,
+                "rssi": -10.6,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-12-03T16:46:02.276874+00:00",
+                "last_seen": "2025-12-03T16:48:02.317039+00:00",
                 "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
                 "category": "A7"
@@ -4993,6 +4993,76 @@
                     [
                         -81.966248,
                         30.225484
+                    ],
+                    [
+                        -82.023226,
+                        30.241241
+                    ],
+                    [
+                        -82.02398,
+                        30.241928
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "hex": "AE223E",
+                "flight": "C2307   ",
+                "type": "CN35",
+                "description": "CASA HC-144B Ocean Sentry",
+                "operator": "United States Coast Guard",
+                "altitude": 4900,
+                "ground_speed": 163.6,
+                "track": 30.48,
+                "squawk": "6251",
+                "rssi": -27.6,
+                "api_source": "https://api.airplanes.live/v2/hex/",
+                "last_seen": "2025-12-03T16:48:02.317023+00:00",
+                "nav_qnh": 1015.2,
+                "nav_altitude_mcp": 15008,
+                "category": "A2"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -96.911316,
+                        34.384088
+                    ],
+                    [
+                        -96.911316,
+                        34.384088
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "hex": "AE269E",
+                "flight": "Unknown",
+                "type": "AS65",
+                "description": "Eurocopter MH-65D Dolphin",
+                "operator": "Unknown",
+                "altitude": 575,
+                "ground_speed": 82.4,
+                "track": 123.11,
+                "squawk": "0343",
+                "rssi": -24.7,
+                "api_source": "https://api.airplanes.live/v2/hex/",
+                "last_seen": "2025-12-03T16:48:02.317055+00:00",
+                "nav_qnh": 0.0,
+                "nav_altitude_mcp": 0,
+                "category": "Unknown"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -88.239771,
+                        30.701946
                     ]
                 ]
             }
