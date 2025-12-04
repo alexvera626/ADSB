@@ -9,13 +9,13 @@
                 "type": "AS50",
                 "description": "AEROSPATIALE AS-350 Ecureuil",
                 "operator": "LAPD AIR SUPPORT DIVISION",
-                "altitude": 575,
-                "ground_speed": 55.4,
-                "track": 159.93,
+                "altitude": 625,
+                "ground_speed": 56.4,
+                "track": 119.74,
                 "squawk": "1200",
-                "rssi": -7.4,
+                "rssi": -10.8,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-12-04T22:00:02.376130+00:00",
+                "last_seen": "2025-12-04T22:02:02.295361+00:00",
                 "nav_qnh": 1020.0,
                 "nav_altitude_mcp": 10016,
                 "category": "A7"
@@ -410,6 +410,14 @@
                     [
                         -118.293494,
                         34.092682
+                    ],
+                    [
+                        -118.293228,
+                        34.092206
+                    ],
+                    [
+                        -118.292713,
+                        34.09188
                     ]
                 ]
             }
@@ -1802,14 +1810,14 @@
                 "flight": "N183SD  ",
                 "type": "AS50",
                 "description": "AEROSPATIALE AS-350 Ecureuil",
-                "operator": "ORANGE COUNTY SHERIFF'S DEPARTMENT, C/O CORONER AIR SUPPORT",
-                "altitude": -125,
+                "operator": "ORANGE COUNTY SHERIFF'S DEPARTMENT",
+                "altitude": "ground",
                 "ground_speed": 0.0,
                 "track": 0.0,
-                "squawk": "4204",
-                "rssi": -15.8,
-                "api_source": "https://opendata.adsb.fi/api/v2/hex/",
-                "last_seen": "2025-12-04T22:00:02.376011+00:00",
+                "squawk": "N/A",
+                "rssi": -7.7,
+                "api_source": "https://api.airplanes.live/v2/hex/",
+                "last_seen": "2025-12-04T22:02:02.295564+00:00",
                 "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
                 "category": "A7"
@@ -1920,6 +1928,14 @@
                     [
                         -117.871456,
                         33.675074
+                    ],
+                    [
+                        -117.871446,
+                        33.675087
+                    ],
+                    [
+                        -117.87146,
+                        33.675087
                     ]
                 ]
             }
@@ -3242,6 +3258,39 @@
                     [
                         -117.999722,
                         33.70578
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "hex": "A154D3",
+                "flight": "N185SD  ",
+                "type": "AS50",
+                "description": "AEROSPATIALE AS-350 Ecureuil",
+                "operator": "ORANGE COUNTY SHERIFF'S DEPARTMENT",
+                "altitude": 100,
+                "ground_speed": 65.2,
+                "track": 212.47,
+                "squawk": "4204",
+                "rssi": -8.9,
+                "api_source": "https://api.airplanes.live/v2/hex/",
+                "last_seen": "2025-12-04T22:02:02.295581+00:00",
+                "nav_qnh": 1020.0,
+                "nav_altitude_mcp": 992,
+                "category": "A7"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -117.874164,
+                        33.670578
+                    ],
+                    [
+                        -117.874388,
+                        33.670349
                     ]
                 ]
             }
