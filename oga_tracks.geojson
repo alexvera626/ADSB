@@ -6,16 +6,16 @@
             "properties": {
                 "hex": "AE4F4D",
                 "flight": "LW21    ",
-                "type": "H60",
+                "type": "Unknown",
                 "description": "Unknown",
                 "operator": "Unknown",
                 "altitude": "ground",
-                "ground_speed": 8.8,
+                "ground_speed": 5.8,
                 "track": 0.0,
                 "squawk": "N/A",
-                "rssi": -17.4,
-                "api_source": "https://opendata.adsb.fi/api/v2/hex/",
-                "last_seen": "2025-12-05T00:38:02.204981+00:00",
+                "rssi": -26.7,
+                "api_source": "https://api.airplanes.live/v2/hex/",
+                "last_seen": "2025-12-05T00:40:01.958351+00:00",
                 "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
                 "category": "A7"
@@ -23,14 +23,6 @@
             "geometry": {
                 "type": "LineString",
                 "coordinates": [
-                    [
-                        -117.229782,
-                        32.695452
-                    ],
-                    [
-                        -117.229724,
-                        32.69577
-                    ],
                     [
                         -117.213135,
                         32.709503
@@ -70,67 +62,14 @@
                     [
                         -117.214453,
                         32.704193
-                    ]
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "hex": "AC4597",
-                "flight": "REH46   ",
-                "type": "EC35",
-                "description": "AIRBUS HELICOPTERS EC-135/635",
-                "operator": "REACH AIR MEDICAL SERVICES LLC",
-                "altitude": 875,
-                "ground_speed": 102.8,
-                "track": 190.65,
-                "squawk": "N/A",
-                "rssi": -33.5,
-                "api_source": "https://opendata.adsb.fi/api/v2/hex/",
-                "last_seen": "2025-12-04T21:32:02.503664+00:00",
-                "nav_qnh": 1015.2,
-                "nav_altitude_mcp": 0,
-                "category": "A7"
-            },
-            "geometry": {
-                "type": "LineString",
-                "coordinates": [
-                    [
-                        -156.012851,
-                        19.780511
                     ],
                     [
-                        -156.010715,
-                        19.752045
+                        -117.204559,
+                        32.694998
                     ],
                     [
-                        -155.970154,
-                        19.786743
-                    ],
-                    [
-                        -155.915672,
-                        19.831998
-                    ],
-                    [
-                        -155.860683,
-                        19.879761
-                    ],
-                    [
-                        -155.904535,
-                        19.863514
-                    ],
-                    [
-                        -155.958319,
-                        19.822688
-                    ],
-                    [
-                        -156.011156,
-                        19.78157
-                    ],
-                    [
-                        -156.02744,
-                        19.748291
+                        -117.20451,
+                        32.695084
                     ]
                 ]
             }
@@ -143,28 +82,20 @@
                 "type": "AS50",
                 "description": "AEROSPATIALE AS-350 Ecureuil",
                 "operator": "CITY OF ANAHEIM",
-                "altitude": 800,
-                "ground_speed": 61.0,
-                "track": 271.88,
+                "altitude": 1000,
+                "ground_speed": 68.0,
+                "track": 271.68,
                 "squawk": "4301",
-                "rssi": -4.5,
+                "rssi": -5.7,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-12-05T00:38:02.205568+00:00",
-                "nav_qnh": 1020.0,
+                "last_seen": "2025-12-05T00:40:01.958370+00:00",
+                "nav_qnh": 1019.2,
                 "nav_altitude_mcp": 4000,
                 "category": "A7"
             },
             "geometry": {
                 "type": "LineString",
                 "coordinates": [
-                    [
-                        -117.942123,
-                        33.832025
-                    ],
-                    [
-                        -117.941932,
-                        33.832306
-                    ],
                     [
                         -117.925116,
                         33.863983
@@ -328,6 +259,14 @@
                     [
                         -117.924728,
                         33.800556
+                    ],
+                    [
+                        -117.965362,
+                        33.802826
+                    ],
+                    [
+                        -117.965698,
+                        33.802837
                     ]
                 ]
             }
@@ -354,14 +293,6 @@
             "geometry": {
                 "type": "LineString",
                 "coordinates": [
-                    [
-                        -117.91317,
-                        33.88272
-                    ],
-                    [
-                        -117.913799,
-                        33.882674
-                    ],
                     [
                         -117.974339,
                         33.873084
@@ -407,14 +338,6 @@
             "geometry": {
                 "type": "LineString",
                 "coordinates": [
-                    [
-                        -118.101196,
-                        34.179817
-                    ],
-                    [
-                        -118.101196,
-                        34.179817
-                    ],
                     [
                         -118.097198,
                         34.181442
@@ -1463,6 +1386,63 @@
         {
             "type": "Feature",
             "properties": {
+                "hex": "AC4597",
+                "flight": "REH46   ",
+                "type": "EC35",
+                "description": "AIRBUS HELICOPTERS EC-135/635",
+                "operator": "REACH AIR MEDICAL SERVICES LLC",
+                "altitude": 875,
+                "ground_speed": 102.8,
+                "track": 190.65,
+                "squawk": "N/A",
+                "rssi": -33.5,
+                "api_source": "https://opendata.adsb.fi/api/v2/hex/",
+                "last_seen": "2025-12-04T21:32:02.503664+00:00",
+                "nav_qnh": 1015.2,
+                "nav_altitude_mcp": 0,
+                "category": "A7"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -156.010715,
+                        19.752045
+                    ],
+                    [
+                        -155.970154,
+                        19.786743
+                    ],
+                    [
+                        -155.915672,
+                        19.831998
+                    ],
+                    [
+                        -155.860683,
+                        19.879761
+                    ],
+                    [
+                        -155.904535,
+                        19.863514
+                    ],
+                    [
+                        -155.958319,
+                        19.822688
+                    ],
+                    [
+                        -156.011156,
+                        19.78157
+                    ],
+                    [
+                        -156.02744,
+                        19.748291
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
                 "hex": "A5F058",
                 "flight": "CFR601  ",
                 "type": "H60",
@@ -2237,13 +2217,13 @@
                 "type": "AS50",
                 "description": "AEROSPATIALE AS-350 Ecureuil",
                 "operator": "REACH AIR MEDICAL SERVICES LLC",
-                "altitude": 1275,
-                "ground_speed": 116.8,
-                "track": 335.19,
+                "altitude": 1250,
+                "ground_speed": 118.1,
+                "track": 334.95,
                 "squawk": "1200",
-                "rssi": -8.3,
+                "rssi": -13.2,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-12-05T00:38:02.205648+00:00",
+                "last_seen": "2025-12-05T00:40:01.958404+00:00",
                 "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
                 "category": "A7"
@@ -2342,6 +2322,14 @@
                     [
                         -121.902466,
                         38.746684
+                    ],
+                    [
+                        -121.936659,
+                        38.806412
+                    ],
+                    [
+                        -121.937012,
+                        38.807063
                     ]
                 ]
             }
@@ -2492,13 +2480,13 @@
                 "type": "Unknown",
                 "description": "Unknown",
                 "operator": "CITY OF HUNTINGTON BEACH",
-                "altitude": 825,
-                "ground_speed": 107.9,
-                "track": 122.51,
+                "altitude": 225,
+                "ground_speed": 77.2,
+                "track": 288.9,
                 "squawk": "4301",
-                "rssi": -7.2,
+                "rssi": -7.0,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-12-05T00:38:02.205590+00:00",
+                "last_seen": "2025-12-05T00:40:01.958387+00:00",
                 "nav_qnh": 1022.4,
                 "nav_altitude_mcp": 0,
                 "category": "A7"
@@ -2525,6 +2513,14 @@
                     [
                         -118.002581,
                         33.66893
+                    ],
+                    [
+                        -118.010616,
+                        33.658432
+                    ],
+                    [
+                        -118.011017,
+                        33.658525
                     ]
                 ]
             }
