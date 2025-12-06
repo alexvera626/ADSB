@@ -24,14 +24,6 @@
                 "type": "LineString",
                 "coordinates": [
                     [
-                        -118.650662,
-                        34.302612
-                    ],
-                    [
-                        -118.650662,
-                        34.302567
-                    ],
-                    [
                         -118.65296,
                         34.283295
                     ],
@@ -478,13 +470,13 @@
                 "type": "V22",
                 "description": "Bell/Boeing CMV-22B Osprey",
                 "operator": "Unknown",
-                "altitude": -25,
-                "ground_speed": 34.2,
-                "track": 15.26,
+                "altitude": "ground",
+                "ground_speed": 10.8,
+                "track": 0.0,
                 "squawk": "4677",
-                "rssi": -12.3,
+                "rssi": -6.5,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-12-06T23:30:02.261906+00:00",
+                "last_seen": "2025-12-06T23:32:02.499406+00:00",
                 "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
                 "category": "A7"
@@ -607,6 +599,14 @@
                     [
                         -117.214014,
                         32.702637
+                    ],
+                    [
+                        -117.211075,
+                        32.707306
+                    ],
+                    [
+                        -117.211075,
+                        32.707306
                     ]
                 ]
             }
@@ -619,13 +619,13 @@
                 "type": "AS50",
                 "description": "AEROSPATIALE AS-350 Ecureuil",
                 "operator": "CITY OF ANAHEIM",
-                "altitude": 1000,
-                "ground_speed": 67.6,
-                "track": 330.78,
+                "altitude": 900,
+                "ground_speed": 62.9,
+                "track": 17.57,
                 "squawk": "4301",
-                "rssi": -19.2,
+                "rssi": -6.6,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-12-06T23:30:02.261888+00:00",
+                "last_seen": "2025-12-06T23:32:02.499388+00:00",
                 "nav_qnh": 1015.2,
                 "nav_altitude_mcp": 4000,
                 "category": "A7"
@@ -744,6 +744,43 @@
                     [
                         -117.877639,
                         33.801956
+                    ],
+                    [
+                        -117.875509,
+                        33.800217
+                    ],
+                    [
+                        -117.875509,
+                        33.800217
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "hex": "AC4597",
+                "flight": "REH46   ",
+                "type": "EC35",
+                "description": "AIRBUS HELICOPTERS EC-135/635",
+                "operator": "REACH AIR MEDICAL SERVICES LLC",
+                "altitude": 5075,
+                "ground_speed": 111.1,
+                "track": 313.18,
+                "squawk": "2143",
+                "rssi": -35.6,
+                "api_source": "https://opendata.adsb.fi/api/v2/hex/",
+                "last_seen": "2025-12-06T23:32:02.498627+00:00",
+                "nav_qnh": 1014.4,
+                "nav_altitude_mcp": 0,
+                "category": "A7"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -156.142739,
+                        19.680145
                     ]
                 ]
             }
