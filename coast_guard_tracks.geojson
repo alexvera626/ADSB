@@ -24,22 +24,6 @@
                 "type": "LineString",
                 "coordinates": [
                     [
-                        -90.45974,
-                        41.659332
-                    ],
-                    [
-                        -90.45974,
-                        41.659332
-                    ],
-                    [
-                        -90.744761,
-                        41.639786
-                    ],
-                    [
-                        -90.744761,
-                        41.639786
-                    ],
-                    [
                         -91.03259,
                         41.61937
                     ],
@@ -785,22 +769,6 @@
                 "type": "LineString",
                 "coordinates": [
                     [
-                        -79.541067,
-                        25.682916
-                    ],
-                    [
-                        -79.541067,
-                        25.682916
-                    ],
-                    [
-                        -79.520518,
-                        25.681549
-                    ],
-                    [
-                        -79.520518,
-                        25.681549
-                    ],
-                    [
                         -79.51767,
                         25.694458
                     ],
@@ -1102,22 +1070,6 @@
                 "type": "LineString",
                 "coordinates": [
                     [
-                        -95.346909,
-                        29.519943
-                    ],
-                    [
-                        -95.346909,
-                        29.519943
-                    ],
-                    [
-                        -95.292083,
-                        29.50621
-                    ],
-                    [
-                        -95.29191,
-                        29.506112
-                    ],
-                    [
                         -95.24511,
                         29.485536
                     ],
@@ -1246,22 +1198,6 @@
             "geometry": {
                 "type": "LineString",
                 "coordinates": [
-                    [
-                        -122.489202,
-                        37.796173
-                    ],
-                    [
-                        -122.491656,
-                        37.794296
-                    ],
-                    [
-                        -122.492483,
-                        37.801627
-                    ],
-                    [
-                        -122.492483,
-                        37.801627
-                    ],
                     [
                         -122.517919,
                         37.76662
@@ -1420,6 +1356,76 @@
         {
             "type": "Feature",
             "properties": {
+                "hex": "AE4AE3",
+                "flight": "C2711   ",
+                "type": "C27J",
+                "description": "Alenia HC-27J Spartan",
+                "operator": "Unknown",
+                "altitude": 1500,
+                "ground_speed": 141.3,
+                "track": 262.27,
+                "squawk": "N/A",
+                "rssi": -28.6,
+                "api_source": "https://api.airplanes.live/v2/hex/",
+                "last_seen": "2025-12-06T18:18:02.335536+00:00",
+                "nav_qnh": 0.0,
+                "nav_altitude_mcp": 0,
+                "category": "A2"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -92.473737,
+                        31.417267
+                    ],
+                    [
+                        -92.519934,
+                        31.410703
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "hex": "AE4DFF",
+                "flight": "C6047   ",
+                "type": "H60",
+                "description": "Sikorsky MH-60T Jayhawk",
+                "operator": "Unknown",
+                "altitude": 1450,
+                "ground_speed": 137.0,
+                "track": 230.03,
+                "squawk": "1200",
+                "rssi": -25.7,
+                "api_source": "https://api.airplanes.live/v2/hex/",
+                "last_seen": "2025-12-06T20:12:02.423377+00:00",
+                "nav_qnh": 0.0,
+                "nav_altitude_mcp": 0,
+                "category": "A7"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -85.447038,
+                        45.032866
+                    ],
+                    [
+                        -85.441132,
+                        44.892883
+                    ],
+                    [
+                        -85.537608,
+                        44.852569
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
                 "hex": "AE2907",
                 "flight": "Unknown",
                 "type": "H60",
@@ -1439,10 +1445,6 @@
             "geometry": {
                 "type": "LineString",
                 "coordinates": [
-                    [
-                        -70.522551,
-                        41.658325
-                    ],
                     [
                         -70.534848,
                         41.671143
@@ -1546,80 +1548,6 @@
                     [
                         -70.554823,
                         41.669769
-                    ]
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "hex": "AE4DFF",
-                "flight": "C6047   ",
-                "type": "H60",
-                "description": "Sikorsky MH-60T Jayhawk",
-                "operator": "Unknown",
-                "altitude": 1450,
-                "ground_speed": 137.0,
-                "track": 230.03,
-                "squawk": "1200",
-                "rssi": -25.7,
-                "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-12-06T20:12:02.423377+00:00",
-                "nav_qnh": 0.0,
-                "nav_altitude_mcp": 0,
-                "category": "A7"
-            },
-            "geometry": {
-                "type": "LineString",
-                "coordinates": [
-                    [
-                        -85.478668,
-                        44.85498
-                    ],
-                    [
-                        -85.447038,
-                        45.032866
-                    ],
-                    [
-                        -85.441132,
-                        44.892883
-                    ],
-                    [
-                        -85.537608,
-                        44.852569
-                    ]
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "hex": "AE4AE3",
-                "flight": "C2711   ",
-                "type": "C27J",
-                "description": "Alenia HC-27J Spartan",
-                "operator": "Unknown",
-                "altitude": 1500,
-                "ground_speed": 141.3,
-                "track": 262.27,
-                "squawk": "N/A",
-                "rssi": -28.6,
-                "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-12-06T18:18:02.335536+00:00",
-                "nav_qnh": 0.0,
-                "nav_altitude_mcp": 0,
-                "category": "A2"
-            },
-            "geometry": {
-                "type": "LineString",
-                "coordinates": [
-                    [
-                        -92.473737,
-                        31.417267
-                    ],
-                    [
-                        -92.519934,
-                        31.410703
                     ]
                 ]
             }
@@ -2060,14 +1988,14 @@
                 "description": "Lockheed Martin HC-130J Hercules",
                 "operator": "Unknown",
                 "altitude": "ground",
-                "ground_speed": 23.5,
-                "track": 55.86,
+                "ground_speed": 5.2,
+                "track": 0.0,
                 "squawk": "1200",
-                "rssi": -8.6,
+                "rssi": -4.7,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-12-06T22:12:02.512186+00:00",
-                "nav_qnh": 1016.8,
-                "nav_altitude_mcp": 608,
+                "last_seen": "2025-12-06T22:14:02.703617+00:00",
+                "nav_qnh": 0.0,
+                "nav_altitude_mcp": 0,
                 "category": "A3"
             },
             "geometry": {
@@ -2688,6 +2616,14 @@
                     [
                         -158.072484,
                         21.30455
+                    ],
+                    [
+                        -158.073349,
+                        21.301804
+                    ],
+                    [
+                        -158.073349,
+                        21.301804
                     ]
                 ]
             }
