@@ -24,14 +24,6 @@
                 "type": "LineString",
                 "coordinates": [
                     [
-                        -156.304599,
-                        20.145538
-                    ],
-                    [
-                        -156.319607,
-                        20.157211
-                    ],
-                    [
                         -156.249057,
                         20.101582
                     ],
@@ -84,14 +76,6 @@
             "geometry": {
                 "type": "LineString",
                 "coordinates": [
-                    [
-                        -78.767118,
-                        42.64981
-                    ],
-                    [
-                        -78.766854,
-                        42.649109
-                    ],
                     [
                         -78.741058,
                         42.581751
@@ -245,22 +229,6 @@
             "geometry": {
                 "type": "LineString",
                 "coordinates": [
-                    [
-                        -117.16404,
-                        34.036203
-                    ],
-                    [
-                        -117.16404,
-                        34.036203
-                    ],
-                    [
-                        -117.164669,
-                        34.036296
-                    ],
-                    [
-                        -117.164669,
-                        34.036296
-                    ],
                     [
                         -117.239423,
                         34.051941
@@ -550,14 +518,6 @@
             "geometry": {
                 "type": "LineString",
                 "coordinates": [
-                    [
-                        -118.467034,
-                        34.158325
-                    ],
-                    [
-                        -118.466263,
-                        34.158123
-                    ],
                     [
                         -118.396797,
                         34.145042
@@ -866,12 +826,12 @@
                 "description": "AEROSPATIALE AS-350 Ecureuil",
                 "operator": "LAPD AIR SUPPORT DIVISION",
                 "altitude": "ground",
-                "ground_speed": 3.2,
+                "ground_speed": 0.0,
                 "track": 0.0,
                 "squawk": "1200",
-                "rssi": -11.5,
+                "rssi": -22.1,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-12-08T18:04:03.478366+00:00",
+                "last_seen": "2025-12-08T18:06:02.854698+00:00",
                 "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
                 "category": "A7"
@@ -1334,6 +1294,10 @@
                     [
                         -118.230015,
                         34.053967
+                    ],
+                    [
+                        -118.230071,
+                        34.05407
                     ]
                 ]
             }
@@ -2277,13 +2241,13 @@
                 "type": "H60",
                 "description": "SIKORSKY UH-60 Black Hawk",
                 "operator": "Unknown",
-                "altitude": 200,
-                "ground_speed": 66.8,
-                "track": 128.93,
+                "altitude": -225,
+                "ground_speed": 2.3,
+                "track": 296.57,
                 "squawk": "1200",
-                "rssi": -26.5,
+                "rssi": -28.9,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-12-08T18:04:03.478438+00:00",
+                "last_seen": "2025-12-08T18:06:02.854836+00:00",
                 "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
                 "category": "A7"
@@ -2402,6 +2366,14 @@
                     [
                         -117.126453,
                         32.555557
+                    ],
+                    [
+                        -117.117453,
+                        32.563244
+                    ],
+                    [
+                        -117.117453,
+                        32.563244
                     ]
                 ]
             }
@@ -2420,7 +2392,7 @@
                 "squawk": "1206",
                 "rssi": -13.0,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-12-08T18:04:03.478455+00:00",
+                "last_seen": "2025-12-08T18:06:02.854855+00:00",
                 "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
                 "category": "A7"
@@ -2467,6 +2439,76 @@
                     [
                         -118.408041,
                         34.258641
+                    ],
+                    [
+                        -118.408041,
+                        34.258583
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "hex": "AE4D35",
+                "flight": "Unknown",
+                "type": "H60",
+                "description": "SIKORSKY UH-60 Black Hawk",
+                "operator": "Unknown",
+                "altitude": "ground",
+                "ground_speed": 4.8,
+                "track": 286.88,
+                "squawk": "N/A",
+                "rssi": -8.7,
+                "api_source": "https://api.airplanes.live/v2/hex/",
+                "last_seen": "2025-12-08T18:06:02.854779+00:00",
+                "nav_qnh": 0.0,
+                "nav_altitude_mcp": 0,
+                "category": "Unknown"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -117.207491,
+                        32.713165
+                    ],
+                    [
+                        -117.207491,
+                        32.713165
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "hex": "A1511C",
+                "flight": "N184SD  ",
+                "type": "AS50",
+                "description": "AEROSPATIALE AS-350 Ecureuil",
+                "operator": "COUNTY OF ORANGE - AIR SUPPORT",
+                "altitude": 800,
+                "ground_speed": 106.1,
+                "track": 136.53,
+                "squawk": "4204",
+                "rssi": -4.2,
+                "api_source": "https://api.airplanes.live/v2/hex/",
+                "last_seen": "2025-12-08T18:06:02.854883+00:00",
+                "nav_qnh": 1021.6,
+                "nav_altitude_mcp": 0,
+                "category": "A7"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -117.867998,
+                        33.65625
+                    ],
+                    [
+                        -117.867998,
+                        33.65625
                     ]
                 ]
             }
