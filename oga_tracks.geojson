@@ -24,14 +24,6 @@
                 "type": "LineString",
                 "coordinates": [
                     [
-                        -118.468659,
-                        34.180298
-                    ],
-                    [
-                        -118.468659,
-                        34.180298
-                    ],
-                    [
                         -118.432225,
                         34.121933
                     ],
@@ -1334,13 +1326,13 @@
                 "type": "AS50",
                 "description": "AEROSPATIALE AS-350 Ecureuil",
                 "operator": "COUNTY OF RIVERSIDE CALIFORNIA",
-                "altitude": 1825,
-                "ground_speed": 111.2,
-                "track": 86.39,
-                "squawk": "0131",
-                "rssi": -28.5,
+                "altitude": 1950,
+                "ground_speed": 109.7,
+                "track": 83.72,
+                "squawk": "N/A",
+                "rssi": -12.5,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-12-09T18:02:01.991680+00:00",
+                "last_seen": "2025-12-09T18:04:03.085975+00:00",
                 "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
                 "category": "A7"
@@ -1415,6 +1407,14 @@
                     [
                         -117.18068,
                         33.694336
+                    ],
+                    [
+                        -117.119751,
+                        33.696533
+                    ],
+                    [
+                        -117.120438,
+                        33.696465
                     ]
                 ]
             }
@@ -1508,13 +1508,13 @@
                 "type": "H60",
                 "description": "SIKORSKY UH-60 Black Hawk",
                 "operator": "Unknown",
-                "altitude": 225,
-                "ground_speed": 85.2,
-                "track": 125.93,
+                "altitude": 350,
+                "ground_speed": 87.3,
+                "track": 140.11,
                 "squawk": "1200",
-                "rssi": -18.7,
+                "rssi": -18.9,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-12-09T18:02:01.991812+00:00",
+                "last_seen": "2025-12-09T18:04:03.086092+00:00",
                 "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
                 "category": "A7"
@@ -1593,6 +1593,14 @@
                     [
                         -117.193469,
                         32.603577
+                    ],
+                    [
+                        -117.153663,
+                        32.569668
+                    ],
+                    [
+                        -117.153663,
+                        32.569668
                     ]
                 ]
             }
@@ -1605,13 +1613,13 @@
                 "type": "B412",
                 "description": "BELL 412",
                 "operator": "COUNTY OF LOS ANGELES FIRE DEPARTMENT",
-                "altitude": 1200,
-                "ground_speed": 132.3,
-                "track": 231.14,
+                "altitude": 100,
+                "ground_speed": 92.6,
+                "track": 232.02,
                 "squawk": "1206",
-                "rssi": -7.1,
+                "rssi": -2.6,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-12-09T18:02:01.991663+00:00",
+                "last_seen": "2025-12-09T18:04:03.085959+00:00",
                 "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
                 "category": "A7"
@@ -1674,6 +1682,76 @@
                     [
                         -118.757858,
                         34.043139
+                    ],
+                    [
+                        -118.805648,
+                        33.999481
+                    ],
+                    [
+                        -118.805648,
+                        33.999481
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "hex": "AE4F4D",
+                "flight": "        ",
+                "type": "H60",
+                "description": "Unknown",
+                "operator": "Unknown",
+                "altitude": "ground",
+                "ground_speed": 0.1,
+                "track": 0.0,
+                "squawk": "N/A",
+                "rssi": -19.1,
+                "api_source": "https://opendata.adsb.fi/api/v2/hex/",
+                "last_seen": "2025-12-09T18:04:03.085270+00:00",
+                "nav_qnh": 0.0,
+                "nav_altitude_mcp": 0,
+                "category": "A7"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -117.204689,
+                        32.694878
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "hex": "A0F740",
+                "flight": "        ",
+                "type": "B350",
+                "description": "BEECHCRAFT Super King Air 350",
+                "operator": "DEPARTMENT OF HOMELAND SECURITY",
+                "altitude": 4325,
+                "ground_speed": 153.6,
+                "track": 195.48,
+                "squawk": "0022",
+                "rssi": -4.6,
+                "api_source": "https://api.airplanes.live/v2/hex/",
+                "last_seen": "2025-12-09T18:04:03.085991+00:00",
+                "nav_qnh": 1020.8,
+                "nav_altitude_mcp": 8992,
+                "category": "A2"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -122.571572,
+                        48.680746
+                    ],
+                    [
+                        -122.571572,
+                        48.680746
                     ]
                 ]
             }
