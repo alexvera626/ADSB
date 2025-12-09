@@ -10,12 +10,12 @@
                 "description": "SIKORSKY UH-60 Black Hawk",
                 "operator": "Unknown",
                 "altitude": -150,
-                "ground_speed": 0.7,
-                "track": 0.0,
+                "ground_speed": 1.2,
+                "track": 90.0,
                 "squawk": "1200",
-                "rssi": -13.9,
+                "rssi": -12.6,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-12-09T05:48:02.320811+00:00",
+                "last_seen": "2025-12-09T05:50:02.155245+00:00",
                 "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
                 "category": "A7"
@@ -23,14 +23,6 @@
             "geometry": {
                 "type": "LineString",
                 "coordinates": [
-                    [
-                        -117.196767,
-                        32.579956
-                    ],
-                    [
-                        -117.196545,
-                        32.57991
-                    ],
                     [
                         -117.239832,
                         32.569977
@@ -686,6 +678,14 @@
                     [
                         -117.298951,
                         32.879473
+                    ],
+                    [
+                        -117.298828,
+                        32.879608
+                    ],
+                    [
+                        -117.298828,
+                        32.879608
                     ]
                 ]
             }
@@ -712,14 +712,6 @@
             "geometry": {
                 "type": "LineString",
                 "coordinates": [
-                    [
-                        -117.282024,
-                        32.792281
-                    ],
-                    [
-                        -117.282024,
-                        32.792281
-                    ],
                     [
                         -117.272791,
                         32.730103
@@ -1258,14 +1250,6 @@
                 "type": "LineString",
                 "coordinates": [
                     [
-                        -117.397044,
-                        32.995807
-                    ],
-                    [
-                        -117.397044,
-                        32.995807
-                    ],
-                    [
                         -117.38562,
                         32.948776
                     ],
@@ -1370,14 +1354,6 @@
             "geometry": {
                 "type": "LineString",
                 "coordinates": [
-                    [
-                        -118.078967,
-                        32.707352
-                    ],
-                    [
-                        -118.078583,
-                        32.707031
-                    ],
                     [
                         -118.054358,
                         32.70488
@@ -1519,14 +1495,6 @@
             "geometry": {
                 "type": "LineString",
                 "coordinates": [
-                    [
-                        -118.346184,
-                        33.9814
-                    ],
-                    [
-                        -118.346184,
-                        33.9814
-                    ],
                     [
                         -118.336879,
                         33.986389
@@ -2400,14 +2368,6 @@
             "geometry": {
                 "type": "LineString",
                 "coordinates": [
-                    [
-                        -118.467579,
-                        34.147416
-                    ],
-                    [
-                        -118.467579,
-                        34.147416
-                    ],
                     [
                         -118.475876,
                         34.148813
@@ -3317,14 +3277,14 @@
                 "type": "B407",
                 "description": "BELL 407",
                 "operator": "SAN DIEGO COUNTY SHERIFF DEPARTMENT",
-                "altitude": "ground",
-                "ground_speed": 0.0,
-                "track": 267.19,
-                "squawk": "4267",
-                "rssi": -24.9,
-                "api_source": "https://opendata.adsb.fi/api/v2/hex/",
-                "last_seen": "2025-12-09T03:40:02.341652+00:00",
-                "nav_qnh": 0.0,
+                "altitude": 525,
+                "ground_speed": 62.2,
+                "track": 126.5,
+                "squawk": "N/A",
+                "rssi": -27.8,
+                "api_source": "https://api.airplanes.live/v2/hex/",
+                "last_seen": "2025-12-09T05:50:02.155281+00:00",
+                "nav_qnh": 1019.2,
                 "nav_altitude_mcp": 0,
                 "category": "A7"
             },
@@ -3438,6 +3398,14 @@
                     [
                         -116.973538,
                         32.819176
+                    ],
+                    [
+                        -116.969458,
+                        32.823486
+                    ],
+                    [
+                        -116.969137,
+                        32.823331
                     ]
                 ]
             }
@@ -3450,13 +3418,13 @@
                 "type": "Unknown",
                 "description": "Unknown",
                 "operator": "CITY OF HUNTINGTON BEACH",
-                "altitude": 775,
-                "ground_speed": 74.0,
-                "track": 179.23,
+                "altitude": 850,
+                "ground_speed": 51.1,
+                "track": 49.76,
                 "squawk": "4301",
-                "rssi": -17.5,
+                "rssi": -8.9,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-12-09T05:48:02.320847+00:00",
+                "last_seen": "2025-12-09T05:50:02.155264+00:00",
                 "nav_qnh": 1019.2,
                 "nav_altitude_mcp": 0,
                 "category": "A7"
@@ -3519,6 +3487,55 @@
                     [
                         -117.985261,
                         33.661652
+                    ],
+                    [
+                        -118.003646,
+                        33.661057
+                    ],
+                    [
+                        -118.003407,
+                        33.661225
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "hex": "A38627",
+                "flight": "REH81   ",
+                "type": "EC35",
+                "description": "AIRBUS HELICOPTERS EC-135/635",
+                "operator": "REACH AIR MEDICAL SERVICES LLC",
+                "altitude": 275,
+                "ground_speed": 92.3,
+                "track": 140.27,
+                "squawk": "1200",
+                "rssi": -9.4,
+                "api_source": "https://api.airplanes.live/v2/hex/",
+                "last_seen": "2025-12-09T05:50:02.155351+00:00",
+                "nav_qnh": 0.0,
+                "nav_altitude_mcp": 0,
+                "category": "A7"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -116.259384,
+                        33.734405
+                    ],
+                    [
+                        -116.259384,
+                        33.734405
+                    ],
+                    [
+                        -116.259041,
+                        33.734033
+                    ],
+                    [
+                        -116.259041,
+                        33.734033
                     ]
                 ]
             }
