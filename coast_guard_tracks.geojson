@@ -24,14 +24,6 @@
                 "type": "LineString",
                 "coordinates": [
                     [
-                        -121.400598,
-                        38.676041
-                    ],
-                    [
-                        -121.399719,
-                        38.669454
-                    ],
-                    [
                         -121.397851,
                         38.67548
                     ],
@@ -68,14 +60,6 @@
             "geometry": {
                 "type": "LineString",
                 "coordinates": [
-                    [
-                        -157.958579,
-                        21.211945
-                    ],
-                    [
-                        -157.958579,
-                        21.211945
-                    ],
                     [
                         -157.964472,
                         21.213593
@@ -338,55 +322,6 @@
         {
             "type": "Feature",
             "properties": {
-                "hex": "AE2691",
-                "flight": "C6559   ",
-                "type": "AS65",
-                "description": "Eurocopter MH-65D Dolphin",
-                "operator": "Unknown",
-                "altitude": "ground",
-                "ground_speed": 0.0,
-                "track": 0.0,
-                "squawk": "5555",
-                "rssi": -12.0,
-                "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-12-10T04:54:02.154833+00:00",
-                "nav_qnh": 0.0,
-                "nav_altitude_mcp": 0,
-                "category": "A7"
-            },
-            "geometry": {
-                "type": "LineString",
-                "coordinates": [
-                    [
-                        -122.389934,
-                        37.63241
-                    ],
-                    [
-                        -122.389934,
-                        37.63241
-                    ],
-                    [
-                        -122.38977,
-                        37.632465
-                    ],
-                    [
-                        -122.389755,
-                        37.632468
-                    ],
-                    [
-                        -122.38977,
-                        37.632511
-                    ],
-                    [
-                        -122.38977,
-                        37.632511
-                    ]
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
                 "hex": "AE26B1",
                 "flight": "C6591   ",
                 "type": "AS65",
@@ -406,14 +341,6 @@
             "geometry": {
                 "type": "LineString",
                 "coordinates": [
-                    [
-                        -157.946295,
-                        21.185532
-                    ],
-                    [
-                        -157.946295,
-                        21.185532
-                    ],
                     [
                         -157.974192,
                         21.197375
@@ -794,6 +721,47 @@
                     [
                         -90.028381,
                         29.820526
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "hex": "AE2691",
+                "flight": "C6559   ",
+                "type": "AS65",
+                "description": "Eurocopter MH-65D Dolphin",
+                "operator": "Unknown",
+                "altitude": "ground",
+                "ground_speed": 0.0,
+                "track": 0.0,
+                "squawk": "5555",
+                "rssi": -12.0,
+                "api_source": "https://api.airplanes.live/v2/hex/",
+                "last_seen": "2025-12-10T04:54:02.154833+00:00",
+                "nav_qnh": 0.0,
+                "nav_altitude_mcp": 0,
+                "category": "A7"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -122.38977,
+                        37.632465
+                    ],
+                    [
+                        -122.389755,
+                        37.632468
+                    ],
+                    [
+                        -122.38977,
+                        37.632511
+                    ],
+                    [
+                        -122.38977,
+                        37.632511
                     ]
                 ]
             }
