@@ -9,13 +9,13 @@
                 "type": "AS50",
                 "description": "AEROSPATIALE AS-350 Ecureuil",
                 "operator": "TINY BUBBLES AVIATION INC",
-                "altitude": 2000,
-                "ground_speed": 17.0,
-                "track": 208.07,
+                "altitude": 2025,
+                "ground_speed": 85.5,
+                "track": 259.22,
                 "squawk": "1200",
-                "rssi": -7.8,
+                "rssi": -13.4,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-12-11T14:54:02.499975+00:00",
+                "last_seen": "2025-12-11T14:56:02.152952+00:00",
                 "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
                 "category": "A7"
@@ -270,6 +270,14 @@
                     [
                         -118.243664,
                         34.073685
+                    ],
+                    [
+                        -118.244785,
+                        34.076797
+                    ],
+                    [
+                        -118.245335,
+                        34.07675
                     ]
                 ]
             }
@@ -282,13 +290,13 @@
                 "type": "BE30",
                 "description": "BEECH 300 Super King Air",
                 "operator": "DEPARTMENT OF HOMELAND SECURITY",
-                "altitude": 6900,
-                "ground_speed": 71.6,
-                "track": 262.78,
+                "altitude": 6775,
+                "ground_speed": 61.1,
+                "track": 254.83,
                 "squawk": "4405",
-                "rssi": -11.9,
+                "rssi": -16.6,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-12-11T14:54:02.499942+00:00",
+                "last_seen": "2025-12-11T14:56:02.152847+00:00",
                 "nav_qnh": 1017.6,
                 "nav_altitude_mcp": 7008,
                 "category": "A2"
@@ -431,6 +439,43 @@
                     [
                         -81.165564,
                         31.50567
+                    ],
+                    [
+                        -81.204785,
+                        31.510418
+                    ],
+                    [
+                        -81.206049,
+                        31.510139
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "hex": "A00399",
+                "flight": "PD20    ",
+                "type": "AS50",
+                "description": "AEROSPATIALE AS-350 Ecureuil",
+                "operator": "Unknown",
+                "altitude": 625,
+                "ground_speed": 106.8,
+                "track": 133.1,
+                "squawk": "1200",
+                "rssi": -32.5,
+                "api_source": "https://opendata.adsb.fi/api/v2/hex/",
+                "last_seen": "2025-12-11T14:56:02.152550+00:00",
+                "nav_qnh": 0.0,
+                "nav_altitude_mcp": 0,
+                "category": "A7"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -97.867743,
+                        26.258535
                     ]
                 ]
             }
