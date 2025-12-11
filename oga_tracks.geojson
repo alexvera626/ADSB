@@ -10,12 +10,12 @@
                 "description": "SIKORSKY UH-60 Black Hawk",
                 "operator": "Unknown",
                 "altitude": 350,
-                "ground_speed": 121.0,
-                "track": 180.0,
+                "ground_speed": 0.0,
+                "track": 0.0,
                 "squawk": "1200",
-                "rssi": -17.1,
+                "rssi": -18.4,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-12-11T05:44:01.893238+00:00",
+                "last_seen": "2025-12-11T05:46:02.665496+00:00",
                 "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
                 "category": "Unknown"
@@ -23,22 +23,6 @@
             "geometry": {
                 "type": "LineString",
                 "coordinates": [
-                    [
-                        -118.097987,
-                        32.856949
-                    ],
-                    [
-                        -118.097987,
-                        32.856949
-                    ],
-                    [
-                        -118.101766,
-                        32.858362
-                    ],
-                    [
-                        -118.101822,
-                        32.858397
-                    ],
                     [
                         -118.105637,
                         32.859821
@@ -518,6 +502,55 @@
                     [
                         -117.233704,
                         32.657894
+                    ],
+                    [
+                        -117.15495,
+                        32.752927
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "hex": "AC4597",
+                "flight": "REH46   ",
+                "type": "EC35",
+                "description": "AIRBUS HELICOPTERS EC-135/635",
+                "operator": "REACH AIR MEDICAL SERVICES LLC",
+                "altitude": 1250,
+                "ground_speed": 105.5,
+                "track": 227.69,
+                "squawk": "N/A",
+                "rssi": -35.6,
+                "api_source": "https://opendata.adsb.fi/api/v2/hex/",
+                "last_seen": "2025-12-11T01:56:02.361296+00:00",
+                "nav_qnh": 1008.8,
+                "nav_altitude_mcp": 0,
+                "category": "A7"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -155.945238,
+                        19.790909
+                    ],
+                    [
+                        -155.886138,
+                        19.847626
+                    ],
+                    [
+                        -155.926944,
+                        19.835678
+                    ],
+                    [
+                        -155.972251,
+                        19.791451
+                    ],
+                    [
+                        -155.999917,
+                        19.761704
                     ]
                 ]
             }
@@ -544,22 +577,6 @@
             "geometry": {
                 "type": "LineString",
                 "coordinates": [
-                    [
-                        -117.821942,
-                        32.600784
-                    ],
-                    [
-                        -117.823493,
-                        32.60002
-                    ],
-                    [
-                        -117.841058,
-                        32.632645
-                    ],
-                    [
-                        -117.841608,
-                        32.633102
-                    ],
                     [
                         -117.872595,
                         32.659421
@@ -649,22 +666,6 @@
             "geometry": {
                 "type": "LineString",
                 "coordinates": [
-                    [
-                        -118.054218,
-                        33.96037
-                    ],
-                    [
-                        -118.054218,
-                        33.96037
-                    ],
-                    [
-                        -118.070183,
-                        33.96172
-                    ],
-                    [
-                        -118.069396,
-                        33.961258
-                    ],
                     [
                         -118.074646,
                         33.977128
@@ -987,22 +988,6 @@
                 "type": "LineString",
                 "coordinates": [
                     [
-                        -117.920688,
-                        33.857529
-                    ],
-                    [
-                        -117.920723,
-                        33.857536
-                    ],
-                    [
-                        -117.925816,
-                        33.856139
-                    ],
-                    [
-                        -117.925901,
-                        33.856155
-                    ],
-                    [
                         -117.931226,
                         33.85643
                     ],
@@ -1200,67 +1185,18 @@
         {
             "type": "Feature",
             "properties": {
-                "hex": "AC4597",
-                "flight": "REH46   ",
-                "type": "EC35",
-                "description": "AIRBUS HELICOPTERS EC-135/635",
-                "operator": "REACH AIR MEDICAL SERVICES LLC",
-                "altitude": 1250,
-                "ground_speed": 105.5,
-                "track": 227.69,
-                "squawk": "N/A",
-                "rssi": -35.6,
-                "api_source": "https://opendata.adsb.fi/api/v2/hex/",
-                "last_seen": "2025-12-11T01:56:02.361296+00:00",
-                "nav_qnh": 1008.8,
-                "nav_altitude_mcp": 0,
-                "category": "A7"
-            },
-            "geometry": {
-                "type": "LineString",
-                "coordinates": [
-                    [
-                        -155.991685,
-                        19.754608
-                    ],
-                    [
-                        -155.945238,
-                        19.790909
-                    ],
-                    [
-                        -155.886138,
-                        19.847626
-                    ],
-                    [
-                        -155.926944,
-                        19.835678
-                    ],
-                    [
-                        -155.972251,
-                        19.791451
-                    ],
-                    [
-                        -155.999917,
-                        19.761704
-                    ]
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
                 "hex": "A36968",
                 "flight": "N319MW  ",
                 "type": "B407",
                 "description": "BELL 407",
                 "operator": "SAN DIEGO COUNTY SHERIFF DEPARTMENT",
-                "altitude": 900,
-                "ground_speed": 48.4,
-                "track": 240.26,
+                "altitude": 950,
+                "ground_speed": 54.9,
+                "track": 326.89,
                 "squawk": "4267",
-                "rssi": -12.4,
+                "rssi": -17.3,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-12-11T05:44:01.893256+00:00",
+                "last_seen": "2025-12-11T05:46:02.665521+00:00",
                 "nav_qnh": 1017.6,
                 "nav_altitude_mcp": 0,
                 "category": "A7"
@@ -1979,6 +1915,14 @@
                     [
                         -117.017688,
                         32.627655
+                    ],
+                    [
+                        -117.013587,
+                        32.629907
+                    ],
+                    [
+                        -117.013458,
+                        32.629807
                     ]
                 ]
             }
