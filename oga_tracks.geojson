@@ -9,13 +9,13 @@
                 "type": "DH8C",
                 "description": "DE HAVILLAND DHC-8-300 Dash 8",
                 "operator": "US DEPARTMENT OF HOMELAND SECURITY",
-                "altitude": 7350,
-                "ground_speed": 199.2,
-                "track": 17.53,
+                "altitude": 7375,
+                "ground_speed": 205.2,
+                "track": 6.16,
                 "squawk": "1200",
-                "rssi": -17.6,
+                "rssi": -22.5,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-12-11T21:34:02.303706+00:00",
+                "last_seen": "2025-12-11T21:36:02.623936+00:00",
                 "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
                 "category": "Unknown"
@@ -23,22 +23,6 @@
             "geometry": {
                 "type": "LineString",
                 "coordinates": [
-                    [
-                        -96.005105,
-                        30.091003
-                    ],
-                    [
-                        -96.005105,
-                        30.091003
-                    ],
-                    [
-                        -95.983319,
-                        30.211425
-                    ],
-                    [
-                        -95.983319,
-                        30.211425
-                    ],
                     [
                         -95.921851,
                         30.292286
@@ -246,51 +230,14 @@
                     [
                         -95.304081,
                         31.297028
-                    ]
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "hex": "A2097B",
-                "flight": "N230LA  ",
-                "type": "AS50",
-                "description": "AEROSPATIALE AS-350 Ecureuil",
-                "operator": "LAPD AIR SUPPORT DIVISION",
-                "altitude": 250,
-                "ground_speed": 0.0,
-                "track": 0.0,
-                "squawk": "1200",
-                "rssi": -16.1,
-                "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-12-11T18:40:02.178766+00:00",
-                "nav_qnh": 0.0,
-                "nav_altitude_mcp": 0,
-                "category": "A7"
-            },
-            "geometry": {
-                "type": "LineString",
-                "coordinates": [
-                    [
-                        -118.259525,
-                        34.066229
                     ],
                     [
-                        -118.259525,
-                        34.066229
+                        -95.292169,
+                        31.353537
                     ],
                     [
-                        -118.230547,
-                        34.05336
-                    ],
-                    [
-                        -118.230515,
-                        34.053381
-                    ],
-                    [
-                        -118.230477,
-                        34.054047
+                        -95.292169,
+                        31.353537
                     ]
                 ]
             }
@@ -317,22 +264,6 @@
             "geometry": {
                 "type": "LineString",
                 "coordinates": [
-                    [
-                        -117.031091,
-                        32.637634
-                    ],
-                    [
-                        -117.031091,
-                        32.637634
-                    ],
-                    [
-                        -117.033673,
-                        32.627747
-                    ],
-                    [
-                        -117.033673,
-                        32.627747
-                    ],
                     [
                         -117.029883,
                         32.629669
@@ -679,22 +610,6 @@
                 "type": "LineString",
                 "coordinates": [
                     [
-                        -117.242282,
-                        33.784241
-                    ],
-                    [
-                        -117.242282,
-                        33.784241
-                    ],
-                    [
-                        -117.163353,
-                        33.786031
-                    ],
-                    [
-                        -117.163353,
-                        33.786031
-                    ],
-                    [
                         -117.132419,
                         33.783279
                     ],
@@ -995,22 +910,6 @@
             "geometry": {
                 "type": "LineString",
                 "coordinates": [
-                    [
-                        -118.096133,
-                        33.272281
-                    ],
-                    [
-                        -118.096133,
-                        33.272281
-                    ],
-                    [
-                        -118.018836,
-                        33.2457
-                    ],
-                    [
-                        -118.019366,
-                        33.245911
-                    ],
                     [
                         -117.944824,
                         33.213135
@@ -1721,18 +1620,47 @@
         {
             "type": "Feature",
             "properties": {
-                "hex": "AE1841",
-                "flight": "RS43    ",
-                "type": "H60",
-                "description": "SIKORSKY UH-60 Black Hawk",
-                "operator": "Unknown",
-                "altitude": -50,
+                "hex": "A2097B",
+                "flight": "N230LA  ",
+                "type": "AS50",
+                "description": "AEROSPATIALE AS-350 Ecureuil",
+                "operator": "LAPD AIR SUPPORT DIVISION",
+                "altitude": 250,
                 "ground_speed": 0.0,
                 "track": 0.0,
-                "squawk": "N/A",
-                "rssi": -24.5,
-                "api_source": "https://opendata.adsb.fi/api/v2/hex/",
-                "last_seen": "2025-12-11T21:34:02.303479+00:00",
+                "squawk": "1200",
+                "rssi": -16.1,
+                "api_source": "https://api.airplanes.live/v2/hex/",
+                "last_seen": "2025-12-11T18:40:02.178766+00:00",
+                "nav_qnh": 0.0,
+                "nav_altitude_mcp": 0,
+                "category": "A7"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -118.230477,
+                        34.054047
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "hex": "AE1841",
+                "flight": "Unknown",
+                "type": "H60",
+                "description": "Sikorsky MH-60R Seahawk",
+                "operator": "United States Navy",
+                "altitude": 225,
+                "ground_speed": 0.0,
+                "track": 0.0,
+                "squawk": "1200",
+                "rssi": -18.5,
+                "api_source": "https://api.airplanes.live/v2/hex/",
+                "last_seen": "2025-12-11T21:36:02.624046+00:00",
                 "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
                 "category": "Unknown"
@@ -3795,13 +3723,13 @@
                 "type": "SHIP",
                 "description": "Zeppelin LZ N07-101",
                 "operator": "GOODYEAR TIRE & RUBBER CO",
-                "altitude": 325,
-                "ground_speed": 29.2,
-                "track": 95.91,
+                "altitude": 375,
+                "ground_speed": 21.9,
+                "track": 136.85,
                 "squawk": "1200",
-                "rssi": -3.7,
+                "rssi": -6.1,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-12-11T21:34:02.303877+00:00",
+                "last_seen": "2025-12-11T21:36:02.624081+00:00",
                 "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
                 "category": "B2"
@@ -4496,6 +4424,14 @@
                     [
                         -118.273932,
                         33.852127
+                    ],
+                    [
+                        -118.272915,
+                        33.852601
+                    ],
+                    [
+                        -118.272915,
+                        33.852601
                     ]
                 ]
             }
@@ -5011,13 +4947,13 @@
                 "type": "H60",
                 "description": "Sikorsky MH-60S Seahawk",
                 "operator": "Unknown",
-                "altitude": 250,
-                "ground_speed": 77.2,
-                "track": 233.43,
+                "altitude": 225,
+                "ground_speed": 72.8,
+                "track": 351.31,
                 "squawk": "1200",
-                "rssi": -9.7,
+                "rssi": -7.4,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-12-11T21:34:02.303858+00:00",
+                "last_seen": "2025-12-11T21:36:02.624066+00:00",
                 "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
                 "category": "A7"
@@ -5436,6 +5372,14 @@
                     [
                         -117.464722,
                         32.661987
+                    ],
+                    [
+                        -117.487299,
+                        32.68959
+                    ],
+                    [
+                        -117.487299,
+                        32.68959
                     ]
                 ]
             }
@@ -5745,13 +5689,13 @@
                 "type": "AS50",
                 "description": "AEROSPATIALE AS-350 Ecureuil",
                 "operator": "Unknown",
-                "altitude": 925,
-                "ground_speed": 122.0,
-                "track": 303.3,
+                "altitude": 875,
+                "ground_speed": 121.6,
+                "track": 285.75,
                 "squawk": "1200",
-                "rssi": -30.0,
+                "rssi": -29.4,
                 "api_source": "https://opendata.adsb.fi/api/v2/hex/",
-                "last_seen": "2025-12-11T21:34:02.303598+00:00",
+                "last_seen": "2025-12-11T21:36:02.623820+00:00",
                 "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
                 "category": "A7"
@@ -5814,6 +5758,10 @@
                     [
                         -97.588331,
                         26.341118
+                    ],
+                    [
+                        -97.655041,
+                        26.374263
                     ]
                 ]
             }
