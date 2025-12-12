@@ -58,18 +58,18 @@
         {
             "type": "Feature",
             "properties": {
-                "hex": "AE4FAE",
-                "flight": "S404    ",
+                "hex": "AE4F4D",
+                "flight": "        ",
                 "type": "H60",
-                "description": "SIKORSKY UH-60 Black Hawk",
+                "description": "Unknown",
                 "operator": "Unknown",
-                "altitude": 50,
-                "ground_speed": 26.0,
-                "track": 285.64,
-                "squawk": "1200",
+                "altitude": 675,
+                "ground_speed": 71.3,
+                "track": 284.62,
+                "squawk": "N/A",
                 "rssi": null,
-                "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-12-12T02:02:02.019427+00:00",
+                "api_source": "https://opendata.adsb.fi/api/v2/hex/",
+                "last_seen": "2025-12-12T02:04:02.225260+00:00",
                 "nav_qnh": null,
                 "nav_altitude_mcp": null,
                 "category": "A7"
@@ -77,8 +77,35 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -117.112885,
-                    32.564529
+                    -118.50145,
+                    32.742097
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "hex": "AE4FAE",
+                "flight": "S404    ",
+                "type": "H60",
+                "description": "SIKORSKY UH-60 Black Hawk",
+                "operator": "Unknown",
+                "altitude": -25,
+                "ground_speed": 0.7,
+                "track": 0.0,
+                "squawk": "1200",
+                "rssi": null,
+                "api_source": "https://opendata.adsb.fi/api/v2/hex/",
+                "last_seen": "2025-12-12T02:04:02.225348+00:00",
+                "nav_qnh": null,
+                "nav_altitude_mcp": null,
+                "category": "A7"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -117.116892,
+                    32.565385
                 ]
             }
         }
