@@ -1033,13 +1033,13 @@
                 "type": "AS50",
                 "description": "AEROSPATIALE AS-350 Ecureuil",
                 "operator": "ORANGE COUNTY SHERIFF'S DEPARTMENT",
-                "altitude": 1200,
-                "ground_speed": 96.9,
-                "track": 258.69,
+                "altitude": 800,
+                "ground_speed": 78.6,
+                "track": 238.54,
                 "squawk": "4204",
-                "rssi": -8.8,
+                "rssi": -6.8,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-12-13T23:20:02.518715+00:00",
+                "last_seen": "2025-12-13T23:22:02.183578+00:00",
                 "nav_qnh": 1015.2,
                 "nav_altitude_mcp": 0,
                 "category": "A7"
@@ -1290,6 +1290,14 @@
                     [
                         -117.733472,
                         33.787308
+                    ],
+                    [
+                        -117.78923,
+                        33.79064
+                    ],
+                    [
+                        -117.789574,
+                        33.790454
                     ]
                 ]
             }
@@ -1306,9 +1314,9 @@
                 "ground_speed": 3.2,
                 "track": 0.0,
                 "squawk": "7101",
-                "rssi": -29.0,
+                "rssi": -31.8,
                 "api_source": "https://opendata.adsb.fi/api/v2/hex/",
-                "last_seen": "2025-12-13T23:20:02.518540+00:00",
+                "last_seen": "2025-12-13T23:22:02.183410+00:00",
                 "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
                 "category": "A7"
@@ -1647,6 +1655,10 @@
                     [
                         -118.092167,
                         32.80606
+                    ],
+                    [
+                        -118.093358,
+                        32.807608
                     ]
                 ]
             }
@@ -1659,15 +1671,15 @@
                 "type": "AS50",
                 "description": "AEROSPATIALE AS-350 Ecureuil",
                 "operator": "CITY OF ONTARIO",
-                "altitude": 1575,
-                "ground_speed": 56.7,
-                "track": 310.71,
+                "altitude": "ground",
+                "ground_speed": 5.2,
+                "track": 0.0,
                 "squawk": "4274",
-                "rssi": -18.1,
+                "rssi": -33.1,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-12-13T23:20:02.518731+00:00",
-                "nav_qnh": 1015.2,
-                "nav_altitude_mcp": 8512,
+                "last_seen": "2025-12-13T23:22:02.183595+00:00",
+                "nav_qnh": 0.0,
+                "nav_altitude_mcp": 0,
                 "category": "A7"
             },
             "geometry": {
@@ -1968,6 +1980,47 @@
                     [
                         -117.681455,
                         34.107925
+                    ],
+                    [
+                        -117.69275,
+                        34.109459
+                    ],
+                    [
+                        -117.692666,
+                        34.109425
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "hex": "A3238A",
+                "flight": "FIRE1   ",
+                "type": "A139",
+                "description": "AGUSTA AW-139",
+                "operator": "LOS ANGELES FIRE DEPARTMENT",
+                "altitude": 1075,
+                "ground_speed": 60.9,
+                "track": 299.51,
+                "squawk": "1200",
+                "rssi": -6.2,
+                "api_source": "https://api.airplanes.live/v2/hex/",
+                "last_seen": "2025-12-13T23:22:02.183561+00:00",
+                "nav_qnh": 1015.2,
+                "nav_altitude_mcp": 864,
+                "category": "A7"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -118.495228,
+                        34.212662
+                    ],
+                    [
+                        -118.49556,
+                        34.212776
                     ]
                 ]
             }
