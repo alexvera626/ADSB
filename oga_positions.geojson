@@ -9,13 +9,13 @@
                 "type": "B350",
                 "description": "BEECHCRAFT Super King Air 350",
                 "operator": "DEPARTMENT OF HOMELAND SECURITY",
-                "altitude": 1125,
-                "ground_speed": 138.2,
-                "track": 28.05,
+                "altitude": 275,
+                "ground_speed": 110.0,
+                "track": 0.52,
                 "squawk": "4401",
                 "rssi": null,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-12-13T21:46:02.568981+00:00",
+                "last_seen": "2025-12-13T21:48:02.163357+00:00",
                 "nav_qnh": null,
                 "nav_altitude_mcp": null,
                 "category": "A2"
@@ -23,8 +23,35 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -122.545025,
-                    48.733337
+                    -122.53756,
+                    48.77948
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "hex": "A13F4E",
+                "flight": "N18LA   ",
+                "type": "B412",
+                "description": "BELL 412",
+                "operator": "COUNTY OF LOS ANGELES FIRE DEPARTMENT",
+                "altitude": 2300,
+                "ground_speed": 100.7,
+                "track": 353.16,
+                "squawk": "1255",
+                "rssi": null,
+                "api_source": "https://api.airplanes.live/v2/hex/",
+                "last_seen": "2025-12-13T21:48:02.163336+00:00",
+                "nav_qnh": null,
+                "nav_altitude_mcp": null,
+                "category": "A7"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -118.636201,
+                    34.097305
                 ]
             }
         },
@@ -36,13 +63,13 @@
                 "type": "AS50",
                 "description": "AEROSPATIALE AS-350 Ecureuil",
                 "operator": "ORANGE COUNTY SHERIFF'S DEPARTMENT",
-                "altitude": 675,
-                "ground_speed": 53.2,
-                "track": 4.32,
+                "altitude": 625,
+                "ground_speed": 65.0,
+                "track": 359.12,
                 "squawk": "4204",
                 "rssi": null,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-12-13T21:46:02.568962+00:00",
+                "last_seen": "2025-12-13T21:48:02.163248+00:00",
                 "nav_qnh": null,
                 "nav_altitude_mcp": null,
                 "category": "A7"
@@ -50,8 +77,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -117.875748,
-                    33.686829
+                    -117.876182,
+                    33.694336
                 ]
             }
         },
@@ -79,6 +106,33 @@
                 "coordinates": [
                     -116.153403,
                     33.635101
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "hex": "AE2793",
+                "flight": "Unknown",
+                "type": "H60",
+                "description": "SIKORSKY UH-60 Black Hawk",
+                "operator": "Unknown",
+                "altitude": "ground",
+                "ground_speed": 3.2,
+                "track": 0.0,
+                "squawk": "N/A",
+                "rssi": null,
+                "api_source": "https://opendata.adsb.fi/api/v2/hex/",
+                "last_seen": "2025-12-13T21:48:02.162963+00:00",
+                "nav_qnh": null,
+                "nav_altitude_mcp": null,
+                "category": "Unknown"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -118.035379,
+                    32.727962
                 ]
             }
         }
