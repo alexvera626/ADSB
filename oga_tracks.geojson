@@ -86,20 +86,20 @@
             "type": "Feature",
             "properties": {
                 "hex": "A40442",
-                "flight": "N358TV  ",
+                "flight": "Unknown",
                 "type": "AS50",
                 "description": "AEROSPATIALE AS-350 Ecureuil",
                 "operator": "TINY BUBBLES AVIATION INC",
-                "altitude": "ground",
-                "ground_speed": 0.2,
+                "altitude": 0,
+                "ground_speed": 0.0,
                 "track": 0.0,
-                "squawk": "0260",
-                "rssi": -17.1,
-                "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-12-13T00:30:02.322733+00:00",
+                "squawk": "N/A",
+                "rssi": -12.9,
+                "api_source": "https://opendata.adsb.fi/api/v2/hex/",
+                "last_seen": "2025-12-13T03:44:01.921481+00:00",
                 "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
-                "category": "A7"
+                "category": "Unknown"
             },
             "geometry": {
                 "type": "LineString",
@@ -292,12 +292,12 @@
                 "description": "AEROSPATIALE AS-350 Ecureuil",
                 "operator": "COUNTY OF RIVERSIDE CALIFORNIA",
                 "altitude": 1100,
-                "ground_speed": 91.9,
-                "track": 300.75,
+                "ground_speed": 105.7,
+                "track": 113.41,
                 "squawk": "0131",
-                "rssi": -22.2,
+                "rssi": -18.7,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-12-13T03:42:02.595919+00:00",
+                "last_seen": "2025-12-13T03:44:01.921625+00:00",
                 "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
                 "category": "A7"
@@ -416,6 +416,14 @@
                     [
                         -116.349907,
                         33.78268
+                    ],
+                    [
+                        -116.336639,
+                        33.750412
+                    ],
+                    [
+                        -116.336174,
+                        33.750233
                     ]
                 ]
             }
@@ -681,13 +689,13 @@
                 "type": "AS50",
                 "description": "AEROSPATIALE AS-350 Ecureuil",
                 "operator": "CITY OF ANAHEIM",
-                "altitude": 1000,
-                "ground_speed": 77.1,
-                "track": 189.71,
+                "altitude": 1100,
+                "ground_speed": 78.5,
+                "track": 34.09,
                 "squawk": "4301",
-                "rssi": -6.5,
+                "rssi": -9.9,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-12-13T03:42:02.595903+00:00",
+                "last_seen": "2025-12-13T03:44:01.921559+00:00",
                 "nav_qnh": 1015.2,
                 "nav_altitude_mcp": 4000,
                 "category": "A7"
@@ -1006,6 +1014,14 @@
                     [
                         -117.905045,
                         33.817827
+                    ],
+                    [
+                        -117.874775,
+                        33.800463
+                    ],
+                    [
+                        -117.874557,
+                        33.80072
                     ]
                 ]
             }
