@@ -4,59 +4,6 @@
         {
             "type": "Feature",
             "properties": {
-                "hex": "AE2126",
-                "flight": "Unknown",
-                "type": "C27J",
-                "description": "Alenia C-27J Spartan",
-                "operator": "Unknown",
-                "altitude": 1175,
-                "ground_speed": 130.0,
-                "track": 138.4,
-                "squawk": "4570",
-                "rssi": -49.5,
-                "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-12-13T21:38:02.507197+00:00",
-                "nav_qnh": 0.0,
-                "nav_altitude_mcp": 0,
-                "category": "A2"
-            },
-            "geometry": {
-                "type": "LineString",
-                "coordinates": [
-                    [
-                        -97.461513,
-                        26.658139
-                    ],
-                    [
-                        -97.461513,
-                        26.658139
-                    ],
-                    [
-                        -97.56015,
-                        26.558395
-                    ],
-                    [
-                        -97.647263,
-                        26.474991
-                    ],
-                    [
-                        -97.734848,
-                        26.400425
-                    ],
-                    [
-                        -97.76226,
-                        26.324499
-                    ],
-                    [
-                        -97.709236,
-                        26.275248
-                    ]
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
                 "hex": "AE2678",
                 "flight": "C6530   ",
                 "type": "AS65",
@@ -76,22 +23,6 @@
             "geometry": {
                 "type": "LineString",
                 "coordinates": [
-                    [
-                        -81.145412,
-                        31.902761
-                    ],
-                    [
-                        -81.145412,
-                        31.902761
-                    ],
-                    [
-                        -81.137284,
-                        31.834236
-                    ],
-                    [
-                        -81.137284,
-                        31.834236
-                    ],
                     [
                         -81.127786,
                         31.764679
@@ -422,10 +353,6 @@
                 "type": "LineString",
                 "coordinates": [
                     [
-                        -74.608931,
-                        39.332016
-                    ],
-                    [
                         -74.612573,
                         39.274933
                     ],
@@ -528,6 +455,47 @@
                     [
                         -74.58429,
                         39.416152
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "hex": "AE2126",
+                "flight": "Unknown",
+                "type": "C27J",
+                "description": "Alenia C-27J Spartan",
+                "operator": "Unknown",
+                "altitude": 1175,
+                "ground_speed": 130.0,
+                "track": 138.4,
+                "squawk": "4570",
+                "rssi": -49.5,
+                "api_source": "https://api.airplanes.live/v2/hex/",
+                "last_seen": "2025-12-13T21:38:02.507197+00:00",
+                "nav_qnh": 0.0,
+                "nav_altitude_mcp": 0,
+                "category": "A2"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -97.647263,
+                        26.474991
+                    ],
+                    [
+                        -97.734848,
+                        26.400425
+                    ],
+                    [
+                        -97.76226,
+                        26.324499
+                    ],
+                    [
+                        -97.709236,
+                        26.275248
                     ]
                 ]
             }
