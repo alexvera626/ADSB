@@ -483,17 +483,17 @@
             "type": "Feature",
             "properties": {
                 "hex": "AE277C",
-                "flight": "Unknown",
+                "flight": "GH72    ",
                 "type": "Unknown",
                 "description": "Unknown",
                 "operator": "Unknown",
-                "altitude": 75,
-                "ground_speed": 0.0,
-                "track": 0.0,
+                "altitude": 50,
+                "ground_speed": 81.0,
+                "track": 192.84,
                 "squawk": "N/A",
-                "rssi": -34.2,
+                "rssi": -32.0,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-12-14T22:16:02.320669+00:00",
+                "last_seen": "2025-12-14T22:18:01.986241+00:00",
                 "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
                 "category": "A7"
@@ -896,6 +896,14 @@
                     [
                         -118.287273,
                         32.988592
+                    ],
+                    [
+                        -118.315131,
+                        32.997949
+                    ],
+                    [
+                        -118.311095,
+                        32.990919
                     ]
                 ]
             }
@@ -929,6 +937,35 @@
                     [
                         -118.268795,
                         34.074283
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "hex": "A13F4E",
+                "flight": "N18LA   ",
+                "type": "B412",
+                "description": "BELL 412",
+                "operator": "COUNTY OF LOS ANGELES FIRE DEPARTMENT",
+                "altitude": 0,
+                "ground_speed": 0.7,
+                "track": 0.0,
+                "squawk": "1206",
+                "rssi": -25.0,
+                "api_source": "https://api.airplanes.live/v2/hex/",
+                "last_seen": "2025-12-14T22:18:01.986162+00:00",
+                "nav_qnh": 0.0,
+                "nav_altitude_mcp": 0,
+                "category": "A7"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -118.406833,
+                        34.258438
                     ]
                 ]
             }
