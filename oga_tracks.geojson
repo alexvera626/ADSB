@@ -4,43 +4,6 @@
         {
             "type": "Feature",
             "properties": {
-                "hex": "A1C5F2",
-                "flight": "N213PF  ",
-                "type": "AS50",
-                "description": "AEROSPATIALE AS-350 Ecureuil",
-                "operator": "LAPD AIR SUPPORT DIVISION",
-                "altitude": 0,
-                "ground_speed": 0.0,
-                "track": 0.0,
-                "squawk": "1200",
-                "rssi": -21.4,
-                "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-12-14T03:38:02.413895+00:00",
-                "nav_qnh": 0.0,
-                "nav_altitude_mcp": 0,
-                "category": "A7"
-            },
-            "geometry": {
-                "type": "LineString",
-                "coordinates": [
-                    [
-                        -118.23,
-                        34.053974
-                    ],
-                    [
-                        -118.230071,
-                        34.054068
-                    ],
-                    [
-                        -118.230085,
-                        34.054068
-                    ]
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
                 "hex": "ADDF5C",
                 "flight": "N993SD  ",
                 "type": "AS50",
@@ -60,14 +23,6 @@
             "geometry": {
                 "type": "LineString",
                 "coordinates": [
-                    [
-                        -116.353455,
-                        33.770599
-                    ],
-                    [
-                        -116.353455,
-                        33.770599
-                    ],
                     [
                         -116.348248,
                         33.73231
@@ -211,6 +166,35 @@
                     [
                         -116.153812,
                         33.641161
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "hex": "A1C5F2",
+                "flight": "N213PF  ",
+                "type": "AS50",
+                "description": "AEROSPATIALE AS-350 Ecureuil",
+                "operator": "LAPD AIR SUPPORT DIVISION",
+                "altitude": 0,
+                "ground_speed": 0.0,
+                "track": 0.0,
+                "squawk": "1200",
+                "rssi": -21.4,
+                "api_source": "https://api.airplanes.live/v2/hex/",
+                "last_seen": "2025-12-14T03:38:02.413895+00:00",
+                "nav_qnh": 0.0,
+                "nav_altitude_mcp": 0,
+                "category": "A7"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -118.230085,
+                        34.054068
                     ]
                 ]
             }
@@ -484,13 +468,13 @@
                 "type": "EC35",
                 "description": "AIRBUS HELICOPTERS EC-135/635",
                 "operator": "REACH AIR MEDICAL SERVICES LLC",
-                "altitude": 250,
-                "ground_speed": 23.2,
-                "track": 277.43,
+                "altitude": "ground",
+                "ground_speed": 0.0,
+                "track": 180.0,
                 "squawk": "1766",
-                "rssi": -6.7,
+                "rssi": -21.2,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-12-14T07:30:02.625289+00:00",
+                "last_seen": "2025-12-14T07:32:02.057164+00:00",
                 "nav_qnh": 1012.0,
                 "nav_altitude_mcp": 0,
                 "category": "A7"
@@ -733,6 +717,14 @@
                     [
                         -157.902549,
                         21.323776
+                    ],
+                    [
+                        -157.907543,
+                        21.324051
+                    ],
+                    [
+                        -157.907664,
+                        21.323916
                     ]
                 ]
             }
