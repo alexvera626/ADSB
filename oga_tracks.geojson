@@ -484,16 +484,16 @@
             "properties": {
                 "hex": "AE277C",
                 "flight": "GH72    ",
-                "type": "Unknown",
+                "type": "H60",
                 "description": "Unknown",
                 "operator": "Unknown",
-                "altitude": 0,
-                "ground_speed": 0.0,
+                "altitude": -125,
+                "ground_speed": 1.2,
                 "track": 0.0,
                 "squawk": "N/A",
-                "rssi": -31.2,
-                "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-12-14T21:20:02.174021+00:00",
+                "rssi": -19.7,
+                "api_source": "https://opendata.adsb.fi/api/v2/hex/",
+                "last_seen": "2025-12-14T21:22:02.654678+00:00",
                 "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
                 "category": "A7"
@@ -708,6 +708,43 @@
                     [
                         -118.390649,
                         33.05397
+                    ],
+                    [
+                        -118.402899,
+                        33.064316
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "hex": "A1C5F2",
+                "flight": "N213PF  ",
+                "type": "AS50",
+                "description": "AEROSPATIALE AS-350 Ecureuil",
+                "operator": "LAPD AIR SUPPORT DIVISION",
+                "altitude": 1150,
+                "ground_speed": 64.1,
+                "track": 300.96,
+                "squawk": "1200",
+                "rssi": -7.2,
+                "api_source": "https://api.airplanes.live/v2/hex/",
+                "last_seen": "2025-12-14T21:22:02.654726+00:00",
+                "nav_qnh": 1017.6,
+                "nav_altitude_mcp": 4000,
+                "category": "A7"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -118.268795,
+                        34.074283
+                    ],
+                    [
+                        -118.268795,
+                        34.074283
                     ]
                 ]
             }
