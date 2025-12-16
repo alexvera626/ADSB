@@ -10,12 +10,12 @@
                 "description": "AIRBUS HELICOPTERS EC-135/635",
                 "operator": "REACH AIR MEDICAL SERVICES LLC",
                 "altitude": 3975,
-                "ground_speed": 127.6,
-                "track": 299.58,
+                "ground_speed": 132.1,
+                "track": 299.48,
                 "squawk": "2145",
-                "rssi": -14.6,
+                "rssi": -23.5,
                 "api_source": "https://opendata.adsb.fi/api/v2/hex/",
-                "last_seen": "2025-12-16T03:14:01.937661+00:00",
+                "last_seen": "2025-12-16T03:16:02.586989+00:00",
                 "nav_qnh": 1013.6,
                 "nav_altitude_mcp": 0,
                 "category": "A7"
@@ -23,22 +23,6 @@
             "geometry": {
                 "type": "LineString",
                 "coordinates": [
-                    [
-                        -156.899578,
-                        20.383621
-                    ],
-                    [
-                        -156.899578,
-                        20.383621
-                    ],
-                    [
-                        -156.840624,
-                        20.337845
-                    ],
-                    [
-                        -156.840624,
-                        20.337845
-                    ],
                     [
                         -156.781425,
                         20.291931
@@ -158,6 +142,10 @@
                     [
                         -155.794029,
                         20.01796
+                    ],
+                    [
+                        -155.862596,
+                        20.054718
                     ]
                 ]
             }
@@ -184,22 +172,6 @@
             "geometry": {
                 "type": "LineString",
                 "coordinates": [
-                    [
-                        -117.887249,
-                        33.805676
-                    ],
-                    [
-                        -117.887249,
-                        33.805676
-                    ],
-                    [
-                        -117.934197,
-                        33.803055
-                    ],
-                    [
-                        -117.934197,
-                        33.803055
-                    ],
                     [
                         -117.931709,
                         33.818571
@@ -566,22 +538,6 @@
                 "type": "LineString",
                 "coordinates": [
                     [
-                        -117.845879,
-                        33.643628
-                    ],
-                    [
-                        -117.845879,
-                        33.643628
-                    ],
-                    [
-                        -117.868895,
-                        33.682571
-                    ],
-                    [
-                        -117.868895,
-                        33.682571
-                    ],
-                    [
                         -117.871656,
                         33.67527
                     ],
@@ -891,6 +847,55 @@
         {
             "type": "Feature",
             "properties": {
+                "hex": "A154D3",
+                "flight": "N185SD  ",
+                "type": "AS50",
+                "description": "AEROSPATIALE AS-350 Ecureuil",
+                "operator": "ORANGE COUNTY SHERIFF'S DEPARTMENT",
+                "altitude": "ground",
+                "ground_speed": 0.0,
+                "track": 0.0,
+                "squawk": "1200",
+                "rssi": -20.4,
+                "api_source": "https://opendata.adsb.fi/api/v2/hex/",
+                "last_seen": "2025-12-15T23:30:02.303010+00:00",
+                "nav_qnh": 0.0,
+                "nav_altitude_mcp": 0,
+                "category": "A7"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -117.87146,
+                        33.675156
+                    ],
+                    [
+                        -117.871418,
+                        33.675076
+                    ],
+                    [
+                        -117.871432,
+                        33.675121
+                    ],
+                    [
+                        -117.871428,
+                        33.675121
+                    ],
+                    [
+                        -117.871432,
+                        33.67511
+                    ],
+                    [
+                        -117.871428,
+                        33.675109
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
                 "hex": "A31E37",
                 "flight": "PD20    ",
                 "type": "AS50",
@@ -910,22 +915,6 @@
             "geometry": {
                 "type": "LineString",
                 "coordinates": [
-                    [
-                        -117.574825,
-                        34.074655
-                    ],
-                    [
-                        -117.574825,
-                        34.074655
-                    ],
-                    [
-                        -117.559709,
-                        34.094833
-                    ],
-                    [
-                        -117.559891,
-                        34.094766
-                    ],
                     [
                         -117.54015,
                         34.115156
@@ -997,55 +986,6 @@
                     [
                         -117.692385,
                         34.109523
-                    ]
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "hex": "A154D3",
-                "flight": "N185SD  ",
-                "type": "AS50",
-                "description": "AEROSPATIALE AS-350 Ecureuil",
-                "operator": "ORANGE COUNTY SHERIFF'S DEPARTMENT",
-                "altitude": "ground",
-                "ground_speed": 0.0,
-                "track": 0.0,
-                "squawk": "1200",
-                "rssi": -20.4,
-                "api_source": "https://opendata.adsb.fi/api/v2/hex/",
-                "last_seen": "2025-12-15T23:30:02.303010+00:00",
-                "nav_qnh": 0.0,
-                "nav_altitude_mcp": 0,
-                "category": "A7"
-            },
-            "geometry": {
-                "type": "LineString",
-                "coordinates": [
-                    [
-                        -117.87146,
-                        33.675156
-                    ],
-                    [
-                        -117.871418,
-                        33.675076
-                    ],
-                    [
-                        -117.871432,
-                        33.675121
-                    ],
-                    [
-                        -117.871428,
-                        33.675121
-                    ],
-                    [
-                        -117.871432,
-                        33.67511
-                    ],
-                    [
-                        -117.871428,
-                        33.675109
                     ]
                 ]
             }
@@ -1629,13 +1569,13 @@
                 "type": "B06",
                 "description": "BELL 206 JetRanger",
                 "operator": "PASADENA POLICE DEPARTMENT",
-                "altitude": 1400,
-                "ground_speed": 64.5,
-                "track": 229.4,
+                "altitude": 1300,
+                "ground_speed": 66.7,
+                "track": 27.72,
                 "squawk": "1200",
-                "rssi": -10.8,
+                "rssi": -9.0,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-12-16T03:14:01.937907+00:00",
+                "last_seen": "2025-12-16T03:16:02.587128+00:00",
                 "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
                 "category": "A7"
@@ -1746,6 +1686,14 @@
                     [
                         -117.893839,
                         34.091675
+                    ],
+                    [
+                        -117.8825,
+                        34.106776
+                    ],
+                    [
+                        -117.8825,
+                        34.106776
                     ]
                 ]
             }
