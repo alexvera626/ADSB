@@ -32,14 +32,6 @@
                         34.108685
                     ],
                     [
-                        -118.485947,
-                        34.108685
-                    ],
-                    [
-                        -118.485947,
-                        34.108685
-                    ],
-                    [
                         -118.486764,
                         34.109253
                     ],
@@ -267,13 +259,13 @@
                 "type": "AS50",
                 "description": "AEROSPATIALE AS-350 Ecureuil",
                 "operator": "LAPD AIR SUPPORT DIVISION",
-                "altitude": 850,
-                "ground_speed": 127.8,
-                "track": 108.72,
+                "altitude": 500,
+                "ground_speed": 90.4,
+                "track": 144.9,
                 "squawk": "1200",
-                "rssi": -9.2,
+                "rssi": -6.7,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-12-16T18:50:02.057886+00:00",
+                "last_seen": "2025-12-16T18:52:02.043771+00:00",
                 "nav_qnh": 1020.0,
                 "nav_altitude_mcp": 4512,
                 "category": "A7"
@@ -756,6 +748,14 @@
                     [
                         -118.300893,
                         34.092178
+                    ],
+                    [
+                        -118.229762,
+                        34.05986
+                    ],
+                    [
+                        -118.229314,
+                        34.059402
                     ]
                 ]
             }
@@ -1146,13 +1146,13 @@
                 "type": "B407",
                 "description": "BELL 407",
                 "operator": "SAN DIEGO COUNTY SHERIFF DEPARTMENT",
-                "altitude": 1150,
-                "ground_speed": 101.0,
-                "track": 269.43,
+                "altitude": 1050,
+                "ground_speed": 76.7,
+                "track": 129.71,
                 "squawk": "4266",
-                "rssi": -9.7,
+                "rssi": -10.4,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-12-16T18:50:02.058182+00:00",
+                "last_seen": "2025-12-16T18:52:02.044080+00:00",
                 "nav_qnh": 1019.2,
                 "nav_altitude_mcp": 0,
                 "category": "A7"
@@ -1331,6 +1331,14 @@
                     [
                         -117.027544,
                         32.746473
+                    ],
+                    [
+                        -117.045044,
+                        32.740356
+                    ],
+                    [
+                        -117.044752,
+                        32.740142
                     ]
                 ]
             }
@@ -1472,6 +1480,35 @@
                     [
                         -116.729791,
                         32.704697
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "hex": "A00399",
+                "flight": "PD20    ",
+                "type": "AS50",
+                "description": "AEROSPATIALE AS-350 Ecureuil",
+                "operator": "Unknown",
+                "altitude": "ground",
+                "ground_speed": 90.0,
+                "track": 141.5,
+                "squawk": "1200",
+                "rssi": -49.5,
+                "api_source": "https://api.airplanes.live/v2/hex/",
+                "last_seen": "2025-12-16T18:52:02.044098+00:00",
+                "nav_qnh": 0.0,
+                "nav_altitude_mcp": 0,
+                "category": "Unknown"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -98.107964,
+                        26.434828
                     ]
                 ]
             }
