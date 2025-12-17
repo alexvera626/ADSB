@@ -10,12 +10,12 @@
                 "description": "DE HAVILLAND DHC-8-300 Dash 8",
                 "operator": "US DEPARTMENT OF HOMELAND SECURITY",
                 "altitude": 24000,
-                "ground_speed": 223.0,
-                "track": 277.73,
+                "ground_speed": 223.9,
+                "track": 277.44,
                 "squawk": "7470",
-                "rssi": -29.5,
+                "rssi": -23.3,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-12-17T20:02:02.867907+00:00",
+                "last_seen": "2025-12-17T20:04:02.888989+00:00",
                 "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
                 "category": "Unknown"
@@ -23,14 +23,6 @@
             "geometry": {
                 "type": "LineString",
                 "coordinates": [
-                    [
-                        -97.90504,
-                        30.343552
-                    ],
-                    [
-                        -97.90504,
-                        30.343552
-                    ],
                     [
                         -98.054022,
                         30.364209
@@ -890,6 +882,14 @@
                     [
                         -115.101798,
                         33.729218
+                    ],
+                    [
+                        -115.249497,
+                        33.74556
+                    ],
+                    [
+                        -115.248768,
+                        33.745468
                     ]
                 ]
             }
@@ -1468,13 +1468,13 @@
                 "type": "Q9",
                 "description": "GENERAL ATOMICS MQ-9 Reaper",
                 "operator": "GENERAL ATOMICS AERONAUTICAL SYSTEMS INC",
-                "altitude": 3400,
-                "ground_speed": 94.1,
-                "track": 177.56,
+                "altitude": 0,
+                "ground_speed": 0.0,
+                "track": 0.0,
                 "squawk": "1225",
-                "rssi": -22.7,
+                "rssi": -23.1,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-12-17T20:02:02.868094+00:00",
+                "last_seen": "2025-12-17T20:04:02.889175+00:00",
                 "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
                 "category": "B6"
@@ -2360,12 +2360,12 @@
                 "description": "Unknown",
                 "operator": "DEPARTMENT OF HOMELAND SECURITY",
                 "altitude": 12550,
-                "ground_speed": 216.3,
-                "track": 158.3,
+                "ground_speed": 152.7,
+                "track": 341.68,
                 "squawk": "4402",
-                "rssi": -20.7,
+                "rssi": -22.3,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-12-17T20:02:02.868130+00:00",
+                "last_seen": "2025-12-17T20:04:02.889251+00:00",
                 "nav_qnh": 1011.2,
                 "nav_altitude_mcp": 12512,
                 "category": "A2"
@@ -2604,6 +2604,14 @@
                     [
                         -123.949608,
                         46.897202
+                    ],
+                    [
+                        -123.994587,
+                        46.868793
+                    ],
+                    [
+                        -123.994587,
+                        46.868793
                     ]
                 ]
             }
@@ -2697,6 +2705,68 @@
                     [
                         -123.263185,
                         45.132767
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "hex": "AE2793",
+                "flight": "Unknown",
+                "type": "H60",
+                "description": "Sikorsky MH-60S Seahawk",
+                "operator": "Unknown",
+                "altitude": "ground",
+                "ground_speed": 5.8,
+                "track": 286.88,
+                "squawk": "N/A",
+                "rssi": -31.3,
+                "api_source": "https://api.airplanes.live/v2/hex/",
+                "last_seen": "2025-12-17T20:04:02.889213+00:00",
+                "nav_qnh": 0.0,
+                "nav_altitude_mcp": 0,
+                "category": "Unknown"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -118.014913,
+                        32.831396
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "hex": "ADDF5C",
+                "flight": "N993SD  ",
+                "type": "AS50",
+                "description": "AEROSPATIALE AS-350 Ecureuil",
+                "operator": "COUNTY OF RIVERSIDE CALIFORNIA",
+                "altitude": 525,
+                "ground_speed": 105.0,
+                "track": 0.55,
+                "squawk": "0131",
+                "rssi": -27.8,
+                "api_source": "https://api.airplanes.live/v2/hex/",
+                "last_seen": "2025-12-17T20:04:02.889234+00:00",
+                "nav_qnh": 0.0,
+                "nav_altitude_mcp": 0,
+                "category": "A7"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -116.150379,
+                        33.667742
+                    ],
+                    [
+                        -116.150379,
+                        33.667742
                     ]
                 ]
             }
