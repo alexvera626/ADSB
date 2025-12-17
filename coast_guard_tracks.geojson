@@ -4,43 +4,6 @@
         {
             "type": "Feature",
             "properties": {
-                "hex": "AE2125",
-                "flight": "C2701   ",
-                "type": "C27J",
-                "description": "Alenia C-27J Spartan",
-                "operator": "Unknown",
-                "altitude": "ground",
-                "ground_speed": 1.6,
-                "track": 0.0,
-                "squawk": "1200",
-                "rssi": -12.9,
-                "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-12-17T02:46:02.262201+00:00",
-                "nav_qnh": 0.0,
-                "nav_altitude_mcp": 0,
-                "category": "A2"
-            },
-            "geometry": {
-                "type": "LineString",
-                "coordinates": [
-                    [
-                        -121.397858,
-                        38.67049
-                    ],
-                    [
-                        -121.397851,
-                        38.674484
-                    ],
-                    [
-                        -121.395806,
-                        38.67675
-                    ]
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
                 "hex": "AE26B6",
                 "flight": "C6596   ",
                 "type": "AS65",
@@ -60,14 +23,6 @@
             "geometry": {
                 "type": "LineString",
                 "coordinates": [
-                    [
-                        -88.310577,
-                        30.627509
-                    ],
-                    [
-                        -88.311456,
-                        30.628626
-                    ],
                     [
                         -88.359752,
                         30.693512
@@ -111,6 +66,35 @@
                     [
                         -88.256187,
                         30.70491
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "hex": "AE2125",
+                "flight": "C2701   ",
+                "type": "C27J",
+                "description": "Alenia C-27J Spartan",
+                "operator": "Unknown",
+                "altitude": "ground",
+                "ground_speed": 1.6,
+                "track": 0.0,
+                "squawk": "1200",
+                "rssi": -12.9,
+                "api_source": "https://api.airplanes.live/v2/hex/",
+                "last_seen": "2025-12-17T02:46:02.262201+00:00",
+                "nav_qnh": 0.0,
+                "nav_altitude_mcp": 0,
+                "category": "A2"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -121.395806,
+                        38.67675
                     ]
                 ]
             }
