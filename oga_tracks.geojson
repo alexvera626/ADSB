@@ -9,28 +9,20 @@
                 "type": "B407",
                 "description": "BELL 407",
                 "operator": "SAN DIEGO COUNTY SHERIFF DEPARTMENT",
-                "altitude": 275,
-                "ground_speed": 0.7,
+                "altitude": "ground",
+                "ground_speed": 0.0,
                 "track": 0.0,
                 "squawk": "4267",
-                "rssi": -23.1,
+                "rssi": -26.2,
                 "api_source": "https://opendata.adsb.fi/api/v2/hex/",
-                "last_seen": "2025-12-18T07:24:02.708275+00:00",
-                "nav_qnh": 1014.4,
-                "nav_altitude_mcp": 6496,
+                "last_seen": "2025-12-18T07:26:02.094424+00:00",
+                "nav_qnh": 0.0,
+                "nav_altitude_mcp": 0,
                 "category": "A7"
             },
             "geometry": {
                 "type": "LineString",
                 "coordinates": [
-                    [
-                        -117.024609,
-                        32.69014
-                    ],
-                    [
-                        -117.024609,
-                        32.69014
-                    ],
                     [
                         -117.049853,
                         32.648341
@@ -506,6 +498,10 @@
                     [
                         -116.973523,
                         32.819183
+                    ],
+                    [
+                        -116.973509,
+                        32.8192
                     ]
                 ]
             }
@@ -675,6 +671,35 @@
                     [
                         -116.268759,
                         33.743912
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "hex": "A2097B",
+                "flight": "N230LA  ",
+                "type": "AS50",
+                "description": "AEROSPATIALE AS-350 Ecureuil",
+                "operator": "LAPD AIR SUPPORT DIVISION",
+                "altitude": "ground",
+                "ground_speed": 4.1,
+                "track": 126.56,
+                "squawk": "1200",
+                "rssi": -26.6,
+                "api_source": "https://api.airplanes.live/v2/hex/",
+                "last_seen": "2025-12-18T07:26:02.095106+00:00",
+                "nav_qnh": 1013.6,
+                "nav_altitude_mcp": 4512,
+                "category": "A7"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -118.229556,
+                        34.05494
                     ]
                 ]
             }
