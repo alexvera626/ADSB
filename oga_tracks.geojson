@@ -178,15 +178,15 @@
                 "type": "B407",
                 "description": "BELL 407",
                 "operator": "SAN DIEGO COUNTY SHERIFF DEPARTMENT",
-                "altitude": 275,
-                "ground_speed": 0.7,
+                "altitude": "ground",
+                "ground_speed": 0.0,
                 "track": 0.0,
-                "squawk": "4267",
-                "rssi": -19.7,
+                "squawk": "N/A",
+                "rssi": -20.7,
                 "api_source": "https://opendata.adsb.fi/api/v2/hex/",
-                "last_seen": "2025-12-18T07:58:01.947335+00:00",
-                "nav_qnh": 1014.4,
-                "nav_altitude_mcp": 6496,
+                "last_seen": "2025-12-18T08:00:02.658883+00:00",
+                "nav_qnh": 0.0,
+                "nav_altitude_mcp": 0,
                 "category": "A7"
             },
             "geometry": {
@@ -708,12 +708,12 @@
                 "description": "AEROSPATIALE AS-350 Ecureuil",
                 "operator": "LAPD AIR SUPPORT DIVISION",
                 "altitude": 650,
-                "ground_speed": 66.6,
-                "track": 221.35,
+                "ground_speed": 70.0,
+                "track": 149.04,
                 "squawk": "1200",
-                "rssi": -7.1,
+                "rssi": -4.3,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-12-18T07:58:01.947415+00:00",
+                "last_seen": "2025-12-18T08:00:02.658958+00:00",
                 "nav_qnh": 1014.4,
                 "nav_altitude_mcp": 4512,
                 "category": "A7"
@@ -852,6 +852,14 @@
                     [
                         -118.432954,
                         34.026169
+                    ],
+                    [
+                        -118.432897,
+                        34.022095
+                    ],
+                    [
+                        -118.432897,
+                        34.022095
                     ]
                 ]
             }
