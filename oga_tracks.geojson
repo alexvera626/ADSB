@@ -926,18 +926,51 @@
         {
             "type": "Feature",
             "properties": {
+                "hex": "A2097B",
+                "flight": "N230LA  ",
+                "type": "AS50",
+                "description": "AEROSPATIALE AS-350 Ecureuil",
+                "operator": "LAPD AIR SUPPORT DIVISION",
+                "altitude": 675,
+                "ground_speed": 83.2,
+                "track": 290.39,
+                "squawk": "1200",
+                "rssi": -8.5,
+                "api_source": "https://api.airplanes.live/v2/hex/",
+                "last_seen": "2025-12-18T16:12:02.319861+00:00",
+                "nav_qnh": 1015.2,
+                "nav_altitude_mcp": 4512,
+                "category": "A7"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -118.231544,
+                        34.058967
+                    ],
+                    [
+                        -118.232509,
+                        34.059265
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
                 "hex": "A03F75",
                 "flight": "00000000",
                 "type": "BE30",
                 "description": "BEECH 300 Super King Air",
                 "operator": "DEPARTMENT OF HOMELAND SECURITY",
                 "altitude": 7350,
-                "ground_speed": 197.2,
-                "track": 92.62,
+                "ground_speed": 201.1,
+                "track": 91.71,
                 "squawk": "4405",
-                "rssi": -10.2,
+                "rssi": -16.7,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-12-18T16:10:02.214401+00:00",
+                "last_seen": "2025-12-18T16:12:02.319988+00:00",
                 "nav_qnh": 1019.2,
                 "nav_altitude_mcp": 7488,
                 "category": "A2"
@@ -1344,6 +1377,47 @@
                     [
                         -82.371718,
                         28.840694
+                    ],
+                    [
+                        -82.24661,
+                        28.836182
+                    ],
+                    [
+                        -82.244497,
+                        28.836136
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "hex": "A30D54",
+                "flight": "N296S   ",
+                "type": "AS50",
+                "description": "AEROSPATIALE AS-350 Ecureuil",
+                "operator": "DEPARTMENT OF HOMELAND SECURITY",
+                "altitude": 150,
+                "ground_speed": 85.4,
+                "track": 327.43,
+                "squawk": "4403",
+                "rssi": -18.2,
+                "api_source": "https://api.airplanes.live/v2/hex/",
+                "last_seen": "2025-12-18T16:12:02.320006+00:00",
+                "nav_qnh": 1024.0,
+                "nav_altitude_mcp": 4992,
+                "category": "A7"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -77.513672,
+                        38.732439
+                    ],
+                    [
+                        -77.514337,
+                        38.733261
                     ]
                 ]
             }
