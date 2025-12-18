@@ -9,13 +9,13 @@
                 "type": "AS50",
                 "description": "AEROSPATIALE AS-350 Ecureuil",
                 "operator": "LAPD AIR SUPPORT DIVISION",
-                "altitude": 1025,
-                "ground_speed": 83.8,
-                "track": 162.65,
+                "altitude": 850,
+                "ground_speed": 53.2,
+                "track": 343.61,
                 "squawk": "1200",
-                "rssi": -8.3,
+                "rssi": -5.9,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-12-18T03:06:02.630310+00:00",
+                "last_seen": "2025-12-18T03:08:02.501912+00:00",
                 "nav_qnh": 1013.6,
                 "nav_altitude_mcp": 4512,
                 "category": "A7"
@@ -23,22 +23,6 @@
             "geometry": {
                 "type": "LineString",
                 "coordinates": [
-                    [
-                        -118.227352,
-                        34.093964
-                    ],
-                    [
-                        -118.227596,
-                        34.093788
-                    ],
-                    [
-                        -118.227016,
-                        34.093414
-                    ],
-                    [
-                        -118.227482,
-                        34.09309
-                    ],
                     [
                         -118.226736,
                         34.093231
@@ -422,63 +406,14 @@
                     [
                         -118.225594,
                         34.025543
-                    ]
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "hex": "A9079F",
-                "flight": "N681HB  ",
-                "type": "H500",
-                "description": "HUGHES 500",
-                "operator": "CITY OF HUNTINGTON BEACH",
-                "altitude": 25,
-                "ground_speed": 3.2,
-                "track": 191.25,
-                "squawk": "4301",
-                "rssi": -2.4,
-                "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-12-17T23:14:02.318046+00:00",
-                "nav_qnh": 1014.4,
-                "nav_altitude_mcp": 0,
-                "category": "A7"
-            },
-            "geometry": {
-                "type": "LineString",
-                "coordinates": [
-                    [
-                        -118.001804,
-                        33.703587
                     ],
                     [
-                        -118.001575,
-                        33.70382
+                        -118.235536,
+                        34.040085
                     ],
                     [
-                        -118.001264,
-                        33.695824
-                    ],
-                    [
-                        -118.001264,
-                        33.695824
-                    ],
-                    [
-                        -118.004723,
-                        33.706055
-                    ],
-                    [
-                        -118.004723,
-                        33.706055
-                    ],
-                    [
-                        -118.001404,
-                        33.695663
-                    ],
-                    [
-                        -118.001404,
-                        33.695663
+                        -118.235536,
+                        34.040085
                     ]
                 ]
             }
@@ -505,22 +440,6 @@
             "geometry": {
                 "type": "LineString",
                 "coordinates": [
-                    [
-                        -97.404062,
-                        48.343056
-                    ],
-                    [
-                        -97.404926,
-                        48.343094
-                    ],
-                    [
-                        -97.476558,
-                        48.318476
-                    ],
-                    [
-                        -97.477534,
-                        48.317322
-                    ],
                     [
                         -97.470775,
                         48.262474
@@ -662,22 +581,6 @@
             "geometry": {
                 "type": "LineString",
                 "coordinates": [
-                    [
-                        -117.680658,
-                        32.684784
-                    ],
-                    [
-                        -117.680334,
-                        32.684792
-                    ],
-                    [
-                        -117.688966,
-                        32.680928
-                    ],
-                    [
-                        -117.688898,
-                        32.681488
-                    ],
                     [
                         -117.692946,
                         32.685443
@@ -1056,28 +959,53 @@
                 "type": "LineString",
                 "coordinates": [
                     [
-                        -88.148804,
-                        41.981972
-                    ],
-                    [
-                        -88.149366,
-                        41.981506
-                    ],
-                    [
-                        -88.191983,
-                        41.939982
-                    ],
-                    [
-                        -88.192687,
-                        41.939255
-                    ],
-                    [
                         -88.248767,
                         41.915309
                     ],
                     [
                         -88.248767,
                         41.915309
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "hex": "A9079F",
+                "flight": "N681HB  ",
+                "type": "H500",
+                "description": "HUGHES 500",
+                "operator": "CITY OF HUNTINGTON BEACH",
+                "altitude": 25,
+                "ground_speed": 3.2,
+                "track": 191.25,
+                "squawk": "4301",
+                "rssi": -2.4,
+                "api_source": "https://api.airplanes.live/v2/hex/",
+                "last_seen": "2025-12-17T23:14:02.318046+00:00",
+                "nav_qnh": 1014.4,
+                "nav_altitude_mcp": 0,
+                "category": "A7"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -118.004723,
+                        33.706055
+                    ],
+                    [
+                        -118.004723,
+                        33.706055
+                    ],
+                    [
+                        -118.001404,
+                        33.695663
+                    ],
+                    [
+                        -118.001404,
+                        33.695663
                     ]
                 ]
             }
@@ -1846,13 +1774,13 @@
                 "description": "BELL 407",
                 "operator": "SAN DIEGO COUNTY SHERIFF DEPARTMENT",
                 "altitude": "ground",
-                "ground_speed": 0.1,
-                "track": 270.0,
+                "ground_speed": 0.0,
+                "track": 0.0,
                 "squawk": "4267",
-                "rssi": -26.2,
+                "rssi": -27.8,
                 "api_source": "https://opendata.adsb.fi/api/v2/hex/",
-                "last_seen": "2025-12-18T03:06:02.630199+00:00",
-                "nav_qnh": 1015.2,
+                "last_seen": "2025-12-18T03:08:02.501801+00:00",
+                "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
                 "category": "A7"
             },
@@ -2262,6 +2190,10 @@
                     [
                         -116.972669,
                         32.835295
+                    ],
+                    [
+                        -116.973524,
+                        32.81899
                     ],
                     [
                         -116.973524,
