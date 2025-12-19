@@ -1365,12 +1365,12 @@
                 "description": "DE HAVILLAND DHC-8-300 Dash 8",
                 "operator": "US DEPARTMENT OF HOMELAND SECURITY",
                 "altitude": 11375,
-                "ground_speed": 174.0,
-                "track": 314.07,
+                "ground_speed": 171.8,
+                "track": 306.0,
                 "squawk": "4407",
-                "rssi": -11.1,
+                "rssi": -8.5,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-12-19T20:22:02.687963+00:00",
+                "last_seen": "2025-12-19T20:24:02.151459+00:00",
                 "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
                 "category": "Unknown"
@@ -1965,6 +1965,14 @@
                     [
                         -117.817877,
                         33.423798
+                    ],
+                    [
+                        -117.903199,
+                        33.48549
+                    ],
+                    [
+                        -117.9039,
+                        33.48587
                     ]
                 ]
             }
@@ -3173,17 +3181,17 @@
             "type": "Feature",
             "properties": {
                 "hex": "AE4D35",
-                "flight": "LS14    ",
+                "flight": "Unknown",
                 "type": "H60",
                 "description": "SIKORSKY UH-60 Black Hawk",
                 "operator": "Unknown",
-                "altitude": 2575,
-                "ground_speed": 111.0,
-                "track": 349.0,
-                "squawk": "1200",
-                "rssi": -25.7,
-                "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-12-19T20:20:02.047214+00:00",
+                "altitude": 0,
+                "ground_speed": 0.0,
+                "track": 0.0,
+                "squawk": "N/A",
+                "rssi": -10.7,
+                "api_source": "https://opendata.adsb.fi/api/v2/hex/",
+                "last_seen": "2025-12-19T20:24:02.151226+00:00",
                 "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
                 "category": "Unknown"
@@ -4113,12 +4121,12 @@
                 "description": "Sikorsky MH-60S Seahawk",
                 "operator": "Unknown",
                 "altitude": 100,
-                "ground_speed": 77.0,
-                "track": 268.51,
-                "squawk": "4000",
-                "rssi": -11.7,
+                "ground_speed": 76.2,
+                "track": 266.24,
+                "squawk": "N/A",
+                "rssi": -11.8,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-12-19T20:22:02.688205+00:00",
+                "last_seen": "2025-12-19T20:24:02.151639+00:00",
                 "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
                 "category": "A7"
@@ -4181,6 +4189,43 @@
                     [
                         -118.170851,
                         32.650715
+                    ],
+                    [
+                        -118.217095,
+                        32.648667
+                    ],
+                    [
+                        -118.208551,
+                        32.649124
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "hex": "AE277C",
+                "flight": "Unknown",
+                "type": "H60",
+                "description": "Unknown",
+                "operator": "Unknown",
+                "altitude": "ground",
+                "ground_speed": 0.0,
+                "track": 0.0,
+                "squawk": "N/A",
+                "rssi": -11.5,
+                "api_source": "https://opendata.adsb.fi/api/v2/hex/",
+                "last_seen": "2025-12-19T20:24:02.151401+00:00",
+                "nav_qnh": 0.0,
+                "nav_altitude_mcp": 0,
+                "category": "Unknown"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -117.140007,
+                        32.872593
                     ]
                 ]
             }
