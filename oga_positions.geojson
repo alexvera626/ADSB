@@ -15,7 +15,7 @@
                 "squawk": "4204",
                 "rssi": null,
                 "api_source": "https://opendata.adsb.fi/api/v2/hex/",
-                "last_seen": "2025-12-20T17:00:02.930756+00:00",
+                "last_seen": "2025-12-20T17:02:02.494239+00:00",
                 "nav_qnh": null,
                 "nav_altitude_mcp": null,
                 "category": "A7"
@@ -31,18 +31,45 @@
         {
             "type": "Feature",
             "properties": {
+                "hex": "AAFD01",
+                "flight": "Unknown",
+                "type": "DH8C",
+                "description": "DE HAVILLAND DHC-8-300 Dash 8",
+                "operator": "US DEPARTMENT OF HOMELAND SECURITY",
+                "altitude": "ground",
+                "ground_speed": 5.2,
+                "track": 180.0,
+                "squawk": "4773",
+                "rssi": null,
+                "api_source": "https://api.airplanes.live/v2/hex/",
+                "last_seen": "2025-12-20T17:02:02.494347+00:00",
+                "nav_qnh": null,
+                "nav_altitude_mcp": null,
+                "category": "Unknown"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -118.150992,
+                    33.814463
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
                 "hex": "ADDF5C",
                 "flight": "N993SD  ",
                 "type": "AS50",
                 "description": "AEROSPATIALE AS-350 Ecureuil",
                 "operator": "COUNTY OF RIVERSIDE CALIFORNIA",
-                "altitude": 3025,
-                "ground_speed": 87.1,
-                "track": 238.13,
+                "altitude": 2375,
+                "ground_speed": 85.4,
+                "track": 237.43,
                 "squawk": "0131",
                 "rssi": null,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-12-20T17:00:02.931006+00:00",
+                "last_seen": "2025-12-20T17:02:02.494598+00:00",
                 "nav_qnh": null,
                 "nav_altitude_mcp": null,
                 "category": "A7"
@@ -50,8 +77,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -117.110481,
-                    33.975127
+                    -117.159004,
+                    33.947288
                 ]
             }
         }
