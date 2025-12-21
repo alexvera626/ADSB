@@ -9,13 +9,13 @@
                 "type": "B407",
                 "description": "BELL 407",
                 "operator": "SAN DIEGO COUNTY SHERIFF DEPARTMENT",
-                "altitude": 1400,
-                "ground_speed": 121.0,
-                "track": 312.66,
+                "altitude": 1150,
+                "ground_speed": 68.0,
+                "track": 90.0,
                 "squawk": "4266",
-                "rssi": -14.3,
+                "rssi": -14.0,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-12-21T18:48:02.627726+00:00",
+                "last_seen": "2025-12-21T18:50:02.486564+00:00",
                 "nav_qnh": 1020.0,
                 "nav_altitude_mcp": 0,
                 "category": "A7"
@@ -174,6 +174,14 @@
                     [
                         -116.956769,
                         32.774872
+                    ],
+                    [
+                        -116.991815,
+                        32.801743
+                    ],
+                    [
+                        -116.991815,
+                        32.801743
                     ]
                 ]
             }
@@ -186,13 +194,13 @@
                 "type": "DH8C",
                 "description": "DE HAVILLAND DHC-8-300 Dash 8",
                 "operator": "US DEPARTMENT OF HOMELAND SECURITY",
-                "altitude": 1325,
-                "ground_speed": 171.3,
-                "track": 242.54,
+                "altitude": 2375,
+                "ground_speed": 175.9,
+                "track": 190.48,
                 "squawk": "4407",
-                "rssi": -21.7,
+                "rssi": -12.6,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-12-21T18:48:02.627580+00:00",
+                "last_seen": "2025-12-21T18:50:02.486402+00:00",
                 "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
                 "category": "Unknown"
@@ -735,6 +743,47 @@
                     [
                         -117.556677,
                         32.703415
+                    ],
+                    [
+                        -117.644068,
+                        32.645781
+                    ],
+                    [
+                        -117.644068,
+                        32.645781
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "hex": "A2097B",
+                "flight": "N230LA  ",
+                "type": "AS50",
+                "description": "AEROSPATIALE AS-350 Ecureuil",
+                "operator": "LAPD AIR SUPPORT DIVISION",
+                "altitude": "ground",
+                "ground_speed": 0.7,
+                "track": 261.56,
+                "squawk": "1200",
+                "rssi": -20.8,
+                "api_source": "https://api.airplanes.live/v2/hex/",
+                "last_seen": "2025-12-21T18:50:02.486419+00:00",
+                "nav_qnh": 1019.2,
+                "nav_altitude_mcp": 4512,
+                "category": "A7"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -118.229945,
+                        34.05423
+                    ],
+                    [
+                        -118.229957,
+                        34.054207
                     ]
                 ]
             }
