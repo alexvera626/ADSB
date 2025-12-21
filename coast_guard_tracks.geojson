@@ -10,14 +10,14 @@
                 "description": "CASA HC-144B Ocean Sentry",
                 "operator": "United States Coast Guard",
                 "altitude": 12350,
-                "ground_speed": 214.4,
-                "track": 294.53,
+                "ground_speed": 210.0,
+                "track": 294.4,
                 "squawk": "4651",
-                "rssi": -34.9,
+                "rssi": -49.5,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-12-21T15:06:02.340454+00:00",
-                "nav_qnh": 1019.2,
-                "nav_altitude_mcp": 12512,
+                "last_seen": "2025-12-21T15:08:02.529595+00:00",
+                "nav_qnh": 0.0,
+                "nav_altitude_mcp": 0,
                 "category": "A2"
             },
             "geometry": {
@@ -110,6 +110,10 @@
                     [
                         -96.367095,
                         27.616974
+                    ],
+                    [
+                        -96.487007,
+                        27.665901
                     ]
                 ]
             }
@@ -715,6 +719,35 @@
                     [
                         -76.564636,
                         36.709167
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "hex": "AE4DFF",
+                "flight": "C6047   ",
+                "type": "H60",
+                "description": "Sikorsky MH-60T Jayhawk",
+                "operator": "Unknown",
+                "altitude": 525,
+                "ground_speed": 118.4,
+                "track": 15.68,
+                "squawk": "N/A",
+                "rssi": -24.2,
+                "api_source": "https://api.airplanes.live/v2/hex/",
+                "last_seen": "2025-12-21T15:08:02.529617+00:00",
+                "nav_qnh": 0.0,
+                "nav_altitude_mcp": 0,
+                "category": "A7"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -85.477585,
+                        44.852848
                     ]
                 ]
             }
