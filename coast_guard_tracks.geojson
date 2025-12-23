@@ -24,14 +24,6 @@
                 "type": "LineString",
                 "coordinates": [
                     [
-                        -74.513428,
-                        39.302472
-                    ],
-                    [
-                        -74.513517,
-                        39.302444
-                    ],
-                    [
                         -74.516442,
                         39.303268
                     ],
@@ -98,13 +90,13 @@
                 "type": "H60",
                 "description": "Sikorsky MH-60T Jayhawk",
                 "operator": "Unknown",
-                "altitude": 4600,
-                "ground_speed": 129.1,
-                "track": 2.22,
+                "altitude": 0,
+                "ground_speed": 0.0,
+                "track": 0.0,
                 "squawk": "N/A",
-                "rssi": -26.1,
+                "rssi": -27.4,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-12-23T02:26:02.224793+00:00",
+                "last_seen": "2025-12-23T02:28:02.168227+00:00",
                 "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
                 "category": "A7"
@@ -112,14 +104,6 @@
             "geometry": {
                 "type": "LineString",
                 "coordinates": [
-                    [
-                        -135.14986,
-                        57.390747
-                    ],
-                    [
-                        -135.14986,
-                        57.390747
-                    ],
                     [
                         -135.22625,
                         57.337875
@@ -169,14 +153,6 @@
             "geometry": {
                 "type": "LineString",
                 "coordinates": [
-                    [
-                        -82.215565,
-                        26.405594
-                    ],
-                    [
-                        -82.213915,
-                        26.405081
-                    ],
                     [
                         -82.043046,
                         26.310301
@@ -611,10 +587,6 @@
                 "type": "LineString",
                 "coordinates": [
                     [
-                        -117.855945,
-                        33.328445
-                    ],
-                    [
                         -117.856115,
                         33.328469
                     ],
@@ -852,6 +824,35 @@
         {
             "type": "Feature",
             "properties": {
+                "hex": "AE26BA",
+                "flight": "C6603   ",
+                "type": "AS65",
+                "description": "Eurocopter MH-65D Dolphin",
+                "operator": "Unknown",
+                "altitude": "ground",
+                "ground_speed": 4.8,
+                "track": 279.46,
+                "squawk": "1277",
+                "rssi": -23.4,
+                "api_source": "https://api.airplanes.live/v2/hex/",
+                "last_seen": "2025-12-22T22:28:02.882053+00:00",
+                "nav_qnh": 0.0,
+                "nav_altitude_mcp": 0,
+                "category": "A7"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -124.11244,
+                        40.976292
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
                 "hex": "AE2678",
                 "flight": "C6530   ",
                 "type": "AS65",
@@ -871,10 +872,6 @@
             "geometry": {
                 "type": "LineString",
                 "coordinates": [
-                    [
-                        -80.418439,
-                        32.33075
-                    ],
                     [
                         -80.20042,
                         32.552211
@@ -956,10 +953,6 @@
             "geometry": {
                 "type": "LineString",
                 "coordinates": [
-                    [
-                        -94.936954,
-                        29.390104
-                    ],
                     [
                         -95.014613,
                         29.521986
@@ -1047,39 +1040,6 @@
                     [
                         -95.156304,
                         29.620677
-                    ]
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "hex": "AE26BA",
-                "flight": "C6603   ",
-                "type": "AS65",
-                "description": "Eurocopter MH-65D Dolphin",
-                "operator": "Unknown",
-                "altitude": "ground",
-                "ground_speed": 4.8,
-                "track": 279.46,
-                "squawk": "1277",
-                "rssi": -23.4,
-                "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-12-22T22:28:02.882053+00:00",
-                "nav_qnh": 0.0,
-                "nav_altitude_mcp": 0,
-                "category": "A7"
-            },
-            "geometry": {
-                "type": "LineString",
-                "coordinates": [
-                    [
-                        -124.115112,
-                        40.959869
-                    ],
-                    [
-                        -124.11244,
-                        40.976292
                     ]
                 ]
             }
