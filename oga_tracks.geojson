@@ -787,14 +787,14 @@
                 "type": "EC35",
                 "description": "AIRBUS HELICOPTERS EC-135/635",
                 "operator": "REACH AIR MEDICAL SERVICES LLC",
-                "altitude": "ground",
-                "ground_speed": 0.0,
-                "track": 0.0,
+                "altitude": -75,
+                "ground_speed": 29.2,
+                "track": 51.95,
                 "squawk": "3674",
-                "rssi": -14.0,
+                "rssi": -13.9,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-12-24T07:48:02.572609+00:00",
-                "nav_qnh": 0.0,
+                "last_seen": "2025-12-24T07:50:01.940731+00:00",
+                "nav_qnh": 1017.6,
                 "nav_altitude_mcp": 0,
                 "category": "A7"
             },
@@ -984,6 +984,14 @@
                     [
                         -157.907468,
                         21.323776
+                    ],
+                    [
+                        -157.907257,
+                        21.324975
+                    ],
+                    [
+                        -157.907257,
+                        21.324975
                     ]
                 ]
             }
@@ -1361,6 +1369,39 @@
                     [
                         -118.410587,
                         34.257198
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "hex": "A36968",
+                "flight": "N319MW  ",
+                "type": "B407",
+                "description": "BELL 407",
+                "operator": "SAN DIEGO COUNTY SHERIFF DEPARTMENT",
+                "altitude": 775,
+                "ground_speed": 57.0,
+                "track": 142.13,
+                "squawk": "4267",
+                "rssi": -20.1,
+                "api_source": "https://api.airplanes.live/v2/hex/",
+                "last_seen": "2025-12-24T07:50:01.940755+00:00",
+                "nav_qnh": 1015.2,
+                "nav_altitude_mcp": 0,
+                "category": "A7"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -116.969952,
+                        32.814606
+                    ],
+                    [
+                        -116.969788,
+                        32.814377
                     ]
                 ]
             }
