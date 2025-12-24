@@ -932,13 +932,13 @@
                 "type": "AS65",
                 "description": "Eurocopter MH-65D Dolphin",
                 "operator": "Unknown",
-                "altitude": -150,
-                "ground_speed": 85.2,
-                "track": 94.04,
+                "altitude": -250,
+                "ground_speed": 18.6,
+                "track": 306.25,
                 "squawk": "1200",
-                "rssi": -7.7,
+                "rssi": -16.1,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-12-24T16:52:02.150898+00:00",
+                "last_seen": "2025-12-24T16:54:03.204953+00:00",
                 "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
                 "category": "A7"
@@ -1229,6 +1229,14 @@
                     [
                         -81.155786,
                         32.012512
+                    ],
+                    [
+                        -81.138977,
+                        32.023453
+                    ],
+                    [
+                        -81.138483,
+                        32.022308
                     ]
                 ]
             }
@@ -1350,6 +1358,35 @@
                     [
                         -82.838412,
                         42.616058
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "hex": "AE57D4",
+                "flight": "C2010   ",
+                "type": "C30J",
+                "description": "Lockheed Martin HC-130J Hercules",
+                "operator": "Unknown",
+                "altitude": 20025,
+                "ground_speed": 267.0,
+                "track": 306.2,
+                "squawk": "3126",
+                "rssi": -49.5,
+                "api_source": "https://api.airplanes.live/v2/hex/",
+                "last_seen": "2025-12-24T16:54:03.204986+00:00",
+                "nav_qnh": 0.0,
+                "nav_altitude_mcp": 0,
+                "category": "Unknown"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -67.960976,
+                        19.146843
                     ]
                 ]
             }
