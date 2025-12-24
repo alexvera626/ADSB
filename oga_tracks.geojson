@@ -9,13 +9,13 @@
                 "type": "H60",
                 "description": "SIKORSKY UH-60 Black Hawk",
                 "operator": "Unknown",
-                "altitude": "ground",
-                "ground_speed": 0.0,
-                "track": 0.0,
+                "altitude": -75,
+                "ground_speed": 5.0,
+                "track": 270.0,
                 "squawk": "1200",
-                "rssi": -26.5,
+                "rssi": -23.2,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-12-24T02:04:02.559048+00:00",
+                "last_seen": "2025-12-24T02:06:02.405828+00:00",
                 "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
                 "category": "A7"
@@ -23,14 +23,6 @@
             "geometry": {
                 "type": "LineString",
                 "coordinates": [
-                    [
-                        -117.120245,
-                        32.552719
-                    ],
-                    [
-                        -117.119863,
-                        32.552444
-                    ],
                     [
                         -117.127598,
                         32.567247
@@ -670,6 +662,14 @@
                     [
                         -117.122594,
                         32.560055
+                    ],
+                    [
+                        -117.122552,
+                        32.560043
+                    ],
+                    [
+                        -117.122552,
+                        32.560043
                     ]
                 ]
             }
@@ -696,14 +696,6 @@
             "geometry": {
                 "type": "LineString",
                 "coordinates": [
-                    [
-                        -117.890924,
-                        33.775726
-                    ],
-                    [
-                        -117.891369,
-                        33.775697
-                    ],
                     [
                         -117.927975,
                         33.791977
@@ -1082,14 +1074,6 @@
                 "type": "LineString",
                 "coordinates": [
                     [
-                        -101.429131,
-                        45.535723
-                    ],
-                    [
-                        -101.429131,
-                        45.535723
-                    ],
-                    [
                         -101.320175,
                         45.710293
                     ],
@@ -1326,14 +1310,6 @@
             "geometry": {
                 "type": "LineString",
                 "coordinates": [
-                    [
-                        -117.149194,
-                        32.607193
-                    ],
-                    [
-                        -117.149291,
-                        32.607562
-                    ],
                     [
                         -117.179055,
                         32.65849
@@ -1976,14 +1952,6 @@
                 "type": "LineString",
                 "coordinates": [
                     [
-                        -116.124199,
-                        33.679413
-                    ],
-                    [
-                        -116.124816,
-                        33.679825
-                    ],
-                    [
                         -116.156445,
                         33.64279
                     ],
@@ -2229,14 +2197,6 @@
                 "type": "LineString",
                 "coordinates": [
                     [
-                        -117.444296,
-                        33.240951
-                    ],
-                    [
-                        -117.444296,
-                        33.240951
-                    ],
-                    [
                         -117.473051,
                         33.291135
                     ],
@@ -2458,79 +2418,6 @@
         {
             "type": "Feature",
             "properties": {
-                "hex": "AE4B4D",
-                "flight": "THDR12  ",
-                "type": "H53S",
-                "description": "Sikorsky CH-53E Super Stallion",
-                "operator": "United States Marine Corps",
-                "altitude": "ground",
-                "ground_speed": 12.2,
-                "track": 255.94,
-                "squawk": "1200",
-                "rssi": -24.7,
-                "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-12-23T22:44:02.877746+00:00",
-                "nav_qnh": 0.0,
-                "nav_altitude_mcp": 0,
-                "category": "A7"
-            },
-            "geometry": {
-                "type": "LineString",
-                "coordinates": [
-                    [
-                        -117.006757,
-                        32.895493
-                    ],
-                    [
-                        -117.006757,
-                        32.895493
-                    ],
-                    [
-                        -117.032025,
-                        32.897278
-                    ],
-                    [
-                        -117.032085,
-                        32.897815
-                    ],
-                    [
-                        -117.022387,
-                        32.888923
-                    ],
-                    [
-                        -117.022387,
-                        32.888923
-                    ],
-                    [
-                        -117.048065,
-                        32.855209
-                    ],
-                    [
-                        -117.048065,
-                        32.855209
-                    ],
-                    [
-                        -117.127486,
-                        32.87263
-                    ],
-                    [
-                        -117.127486,
-                        32.87263
-                    ],
-                    [
-                        -117.150609,
-                        32.867752
-                    ],
-                    [
-                        -117.150609,
-                        32.867752
-                    ]
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
                 "hex": "AE278C",
                 "flight": "LS10    ",
                 "type": "H60",
@@ -2550,14 +2437,6 @@
             "geometry": {
                 "type": "LineString",
                 "coordinates": [
-                    [
-                        -117.352881,
-                        32.659927
-                    ],
-                    [
-                        -117.352314,
-                        32.659653
-                    ],
                     [
                         -117.28208,
                         32.632793
@@ -3719,6 +3598,71 @@
         {
             "type": "Feature",
             "properties": {
+                "hex": "AE4B4D",
+                "flight": "THDR12  ",
+                "type": "H53S",
+                "description": "Sikorsky CH-53E Super Stallion",
+                "operator": "United States Marine Corps",
+                "altitude": "ground",
+                "ground_speed": 12.2,
+                "track": 255.94,
+                "squawk": "1200",
+                "rssi": -24.7,
+                "api_source": "https://api.airplanes.live/v2/hex/",
+                "last_seen": "2025-12-23T22:44:02.877746+00:00",
+                "nav_qnh": 0.0,
+                "nav_altitude_mcp": 0,
+                "category": "A7"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -117.032025,
+                        32.897278
+                    ],
+                    [
+                        -117.032085,
+                        32.897815
+                    ],
+                    [
+                        -117.022387,
+                        32.888923
+                    ],
+                    [
+                        -117.022387,
+                        32.888923
+                    ],
+                    [
+                        -117.048065,
+                        32.855209
+                    ],
+                    [
+                        -117.048065,
+                        32.855209
+                    ],
+                    [
+                        -117.127486,
+                        32.87263
+                    ],
+                    [
+                        -117.127486,
+                        32.87263
+                    ],
+                    [
+                        -117.150609,
+                        32.867752
+                    ],
+                    [
+                        -117.150609,
+                        32.867752
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
                 "hex": "A38627",
                 "flight": "REH81   ",
                 "type": "EC35",
@@ -4005,13 +3949,13 @@
                 "type": "AS50",
                 "description": "AEROSPATIALE AS-350 Ecureuil",
                 "operator": "LAPD AIR SUPPORT DIVISION",
-                "altitude": 775,
-                "ground_speed": 53.2,
-                "track": 221.19,
+                "altitude": 900,
+                "ground_speed": 68.6,
+                "track": 210.68,
                 "squawk": "1200",
-                "rssi": -22.8,
+                "rssi": -13.9,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-12-24T02:04:02.558958+00:00",
+                "last_seen": "2025-12-24T02:06:02.405778+00:00",
                 "nav_qnh": 1014.4,
                 "nav_altitude_mcp": 4000,
                 "category": "A7"
@@ -4546,6 +4490,14 @@
                     [
                         -118.179315,
                         34.082062
+                    ],
+                    [
+                        -118.183911,
+                        34.06842
+                    ],
+                    [
+                        -118.184023,
+                        34.068329
                     ]
                 ]
             }
@@ -4558,13 +4510,13 @@
                 "type": "B407",
                 "description": "BELL 407",
                 "operator": "SAN DIEGO COUNTY SHERIFF DEPARTMENT",
-                "altitude": 2100,
-                "ground_speed": 92.6,
-                "track": 169.42,
+                "altitude": 2225,
+                "ground_speed": 77.9,
+                "track": 245.74,
                 "squawk": "4267",
-                "rssi": -10.7,
+                "rssi": -8.1,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-12-24T02:04:02.559074+00:00",
+                "last_seen": "2025-12-24T02:06:02.405849+00:00",
                 "nav_qnh": 1015.2,
                 "nav_altitude_mcp": 0,
                 "category": "A7"
@@ -4871,6 +4823,14 @@
                     [
                         -117.08053,
                         33.067566
+                    ],
+                    [
+                        -117.078384,
+                        33.067917
+                    ],
+                    [
+                        -117.078384,
+                        33.067917
                     ]
                 ]
             }
@@ -5036,13 +4996,13 @@
                 "type": "EC35",
                 "description": "AIRBUS HELICOPTERS EC-135/635",
                 "operator": "REACH AIR MEDICAL SERVICES LLC",
-                "altitude": 2000,
-                "ground_speed": 116.5,
-                "track": 240.13,
+                "altitude": 1325,
+                "ground_speed": 114.0,
+                "track": 228.2,
                 "squawk": "1200",
-                "rssi": -32.6,
+                "rssi": -34.4,
                 "api_source": "https://opendata.adsb.fi/api/v2/hex/",
-                "last_seen": "2025-12-24T02:04:02.558863+00:00",
+                "last_seen": "2025-12-24T02:06:02.405680+00:00",
                 "nav_qnh": 1012.8,
                 "nav_altitude_mcp": 0,
                 "category": "A7"
@@ -5081,6 +5041,10 @@
                     [
                         -155.94923,
                         19.823014
+                    ],
+                    [
+                        -156.00169,
+                        19.787247
                     ]
                 ]
             }
