@@ -38,13 +38,13 @@
                 "type": "AS50",
                 "description": "AEROSPATIALE AS-350 Ecureuil",
                 "operator": "COUNTY OF RIVERSIDE CALIFORNIA",
-                "altitude": 2350,
-                "ground_speed": 89.2,
-                "track": 252.38,
+                "altitude": 2450,
+                "ground_speed": 62.8,
+                "track": 189.16,
                 "squawk": "0131",
-                "rssi": -24.9,
+                "rssi": -27.2,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-12-26T16:16:02.068614+00:00",
+                "last_seen": "2025-12-26T16:18:02.356101+00:00",
                 "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
                 "category": "A7"
@@ -103,6 +103,80 @@
                     [
                         -117.39378,
                         33.825973
+                    ],
+                    [
+                        -117.403507,
+                        33.810983
+                    ],
+                    [
+                        -117.403507,
+                        33.810052
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "hex": "A32EAF",
+                "flight": "FIRE4   ",
+                "type": "A139",
+                "description": "AGUSTA AW-139",
+                "operator": "CITY OF LOS ANGELES",
+                "altitude": 850,
+                "ground_speed": 119.8,
+                "track": 186.71,
+                "squawk": "1200",
+                "rssi": -6.3,
+                "api_source": "https://api.airplanes.live/v2/hex/",
+                "last_seen": "2025-12-26T16:18:02.356068+00:00",
+                "nav_qnh": 1018.4,
+                "nav_altitude_mcp": 576,
+                "category": "A7"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -118.49699,
+                        34.19355
+                    ],
+                    [
+                        -118.49719,
+                        34.192337
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "hex": "A3238A",
+                "flight": "FIRE1   ",
+                "type": "A139",
+                "description": "AGUSTA AW-139",
+                "operator": "LOS ANGELES FIRE DEPARTMENT",
+                "altitude": 950,
+                "ground_speed": 64.1,
+                "track": 2.68,
+                "squawk": "1200",
+                "rssi": -3.8,
+                "api_source": "https://api.airplanes.live/v2/hex/",
+                "last_seen": "2025-12-26T16:18:02.356085+00:00",
+                "nav_qnh": 1017.6,
+                "nav_altitude_mcp": 800,
+                "category": "A7"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -118.473199,
+                        34.224106
+                    ],
+                    [
+                        -118.473129,
+                        34.226369
                     ]
                 ]
             }
