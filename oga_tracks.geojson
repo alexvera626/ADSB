@@ -4,6 +4,39 @@
         {
             "type": "Feature",
             "properties": {
+                "hex": "A00399",
+                "flight": "PD20    ",
+                "type": "AS50",
+                "description": "AEROSPATIALE AS-350 Ecureuil",
+                "operator": "Unknown",
+                "altitude": "ground",
+                "ground_speed": 90.0,
+                "track": 49.6,
+                "squawk": "1200",
+                "rssi": -49.5,
+                "api_source": "https://api.airplanes.live/v2/hex/",
+                "last_seen": "2025-12-26T20:34:02.975147+00:00",
+                "nav_qnh": 0.0,
+                "nav_altitude_mcp": 0,
+                "category": "Unknown"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -98.20314,
+                        26.414066
+                    ],
+                    [
+                        -98.165115,
+                        26.4487
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
                 "hex": "ADDF5C",
                 "flight": "N993SD  ",
                 "type": "AS50",
@@ -23,14 +56,6 @@
             "geometry": {
                 "type": "LineString",
                 "coordinates": [
-                    [
-                        -117.125816,
-                        33.584414
-                    ],
-                    [
-                        -117.125816,
-                        33.584414
-                    ],
                     [
                         -117.131242,
                         33.569138
@@ -326,47 +351,6 @@
                     [
                         -117.039032,
                         33.736496
-                    ]
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "hex": "A00399",
-                "flight": "PD20    ",
-                "type": "AS50",
-                "description": "AEROSPATIALE AS-350 Ecureuil",
-                "operator": "Unknown",
-                "altitude": "ground",
-                "ground_speed": 90.0,
-                "track": 49.6,
-                "squawk": "1200",
-                "rssi": -49.5,
-                "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-12-26T20:34:02.975147+00:00",
-                "nav_qnh": 0.0,
-                "nav_altitude_mcp": 0,
-                "category": "Unknown"
-            },
-            "geometry": {
-                "type": "LineString",
-                "coordinates": [
-                    [
-                        -98.295868,
-                        26.358124
-                    ],
-                    [
-                        -98.247086,
-                        26.376358
-                    ],
-                    [
-                        -98.20314,
-                        26.414066
-                    ],
-                    [
-                        -98.165115,
-                        26.4487
                     ]
                 ]
             }
