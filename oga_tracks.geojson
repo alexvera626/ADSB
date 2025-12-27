@@ -651,13 +651,13 @@
                 "type": "AS50",
                 "description": "AEROSPATIALE AS-350 Ecureuil",
                 "operator": "LAPD AIR SUPPORT DIVISION",
-                "altitude": 1275,
-                "ground_speed": 68.9,
-                "track": 203.96,
+                "altitude": 1475,
+                "ground_speed": 73.6,
+                "track": 47.2,
                 "squawk": "0257",
-                "rssi": -10.0,
+                "rssi": -5.7,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-12-27T08:16:02.417689+00:00",
+                "last_seen": "2025-12-27T08:18:02.860805+00:00",
                 "nav_qnh": 1016.8,
                 "nav_altitude_mcp": 4000,
                 "category": "A7"
@@ -904,6 +904,43 @@
                     [
                         -118.535957,
                         34.188103
+                    ],
+                    [
+                        -118.536147,
+                        34.167526
+                    ],
+                    [
+                        -118.536147,
+                        34.167526
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "hex": "AC4597",
+                "flight": "REH46   ",
+                "type": "EC35",
+                "description": "AIRBUS HELICOPTERS EC-135/635",
+                "operator": "REACH AIR MEDICAL SERVICES LLC",
+                "altitude": 775,
+                "ground_speed": 112.3,
+                "track": 298.16,
+                "squawk": "2310",
+                "rssi": -33.5,
+                "api_source": "https://opendata.adsb.fi/api/v2/hex/",
+                "last_seen": "2025-12-27T08:18:02.860718+00:00",
+                "nav_qnh": 1017.6,
+                "nav_altitude_mcp": 0,
+                "category": "A7"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -156.035728,
+                        19.78363
                     ]
                 ]
             }
