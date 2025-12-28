@@ -857,13 +857,13 @@
                 "description": "AIRBUS HELICOPTERS EC-135/635",
                 "operator": "REACH AIR MEDICAL SERVICES LLC",
                 "altitude": 5925,
-                "ground_speed": 126.6,
-                "track": 313.4,
-                "squawk": "2202",
-                "rssi": -35.9,
+                "ground_speed": 122.4,
+                "track": 312.68,
+                "squawk": "N/A",
+                "rssi": -36.6,
                 "api_source": "https://opendata.adsb.fi/api/v2/hex/",
-                "last_seen": "2025-12-28T19:38:02.026548+00:00",
-                "nav_qnh": 1016.0,
+                "last_seen": "2025-12-28T19:40:02.656185+00:00",
+                "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
                 "category": "A7"
             },
@@ -885,6 +885,43 @@
                     [
                         -156.250354,
                         19.813156
+                    ],
+                    [
+                        -156.287159,
+                        19.845219
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "hex": "A054AD",
+                "flight": "N120LA  ",
+                "type": "B412",
+                "description": "BELL 412",
+                "operator": "COUNTY OF LOS ANGELES FIRE DEPT",
+                "altitude": 1300,
+                "ground_speed": 87.0,
+                "track": 137.33,
+                "squawk": "1206",
+                "rssi": -3.0,
+                "api_source": "https://api.airplanes.live/v2/hex/",
+                "last_seen": "2025-12-28T19:40:02.656490+00:00",
+                "nav_qnh": 0.0,
+                "nav_altitude_mcp": 0,
+                "category": "A7"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -118.398113,
+                        34.252206
+                    ],
+                    [
+                        -118.397865,
+                        34.251938
                     ]
                 ]
             }
