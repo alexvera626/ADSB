@@ -31,18 +31,45 @@
         {
             "type": "Feature",
             "properties": {
+                "hex": "AE10EA",
+                "flight": "C2004   ",
+                "type": "C30J",
+                "description": "Lockheed Martin HC-130J Hercules",
+                "operator": "Unknown",
+                "altitude": 7550,
+                "ground_speed": 202.2,
+                "track": 259.75,
+                "squawk": "1200",
+                "rssi": null,
+                "api_source": "https://opendata.adsb.fi/api/v2/hex/",
+                "last_seen": "2025-12-30T21:50:02.519176+00:00",
+                "nav_qnh": null,
+                "nav_altitude_mcp": null,
+                "category": "A3"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -156.875545,
+                    20.732895
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
                 "hex": "AE2664",
                 "flight": "C6510   ",
                 "type": "AS65",
                 "description": "Eurocopter MH-65D Dolphin",
                 "operator": "Unknown",
-                "altitude": 625,
-                "ground_speed": 53.8,
-                "track": 316.51,
+                "altitude": 825,
+                "ground_speed": 53.2,
+                "track": 265.68,
                 "squawk": "4445",
                 "rssi": null,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-12-30T21:48:02.753166+00:00",
+                "last_seen": "2025-12-30T21:50:02.519718+00:00",
                 "nav_qnh": null,
                 "nav_altitude_mcp": null,
                 "category": "A7"
@@ -50,8 +77,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -74.556089,
-                    39.309494
+                    -74.541016,
+                    39.310106
                 ]
             }
         },
@@ -144,13 +171,13 @@
                 "type": "H60",
                 "description": "Sikorsky MH-60T Jayhawk",
                 "operator": "Unknown",
-                "altitude": -175,
-                "ground_speed": 3.7,
-                "track": 303.69,
+                "altitude": -200,
+                "ground_speed": 5.0,
+                "track": 306.87,
                 "squawk": "1200",
                 "rssi": null,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-12-30T21:48:02.753184+00:00",
+                "last_seen": "2025-12-30T21:50:02.519735+00:00",
                 "nav_qnh": null,
                 "nav_altitude_mcp": null,
                 "category": "A7"
@@ -158,8 +185,35 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -123.972954,
-                    46.249136
+                    -123.975957,
+                    46.250473
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "hex": "AE57D4",
+                "flight": "C2010   ",
+                "type": "C30J",
+                "description": "Lockheed Martin HC-130J Hercules",
+                "operator": "Unknown",
+                "altitude": "ground",
+                "ground_speed": 0.0,
+                "track": 0.0,
+                "squawk": "7352",
+                "rssi": null,
+                "api_source": "https://api.airplanes.live/v2/hex/",
+                "last_seen": "2025-12-30T21:50:02.519752+00:00",
+                "nav_qnh": null,
+                "nav_altitude_mcp": null,
+                "category": "A3"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -118.157444,
+                    33.816779
                 ]
             }
         }
