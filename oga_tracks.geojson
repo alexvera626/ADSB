@@ -887,18 +887,51 @@
         {
             "type": "Feature",
             "properties": {
+                "hex": "A40442",
+                "flight": "N358TV  ",
+                "type": "AS50",
+                "description": "AEROSPATIALE AS-350 Ecureuil",
+                "operator": "TINY BUBBLES AVIATION INC",
+                "altitude": 1425,
+                "ground_speed": 76.2,
+                "track": 266.24,
+                "squawk": "1200",
+                "rssi": -3.2,
+                "api_source": "https://api.airplanes.live/v2/hex/",
+                "last_seen": "2025-12-30T13:50:02.579819+00:00",
+                "nav_qnh": 0.0,
+                "nav_altitude_mcp": 0,
+                "category": "A7"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -118.417568,
+                        34.251647
+                    ],
+                    [
+                        -118.417854,
+                        34.251647
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
                 "hex": "A00399",
                 "flight": "PD20    ",
                 "type": "AS50",
                 "description": "AEROSPATIALE AS-350 Ecureuil",
                 "operator": "Unknown",
                 "altitude": 450,
-                "ground_speed": 95.5,
-                "track": 134.58,
+                "ground_speed": 98.3,
+                "track": 133.76,
                 "squawk": "1200",
-                "rssi": -28.1,
+                "rssi": -23.0,
                 "api_source": "https://opendata.adsb.fi/api/v2/hex/",
-                "last_seen": "2025-12-30T13:48:02.209104+00:00",
+                "last_seen": "2025-12-30T13:50:02.579051+00:00",
                 "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
                 "category": "A7"
@@ -913,6 +946,10 @@
                     [
                         -97.850301,
                         26.223907
+                    ],
+                    [
+                        -97.805575,
+                        26.185261
                     ]
                 ]
             }
