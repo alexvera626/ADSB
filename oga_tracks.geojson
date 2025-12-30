@@ -10,12 +10,12 @@
                 "description": "SIKORSKY UH-60 Black Hawk",
                 "operator": "Unknown",
                 "altitude": 100,
-                "ground_speed": 113.6,
-                "track": 155.01,
+                "ground_speed": 114.5,
+                "track": 155.22,
                 "squawk": "1200",
-                "rssi": -27.7,
+                "rssi": -25.7,
                 "api_source": "https://opendata.adsb.fi/api/v2/hex/",
-                "last_seen": "2025-12-30T00:52:02.786795+00:00",
+                "last_seen": "2025-12-30T00:54:02.497550+00:00",
                 "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
                 "category": "A7"
@@ -23,10 +23,6 @@
             "geometry": {
                 "type": "LineString",
                 "coordinates": [
-                    [
-                        -117.814468,
-                        32.792444
-                    ],
                     [
                         -117.851385,
                         32.800735
@@ -742,6 +738,10 @@
                     [
                         -117.889971,
                         32.695731
+                    ],
+                    [
+                        -117.86172,
+                        32.643127
                     ]
                 ]
             }
@@ -768,14 +768,6 @@
             "geometry": {
                 "type": "LineString",
                 "coordinates": [
-                    [
-                        -117.37381,
-                        34.31412
-                    ],
-                    [
-                        -117.37381,
-                        34.31412
-                    ],
                     [
                         -117.518349,
                         34.381341
@@ -1445,12 +1437,12 @@
                 "description": "AEROSPATIALE AS-350 Ecureuil",
                 "operator": "CITY OF ONTARIO",
                 "altitude": 1725,
-                "ground_speed": 78.1,
-                "track": 92.94,
+                "ground_speed": 86.3,
+                "track": 116.86,
                 "squawk": "4274",
-                "rssi": -17.6,
+                "rssi": -22.6,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-12-30T00:52:02.787020+00:00",
+                "last_seen": "2025-12-30T00:54:02.497826+00:00",
                 "nav_qnh": 1019.2,
                 "nav_altitude_mcp": 8512,
                 "category": "A7"
@@ -1801,6 +1793,14 @@
                     [
                         -117.481384,
                         34.07419
+                    ],
+                    [
+                        -117.431236,
+                        34.066772
+                    ],
+                    [
+                        -117.431236,
+                        34.066772
                     ]
                 ]
             }
@@ -2292,13 +2292,13 @@
                 "type": "AS50",
                 "description": "AEROSPATIALE AS-350 Ecureuil",
                 "operator": "TINY BUBBLES AVIATION INC",
-                "altitude": 1300,
-                "ground_speed": 99.0,
-                "track": 223.36,
+                "altitude": 800,
+                "ground_speed": 8.6,
+                "track": 324.46,
                 "squawk": "0254",
-                "rssi": -5.7,
+                "rssi": -7.2,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-12-30T00:52:02.787053+00:00",
+                "last_seen": "2025-12-30T00:54:02.497860+00:00",
                 "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
                 "category": "A7"
@@ -2569,6 +2569,47 @@
                     [
                         -118.382786,
                         34.246124
+                    ],
+                    [
+                        -118.41014,
+                        34.256927
+                    ],
+                    [
+                        -118.41013,
+                        34.256907
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "hex": "A1C5F2",
+                "flight": "N213PF  ",
+                "type": "AS50",
+                "description": "AEROSPATIALE AS-350 Ecureuil",
+                "operator": "LAPD AIR SUPPORT DIVISION",
+                "altitude": 775,
+                "ground_speed": 90.0,
+                "track": 306.87,
+                "squawk": "1200",
+                "rssi": -5.0,
+                "api_source": "https://api.airplanes.live/v2/hex/",
+                "last_seen": "2025-12-30T00:54:02.497709+00:00",
+                "nav_qnh": 1018.4,
+                "nav_altitude_mcp": 4000,
+                "category": "A7"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -118.242931,
+                        34.058269
+                    ],
+                    [
+                        -118.242931,
+                        34.058269
                     ]
                 ]
             }
