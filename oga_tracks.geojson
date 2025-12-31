@@ -24,14 +24,6 @@
                 "type": "LineString",
                 "coordinates": [
                     [
-                        -118.360348,
-                        34.067254
-                    ],
-                    [
-                        -118.360758,
-                        34.066452
-                    ],
-                    [
                         -118.393764,
                         34.029593
                     ],
@@ -550,13 +542,13 @@
                 "type": "SHIP",
                 "description": "Zeppelin LZ N07-101",
                 "operator": "GOODYEAR TIRE & RUBBER CO",
-                "altitude": 2025,
-                "ground_speed": 4.3,
-                "track": 135.0,
+                "altitude": 2000,
+                "ground_speed": 19.4,
+                "track": 34.51,
                 "squawk": "1200",
-                "rssi": -2.5,
+                "rssi": -1.2,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-12-31T20:36:02.678994+00:00",
+                "last_seen": "2025-12-31T20:38:02.460165+00:00",
                 "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
                 "category": "B2"
@@ -564,14 +556,6 @@
             "geometry": {
                 "type": "LineString",
                 "coordinates": [
-                    [
-                        -118.276118,
-                        33.855194
-                    ],
-                    [
-                        -118.276118,
-                        33.855194
-                    ],
                     [
                         -118.276119,
                         33.855208
@@ -1443,6 +1427,14 @@
                     [
                         -118.166927,
                         34.153015
+                    ],
+                    [
+                        -118.167096,
+                        34.154251
+                    ],
+                    [
+                        -118.167096,
+                        34.154251
                     ]
                 ]
             }
@@ -1894,12 +1886,12 @@
                 "description": "Sikorsky MH-60S Seahawk",
                 "operator": "Unknown",
                 "altitude": 200,
-                "ground_speed": 123.3,
-                "track": 41.05,
+                "ground_speed": 147.8,
+                "track": 354.17,
                 "squawk": "1200",
-                "rssi": -24.0,
+                "rssi": -21.7,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-12-31T20:36:02.678978+00:00",
+                "last_seen": "2025-12-31T20:38:02.460149+00:00",
                 "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
                 "category": "A7"
@@ -2010,6 +2002,14 @@
                     [
                         -117.513281,
                         32.764847
+                    ],
+                    [
+                        -117.509654,
+                        32.839997
+                    ],
+                    [
+                        -117.509654,
+                        32.839997
                     ]
                 ]
             }
@@ -2022,15 +2022,15 @@
                 "type": "BE30",
                 "description": "BEECH 300 Super King Air",
                 "operator": "DEPARTMENT OF HOMELAND SECURITY",
-                "altitude": 1750,
-                "ground_speed": 157.3,
-                "track": 266.72,
-                "squawk": "7306",
-                "rssi": -11.8,
+                "altitude": 1375,
+                "ground_speed": 149.0,
+                "track": 180.77,
+                "squawk": "N/A",
+                "rssi": -10.6,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-12-31T20:36:02.679010+00:00",
+                "last_seen": "2025-12-31T20:38:02.460184+00:00",
                 "nav_qnh": 1022.4,
-                "nav_altitude_mcp": 2016,
+                "nav_altitude_mcp": 1504,
                 "category": "A2"
             },
             "geometry": {
@@ -2059,6 +2059,10 @@
                     [
                         -89.408276,
                         30.521323
+                    ],
+                    [
+                        -89.454144,
+                        30.460619
                     ]
                 ]
             }
@@ -2071,15 +2075,15 @@
                 "type": "B350",
                 "description": "BEECHCRAFT Super King Air 350",
                 "operator": "DEPARTMENT OF HOMELAND SECURITY",
-                "altitude": 2725,
-                "ground_speed": 167.0,
-                "track": 232.79,
+                "altitude": 5700,
+                "ground_speed": 172.6,
+                "track": 223.12,
                 "squawk": "4401",
-                "rssi": -12.3,
+                "rssi": -7.8,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2025-12-31T20:36:02.679037+00:00",
+                "last_seen": "2025-12-31T20:38:02.460215+00:00",
                 "nav_qnh": 1019.2,
-                "nav_altitude_mcp": 4512,
+                "nav_altitude_mcp": 6496,
                 "category": "A2"
             },
             "geometry": {
@@ -2092,6 +2096,43 @@
                     [
                         -122.581185,
                         48.732326
+                    ],
+                    [
+                        -122.69165,
+                        48.671951
+                    ],
+                    [
+                        -122.69165,
+                        48.671951
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "hex": "AE2793",
+                "flight": "Unknown",
+                "type": "H60",
+                "description": "SIKORSKY UH-60 Black Hawk",
+                "operator": "Unknown",
+                "altitude": 200,
+                "ground_speed": 102.1,
+                "track": 131.03,
+                "squawk": "N/A",
+                "rssi": -26.7,
+                "api_source": "https://opendata.adsb.fi/api/v2/hex/",
+                "last_seen": "2025-12-31T20:38:02.459891+00:00",
+                "nav_qnh": 0.0,
+                "nav_altitude_mcp": 0,
+                "category": "Unknown"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -117.945978,
+                        32.609894
                     ]
                 ]
             }
