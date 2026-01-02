@@ -103,12 +103,12 @@
                 "description": "Eurocopter MH-65D Dolphin",
                 "operator": "Unknown",
                 "altitude": 125,
-                "ground_speed": 4.2,
-                "track": 165.96,
+                "ground_speed": 1.6,
+                "track": 135.0,
                 "squawk": "4445",
-                "rssi": -11.9,
+                "rssi": -11.4,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2026-01-02T15:10:03.240656+00:00",
+                "last_seen": "2026-01-02T15:12:02.938880+00:00",
                 "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
                 "category": "A7"
@@ -299,6 +299,10 @@
                     [
                         -73.990112,
                         40.086456
+                    ],
+                    [
+                        -73.989612,
+                        40.085946
                     ]
                 ]
             }
@@ -312,12 +316,12 @@
                 "description": "Sikorsky MH-60T Jayhawk",
                 "operator": "Unknown",
                 "altitude": 825,
-                "ground_speed": 132.3,
-                "track": 132.86,
+                "ground_speed": 131.2,
+                "track": 139.64,
                 "squawk": "1200",
-                "rssi": -24.4,
+                "rssi": -23.4,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2026-01-02T15:10:03.240724+00:00",
+                "last_seen": "2026-01-02T15:12:02.938934+00:00",
                 "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
                 "category": "A7"
@@ -480,6 +484,10 @@
                     [
                         -81.403515,
                         26.640403
+                    ],
+                    [
+                        -81.350288,
+                        26.585999
                     ]
                 ]
             }
@@ -554,12 +562,12 @@
                 "description": "CASA HC-144B Ocean Sentry",
                 "operator": "United States Coast Guard",
                 "altitude": 2425,
-                "ground_speed": 181.7,
-                "track": 76.96,
+                "ground_speed": 182.0,
+                "track": 81.47,
                 "squawk": "2530",
-                "rssi": -6.6,
+                "rssi": -15.6,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2026-01-02T15:10:03.240708+00:00",
+                "last_seen": "2026-01-02T15:12:02.938916+00:00",
                 "nav_qnh": 1016.0,
                 "nav_altitude_mcp": 2496,
                 "category": "A2"
@@ -694,6 +702,14 @@
                     [
                         -86.94774,
                         30.356094
+                    ],
+                    [
+                        -86.835399,
+                        30.377747
+                    ],
+                    [
+                        -86.833622,
+                        30.377975
                     ]
                 ]
             }
@@ -795,6 +811,35 @@
                     [
                         -82.880604,
                         42.737328
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "hex": "AE2913",
+                "flight": "Unknown",
+                "type": "H60",
+                "description": "Sikorsky MH-60T Jayhawk",
+                "operator": "Unknown",
+                "altitude": "ground",
+                "ground_speed": 5.2,
+                "track": 213.75,
+                "squawk": "N/A",
+                "rssi": -32.3,
+                "api_source": "https://api.airplanes.live/v2/hex/",
+                "last_seen": "2026-01-02T15:12:02.938965+00:00",
+                "nav_qnh": 0.0,
+                "nav_altitude_mcp": 0,
+                "category": "Unknown"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -82.69355,
+                        27.912035
                     ]
                 ]
             }
