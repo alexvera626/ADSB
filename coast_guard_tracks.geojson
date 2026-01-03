@@ -4,6 +4,47 @@
         {
             "type": "Feature",
             "properties": {
+                "hex": "AE2918",
+                "flight": "C6041   ",
+                "type": "H60",
+                "description": "Sikorsky MH-60T Jayhawk",
+                "operator": "Unknown",
+                "altitude": 475,
+                "ground_speed": 89.9,
+                "track": 318.15,
+                "squawk": "1200",
+                "rssi": -4.9,
+                "api_source": "https://api.airplanes.live/v2/hex/",
+                "last_seen": "2026-01-03T01:12:02.535146+00:00",
+                "nav_qnh": 0.0,
+                "nav_altitude_mcp": 0,
+                "category": "A7"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -90.015079,
+                        29.73622
+                    ],
+                    [
+                        -90.015079,
+                        29.73622
+                    ],
+                    [
+                        -90.015001,
+                        29.80632
+                    ],
+                    [
+                        -90.015001,
+                        29.80632
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
                 "hex": "AE6CEB",
                 "flight": "C6056   ",
                 "type": "H60",
@@ -23,14 +64,6 @@
             "geometry": {
                 "type": "LineString",
                 "coordinates": [
-                    [
-                        -117.340094,
-                        32.715377
-                    ],
-                    [
-                        -117.339758,
-                        32.714445
-                    ],
                     [
                         -117.282024,
                         32.676505
@@ -70,47 +103,6 @@
                     [
                         -117.181255,
                         32.726526
-                    ]
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "hex": "AE2918",
-                "flight": "C6041   ",
-                "type": "H60",
-                "description": "Sikorsky MH-60T Jayhawk",
-                "operator": "Unknown",
-                "altitude": 475,
-                "ground_speed": 89.9,
-                "track": 318.15,
-                "squawk": "1200",
-                "rssi": -4.9,
-                "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2026-01-03T01:12:02.535146+00:00",
-                "nav_qnh": 0.0,
-                "nav_altitude_mcp": 0,
-                "category": "A7"
-            },
-            "geometry": {
-                "type": "LineString",
-                "coordinates": [
-                    [
-                        -90.015079,
-                        29.73622
-                    ],
-                    [
-                        -90.015079,
-                        29.73622
-                    ],
-                    [
-                        -90.015001,
-                        29.80632
-                    ],
-                    [
-                        -90.015001,
-                        29.80632
                     ]
                 ]
             }
