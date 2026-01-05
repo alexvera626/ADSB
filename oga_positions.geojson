@@ -31,18 +31,18 @@
         {
             "type": "Feature",
             "properties": {
-                "hex": "AE278E",
-                "flight": "LS16    ",
+                "hex": "AE2761",
+                "flight": "LS04    ",
                 "type": "H60",
-                "description": "Sikorsky MH-60S Seahawk",
-                "operator": "United States Navy",
-                "altitude": 300,
-                "ground_speed": 79.2,
-                "track": 93.62,
+                "description": "SIKORSKY UH-60 Black Hawk",
+                "operator": "Unknown",
+                "altitude": "ground",
+                "ground_speed": 0.2,
+                "track": 0.0,
                 "squawk": "1200",
                 "rssi": null,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2026-01-05T22:08:02.473088+00:00",
+                "last_seen": "2026-01-05T22:10:02.027756+00:00",
                 "nav_qnh": null,
                 "nav_altitude_mcp": null,
                 "category": "A7"
@@ -50,8 +50,35 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -117.115995,
-                    32.555423
+                    -117.208637,
+                    32.71242
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "hex": "AE278E",
+                "flight": "LS16    ",
+                "type": "H60",
+                "description": "SIKORSKY UH-60 Black Hawk",
+                "operator": "Unknown",
+                "altitude": -175,
+                "ground_speed": 5.1,
+                "track": 281.31,
+                "squawk": "1200",
+                "rssi": null,
+                "api_source": "https://opendata.adsb.fi/api/v2/hex/",
+                "last_seen": "2026-01-05T22:10:02.027556+00:00",
+                "nav_qnh": null,
+                "nav_altitude_mcp": null,
+                "category": "A7"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -117.117389,
+                    32.563248
                 ]
             }
         }
