@@ -630,18 +630,47 @@
         {
             "type": "Feature",
             "properties": {
+                "hex": "A14D65",
+                "flight": "N183SD  ",
+                "type": "AS50",
+                "description": "AEROSPATIALE AS-350 Ecureuil",
+                "operator": "ORANGE COUNTY SHERIFF'S DEPARTMENT, C/O CORONER AIR SUPPORT",
+                "altitude": "ground",
+                "ground_speed": 0.0,
+                "track": 208.12,
+                "squawk": "4204",
+                "rssi": -21.0,
+                "api_source": "https://opendata.adsb.fi/api/v2/hex/",
+                "last_seen": "2026-01-05T04:00:02.359425+00:00",
+                "nav_qnh": 0.0,
+                "nav_altitude_mcp": 0,
+                "category": "A7"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -117.871714,
+                        33.675191
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
                 "hex": "A16926",
                 "flight": "N190LA  ",
                 "type": "H60",
                 "description": "SIKORSKY UH-60 Black Hawk",
                 "operator": "COUNTY OF LOS ANGELES FIRE DEPARTMENT",
-                "altitude": 2775,
-                "ground_speed": 1.2,
-                "track": 270.0,
+                "altitude": 2725,
+                "ground_speed": 29.2,
+                "track": 239.04,
                 "squawk": "1206",
-                "rssi": -4.5,
+                "rssi": -6.4,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2026-01-05T03:58:02.751543+00:00",
+                "last_seen": "2026-01-05T04:00:02.359571+00:00",
                 "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
                 "category": "A7"
@@ -856,6 +885,14 @@
                     [
                         -118.365634,
                         34.324219
+                    ],
+                    [
+                        -118.372364,
+                        34.320917
+                    ],
+                    [
+                        -118.372364,
+                        34.320917
                     ]
                 ]
             }
