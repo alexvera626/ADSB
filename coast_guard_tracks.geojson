@@ -4,71 +4,6 @@
         {
             "type": "Feature",
             "properties": {
-                "hex": "AE270A",
-                "flight": "C2312   ",
-                "type": "CN35",
-                "description": "CASA HC-144B Ocean Sentry",
-                "operator": "United States Coast Guard",
-                "altitude": 375,
-                "ground_speed": 117.9,
-                "track": 325.37,
-                "squawk": "1277",
-                "rssi": -26.5,
-                "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2026-01-05T05:10:02.826880+00:00",
-                "nav_qnh": 1020.0,
-                "nav_altitude_mcp": 992,
-                "category": "A2"
-            },
-            "geometry": {
-                "type": "LineString",
-                "coordinates": [
-                    [
-                        -88.333686,
-                        30.517044
-                    ],
-                    [
-                        -88.333686,
-                        30.517044
-                    ],
-                    [
-                        -88.141003,
-                        30.470581
-                    ],
-                    [
-                        -88.141003,
-                        30.470581
-                    ],
-                    [
-                        -88.135825,
-                        30.560669
-                    ],
-                    [
-                        -88.135825,
-                        30.560669
-                    ],
-                    [
-                        -88.186825,
-                        30.622147
-                    ],
-                    [
-                        -88.187311,
-                        30.622714
-                    ],
-                    [
-                        -88.229586,
-                        30.672867
-                    ],
-                    [
-                        -88.229586,
-                        30.672867
-                    ]
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
                 "hex": "AE57D4",
                 "flight": "C2010   ",
                 "type": "C30J",
@@ -88,14 +23,6 @@
             "geometry": {
                 "type": "LineString",
                 "coordinates": [
-                    [
-                        -121.86077,
-                        39.463257
-                    ],
-                    [
-                        -121.86077,
-                        39.463257
-                    ],
                     [
                         -121.758301,
                         39.318113
@@ -171,6 +98,63 @@
                     [
                         -121.395836,
                         38.677711
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "hex": "AE270A",
+                "flight": "C2312   ",
+                "type": "CN35",
+                "description": "CASA HC-144B Ocean Sentry",
+                "operator": "United States Coast Guard",
+                "altitude": 375,
+                "ground_speed": 117.9,
+                "track": 325.37,
+                "squawk": "1277",
+                "rssi": -26.5,
+                "api_source": "https://api.airplanes.live/v2/hex/",
+                "last_seen": "2026-01-05T05:10:02.826880+00:00",
+                "nav_qnh": 1020.0,
+                "nav_altitude_mcp": 992,
+                "category": "A2"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -88.141003,
+                        30.470581
+                    ],
+                    [
+                        -88.141003,
+                        30.470581
+                    ],
+                    [
+                        -88.135825,
+                        30.560669
+                    ],
+                    [
+                        -88.135825,
+                        30.560669
+                    ],
+                    [
+                        -88.186825,
+                        30.622147
+                    ],
+                    [
+                        -88.187311,
+                        30.622714
+                    ],
+                    [
+                        -88.229586,
+                        30.672867
+                    ],
+                    [
+                        -88.229586,
+                        30.672867
                     ]
                 ]
             }
