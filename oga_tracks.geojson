@@ -9,13 +9,13 @@
                 "type": "AS50",
                 "description": "AEROSPATIALE AS-350 Ecureuil",
                 "operator": "TINY BUBBLES AVIATION INC",
-                "altitude": 1350,
-                "ground_speed": 89.5,
-                "track": 320.44,
+                "altitude": 850,
+                "ground_speed": 33.2,
+                "track": 136.22,
                 "squawk": "0252",
-                "rssi": -2.8,
+                "rssi": -8.3,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2026-01-05T18:06:02.020897+00:00",
+                "last_seen": "2026-01-05T18:08:02.274550+00:00",
                 "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
                 "category": "A7"
@@ -23,14 +23,6 @@
             "geometry": {
                 "type": "LineString",
                 "coordinates": [
-                    [
-                        -118.250166,
-                        34.070526
-                    ],
-                    [
-                        -118.250166,
-                        34.070526
-                    ],
                     [
                         -118.312328,
                         34.083252
@@ -494,6 +486,14 @@
                     [
                         -118.424206,
                         34.246154
+                    ],
+                    [
+                        -118.412775,
+                        34.258621
+                    ],
+                    [
+                        -118.413055,
+                        34.258942
                     ]
                 ]
             }
@@ -1057,13 +1057,13 @@
                 "type": "H60",
                 "description": "SIKORSKY UH-60 Black Hawk",
                 "operator": "Unknown",
-                "altitude": -200,
-                "ground_speed": 0.7,
+                "altitude": "ground",
+                "ground_speed": 0.0,
                 "track": 0.0,
                 "squawk": "N/A",
-                "rssi": -12.0,
+                "rssi": -16.3,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2026-01-05T18:06:02.020801+00:00",
+                "last_seen": "2026-01-05T18:08:02.274467+00:00",
                 "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
                 "category": "A7"
@@ -1198,6 +1198,14 @@
                     [
                         -117.117719,
                         32.563156
+                    ],
+                    [
+                        -117.117622,
+                        32.563282
+                    ],
+                    [
+                        -117.117622,
+                        32.563282
                     ]
                 ]
             }
@@ -1323,13 +1331,13 @@
                 "type": "B412",
                 "description": "BELL 412",
                 "operator": "COUNTY OF LOS ANGELES FIRE DEPARTMENT",
-                "altitude": 0,
-                "ground_speed": 0.7,
+                "altitude": "ground",
+                "ground_speed": 0.0,
                 "track": 0.0,
                 "squawk": "1206",
-                "rssi": -28.8,
+                "rssi": -28.7,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2026-01-05T18:06:02.020818+00:00",
+                "last_seen": "2026-01-05T18:08:02.274484+00:00",
                 "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
                 "category": "A7"
@@ -1340,6 +1348,39 @@
                     [
                         -118.406945,
                         34.25853
+                    ],
+                    [
+                        -118.406959,
+                        34.258507
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "hex": "A32EAF",
+                "flight": "Unknown",
+                "type": "A139",
+                "description": "AGUSTA AW-139",
+                "operator": "CITY OF LOS ANGELES",
+                "altitude": "ground",
+                "ground_speed": 0.0,
+                "track": 0.0,
+                "squawk": "N/A",
+                "rssi": -20.9,
+                "api_source": "https://api.airplanes.live/v2/hex/",
+                "last_seen": "2026-01-05T18:08:02.274446+00:00",
+                "nav_qnh": 0.0,
+                "nav_altitude_mcp": 0,
+                "category": "Unknown"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -118.494,
+                        34.216558
                     ]
                 ]
             }
