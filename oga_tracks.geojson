@@ -13,9 +13,9 @@
                 "ground_speed": 0.0,
                 "track": 0.0,
                 "squawk": "1206",
-                "rssi": -26.4,
+                "rssi": -25.9,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2026-01-07T15:28:02.772539+00:00",
+                "last_seen": "2026-01-07T19:14:02.667737+00:00",
                 "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
                 "category": "A7"
@@ -23,22 +23,6 @@
             "geometry": {
                 "type": "LineString",
                 "coordinates": [
-                    [
-                        -117.952824,
-                        34.151746
-                    ],
-                    [
-                        -117.953423,
-                        34.151962
-                    ],
-                    [
-                        -118.022255,
-                        34.17215
-                    ],
-                    [
-                        -118.023548,
-                        34.172462
-                    ],
                     [
                         -118.092321,
                         34.19371
@@ -90,6 +74,95 @@
                     [
                         -118.406625,
                         34.258339
+                    ],
+                    [
+                        -118.406625,
+                        34.258362
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "hex": "A36968",
+                "flight": "N319MW  ",
+                "type": "B407",
+                "description": "BELL 407",
+                "operator": "SAN DIEGO COUNTY SHERIFF DEPARTMENT",
+                "altitude": 400,
+                "ground_speed": 12.1,
+                "track": 355.24,
+                "squawk": "N/A",
+                "rssi": -26.1,
+                "api_source": "https://api.airplanes.live/v2/hex/",
+                "last_seen": "2026-01-07T18:56:02.387206+00:00",
+                "nav_qnh": 1014.4,
+                "nav_altitude_mcp": 0,
+                "category": "A7"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -116.972534,
+                        32.819458
+                    ],
+                    [
+                        -116.972424,
+                        32.820053
+                    ],
+                    [
+                        -116.972424,
+                        32.820099
+                    ],
+                    [
+                        -116.972424,
+                        32.819824
+                    ],
+                    [
+                        -116.970117,
+                        32.824173
+                    ],
+                    [
+                        -116.972424,
+                        32.820145
+                    ],
+                    [
+                        -116.972205,
+                        32.817627
+                    ],
+                    [
+                        -116.97149,
+                        32.813049
+                    ],
+                    [
+                        -116.97149,
+                        32.813049
+                    ],
+                    [
+                        -116.972444,
+                        32.819979
+                    ],
+                    [
+                        -116.972369,
+                        32.819046
+                    ],
+                    [
+                        -116.969362,
+                        32.813183
+                    ],
+                    [
+                        -116.969362,
+                        32.813183
+                    ],
+                    [
+                        -116.972837,
+                        32.819514
+                    ],
+                    [
+                        -116.972369,
+                        32.819092
                     ]
                 ]
             }
@@ -116,10 +189,6 @@
             "geometry": {
                 "type": "LineString",
                 "coordinates": [
-                    [
-                        -118.408084,
-                        34.258606
-                    ],
                     [
                         -118.408052,
                         34.258575
@@ -278,103 +347,18 @@
         {
             "type": "Feature",
             "properties": {
-                "hex": "A36968",
-                "flight": "N319MW  ",
-                "type": "B407",
-                "description": "BELL 407",
-                "operator": "SAN DIEGO COUNTY SHERIFF DEPARTMENT",
-                "altitude": 400,
-                "ground_speed": 12.1,
-                "track": 355.24,
-                "squawk": "N/A",
-                "rssi": -26.1,
-                "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2026-01-07T18:56:02.387206+00:00",
-                "nav_qnh": 1014.4,
-                "nav_altitude_mcp": 0,
-                "category": "A7"
-            },
-            "geometry": {
-                "type": "LineString",
-                "coordinates": [
-                    [
-                        -116.972534,
-                        32.819458
-                    ],
-                    [
-                        -116.972424,
-                        32.820053
-                    ],
-                    [
-                        -116.972424,
-                        32.820099
-                    ],
-                    [
-                        -116.972424,
-                        32.819824
-                    ],
-                    [
-                        -116.970117,
-                        32.824173
-                    ],
-                    [
-                        -116.972424,
-                        32.820145
-                    ],
-                    [
-                        -116.972205,
-                        32.817627
-                    ],
-                    [
-                        -116.97149,
-                        32.813049
-                    ],
-                    [
-                        -116.97149,
-                        32.813049
-                    ],
-                    [
-                        -116.972444,
-                        32.819979
-                    ],
-                    [
-                        -116.972369,
-                        32.819046
-                    ],
-                    [
-                        -116.969362,
-                        32.813183
-                    ],
-                    [
-                        -116.969362,
-                        32.813183
-                    ],
-                    [
-                        -116.972837,
-                        32.819514
-                    ],
-                    [
-                        -116.972369,
-                        32.819092
-                    ]
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
                 "hex": "A44360",
                 "flight": "N374HK  ",
                 "type": "Q9",
                 "description": "GENERAL ATOMICS MQ-9 Reaper",
                 "operator": "GENERAL ATOMICS AERONAUTICAL SYSTEMS INC",
                 "altitude": 24000,
-                "ground_speed": 162.7,
-                "track": 224.0,
+                "ground_speed": 159.8,
+                "track": 225.0,
                 "squawk": "3620",
-                "rssi": -19.5,
+                "rssi": -15.5,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2026-01-07T19:12:01.934625+00:00",
+                "last_seen": "2026-01-07T19:14:02.667806+00:00",
                 "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
                 "category": "B6"
@@ -965,6 +949,14 @@
                     [
                         -104.362388,
                         43.109024
+                    ],
+                    [
+                        -104.44506,
+                        43.048204
+                    ],
+                    [
+                        -104.448787,
+                        43.045504
                     ]
                 ]
             }
@@ -1190,17 +1182,17 @@
             "type": "Feature",
             "properties": {
                 "hex": "AAFD01",
-                "flight": "TROY509 ",
+                "flight": "Unknown",
                 "type": "DH8C",
                 "description": "DE HAVILLAND DHC-8-300 Dash 8",
-                "operator": "US DEPARTMENT OF HOMELAND SECURITY, US CUSTOMS & BORDER PROTECTI",
-                "altitude": 7950,
-                "ground_speed": 227.7,
-                "track": 281.66,
-                "squawk": "4072",
-                "rssi": -1.9,
-                "api_source": "https://opendata.adsb.fi/api/v2/hex/",
-                "last_seen": "2026-01-07T19:12:01.932528+00:00",
+                "operator": "US DEPARTMENT OF HOMELAND SECURITY",
+                "altitude": 0,
+                "ground_speed": 219.2,
+                "track": 294.81,
+                "squawk": "N/A",
+                "rssi": -25.0,
+                "api_source": "https://api.airplanes.live/v2/hex/",
+                "last_seen": "2026-01-07T19:14:02.667152+00:00",
                 "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
                 "category": "A2"
@@ -1803,6 +1795,10 @@
                     [
                         -106.035354,
                         31.734238
+                    ],
+                    [
+                        -106.175555,
+                        31.767806
                     ]
                 ]
             }
@@ -1929,12 +1925,12 @@
                 "description": "BEECH 300 Super King Air",
                 "operator": "DEPARTMENT OF HOMELAND SECURITY",
                 "altitude": 7400,
-                "ground_speed": 211.7,
-                "track": 47.87,
+                "ground_speed": 203.2,
+                "track": 47.99,
                 "squawk": "4406",
-                "rssi": -13.6,
+                "rssi": -11.2,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2026-01-07T19:12:01.934751+00:00",
+                "last_seen": "2026-01-07T19:14:02.667876+00:00",
                 "nav_qnh": 1016.8,
                 "nav_altitude_mcp": 7488,
                 "category": "A2"
@@ -2313,6 +2309,14 @@
                     [
                         -92.592666,
                         29.490703
+                    ],
+                    [
+                        -92.495674,
+                        29.567281
+                    ],
+                    [
+                        -92.494266,
+                        29.568329
                     ]
                 ]
             }
@@ -2523,13 +2527,13 @@
                 "type": "SHIP",
                 "description": "Zeppelin LZ N07-101",
                 "operator": "GOODYEAR TIRE & RUBBER CO",
-                "altitude": 2000,
-                "ground_speed": 33.3,
-                "track": 228.65,
+                "altitude": 2025,
+                "ground_speed": 33.2,
+                "track": 223.78,
                 "squawk": "1200",
-                "rssi": -2.4,
+                "rssi": -6.8,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2026-01-07T19:12:01.934715+00:00",
+                "last_seen": "2026-01-07T19:14:02.667843+00:00",
                 "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
                 "category": "B2"
@@ -2976,6 +2980,14 @@
                     [
                         -112.301752,
                         33.482758
+                    ],
+                    [
+                        -112.315587,
+                        33.469243
+                    ],
+                    [
+                        -112.315755,
+                        33.469057
                     ]
                 ]
             }
@@ -3241,13 +3253,13 @@
                 "type": "H60",
                 "description": "SIKORSKY UH-60 Black Hawk",
                 "operator": "Unknown",
-                "altitude": 350,
-                "ground_speed": 66.0,
-                "track": 90.0,
+                "altitude": 250,
+                "ground_speed": 90.4,
+                "track": 32.81,
                 "squawk": "4025",
-                "rssi": -16.8,
+                "rssi": -18.0,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2026-01-07T19:12:01.934656+00:00",
+                "last_seen": "2026-01-07T19:14:02.667826+00:00",
                 "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
                 "category": "A7"
@@ -3558,6 +3570,14 @@
                     [
                         -117.423949,
                         33.279869
+                    ],
+                    [
+                        -117.433982,
+                        33.278845
+                    ],
+                    [
+                        -117.43146,
+                        33.282476
                     ]
                 ]
             }
@@ -3570,13 +3590,13 @@
                 "type": "H60",
                 "description": "SIKORSKY UH-60 Black Hawk",
                 "operator": "Unknown",
-                "altitude": -100,
-                "ground_speed": 1.2,
-                "track": 270.0,
+                "altitude": -75,
+                "ground_speed": 0.7,
+                "track": 0.0,
                 "squawk": "N/A",
-                "rssi": -12.7,
+                "rssi": -15.3,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2026-01-07T19:12:01.934573+00:00",
+                "last_seen": "2026-01-07T19:14:02.667636+00:00",
                 "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
                 "category": "A7"
@@ -3783,6 +3803,14 @@
                     [
                         -117.118213,
                         32.561142
+                    ],
+                    [
+                        -117.118213,
+                        32.561142
+                    ],
+                    [
+                        -117.118213,
+                        32.561142
                     ]
                 ]
             }
@@ -3795,13 +3823,13 @@
                 "type": "AS50",
                 "description": "AEROSPATIALE AS-350 Ecureuil",
                 "operator": "ANAHEIM POLICE DEPT",
-                "altitude": 1150,
-                "ground_speed": 65.0,
-                "track": 359.12,
+                "altitude": 1050,
+                "ground_speed": 62.5,
+                "track": 262.65,
                 "squawk": "4301",
-                "rssi": -4.7,
+                "rssi": -6.6,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2026-01-07T19:12:01.934607+00:00",
+                "last_seen": "2026-01-07T19:14:02.667671+00:00",
                 "nav_qnh": 1013.6,
                 "nav_altitude_mcp": 0,
                 "category": "A7"
@@ -3980,6 +4008,14 @@
                     [
                         -117.907852,
                         33.807129
+                    ],
+                    [
+                        -117.928505,
+                        33.83398
+                    ],
+                    [
+                        -117.929152,
+                        33.833954
                     ]
                 ]
             }
@@ -3992,13 +4028,13 @@
                 "type": "H60",
                 "description": "Sikorsky S-70M Firehawk",
                 "operator": "ORANGE COUNTY FIRE AUTHORITY",
-                "altitude": 3125,
-                "ground_speed": 1.2,
-                "track": 90.0,
+                "altitude": 3325,
+                "ground_speed": 30.2,
+                "track": 95.71,
                 "squawk": "4202",
-                "rssi": -8.1,
+                "rssi": -7.6,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2026-01-07T19:12:01.934590+00:00",
+                "last_seen": "2026-01-07T19:14:02.667654+00:00",
                 "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
                 "category": "A7"
@@ -4169,6 +4205,14 @@
                     [
                         -117.619801,
                         33.821318
+                    ],
+                    [
+                        -117.620144,
+                        33.823134
+                    ],
+                    [
+                        -117.619909,
+                        33.823105
                     ]
                 ]
             }
@@ -4181,13 +4225,13 @@
                 "type": "AS50",
                 "description": "AEROSPATIALE AS-350 Ecureuil",
                 "operator": "COUNTY OF RIVERSIDE CALIFORNIA",
-                "altitude": 1600,
-                "ground_speed": 63.1,
-                "track": 244.65,
+                "altitude": 1150,
+                "ground_speed": 96.6,
+                "track": 27.1,
                 "squawk": "0131",
-                "rssi": -23.1,
+                "rssi": -15.9,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2026-01-07T19:12:01.934734+00:00",
+                "last_seen": "2026-01-07T19:14:02.667860+00:00",
                 "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
                 "category": "A7"
@@ -4338,6 +4382,14 @@
                     [
                         -116.41531,
                         33.672118
+                    ],
+                    [
+                        -116.39286,
+                        33.708023
+                    ],
+                    [
+                        -116.392365,
+                        33.708848
                     ]
                 ]
             }
