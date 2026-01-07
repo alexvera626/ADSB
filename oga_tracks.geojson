@@ -118,9 +118,9 @@
                 "ground_speed": 0.0,
                 "track": 0.0,
                 "squawk": "1206",
-                "rssi": -25.0,
+                "rssi": -25.2,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2026-01-07T16:30:02.692955+00:00",
+                "last_seen": "2026-01-07T16:32:01.976344+00:00",
                 "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
                 "category": "A7"
@@ -231,6 +231,10 @@
                     [
                         -118.408055,
                         34.25863
+                    ],
+                    [
+                        -118.408012,
+                        34.258595
                     ]
                 ]
             }
@@ -352,13 +356,13 @@
                 "type": "Q9",
                 "description": "GENERAL ATOMICS MQ-9 Reaper",
                 "operator": "GENERAL ATOMICS AERONAUTICAL SYSTEMS INC",
-                "altitude": 13550,
-                "ground_speed": 96.3,
-                "track": 317.53,
+                "altitude": 16350,
+                "ground_speed": 86.4,
+                "track": 317.82,
                 "squawk": "3620",
-                "rssi": -6.6,
+                "rssi": -8.7,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2026-01-07T16:30:02.692993+00:00",
+                "last_seen": "2026-01-07T16:32:01.976384+00:00",
                 "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
                 "category": "B6"
@@ -393,6 +397,14 @@
                     [
                         -97.553171,
                         48.135247
+                    ],
+                    [
+                        -97.604229,
+                        48.172577
+                    ],
+                    [
+                        -97.604563,
+                        48.172861
                     ]
                 ]
             }
@@ -405,15 +417,15 @@
                 "type": "EC35",
                 "description": "AIRBUS HELICOPTERS EC-135/635",
                 "operator": "REACH AIR MEDICAL SERVICES LLC",
-                "altitude": "ground",
-                "ground_speed": 1.1,
-                "track": 177.19,
-                "squawk": "N/A",
-                "rssi": -16.3,
+                "altitude": 800,
+                "ground_speed": 92.7,
+                "track": 136.31,
+                "squawk": "1200",
+                "rssi": -5.9,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2026-01-07T16:30:02.693068+00:00",
-                "nav_qnh": 0.0,
-                "nav_altitude_mcp": 0,
+                "last_seen": "2026-01-07T16:32:01.976423+00:00",
+                "nav_qnh": 1014.4,
+                "nav_altitude_mcp": 896,
                 "category": "A7"
             },
             "geometry": {
@@ -434,6 +446,55 @@
                     [
                         -116.269927,
                         33.744321
+                    ],
+                    [
+                        -116.24886,
+                        33.719238
+                    ],
+                    [
+                        -116.24886,
+                        33.719238
+                    ],
+                    [
+                        -116.24858,
+                        33.719009
+                    ],
+                    [
+                        -116.24858,
+                        33.719009
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "hex": "AAFD01",
+                "flight": "TROY509 ",
+                "type": "DH8C",
+                "description": "DE HAVILLAND DHC-8-300 Dash 8",
+                "operator": "US DEPARTMENT OF HOMELAND SECURITY",
+                "altitude": 2850,
+                "ground_speed": 149.3,
+                "track": 258.01,
+                "squawk": "4072",
+                "rssi": -18.4,
+                "api_source": "https://api.airplanes.live/v2/hex/",
+                "last_seen": "2026-01-07T16:32:01.976121+00:00",
+                "nav_qnh": 0.0,
+                "nav_altitude_mcp": 0,
+                "category": "A2"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -95.434678,
+                        30.298325
+                    ],
+                    [
+                        -95.435376,
+                        30.298198
                     ]
                 ]
             }
