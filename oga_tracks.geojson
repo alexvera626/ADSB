@@ -1612,13 +1612,13 @@
                 "type": "B407",
                 "description": "BELL 407",
                 "operator": "SAN DIEGO COUNTY SHERIFF DEPARTMENT",
-                "altitude": 1775,
-                "ground_speed": 84.4,
-                "track": 275.44,
+                "altitude": 1250,
+                "ground_speed": 93.8,
+                "track": 277.35,
                 "squawk": "N/A",
-                "rssi": -10.9,
+                "rssi": -11.5,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2026-01-08T18:36:02.518154+00:00",
+                "last_seen": "2026-01-08T18:38:02.155699+00:00",
                 "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
                 "category": "A7"
@@ -1901,6 +1901,14 @@
                     [
                         -116.829822,
                         32.858368
+                    ],
+                    [
+                        -116.888763,
+                        32.860748
+                    ],
+                    [
+                        -116.889313,
+                        32.86084
                     ]
                 ]
             }
@@ -2476,13 +2484,13 @@
                 "type": "H60",
                 "description": "SIKORSKY UH-60 Black Hawk",
                 "operator": "COUNTY OF LOS ANGELES FIRE DEPARTMENT",
-                "altitude": 1500,
-                "ground_speed": 52.2,
-                "track": 343.3,
+                "altitude": 1250,
+                "ground_speed": 105.9,
+                "track": 202.2,
                 "squawk": "1206",
-                "rssi": -17.4,
+                "rssi": -15.9,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2026-01-08T18:36:02.518114+00:00",
+                "last_seen": "2026-01-08T18:38:02.155663+00:00",
                 "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
                 "category": "A7"
@@ -2561,6 +2569,14 @@
                     [
                         -118.319895,
                         34.132141
+                    ],
+                    [
+                        -118.326359,
+                        34.128889
+                    ],
+                    [
+                        -118.326565,
+                        34.128433
                     ]
                 ]
             }
@@ -2573,13 +2589,13 @@
                 "type": "H60",
                 "description": "Sikorsky MH-60S Seahawk",
                 "operator": "Unknown",
-                "altitude": -100,
-                "ground_speed": 0.7,
+                "altitude": "ground",
+                "ground_speed": 0.0,
                 "track": 0.0,
                 "squawk": "1200",
-                "rssi": -8.9,
+                "rssi": -20.2,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2026-01-08T18:36:02.518136+00:00",
+                "last_seen": "2026-01-08T18:38:02.155682+00:00",
                 "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
                 "category": "A7"
@@ -2642,6 +2658,76 @@
                     [
                         -117.207861,
                         32.711746
+                    ],
+                    [
+                        -117.208026,
+                        32.711803
+                    ],
+                    [
+                        -117.208026,
+                        32.711803
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "hex": "A117CF",
+                "flight": "0000000 ",
+                "type": "B412",
+                "description": "BELL 412",
+                "operator": "COUNTY OF LOS ANGELES FIRE DEPARTMENT",
+                "altitude": "ground",
+                "ground_speed": 0.0,
+                "track": 0.0,
+                "squawk": "1200",
+                "rssi": -18.9,
+                "api_source": "https://api.airplanes.live/v2/hex/",
+                "last_seen": "2026-01-08T18:38:02.155624+00:00",
+                "nav_qnh": 0.0,
+                "nav_altitude_mcp": 0,
+                "category": "A7"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -118.407183,
+                        34.258724
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "hex": "A1F0C0",
+                "flight": "N224KB  ",
+                "type": "B06",
+                "description": "BELL 206 JetRanger",
+                "operator": "PASADENA POLICE DEPARTMENT",
+                "altitude": 1700,
+                "ground_speed": 75.7,
+                "track": 146.31,
+                "squawk": "1200",
+                "rssi": -11.2,
+                "api_source": "https://api.airplanes.live/v2/hex/",
+                "last_seen": "2026-01-08T18:38:02.155716+00:00",
+                "nav_qnh": 0.0,
+                "nav_altitude_mcp": 0,
+                "category": "A7"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -118.167458,
+                        34.174603
+                    ],
+                    [
+                        -118.167264,
+                        34.174347
                     ]
                 ]
             }
