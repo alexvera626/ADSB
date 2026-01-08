@@ -75,13 +75,13 @@
                 "type": "H60",
                 "description": "Sikorsky MH-60T Jayhawk",
                 "operator": "Unknown",
-                "altitude": 1700,
-                "ground_speed": 96.9,
-                "track": 11.31,
+                "altitude": 900,
+                "ground_speed": 49.0,
+                "track": 268.83,
                 "squawk": "1200",
-                "rssi": -3.6,
+                "rssi": -7.1,
                 "api_source": "https://opendata.adsb.fi/api/v2/hex/",
-                "last_seen": "2026-01-08T13:54:02.186577+00:00",
+                "last_seen": "2026-01-08T13:56:03.101326+00:00",
                 "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
                 "category": "A7"
@@ -100,6 +100,43 @@
                     [
                         -85.586578,
                         44.748106
+                    ],
+                    [
+                        -85.560673,
+                        44.741089
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "hex": "AE26A1",
+                "flight": "C6575   ",
+                "type": "AS65",
+                "description": "Eurocopter MH-65D Dolphin",
+                "operator": "Unknown",
+                "altitude": 1050,
+                "ground_speed": 59.5,
+                "track": 352.28,
+                "squawk": "6515",
+                "rssi": -27.3,
+                "api_source": "https://api.airplanes.live/v2/hex/",
+                "last_seen": "2026-01-08T13:56:03.101431+00:00",
+                "nav_qnh": 0.0,
+                "nav_altitude_mcp": 0,
+                "category": "A7"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -74.582153,
+                        39.475274
+                    ],
+                    [
+                        -74.581909,
+                        39.474296
                     ]
                 ]
             }
