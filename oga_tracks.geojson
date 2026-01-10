@@ -5,17 +5,17 @@
             "type": "Feature",
             "properties": {
                 "hex": "A14D65",
-                "flight": "N183SD  ",
+                "flight": "Unknown",
                 "type": "AS50",
                 "description": "AEROSPATIALE AS-350 Ecureuil",
-                "operator": "ORANGE COUNTY SHERIFF'S DEPARTMENT, C/O CORONER AIR SUPPORT",
+                "operator": "ORANGE COUNTY SHERIFF'S DEPARTMENT",
                 "altitude": "ground",
                 "ground_speed": 0.0,
                 "track": 36.56,
-                "squawk": "4204",
-                "rssi": -25.3,
-                "api_source": "https://opendata.adsb.fi/api/v2/hex/",
-                "last_seen": "2026-01-10T14:50:02.654898+00:00",
+                "squawk": "N/A",
+                "rssi": -35.0,
+                "api_source": "https://api.airplanes.live/v2/hex/",
+                "last_seen": "2026-01-10T14:52:02.175264+00:00",
                 "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
                 "category": "A7"
@@ -194,6 +194,14 @@
                     [
                         -117.511461,
                         33.709785
+                    ],
+                    [
+                        -117.511461,
+                        33.709785
+                    ],
+                    [
+                        -117.511461,
+                        33.709785
                     ]
                 ]
             }
@@ -207,12 +215,12 @@
                 "description": "DE HAVILLAND DHC-8-300 Dash 8",
                 "operator": "US DEPARTMENT OF HOMELAND SECURITY",
                 "altitude": 13075,
-                "ground_speed": 230.4,
-                "track": 188.24,
+                "ground_speed": 229.6,
+                "track": 176.0,
                 "squawk": "4407",
-                "rssi": -14.1,
+                "rssi": -12.6,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2026-01-10T14:50:02.654931+00:00",
+                "last_seen": "2026-01-10T14:52:02.175212+00:00",
                 "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
                 "category": "Unknown"
@@ -931,6 +939,14 @@
                     [
                         -117.627374,
                         32.512711
+                    ],
+                    [
+                        -117.619685,
+                        32.387183
+                    ],
+                    [
+                        -117.619684,
+                        32.386642
                     ]
                 ]
             }
@@ -968,6 +984,39 @@
                     [
                         -118.408055,
                         34.258641
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "hex": "A13F4E",
+                "flight": "N18LA   ",
+                "type": "B412",
+                "description": "BELL 412",
+                "operator": "COUNTY OF LOS ANGELES FIRE DEPARTMENT",
+                "altitude": 850,
+                "ground_speed": 102.0,
+                "track": 291.28,
+                "squawk": "1206",
+                "rssi": -6.7,
+                "api_source": "https://api.airplanes.live/v2/hex/",
+                "last_seen": "2026-01-10T14:52:02.175281+00:00",
+                "nav_qnh": 0.0,
+                "nav_altitude_mcp": 0,
+                "category": "A7"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -117.816038,
+                        34.091537
+                    ],
+                    [
+                        -117.816582,
+                        34.091693
                     ]
                 ]
             }
