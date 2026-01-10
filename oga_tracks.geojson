@@ -24,14 +24,6 @@
                 "type": "LineString",
                 "coordinates": [
                     [
-                        -117.560157,
-                        32.305856
-                    ],
-                    [
-                        -117.560157,
-                        32.305856
-                    ],
-                    [
                         -117.564193,
                         32.411577
                     ],
@@ -621,47 +613,6 @@
         {
             "type": "Feature",
             "properties": {
-                "hex": "A13F4E",
-                "flight": "N18LA   ",
-                "type": "B412",
-                "description": "BELL 412",
-                "operator": "COUNTY OF LOS ANGELES FIRE DEPARTMENT",
-                "altitude": "ground",
-                "ground_speed": 0.0,
-                "track": 0.0,
-                "squawk": "1206",
-                "rssi": -19.5,
-                "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2026-01-10T19:14:02.067574+00:00",
-                "nav_qnh": 0.0,
-                "nav_altitude_mcp": 0,
-                "category": "A7"
-            },
-            "geometry": {
-                "type": "LineString",
-                "coordinates": [
-                    [
-                        -118.407155,
-                        34.25869
-                    ],
-                    [
-                        -118.407239,
-                        34.258713
-                    ],
-                    [
-                        -118.407225,
-                        34.258713
-                    ],
-                    [
-                        -118.407183,
-                        34.258724
-                    ]
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
                 "hex": "A14D65",
                 "flight": "N183SD  ",
                 "type": "AS50",
@@ -892,6 +843,55 @@
                     [
                         -117.871782,
                         33.675098
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "hex": "A13F4E",
+                "flight": "N18LA   ",
+                "type": "B412",
+                "description": "BELL 412",
+                "operator": "COUNTY OF LOS ANGELES FIRE DEPARTMENT",
+                "altitude": 625,
+                "ground_speed": 49.1,
+                "track": 326.63,
+                "squawk": "1206",
+                "rssi": -6.0,
+                "api_source": "https://api.airplanes.live/v2/hex/",
+                "last_seen": "2026-01-10T19:16:01.938604+00:00",
+                "nav_qnh": 0.0,
+                "nav_altitude_mcp": 0,
+                "category": "A7"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -118.407155,
+                        34.25869
+                    ],
+                    [
+                        -118.407239,
+                        34.258713
+                    ],
+                    [
+                        -118.407225,
+                        34.258713
+                    ],
+                    [
+                        -118.407183,
+                        34.258724
+                    ],
+                    [
+                        -118.407618,
+                        34.259857
+                    ],
+                    [
+                        -118.407669,
+                        34.259933
                     ]
                 ]
             }
@@ -2085,13 +2085,13 @@
                 "type": "AS50",
                 "description": "AEROSPATIALE AS-350 Ecureuil",
                 "operator": "CITY OF ONTARIO",
-                "altitude": 1450,
-                "ground_speed": 73.4,
-                "track": 244.13,
+                "altitude": 1325,
+                "ground_speed": 72.0,
+                "track": 271.59,
                 "squawk": "4274",
-                "rssi": -11.5,
+                "rssi": -11.3,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2026-01-10T19:14:02.067609+00:00",
+                "last_seen": "2026-01-10T19:16:01.938621+00:00",
                 "nav_qnh": 1028.8,
                 "nav_altitude_mcp": 8512,
                 "category": "A7"
@@ -2302,6 +2302,14 @@
                     [
                         -117.623234,
                         34.090949
+                    ],
+                    [
+                        -117.624264,
+                        34.081824
+                    ],
+                    [
+                        -117.624435,
+                        34.081824
                     ]
                 ]
             }
