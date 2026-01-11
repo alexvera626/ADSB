@@ -24,22 +24,6 @@
                 "type": "LineString",
                 "coordinates": [
                     [
-                        -117.855231,
-                        32.209991
-                    ],
-                    [
-                        -117.855231,
-                        32.209991
-                    ],
-                    [
-                        -117.781901,
-                        32.289703
-                    ],
-                    [
-                        -117.781005,
-                        32.29068
-                    ],
-                    [
                         -117.706398,
                         32.370611
                     ],
@@ -918,15 +902,15 @@
                 "type": "EC35",
                 "description": "AIRBUS HELICOPTERS EC-135/635",
                 "operator": "REACH AIR MEDICAL SERVICES LLC",
-                "altitude": 8775,
-                "ground_speed": 123.5,
-                "track": 275.11,
+                "altitude": 8800,
+                "ground_speed": 110.6,
+                "track": 275.71,
                 "squawk": "4771",
-                "rssi": -29.6,
+                "rssi": -20.1,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2026-01-11T20:10:02.350325+00:00",
-                "nav_qnh": 1021.6,
-                "nav_altitude_mcp": 8992,
+                "last_seen": "2026-01-11T20:12:02.355197+00:00",
+                "nav_qnh": 0.0,
+                "nav_altitude_mcp": 0,
                 "category": "A7"
             },
             "geometry": {
@@ -1227,6 +1211,22 @@
                     [
                         -116.392072,
                         32.817719
+                    ],
+                    [
+                        -116.471997,
+                        32.818176
+                    ],
+                    [
+                        -116.471997,
+                        32.818176
+                    ],
+                    [
+                        -116.473206,
+                        32.818268
+                    ],
+                    [
+                        -116.473206,
+                        32.818268
                     ]
                 ]
             }
@@ -1240,12 +1240,12 @@
                 "description": "AGUSTA AW-139",
                 "operator": "CITY OF LOS ANGELES",
                 "altitude": 300,
-                "ground_speed": 34.2,
-                "track": 249.44,
+                "ground_speed": 138.3,
+                "track": 285.95,
                 "squawk": "0242",
                 "rssi": -6.5,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2026-01-11T20:10:02.350261+00:00",
+                "last_seen": "2026-01-11T20:12:02.355123+00:00",
                 "nav_qnh": 1023.2,
                 "nav_altitude_mcp": 896,
                 "category": "A7"
@@ -1420,6 +1420,14 @@
                     [
                         -118.287104,
                         33.703674
+                    ],
+                    [
+                        -118.319435,
+                        33.71071
+                    ],
+                    [
+                        -118.320848,
+                        33.711044
                     ]
                 ]
             }
@@ -1432,13 +1440,13 @@
                 "type": "A139",
                 "description": "AGUSTA AW-139",
                 "operator": "LOS ANGELES FIRE DEPARTMENT",
-                "altitude": -100,
-                "ground_speed": 39.7,
-                "track": 130.91,
+                "altitude": -125,
+                "ground_speed": 36.4,
+                "track": 290.92,
                 "squawk": "1200",
-                "rssi": -23.0,
+                "rssi": -6.0,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2026-01-11T20:10:02.350277+00:00",
+                "last_seen": "2026-01-11T20:12:02.355140+00:00",
                 "nav_qnh": 1023.2,
                 "nav_altitude_mcp": 896,
                 "category": "A7"
@@ -1605,6 +1613,43 @@
                     [
                         -118.321913,
                         33.715759
+                    ],
+                    [
+                        -118.306732,
+                        33.710151
+                    ],
+                    [
+                        -118.306732,
+                        33.710151
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "hex": "A14D65",
+                "flight": "N183SD  ",
+                "type": "AS50",
+                "description": "AEROSPATIALE AS-350 Ecureuil",
+                "operator": "ORANGE COUNTY SHERIFF'S DEPARTMENT, C/O CORONER AIR SUPPORT",
+                "altitude": "ground",
+                "ground_speed": 0.0,
+                "track": 0.0,
+                "squawk": "4204",
+                "rssi": -11.9,
+                "api_source": "https://opendata.adsb.fi/api/v2/hex/",
+                "last_seen": "2026-01-11T20:12:02.354943+00:00",
+                "nav_qnh": 0.0,
+                "nav_altitude_mcp": 0,
+                "category": "A7"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -117.871771,
+                        33.675051
                     ]
                 ]
             }
