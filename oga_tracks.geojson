@@ -9,13 +9,13 @@
                 "type": "AS50",
                 "description": "AEROSPATIALE AS-350 Ecureuil",
                 "operator": "LAPD AIR SUPPORT DIVISION",
-                "altitude": 975,
-                "ground_speed": 61.0,
-                "track": 34.99,
+                "altitude": 1000,
+                "ground_speed": 60.8,
+                "track": 143.7,
                 "squawk": "1200",
-                "rssi": -10.5,
+                "rssi": -10.2,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2026-01-12T07:32:02.107580+00:00",
+                "last_seen": "2026-01-12T07:34:02.702002+00:00",
                 "nav_qnh": 1022.4,
                 "nav_altitude_mcp": 4000,
                 "category": "A7"
@@ -23,14 +23,6 @@
             "geometry": {
                 "type": "LineString",
                 "coordinates": [
-                    [
-                        -118.294615,
-                        34.065216
-                    ],
-                    [
-                        -118.294615,
-                        34.065216
-                    ],
                     [
                         -118.314743,
                         34.063483
@@ -434,6 +426,14 @@
                     [
                         -118.259639,
                         34.091949
+                    ],
+                    [
+                        -118.225479,
+                        34.089924
+                    ],
+                    [
+                        -118.225479,
+                        34.089924
                     ]
                 ]
             }
@@ -460,14 +460,6 @@
             "geometry": {
                 "type": "LineString",
                 "coordinates": [
-                    [
-                        -117.610871,
-                        33.795444
-                    ],
-                    [
-                        -117.610871,
-                        33.795444
-                    ],
                     [
                         -117.613449,
                         33.795901
@@ -678,43 +670,6 @@
         {
             "type": "Feature",
             "properties": {
-                "hex": "A7FB70",
-                "flight": "REH80   ",
-                "type": "AS50",
-                "description": "AEROSPATIALE AS-350 Ecureuil",
-                "operator": "REACH AIR MEDICAL SERVICES LLC",
-                "altitude": "ground",
-                "ground_speed": 0.1,
-                "track": 345.94,
-                "squawk": "1200",
-                "rssi": -25.8,
-                "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2026-01-12T03:34:02.770562+00:00",
-                "nav_qnh": 0.0,
-                "nav_altitude_mcp": 0,
-                "category": "A7"
-            },
-            "geometry": {
-                "type": "LineString",
-                "coordinates": [
-                    [
-                        -122.107962,
-                        39.141449
-                    ],
-                    [
-                        -122.119605,
-                        39.159576
-                    ],
-                    [
-                        -122.132338,
-                        39.162094
-                    ]
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
                 "hex": "A31AA0",
                 "flight": "N3A     ",
                 "type": "SHIP",
@@ -734,14 +689,6 @@
             "geometry": {
                 "type": "LineString",
                 "coordinates": [
-                    [
-                        -117.688125,
-                        33.873962
-                    ],
-                    [
-                        -117.688125,
-                        33.873962
-                    ],
                     [
                         -117.680446,
                         33.875519
@@ -1272,22 +1219,6 @@
                 "type": "LineString",
                 "coordinates": [
                     [
-                        -118.108406,
-                        34.11497
-                    ],
-                    [
-                        -118.108406,
-                        34.11497
-                    ],
-                    [
-                        -118.108406,
-                        34.11497
-                    ],
-                    [
-                        -118.108406,
-                        34.11497
-                    ],
-                    [
                         -118.051515,
                         34.113739
                     ],
@@ -1678,6 +1609,35 @@
                     [
                         -116.269768,
                         33.744278
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "hex": "A7FB70",
+                "flight": "REH80   ",
+                "type": "AS50",
+                "description": "AEROSPATIALE AS-350 Ecureuil",
+                "operator": "REACH AIR MEDICAL SERVICES LLC",
+                "altitude": "ground",
+                "ground_speed": 0.1,
+                "track": 345.94,
+                "squawk": "1200",
+                "rssi": -25.8,
+                "api_source": "https://api.airplanes.live/v2/hex/",
+                "last_seen": "2026-01-12T03:34:02.770562+00:00",
+                "nav_qnh": 0.0,
+                "nav_altitude_mcp": 0,
+                "category": "A7"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -122.132338,
+                        39.162094
                     ]
                 ]
             }
