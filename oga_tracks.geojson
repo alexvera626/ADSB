@@ -9,13 +9,13 @@
                 "type": "AS50",
                 "description": "AEROSPATIALE AS-350 Ecureuil",
                 "operator": "LAPD AIR SUPPORT DIVISION",
-                "altitude": 500,
-                "ground_speed": 60.9,
-                "track": 284.26,
+                "altitude": 525,
+                "ground_speed": 62.0,
+                "track": 90.0,
                 "squawk": "0275",
-                "rssi": -10.9,
+                "rssi": -9.5,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2026-01-13T08:06:02.646886+00:00",
+                "last_seen": "2026-01-13T08:08:02.483581+00:00",
                 "nav_qnh": 1022.4,
                 "nav_altitude_mcp": 10016,
                 "category": "A7"
@@ -23,14 +23,6 @@
             "geometry": {
                 "type": "LineString",
                 "coordinates": [
-                    [
-                        -118.316364,
-                        34.076019
-                    ],
-                    [
-                        -118.316288,
-                        34.075633
-                    ],
                     [
                         -118.286934,
                         34.063203
@@ -390,71 +382,14 @@
                     [
                         -118.315945,
                         33.983646
-                    ]
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "hex": "A3238A",
-                "flight": "FIRE1   ",
-                "type": "A139",
-                "description": "AGUSTA AW-139",
-                "operator": "LOS ANGELES FIRE DEPARTMENT",
-                "altitude": "ground",
-                "ground_speed": 4.8,
-                "track": 111.8,
-                "squawk": "1200",
-                "rssi": -17.0,
-                "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2026-01-13T04:26:01.985706+00:00",
-                "nav_qnh": 1021.6,
-                "nav_altitude_mcp": 768,
-                "category": "A7"
-            },
-            "geometry": {
-                "type": "LineString",
-                "coordinates": [
-                    [
-                        -118.559589,
-                        34.066788
                     ],
                     [
-                        -118.559589,
-                        34.066788
+                        -118.313673,
+                        34.002457
                     ],
                     [
-                        -118.545914,
-                        34.106544
-                    ],
-                    [
-                        -118.545055,
-                        34.107149
-                    ],
-                    [
-                        -118.507061,
-                        34.14751
-                    ],
-                    [
-                        -118.507061,
-                        34.14751
-                    ],
-                    [
-                        -118.498306,
-                        34.206258
-                    ],
-                    [
-                        -118.498306,
-                        34.206258
-                    ],
-                    [
-                        -118.494201,
-                        34.216581
-                    ],
-                    [
-                        -118.494172,
-                        34.216558
+                        -118.313673,
+                        34.002457
                     ]
                 ]
             }
@@ -467,13 +402,13 @@
                 "type": "B407",
                 "description": "BELL 407",
                 "operator": "SAN DIEGO COUNTY SHERIFF DEPARTMENT",
-                "altitude": 850,
-                "ground_speed": 95.9,
-                "track": 59.96,
+                "altitude": 1100,
+                "ground_speed": 110.1,
+                "track": 29.36,
                 "squawk": "4267",
-                "rssi": -24.3,
+                "rssi": -11.0,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2026-01-13T08:06:02.646924+00:00",
+                "last_seen": "2026-01-13T08:08:02.483621+00:00",
                 "nav_qnh": 1021.6,
                 "nav_altitude_mcp": 0,
                 "category": "A7"
@@ -481,14 +416,6 @@
             "geometry": {
                 "type": "LineString",
                 "coordinates": [
-                    [
-                        -117.128047,
-                        33.193934
-                    ],
-                    [
-                        -117.127551,
-                        33.193863
-                    ],
                     [
                         -117.08483,
                         33.164373
@@ -868,6 +795,14 @@
                     [
                         -117.075021,
                         32.65714
+                    ],
+                    [
+                        -117.039708,
+                        32.704669
+                    ],
+                    [
+                        -117.039708,
+                        32.704669
                     ]
                 ]
             }
@@ -894,14 +829,6 @@
             "geometry": {
                 "type": "LineString",
                 "coordinates": [
-                    [
-                        -118.263394,
-                        33.850891
-                    ],
-                    [
-                        -118.263394,
-                        33.850937
-                    ],
                     [
                         -118.269448,
                         33.860504
@@ -1776,14 +1703,6 @@
                 "type": "LineString",
                 "coordinates": [
                     [
-                        -117.927695,
-                        34.099228
-                    ],
-                    [
-                        -117.928087,
-                        34.099319
-                    ],
-                    [
                         -117.973377,
                         34.114563
                     ],
@@ -2222,6 +2141,63 @@
                     [
                         -118.171173,
                         34.18309
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "hex": "A3238A",
+                "flight": "FIRE1   ",
+                "type": "A139",
+                "description": "AGUSTA AW-139",
+                "operator": "LOS ANGELES FIRE DEPARTMENT",
+                "altitude": "ground",
+                "ground_speed": 4.8,
+                "track": 111.8,
+                "squawk": "1200",
+                "rssi": -17.0,
+                "api_source": "https://api.airplanes.live/v2/hex/",
+                "last_seen": "2026-01-13T04:26:01.985706+00:00",
+                "nav_qnh": 1021.6,
+                "nav_altitude_mcp": 768,
+                "category": "A7"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -118.545914,
+                        34.106544
+                    ],
+                    [
+                        -118.545055,
+                        34.107149
+                    ],
+                    [
+                        -118.507061,
+                        34.14751
+                    ],
+                    [
+                        -118.507061,
+                        34.14751
+                    ],
+                    [
+                        -118.498306,
+                        34.206258
+                    ],
+                    [
+                        -118.498306,
+                        34.206258
+                    ],
+                    [
+                        -118.494201,
+                        34.216581
+                    ],
+                    [
+                        -118.494172,
+                        34.216558
                     ]
                 ]
             }
