@@ -810,13 +810,13 @@
                 "type": "H60",
                 "description": "Sikorsky MH-60S Seahawk",
                 "operator": "United States Navy",
-                "altitude": 375,
-                "ground_speed": 107.4,
-                "track": 122.06,
+                "altitude": 0,
+                "ground_speed": 36.3,
+                "track": 294.44,
                 "squawk": "1200",
-                "rssi": -23.4,
+                "rssi": -14.5,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2026-01-13T00:04:02.733928+00:00",
+                "last_seen": "2026-01-13T00:06:02.436257+00:00",
                 "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
                 "category": "A7"
@@ -1455,6 +1455,14 @@
                     [
                         -117.152161,
                         32.568375
+                    ],
+                    [
+                        -117.115356,
+                        32.560593
+                    ],
+                    [
+                        -117.115356,
+                        32.560593
                     ]
                 ]
             }
@@ -2841,13 +2849,13 @@
                 "type": "V22",
                 "description": "Bell/Boeing CMV-22B Osprey",
                 "operator": "Unknown",
-                "altitude": 3525,
-                "ground_speed": 191.8,
-                "track": 232.41,
+                "altitude": 3800,
+                "ground_speed": 250.9,
+                "track": 172.9,
                 "squawk": "4676",
-                "rssi": -15.6,
+                "rssi": -9.8,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2026-01-13T00:04:02.733944+00:00",
+                "last_seen": "2026-01-13T00:06:02.436274+00:00",
                 "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
                 "category": "A7"
@@ -3358,6 +3366,14 @@
                     [
                         -117.293301,
                         33.889703
+                    ],
+                    [
+                        -117.279613,
+                        33.76236
+                    ],
+                    [
+                        -117.279613,
+                        33.76236
                     ]
                 ]
             }
@@ -3370,13 +3386,13 @@
                 "type": "AS50",
                 "description": "AEROSPATIALE AS-350 Ecureuil",
                 "operator": "TINY BUBBLES AVIATION INC",
-                "altitude": 900,
-                "ground_speed": 59.7,
-                "track": 320.44,
+                "altitude": "ground",
+                "ground_speed": 0.0,
+                "track": 0.0,
                 "squawk": "1200",
-                "rssi": -4.2,
+                "rssi": -18.3,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2026-01-12T23:40:02.350866+00:00",
+                "last_seen": "2026-01-13T00:06:02.436290+00:00",
                 "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
                 "category": "A7"
@@ -3789,6 +3805,39 @@
                     [
                         -89.762878,
                         30.267197
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "hex": "A1C5F2",
+                "flight": "N213PF  ",
+                "type": "AS50",
+                "description": "AEROSPATIALE AS-350 Ecureuil",
+                "operator": "LAPD AIR SUPPORT DIVISION",
+                "altitude": 750,
+                "ground_speed": 54.1,
+                "track": 236.31,
+                "squawk": "1200",
+                "rssi": -5.5,
+                "api_source": "https://api.airplanes.live/v2/hex/",
+                "last_seen": "2026-01-13T00:06:02.436051+00:00",
+                "nav_qnh": 1020.8,
+                "nav_altitude_mcp": 4000,
+                "category": "A7"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -118.497219,
+                        34.217059
+                    ],
+                    [
+                        -118.497734,
+                        34.216779
                     ]
                 ]
             }
