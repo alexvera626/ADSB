@@ -9,13 +9,13 @@
                 "type": "AS50",
                 "description": "AEROSPATIALE AS-350 Ecureuil",
                 "operator": "LAPD AIR SUPPORT DIVISION",
-                "altitude": 500,
-                "ground_speed": 59.4,
-                "track": 136.36,
+                "altitude": 300,
+                "ground_speed": 61.1,
+                "track": 140.31,
                 "squawk": "1200",
-                "rssi": -13.6,
+                "rssi": -9.2,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2026-01-14T07:58:02.211337+00:00",
+                "last_seen": "2026-01-14T08:00:02.040736+00:00",
                 "nav_qnh": 1020.8,
                 "nav_altitude_mcp": 10016,
                 "category": "A7"
@@ -23,14 +23,6 @@
             "geometry": {
                 "type": "LineString",
                 "coordinates": [
-                    [
-                        -118.28104,
-                        33.982994
-                    ],
-                    [
-                        -118.28104,
-                        33.982575
-                    ],
                     [
                         -118.280125,
                         33.982203
@@ -438,6 +430,14 @@
                     [
                         -118.515358,
                         34.021353
+                    ],
+                    [
+                        -118.489265,
+                        33.99831
+                    ],
+                    [
+                        -118.489037,
+                        33.998123
                     ]
                 ]
             }
@@ -445,19 +445,19 @@
         {
             "type": "Feature",
             "properties": {
-                "hex": "A9079F",
-                "flight": "N681HB  ",
-                "type": "H500",
-                "description": "HUGHES 500",
-                "operator": "CITY OF HUNTINGTON BEACH",
-                "altitude": 1475,
-                "ground_speed": 50.3,
-                "track": 84.29,
-                "squawk": "4301",
-                "rssi": -8.0,
+                "hex": "AE4FA1",
+                "flight": "HEX37   ",
+                "type": "H60",
+                "description": "SIKORSKY UH-60 Black Hawk",
+                "operator": "Unknown",
+                "altitude": "ground",
+                "ground_speed": 4.2,
+                "track": 0.0,
+                "squawk": "1200",
+                "rssi": -10.6,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2026-01-14T07:40:02.327240+00:00",
-                "nav_qnh": 1019.2,
+                "last_seen": "2026-01-14T04:00:02.197688+00:00",
+                "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
                 "category": "A7"
             },
@@ -465,52 +465,69 @@
                 "type": "LineString",
                 "coordinates": [
                     [
-                        -118.00125,
-                        33.695148
+                        -117.209968,
+                        32.706555
                     ],
                     [
-                        -118.00125,
-                        33.695148
+                        -117.209968,
+                        32.706555
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "hex": "AE4FAE",
+                "flight": "SHWK404 ",
+                "type": "H60",
+                "description": "SIKORSKY UH-60 Black Hawk",
+                "operator": "Unknown",
+                "altitude": -275,
+                "ground_speed": 1.2,
+                "track": 180.0,
+                "squawk": "1200",
+                "rssi": -12.9,
+                "api_source": "https://api.airplanes.live/v2/hex/",
+                "last_seen": "2026-01-14T04:06:02.393569+00:00",
+                "nav_qnh": 0.0,
+                "nav_altitude_mcp": 0,
+                "category": "A7"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -117.252203,
+                        32.627626
                     ],
                     [
-                        -118.00125,
-                        33.69516
+                        -117.254333,
+                        32.626043
                     ],
                     [
-                        -118.001236,
-                        33.69516
+                        -117.230713,
+                        32.661713
                     ],
                     [
-                        -118.00167,
-                        33.695103
+                        -117.231207,
+                        32.660339
                     ],
                     [
-                        -118.001698,
-                        33.695
+                        -117.229054,
+                        32.697919
                     ],
                     [
-                        -117.98584,
-                        33.711269
+                        -117.229175,
+                        32.697281
                     ],
                     [
-                        -117.98521,
-                        33.710989
+                        -117.211285,
+                        32.703738
                     ],
                     [
-                        -117.957573,
-                        33.680963
-                    ],
-                    [
-                        -117.957573,
-                        33.680963
-                    ],
-                    [
-                        -117.930777,
-                        33.654648
-                    ],
-                    [
-                        -117.930217,
-                        33.654694
+                        -117.211285,
+                        32.703738
                     ]
                 ]
             }
@@ -537,14 +554,6 @@
             "geometry": {
                 "type": "LineString",
                 "coordinates": [
-                    [
-                        -123.006751,
-                        38.731476
-                    ],
-                    [
-                        -123.005855,
-                        38.73143
-                    ],
                     [
                         -123.024246,
                         38.719299
@@ -663,74 +672,25 @@
         {
             "type": "Feature",
             "properties": {
-                "hex": "AE4FA1",
-                "flight": "HEX37   ",
-                "type": "H60",
-                "description": "SIKORSKY UH-60 Black Hawk",
-                "operator": "Unknown",
-                "altitude": "ground",
-                "ground_speed": 4.2,
-                "track": 0.0,
-                "squawk": "1200",
-                "rssi": -10.6,
-                "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2026-01-14T04:00:02.197688+00:00",
-                "nav_qnh": 0.0,
-                "nav_altitude_mcp": 0,
-                "category": "A7"
-            },
-            "geometry": {
-                "type": "LineString",
-                "coordinates": [
-                    [
-                        -117.210608,
-                        32.706024
-                    ],
-                    [
-                        -117.210556,
-                        32.70602
-                    ],
-                    [
-                        -117.209968,
-                        32.706555
-                    ],
-                    [
-                        -117.209968,
-                        32.706555
-                    ]
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
                 "hex": "A36968",
                 "flight": "N319MW  ",
                 "type": "B407",
                 "description": "BELL 407",
                 "operator": "SAN DIEGO COUNTY SHERIFF DEPARTMENT",
-                "altitude": 1250,
-                "ground_speed": 111.0,
-                "track": 169.09,
+                "altitude": 1175,
+                "ground_speed": 106.3,
+                "track": 196.39,
                 "squawk": "4267",
-                "rssi": -26.7,
+                "rssi": -20.2,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2026-01-14T07:58:02.211359+00:00",
+                "last_seen": "2026-01-14T08:00:02.040774+00:00",
                 "nav_qnh": 1021.6,
-                "nav_altitude_mcp": 1600,
+                "nav_altitude_mcp": 5600,
                 "category": "A7"
             },
             "geometry": {
                 "type": "LineString",
                 "coordinates": [
-                    [
-                        -116.973413,
-                        32.819183
-                    ],
-                    [
-                        -116.973523,
-                        32.819183
-                    ],
                     [
                         -116.973523,
                         32.819195
@@ -1082,71 +1042,14 @@
                     [
                         -116.976544,
                         32.874298
-                    ]
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "hex": "AE4FAE",
-                "flight": "SHWK404 ",
-                "type": "H60",
-                "description": "SIKORSKY UH-60 Black Hawk",
-                "operator": "Unknown",
-                "altitude": -275,
-                "ground_speed": 1.2,
-                "track": 180.0,
-                "squawk": "1200",
-                "rssi": -12.9,
-                "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2026-01-14T04:06:02.393569+00:00",
-                "nav_qnh": 0.0,
-                "nav_altitude_mcp": 0,
-                "category": "A7"
-            },
-            "geometry": {
-                "type": "LineString",
-                "coordinates": [
-                    [
-                        -117.288062,
-                        32.607147
                     ],
                     [
-                        -117.288062,
-                        32.607147
+                        -116.997693,
+                        32.817856
                     ],
                     [
-                        -117.252203,
-                        32.627626
-                    ],
-                    [
-                        -117.254333,
-                        32.626043
-                    ],
-                    [
-                        -117.230713,
-                        32.661713
-                    ],
-                    [
-                        -117.231207,
-                        32.660339
-                    ],
-                    [
-                        -117.229054,
-                        32.697919
-                    ],
-                    [
-                        -117.229175,
-                        32.697281
-                    ],
-                    [
-                        -117.211285,
-                        32.703738
-                    ],
-                    [
-                        -117.211285,
-                        32.703738
+                        -116.997892,
+                        32.817372
                     ]
                 ]
             }
@@ -2331,6 +2234,71 @@
                     [
                         -117.871685,
                         33.675214
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "hex": "A9079F",
+                "flight": "N681HB  ",
+                "type": "H500",
+                "description": "HUGHES 500",
+                "operator": "CITY OF HUNTINGTON BEACH",
+                "altitude": 1475,
+                "ground_speed": 50.3,
+                "track": 84.29,
+                "squawk": "4301",
+                "rssi": -8.0,
+                "api_source": "https://api.airplanes.live/v2/hex/",
+                "last_seen": "2026-01-14T07:40:02.327240+00:00",
+                "nav_qnh": 1019.2,
+                "nav_altitude_mcp": 0,
+                "category": "A7"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -118.00125,
+                        33.69516
+                    ],
+                    [
+                        -118.001236,
+                        33.69516
+                    ],
+                    [
+                        -118.00167,
+                        33.695103
+                    ],
+                    [
+                        -118.001698,
+                        33.695
+                    ],
+                    [
+                        -117.98584,
+                        33.711269
+                    ],
+                    [
+                        -117.98521,
+                        33.710989
+                    ],
+                    [
+                        -117.957573,
+                        33.680963
+                    ],
+                    [
+                        -117.957573,
+                        33.680963
+                    ],
+                    [
+                        -117.930777,
+                        33.654648
+                    ],
+                    [
+                        -117.930217,
+                        33.654694
                     ]
                 ]
             }
