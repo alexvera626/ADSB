@@ -748,15 +748,15 @@
                 "type": "B350",
                 "description": "BEECHCRAFT Super King Air 350",
                 "operator": "DEPARTMENT OF HOMELAND SECURITY",
-                "altitude": 2925,
-                "ground_speed": 163.8,
-                "track": 261.57,
-                "squawk": "5576",
-                "rssi": -18.2,
-                "api_source": "https://opendata.adsb.fi/api/v2/hex/",
-                "last_seen": "2026-01-15T16:12:02.027141+00:00",
+                "altitude": 1925,
+                "ground_speed": 157.4,
+                "track": 262.33,
+                "squawk": "N/A",
+                "rssi": -29.4,
+                "api_source": "https://api.airplanes.live/v2/hex/",
+                "last_seen": "2026-01-15T16:14:02.098252+00:00",
                 "nav_qnh": 1016.8,
-                "nav_altitude_mcp": 3008,
+                "nav_altitude_mcp": 2016,
                 "category": "A2"
             },
             "geometry": {
@@ -925,6 +925,14 @@
                     [
                         -83.978778,
                         30.230884
+                    ],
+                    [
+                        -84.083216,
+                        30.2173
+                    ],
+                    [
+                        -84.083216,
+                        30.2173
                     ]
                 ]
             }
@@ -1158,6 +1166,39 @@
                     [
                         -115.606945,
                         33.083465
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "hex": "AE1841",
+                "flight": "RS49    ",
+                "type": "H60",
+                "description": "Sikorsky MH-60R Seahawk",
+                "operator": "United States Navy",
+                "altitude": "ground",
+                "ground_speed": 3.2,
+                "track": 0.0,
+                "squawk": "1200",
+                "rssi": -24.4,
+                "api_source": "https://api.airplanes.live/v2/hex/",
+                "last_seen": "2026-01-15T16:14:02.098235+00:00",
+                "nav_qnh": 0.0,
+                "nav_altitude_mcp": 0,
+                "category": "A7"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -117.210977,
+                        32.704716
+                    ],
+                    [
+                        -117.210979,
+                        32.70472
                     ]
                 ]
             }
