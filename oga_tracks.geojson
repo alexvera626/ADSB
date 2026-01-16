@@ -24,14 +24,6 @@
                 "type": "LineString",
                 "coordinates": [
                     [
-                        -118.451507,
-                        33.269115
-                    ],
-                    [
-                        -118.452348,
-                        33.269721
-                    ],
-                    [
                         -118.558007,
                         33.342016
                     ],
@@ -469,6 +461,47 @@
         {
             "type": "Feature",
             "properties": {
+                "hex": "A30D54",
+                "flight": "N296S   ",
+                "type": "AS50",
+                "description": "AEROSPATIALE AS-350 Ecureuil",
+                "operator": "DEPARTMENT OF HOMELAND SECURITY",
+                "altitude": 1200,
+                "ground_speed": 114.4,
+                "track": 238.95,
+                "squawk": "4403",
+                "rssi": -4.6,
+                "api_source": "https://api.airplanes.live/v2/hex/",
+                "last_seen": "2026-01-16T15:56:02.003336+00:00",
+                "nav_qnh": 1009.6,
+                "nav_altitude_mcp": 5504,
+                "category": "A7"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -78.809771,
+                        43.151224
+                    ],
+                    [
+                        -78.809771,
+                        43.151224
+                    ],
+                    [
+                        -78.885106,
+                        43.123526
+                    ],
+                    [
+                        -78.886179,
+                        43.123077
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
                 "hex": "A17E8E",
                 "flight": "N196B   ",
                 "type": "BE30",
@@ -488,14 +521,6 @@
             "geometry": {
                 "type": "LineString",
                 "coordinates": [
-                    [
-                        -89.831812,
-                        30.528854
-                    ],
-                    [
-                        -89.81933,
-                        30.530354
-                    ],
                     [
                         -89.67418,
                         30.546249
@@ -775,55 +800,6 @@
                     [
                         -90.473651,
                         30.585342
-                    ]
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "hex": "A30D54",
-                "flight": "N296S   ",
-                "type": "AS50",
-                "description": "AEROSPATIALE AS-350 Ecureuil",
-                "operator": "DEPARTMENT OF HOMELAND SECURITY",
-                "altitude": 1200,
-                "ground_speed": 114.4,
-                "track": 238.95,
-                "squawk": "4403",
-                "rssi": -4.6,
-                "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2026-01-16T15:56:02.003336+00:00",
-                "nav_qnh": 1009.6,
-                "nav_altitude_mcp": 5504,
-                "category": "A7"
-            },
-            "geometry": {
-                "type": "LineString",
-                "coordinates": [
-                    [
-                        -78.727325,
-                        43.176407
-                    ],
-                    [
-                        -78.727962,
-                        43.176223
-                    ],
-                    [
-                        -78.809771,
-                        43.151224
-                    ],
-                    [
-                        -78.809771,
-                        43.151224
-                    ],
-                    [
-                        -78.885106,
-                        43.123526
-                    ],
-                    [
-                        -78.886179,
-                        43.123077
                     ]
                 ]
             }
@@ -3365,13 +3341,13 @@
                 "type": "B412",
                 "description": "BELL 412",
                 "operator": "ORANGE COUNTY FIRE AUTHORITY",
-                "altitude": 700,
-                "ground_speed": 117.1,
-                "track": 280.83,
+                "altitude": "ground",
+                "ground_speed": 0.1,
+                "track": 333.43,
                 "squawk": "4202",
-                "rssi": -4.8,
+                "rssi": -26.5,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2026-01-16T19:50:02.921321+00:00",
+                "last_seen": "2026-01-16T19:52:02.304333+00:00",
                 "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
                 "category": "A7"
@@ -3666,6 +3642,14 @@
                     [
                         -117.952824,
                         33.869686
+                    ],
+                    [
+                        -117.978955,
+                        33.872944
+                    ],
+                    [
+                        -117.978959,
+                        33.872944
                     ]
                 ]
             }
@@ -3678,13 +3662,13 @@
                 "type": "AS50",
                 "description": "AEROSPATIALE AS-350 Ecureuil",
                 "operator": "ANAHEIM POLICE DEPT",
-                "altitude": 650,
-                "ground_speed": 51.4,
-                "track": 52.91,
+                "altitude": 850,
+                "ground_speed": 57.1,
+                "track": 4.01,
                 "squawk": "4301",
-                "rssi": -5.2,
+                "rssi": -6.9,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2026-01-16T19:50:02.921338+00:00",
+                "last_seen": "2026-01-16T19:52:02.304350+00:00",
                 "nav_qnh": 1013.6,
                 "nav_altitude_mcp": 0,
                 "category": "A7"
@@ -3943,6 +3927,14 @@
                     [
                         -117.996303,
                         33.809967
+                    ],
+                    [
+                        -117.989913,
+                        33.816238
+                    ],
+                    [
+                        -117.989801,
+                        33.816742
                     ]
                 ]
             }
@@ -4180,13 +4172,13 @@
                 "type": "H60",
                 "description": "SIKORSKY UH-60 Black Hawk",
                 "operator": "COUNTY OF LOS ANGELES FIRE DEPARTMENT",
-                "altitude": 1425,
-                "ground_speed": 0.7,
-                "track": 0.0,
+                "altitude": 1475,
+                "ground_speed": 33.0,
+                "track": 345.96,
                 "squawk": "1206",
-                "rssi": -6.3,
+                "rssi": -5.5,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2026-01-16T19:50:02.921354+00:00",
+                "last_seen": "2026-01-16T19:52:02.304367+00:00",
                 "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
                 "category": "A7"
@@ -4285,6 +4277,14 @@
                     [
                         -118.644047,
                         34.061714
+                    ],
+                    [
+                        -118.639452,
+                        34.065994
+                    ],
+                    [
+                        -118.639508,
+                        34.066269
                     ]
                 ]
             }
@@ -4298,12 +4298,12 @@
                 "description": "Sikorsky MH-60S Seahawk",
                 "operator": "United States Navy",
                 "altitude": 700,
-                "ground_speed": 94.9,
-                "track": 161.57,
+                "ground_speed": 94.0,
+                "track": 163.3,
                 "squawk": "1200",
-                "rssi": -12.0,
+                "rssi": -14.1,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2026-01-16T19:50:02.921371+00:00",
+                "last_seen": "2026-01-16T19:52:02.304384+00:00",
                 "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
                 "category": "A7"
@@ -4478,6 +4478,14 @@
                     [
                         -117.431104,
                         32.809341
+                    ],
+                    [
+                        -117.413355,
+                        32.76016
+                    ],
+                    [
+                        -117.412907,
+                        32.758949
                     ]
                 ]
             }
@@ -4490,13 +4498,13 @@
                 "type": "Unknown",
                 "description": "Unknown",
                 "operator": "CITY OF HUNTINGTON BEACH",
-                "altitude": 675,
-                "ground_speed": 84.9,
-                "track": 171.87,
+                "altitude": 825,
+                "ground_speed": 117.4,
+                "track": 134.31,
                 "squawk": "4301",
-                "rssi": -17.0,
+                "rssi": -8.1,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2026-01-16T19:50:02.921299+00:00",
+                "last_seen": "2026-01-16T19:52:02.304315+00:00",
                 "nav_qnh": 1017.6,
                 "nav_altitude_mcp": 0,
                 "category": "A7"
@@ -4511,6 +4519,14 @@
                     [
                         -118.005295,
                         33.685106
+                    ],
+                    [
+                        -117.964129,
+                        33.637161
+                    ],
+                    [
+                        -117.963524,
+                        33.636645
                     ]
                 ]
             }
