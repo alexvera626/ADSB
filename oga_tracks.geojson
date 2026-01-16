@@ -2254,13 +2254,13 @@
                 "type": "AS50",
                 "description": "AEROSPATIALE AS-350 Ecureuil",
                 "operator": "LAPD AIR SUPPORT DIVISION",
-                "altitude": 625,
-                "ground_speed": 54.5,
-                "track": 277.39,
+                "altitude": 475,
+                "ground_speed": 42.2,
+                "track": 301.43,
                 "squawk": "1200",
-                "rssi": -5.3,
+                "rssi": -2.1,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2026-01-16T18:00:02.654214+00:00",
+                "last_seen": "2026-01-16T18:02:02.459348+00:00",
                 "nav_qnh": 1016.8,
                 "nav_altitude_mcp": 10016,
                 "category": "A7"
@@ -2651,6 +2651,14 @@
                     [
                         -118.239899,
                         34.020841
+                    ],
+                    [
+                        -118.238811,
+                        34.020003
+                    ],
+                    [
+                        -118.238811,
+                        34.020003
                     ]
                 ]
             }
@@ -2817,12 +2825,12 @@
                 "description": "BELL UH-1 Huey",
                 "operator": "ORANGE COUNTY SHERIFFS DEPARTMENT",
                 "altitude": "ground",
-                "ground_speed": 0.1,
+                "ground_speed": 0.0,
                 "track": 0.0,
                 "squawk": "4204",
-                "rssi": -34.4,
+                "rssi": -33.8,
                 "api_source": "https://opendata.adsb.fi/api/v2/hex/",
-                "last_seen": "2026-01-16T18:00:02.654051+00:00",
+                "last_seen": "2026-01-16T18:02:02.459222+00:00",
                 "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
                 "category": "A7"
@@ -2985,6 +2993,10 @@
                     [
                         -117.733254,
                         33.781004
+                    ],
+                    [
+                        -117.733248,
+                        33.781002
                     ]
                 ]
             }
@@ -2998,12 +3010,12 @@
                 "description": "Unknown",
                 "operator": "DEPARTMENT OF HOMELAND SECURITY",
                 "altitude": 21000,
-                "ground_speed": 278.8,
-                "track": 102.64,
+                "ground_speed": 278.5,
+                "track": 102.44,
                 "squawk": "2621",
-                "rssi": -14.8,
+                "rssi": -22.2,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2026-01-16T18:00:02.654495+00:00",
+                "last_seen": "2026-01-16T18:02:02.459641+00:00",
                 "nav_qnh": 1013.6,
                 "nav_altitude_mcp": 20992,
                 "category": "A2"
@@ -3130,6 +3142,76 @@
                     [
                         -120.477976,
                         48.063044
+                    ],
+                    [
+                        -120.253953,
+                        48.029201
+                    ],
+                    [
+                        -120.253953,
+                        48.029201
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "hex": "A36968",
+                "flight": "N319MW  ",
+                "type": "B407",
+                "description": "BELL 407",
+                "operator": "SAN DIEGO COUNTY SHERIFF DEPARTMENT",
+                "altitude": "ground",
+                "ground_speed": 0.0,
+                "track": 261.56,
+                "squawk": "N/A",
+                "rssi": -9.9,
+                "api_source": "https://api.airplanes.live/v2/hex/",
+                "last_seen": "2026-01-16T18:02:02.459622+00:00",
+                "nav_qnh": 0.0,
+                "nav_altitude_mcp": 0,
+                "category": "A7"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -116.973317,
+                        32.819469
+                    ],
+                    [
+                        -116.973317,
+                        32.819469
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "hex": "A13F4E",
+                "flight": "N18LA   ",
+                "type": "B412",
+                "description": "BELL 412",
+                "operator": "COUNTY OF LOS ANGELES FIRE DEPARTMENT",
+                "altitude": "ground",
+                "ground_speed": 0.1,
+                "track": 0.0,
+                "squawk": "1206",
+                "rssi": -24.5,
+                "api_source": "https://api.airplanes.live/v2/hex/",
+                "last_seen": "2026-01-16T18:02:02.459586+00:00",
+                "nav_qnh": 0.0,
+                "nav_altitude_mcp": 0,
+                "category": "A7"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -118.407183,
+                        34.258724
                     ]
                 ]
             }
