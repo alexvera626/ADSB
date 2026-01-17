@@ -9,13 +9,13 @@
                 "type": "AS50",
                 "description": "AEROSPATIALE AS-350 Ecureuil",
                 "operator": "LAPD AIR SUPPORT DIVISION",
-                "altitude": 950,
-                "ground_speed": 63.6,
-                "track": 160.71,
+                "altitude": 900,
+                "ground_speed": 53.0,
+                "track": 280.89,
                 "squawk": "1200",
-                "rssi": -17.5,
+                "rssi": -10.9,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2026-01-17T08:30:02.722951+00:00",
+                "last_seen": "2026-01-17T08:32:02.646583+00:00",
                 "nav_qnh": 1016.8,
                 "nav_altitude_mcp": 10016,
                 "category": "A7"
@@ -23,22 +23,6 @@
             "geometry": {
                 "type": "LineString",
                 "coordinates": [
-                    [
-                        -118.228111,
-                        34.027219
-                    ],
-                    [
-                        -118.228111,
-                        34.027219
-                    ],
-                    [
-                        -118.270054,
-                        34.038251
-                    ],
-                    [
-                        -118.270283,
-                        34.038531
-                    ],
                     [
                         -118.297005,
                         34.050681
@@ -430,6 +414,14 @@
                     [
                         -118.223991,
                         34.081173
+                    ],
+                    [
+                        -118.241197,
+                        34.05423
+                    ],
+                    [
+                        -118.241029,
+                        34.054184
                     ]
                 ]
             }
@@ -442,13 +434,13 @@
                 "type": "H500",
                 "description": "HUGHES 500",
                 "operator": "CITY OF HUNTINGTON BEACH",
-                "altitude": 1225,
-                "ground_speed": 77.3,
-                "track": 291.25,
+                "altitude": 1025,
+                "ground_speed": 57.9,
+                "track": 111.25,
                 "squawk": "4301",
-                "rssi": -13.2,
+                "rssi": -6.6,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2026-01-17T08:30:02.722969+00:00",
+                "last_seen": "2026-01-17T08:32:02.646603+00:00",
                 "nav_qnh": 1015.2,
                 "nav_altitude_mcp": 0,
                 "category": "A7"
@@ -456,22 +448,6 @@
             "geometry": {
                 "type": "LineString",
                 "coordinates": [
-                    [
-                        -117.948132,
-                        33.673282
-                    ],
-                    [
-                        -117.948132,
-                        33.673282
-                    ],
-                    [
-                        -117.923939,
-                        33.694199
-                    ],
-                    [
-                        -117.924275,
-                        33.694473
-                    ],
                     [
                         -117.975732,
                         33.699188
@@ -895,6 +871,14 @@
                     [
                         -118.070126,
                         33.71085
+                    ],
+                    [
+                        -118.049945,
+                        33.715714
+                    ],
+                    [
+                        -118.049945,
+                        33.715714
                     ]
                 ]
             }
@@ -922,22 +906,6 @@
                 "type": "LineString",
                 "coordinates": [
                     [
-                        -117.124214,
-                        33.584367
-                    ],
-                    [
-                        -117.124214,
-                        33.584367
-                    ],
-                    [
-                        -117.124214,
-                        33.584367
-                    ],
-                    [
-                        -117.124214,
-                        33.584367
-                    ],
-                    [
                         -117.126814,
                         33.580673
                     ],
@@ -1352,51 +1320,6 @@
                     [
                         -116.269376,
                         33.744324
-                    ]
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "hex": "A16926",
-                "flight": "N190LA  ",
-                "type": "H60",
-                "description": "SIKORSKY UH-60 Black Hawk",
-                "operator": "COUNTY OF LOS ANGELES FIRE DEPARTMENT",
-                "altitude": "ground",
-                "ground_speed": 0.1,
-                "track": 0.0,
-                "squawk": "1206",
-                "rssi": -19.5,
-                "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2026-01-17T06:36:02.590331+00:00",
-                "nav_qnh": 0.0,
-                "nav_altitude_mcp": 0,
-                "category": "A7"
-            },
-            "geometry": {
-                "type": "LineString",
-                "coordinates": [
-                    [
-                        -118.407772,
-                        34.258816
-                    ],
-                    [
-                        -118.407744,
-                        34.258827
-                    ],
-                    [
-                        -118.407786,
-                        34.258839
-                    ],
-                    [
-                        -118.407769,
-                        34.258828
-                    ],
-                    [
-                        -118.407841,
-                        34.258804
                     ]
                 ]
             }
@@ -2343,18 +2266,59 @@
         {
             "type": "Feature",
             "properties": {
+                "hex": "A16926",
+                "flight": "N190LA  ",
+                "type": "H60",
+                "description": "SIKORSKY UH-60 Black Hawk",
+                "operator": "COUNTY OF LOS ANGELES FIRE DEPARTMENT",
+                "altitude": "ground",
+                "ground_speed": 0.1,
+                "track": 0.0,
+                "squawk": "1206",
+                "rssi": -19.5,
+                "api_source": "https://api.airplanes.live/v2/hex/",
+                "last_seen": "2026-01-17T06:36:02.590331+00:00",
+                "nav_qnh": 0.0,
+                "nav_altitude_mcp": 0,
+                "category": "A7"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -118.407744,
+                        34.258827
+                    ],
+                    [
+                        -118.407786,
+                        34.258839
+                    ],
+                    [
+                        -118.407769,
+                        34.258828
+                    ],
+                    [
+                        -118.407841,
+                        34.258804
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
                 "hex": "A36968",
                 "flight": "N319MW  ",
                 "type": "B407",
                 "description": "BELL 407",
                 "operator": "SAN DIEGO COUNTY SHERIFF DEPARTMENT",
-                "altitude": 1700,
-                "ground_speed": 103.9,
-                "track": 135.39,
+                "altitude": 1950,
+                "ground_speed": 108.2,
+                "track": 141.75,
                 "squawk": "4267",
-                "rssi": -4.1,
+                "rssi": -5.4,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2026-01-17T08:30:02.722985+00:00",
+                "last_seen": "2026-01-17T08:32:02.646619+00:00",
                 "nav_qnh": 1016.8,
                 "nav_altitude_mcp": 0,
                 "category": "A7"
@@ -2713,6 +2677,14 @@
                     [
                         -117.236426,
                         33.154083
+                    ],
+                    [
+                        -117.188472,
+                        33.109767
+                    ],
+                    [
+                        -117.188472,
+                        33.109767
                     ]
                 ]
             }
