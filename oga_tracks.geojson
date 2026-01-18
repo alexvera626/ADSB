@@ -24,22 +24,6 @@
                 "type": "LineString",
                 "coordinates": [
                     [
-                        -118.457785,
-                        34.216919
-                    ],
-                    [
-                        -118.458065,
-                        34.216141
-                    ],
-                    [
-                        -118.450241,
-                        34.214219
-                    ],
-                    [
-                        -118.450241,
-                        34.214219
-                    ],
-                    [
                         -118.453617,
                         34.217152
                     ],
@@ -629,22 +613,6 @@
                 "type": "LineString",
                 "coordinates": [
                     [
-                        -118.581493,
-                        34.097809
-                    ],
-                    [
-                        -118.581493,
-                        34.097809
-                    ],
-                    [
-                        -118.57998,
-                        34.096664
-                    ],
-                    [
-                        -118.57998,
-                        34.096664
-                    ],
-                    [
                         -118.580372,
                         34.096848
                     ],
@@ -773,38 +741,6 @@
             "geometry": {
                 "type": "LineString",
                 "coordinates": [
-                    [
-                        -116.309846,
-                        33.728165
-                    ],
-                    [
-                        -116.309846,
-                        33.728165
-                    ],
-                    [
-                        -116.310294,
-                        33.727936
-                    ],
-                    [
-                        -116.310294,
-                        33.727936
-                    ],
-                    [
-                        -116.352109,
-                        33.707108
-                    ],
-                    [
-                        -116.352109,
-                        33.707108
-                    ],
-                    [
-                        -116.352446,
-                        33.706924
-                    ],
-                    [
-                        -116.352446,
-                        33.706924
-                    ],
                     [
                         -116.395886,
                         33.699142
@@ -2137,13 +2073,13 @@
                 "type": "H60",
                 "description": "Unknown",
                 "operator": "Unknown",
-                "altitude": 50,
-                "ground_speed": 95.0,
-                "track": 89.4,
-                "squawk": "N/A",
-                "rssi": -34.6,
+                "altitude": 75,
+                "ground_speed": 97.0,
+                "track": 88.23,
+                "squawk": "1200",
+                "rssi": -29.0,
                 "api_source": "https://opendata.adsb.fi/api/v2/hex/",
-                "last_seen": "2026-01-18T01:32:02.193782+00:00",
+                "last_seen": "2026-01-18T01:34:02.191347+00:00",
                 "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
                 "category": "A7"
@@ -2574,6 +2510,43 @@
                     [
                         -118.35824,
                         32.323654
+                    ],
+                    [
+                        -118.294739,
+                        32.325211
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "hex": "A9079F",
+                "flight": "N681HB  ",
+                "type": "H500",
+                "description": "HUGHES 500",
+                "operator": "CITY OF HUNTINGTON BEACH",
+                "altitude": "ground",
+                "ground_speed": 0.0,
+                "track": 0.0,
+                "squawk": "4301",
+                "rssi": -13.6,
+                "api_source": "https://api.airplanes.live/v2/hex/",
+                "last_seen": "2026-01-18T01:34:02.191411+00:00",
+                "nav_qnh": 0.0,
+                "nav_altitude_mcp": 0,
+                "category": "A7"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -118.001261,
+                        33.695161
+                    ],
+                    [
+                        -118.001264,
+                        33.69516
                     ]
                 ]
             }
@@ -2875,6 +2848,39 @@
                     [
                         -117.983201,
                         33.872246
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "hex": "A0F9B2",
+                "flight": "TROY308 ",
+                "type": "BE30",
+                "description": "BEECH 300 Super King Air",
+                "operator": "DEPARTMENT OF HOMELAND SECURITY",
+                "altitude": 4375,
+                "ground_speed": 178.0,
+                "track": 210.74,
+                "squawk": "4403",
+                "rssi": -25.6,
+                "api_source": "https://api.airplanes.live/v2/hex/",
+                "last_seen": "2026-01-18T01:34:02.191429+00:00",
+                "nav_qnh": 1018.4,
+                "nav_altitude_mcp": 4512,
+                "category": "A2"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -79.454287,
+                        26.119343
+                    ],
+                    [
+                        -79.454815,
+                        26.118459
                     ]
                 ]
             }
