@@ -5,33 +5,25 @@
             "type": "Feature",
             "properties": {
                 "hex": "A9079F",
-                "flight": "Unknown",
+                "flight": "N681HB  ",
                 "type": "H500",
                 "description": "HUGHES 500",
                 "operator": "CITY OF HUNTINGTON BEACH",
-                "altitude": 0,
-                "ground_speed": 0.0,
-                "track": 0.0,
-                "squawk": "N/A",
-                "rssi": -13.3,
-                "api_source": "https://opendata.adsb.fi/api/v2/hex/",
-                "last_seen": "2026-01-21T03:00:02.534620+00:00",
-                "nav_qnh": 0.0,
+                "altitude": 625,
+                "ground_speed": 74.0,
+                "track": 0.77,
+                "squawk": "4301",
+                "rssi": -9.3,
+                "api_source": "https://api.airplanes.live/v2/hex/",
+                "last_seen": "2026-01-21T03:02:02.197490+00:00",
+                "nav_qnh": 1017.6,
                 "nav_altitude_mcp": 0,
-                "category": "Unknown"
+                "category": "A7"
             },
             "geometry": {
                 "type": "LineString",
                 "coordinates": [
                     [
-                        -118.002663,
-                        33.681894
-                    ],
-                    [
-                        -118.002581,
-                        33.682159
-                    ],
-                    [
                         -118.000451,
                         33.699509
                     ],
@@ -46,6 +38,14 @@
                     [
                         -118.001334,
                         33.695103
+                    ],
+                    [
+                        -117.999687,
+                        33.706008
+                    ],
+                    [
+                        -117.99963,
+                        33.706334
                     ]
                 ]
             }
@@ -72,14 +72,6 @@
             "geometry": {
                 "type": "LineString",
                 "coordinates": [
-                    [
-                        -118.393307,
-                        34.293497
-                    ],
-                    [
-                        -118.39338,
-                        34.293594
-                    ],
                     [
                         -118.391533,
                         34.295127
@@ -314,14 +306,6 @@
                 "type": "LineString",
                 "coordinates": [
                     [
-                        -116.890137,
-                        32.736237
-                    ],
-                    [
-                        -116.892664,
-                        32.733902
-                    ],
-                    [
                         -116.865802,
                         32.777481
                     ],
@@ -476,91 +460,6 @@
                     [
                         -116.973537,
                         32.819378
-                    ]
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "hex": "AD395A",
-                "flight": "N951LB  ",
-                "type": "AS32",
-                "description": "AEROSPATIALE AS-332 Super Puma",
-                "operator": "COUNTY OF LOS ANGELES",
-                "altitude": 700,
-                "ground_speed": 130.6,
-                "track": 244.61,
-                "squawk": "1200",
-                "rssi": -31.8,
-                "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2026-01-21T00:34:02.807471+00:00",
-                "nav_qnh": 0.0,
-                "nav_altitude_mcp": 0,
-                "category": "A7"
-            },
-            "geometry": {
-                "type": "LineString",
-                "coordinates": [
-                    [
-                        -123.155823,
-                        45.191986
-                    ],
-                    [
-                        -123.130746,
-                        45.269817
-                    ],
-                    [
-                        -123.130646,
-                        45.269989
-                    ],
-                    [
-                        -123.109243,
-                        45.328659
-                    ],
-                    [
-                        -123.109,
-                        45.329315
-                    ],
-                    [
-                        -123.059889,
-                        45.377106
-                    ],
-                    [
-                        -123.059889,
-                        45.377106
-                    ],
-                    [
-                        -122.990336,
-                        45.330242
-                    ],
-                    [
-                        -122.990336,
-                        45.330242
-                    ],
-                    [
-                        -122.979081,
-                        45.281455
-                    ],
-                    [
-                        -122.979845,
-                        45.281067
-                    ],
-                    [
-                        -123.059804,
-                        45.230573
-                    ],
-                    [
-                        -123.059804,
-                        45.230573
-                    ],
-                    [
-                        -123.134962,
-                        45.21286
-                    ],
-                    [
-                        -123.134962,
-                        45.21286
                     ]
                 ]
             }
@@ -1658,12 +1557,12 @@
                 "description": "GENERAL ATOMICS MQ-9 Reaper",
                 "operator": "GENERAL ATOMICS AERONAUTICAL SYSTEMS INC",
                 "altitude": 6300,
-                "ground_speed": 121.0,
-                "track": 90.95,
+                "ground_speed": 120.0,
+                "track": 241.08,
                 "squawk": "5214",
                 "rssi": -5.7,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2026-01-21T03:00:02.534866+00:00",
+                "last_seen": "2026-01-21T03:02:02.197508+00:00",
                 "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
                 "category": "B6"
@@ -2478,6 +2377,95 @@
                     [
                         -117.629438,
                         34.583313
+                    ],
+                    [
+                        -117.594852,
+                        34.544926
+                    ],
+                    [
+                        -117.595358,
+                        34.544678
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "hex": "AD395A",
+                "flight": "N951LB  ",
+                "type": "AS32",
+                "description": "AEROSPATIALE AS-332 Super Puma",
+                "operator": "COUNTY OF LOS ANGELES",
+                "altitude": 700,
+                "ground_speed": 130.6,
+                "track": 244.61,
+                "squawk": "1200",
+                "rssi": -31.8,
+                "api_source": "https://api.airplanes.live/v2/hex/",
+                "last_seen": "2026-01-21T00:34:02.807471+00:00",
+                "nav_qnh": 0.0,
+                "nav_altitude_mcp": 0,
+                "category": "A7"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -123.130746,
+                        45.269817
+                    ],
+                    [
+                        -123.130646,
+                        45.269989
+                    ],
+                    [
+                        -123.109243,
+                        45.328659
+                    ],
+                    [
+                        -123.109,
+                        45.329315
+                    ],
+                    [
+                        -123.059889,
+                        45.377106
+                    ],
+                    [
+                        -123.059889,
+                        45.377106
+                    ],
+                    [
+                        -122.990336,
+                        45.330242
+                    ],
+                    [
+                        -122.990336,
+                        45.330242
+                    ],
+                    [
+                        -122.979081,
+                        45.281455
+                    ],
+                    [
+                        -122.979845,
+                        45.281067
+                    ],
+                    [
+                        -123.059804,
+                        45.230573
+                    ],
+                    [
+                        -123.059804,
+                        45.230573
+                    ],
+                    [
+                        -123.134962,
+                        45.21286
+                    ],
+                    [
+                        -123.134962,
+                        45.21286
                     ]
                 ]
             }
@@ -2490,13 +2478,13 @@
                 "type": "AS50",
                 "description": "AEROSPATIALE AS-350 Ecureuil",
                 "operator": "LAPD AIR SUPPORT DIVISION",
-                "altitude": 525,
-                "ground_speed": 77.8,
-                "track": 137.08,
+                "altitude": 400,
+                "ground_speed": 80.6,
+                "track": 136.01,
                 "squawk": "0252",
-                "rssi": -6.7,
+                "rssi": -7.2,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2026-01-21T03:00:02.534724+00:00",
+                "last_seen": "2026-01-21T03:02:02.197361+00:00",
                 "nav_qnh": 1017.6,
                 "nav_altitude_mcp": 10016,
                 "category": "A7"
@@ -2683,6 +2671,14 @@
                     [
                         -118.293171,
                         33.986672
+                    ],
+                    [
+                        -118.273716,
+                        33.974708
+                    ],
+                    [
+                        -118.273428,
+                        33.974487
                     ]
                 ]
             }
