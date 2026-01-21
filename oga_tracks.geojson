@@ -2251,16 +2251,16 @@
                 "flight": "PD50    ",
                 "type": "AS50",
                 "description": "AEROSPATIALE AS-350 Ecureuil",
-                "operator": "CITY OF ONTARIO, POLICE DEPARTMENT AIR SUPPORT UNIT",
-                "altitude": "ground",
-                "ground_speed": 0.0,
-                "track": 0.0,
+                "operator": "CITY OF ONTARIO",
+                "altitude": 200,
+                "ground_speed": 68.5,
+                "track": 258.2,
                 "squawk": "1206",
-                "rssi": -22.5,
-                "api_source": "https://opendata.adsb.fi/api/v2/hex/",
-                "last_seen": "2026-01-21T19:58:02.809530+00:00",
-                "nav_qnh": 0.0,
-                "nav_altitude_mcp": 0,
+                "rssi": -7.5,
+                "api_source": "https://api.airplanes.live/v2/hex/",
+                "last_seen": "2026-01-21T20:00:02.484803+00:00",
+                "nav_qnh": 1018.4,
+                "nav_altitude_mcp": 8512,
                 "category": "A7"
             },
             "geometry": {
@@ -2349,6 +2349,14 @@
                     [
                         -117.97956,
                         33.87135
+                    ],
+                    [
+                        -117.985382,
+                        33.871082
+                    ],
+                    [
+                        -117.985382,
+                        33.871082
                     ]
                 ]
             }
@@ -4025,12 +4033,12 @@
                 "description": "Sikorsky MH-60S Seahawk",
                 "operator": "United States Navy",
                 "altitude": 975,
-                "ground_speed": 111.1,
-                "track": 344.34,
+                "ground_speed": 95.3,
+                "track": 155.85,
                 "squawk": "1200",
-                "rssi": -8.9,
+                "rssi": -6.7,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2026-01-21T19:58:02.809785+00:00",
+                "last_seen": "2026-01-21T20:00:02.484760+00:00",
                 "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
                 "category": "A7"
@@ -4165,6 +4173,14 @@
                     [
                         -117.308705,
                         33.049808
+                    ],
+                    [
+                        -117.323053,
+                        33.064636
+                    ],
+                    [
+                        -117.323053,
+                        33.064636
                     ]
                 ]
             }
@@ -4177,13 +4193,13 @@
                 "type": "H60",
                 "description": "SIKORSKY UH-60 Black Hawk",
                 "operator": "Unknown",
-                "altitude": 3825,
-                "ground_speed": 120.0,
-                "track": 203.57,
+                "altitude": 3850,
+                "ground_speed": 115.6,
+                "track": 170.54,
                 "squawk": "5172",
-                "rssi": -13.0,
+                "rssi": -8.6,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2026-01-21T19:58:02.809767+00:00",
+                "last_seen": "2026-01-21T20:00:02.484743+00:00",
                 "nav_qnh": 1020.0,
                 "nav_altitude_mcp": 4000,
                 "category": "A7"
@@ -4310,6 +4326,47 @@
                     [
                         -118.91013,
                         34.295288
+                    ],
+                    [
+                        -118.88031,
+                        34.23824
+                    ],
+                    [
+                        -118.88031,
+                        34.23824
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "hex": "AE4FA1",
+                "flight": "HEX37   ",
+                "type": "H60",
+                "description": "SIKORSKY UH-60 Black Hawk",
+                "operator": "Unknown",
+                "altitude": "ground",
+                "ground_speed": 6.2,
+                "track": 284.06,
+                "squawk": "1200",
+                "rssi": -22.6,
+                "api_source": "https://api.airplanes.live/v2/hex/",
+                "last_seen": "2026-01-21T20:00:02.484777+00:00",
+                "nav_qnh": 0.0,
+                "nav_altitude_mcp": 0,
+                "category": "A7"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -117.209866,
+                        32.705967
+                    ],
+                    [
+                        -117.209866,
+                        32.705967
                     ]
                 ]
             }
