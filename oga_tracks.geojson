@@ -9,13 +9,13 @@
                 "type": "AS50",
                 "description": "AEROSPATIALE AS-350 Ecureuil",
                 "operator": "LAPD AIR SUPPORT DIVISION",
-                "altitude": 450,
-                "ground_speed": 74.6,
-                "track": 72.05,
+                "altitude": 375,
+                "ground_speed": 53.8,
+                "track": 288.43,
                 "squawk": "0255",
-                "rssi": -5.5,
+                "rssi": -8.8,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2026-01-21T17:18:02.076034+00:00",
+                "last_seen": "2026-01-21T17:20:02.651031+00:00",
                 "nav_qnh": 1020.0,
                 "nav_altitude_mcp": 10016,
                 "category": "A7"
@@ -170,6 +170,14 @@
                     [
                         -118.258095,
                         33.9451
+                    ],
+                    [
+                        -118.259296,
+                        33.948499
+                    ],
+                    [
+                        -118.259296,
+                        33.948499
                     ]
                 ]
             }
@@ -240,12 +248,12 @@
                 "description": "BEECH 300 Super King Air",
                 "operator": "DEPARTMENT OF HOMELAND SECURITY",
                 "altitude": 15600,
-                "ground_speed": 171.7,
-                "track": 275.35,
+                "ground_speed": 170.8,
+                "track": 275.38,
                 "squawk": "1611",
-                "rssi": -21.4,
+                "rssi": -17.3,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2026-01-21T17:18:02.076265+00:00",
+                "last_seen": "2026-01-21T17:20:02.651311+00:00",
                 "nav_qnh": 1025.6,
                 "nav_altitude_mcp": 11008,
                 "category": "A2"
@@ -544,6 +552,14 @@
                     [
                         -89.3612,
                         30.531611
+                    ],
+                    [
+                        -89.471256,
+                        30.540527
+                    ],
+                    [
+                        -89.472172,
+                        30.540619
                     ]
                 ]
             }
@@ -556,13 +572,13 @@
                 "type": "AS50",
                 "description": "AEROSPATIALE AS-350 Ecureuil",
                 "operator": "TINY BUBBLES AVIATION INC",
-                "altitude": 925,
-                "ground_speed": 11.0,
-                "track": 330.0,
+                "altitude": 1050,
+                "ground_speed": 38.0,
+                "track": 47.0,
                 "squawk": "0245",
-                "rssi": -6.9,
+                "rssi": -5.2,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2026-01-21T17:18:02.076281+00:00",
+                "last_seen": "2026-01-21T17:20:02.651351+00:00",
                 "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
                 "category": "A7"
@@ -769,6 +785,14 @@
                     [
                         -118.368587,
                         34.174288
+                    ],
+                    [
+                        -118.381004,
+                        34.169725
+                    ],
+                    [
+                        -118.369217,
+                        34.174727
                     ]
                 ]
             }
@@ -846,13 +870,13 @@
                 "type": "B412",
                 "description": "BELL 412",
                 "operator": "LOS ANGELES POLICE DEPT AIR SUPPORT DIVISION",
-                "altitude": 550,
-                "ground_speed": 0.7,
+                "altitude": "ground",
+                "ground_speed": 0.0,
                 "track": 0.0,
                 "squawk": "1200",
-                "rssi": -5.9,
+                "rssi": -6.6,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2026-01-21T17:18:02.076248+00:00",
+                "last_seen": "2026-01-21T17:20:02.651241+00:00",
                 "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
                 "category": "A7"
@@ -931,6 +955,39 @@
                     [
                         -118.497162,
                         34.216453
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "hex": "AE2793",
+                "flight": "GH71    ",
+                "type": "H60",
+                "description": "Sikorsky MH-60S Seahawk",
+                "operator": "Unknown",
+                "altitude": "ground",
+                "ground_speed": 5.8,
+                "track": 0.0,
+                "squawk": "1200",
+                "rssi": -14.9,
+                "api_source": "https://api.airplanes.live/v2/hex/",
+                "last_seen": "2026-01-21T17:20:02.651286+00:00",
+                "nav_qnh": 0.0,
+                "nav_altitude_mcp": 0,
+                "category": "A7"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -117.205128,
+                        32.713417
+                    ],
+                    [
+                        -117.205128,
+                        32.713417
                     ]
                 ]
             }
