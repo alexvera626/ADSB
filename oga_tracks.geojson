@@ -9,13 +9,13 @@
                 "type": "DH8C",
                 "description": "DE HAVILLAND DHC-8-300 Dash 8",
                 "operator": "US DEPARTMENT OF HOMELAND SECURITY",
-                "altitude": 4825,
-                "ground_speed": 233.4,
-                "track": 101.12,
+                "altitude": 3825,
+                "ground_speed": 222.4,
+                "track": 101.41,
                 "squawk": "2436",
-                "rssi": -6.3,
+                "rssi": -21.4,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2026-01-22T19:58:02.700303+00:00",
+                "last_seen": "2026-01-22T20:00:02.365970+00:00",
                 "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
                 "category": "Unknown"
@@ -890,6 +890,14 @@
                     [
                         -95.790064,
                         30.55101
+                    ],
+                    [
+                        -95.64082,
+                        30.525513
+                    ],
+                    [
+                        -95.638513,
+                        30.525094
                     ]
                 ]
             }
@@ -3718,13 +3726,13 @@
                 "type": "H53S",
                 "description": "Sikorsky CH-53E Super Stallion",
                 "operator": "United States Marine Corps",
-                "altitude": 475,
-                "ground_speed": 109.3,
-                "track": 327.33,
+                "altitude": 250,
+                "ground_speed": 41.0,
+                "track": 347.32,
                 "squawk": "4005",
-                "rssi": -12.4,
+                "rssi": -8.7,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2026-01-22T19:58:02.700506+00:00",
+                "last_seen": "2026-01-22T20:00:02.366276+00:00",
                 "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
                 "category": "A7"
@@ -3803,6 +3811,43 @@
                     [
                         -117.470865,
                         33.281079
+                    ],
+                    [
+                        -117.494824,
+                        33.325058
+                    ],
+                    [
+                        -117.493959,
+                        33.323442
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "hex": "A16926",
+                "flight": "N190LA  ",
+                "type": "H60",
+                "description": "SIKORSKY UH-60 Black Hawk",
+                "operator": "COUNTY OF LOS ANGELES FIRE DEPARTMENT",
+                "altitude": "ground",
+                "ground_speed": 0.1,
+                "track": 0.0,
+                "squawk": "N/A",
+                "rssi": -25.4,
+                "api_source": "https://api.airplanes.live/v2/hex/",
+                "last_seen": "2026-01-22T20:00:02.366231+00:00",
+                "nav_qnh": 0.0,
+                "nav_altitude_mcp": 0,
+                "category": "A7"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -118.407798,
+                        34.258816
                     ]
                 ]
             }
