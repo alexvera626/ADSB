@@ -36,13 +36,13 @@
                 "type": "Q9",
                 "description": "GENERAL ATOMICS MQ-9 Reaper",
                 "operator": "GENERAL ATOMICS AERONAUTICAL SYSTEMS INC",
-                "altitude": 6200,
-                "ground_speed": 126.8,
-                "track": 124.07,
+                "altitude": 5625,
+                "ground_speed": 118.4,
+                "track": 346.32,
                 "squawk": "5214",
                 "rssi": null,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2026-01-22T01:52:02.287485+00:00",
+                "last_seen": "2026-01-22T01:54:02.195071+00:00",
                 "nav_qnh": null,
                 "nav_altitude_mcp": null,
                 "category": "B6"
@@ -50,8 +50,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -117.757359,
-                    34.570576
+                    -117.677251,
+                    34.572784
                 ]
             }
         },
@@ -60,16 +60,16 @@
             "properties": {
                 "hex": "AE277C",
                 "flight": "GH72    ",
-                "type": "H60",
+                "type": "Unknown",
                 "description": "Unknown",
                 "operator": "Unknown",
-                "altitude": -125,
-                "ground_speed": 5.0,
-                "track": 306.87,
-                "squawk": "N/A",
+                "altitude": 0,
+                "ground_speed": 29.8,
+                "track": 283.57,
+                "squawk": "4000",
                 "rssi": null,
-                "api_source": "https://opendata.adsb.fi/api/v2/hex/",
-                "last_seen": "2026-01-22T01:52:02.287257+00:00",
+                "api_source": "https://api.airplanes.live/v2/hex/",
+                "last_seen": "2026-01-22T01:54:02.195139+00:00",
                 "nav_qnh": null,
                 "nav_altitude_mcp": null,
                 "category": "A7"
@@ -77,8 +77,35 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -117.737788,
-                    32.720125
+                    -117.738349,
+                    32.720497
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "hex": "AE4D5A",
+                "flight": "Unknown",
+                "type": "H60",
+                "description": "Sikorsky MH-60S Seahawk",
+                "operator": "United States Navy",
+                "altitude": 125,
+                "ground_speed": 80.0,
+                "track": 178.57,
+                "squawk": "1200",
+                "rssi": null,
+                "api_source": "https://api.airplanes.live/v2/hex/",
+                "last_seen": "2026-01-22T01:54:02.195122+00:00",
+                "nav_qnh": null,
+                "nav_altitude_mcp": null,
+                "category": "A7"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -117.300241,
+                    32.588475
                 ]
             }
         },
@@ -96,7 +123,7 @@
                 "squawk": "1200",
                 "rssi": null,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2026-01-22T01:52:02.287502+00:00",
+                "last_seen": "2026-01-22T01:54:02.195089+00:00",
                 "nav_qnh": null,
                 "nav_altitude_mcp": null,
                 "category": "A7"
@@ -104,8 +131,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -117.21595,
-                    32.705109
+                    -117.215937,
+                    32.7051
                 ]
             }
         },
@@ -117,13 +144,13 @@
                 "type": "H60",
                 "description": "SIKORSKY UH-60 Black Hawk",
                 "operator": "Unknown",
-                "altitude": 275,
-                "ground_speed": 80.1,
-                "track": 204.33,
+                "altitude": 225,
+                "ground_speed": 71.4,
+                "track": 281.31,
                 "squawk": "1200",
                 "rssi": null,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2026-01-22T01:52:02.287521+00:00",
+                "last_seen": "2026-01-22T01:54:02.195106+00:00",
                 "nav_qnh": null,
                 "nav_altitude_mcp": null,
                 "category": "A7"
@@ -131,8 +158,35 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -117.23735,
-                    32.644617
+                    -117.275482,
+                    32.629669
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "hex": "AE6014",
+                "flight": "KNIFE44 ",
+                "type": "H60",
+                "description": "SIKORSKY UH-60 Black Hawk",
+                "operator": "Unknown",
+                "altitude": "ground",
+                "ground_speed": 0.0,
+                "track": 0.0,
+                "squawk": "1206",
+                "rssi": null,
+                "api_source": "https://api.airplanes.live/v2/hex/",
+                "last_seen": "2026-01-22T01:54:02.195054+00:00",
+                "nav_qnh": null,
+                "nav_altitude_mcp": null,
+                "category": "A7"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -118.053517,
+                    33.792048
                 ]
             }
         }
