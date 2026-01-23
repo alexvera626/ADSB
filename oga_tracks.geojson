@@ -24,14 +24,6 @@
                 "type": "LineString",
                 "coordinates": [
                     [
-                        -82.577966,
-                        30.41118
-                    ],
-                    [
-                        -82.577966,
-                        30.41118
-                    ],
-                    [
                         -82.58202,
                         30.329361
                     ],
@@ -64,14 +56,6 @@
             "geometry": {
                 "type": "LineString",
                 "coordinates": [
-                    [
-                        -118.241329,
-                        34.063622
-                    ],
-                    [
-                        -118.241309,
-                        34.06366
-                    ],
                     [
                         -118.240412,
                         34.063934
@@ -155,15 +139,15 @@
                 "type": "AS50",
                 "description": "AEROSPATIALE AS-350 Ecureuil",
                 "operator": "LAPD AIR SUPPORT DIVISION",
-                "altitude": 350,
-                "ground_speed": 8.6,
-                "track": 215.54,
+                "altitude": "ground",
+                "ground_speed": 0.0,
+                "track": 0.0,
                 "squawk": "1200",
-                "rssi": -5.9,
+                "rssi": -25.3,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2026-01-23T18:50:02.579341+00:00",
-                "nav_qnh": 1014.4,
-                "nav_altitude_mcp": 10016,
+                "last_seen": "2026-01-23T18:52:02.520438+00:00",
+                "nav_qnh": 0.0,
+                "nav_altitude_mcp": 0,
                 "category": "A7"
             },
             "geometry": {
@@ -1060,13 +1044,13 @@
                 "type": "Unknown",
                 "description": "Unknown",
                 "operator": "CITY OF HUNTINGTON BEACH",
-                "altitude": 1100,
-                "ground_speed": 53.3,
-                "track": 145.71,
+                "altitude": 1200,
+                "ground_speed": 61.4,
+                "track": 186.55,
                 "squawk": "4301",
-                "rssi": -6.9,
+                "rssi": -6.5,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2026-01-23T18:50:02.579784+00:00",
+                "last_seen": "2026-01-23T18:52:02.520744+00:00",
                 "nav_qnh": 1015.2,
                 "nav_altitude_mcp": 0,
                 "category": "A7"
@@ -1265,6 +1249,14 @@
                     [
                         -117.98481,
                         33.717646
+                    ],
+                    [
+                        -117.987727,
+                        33.70784
+                    ],
+                    [
+                        -117.987785,
+                        33.707544
                     ]
                 ]
             }
@@ -1281,9 +1273,9 @@
                 "ground_speed": 0.0,
                 "track": 0.0,
                 "squawk": "1206",
-                "rssi": -20.1,
+                "rssi": -22.3,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2026-01-23T18:50:02.579767+00:00",
+                "last_seen": "2026-01-23T18:52:02.520727+00:00",
                 "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
                 "category": "A7"
@@ -1342,6 +1334,47 @@
                     [
                         -118.053546,
                         33.792037
+                    ],
+                    [
+                        -118.053546,
+                        33.792037
+                    ],
+                    [
+                        -118.053546,
+                        33.792037
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "hex": "AED61D",
+                "flight": "G20980  ",
+                "type": "H60",
+                "description": "Sikorsky UH-60M Black Hawk",
+                "operator": "Unknown",
+                "altitude": "ground",
+                "ground_speed": 0.0,
+                "track": 0.0,
+                "squawk": "1206",
+                "rssi": -23.4,
+                "api_source": "https://api.airplanes.live/v2/hex/",
+                "last_seen": "2026-01-23T18:52:02.520797+00:00",
+                "nav_qnh": 0.0,
+                "nav_altitude_mcp": 0,
+                "category": "A7"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -118.053017,
+                        33.79256
+                    ],
+                    [
+                        -118.053017,
+                        33.79256
                     ]
                 ]
             }
