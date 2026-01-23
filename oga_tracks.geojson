@@ -597,13 +597,13 @@
                 "type": "UH1",
                 "description": "BELL UH-1 Huey",
                 "operator": "ORANGE COUNTY SHERIFFS DEPARTMENT",
-                "altitude": 1100,
-                "ground_speed": 86.4,
-                "track": 331.65,
+                "altitude": "ground",
+                "ground_speed": 9.2,
+                "track": 174.38,
                 "squawk": "4204",
-                "rssi": -8.5,
+                "rssi": -21.0,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2026-01-23T17:06:02.648152+00:00",
+                "last_seen": "2026-01-23T17:08:02.851137+00:00",
                 "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
                 "category": "A7"
@@ -706,6 +706,14 @@
                     [
                         -117.825623,
                         33.883884
+                    ],
+                    [
+                        -117.826001,
+                        33.891426
+                    ],
+                    [
+                        -117.826001,
+                        33.891426
                     ]
                 ]
             }
@@ -735,6 +743,39 @@
                     [
                         -118.229734,
                         34.05455
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "hex": "AE4D5A",
+                "flight": "BULET45 ",
+                "type": "H60",
+                "description": "Sikorsky MH-60S Seahawk",
+                "operator": "United States Navy",
+                "altitude": "ground",
+                "ground_speed": 11.8,
+                "track": 0.0,
+                "squawk": "1200",
+                "rssi": -11.4,
+                "api_source": "https://api.airplanes.live/v2/hex/",
+                "last_seen": "2026-01-23T17:08:02.851156+00:00",
+                "nav_qnh": 0.0,
+                "nav_altitude_mcp": 0,
+                "category": "A7"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -117.20565,
+                        32.713337
+                    ],
+                    [
+                        -117.20565,
+                        32.713337
                     ]
                 ]
             }
