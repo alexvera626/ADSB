@@ -10,12 +10,12 @@
                 "description": "AEROSPATIALE AS-350 Ecureuil",
                 "operator": "LAPD AIR SUPPORT DIVISION",
                 "altitude": 625,
-                "ground_speed": 78.5,
-                "track": 134.48,
+                "ground_speed": 73.6,
+                "track": 143.29,
                 "squawk": "1200",
-                "rssi": -6.1,
+                "rssi": -3.7,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2026-01-24T07:44:02.619269+00:00",
+                "last_seen": "2026-01-24T07:46:03.150449+00:00",
                 "nav_qnh": 1012.8,
                 "nav_altitude_mcp": 10016,
                 "category": "A7"
@@ -23,14 +23,6 @@
             "geometry": {
                 "type": "LineString",
                 "coordinates": [
-                    [
-                        -118.594385,
-                        34.272034
-                    ],
-                    [
-                        -118.594494,
-                        34.271897
-                    ],
                     [
                         -118.594894,
                         34.242616
@@ -370,6 +362,14 @@
                     [
                         -118.13673,
                         33.985322
+                    ],
+                    [
+                        -118.104687,
+                        33.949895
+                    ],
+                    [
+                        -118.104687,
+                        33.949895
                     ]
                 ]
             }
@@ -396,14 +396,6 @@
             "geometry": {
                 "type": "LineString",
                 "coordinates": [
-                    [
-                        -118.277035,
-                        33.964001
-                    ],
-                    [
-                        -118.277035,
-                        33.964001
-                    ],
                     [
                         -118.270793,
                         33.936722
@@ -662,43 +654,6 @@
         {
             "type": "Feature",
             "properties": {
-                "hex": "A4DC0C",
-                "flight": "Unknown",
-                "type": "H60",
-                "description": "SIKORSKY UH-60 Black Hawk",
-                "operator": "ORANGE COUNTY FIRE AUTHORITY",
-                "altitude": 0,
-                "ground_speed": 0.0,
-                "track": 0.0,
-                "squawk": "N/A",
-                "rssi": -24.9,
-                "api_source": "https://opendata.adsb.fi/api/v2/hex/",
-                "last_seen": "2026-01-24T07:28:02.887264+00:00",
-                "nav_qnh": 0.0,
-                "nav_altitude_mcp": 0,
-                "category": "Unknown"
-            },
-            "geometry": {
-                "type": "LineString",
-                "coordinates": [
-                    [
-                        -117.977287,
-                        33.872498
-                    ],
-                    [
-                        -117.977287,
-                        33.872498
-                    ],
-                    [
-                        -117.978058,
-                        33.873104
-                    ]
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
                 "hex": "A1F894",
                 "flight": "N226PD  ",
                 "type": "AS50",
@@ -718,14 +673,6 @@
             "geometry": {
                 "type": "LineString",
                 "coordinates": [
-                    [
-                        -117.944678,
-                        33.872726
-                    ],
-                    [
-                        -117.944678,
-                        33.872726
-                    ],
                     [
                         -117.93941,
                         33.877716
@@ -855,14 +802,6 @@
             "geometry": {
                 "type": "LineString",
                 "coordinates": [
-                    [
-                        -118.265973,
-                        33.860046
-                    ],
-                    [
-                        -118.265973,
-                        33.860046
-                    ],
                     [
                         -118.2724,
                         33.856698
@@ -1273,14 +1212,6 @@
                 "type": "LineString",
                 "coordinates": [
                     [
-                        -118.630763,
-                        34.19664
-                    ],
-                    [
-                        -118.630763,
-                        34.19664
-                    ],
-                    [
                         -118.646393,
                         34.194527
                     ],
@@ -1391,6 +1322,35 @@
                     [
                         -118.410501,
                         34.257361
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "hex": "A4DC0C",
+                "flight": "Unknown",
+                "type": "H60",
+                "description": "SIKORSKY UH-60 Black Hawk",
+                "operator": "ORANGE COUNTY FIRE AUTHORITY",
+                "altitude": 0,
+                "ground_speed": 0.0,
+                "track": 0.0,
+                "squawk": "N/A",
+                "rssi": -24.9,
+                "api_source": "https://opendata.adsb.fi/api/v2/hex/",
+                "last_seen": "2026-01-24T07:28:02.887264+00:00",
+                "nav_qnh": 0.0,
+                "nav_altitude_mcp": 0,
+                "category": "Unknown"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -117.978058,
+                        33.873104
                     ]
                 ]
             }
