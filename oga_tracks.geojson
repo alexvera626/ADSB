@@ -9,13 +9,13 @@
                 "type": "AS50",
                 "description": "AEROSPATIALE AS-350 Ecureuil",
                 "operator": "LAPD AIR SUPPORT DIVISION",
-                "altitude": 750,
-                "ground_speed": 77.8,
-                "track": 37.16,
+                "altitude": 1075,
+                "ground_speed": 78.0,
+                "track": 30.84,
                 "squawk": "1200",
-                "rssi": -7.3,
+                "rssi": -6.5,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2026-01-26T08:04:02.701317+00:00",
+                "last_seen": "2026-01-26T08:06:02.927944+00:00",
                 "nav_qnh": 1024.0,
                 "nav_altitude_mcp": 10016,
                 "category": "A7"
@@ -23,14 +23,6 @@
             "geometry": {
                 "type": "LineString",
                 "coordinates": [
-                    [
-                        -118.274044,
-                        33.986755
-                    ],
-                    [
-                        -118.274044,
-                        33.986755
-                    ],
                     [
                         -118.264011,
                         33.991104
@@ -414,6 +406,14 @@
                     [
                         -118.306847,
                         34.030524
+                    ],
+                    [
+                        -118.275604,
+                        34.065438
+                    ],
+                    [
+                        -118.275604,
+                        34.065438
                     ]
                 ]
             }
@@ -440,14 +440,6 @@
             "geometry": {
                 "type": "LineString",
                 "coordinates": [
-                    [
-                        -117.969131,
-                        33.690832
-                    ],
-                    [
-                        -117.969131,
-                        33.690832
-                    ],
                     [
                         -117.991047,
                         33.672165
@@ -823,128 +815,6 @@
                     [
                         -118.001289,
                         33.695161
-                    ]
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "hex": "A13F4E",
-                "flight": "N18LA   ",
-                "type": "B412",
-                "description": "BELL 412",
-                "operator": "COUNTY OF LOS ANGELES FIRE DEPARTMENT",
-                "altitude": "ground",
-                "ground_speed": 0.0,
-                "track": 0.0,
-                "squawk": "N/A",
-                "rssi": -5.9,
-                "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2026-01-26T04:26:02.012931+00:00",
-                "nav_qnh": 0.0,
-                "nav_altitude_mcp": 0,
-                "category": "A7"
-            },
-            "geometry": {
-                "type": "LineString",
-                "coordinates": [
-                    [
-                        -118.726165,
-                        34.100052
-                    ],
-                    [
-                        -118.726165,
-                        34.100052
-                    ],
-                    [
-                        -118.694551,
-                        34.097351
-                    ],
-                    [
-                        -118.694047,
-                        34.097397
-                    ],
-                    [
-                        -118.633174,
-                        34.107513
-                    ],
-                    [
-                        -118.633174,
-                        34.107513
-                    ],
-                    [
-                        -118.580428,
-                        34.142944
-                    ],
-                    [
-                        -118.580428,
-                        34.142944
-                    ],
-                    [
-                        -118.536701,
-                        34.185775
-                    ],
-                    [
-                        -118.536701,
-                        34.185775
-                    ],
-                    [
-                        -118.504253,
-                        34.234406
-                    ],
-                    [
-                        -118.504253,
-                        34.234406
-                    ],
-                    [
-                        -118.441257,
-                        34.254626
-                    ],
-                    [
-                        -118.441257,
-                        34.254626
-                    ],
-                    [
-                        -118.406889,
-                        34.25853
-                    ],
-                    [
-                        -118.406777,
-                        34.258621
-                    ]
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "hex": "A40442",
-                "flight": "N358TV  ",
-                "type": "AS50",
-                "description": "AEROSPATIALE AS-350 Ecureuil",
-                "operator": "TINY BUBBLES AVIATION INC",
-                "altitude": "ground",
-                "ground_speed": 0.0,
-                "track": 0.0,
-                "squawk": "1200",
-                "rssi": -19.9,
-                "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2026-01-26T04:08:02.884469+00:00",
-                "nav_qnh": 0.0,
-                "nav_altitude_mcp": 0,
-                "category": "A7"
-            },
-            "geometry": {
-                "type": "LineString",
-                "coordinates": [
-                    [
-                        -118.410501,
-                        34.257373
-                    ],
-                    [
-                        -118.410501,
-                        34.257373
                     ]
                 ]
             }
@@ -1409,18 +1279,128 @@
         {
             "type": "Feature",
             "properties": {
+                "hex": "A40442",
+                "flight": "N358TV  ",
+                "type": "AS50",
+                "description": "AEROSPATIALE AS-350 Ecureuil",
+                "operator": "TINY BUBBLES AVIATION INC",
+                "altitude": "ground",
+                "ground_speed": 0.0,
+                "track": 0.0,
+                "squawk": "1200",
+                "rssi": -19.9,
+                "api_source": "https://api.airplanes.live/v2/hex/",
+                "last_seen": "2026-01-26T04:08:02.884469+00:00",
+                "nav_qnh": 0.0,
+                "nav_altitude_mcp": 0,
+                "category": "A7"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -118.410501,
+                        34.257373
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "hex": "A13F4E",
+                "flight": "N18LA   ",
+                "type": "B412",
+                "description": "BELL 412",
+                "operator": "COUNTY OF LOS ANGELES FIRE DEPARTMENT",
+                "altitude": "ground",
+                "ground_speed": 0.0,
+                "track": 0.0,
+                "squawk": "N/A",
+                "rssi": -5.9,
+                "api_source": "https://api.airplanes.live/v2/hex/",
+                "last_seen": "2026-01-26T04:26:02.012931+00:00",
+                "nav_qnh": 0.0,
+                "nav_altitude_mcp": 0,
+                "category": "A7"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -118.694551,
+                        34.097351
+                    ],
+                    [
+                        -118.694047,
+                        34.097397
+                    ],
+                    [
+                        -118.633174,
+                        34.107513
+                    ],
+                    [
+                        -118.633174,
+                        34.107513
+                    ],
+                    [
+                        -118.580428,
+                        34.142944
+                    ],
+                    [
+                        -118.580428,
+                        34.142944
+                    ],
+                    [
+                        -118.536701,
+                        34.185775
+                    ],
+                    [
+                        -118.536701,
+                        34.185775
+                    ],
+                    [
+                        -118.504253,
+                        34.234406
+                    ],
+                    [
+                        -118.504253,
+                        34.234406
+                    ],
+                    [
+                        -118.441257,
+                        34.254626
+                    ],
+                    [
+                        -118.441257,
+                        34.254626
+                    ],
+                    [
+                        -118.406889,
+                        34.25853
+                    ],
+                    [
+                        -118.406777,
+                        34.258621
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
                 "hex": "A36968",
                 "flight": "N319MW  ",
                 "type": "B407",
                 "description": "BELL 407",
                 "operator": "SAN DIEGO COUNTY SHERIFF DEPARTMENT",
-                "altitude": 1300,
-                "ground_speed": 86.8,
-                "track": 122.77,
+                "altitude": 1375,
+                "ground_speed": 90.6,
+                "track": 120.53,
                 "squawk": "4267",
-                "rssi": -7.4,
+                "rssi": -6.5,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2026-01-26T08:04:02.701338+00:00",
+                "last_seen": "2026-01-26T08:06:02.927966+00:00",
                 "nav_qnh": 1024.0,
                 "nav_altitude_mcp": 0,
                 "category": "A7"
@@ -1671,6 +1651,14 @@
                     [
                         -117.219132,
                         32.954934
+                    ],
+                    [
+                        -117.166779,
+                        32.928819
+                    ],
+                    [
+                        -117.166779,
+                        32.928819
                     ]
                 ]
             }
