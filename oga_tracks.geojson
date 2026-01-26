@@ -4,6 +4,67 @@
         {
             "type": "Feature",
             "properties": {
+                "hex": "A054AD",
+                "flight": "N120LA  ",
+                "type": "B412",
+                "description": "BELL 412",
+                "operator": "COUNTY OF LOS ANGELES FIRE DEPT",
+                "altitude": 600,
+                "ground_speed": 0.7,
+                "track": 0.0,
+                "squawk": "1206",
+                "rssi": -21.0,
+                "api_source": "https://api.airplanes.live/v2/hex/",
+                "last_seen": "2026-01-26T18:08:02.535122+00:00",
+                "nav_qnh": 0.0,
+                "nav_altitude_mcp": 0,
+                "category": "A7"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -118.391362,
+                        34.294464
+                    ],
+                    [
+                        -118.391362,
+                        34.294464
+                    ],
+                    [
+                        -118.391247,
+                        34.294149
+                    ],
+                    [
+                        -118.391247,
+                        34.294149
+                    ],
+                    [
+                        -118.391418,
+                        34.294009
+                    ],
+                    [
+                        -118.391418,
+                        34.294009
+                    ],
+                    [
+                        -118.408066,
+                        34.270569
+                    ],
+                    [
+                        -118.408234,
+                        34.270386
+                    ],
+                    [
+                        -118.407113,
+                        34.258621
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
                 "hex": "A7FB70",
                 "flight": "REH80   ",
                 "type": "AS50",
@@ -23,14 +84,6 @@
             "geometry": {
                 "type": "LineString",
                 "coordinates": [
-                    [
-                        -122.578344,
-                        39.010574
-                    ],
-                    [
-                        -122.578344,
-                        39.010574
-                    ],
                     [
                         -122.628797,
                         38.976562
@@ -98,67 +151,6 @@
                     [
                         -122.136323,
                         39.161591
-                    ]
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "hex": "A054AD",
-                "flight": "N120LA  ",
-                "type": "B412",
-                "description": "BELL 412",
-                "operator": "COUNTY OF LOS ANGELES FIRE DEPT",
-                "altitude": 600,
-                "ground_speed": 0.7,
-                "track": 0.0,
-                "squawk": "1206",
-                "rssi": -21.0,
-                "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2026-01-26T18:08:02.535122+00:00",
-                "nav_qnh": 0.0,
-                "nav_altitude_mcp": 0,
-                "category": "A7"
-            },
-            "geometry": {
-                "type": "LineString",
-                "coordinates": [
-                    [
-                        -118.391362,
-                        34.294464
-                    ],
-                    [
-                        -118.391362,
-                        34.294464
-                    ],
-                    [
-                        -118.391247,
-                        34.294149
-                    ],
-                    [
-                        -118.391247,
-                        34.294149
-                    ],
-                    [
-                        -118.391418,
-                        34.294009
-                    ],
-                    [
-                        -118.391418,
-                        34.294009
-                    ],
-                    [
-                        -118.408066,
-                        34.270569
-                    ],
-                    [
-                        -118.408234,
-                        34.270386
-                    ],
-                    [
-                        -118.407113,
-                        34.258621
                     ]
                 ]
             }
@@ -1348,13 +1340,13 @@
                 "type": "AS50",
                 "description": "AEROSPATIALE AS-350 Ecureuil",
                 "operator": "TINY BUBBLES AVIATION INC",
-                "altitude": 675,
+                "altitude": 0,
                 "ground_speed": 0.0,
                 "track": 0.0,
-                "squawk": "1200",
-                "rssi": -24.7,
+                "squawk": "N/A",
+                "rssi": -26.3,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2026-01-26T21:56:02.817129+00:00",
+                "last_seen": "2026-01-26T21:58:02.739744+00:00",
                 "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
                 "category": "A7"
@@ -1499,11 +1491,11 @@
                 "operator": "ORANGE COUNTY SHERIFFS DEPARTMENT",
                 "altitude": "ground",
                 "ground_speed": 0.0,
-                "track": 0.0,
+                "track": 252.2,
                 "squawk": "4204",
-                "rssi": -8.5,
+                "rssi": -11.7,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2026-01-26T21:56:02.816997+00:00",
+                "last_seen": "2026-01-26T21:58:02.739667+00:00",
                 "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
                 "category": "A7"
@@ -1758,6 +1750,14 @@
                     [
                         -117.700925,
                         33.788859
+                    ],
+                    [
+                        -117.700919,
+                        33.788841
+                    ],
+                    [
+                        -117.700919,
+                        33.788841
                     ]
                 ]
             }
@@ -1771,12 +1771,12 @@
                 "description": "Sikorsky MH-60S Seahawk",
                 "operator": "Unknown",
                 "altitude": 25,
-                "ground_speed": 79.1,
-                "track": 2.17,
+                "ground_speed": 73.0,
+                "track": 270.78,
                 "squawk": "1200",
-                "rssi": -26.8,
+                "rssi": -10.8,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2026-01-26T21:56:02.817015+00:00",
+                "last_seen": "2026-01-26T21:58:02.739705+00:00",
                 "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
                 "category": "A7"
@@ -1991,6 +1991,14 @@
                     [
                         -117.276526,
                         32.588516
+                    ],
+                    [
+                        -117.30579,
+                        32.608865
+                    ],
+                    [
+                        -117.305365,
+                        32.608841
                     ]
                 ]
             }
@@ -2007,9 +2015,9 @@
                 "ground_speed": 0.0,
                 "track": 0.0,
                 "squawk": "1200",
-                "rssi": -17.5,
+                "rssi": -19.1,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2026-01-26T21:56:02.817106+00:00",
+                "last_seen": "2026-01-26T21:58:02.739725+00:00",
                 "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
                 "category": "A7"
@@ -2216,6 +2224,14 @@
                     [
                         -117.20205,
                         32.713026
+                    ],
+                    [
+                        -117.20205,
+                        32.713002
+                    ],
+                    [
+                        -117.20205,
+                        32.713002
                     ]
                 ]
             }
@@ -2228,13 +2244,13 @@
                 "type": "H60",
                 "description": "SIKORSKY UH-60 Black Hawk",
                 "operator": "Unknown",
-                "altitude": -100,
-                "ground_speed": 9.9,
-                "track": 293.96,
-                "squawk": "N/A",
-                "rssi": -16.3,
+                "altitude": -175,
+                "ground_speed": 12.4,
+                "track": 284.04,
+                "squawk": "1200",
+                "rssi": -11.7,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2026-01-26T21:56:02.817166+00:00",
+                "last_seen": "2026-01-26T21:58:02.739794+00:00",
                 "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
                 "category": "A7"
@@ -2289,6 +2305,14 @@
                     [
                         -117.118406,
                         32.561196
+                    ],
+                    [
+                        -117.118238,
+                        32.561149
+                    ],
+                    [
+                        -117.117621,
+                        32.561009
                     ]
                 ]
             }
