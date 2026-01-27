@@ -1332,13 +1332,13 @@
                 "type": "AS50",
                 "description": "AEROSPATIALE AS-350 Ecureuil",
                 "operator": "LAPD AIR SUPPORT DIVISION",
-                "altitude": "ground",
+                "altitude": 0,
                 "ground_speed": 0.0,
                 "track": 0.0,
                 "squawk": "1200",
-                "rssi": -14.0,
+                "rssi": -19.9,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2026-01-27T17:20:02.242771+00:00",
+                "last_seen": "2026-01-27T17:24:02.716676+00:00",
                 "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
                 "category": "A7"
@@ -1430,12 +1430,12 @@
                 "description": "BEECH 300 Super King Air",
                 "operator": "DEPARTMENT OF HOMELAND SECURITY",
                 "altitude": 13500,
-                "ground_speed": 198.8,
-                "track": 275.19,
+                "ground_speed": 198.7,
+                "track": 274.91,
                 "squawk": "4022",
-                "rssi": -14.3,
+                "rssi": -12.0,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2026-01-27T17:22:02.132980+00:00",
+                "last_seen": "2026-01-27T17:24:02.717194+00:00",
                 "nav_qnh": 1032.0,
                 "nav_altitude_mcp": 14016,
                 "category": "A2"
@@ -1866,6 +1866,14 @@
                     [
                         -97.474274,
                         31.483465
+                    ],
+                    [
+                        -97.604586,
+                        31.493454
+                    ],
+                    [
+                        -97.604586,
+                        31.493454
                     ]
                 ]
             }
@@ -1999,13 +2007,13 @@
                 "type": "Unknown",
                 "description": "Unknown",
                 "operator": "CITY OF HUNTINGTON BEACH",
-                "altitude": 375,
-                "ground_speed": 62.7,
-                "track": 61.39,
+                "altitude": 400,
+                "ground_speed": 63.0,
+                "track": 138.22,
                 "squawk": "4301",
-                "rssi": -5.4,
+                "rssi": -10.2,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2026-01-27T17:22:02.132964+00:00",
+                "last_seen": "2026-01-27T17:24:02.717173+00:00",
                 "nav_qnh": 1024.0,
                 "nav_altitude_mcp": 0,
                 "category": "A7"
@@ -2044,6 +2052,43 @@
                     [
                         -118.096021,
                         33.73494
+                    ],
+                    [
+                        -118.064295,
+                        33.712646
+                    ],
+                    [
+                        -118.064295,
+                        33.712646
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "hex": "A4CAAA",
+                "flight": "CFR230  ",
+                "type": "V10",
+                "description": "NORTH AMERICAN OV-10 Bronco",
+                "operator": "USDA FOREST SERVICE FEPP",
+                "altitude": "ground",
+                "ground_speed": 14.2,
+                "track": 0.0,
+                "squawk": "1255",
+                "rssi": -15.2,
+                "api_source": "https://api.airplanes.live/v2/hex/",
+                "last_seen": "2026-01-27T17:24:02.717138+00:00",
+                "nav_qnh": 0.0,
+                "nav_altitude_mcp": 0,
+                "category": "A1"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -121.397851,
+                        38.669861
                     ]
                 ]
             }
