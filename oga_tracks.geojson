@@ -4,6 +4,59 @@
         {
             "type": "Feature",
             "properties": {
+                "hex": "AC4597",
+                "flight": "REH46   ",
+                "type": "EC35",
+                "description": "AIRBUS HELICOPTERS EC-135/635",
+                "operator": "REACH AIR MEDICAL SERVICES LLC",
+                "altitude": 500,
+                "ground_speed": 102.6,
+                "track": 169.89,
+                "squawk": "1200",
+                "rssi": -34.9,
+                "api_source": "https://opendata.adsb.fi/api/v2/hex/",
+                "last_seen": "2026-01-27T09:36:02.150124+00:00",
+                "nav_qnh": 1016.8,
+                "nav_altitude_mcp": 0,
+                "category": "A7"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -156.047607,
+                        19.921751
+                    ],
+                    [
+                        -156.084511,
+                        19.88125
+                    ],
+                    [
+                        -156.111995,
+                        19.922287
+                    ],
+                    [
+                        -156.081166,
+                        19.933389
+                    ],
+                    [
+                        -156.049118,
+                        19.874588
+                    ],
+                    [
+                        -156.039505,
+                        19.809128
+                    ],
+                    [
+                        -156.052601,
+                        19.742339
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
                 "hex": "A36968",
                 "flight": "N319MW  ",
                 "type": "B407",
@@ -23,14 +76,6 @@
             "geometry": {
                 "type": "LineString",
                 "coordinates": [
-                    [
-                        -116.990167,
-                        32.902817
-                    ],
-                    [
-                        -116.990167,
-                        32.902817
-                    ],
                     [
                         -117.015437,
                         32.957262
@@ -166,59 +211,6 @@
                     [
                         -116.972479,
                         32.822205
-                    ]
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "hex": "AC4597",
-                "flight": "REH46   ",
-                "type": "EC35",
-                "description": "AIRBUS HELICOPTERS EC-135/635",
-                "operator": "REACH AIR MEDICAL SERVICES LLC",
-                "altitude": 500,
-                "ground_speed": 102.6,
-                "track": 169.89,
-                "squawk": "1200",
-                "rssi": -34.9,
-                "api_source": "https://opendata.adsb.fi/api/v2/hex/",
-                "last_seen": "2026-01-27T09:36:02.150124+00:00",
-                "nav_qnh": 1016.8,
-                "nav_altitude_mcp": 0,
-                "category": "A7"
-            },
-            "geometry": {
-                "type": "LineString",
-                "coordinates": [
-                    [
-                        -156.047607,
-                        19.921751
-                    ],
-                    [
-                        -156.084511,
-                        19.88125
-                    ],
-                    [
-                        -156.111995,
-                        19.922287
-                    ],
-                    [
-                        -156.081166,
-                        19.933389
-                    ],
-                    [
-                        -156.049118,
-                        19.874588
-                    ],
-                    [
-                        -156.039505,
-                        19.809128
-                    ],
-                    [
-                        -156.052601,
-                        19.742339
                     ]
                 ]
             }
