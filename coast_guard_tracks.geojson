@@ -90,15 +90,15 @@
                 "type": "C30J",
                 "description": "Lockheed Martin HC-130J Hercules",
                 "operator": "Unknown",
-                "altitude": 10900,
-                "ground_speed": 326.7,
-                "track": 67.12,
+                "altitude": 10000,
+                "ground_speed": 340.0,
+                "track": 64.94,
                 "squawk": "5370",
-                "rssi": -18.6,
+                "rssi": -19.4,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2026-01-27T13:10:02.200468+00:00",
+                "last_seen": "2026-01-27T13:12:02.233618+00:00",
                 "nav_qnh": 1023.2,
-                "nav_altitude_mcp": 0,
+                "nav_altitude_mcp": 8416,
                 "category": "A3"
             },
             "geometry": {
@@ -223,6 +223,43 @@
                     [
                         -77.047179,
                         38.012928
+                    ],
+                    [
+                        -76.834617,
+                        38.082617
+                    ],
+                    [
+                        -76.831035,
+                        38.083827
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "hex": "AE2915",
+                "flight": "C6038   ",
+                "type": "H60",
+                "description": "Sikorsky MH-60T Jayhawk",
+                "operator": "Unknown",
+                "altitude": 100,
+                "ground_speed": 132.5,
+                "track": 251.98,
+                "squawk": "N/A",
+                "rssi": -32.2,
+                "api_source": "https://api.airplanes.live/v2/hex/",
+                "last_seen": "2026-01-27T13:12:02.233558+00:00",
+                "nav_qnh": 0.0,
+                "nav_altitude_mcp": 0,
+                "category": "A7"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -67.30254,
+                        18.463989
                     ]
                 ]
             }
