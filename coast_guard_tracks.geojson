@@ -24,14 +24,6 @@
                 "type": "LineString",
                 "coordinates": [
                     [
-                        -117.235388,
-                        32.843674
-                    ],
-                    [
-                        -117.235382,
-                        32.84317
-                    ],
-                    [
                         -117.213245,
                         32.783249
                     ],
@@ -64,15 +56,15 @@
                 "hex": "AE2238",
                 "flight": "C2302   ",
                 "type": "CN35",
-                "description": "CASA HC-144B Ocean Sentry",
-                "operator": "United States Coast Guard",
-                "altitude": 1375,
-                "ground_speed": 164.9,
-                "track": 137.7,
-                "squawk": "N/A",
-                "rssi": -27.7,
-                "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2026-01-28T14:02:02.829403+00:00",
+                "description": "CASA HC-144A Ocean Sentry",
+                "operator": "Unknown",
+                "altitude": 1350,
+                "ground_speed": 189.7,
+                "track": 170.29,
+                "squawk": "4420",
+                "rssi": -19.9,
+                "api_source": "https://opendata.adsb.fi/api/v2/hex/",
+                "last_seen": "2026-01-28T14:08:02.513327+00:00",
                 "nav_qnh": 1018.4,
                 "nav_altitude_mcp": 1504,
                 "category": "A2"
@@ -147,6 +139,10 @@
                     [
                         -70.079871,
                         42.001151
+                    ],
+                    [
+                        -69.915012,
+                        41.766482
                     ]
                 ]
             }
@@ -159,13 +155,13 @@
                 "type": "AS65",
                 "description": "Eurocopter MH-65D Dolphin",
                 "operator": "Unknown",
-                "altitude": 1725,
-                "ground_speed": 93.5,
-                "track": 237.67,
+                "altitude": 1700,
+                "ground_speed": 92.8,
+                "track": 239.57,
                 "squawk": "4440",
-                "rssi": -22.5,
+                "rssi": -16.3,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2026-01-28T14:06:02.315171+00:00",
+                "last_seen": "2026-01-28T14:08:02.514117+00:00",
                 "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
                 "category": "A7"
@@ -196,6 +192,47 @@
                     [
                         -74.73396,
                         39.399216
+                    ],
+                    [
+                        -74.791578,
+                        39.372528
+                    ],
+                    [
+                        -74.791578,
+                        39.372528
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "hex": "AE4AE3",
+                "flight": "C2711   ",
+                "type": "C27J",
+                "description": "Alenia HC-27J Spartan",
+                "operator": "Unknown",
+                "altitude": "ground",
+                "ground_speed": 9.8,
+                "track": 0.0,
+                "squawk": "4652",
+                "rssi": -26.2,
+                "api_source": "https://api.airplanes.live/v2/hex/",
+                "last_seen": "2026-01-28T14:08:02.514134+00:00",
+                "nav_qnh": 0.0,
+                "nav_altitude_mcp": 0,
+                "category": "A2"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -82.690698,
+                        27.914188
+                    ],
+                    [
+                        -82.690698,
+                        27.914188
                     ]
                 ]
             }
