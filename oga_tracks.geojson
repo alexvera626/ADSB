@@ -66,13 +66,13 @@
                 "type": "BE30",
                 "description": "BEECH 300 Super King Air",
                 "operator": "DEPARTMENT OF HOMELAND SECURITY",
-                "altitude": 6575,
-                "ground_speed": 224.2,
-                "track": 134.82,
+                "altitude": 4000,
+                "ground_speed": 211.6,
+                "track": 124.22,
                 "squawk": "0713",
-                "rssi": -25.6,
+                "rssi": -32.2,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2026-01-28T17:24:02.085241+00:00",
+                "last_seen": "2026-01-28T17:26:02.095929+00:00",
                 "nav_qnh": 1017.6,
                 "nav_altitude_mcp": 3008,
                 "category": "A2"
@@ -475,6 +475,10 @@
                     [
                         -67.624645,
                         18.735321
+                    ],
+                    [
+                        -67.528545,
+                        18.659592
                     ]
                 ]
             }
@@ -1481,20 +1485,20 @@
             "type": "Feature",
             "properties": {
                 "hex": "A3238A",
-                "flight": "Unknown",
+                "flight": "FIRE1   ",
                 "type": "A139",
                 "description": "AGUSTA AW-139",
                 "operator": "LOS ANGELES FIRE DEPARTMENT",
-                "altitude": "ground",
-                "ground_speed": 0.0,
-                "track": 0.0,
+                "altitude": 800,
+                "ground_speed": 107.2,
+                "track": 53.34,
                 "squawk": "1200",
-                "rssi": -9.2,
+                "rssi": -8.6,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2026-01-28T17:24:02.085148+00:00",
-                "nav_qnh": 0.0,
-                "nav_altitude_mcp": 0,
-                "category": "Unknown"
+                "last_seen": "2026-01-28T17:26:02.095866+00:00",
+                "nav_qnh": 1024.8,
+                "nav_altitude_mcp": 352,
+                "category": "A7"
             },
             "geometry": {
                 "type": "LineString",
@@ -1722,6 +1726,14 @@
                     [
                         -118.37923,
                         34.082988
+                    ],
+                    [
+                        -118.362865,
+                        34.086107
+                    ],
+                    [
+                        -118.362465,
+                        34.08634
                     ]
                 ]
             }
@@ -1735,12 +1747,12 @@
                 "description": "DE HAVILLAND DHC-8-300 Dash 8",
                 "operator": "US DEPARTMENT OF HOMELAND SECURITY",
                 "altitude": 18000,
-                "ground_speed": 225.7,
-                "track": 277.13,
+                "ground_speed": 226.7,
+                "track": 277.09,
                 "squawk": "7215",
                 "rssi": -22.1,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2026-01-28T17:24:02.084917+00:00",
+                "last_seen": "2026-01-28T17:26:02.095614+00:00",
                 "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
                 "category": "Unknown"
@@ -2151,6 +2163,14 @@
                     [
                         -101.651755,
                         30.813583
+                    ],
+                    [
+                        -101.794093,
+                        30.82869
+                    ],
+                    [
+                        -101.796405,
+                        30.82894
                     ]
                 ]
             }
@@ -2252,13 +2272,13 @@
                 "type": "B412",
                 "description": "BELL 412",
                 "operator": "LOS ANGELES POLICE DEPT AIR SUPPORT DIVISION",
-                "altitude": 825,
-                "ground_speed": 81.2,
-                "track": 202.46,
+                "altitude": 1150,
+                "ground_speed": 96.5,
+                "track": 259.85,
                 "squawk": "1200",
-                "rssi": -6.8,
+                "rssi": -5.4,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2026-01-28T17:24:02.085219+00:00",
+                "last_seen": "2026-01-28T17:26:02.095885+00:00",
                 "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
                 "category": "A7"
@@ -2457,6 +2477,14 @@
                     [
                         -118.389931,
                         34.077867
+                    ],
+                    [
+                        -118.448144,
+                        34.065033
+                    ],
+                    [
+                        -118.448696,
+                        34.064972
                     ]
                 ]
             }
@@ -2602,6 +2630,68 @@
                     [
                         -117.024521,
                         33.730545
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "hex": "A1F0C0",
+                "flight": "N224KB  ",
+                "type": "B06",
+                "description": "BELL 206 JetRanger",
+                "operator": "PASADENA POLICE DEPARTMENT",
+                "altitude": 900,
+                "ground_speed": 67.5,
+                "track": 117.32,
+                "squawk": "1200",
+                "rssi": -17.7,
+                "api_source": "https://api.airplanes.live/v2/hex/",
+                "last_seen": "2026-01-28T17:26:02.095959+00:00",
+                "nav_qnh": 0.0,
+                "nav_altitude_mcp": 0,
+                "category": "A7"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -118.166367,
+                        34.179703
+                    ],
+                    [
+                        -118.165855,
+                        34.179444
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "hex": "A4CAAA",
+                "flight": "CFR230  ",
+                "type": "V10",
+                "description": "NORTH AMERICAN OV-10 Bronco",
+                "operator": "USDA FOREST SERVICE FEPP",
+                "altitude": "ground",
+                "ground_speed": 3.2,
+                "track": 270.0,
+                "squawk": "N/A",
+                "rssi": -18.1,
+                "api_source": "https://api.airplanes.live/v2/hex/",
+                "last_seen": "2026-01-28T17:26:02.095902+00:00",
+                "nav_qnh": 0.0,
+                "nav_altitude_mcp": 0,
+                "category": "A1"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -121.39624,
+                        38.666906
                     ]
                 ]
             }
