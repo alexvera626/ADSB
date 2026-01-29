@@ -24,14 +24,6 @@
                 "type": "LineString",
                 "coordinates": [
                     [
-                        -117.702867,
-                        32.788743
-                    ],
-                    [
-                        -117.702867,
-                        32.788743
-                    ],
-                    [
                         -117.785687,
                         32.869171
                     ],
@@ -233,95 +225,18 @@
         {
             "type": "Feature",
             "properties": {
-                "hex": "A2097B",
-                "flight": "N230LA  ",
-                "type": "AS50",
-                "description": "AEROSPATIALE AS-350 Ecureuil",
-                "operator": "LAPD AIR SUPPORT DIVISION",
-                "altitude": 0,
-                "ground_speed": 0.0,
-                "track": 0.0,
-                "squawk": "1200",
-                "rssi": -12.8,
-                "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2026-01-29T16:46:02.286150+00:00",
-                "nav_qnh": 0.0,
-                "nav_altitude_mcp": 0,
-                "category": "A7"
-            },
-            "geometry": {
-                "type": "LineString",
-                "coordinates": [
-                    [
-                        -118.228512,
-                        34.055802
-                    ],
-                    [
-                        -118.228417,
-                        34.055923
-                    ],
-                    [
-                        -118.200895,
-                        34.103302
-                    ],
-                    [
-                        -118.200503,
-                        34.103806
-                    ],
-                    [
-                        -118.211657,
-                        34.131042
-                    ],
-                    [
-                        -118.212204,
-                        34.130704
-                    ],
-                    [
-                        -118.23817,
-                        34.07666
-                    ],
-                    [
-                        -118.238282,
-                        34.07579
-                    ],
-                    [
-                        -118.229542,
-                        34.054452
-                    ],
-                    [
-                        -118.229485,
-                        34.054545
-                    ],
-                    [
-                        -118.229027,
-                        34.054591
-                    ],
-                    [
-                        -118.229027,
-                        34.054591
-                    ],
-                    [
-                        -118.228324,
-                        34.053743
-                    ]
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
                 "hex": "AE4FAE",
                 "flight": "SHWK404 ",
                 "type": "H60",
                 "description": "SIKORSKY UH-60 Black Hawk",
                 "operator": "Unknown",
-                "altitude": -250,
-                "ground_speed": 68.3,
-                "track": 197.9,
-                "squawk": "N/A",
-                "rssi": -10.4,
+                "altitude": 100,
+                "ground_speed": 74.1,
+                "track": 55.45,
+                "squawk": "1200",
+                "rssi": -11.0,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2026-01-29T20:00:02.814687+00:00",
+                "last_seen": "2026-01-29T20:02:02.773477+00:00",
                 "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
                 "category": "A7"
@@ -1056,6 +971,14 @@
                     [
                         -117.118103,
                         32.561096
+                    ],
+                    [
+                        -117.113417,
+                        32.555237
+                    ],
+                    [
+                        -117.113417,
+                        32.555237
                     ]
                 ]
             }
@@ -1341,6 +1264,83 @@
                     [
                         -81.634296,
                         30.231675
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "hex": "A2097B",
+                "flight": "N230LA  ",
+                "type": "AS50",
+                "description": "AEROSPATIALE AS-350 Ecureuil",
+                "operator": "LAPD AIR SUPPORT DIVISION",
+                "altitude": 0,
+                "ground_speed": 0.0,
+                "track": 0.0,
+                "squawk": "1200",
+                "rssi": -12.8,
+                "api_source": "https://api.airplanes.live/v2/hex/",
+                "last_seen": "2026-01-29T16:46:02.286150+00:00",
+                "nav_qnh": 0.0,
+                "nav_altitude_mcp": 0,
+                "category": "A7"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -118.228512,
+                        34.055802
+                    ],
+                    [
+                        -118.228417,
+                        34.055923
+                    ],
+                    [
+                        -118.200895,
+                        34.103302
+                    ],
+                    [
+                        -118.200503,
+                        34.103806
+                    ],
+                    [
+                        -118.211657,
+                        34.131042
+                    ],
+                    [
+                        -118.212204,
+                        34.130704
+                    ],
+                    [
+                        -118.23817,
+                        34.07666
+                    ],
+                    [
+                        -118.238282,
+                        34.07579
+                    ],
+                    [
+                        -118.229542,
+                        34.054452
+                    ],
+                    [
+                        -118.229485,
+                        34.054545
+                    ],
+                    [
+                        -118.229027,
+                        34.054591
+                    ],
+                    [
+                        -118.229027,
+                        34.054591
+                    ],
+                    [
+                        -118.228324,
+                        34.053743
                     ]
                 ]
             }
@@ -3062,13 +3062,13 @@
                 "type": "H60",
                 "description": "SIKORSKY UH-60 Black Hawk",
                 "operator": "Unknown",
-                "altitude": -200,
-                "ground_speed": 4.2,
-                "track": 104.04,
+                "altitude": "ground",
+                "ground_speed": 8.2,
+                "track": 0.0,
                 "squawk": "1200",
-                "rssi": -8.7,
+                "rssi": -26.5,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2026-01-29T20:00:02.814670+00:00",
+                "last_seen": "2026-01-29T20:02:02.773459+00:00",
                 "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
                 "category": "A7"
@@ -3579,6 +3579,14 @@
                     [
                         -117.211397,
                         32.703692
+                    ],
+                    [
+                        -117.210704,
+                        32.70393
+                    ],
+                    [
+                        -117.210704,
+                        32.70393
                     ]
                 ]
             }
@@ -3620,13 +3628,13 @@
                 "type": "H60",
                 "description": "SIKORSKY UH-60 Black Hawk",
                 "operator": "Unknown",
-                "altitude": "ground",
-                "ground_speed": 0.0,
-                "track": 315.0,
+                "altitude": 25,
+                "ground_speed": 62.4,
+                "track": 257.97,
                 "squawk": "4011",
-                "rssi": -9.4,
+                "rssi": -11.3,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2026-01-29T20:00:02.814599+00:00",
+                "last_seen": "2026-01-29T20:02:02.773400+00:00",
                 "nav_qnh": 1021.6,
                 "nav_altitude_mcp": 0,
                 "category": "A7"
@@ -4069,6 +4077,14 @@
                     [
                         -117.489441,
                         33.319736
+                    ],
+                    [
+                        -117.493679,
+                        33.32158
+                    ],
+                    [
+                        -117.493679,
+                        33.32158
                     ]
                 ]
             }
@@ -5173,9 +5189,9 @@
                 "ground_speed": 0.0,
                 "track": 0.0,
                 "squawk": "1255",
-                "rssi": -21.3,
+                "rssi": -21.2,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2026-01-29T20:00:02.814617+00:00",
+                "last_seen": "2026-01-29T20:02:02.773417+00:00",
                 "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
                 "category": "A1"
