@@ -10,12 +10,12 @@
                 "description": "Eurocopter MH-65D Dolphin",
                 "operator": "Unknown",
                 "altitude": 1200,
-                "ground_speed": 139.4,
-                "track": 222.96,
+                "ground_speed": 135.2,
+                "track": 222.3,
                 "squawk": "1200",
-                "rssi": -5.9,
+                "rssi": -4.6,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2026-01-29T14:10:02.806901+00:00",
+                "last_seen": "2026-01-29T14:12:02.827464+00:00",
                 "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
                 "category": "A7"
@@ -54,6 +54,14 @@
                     [
                         -77.087803,
                         35.519257
+                    ],
+                    [
+                        -77.150671,
+                        35.463821
+                    ],
+                    [
+                        -77.150671,
+                        35.463821
                     ]
                 ]
             }
@@ -66,13 +74,13 @@
                 "type": "Unknown",
                 "description": "Unknown",
                 "operator": "Unknown",
-                "altitude": 225,
-                "ground_speed": 33.1,
-                "track": 176.53,
-                "squawk": "1200",
-                "rssi": -21.9,
+                "altitude": 375,
+                "ground_speed": 42.2,
+                "track": 103.71,
+                "squawk": "N/A",
+                "rssi": -20.2,
                 "api_source": "https://opendata.adsb.fi/api/v2/hex/",
-                "last_seen": "2026-01-29T14:10:02.806778+00:00",
+                "last_seen": "2026-01-29T14:12:02.827337+00:00",
                 "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
                 "category": "A7"
@@ -103,6 +111,10 @@
                     [
                         -70.504505,
                         41.657503
+                    ],
+                    [
+                        -70.507891,
+                        41.658108
                     ]
                 ]
             }
@@ -111,17 +123,17 @@
             "type": "Feature",
             "properties": {
                 "hex": "AE2238",
-                "flight": "00000000",
+                "flight": "Unknown",
                 "type": "CN35",
                 "description": "CASA HC-144B Ocean Sentry",
                 "operator": "United States Coast Guard",
-                "altitude": 2475,
+                "altitude": 3450,
                 "ground_speed": 0.0,
                 "track": 0.0,
                 "squawk": "N/A",
-                "rssi": -17.3,
+                "rssi": -23.3,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2026-01-29T14:10:02.806879+00:00",
+                "last_seen": "2026-01-29T14:12:02.827449+00:00",
                 "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
                 "category": "Unknown"
@@ -136,6 +148,43 @@
                     [
                         -70.512068,
                         41.989267
+                    ],
+                    [
+                        -70.412288,
+                        42.233267
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "hex": "AE267B",
+                "flight": "C6533   ",
+                "type": "AS65",
+                "description": "Eurocopter MH-65D Dolphin",
+                "operator": "Unknown",
+                "altitude": 1750,
+                "ground_speed": 87.0,
+                "track": 217.53,
+                "squawk": "4661",
+                "rssi": -13.2,
+                "api_source": "https://api.airplanes.live/v2/hex/",
+                "last_seen": "2026-01-29T14:12:02.827479+00:00",
+                "nav_qnh": 0.0,
+                "nav_altitude_mcp": 0,
+                "category": "A7"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -74.6192,
+                        39.425903
+                    ],
+                    [
+                        -74.61932,
+                        39.425766
                     ]
                 ]
             }
