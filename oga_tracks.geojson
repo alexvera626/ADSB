@@ -24,14 +24,6 @@
                 "type": "LineString",
                 "coordinates": [
                     [
-                        -117.004731,
-                        32.75988
-                    ],
-                    [
-                        -117.004731,
-                        32.75988
-                    ],
-                    [
                         -117.074432,
                         32.790527
                     ],
@@ -312,15 +304,15 @@
                 "hex": "AE1841",
                 "flight": "RS40    ",
                 "type": "H60",
-                "description": "SIKORSKY UH-60 Black Hawk",
-                "operator": "Unknown",
-                "altitude": -25,
-                "ground_speed": 0.0,
-                "track": 0.0,
+                "description": "Sikorsky MH-60R Seahawk",
+                "operator": "United States Navy",
+                "altitude": -225,
+                "ground_speed": 6.4,
+                "track": 321.34,
                 "squawk": "N/A",
-                "rssi": -25.5,
-                "api_source": "https://opendata.adsb.fi/api/v2/hex/",
-                "last_seen": "2026-01-29T23:28:02.762752+00:00",
+                "rssi": -14.4,
+                "api_source": "https://api.airplanes.live/v2/hex/",
+                "last_seen": "2026-01-29T23:30:02.625799+00:00",
                 "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
                 "category": "A7"
@@ -328,14 +320,6 @@
             "geometry": {
                 "type": "LineString",
                 "coordinates": [
-                    [
-                        -117.117565,
-                        32.563244
-                    ],
-                    [
-                        -117.117565,
-                        32.563244
-                    ],
                     [
                         -117.111904,
                         32.557983
@@ -1027,6 +1011,14 @@
                     [
                         -117.862729,
                         32.922487
+                    ],
+                    [
+                        -117.882037,
+                        32.932205
+                    ],
+                    [
+                        -117.881982,
+                        32.932114
                     ]
                 ]
             }
@@ -1053,14 +1045,6 @@
             "geometry": {
                 "type": "LineString",
                 "coordinates": [
-                    [
-                        -117.515588,
-                        33.503815
-                    ],
-                    [
-                        -117.516687,
-                        33.50354
-                    ],
                     [
                         -117.604831,
                         33.48023
@@ -1174,14 +1158,6 @@
             "geometry": {
                 "type": "LineString",
                 "coordinates": [
-                    [
-                        -121.710663,
-                        38.885284
-                    ],
-                    [
-                        -121.709473,
-                        38.884526
-                    ],
                     [
                         -121.652283,
                         38.849705
@@ -1367,14 +1343,6 @@
             "geometry": {
                 "type": "LineString",
                 "coordinates": [
-                    [
-                        -117.576468,
-                        32.985612
-                    ],
-                    [
-                        -117.576468,
-                        32.985612
-                    ],
                     [
                         -117.546844,
                         32.963745
@@ -1565,18 +1533,99 @@
         {
             "type": "Feature",
             "properties": {
-                "hex": "AE4FAE",
-                "flight": "SHWK404 ",
-                "type": "H60",
-                "description": "SIKORSKY UH-60 Black Hawk",
-                "operator": "Unknown",
-                "altitude": 250,
-                "ground_speed": 10.0,
-                "track": 216.87,
-                "squawk": "1200",
-                "rssi": -8.1,
+                "hex": "A4CAAA",
+                "flight": "Unknown",
+                "type": "V10",
+                "description": "NORTH AMERICAN OV-10 Bronco",
+                "operator": "USDA FOREST SERVICE FEPP",
+                "altitude": "ground",
+                "ground_speed": 0.0,
+                "track": 0.0,
+                "squawk": "1255",
+                "rssi": -21.1,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2026-01-29T23:28:02.763294+00:00",
+                "last_seen": "2026-01-29T20:14:02.090918+00:00",
+                "nav_qnh": 0.0,
+                "nav_altitude_mcp": 0,
+                "category": "A1"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -121.396702,
+                        38.667606
+                    ],
+                    [
+                        -121.396702,
+                        38.667618
+                    ],
+                    [
+                        -121.396713,
+                        38.667615
+                    ],
+                    [
+                        -121.396713,
+                        38.667615
+                    ],
+                    [
+                        -121.396698,
+                        38.667615
+                    ],
+                    [
+                        -121.396713,
+                        38.667615
+                    ],
+                    [
+                        -121.396702,
+                        38.667618
+                    ],
+                    [
+                        -121.396713,
+                        38.667615
+                    ],
+                    [
+                        -121.396713,
+                        38.667615
+                    ],
+                    [
+                        -121.396717,
+                        38.667618
+                    ],
+                    [
+                        -121.396713,
+                        38.667627
+                    ],
+                    [
+                        -121.396713,
+                        38.667615
+                    ],
+                    [
+                        -121.396717,
+                        38.667618
+                    ],
+                    [
+                        -121.396713,
+                        38.667615
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "hex": "A4D855",
+                "flight": "N411FA  ",
+                "type": "H60",
+                "description": "Sikorsky S-70M Firehawk",
+                "operator": "ORANGE COUNTY FIRE AUTHORITY",
+                "altitude": "ground",
+                "ground_speed": 0.0,
+                "track": 0.0,
+                "squawk": "4202",
+                "rssi": -27.5,
+                "api_source": "https://api.airplanes.live/v2/hex/",
+                "last_seen": "2026-01-29T19:32:02.247422+00:00",
                 "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
                 "category": "A7"
@@ -1585,13 +1634,34 @@
                 "type": "LineString",
                 "coordinates": [
                     [
-                        -117.111848,
-                        32.556773
-                    ],
-                    [
-                        -117.111848,
-                        32.556773
-                    ],
+                        -117.978002,
+                        33.87299
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "hex": "AE4FAE",
+                "flight": "SHWK404 ",
+                "type": "H60",
+                "description": "SIKORSKY UH-60 Black Hawk",
+                "operator": "Unknown",
+                "altitude": 525,
+                "ground_speed": 56.7,
+                "track": 189.13,
+                "squawk": "1200",
+                "rssi": -6.4,
+                "api_source": "https://api.airplanes.live/v2/hex/",
+                "last_seen": "2026-01-29T23:30:02.626027+00:00",
+                "nav_qnh": 0.0,
+                "nav_altitude_mcp": 0,
+                "category": "A7"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
                     [
                         -117.12821,
                         32.560226
@@ -2347,120 +2417,14 @@
                     [
                         -117.156171,
                         32.874435
-                    ]
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "hex": "A4D855",
-                "flight": "N411FA  ",
-                "type": "H60",
-                "description": "Sikorsky S-70M Firehawk",
-                "operator": "ORANGE COUNTY FIRE AUTHORITY",
-                "altitude": "ground",
-                "ground_speed": 0.0,
-                "track": 0.0,
-                "squawk": "4202",
-                "rssi": -27.5,
-                "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2026-01-29T19:32:02.247422+00:00",
-                "nav_qnh": 0.0,
-                "nav_altitude_mcp": 0,
-                "category": "A7"
-            },
-            "geometry": {
-                "type": "LineString",
-                "coordinates": [
-                    [
-                        -117.978016,
-                        33.873001
                     ],
                     [
-                        -117.978002,
-                        33.87299
-                    ]
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "hex": "A4CAAA",
-                "flight": "Unknown",
-                "type": "V10",
-                "description": "NORTH AMERICAN OV-10 Bronco",
-                "operator": "USDA FOREST SERVICE FEPP",
-                "altitude": "ground",
-                "ground_speed": 0.0,
-                "track": 0.0,
-                "squawk": "1255",
-                "rssi": -21.1,
-                "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2026-01-29T20:14:02.090918+00:00",
-                "nav_qnh": 0.0,
-                "nav_altitude_mcp": 0,
-                "category": "A1"
-            },
-            "geometry": {
-                "type": "LineString",
-                "coordinates": [
-                    [
-                        -121.396702,
-                        38.667606
+                        -117.151172,
+                        32.879791
                     ],
                     [
-                        -121.396702,
-                        38.667618
-                    ],
-                    [
-                        -121.396713,
-                        38.667615
-                    ],
-                    [
-                        -121.396713,
-                        38.667615
-                    ],
-                    [
-                        -121.396698,
-                        38.667615
-                    ],
-                    [
-                        -121.396713,
-                        38.667615
-                    ],
-                    [
-                        -121.396702,
-                        38.667618
-                    ],
-                    [
-                        -121.396713,
-                        38.667615
-                    ],
-                    [
-                        -121.396713,
-                        38.667615
-                    ],
-                    [
-                        -121.396717,
-                        38.667618
-                    ],
-                    [
-                        -121.396713,
-                        38.667627
-                    ],
-                    [
-                        -121.396713,
-                        38.667615
-                    ],
-                    [
-                        -121.396717,
-                        38.667618
-                    ],
-                    [
-                        -121.396713,
-                        38.667615
+                        -117.151172,
+                        32.879791
                     ]
                 ]
             }
@@ -2474,12 +2438,12 @@
                 "description": "BEECHCRAFT Super King Air 350",
                 "operator": "DEPARTMENT OF HOMELAND SECURITY",
                 "altitude": 11300,
-                "ground_speed": 187.1,
-                "track": 88.47,
+                "ground_speed": 189.0,
+                "track": 88.79,
                 "squawk": "4741",
-                "rssi": -18.1,
+                "rssi": -11.3,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2026-01-29T23:28:02.763209+00:00",
+                "last_seen": "2026-01-29T23:30:02.625818+00:00",
                 "nav_qnh": 1020.0,
                 "nav_altitude_mcp": 11488,
                 "category": "A2"
@@ -2854,6 +2818,14 @@
                     [
                         -118.343213,
                         33.376279
+                    ],
+                    [
+                        -118.218272,
+                        33.378699
+                    ],
+                    [
+                        -118.218272,
+                        33.378699
                     ]
                 ]
             }
@@ -3669,13 +3641,13 @@
                 "type": "AS50",
                 "description": "AEROSPATIALE AS-350 Ecureuil",
                 "operator": "TINY BUBBLES AVIATION INC",
-                "altitude": 350,
-                "ground_speed": 4.1,
-                "track": 180.0,
+                "altitude": 425,
+                "ground_speed": 95.1,
+                "track": 356.99,
                 "squawk": "0217",
-                "rssi": -7.5,
+                "rssi": -5.3,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2026-01-29T23:28:02.763277+00:00",
+                "last_seen": "2026-01-29T23:30:02.626009+00:00",
                 "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
                 "category": "A7"
@@ -4026,6 +3998,14 @@
                     [
                         -118.291798,
                         33.972985
+                    ],
+                    [
+                        -118.280697,
+                        34.000125
+                    ],
+                    [
+                        -118.280697,
+                        34.000125
                     ]
                 ]
             }
@@ -5384,12 +5364,12 @@
                 "description": "SIKORSKY UH-60 Black Hawk",
                 "operator": "CALIFORNIA DEPT OF FORESTRY AND FIRE PROTECTION",
                 "altitude": 4000,
-                "ground_speed": 117.6,
-                "track": 326.45,
+                "ground_speed": 124.8,
+                "track": 326.44,
                 "squawk": "1255",
-                "rssi": -19.3,
+                "rssi": -18.0,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2026-01-29T23:28:02.763191+00:00",
+                "last_seen": "2026-01-29T23:30:02.625772+00:00",
                 "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
                 "category": "A7"
@@ -5412,6 +5392,10 @@
                     [
                         -123.060913,
                         39.069152
+                    ],
+                    [
+                        -123.1073,
+                        39.124283
                     ]
                 ]
             }
