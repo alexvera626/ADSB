@@ -64,12 +64,12 @@
                 "description": "Zeppelin LZ N07-101",
                 "operator": "GOODYEAR TIRE & RUBBER CO",
                 "altitude": 200,
-                "ground_speed": 0.7,
-                "track": 0.0,
+                "ground_speed": 1.2,
+                "track": 90.0,
                 "squawk": "N/A",
                 "rssi": null,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2026-01-30T21:46:02.799064+00:00",
+                "last_seen": "2026-01-30T21:48:02.753388+00:00",
                 "nav_qnh": null,
                 "nav_altitude_mcp": null,
                 "category": "B2"
@@ -117,13 +117,13 @@
                 "type": "AS50",
                 "description": "AEROSPATIALE AS-350 Ecureuil",
                 "operator": "TINY BUBBLES AVIATION INC",
-                "altitude": 1000,
-                "ground_speed": 124.0,
-                "track": 162.15,
+                "altitude": 1175,
+                "ground_speed": 117.9,
+                "track": 140.51,
                 "squawk": "0215",
                 "rssi": null,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2026-01-30T21:46:02.799138+00:00",
+                "last_seen": "2026-01-30T21:48:02.753482+00:00",
                 "nav_qnh": null,
                 "nav_altitude_mcp": null,
                 "category": "A7"
@@ -131,8 +131,35 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -118.405095,
-                    34.208954
+                    -118.369102,
+                    34.150489
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "hex": "ADDF5C",
+                "flight": "N993SD  ",
+                "type": "AS50",
+                "description": "AEROSPATIALE AS-350 Ecureuil",
+                "operator": "COUNTY OF RIVERSIDE CALIFORNIA",
+                "altitude": "ground",
+                "ground_speed": 97.0,
+                "track": 14.5,
+                "squawk": "0131",
+                "rssi": null,
+                "api_source": "https://api.airplanes.live/v2/hex/",
+                "last_seen": "2026-01-30T21:48:02.753407+00:00",
+                "nav_qnh": null,
+                "nav_altitude_mcp": null,
+                "category": "Unknown"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -117.022186,
+                    33.748184
                 ]
             }
         }
