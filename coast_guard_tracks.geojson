@@ -626,17 +626,17 @@
             "type": "Feature",
             "properties": {
                 "hex": "AE26AC",
-                "flight": "Unknown",
+                "flight": "C6586   ",
                 "type": "AS65",
                 "description": "Eurocopter MH-65D Dolphin",
                 "operator": "Unknown",
-                "altitude": 0,
-                "ground_speed": 48.0,
-                "track": 1.19,
-                "squawk": "N/A",
-                "rssi": -34.4,
-                "api_source": "https://opendata.adsb.fi/api/v2/hex/",
-                "last_seen": "2026-01-30T20:48:02.676579+00:00",
+                "altitude": 375,
+                "ground_speed": 111.0,
+                "track": 212.11,
+                "squawk": "1200",
+                "rssi": -18.4,
+                "api_source": "https://api.airplanes.live/v2/hex/",
+                "last_seen": "2026-01-30T20:50:02.123732+00:00",
                 "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
                 "category": "A7"
@@ -879,6 +879,10 @@
                     [
                         -87.010372,
                         30.41066
+                    ],
+                    [
+                        -87.016458,
+                        30.391434
                     ]
                 ]
             }
@@ -2083,13 +2087,13 @@
                 "type": "C27J",
                 "description": "ALENIA C-27J Spartan",
                 "operator": "Unknown",
-                "altitude": 11575,
-                "ground_speed": 201.7,
-                "track": 333.82,
+                "altitude": 11600,
+                "ground_speed": 204.4,
+                "track": 332.93,
                 "squawk": "4205",
-                "rssi": -10.4,
+                "rssi": -20.4,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2026-01-30T20:48:02.677109+00:00",
+                "last_seen": "2026-01-30T20:50:02.123750+00:00",
                 "nav_qnh": 1028.8,
                 "nav_altitude_mcp": 12000,
                 "category": "A2"
@@ -2728,6 +2732,14 @@
                     [
                         -121.785,
                         39.391251
+                    ],
+                    [
+                        -121.847656,
+                        39.49045
+                    ],
+                    [
+                        -121.848231,
+                        39.491318
                     ]
                 ]
             }
@@ -8501,12 +8513,12 @@
                 "description": "Lockheed Martin HC-130J Hercules",
                 "operator": "Unknown",
                 "altitude": "ground",
-                "ground_speed": 12.2,
+                "ground_speed": 10.2,
                 "track": 0.0,
                 "squawk": "1200",
-                "rssi": -34.5,
+                "rssi": -37.3,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2026-01-30T20:48:02.677171+00:00",
+                "last_seen": "2026-01-30T20:50:02.123813+00:00",
                 "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
                 "category": "A3"
@@ -8945,6 +8957,14 @@
                     [
                         -151.246554,
                         60.569687
+                    ],
+                    [
+                        -151.254272,
+                        60.563158
+                    ],
+                    [
+                        -151.254444,
+                        60.563158
                     ]
                 ]
             }
@@ -9034,6 +9054,39 @@
                     [
                         -70.192034,
                         42.436787
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "hex": "AE223B",
+                "flight": "C2304   ",
+                "type": "CN35",
+                "description": "CASA HC-144B Ocean Sentry",
+                "operator": "United States Coast Guard",
+                "altitude": 450,
+                "ground_speed": 138.8,
+                "track": 299.34,
+                "squawk": "4424",
+                "rssi": -13.0,
+                "api_source": "https://api.airplanes.live/v2/hex/",
+                "last_seen": "2026-01-30T20:50:02.123713+00:00",
+                "nav_qnh": 1016.8,
+                "nav_altitude_mcp": 1600,
+                "category": "A2"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -80.293838,
+                        25.913315
+                    ],
+                    [
+                        -80.29503,
+                        25.913956
                     ]
                 ]
             }
