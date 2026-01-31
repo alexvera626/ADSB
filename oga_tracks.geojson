@@ -411,13 +411,13 @@
                 "type": "SHIP",
                 "description": "Zeppelin LZ N07-101",
                 "operator": "GOODYEAR TIRE & RUBBER CO",
-                "altitude": 900,
-                "ground_speed": 2.3,
-                "track": 296.57,
+                "altitude": 775,
+                "ground_speed": 1.2,
+                "track": 270.0,
                 "squawk": "1200",
-                "rssi": -8.6,
+                "rssi": -6.4,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2026-01-31T23:06:02.744205+00:00",
+                "last_seen": "2026-01-31T23:08:01.937966+00:00",
                 "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
                 "category": "B2"
@@ -1384,6 +1384,14 @@
                     [
                         -117.242787,
                         32.897116
+                    ],
+                    [
+                        -117.243622,
+                        32.897644
+                    ],
+                    [
+                        -117.243627,
+                        32.897629
                     ]
                 ]
             }
@@ -1758,15 +1766,15 @@
                 "type": "A139",
                 "description": "AGUSTA AW-139",
                 "operator": "LOS ANGELES FIRE DEPARTMENT",
-                "altitude": -50,
-                "ground_speed": 7.3,
-                "track": 105.95,
+                "altitude": 75,
+                "ground_speed": 2.3,
+                "track": 26.57,
                 "squawk": "1200",
-                "rssi": -5.8,
+                "rssi": -10.5,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2026-01-31T21:10:02.804777+00:00",
+                "last_seen": "2026-01-31T23:08:01.937897+00:00",
                 "nav_qnh": 1018.4,
-                "nav_altitude_mcp": 800,
+                "nav_altitude_mcp": 160,
                 "category": "A7"
             },
             "geometry": {
@@ -1875,6 +1883,14 @@
                     [
                         -118.29355,
                         33.707474
+                    ],
+                    [
+                        -118.289509,
+                        33.703494
+                    ],
+                    [
+                        -118.289509,
+                        33.703494
                     ]
                 ]
             }
@@ -1888,12 +1904,12 @@
                 "description": "SIKORSKY UH-60 Black Hawk",
                 "operator": "COUNTY OF LOS ANGELES FIRE DEPARTMENT",
                 "altitude": 4000,
-                "ground_speed": 2.3,
-                "track": 153.43,
+                "ground_speed": 4.1,
+                "track": 0.0,
                 "squawk": "1206",
-                "rssi": -16.7,
+                "rssi": -23.8,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2026-01-31T23:06:02.744152+00:00",
+                "last_seen": "2026-01-31T23:08:01.937916+00:00",
                 "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
                 "category": "A7"
@@ -2300,6 +2316,14 @@
                     [
                         -118.15213,
                         34.275696
+                    ],
+                    [
+                        -118.151093,
+                        34.278414
+                    ],
+                    [
+                        -118.151093,
+                        34.278414
                     ]
                 ]
             }
@@ -2310,15 +2334,15 @@
                 "hex": "AE2793",
                 "flight": "GH71    ",
                 "type": "H60",
-                "description": "SIKORSKY UH-60 Black Hawk",
+                "description": "Sikorsky MH-60S Seahawk",
                 "operator": "Unknown",
-                "altitude": 175,
-                "ground_speed": 89.0,
-                "track": 115.99,
+                "altitude": 200,
+                "ground_speed": 89.6,
+                "track": 119.43,
                 "squawk": "1200",
-                "rssi": -27.1,
-                "api_source": "https://opendata.adsb.fi/api/v2/hex/",
-                "last_seen": "2026-01-31T23:06:02.744009+00:00",
+                "rssi": -30.9,
+                "api_source": "https://api.airplanes.live/v2/hex/",
+                "last_seen": "2026-01-31T23:08:01.937933+00:00",
                 "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
                 "category": "A7"
@@ -2753,6 +2777,43 @@
                     [
                         -117.788599,
                         32.629532
+                    ],
+                    [
+                        -117.731846,
+                        32.602441
+                    ],
+                    [
+                        -117.731006,
+                        32.602068
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "hex": "A0AF01",
+                "flight": "TROY307 ",
+                "type": "Unknown",
+                "description": "Unknown",
+                "operator": "DEPARTMENT OF HOMELAND SECURITY",
+                "altitude": "ground",
+                "ground_speed": 0.0,
+                "track": 0.0,
+                "squawk": "4407",
+                "rssi": -17.5,
+                "api_source": "https://api.airplanes.live/v2/hex/",
+                "last_seen": "2026-01-31T23:08:01.937983+00:00",
+                "nav_qnh": 0.0,
+                "nav_altitude_mcp": 0,
+                "category": "A2"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -117.209421,
+                        32.7019
                     ]
                 ]
             }
@@ -2765,13 +2826,13 @@
                 "type": "AS50",
                 "description": "AEROSPATIALE AS-350 Ecureuil",
                 "operator": "REACH AIR MEDICAL SERVICES LLC",
-                "altitude": 550,
-                "ground_speed": 89.2,
-                "track": 19.65,
+                "altitude": 1475,
+                "ground_speed": 109.8,
+                "track": 20.25,
                 "squawk": "1200",
-                "rssi": -2.8,
+                "rssi": -20.9,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2026-01-31T23:06:02.744187+00:00",
+                "last_seen": "2026-01-31T23:08:01.937950+00:00",
                 "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
                 "category": "A7"
@@ -2786,6 +2847,14 @@
                     [
                         -122.12323,
                         39.176687
+                    ],
+                    [
+                        -122.108398,
+                        39.210065
+                    ],
+                    [
+                        -122.09906,
+                        39.229105
                     ]
                 ]
             }
