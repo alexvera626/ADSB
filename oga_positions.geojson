@@ -36,13 +36,13 @@
                 "type": "SHIP",
                 "description": "Zeppelin LZ N07-101",
                 "operator": "GOODYEAR TIRE & RUBBER CO",
-                "altitude": 700,
-                "ground_speed": 12.7,
-                "track": 288.43,
+                "altitude": 725,
+                "ground_speed": 8.0,
+                "track": 0.0,
                 "squawk": "1200",
                 "rssi": null,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2026-01-31T22:26:02.384067+00:00",
+                "last_seen": "2026-01-31T22:28:02.536358+00:00",
                 "nav_qnh": null,
                 "nav_altitude_mcp": null,
                 "category": "B2"
@@ -50,8 +50,35 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -117.247852,
-                    32.891373
+                    -117.251643,
+                    32.89451
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "hex": "AE2793",
+                "flight": "GH71    ",
+                "type": "H60",
+                "description": "SIKORSKY UH-60 Black Hawk",
+                "operator": "Unknown",
+                "altitude": 350,
+                "ground_speed": 100.9,
+                "track": 103.76,
+                "squawk": "N/A",
+                "rssi": null,
+                "api_source": "https://opendata.adsb.fi/api/v2/hex/",
+                "last_seen": "2026-01-31T22:28:02.536084+00:00",
+                "nav_qnh": null,
+                "nav_altitude_mcp": null,
+                "category": "A7"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -117.893783,
+                    32.700433
                 ]
             }
         }
