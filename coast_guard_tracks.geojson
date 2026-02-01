@@ -24,22 +24,6 @@
                 "type": "LineString",
                 "coordinates": [
                     [
-                        -79.639523,
-                        28.446121
-                    ],
-                    [
-                        -79.639523,
-                        28.446121
-                    ],
-                    [
-                        -79.635961,
-                        28.544203
-                    ],
-                    [
-                        -79.635961,
-                        28.544203
-                    ],
-                    [
                         -79.633607,
                         28.610733
                     ],
@@ -445,18 +429,55 @@
         {
             "type": "Feature",
             "properties": {
+                "hex": "AE2238",
+                "flight": "C2302   ",
+                "type": "CN35",
+                "description": "CASA HC-144B Ocean Sentry",
+                "operator": "United States Coast Guard",
+                "altitude": 0,
+                "ground_speed": 167.0,
+                "track": 162.22,
+                "squawk": "N/A",
+                "rssi": -24.9,
+                "api_source": "https://api.airplanes.live/v2/hex/",
+                "last_seen": "2026-01-31T22:38:01.983260+00:00",
+                "nav_qnh": 0.0,
+                "nav_altitude_mcp": 0,
+                "category": "A2"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -70.276283,
+                        43.64241
+                    ],
+                    [
+                        -70.363246,
+                        43.680663
+                    ],
+                    [
+                        -70.362985,
+                        43.682013
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
                 "hex": "AE2686",
                 "flight": "C6547   ",
                 "type": "AS65",
                 "description": "Eurocopter MH-65D Dolphin",
                 "operator": "Unknown",
-                "altitude": 150,
-                "ground_speed": 39.6,
-                "track": 225.0,
-                "squawk": "1277",
-                "rssi": -9.8,
+                "altitude": "ground",
+                "ground_speed": 1.6,
+                "track": 0.0,
+                "squawk": "N/A",
+                "rssi": -25.5,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2026-02-01T02:26:01.907786+00:00",
+                "last_seen": "2026-02-01T02:28:02.771065+00:00",
                 "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
                 "category": "A7"
@@ -464,14 +485,6 @@
             "geometry": {
                 "type": "LineString",
                 "coordinates": [
-                    [
-                        -123.969421,
-                        40.692352
-                    ],
-                    [
-                        -123.928955,
-                        40.725174
-                    ],
                     [
                         -123.927342,
                         40.722548
@@ -539,47 +552,10 @@
                     [
                         -124.107305,
                         40.976769
-                    ]
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "hex": "AE2238",
-                "flight": "C2302   ",
-                "type": "CN35",
-                "description": "CASA HC-144B Ocean Sentry",
-                "operator": "United States Coast Guard",
-                "altitude": 0,
-                "ground_speed": 167.0,
-                "track": 162.22,
-                "squawk": "N/A",
-                "rssi": -24.9,
-                "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2026-01-31T22:38:01.983260+00:00",
-                "nav_qnh": 0.0,
-                "nav_altitude_mcp": 0,
-                "category": "A2"
-            },
-            "geometry": {
-                "type": "LineString",
-                "coordinates": [
-                    [
-                        -70.219627,
-                        43.638336
                     ],
                     [
-                        -70.276283,
-                        43.64241
-                    ],
-                    [
-                        -70.363246,
-                        43.680663
-                    ],
-                    [
-                        -70.362985,
-                        43.682013
+                        -124.112701,
+                        40.975845
                     ]
                 ]
             }
@@ -606,10 +582,6 @@
             "geometry": {
                 "type": "LineString",
                 "coordinates": [
-                    [
-                        -89.657446,
-                        29.913351
-                    ],
                     [
                         -89.723995,
                         29.891657
@@ -1021,12 +993,12 @@
                 "description": "Lockheed Martin HC-130J Hercules",
                 "operator": "Unknown",
                 "altitude": "ground",
-                "ground_speed": 9.8,
+                "ground_speed": 0.0,
                 "track": 0.0,
                 "squawk": "1200",
-                "rssi": -6.9,
+                "rssi": -10.6,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2026-02-01T02:26:01.907767+00:00",
+                "last_seen": "2026-02-01T02:28:02.771027+00:00",
                 "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
                 "category": "A3"
@@ -1237,6 +1209,10 @@
                     [
                         -121.397888,
                         38.677892
+                    ],
+                    [
+                        -121.395325,
+                        38.677543
                     ]
                 ]
             }
