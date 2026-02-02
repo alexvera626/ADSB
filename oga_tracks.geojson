@@ -10,12 +10,12 @@
                 "description": "AEROSPATIALE AS-350 Ecureuil",
                 "operator": "LAPD AIR SUPPORT DIVISION",
                 "altitude": 650,
-                "ground_speed": 57.5,
-                "track": 76.93,
+                "ground_speed": 55.1,
+                "track": 184.16,
                 "squawk": "1200",
-                "rssi": -8.9,
+                "rssi": -10.2,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2026-02-02T04:56:02.451092+00:00",
+                "last_seen": "2026-02-02T04:58:02.156117+00:00",
                 "nav_qnh": 1016.8,
                 "nav_altitude_mcp": 10016,
                 "category": "A7"
@@ -23,14 +23,6 @@
             "geometry": {
                 "type": "LineString",
                 "coordinates": [
-                    [
-                        -118.386211,
-                        34.068185
-                    ],
-                    [
-                        -118.386211,
-                        34.068185
-                    ],
                     [
                         -118.397192,
                         34.024567
@@ -430,6 +422,14 @@
                     [
                         -118.307732,
                         34.025345
+                    ],
+                    [
+                        -118.272228,
+                        34.052496
+                    ],
+                    [
+                        -118.272285,
+                        34.052124
                     ]
                 ]
             }
@@ -442,13 +442,13 @@
                 "type": "AS50",
                 "description": "AEROSPATIALE AS-350 Ecureuil",
                 "operator": "LAPD AIR SUPPORT DIVISION",
-                "altitude": 1125,
-                "ground_speed": 116.7,
-                "track": 295.91,
+                "altitude": 1025,
+                "ground_speed": 51.9,
+                "track": 140.48,
                 "squawk": "0244",
-                "rssi": -6.2,
+                "rssi": -17.3,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2026-02-02T04:56:02.451111+00:00",
+                "last_seen": "2026-02-02T04:58:02.156136+00:00",
                 "nav_qnh": 1017.6,
                 "nav_altitude_mcp": 10016,
                 "category": "A7"
@@ -456,14 +456,6 @@
             "geometry": {
                 "type": "LineString",
                 "coordinates": [
-                    [
-                        -118.219953,
-                        33.972839
-                    ],
-                    [
-                        -118.219953,
-                        33.972839
-                    ],
                     [
                         -118.218269,
                         33.974382
@@ -847,6 +839,14 @@
                     [
                         -118.563766,
                         34.175394
+                    ],
+                    [
+                        -118.610172,
+                        34.189546
+                    ],
+                    [
+                        -118.609943,
+                        34.189313
                     ]
                 ]
             }
@@ -873,14 +873,6 @@
             "geometry": {
                 "type": "LineString",
                 "coordinates": [
-                    [
-                        -117.806621,
-                        33.862198
-                    ],
-                    [
-                        -117.806621,
-                        33.862198
-                    ],
                     [
                         -117.765926,
                         33.862839
@@ -1256,13 +1248,13 @@
                 "type": "AS50",
                 "description": "AEROSPATIALE AS-350 Ecureuil",
                 "operator": "ORANGE COUNTY SHERIFF'S DEPARTMENT",
-                "altitude": 0,
+                "altitude": "ground",
                 "ground_speed": 0.0,
                 "track": 0.0,
                 "squawk": "4204",
-                "rssi": -4.2,
+                "rssi": -3.5,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2026-02-02T04:56:02.451185+00:00",
+                "last_seen": "2026-02-02T04:58:02.156186+00:00",
                 "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
                 "category": "A7"
@@ -1613,6 +1605,14 @@
                     [
                         -117.871714,
                         33.675202
+                    ],
+                    [
+                        -117.871712,
+                        33.675201
+                    ],
+                    [
+                        -117.871712,
+                        33.675201
                     ]
                 ]
             }
@@ -2323,20 +2323,53 @@
         {
             "type": "Feature",
             "properties": {
+                "hex": "A90F0D",
+                "flight": "N683HB  ",
+                "type": "Unknown",
+                "description": "Unknown",
+                "operator": "CITY OF HUNTINGTON BEACH",
+                "altitude": "ground",
+                "ground_speed": 0.0,
+                "track": 0.0,
+                "squawk": "4301",
+                "rssi": -12.8,
+                "api_source": "https://api.airplanes.live/v2/hex/",
+                "last_seen": "2026-02-02T04:58:02.156169+00:00",
+                "nav_qnh": 0.0,
+                "nav_altitude_mcp": 0,
+                "category": "A7"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -118.00125,
+                        33.695183
+                    ],
+                    [
+                        -118.00125,
+                        33.695183
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
                 "hex": "A17E8E",
                 "flight": "N196B   ",
                 "type": "BE30",
                 "description": "BEECH 300 Super King Air",
                 "operator": "DEPARTMENT OF HOMELAND SECURITY",
-                "altitude": 2775,
-                "ground_speed": 161.4,
-                "track": 329.46,
+                "altitude": 4500,
+                "ground_speed": 187.4,
+                "track": 159.05,
                 "squawk": "4732",
-                "rssi": -11.1,
+                "rssi": -14.5,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2026-02-02T04:56:02.451205+00:00",
+                "last_seen": "2026-02-02T04:58:02.156203+00:00",
                 "nav_qnh": 1016.8,
-                "nav_altitude_mcp": 4992,
+                "nav_altitude_mcp": 7008,
                 "category": "A2"
             },
             "geometry": {
@@ -2349,6 +2382,14 @@
                     [
                         -117.289925,
                         33.922336
+                    ],
+                    [
+                        -117.326889,
+                        33.886864
+                    ],
+                    [
+                        -117.326488,
+                        33.886072
                     ]
                 ]
             }
