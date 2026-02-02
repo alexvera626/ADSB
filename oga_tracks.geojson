@@ -10,12 +10,12 @@
                 "description": "Sikorsky MH-60S Seahawk",
                 "operator": "Unknown",
                 "altitude": 75,
-                "ground_speed": 75.2,
-                "track": 86.19,
+                "ground_speed": 75.3,
+                "track": 84.67,
                 "squawk": "1200",
-                "rssi": -28.6,
+                "rssi": -29.3,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2026-02-02T22:18:02.706614+00:00",
+                "last_seen": "2026-02-02T22:20:02.009831+00:00",
                 "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
                 "category": "A7"
@@ -382,6 +382,14 @@
                     [
                         -117.940649,
                         32.61795
+                    ],
+                    [
+                        -117.892381,
+                        32.621108
+                    ],
+                    [
+                        -117.893166,
+                        32.621062
                     ]
                 ]
             }
@@ -2185,13 +2193,13 @@
                 "type": "Unknown",
                 "description": "Unknown",
                 "operator": "Unknown",
-                "altitude": 275,
-                "ground_speed": 123.2,
-                "track": 122.4,
+                "altitude": 75,
+                "ground_speed": 130.8,
+                "track": 105.52,
                 "squawk": "1200",
-                "rssi": -5.9,
+                "rssi": -7.3,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2026-02-02T22:18:02.706630+00:00",
+                "last_seen": "2026-02-02T22:20:02.009872+00:00",
                 "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
                 "category": "A7"
@@ -2502,6 +2510,14 @@
                     [
                         -117.391382,
                         32.679066
+                    ],
+                    [
+                        -117.318658,
+                        32.648254
+                    ],
+                    [
+                        -117.321709,
+                        32.648993
                     ]
                 ]
             }
@@ -2514,13 +2530,13 @@
                 "type": "A139",
                 "description": "AGUSTA AW-139",
                 "operator": "LOS ANGELES FIRE DEPARTMENT",
-                "altitude": 150,
-                "ground_speed": 57.6,
-                "track": 172.01,
+                "altitude": -50,
+                "ground_speed": 5.0,
+                "track": 0.0,
                 "squawk": "1200",
-                "rssi": -5.5,
+                "rssi": -26.3,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2026-02-02T22:18:02.706562+00:00",
+                "last_seen": "2026-02-02T22:20:02.009813+00:00",
                 "nav_qnh": 1019.2,
                 "nav_altitude_mcp": 160,
                 "category": "A7"
@@ -2647,6 +2663,14 @@
                     [
                         -118.296661,
                         33.706101
+                    ],
+                    [
+                        -118.29134,
+                        33.70517
+                    ],
+                    [
+                        -118.291308,
+                        33.705185
                     ]
                 ]
             }
@@ -4245,14 +4269,14 @@
                 "flight": "CFR601  ",
                 "type": "H60",
                 "description": "SIKORSKY UH-60 Black Hawk",
-                "operator": "CALIFORNIA DEPT OF FORESTRY AND FIRE PROTECTION",
-                "altitude": 4225,
-                "ground_speed": 108.6,
-                "track": 354.18,
+                "operator": "CALIFORNIA DEPT OF FORESTRY AND FIRE PROTECTION, CAL FIRE",
+                "altitude": 3925,
+                "ground_speed": 132.9,
+                "track": 353.52,
                 "squawk": "1255",
-                "rssi": -28.6,
-                "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2026-02-02T22:18:02.706596+00:00",
+                "rssi": -16.8,
+                "api_source": "https://opendata.adsb.fi/api/v2/hex/",
+                "last_seen": "2026-02-02T22:20:02.009576+00:00",
                 "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
                 "category": "A7"
@@ -4303,6 +4327,10 @@
                     [
                         -123.264771,
                         38.996344
+                    ],
+                    [
+                        -123.273376,
+                        39.05635
                     ]
                 ]
             }
@@ -4396,6 +4424,39 @@
                     [
                         -118.230071,
                         34.05407
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "hex": "A1420A",
+                "flight": "N180Q   ",
+                "type": "AS50",
+                "description": "AEROSPATIALE AS-350 Ecureuil",
+                "operator": "DEPARTMENT OF HOMELAND SECURITY",
+                "altitude": 1125,
+                "ground_speed": 96.4,
+                "track": 310.79,
+                "squawk": "4404",
+                "rssi": -3.4,
+                "api_source": "https://api.airplanes.live/v2/hex/",
+                "last_seen": "2026-02-02T22:20:02.009892+00:00",
+                "nav_qnh": 1020.8,
+                "nav_altitude_mcp": 2496,
+                "category": "A7"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -77.730182,
+                        38.585403
+                    ],
+                    [
+                        -77.73066,
+                        38.585678
                     ]
                 ]
             }
