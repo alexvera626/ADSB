@@ -4,18 +4,95 @@
         {
             "type": "Feature",
             "properties": {
+                "hex": "AE26B8",
+                "flight": "C6598   ",
+                "type": "AS65",
+                "description": "Eurocopter MH-65D Dolphin",
+                "operator": "Unknown",
+                "altitude": 584,
+                "ground_speed": 3.0,
+                "track": 135.0,
+                "squawk": "1200",
+                "rssi": -49.5,
+                "api_source": "https://api.airplanes.live/v2/hex/",
+                "last_seen": "2026-02-03T14:54:02.614125+00:00",
+                "nav_qnh": 0.0,
+                "nav_altitude_mcp": 0,
+                "category": "A7"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -88.261908,
+                        30.698966
+                    ],
+                    [
+                        -88.248177,
+                        30.695429
+                    ],
+                    [
+                        -88.260315,
+                        30.700177
+                    ],
+                    [
+                        -88.252907,
+                        30.700745
+                    ],
+                    [
+                        -88.260498,
+                        30.692276
+                    ],
+                    [
+                        -88.260498,
+                        30.692276
+                    ],
+                    [
+                        -88.250046,
+                        30.697569
+                    ],
+                    [
+                        -88.263666,
+                        30.699199
+                    ],
+                    [
+                        -88.263666,
+                        30.699199
+                    ],
+                    [
+                        -88.243729,
+                        30.690121
+                    ],
+                    [
+                        -88.25614,
+                        30.695335
+                    ],
+                    [
+                        -88.25614,
+                        30.695335
+                    ],
+                    [
+                        -88.243263,
+                        30.693146
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
                 "hex": "AE4AE1",
                 "flight": "C2709   ",
                 "type": "C27J",
                 "description": "Alenia HC-27J Spartan",
                 "operator": "Unknown",
                 "altitude": 20950,
-                "ground_speed": 307.2,
-                "track": 171.76,
+                "ground_speed": 303.1,
+                "track": 171.84,
                 "squawk": "1771",
-                "rssi": -16.2,
+                "rssi": -23.2,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2026-02-03T18:36:02.025982+00:00",
+                "last_seen": "2026-02-03T18:38:02.234446+00:00",
                 "nav_qnh": 1013.6,
                 "nav_altitude_mcp": 20992,
                 "category": "A2"
@@ -23,14 +100,6 @@
             "geometry": {
                 "type": "LineString",
                 "coordinates": [
-                    [
-                        -93.092595,
-                        34.498627
-                    ],
-                    [
-                        -93.092595,
-                        34.498627
-                    ],
                     [
                         -93.105698,
                         34.660422
@@ -590,6 +659,10 @@
                     [
                         -92.754934,
                         32.556261
+                    ],
+                    [
+                        -92.726257,
+                        32.387924
                     ]
                 ]
             }
@@ -616,14 +689,6 @@
             "geometry": {
                 "type": "LineString",
                 "coordinates": [
-                    [
-                        -70.420491,
-                        41.845139
-                    ],
-                    [
-                        -70.420491,
-                        41.845139
-                    ],
                     [
                         -70.369304,
                         41.898743
@@ -686,99 +751,18 @@
         {
             "type": "Feature",
             "properties": {
-                "hex": "AE26B8",
-                "flight": "C6598   ",
-                "type": "AS65",
-                "description": "Eurocopter MH-65D Dolphin",
-                "operator": "Unknown",
-                "altitude": 584,
-                "ground_speed": 3.0,
-                "track": 135.0,
-                "squawk": "1200",
-                "rssi": -49.5,
-                "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2026-02-03T14:54:02.614125+00:00",
-                "nav_qnh": 0.0,
-                "nav_altitude_mcp": 0,
-                "category": "A7"
-            },
-            "geometry": {
-                "type": "LineString",
-                "coordinates": [
-                    [
-                        -88.242676,
-                        30.692413
-                    ],
-                    [
-                        -88.261908,
-                        30.698966
-                    ],
-                    [
-                        -88.248177,
-                        30.695429
-                    ],
-                    [
-                        -88.260315,
-                        30.700177
-                    ],
-                    [
-                        -88.252907,
-                        30.700745
-                    ],
-                    [
-                        -88.260498,
-                        30.692276
-                    ],
-                    [
-                        -88.260498,
-                        30.692276
-                    ],
-                    [
-                        -88.250046,
-                        30.697569
-                    ],
-                    [
-                        -88.263666,
-                        30.699199
-                    ],
-                    [
-                        -88.263666,
-                        30.699199
-                    ],
-                    [
-                        -88.243729,
-                        30.690121
-                    ],
-                    [
-                        -88.25614,
-                        30.695335
-                    ],
-                    [
-                        -88.25614,
-                        30.695335
-                    ],
-                    [
-                        -88.243263,
-                        30.693146
-                    ]
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
                 "hex": "AE2698",
                 "flight": "C6566   ",
                 "type": "AS65",
                 "description": "Eurocopter MH-65D Dolphin",
                 "operator": "Unknown",
                 "altitude": "ground",
-                "ground_speed": 75.0,
-                "track": 201.0,
+                "ground_speed": 76.0,
+                "track": 207.7,
                 "squawk": "4432",
                 "rssi": -49.5,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2026-02-03T18:36:02.025845+00:00",
+                "last_seen": "2026-02-03T18:38:02.234353+00:00",
                 "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
                 "category": "Unknown"
@@ -821,6 +805,10 @@
                     [
                         -96.923027,
                         28.826752
+                    ],
+                    [
+                        -96.944542,
+                        28.789162
                     ]
                 ]
             }
@@ -2091,12 +2079,12 @@
                 "description": "Eurocopter MH-65D Dolphin",
                 "operator": "Unknown",
                 "altitude": 825,
-                "ground_speed": 91.1,
-                "track": 183.14,
+                "ground_speed": 96.3,
+                "track": 184.76,
                 "squawk": "4427",
-                "rssi": -13.3,
+                "rssi": -8.3,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2026-02-03T18:36:02.025827+00:00",
+                "last_seen": "2026-02-03T18:38:02.234332+00:00",
                 "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
                 "category": "A7"
@@ -2503,6 +2491,14 @@
                     [
                         -82.878799,
                         42.50116
+                    ],
+                    [
+                        -82.867064,
+                        42.450211
+                    ],
+                    [
+                        -82.867126,
+                        42.449775
                     ]
                 ]
             }
@@ -2980,17 +2976,17 @@
             "type": "Feature",
             "properties": {
                 "hex": "AE4DFF",
-                "flight": "C6047   ",
+                "flight": "Unknown",
                 "type": "H60",
                 "description": "Sikorsky MH-60T Jayhawk",
                 "operator": "Unknown",
-                "altitude": 1300,
-                "ground_speed": 83.3,
-                "track": 155.9,
-                "squawk": "1200",
-                "rssi": -2.7,
-                "api_source": "https://opendata.adsb.fi/api/v2/hex/",
-                "last_seen": "2026-02-03T18:36:02.025524+00:00",
+                "altitude": 1150,
+                "ground_speed": 72.1,
+                "track": 272.39,
+                "squawk": "N/A",
+                "rssi": -28.9,
+                "api_source": "https://api.airplanes.live/v2/hex/",
+                "last_seen": "2026-02-03T18:38:02.234549+00:00",
                 "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
                 "category": "A7"
@@ -3185,6 +3181,14 @@
                     [
                         -85.519454,
                         44.745545
+                    ],
+                    [
+                        -85.568557,
+                        44.740099
+                    ],
+                    [
+                        -85.558908,
+                        44.739532
                     ]
                 ]
             }
@@ -4524,12 +4528,12 @@
                 "description": "ALENIA C-27J Spartan",
                 "operator": "Unknown",
                 "altitude": 21025,
-                "ground_speed": 269.7,
-                "track": 104.6,
+                "ground_speed": 271.9,
+                "track": 104.7,
                 "squawk": "3222",
-                "rssi": -18.3,
+                "rssi": -16.4,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2026-02-03T18:36:02.026037+00:00",
+                "last_seen": "2026-02-03T18:38:02.234530+00:00",
                 "nav_qnh": 1013.6,
                 "nav_altitude_mcp": 20992,
                 "category": "A2"
@@ -5160,6 +5164,14 @@
                     [
                         -116.357266,
                         33.670715
+                    ],
+                    [
+                        -116.186025,
+                        33.633957
+                    ],
+                    [
+                        -116.184368,
+                        33.633573
                     ]
                 ]
             }
@@ -5168,17 +5180,17 @@
             "type": "Feature",
             "properties": {
                 "hex": "AE2682",
-                "flight": "Unknown",
+                "flight": "C6540   ",
                 "type": "AS65",
                 "description": "Eurocopter MH-65D Dolphin",
                 "operator": "Unknown",
-                "altitude": 0,
-                "ground_speed": 0.0,
-                "track": 0.0,
+                "altitude": 175,
+                "ground_speed": 127.6,
+                "track": 48.81,
                 "squawk": "N/A",
-                "rssi": -21.1,
+                "rssi": -30.1,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2026-02-03T18:30:02.055160+00:00",
+                "last_seen": "2026-02-03T18:38:02.234198+00:00",
                 "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
                 "category": "A7"
@@ -5397,6 +5409,14 @@
                     [
                         -80.541108,
                         32.290913
+                    ],
+                    [
+                        -80.238098,
+                        32.518799
+                    ],
+                    [
+                        -80.238098,
+                        32.518799
                     ]
                 ]
             }
@@ -5784,13 +5804,13 @@
                 "type": "AS65",
                 "description": "Eurocopter MH-65D Dolphin",
                 "operator": "Unknown",
-                "altitude": -350,
-                "ground_speed": 16.6,
-                "track": 334.98,
+                "altitude": 175,
+                "ground_speed": 97.6,
+                "track": 155.8,
                 "squawk": "1200",
-                "rssi": -7.4,
+                "rssi": -17.0,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2026-02-03T18:36:02.025896+00:00",
+                "last_seen": "2026-02-03T18:38:02.234384+00:00",
                 "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
                 "category": "A7"
@@ -6209,6 +6229,14 @@
                     [
                         -122.440699,
                         37.901413
+                    ],
+                    [
+                        -122.421431,
+                        37.886259
+                    ],
+                    [
+                        -122.42118,
+                        37.885895
                     ]
                 ]
             }
@@ -6221,13 +6249,13 @@
                 "type": "CN35",
                 "description": "CASA HC-144B Ocean Sentry",
                 "operator": "United States Coast Guard",
-                "altitude": 4750,
-                "ground_speed": 144.0,
-                "track": 62.72,
+                "altitude": 5325,
+                "ground_speed": 195.4,
+                "track": 67.11,
                 "squawk": "4422",
-                "rssi": -14.6,
+                "rssi": -8.2,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2026-02-03T18:36:02.025774+00:00",
+                "last_seen": "2026-02-03T18:38:02.234179+00:00",
                 "nav_qnh": 1019.2,
                 "nav_altitude_mcp": 5504,
                 "category": "A2"
@@ -6590,6 +6618,14 @@
                     [
                         -71.985168,
                         41.221029
+                    ],
+                    [
+                        -71.872496,
+                        41.262786
+                    ],
+                    [
+                        -71.870667,
+                        41.263367
                     ]
                 ]
             }
@@ -6602,13 +6638,13 @@
                 "type": "AS65",
                 "description": "Eurocopter MH-65D Dolphin",
                 "operator": "Unknown",
-                "altitude": -225,
-                "ground_speed": 38.8,
-                "track": 281.89,
+                "altitude": -125,
+                "ground_speed": 71.5,
+                "track": 339.54,
                 "squawk": "4420",
-                "rssi": -8.5,
+                "rssi": -9.0,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2026-02-03T18:36:02.025792+00:00",
+                "last_seen": "2026-02-03T18:38:02.234216+00:00",
                 "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
                 "category": "A7"
@@ -6739,6 +6775,10 @@
                     [
                         -124.145996,
                         40.977036
+                    ],
+                    [
+                        -124.157368,
+                        40.99269
                     ]
                 ]
             }
@@ -6752,12 +6792,12 @@
                 "description": "Sikorsky MH-60T Jayhawk",
                 "operator": "Unknown",
                 "altitude": -200,
-                "ground_speed": 3.1,
-                "track": 90.0,
+                "ground_speed": 2.3,
+                "track": 333.43,
                 "squawk": "1200",
-                "rssi": -8.3,
+                "rssi": -8.2,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2026-02-03T18:36:02.025965+00:00",
+                "last_seen": "2026-02-03T18:38:02.234423+00:00",
                 "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
                 "category": "A7"
@@ -7068,6 +7108,14 @@
                     [
                         -117.328715,
                         32.620363
+                    ],
+                    [
+                        -117.327667,
+                        32.620468
+                    ],
+                    [
+                        -117.327667,
+                        32.620514
                     ]
                 ]
             }
@@ -7189,13 +7237,13 @@
                 "type": "C30J",
                 "description": "Lockheed Martin HC-130J Hercules",
                 "operator": "Unknown",
-                "altitude": 725,
-                "ground_speed": 144.0,
-                "track": 334.5,
+                "altitude": 750,
+                "ground_speed": 141.8,
+                "track": 334.52,
                 "squawk": "1200",
-                "rssi": -15.5,
+                "rssi": -32.2,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2026-02-03T18:36:02.026053+00:00",
+                "last_seen": "2026-02-03T18:38:02.234567+00:00",
                 "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
                 "category": "A3"
@@ -7274,6 +7322,14 @@
                     [
                         -75.652485,
                         36.022156
+                    ],
+                    [
+                        -75.687962,
+                        36.085464
+                    ],
+                    [
+                        -75.687962,
+                        36.085464
                     ]
                 ]
             }
@@ -7286,15 +7342,15 @@
                 "type": "C27J",
                 "description": "Alenia HC-27J Spartan",
                 "operator": "Unknown",
-                "altitude": 1150,
-                "ground_speed": 200.7,
-                "track": 347.63,
+                "altitude": 3050,
+                "ground_speed": 175.2,
+                "track": 357.06,
                 "squawk": "1712",
-                "rssi": -6.3,
+                "rssi": -8.1,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2026-02-03T18:36:02.026014+00:00",
+                "last_seen": "2026-02-03T18:38:02.234509+00:00",
                 "nav_qnh": 1028.8,
-                "nav_altitude_mcp": 1600,
+                "nav_altitude_mcp": 11008,
                 "category": "A2"
             },
             "geometry": {
@@ -7363,6 +7419,14 @@
                     [
                         -82.699262,
                         27.960345
+                    ],
+                    [
+                        -82.669056,
+                        28.061508
+                    ],
+                    [
+                        -82.669103,
+                        28.062294
                     ]
                 ]
             }
@@ -7376,12 +7440,12 @@
                 "description": "Eurocopter MH-65D Dolphin",
                 "operator": "Unknown",
                 "altitude": -100,
-                "ground_speed": 73.7,
-                "track": 262.2,
+                "ground_speed": 60.7,
+                "track": 110.22,
                 "squawk": "1200",
-                "rssi": -30.7,
+                "rssi": -32.1,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2026-02-03T18:36:02.025946+00:00",
+                "last_seen": "2026-02-03T18:38:02.234404+00:00",
                 "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
                 "category": "A7"
@@ -7424,6 +7488,14 @@
                     [
                         -123.522808,
                         48.166946
+                    ],
+                    [
+                        -123.535414,
+                        48.175919
+                    ],
+                    [
+                        -123.535414,
+                        48.175919
                     ]
                 ]
             }
