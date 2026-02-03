@@ -24,14 +24,6 @@
                 "type": "LineString",
                 "coordinates": [
                     [
-                        -118.512323,
-                        32.92392
-                    ],
-                    [
-                        -118.513367,
-                        32.924149
-                    ],
-                    [
                         -118.643207,
                         32.941341
                     ],
@@ -666,13 +658,13 @@
                 "type": "AS50",
                 "description": "AEROSPATIALE AS-350 Ecureuil",
                 "operator": "LAPD AIR SUPPORT DIVISION",
-                "altitude": 225,
-                "ground_speed": 57.6,
-                "track": 197.18,
+                "altitude": 200,
+                "ground_speed": 52.6,
+                "track": 321.17,
                 "squawk": "0251",
-                "rssi": -4.7,
+                "rssi": -10.9,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2026-02-03T17:28:02.455261+00:00",
+                "last_seen": "2026-02-03T17:30:02.366406+00:00",
                 "nav_qnh": 1023.2,
                 "nav_altitude_mcp": 10016,
                 "category": "A7"
@@ -919,6 +911,14 @@
                     [
                         -118.275894,
                         33.948807
+                    ],
+                    [
+                        -118.270513,
+                        33.948486
+                    ],
+                    [
+                        -118.270681,
+                        33.948669
                     ]
                 ]
             }
@@ -2016,12 +2016,12 @@
                 "description": "SIKORSKY UH-60 Black Hawk",
                 "operator": "Unknown",
                 "altitude": -50,
-                "ground_speed": 98.9,
-                "track": 65.51,
+                "ground_speed": 111.2,
+                "track": 3.09,
                 "squawk": "1200",
-                "rssi": -13.3,
+                "rssi": -22.1,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2026-02-03T17:28:02.455393+00:00",
+                "last_seen": "2026-02-03T17:30:02.366657+00:00",
                 "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
                 "category": "A7"
@@ -2036,6 +2036,43 @@
                     [
                         -117.256256,
                         32.638
+                    ],
+                    [
+                        -117.229838,
+                        32.687864
+                    ],
+                    [
+                        -117.229838,
+                        32.687864
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "hex": "A4CAAA",
+                "flight": "CFR230  ",
+                "type": "V10",
+                "description": "NORTH AMERICAN OV-10 Bronco",
+                "operator": "USDA FOREST SERVICE FEPP",
+                "altitude": "ground",
+                "ground_speed": 2.8,
+                "track": 272.81,
+                "squawk": "N/A",
+                "rssi": -18.6,
+                "api_source": "https://api.airplanes.live/v2/hex/",
+                "last_seen": "2026-02-03T17:30:02.366604+00:00",
+                "nav_qnh": 0.0,
+                "nav_altitude_mcp": 0,
+                "category": "A1"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -121.396896,
+                        38.666498
                     ]
                 ]
             }
