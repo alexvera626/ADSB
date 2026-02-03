@@ -4,6 +4,33 @@
         {
             "type": "Feature",
             "properties": {
+                "hex": "A0A6E5",
+                "flight": "N141FA  ",
+                "type": "B412",
+                "description": "BELL 412",
+                "operator": "ORANGE COUNTY FIRE AUTHORITY",
+                "altitude": 500,
+                "ground_speed": 39.1,
+                "track": 267.06,
+                "squawk": "N/A",
+                "rssi": null,
+                "api_source": "https://api.airplanes.live/v2/hex/",
+                "last_seen": "2026-02-03T23:18:02.512215+00:00",
+                "nav_qnh": null,
+                "nav_altitude_mcp": null,
+                "category": "A7"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -117.633082,
+                    33.978836
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
                 "hex": "A13F4E",
                 "flight": "N18LA   ",
                 "type": "B412",
@@ -25,6 +52,33 @@
                 "coordinates": [
                     -118.406959,
                     34.258495
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "hex": "A17E8E",
+                "flight": "N196B   ",
+                "type": "BE30",
+                "description": "BEECH 300 Super King Air",
+                "operator": "DEPARTMENT OF HOMELAND SECURITY",
+                "altitude": 11300,
+                "ground_speed": 170.4,
+                "track": 82.58,
+                "squawk": "4701",
+                "rssi": null,
+                "api_source": "https://api.airplanes.live/v2/hex/",
+                "last_seen": "2026-02-03T23:18:02.512269+00:00",
+                "nav_qnh": null,
+                "nav_altitude_mcp": null,
+                "category": "A2"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -118.224774,
+                    33.396343
                 ]
             }
         },
@@ -63,13 +117,13 @@
                 "type": "A139",
                 "description": "AGUSTA AW-139",
                 "operator": "LOS ANGELES FIRE DEPARTMENT",
-                "altitude": 1075,
-                "ground_speed": 110.0,
-                "track": 0.52,
+                "altitude": "ground",
+                "ground_speed": 4.8,
+                "track": 146.31,
                 "squawk": "1206",
                 "rssi": null,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2026-02-03T23:16:02.234533+00:00",
+                "last_seen": "2026-02-03T23:18:02.512164+00:00",
                 "nav_qnh": null,
                 "nav_altitude_mcp": null,
                 "category": "A7"
@@ -77,8 +131,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -118.496741,
-                    34.198334
+                    -118.494301,
+                    34.216663
                 ]
             }
         },
@@ -91,12 +145,12 @@
                 "description": "Unknown",
                 "operator": "CITY OF HUNTINGTON BEACH",
                 "altitude": 550,
-                "ground_speed": 64.3,
-                "track": 348.34,
+                "ground_speed": 72.0,
+                "track": 359.2,
                 "squawk": "4301",
                 "rssi": null,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2026-02-03T23:16:02.234567+00:00",
+                "last_seen": "2026-02-03T23:18:02.512198+00:00",
                 "nav_qnh": null,
                 "nav_altitude_mcp": null,
                 "category": "A7"
@@ -104,8 +158,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -118.019943,
-                    33.665135
+                    -118.008691,
+                    33.699463
                 ]
             }
         },
@@ -145,12 +199,12 @@
                 "description": "Sikorsky MH-60S Seahawk",
                 "operator": "Unknown",
                 "altitude": -50,
-                "ground_speed": 93.1,
-                "track": 181.85,
+                "ground_speed": 74.3,
+                "track": 226.64,
                 "squawk": "1200",
                 "rssi": null,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2026-02-03T23:16:02.234550+00:00",
+                "last_seen": "2026-02-03T23:18:02.512182+00:00",
                 "nav_qnh": null,
                 "nav_altitude_mcp": null,
                 "category": "A7"
@@ -158,8 +212,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -117.254883,
-                    32.572586
+                    -117.244501,
+                    32.583847
                 ]
             }
         },
@@ -172,12 +226,12 @@
                 "description": "Sikorsky MH-60S Seahawk",
                 "operator": "Unknown",
                 "altitude": 0,
-                "ground_speed": 95.3,
-                "track": 105.2,
+                "ground_speed": 84.0,
+                "track": 8.9,
                 "squawk": "4000",
                 "rssi": null,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2026-02-03T23:16:02.234583+00:00",
+                "last_seen": "2026-02-03T23:18:02.512231+00:00",
                 "nav_qnh": null,
                 "nav_altitude_mcp": null,
                 "category": "A7"
@@ -185,35 +239,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -117.928199,
-                    32.676971
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "hex": "AE4D5A",
-                "flight": "BULET45 ",
-                "type": "H60",
-                "description": "Sikorsky MH-60S Seahawk",
-                "operator": "United States Navy",
-                "altitude": 50,
-                "ground_speed": 98.7,
-                "track": 320.34,
-                "squawk": "4562",
-                "rssi": null,
-                "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2026-02-03T22:46:02.646926+00:00",
-                "nav_qnh": null,
-                "nav_altitude_mcp": null,
-                "category": "A7"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -117.212686,
-                    32.699037
+                    -117.876238,
+                    32.683162
                 ]
             }
         }
