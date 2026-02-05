@@ -9,13 +9,13 @@
                 "type": "H60",
                 "description": "Sikorsky MH-60S Seahawk",
                 "operator": "Unknown",
-                "altitude": 50,
-                "ground_speed": 51.2,
-                "track": 77.59,
+                "altitude": -125,
+                "ground_speed": 17.0,
+                "track": 28.07,
                 "squawk": "1200",
-                "rssi": -17.9,
+                "rssi": -14.6,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2026-02-05T04:12:02.271431+00:00",
+                "last_seen": "2026-02-05T04:14:02.565872+00:00",
                 "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
                 "category": "A7"
@@ -23,22 +23,6 @@
             "geometry": {
                 "type": "LineString",
                 "coordinates": [
-                    [
-                        -117.292674,
-                        32.622738
-                    ],
-                    [
-                        -117.284434,
-                        32.622505
-                    ],
-                    [
-                        -117.355078,
-                        32.645874
-                    ],
-                    [
-                        -117.354584,
-                        32.645645
-                    ],
                     [
                         -117.416382,
                         32.672176
@@ -850,6 +834,14 @@
                     [
                         -117.209267,
                         32.717518
+                    ],
+                    [
+                        -117.181439,
+                        32.725067
+                    ],
+                    [
+                        -117.181439,
+                        32.725067
                     ]
                 ]
             }
@@ -876,22 +868,6 @@
             "geometry": {
                 "type": "LineString",
                 "coordinates": [
-                    [
-                        -118.276005,
-                        33.855441
-                    ],
-                    [
-                        -118.276005,
-                        33.855441
-                    ],
-                    [
-                        -118.27595,
-                        33.855423
-                    ],
-                    [
-                        -118.27595,
-                        33.855423
-                    ],
                     [
                         -118.284016,
                         33.860701
@@ -1109,22 +1085,6 @@
             "geometry": {
                 "type": "LineString",
                 "coordinates": [
-                    [
-                        -92.030047,
-                        30.247055
-                    ],
-                    [
-                        -92.030047,
-                        30.247055
-                    ],
-                    [
-                        -92.164142,
-                        30.203325
-                    ],
-                    [
-                        -92.164142,
-                        30.203325
-                    ],
                     [
                         -92.296789,
                         30.159897
@@ -1403,55 +1363,6 @@
         {
             "type": "Feature",
             "properties": {
-                "hex": "A17016",
-                "flight": "Unknown",
-                "type": "B350",
-                "description": "BEECHCRAFT Super King Air 350",
-                "operator": "DEPARTMENT OF HOMELAND SECURITY",
-                "altitude": "ground",
-                "ground_speed": 0.0,
-                "track": 0.0,
-                "squawk": "N/A",
-                "rssi": -13.2,
-                "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2026-02-05T00:24:02.223975+00:00",
-                "nav_qnh": 0.0,
-                "nav_altitude_mcp": 0,
-                "category": "A2"
-            },
-            "geometry": {
-                "type": "LineString",
-                "coordinates": [
-                    [
-                        -117.269039,
-                        33.894126
-                    ],
-                    [
-                        -117.260456,
-                        33.882115
-                    ],
-                    [
-                        -117.249427,
-                        33.866602
-                    ],
-                    [
-                        -117.249427,
-                        33.866602
-                    ],
-                    [
-                        -117.251741,
-                        33.876171
-                    ],
-                    [
-                        -117.249443,
-                        33.88369
-                    ]
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
                 "hex": "AE278C",
                 "flight": "LS10    ",
                 "type": "H60",
@@ -1471,22 +1382,6 @@
             "geometry": {
                 "type": "LineString",
                 "coordinates": [
-                    [
-                        -117.184828,
-                        32.591222
-                    ],
-                    [
-                        -117.184828,
-                        32.591222
-                    ],
-                    [
-                        -117.135736,
-                        32.559174
-                    ],
-                    [
-                        -117.135736,
-                        32.559174
-                    ],
                     [
                         -117.117985,
                         32.562196
@@ -2138,6 +2033,39 @@
                     [
                         -117.202064,
                         32.713468
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "hex": "A17016",
+                "flight": "Unknown",
+                "type": "B350",
+                "description": "BEECHCRAFT Super King Air 350",
+                "operator": "DEPARTMENT OF HOMELAND SECURITY",
+                "altitude": "ground",
+                "ground_speed": 0.0,
+                "track": 0.0,
+                "squawk": "N/A",
+                "rssi": -13.2,
+                "api_source": "https://api.airplanes.live/v2/hex/",
+                "last_seen": "2026-02-05T00:24:02.223975+00:00",
+                "nav_qnh": 0.0,
+                "nav_altitude_mcp": 0,
+                "category": "A2"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -117.251741,
+                        33.876171
+                    ],
+                    [
+                        -117.249443,
+                        33.88369
                     ]
                 ]
             }
@@ -2953,13 +2881,13 @@
                 "description": "BELL 407",
                 "operator": "SAN DIEGO COUNTY SHERIFF DEPT",
                 "altitude": 250,
-                "ground_speed": 26.0,
-                "track": 180.0,
-                "squawk": "N/A",
-                "rssi": -10.4,
+                "ground_speed": 60.2,
+                "track": 175.24,
+                "squawk": "1200",
+                "rssi": -26.8,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2026-02-05T04:12:02.271357+00:00",
-                "nav_qnh": 0.0,
+                "last_seen": "2026-02-05T04:14:02.565840+00:00",
+                "nav_qnh": 1019.2,
                 "nav_altitude_mcp": 0,
                 "category": "A7"
             },
@@ -3341,6 +3269,14 @@
                     [
                         -116.972534,
                         32.819138
+                    ],
+                    [
+                        -116.972479,
+                        32.820557
+                    ],
+                    [
+                        -116.972479,
+                        32.820557
                     ]
                 ]
             }
