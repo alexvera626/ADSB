@@ -9,13 +9,13 @@
                 "type": "AS50",
                 "description": "AEROSPATIALE AS-350 Ecureuil",
                 "operator": "LAPD AIR SUPPORT DIVISION",
-                "altitude": 175,
-                "ground_speed": 73.1,
-                "track": 273.14,
+                "altitude": 2100,
+                "ground_speed": 107.5,
+                "track": 45.75,
                 "squawk": "1200",
-                "rssi": -4.4,
+                "rssi": -4.5,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2026-02-05T21:58:02.097461+00:00",
+                "last_seen": "2026-02-05T22:00:02.468285+00:00",
                 "nav_qnh": 1016.0,
                 "nav_altitude_mcp": 10016,
                 "category": "A7"
@@ -23,14 +23,6 @@
             "geometry": {
                 "type": "LineString",
                 "coordinates": [
-                    [
-                        -118.480053,
-                        34.16478
-                    ],
-                    [
-                        -118.480568,
-                        34.16492
-                    ],
                     [
                         -118.528131,
                         34.173981
@@ -418,6 +410,14 @@
                     [
                         -118.619728,
                         34.036622
+                    ],
+                    [
+                        -118.617255,
+                        34.06897
+                    ],
+                    [
+                        -118.617255,
+                        34.06897
                     ]
                 ]
             }
@@ -444,14 +444,6 @@
             "geometry": {
                 "type": "LineString",
                 "coordinates": [
-                    [
-                        -118.617783,
-                        34.341865
-                    ],
-                    [
-                        -118.617783,
-                        34.341865
-                    ],
                     [
                         -118.619609,
                         34.344406
@@ -605,14 +597,6 @@
             "geometry": {
                 "type": "LineString",
                 "coordinates": [
-                    [
-                        -117.688351,
-                        33.863774
-                    ],
-                    [
-                        -117.688854,
-                        33.8638
-                    ],
                     [
                         -117.746944,
                         33.881929
@@ -1027,14 +1011,6 @@
                 "type": "LineString",
                 "coordinates": [
                     [
-                        -117.842943,
-                        33.878311
-                    ],
-                    [
-                        -117.842719,
-                        33.878311
-                    ],
-                    [
                         -117.809535,
                         33.877762
                     ],
@@ -1375,10 +1351,6 @@
             "geometry": {
                 "type": "LineString",
                 "coordinates": [
-                    [
-                        -108.819916,
-                        32.275877
-                    ],
                     [
                         -108.673187,
                         32.25087
@@ -1930,6 +1902,59 @@
                     [
                         -95.389225,
                         30.323227
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "hex": "A15C88",
+                "flight": "TROY317 ",
+                "type": "B350",
+                "description": "BEECHCRAFT Super King Air 350",
+                "operator": "DEPARTMENT OF HOMELAND SECURITY",
+                "altitude": 525,
+                "ground_speed": 161.0,
+                "track": 225.2,
+                "squawk": "4407",
+                "rssi": -49.5,
+                "api_source": "https://api.airplanes.live/v2/hex/",
+                "last_seen": "2026-02-05T18:34:02.437446+00:00",
+                "nav_qnh": 0.0,
+                "nav_altitude_mcp": 0,
+                "category": "Unknown"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -96.671082,
+                        26.792303
+                    ],
+                    [
+                        -96.676735,
+                        26.858917
+                    ],
+                    [
+                        -96.701035,
+                        27.09082
+                    ],
+                    [
+                        -96.635796,
+                        27.166071
+                    ],
+                    [
+                        -96.547539,
+                        27.227921
+                    ],
+                    [
+                        -96.461281,
+                        27.302794
+                    ],
+                    [
+                        -97.244812,
+                        27.666138
                     ]
                 ]
             }
@@ -2662,71 +2687,18 @@
         {
             "type": "Feature",
             "properties": {
-                "hex": "A15C88",
-                "flight": "TROY317 ",
-                "type": "B350",
-                "description": "BEECHCRAFT Super King Air 350",
-                "operator": "DEPARTMENT OF HOMELAND SECURITY",
-                "altitude": 525,
-                "ground_speed": 161.0,
-                "track": 225.2,
-                "squawk": "4407",
-                "rssi": -49.5,
-                "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2026-02-05T18:34:02.437446+00:00",
-                "nav_qnh": 0.0,
-                "nav_altitude_mcp": 0,
-                "category": "Unknown"
-            },
-            "geometry": {
-                "type": "LineString",
-                "coordinates": [
-                    [
-                        -96.671082,
-                        26.792303
-                    ],
-                    [
-                        -96.676735,
-                        26.858917
-                    ],
-                    [
-                        -96.701035,
-                        27.09082
-                    ],
-                    [
-                        -96.635796,
-                        27.166071
-                    ],
-                    [
-                        -96.547539,
-                        27.227921
-                    ],
-                    [
-                        -96.461281,
-                        27.302794
-                    ],
-                    [
-                        -97.244812,
-                        27.666138
-                    ]
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
                 "hex": "AED61D",
                 "flight": "G20980  ",
                 "type": "H60",
                 "description": "Sikorsky UH-60M Black Hawk",
                 "operator": "Unknown",
-                "altitude": 3025,
-                "ground_speed": 82.8,
-                "track": 64.98,
+                "altitude": 3325,
+                "ground_speed": 66.6,
+                "track": 54.16,
                 "squawk": "1200",
-                "rssi": -5.6,
+                "rssi": -10.1,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2026-02-05T21:58:02.097615+00:00",
+                "last_seen": "2026-02-05T22:00:02.468498+00:00",
                 "nav_qnh": 1017.6,
                 "nav_altitude_mcp": 0,
                 "category": "A7"
@@ -3441,6 +3413,14 @@
                     [
                         -117.228076,
                         33.227692
+                    ],
+                    [
+                        -117.228269,
+                        33.228708
+                    ],
+                    [
+                        -117.228269,
+                        33.228708
                     ]
                 ]
             }
@@ -4286,12 +4266,12 @@
                 "description": "Unknown",
                 "operator": "Unknown",
                 "altitude": "ground",
-                "ground_speed": 6.2,
-                "track": 0.0,
+                "ground_speed": 5.8,
+                "track": 165.96,
                 "squawk": "1200",
-                "rssi": -21.9,
+                "rssi": -6.6,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2026-02-05T21:58:02.097631+00:00",
+                "last_seen": "2026-02-05T22:00:02.468515+00:00",
                 "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
                 "category": "A7"
@@ -4714,6 +4694,14 @@
                     [
                         -117.215099,
                         32.704651
+                    ],
+                    [
+                        -117.207903,
+                        32.711632
+                    ],
+                    [
+                        -117.207903,
+                        32.711632
                     ]
                 ]
             }
@@ -5935,13 +5923,13 @@
                 "type": "H60",
                 "description": "Sikorsky MH-60S Seahawk",
                 "operator": "Unknown",
-                "altitude": -100,
-                "ground_speed": 12.7,
-                "track": 288.43,
+                "altitude": 125,
+                "ground_speed": 89.3,
+                "track": 77.05,
                 "squawk": "1200",
-                "rssi": -10.5,
+                "rssi": -18.6,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2026-02-05T21:58:02.097599+00:00",
+                "last_seen": "2026-02-05T22:00:02.468481+00:00",
                 "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
                 "category": "A7"
@@ -6060,6 +6048,14 @@
                     [
                         -117.497098,
                         32.615848
+                    ],
+                    [
+                        -117.507568,
+                        32.635666
+                    ],
+                    [
+                        -117.507568,
+                        32.635666
                     ]
                 ]
             }
