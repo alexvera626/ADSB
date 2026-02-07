@@ -179,12 +179,12 @@
                 "description": "Alenia HC-27J Spartan",
                 "operator": "Unknown",
                 "altitude": 20000,
-                "ground_speed": 275.8,
-                "track": 351.87,
-                "squawk": "N/A",
-                "rssi": -30.5,
+                "ground_speed": 274.8,
+                "track": 351.84,
+                "squawk": "7331",
+                "rssi": -32.6,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2026-02-07T14:30:02.027171+00:00",
+                "last_seen": "2026-02-07T14:32:02.878265+00:00",
                 "nav_qnh": 1013.6,
                 "nav_altitude_mcp": 20000,
                 "category": "A2"
@@ -223,6 +223,14 @@
                     [
                         -92.982159,
                         33.847527
+                    ],
+                    [
+                        -93.009245,
+                        34.006119
+                    ],
+                    [
+                        -93.009245,
+                        34.006119
                     ]
                 ]
             }
@@ -235,13 +243,13 @@
                 "type": "AS65",
                 "description": "Eurocopter MH-65D Dolphin",
                 "operator": "Unknown",
-                "altitude": 150,
-                "ground_speed": 59.4,
-                "track": 302.62,
+                "altitude": 325,
+                "ground_speed": 59.1,
+                "track": 2.91,
                 "squawk": "1200",
                 "rssi": -19.1,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2026-02-07T14:26:02.633315+00:00",
+                "last_seen": "2026-02-07T14:32:02.878202+00:00",
                 "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
                 "category": "A7"
@@ -320,6 +328,10 @@
                     [
                         -80.833667,
                         32.058334
+                    ],
+                    [
+                        -80.823999,
+                        32.060623
                     ]
                 ]
             }
@@ -332,13 +344,13 @@
                 "type": "H60",
                 "description": "Sikorsky MH-60T Jayhawk",
                 "operator": "United States Coast Guard",
-                "altitude": "ground",
-                "ground_speed": 80.0,
-                "track": 340.8,
+                "altitude": 800,
+                "ground_speed": 70.0,
+                "track": 335.3,
                 "squawk": "1200",
                 "rssi": -49.5,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2026-02-07T14:30:02.027135+00:00",
+                "last_seen": "2026-02-07T14:32:02.878236+00:00",
                 "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
                 "category": "Unknown"
@@ -353,6 +365,43 @@
                     [
                         -76.198662,
                         36.344448
+                    ],
+                    [
+                        -76.218292,
+                        36.385323
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "hex": "AE2682",
+                "flight": "C6540   ",
+                "type": "AS65",
+                "description": "Eurocopter MH-65D Dolphin",
+                "operator": "Unknown",
+                "altitude": "ground",
+                "ground_speed": 8.8,
+                "track": 0.0,
+                "squawk": "N/A",
+                "rssi": -15.8,
+                "api_source": "https://api.airplanes.live/v2/hex/",
+                "last_seen": "2026-02-07T14:32:02.878219+00:00",
+                "nav_qnh": 0.0,
+                "nav_altitude_mcp": 0,
+                "category": "A7"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -81.139022,
+                        32.023424
+                    ],
+                    [
+                        -81.139022,
+                        32.023424
                     ]
                 ]
             }
