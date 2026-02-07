@@ -40,14 +40,6 @@
                         21.301292
                     ],
                     [
-                        -158.072497,
-                        21.301292
-                    ],
-                    [
-                        -158.072497,
-                        21.301292
-                    ],
-                    [
                         -158.0725,
                         21.301289
                     ],
@@ -321,14 +313,6 @@
                 "type": "LineString",
                 "coordinates": [
                     [
-                        -94.232806,
-                        30.085144
-                    ],
-                    [
-                        -94.232806,
-                        30.085144
-                    ],
-                    [
                         -94.081036,
                         30.199182
                     ],
@@ -413,14 +397,6 @@
             "geometry": {
                 "type": "LineString",
                 "coordinates": [
-                    [
-                        -75.890341,
-                        37.651566
-                    ],
-                    [
-                        -75.886543,
-                        37.657928
-                    ],
                     [
                         -75.858386,
                         37.705125
@@ -612,13 +588,13 @@
                 "type": "H60",
                 "description": "Sikorsky MH-60T Jayhawk",
                 "operator": "Unknown",
-                "altitude": 175,
-                "ground_speed": 69.3,
-                "track": 226.17,
+                "altitude": 200,
+                "ground_speed": 58.4,
+                "track": 263.12,
                 "squawk": "1200",
-                "rssi": -20.9,
+                "rssi": -15.5,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2026-02-07T23:16:02.507602+00:00",
+                "last_seen": "2026-02-07T23:18:02.628309+00:00",
                 "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
                 "category": "A7"
@@ -626,14 +602,6 @@
             "geometry": {
                 "type": "LineString",
                 "coordinates": [
-                    [
-                        -90.075146,
-                        29.930016
-                    ],
-                    [
-                        -90.075146,
-                        29.930016
-                    ],
                     [
                         -90.098446,
                         29.926529
@@ -1017,75 +985,14 @@
                     [
                         -90.077618,
                         29.935044
-                    ]
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "hex": "AE2686",
-                "flight": "C6547   ",
-                "type": "AS65",
-                "description": "Eurocopter MH-65D Dolphin",
-                "operator": "Unknown",
-                "altitude": 50,
-                "ground_speed": 71.0,
-                "track": 144.74,
-                "squawk": "N/A",
-                "rssi": -25.1,
-                "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2026-02-07T20:12:03.250426+00:00",
-                "nav_qnh": 0.0,
-                "nav_altitude_mcp": 0,
-                "category": "A7"
-            },
-            "geometry": {
-                "type": "LineString",
-                "coordinates": [
-                    [
-                        -124.076317,
-                        44.770294
                     ],
                     [
-                        -124.055077,
-                        46.264731
+                        -90.108545,
+                        29.916144
                     ],
                     [
-                        -124.055077,
-                        46.264731
-                    ],
-                    [
-                        -124.046219,
-                        46.287169
-                    ],
-                    [
-                        -124.046219,
-                        46.287169
-                    ],
-                    [
-                        -124.001815,
-                        46.265167
-                    ],
-                    [
-                        -124.001815,
-                        46.265167
-                    ],
-                    [
-                        -123.966645,
-                        46.23436
-                    ],
-                    [
-                        -123.966645,
-                        46.23436
-                    ],
-                    [
-                        -123.934222,
-                        46.207031
-                    ],
-                    [
-                        -123.934222,
-                        46.207031
+                        -90.108545,
+                        29.916144
                     ]
                 ]
             }
@@ -1112,10 +1019,6 @@
             "geometry": {
                 "type": "LineString",
                 "coordinates": [
-                    [
-                        -80.183868,
-                        25.704712
-                    ],
                     [
                         -80.179036,
                         25.73497
@@ -3562,18 +3465,83 @@
         {
             "type": "Feature",
             "properties": {
+                "hex": "AE2686",
+                "flight": "C6547   ",
+                "type": "AS65",
+                "description": "Eurocopter MH-65D Dolphin",
+                "operator": "Unknown",
+                "altitude": 50,
+                "ground_speed": 71.0,
+                "track": 144.74,
+                "squawk": "N/A",
+                "rssi": -25.1,
+                "api_source": "https://api.airplanes.live/v2/hex/",
+                "last_seen": "2026-02-07T20:12:03.250426+00:00",
+                "nav_qnh": 0.0,
+                "nav_altitude_mcp": 0,
+                "category": "A7"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -124.055077,
+                        46.264731
+                    ],
+                    [
+                        -124.055077,
+                        46.264731
+                    ],
+                    [
+                        -124.046219,
+                        46.287169
+                    ],
+                    [
+                        -124.046219,
+                        46.287169
+                    ],
+                    [
+                        -124.001815,
+                        46.265167
+                    ],
+                    [
+                        -124.001815,
+                        46.265167
+                    ],
+                    [
+                        -123.966645,
+                        46.23436
+                    ],
+                    [
+                        -123.966645,
+                        46.23436
+                    ],
+                    [
+                        -123.934222,
+                        46.207031
+                    ],
+                    [
+                        -123.934222,
+                        46.207031
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
                 "hex": "AE266D",
                 "flight": "C6519   ",
                 "type": "AS65",
                 "description": "Eurocopter MH-65D Dolphin",
                 "operator": "Unknown",
                 "altitude": 1350,
-                "ground_speed": 127.6,
-                "track": 33.81,
+                "ground_speed": 127.5,
+                "track": 24.56,
                 "squawk": "1200",
-                "rssi": -2.2,
+                "rssi": -6.4,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2026-02-07T23:16:02.507583+00:00",
+                "last_seen": "2026-02-07T23:18:02.628290+00:00",
                 "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
                 "category": "A7"
@@ -3652,6 +3620,14 @@
                     [
                         -81.35753,
                         30.38063
+                    ],
+                    [
+                        -81.318274,
+                        30.442789
+                    ],
+                    [
+                        -81.31967,
+                        30.44014
                     ]
                 ]
             }
