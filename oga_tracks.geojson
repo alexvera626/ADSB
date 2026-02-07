@@ -24,14 +24,6 @@
                 "type": "LineString",
                 "coordinates": [
                     [
-                        -118.441586,
-                        34.245026
-                    ],
-                    [
-                        -118.440913,
-                        34.244797
-                    ],
-                    [
                         -118.440514,
                         34.247643
                     ],
@@ -136,14 +128,6 @@
             "geometry": {
                 "type": "LineString",
                 "coordinates": [
-                    [
-                        -117.303058,
-                        32.659241
-                    ],
-                    [
-                        -117.301575,
-                        32.657959
-                    ],
                     [
                         -117.259939,
                         32.625577
@@ -635,13 +619,13 @@
                 "type": "B407",
                 "description": "BELL 407",
                 "operator": "SAN DIEGO COUNTY SHERIFF DEPT",
-                "altitude": 150,
-                "ground_speed": 1.2,
-                "track": 0.0,
+                "altitude": 125,
+                "ground_speed": 1.6,
+                "track": 315.0,
                 "squawk": "1200",
-                "rssi": -21.8,
+                "rssi": -19.9,
                 "api_source": "https://opendata.adsb.fi/api/v2/hex/",
-                "last_seen": "2026-02-07T03:46:02.861173+00:00",
+                "last_seen": "2026-02-07T03:48:02.275738+00:00",
                 "nav_qnh": 1020.0,
                 "nav_altitude_mcp": 0,
                 "category": "A7"
@@ -649,14 +633,6 @@
             "geometry": {
                 "type": "LineString",
                 "coordinates": [
-                    [
-                        -116.972589,
-                        32.820694
-                    ],
-                    [
-                        -116.972589,
-                        32.820465
-                    ],
                     [
                         -116.972444,
                         32.820585
@@ -984,67 +960,10 @@
                     [
                         -116.972424,
                         32.820053
-                    ]
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "hex": "A054AD",
-                "flight": "N120LA  ",
-                "type": "B412",
-                "description": "BELL 412",
-                "operator": "COUNTY OF LOS ANGELES FIRE DEPT",
-                "altitude": 700,
-                "ground_speed": 0.7,
-                "track": 0.0,
-                "squawk": "1206",
-                "rssi": -25.1,
-                "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2026-02-07T00:06:02.902398+00:00",
-                "nav_qnh": 0.0,
-                "nav_altitude_mcp": 0,
-                "category": "A0"
-            },
-            "geometry": {
-                "type": "LineString",
-                "coordinates": [
-                    [
-                        -118.374659,
-                        34.425934
                     ],
                     [
-                        -118.369334,
-                        34.40593
-                    ],
-                    [
-                        -118.369109,
-                        34.406387
-                    ],
-                    [
-                        -118.384132,
-                        34.364227
-                    ],
-                    [
-                        -118.384132,
-                        34.364227
-                    ],
-                    [
-                        -118.408642,
-                        34.280928
-                    ],
-                    [
-                        -118.408627,
-                        34.280731
-                    ],
-                    [
-                        -118.406945,
-                        34.258438
-                    ],
-                    [
-                        -118.406889,
-                        34.258438
+                        -116.972424,
+                        32.820099
                     ]
                 ]
             }
@@ -1071,14 +990,6 @@
             "geometry": {
                 "type": "LineString",
                 "coordinates": [
-                    [
-                        -117.700121,
-                        34.588303
-                    ],
-                    [
-                        -117.701466,
-                        34.588257
-                    ],
                     [
                         -117.783051,
                         34.588406
@@ -1776,10 +1687,6 @@
             "geometry": {
                 "type": "LineString",
                 "coordinates": [
-                    [
-                        -116.876221,
-                        33.797623
-                    ],
                     [
                         -116.946548,
                         33.784332
@@ -3558,6 +3465,63 @@
         {
             "type": "Feature",
             "properties": {
+                "hex": "A054AD",
+                "flight": "N120LA  ",
+                "type": "B412",
+                "description": "BELL 412",
+                "operator": "COUNTY OF LOS ANGELES FIRE DEPT",
+                "altitude": 700,
+                "ground_speed": 0.7,
+                "track": 0.0,
+                "squawk": "1206",
+                "rssi": -25.1,
+                "api_source": "https://api.airplanes.live/v2/hex/",
+                "last_seen": "2026-02-07T00:06:02.902398+00:00",
+                "nav_qnh": 0.0,
+                "nav_altitude_mcp": 0,
+                "category": "A0"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -118.369334,
+                        34.40593
+                    ],
+                    [
+                        -118.369109,
+                        34.406387
+                    ],
+                    [
+                        -118.384132,
+                        34.364227
+                    ],
+                    [
+                        -118.384132,
+                        34.364227
+                    ],
+                    [
+                        -118.408642,
+                        34.280928
+                    ],
+                    [
+                        -118.408627,
+                        34.280731
+                    ],
+                    [
+                        -118.406945,
+                        34.258438
+                    ],
+                    [
+                        -118.406889,
+                        34.258438
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
                 "hex": "A5F058",
                 "flight": "CFR601  ",
                 "type": "H60",
@@ -4352,13 +4316,13 @@
                 "type": "H60",
                 "description": "SIKORSKY UH-60 Black Hawk",
                 "operator": "Unknown",
-                "altitude": 0,
-                "ground_speed": 74.0,
-                "track": 196.48,
-                "squawk": "1200",
-                "rssi": -23.2,
+                "altitude": -175,
+                "ground_speed": 18.4,
+                "track": 202.38,
+                "squawk": "N/A",
+                "rssi": -12.9,
                 "api_source": "https://opendata.adsb.fi/api/v2/hex/",
-                "last_seen": "2026-02-07T03:46:02.861210+00:00",
+                "last_seen": "2026-02-07T03:48:02.275780+00:00",
                 "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
                 "category": "A7"
@@ -4669,6 +4633,10 @@
                     [
                         -117.625795,
                         32.492252
+                    ],
+                    [
+                        -117.637097,
+                        32.472794
                     ]
                 ]
             }
