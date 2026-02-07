@@ -436,13 +436,13 @@
                 "type": "B06",
                 "description": "BELL 206 JetRanger",
                 "operator": "PASADENA POLICE DEPARTMENT",
-                "altitude": 1800,
-                "ground_speed": 80.2,
-                "track": 112.73,
+                "altitude": 1500,
+                "ground_speed": 71.6,
+                "track": 15.4,
                 "squawk": "1200",
-                "rssi": -7.9,
+                "rssi": -6.3,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2026-02-07T07:24:02.512952+00:00",
+                "last_seen": "2026-02-07T07:26:02.636243+00:00",
                 "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
                 "category": "A7"
@@ -745,6 +745,14 @@
                     [
                         -118.119621,
                         34.171251
+                    ],
+                    [
+                        -118.089352,
+                        34.147975
+                    ],
+                    [
+                        -118.08907,
+                        34.148621
                     ]
                 ]
             }
@@ -1974,13 +1982,13 @@
                 "type": "AS50",
                 "description": "AEROSPATIALE AS-350 Ecureuil",
                 "operator": "TINY BUBBLES AVIATION INC",
-                "altitude": 1625,
-                "ground_speed": 103.8,
-                "track": 290.88,
+                "altitude": 1975,
+                "ground_speed": 108.0,
+                "track": 262.02,
                 "squawk": "1200",
-                "rssi": -5.9,
+                "rssi": -9.1,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2026-02-07T07:24:02.512984+00:00",
+                "last_seen": "2026-02-07T07:26:02.636262+00:00",
                 "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
                 "category": "A7"
@@ -2075,6 +2083,43 @@
                     [
                         -118.125504,
                         34.161392
+                    ],
+                    [
+                        -118.189087,
+                        34.175022
+                    ],
+                    [
+                        -118.190245,
+                        34.174896
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "hex": "AC4597",
+                "flight": "REH46   ",
+                "type": "EC35",
+                "description": "AIRBUS HELICOPTERS EC-135/635",
+                "operator": "REACH AIR MEDICAL SERVICES LLC",
+                "altitude": 900,
+                "ground_speed": 116.3,
+                "track": 319.18,
+                "squawk": "2141",
+                "rssi": -32.6,
+                "api_source": "https://opendata.adsb.fi/api/v2/hex/",
+                "last_seen": "2026-02-07T07:26:02.636048+00:00",
+                "nav_qnh": 1014.4,
+                "nav_altitude_mcp": 0,
+                "category": "A7"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -156.064436,
+                        19.783677
                     ]
                 ]
             }
