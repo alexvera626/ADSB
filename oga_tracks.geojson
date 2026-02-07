@@ -9,13 +9,13 @@
                 "type": "SHIP",
                 "description": "Zeppelin LZ N07-101",
                 "operator": "GOODYEAR TIRE & RUBBER CO",
-                "altitude": 2225,
-                "ground_speed": 50.0,
-                "track": 253.74,
+                "altitude": 2075,
+                "ground_speed": 49.3,
+                "track": 252.3,
                 "squawk": "1200",
-                "rssi": -13.2,
+                "rssi": -9.1,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2026-02-07T23:52:01.921586+00:00",
+                "last_seen": "2026-02-07T23:54:02.216679+00:00",
                 "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
                 "category": "B2"
@@ -23,22 +23,6 @@
             "geometry": {
                 "type": "LineString",
                 "coordinates": [
-                    [
-                        -111.924076,
-                        33.645304
-                    ],
-                    [
-                        -111.924191,
-                        33.645304
-                    ],
-                    [
-                        -111.925507,
-                        33.644652
-                    ],
-                    [
-                        -111.925507,
-                        33.644652
-                    ],
                     [
                         -111.92546,
                         33.644211
@@ -990,79 +974,14 @@
                     [
                         -112.159081,
                         33.565374
-                    ]
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "hex": "A38627",
-                "flight": "REH81   ",
-                "type": "EC35",
-                "description": "AIRBUS HELICOPTERS EC-135/635",
-                "operator": "REACH AIR MEDICAL SERVICES LLC",
-                "altitude": 75,
-                "ground_speed": 33.0,
-                "track": 305.13,
-                "squawk": "1200",
-                "rssi": -6.3,
-                "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2026-02-07T20:34:01.988907+00:00",
-                "nav_qnh": 0.0,
-                "nav_altitude_mcp": 0,
-                "category": "A7"
-            },
-            "geometry": {
-                "type": "LineString",
-                "coordinates": [
-                    [
-                        -116.415729,
-                        33.817291
                     ],
                     [
-                        -116.416626,
-                        33.817612
+                        -112.189522,
+                        33.555924
                     ],
                     [
-                        -116.483402,
-                        33.827649
-                    ],
-                    [
-                        -116.483402,
-                        33.827649
-                    ],
-                    [
-                        -116.448464,
-                        33.808731
-                    ],
-                    [
-                        -116.448464,
-                        33.808731
-                    ],
-                    [
-                        -116.370735,
-                        33.781749
-                    ],
-                    [
-                        -116.370735,
-                        33.781749
-                    ],
-                    [
-                        -116.302503,
-                        33.748215
-                    ],
-                    [
-                        -116.302503,
-                        33.748215
-                    ],
-                    [
-                        -116.265844,
-                        33.742447
-                    ],
-                    [
-                        -116.266068,
-                        33.742584
+                        -112.190085,
+                        33.555771
                     ]
                 ]
             }
@@ -1075,13 +994,13 @@
                 "type": "H500",
                 "description": "HUGHES 500",
                 "operator": "CITY OF RIVERSIDE",
-                "altitude": 1075,
-                "ground_speed": 74.0,
-                "track": 279.34,
+                "altitude": "ground",
+                "ground_speed": 1.4,
+                "track": 11.31,
                 "squawk": "0132",
-                "rssi": -5.1,
+                "rssi": -22.7,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2026-02-07T23:52:01.921619+00:00",
+                "last_seen": "2026-02-07T23:54:02.216716+00:00",
                 "nav_qnh": 1019.2,
                 "nav_altitude_mcp": 0,
                 "category": "A7"
@@ -1089,22 +1008,6 @@
             "geometry": {
                 "type": "LineString",
                 "coordinates": [
-                    [
-                        -117.346172,
-                        33.880858
-                    ],
-                    [
-                        -117.34654,
-                        33.880829
-                    ],
-                    [
-                        -117.313614,
-                        33.876063
-                    ],
-                    [
-                        -117.310723,
-                        33.875107
-                    ],
                     [
                         -117.257881,
                         33.849017
@@ -1632,6 +1535,71 @@
                     [
                         -117.436,
                         33.942398
+                    ],
+                    [
+                        -117.447211,
+                        33.955502
+                    ],
+                    [
+                        -117.447211,
+                        33.955513
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "hex": "A38627",
+                "flight": "REH81   ",
+                "type": "EC35",
+                "description": "AIRBUS HELICOPTERS EC-135/635",
+                "operator": "REACH AIR MEDICAL SERVICES LLC",
+                "altitude": 75,
+                "ground_speed": 33.0,
+                "track": 305.13,
+                "squawk": "1200",
+                "rssi": -6.3,
+                "api_source": "https://api.airplanes.live/v2/hex/",
+                "last_seen": "2026-02-07T20:34:01.988907+00:00",
+                "nav_qnh": 0.0,
+                "nav_altitude_mcp": 0,
+                "category": "A7"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -116.448464,
+                        33.808731
+                    ],
+                    [
+                        -116.448464,
+                        33.808731
+                    ],
+                    [
+                        -116.370735,
+                        33.781749
+                    ],
+                    [
+                        -116.370735,
+                        33.781749
+                    ],
+                    [
+                        -116.302503,
+                        33.748215
+                    ],
+                    [
+                        -116.302503,
+                        33.748215
+                    ],
+                    [
+                        -116.265844,
+                        33.742447
+                    ],
+                    [
+                        -116.266068,
+                        33.742584
                     ]
                 ]
             }
@@ -2226,12 +2194,12 @@
                 "description": "BELL UH-1 Huey",
                 "operator": "ORANGE COUNTY SHERIFFS DEPARTMENT",
                 "altitude": 900,
-                "ground_speed": 46.5,
-                "track": 8.65,
+                "ground_speed": 84.7,
+                "track": 262.54,
                 "squawk": "4204",
-                "rssi": -5.8,
+                "rssi": -8.7,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2026-02-07T23:52:01.921570+00:00",
+                "last_seen": "2026-02-07T23:54:02.216619+00:00",
                 "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
                 "category": "A7"
@@ -2382,6 +2350,14 @@
                     [
                         -117.759418,
                         33.561091
+                    ],
+                    [
+                        -117.770519,
+                        33.56165
+                    ],
+                    [
+                        -117.7717,
+                        33.561539
                     ]
                 ]
             }
@@ -2394,13 +2370,13 @@
                 "type": "AS50",
                 "description": "AEROSPATIALE AS-350 Ecureuil",
                 "operator": "COUNTY OF RIVERSIDE CALIFORNIA",
-                "altitude": 2875,
-                "ground_speed": 59.9,
-                "track": 207.85,
+                "altitude": 3675,
+                "ground_speed": 60.5,
+                "track": 112.33,
                 "squawk": "0131",
-                "rssi": -6.0,
+                "rssi": -7.5,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2026-02-07T23:52:01.921603+00:00",
+                "last_seen": "2026-02-07T23:54:02.216699+00:00",
                 "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
                 "category": "A7"
@@ -2519,6 +2495,14 @@
                     [
                         -117.539463,
                         33.776255
+                    ],
+                    [
+                        -117.547531,
+                        33.757821
+                    ],
+                    [
+                        -117.54673,
+                        33.757541
                     ]
                 ]
             }
