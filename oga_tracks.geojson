@@ -8,14 +8,14 @@
                 "flight": "JENA1   ",
                 "type": "B752",
                 "description": "BOEING 757-200",
-                "operator": "UNITED STATES GOVERNMENT",
-                "altitude": 37025,
-                "ground_speed": 452.9,
-                "track": 141.81,
+                "operator": "UNITED STATES GOVERNMENT, DEPARTMENT OF JUSTICE",
+                "altitude": 37000,
+                "ground_speed": 457.3,
+                "track": 141.93,
                 "squawk": "0511",
-                "rssi": -35.2,
-                "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2026-02-08T20:48:02.354377+00:00",
+                "rssi": -6.2,
+                "api_source": "https://opendata.adsb.fi/api/v2/hex/",
+                "last_seen": "2026-02-08T20:50:02.502085+00:00",
                 "nav_qnh": 1013.6,
                 "nav_altitude_mcp": 0,
                 "category": "A4"
@@ -23,22 +23,6 @@
             "geometry": {
                 "type": "LineString",
                 "coordinates": [
-                    [
-                        -90.646493,
-                        43.113936
-                    ],
-                    [
-                        -90.647746,
-                        43.114334
-                    ],
-                    [
-                        -90.931091,
-                        43.206854
-                    ],
-                    [
-                        -90.933774,
-                        43.207718
-                    ],
                     [
                         -91.22191,
                         43.301056
@@ -718,6 +702,10 @@
                     [
                         -109.639267,
                         44.711655
+                    ],
+                    [
+                        -109.383031,
+                        44.478336
                     ]
                 ]
             }
@@ -744,22 +732,6 @@
             "geometry": {
                 "type": "LineString",
                 "coordinates": [
-                    [
-                        -118.2091,
-                        32.588516
-                    ],
-                    [
-                        -118.2091,
-                        32.588516
-                    ],
-                    [
-                        -118.328079,
-                        32.585542
-                    ],
-                    [
-                        -118.329181,
-                        32.585495
-                    ],
                     [
                         -118.451404,
                         32.582794
@@ -958,6 +930,71 @@
         {
             "type": "Feature",
             "properties": {
+                "hex": "A68BD9",
+                "flight": "N5204G  ",
+                "type": "AS50",
+                "description": "AEROSPATIALE AS-350 Ecureuil",
+                "operator": "U S DEPT OF HOMELAND SECURITY",
+                "altitude": 600,
+                "ground_speed": 10.7,
+                "track": 48.81,
+                "squawk": "1200",
+                "rssi": -23.5,
+                "api_source": "https://api.airplanes.live/v2/hex/",
+                "last_seen": "2026-02-08T17:00:02.138526+00:00",
+                "nav_qnh": 0.0,
+                "nav_altitude_mcp": 0,
+                "category": "A7"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -100.7547,
+                        29.196865
+                    ],
+                    [
+                        -100.755034,
+                        29.197266
+                    ],
+                    [
+                        -100.800934,
+                        29.252335
+                    ],
+                    [
+                        -100.800934,
+                        29.252335
+                    ],
+                    [
+                        -100.852749,
+                        29.299988
+                    ],
+                    [
+                        -100.852749,
+                        29.299988
+                    ],
+                    [
+                        -100.904459,
+                        29.347412
+                    ],
+                    [
+                        -100.904459,
+                        29.347412
+                    ],
+                    [
+                        -100.924055,
+                        29.373459
+                    ],
+                    [
+                        -100.924055,
+                        29.373459
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
                 "hex": "A38627",
                 "flight": "REH81   ",
                 "type": "EC35",
@@ -977,22 +1014,6 @@
             "geometry": {
                 "type": "LineString",
                 "coordinates": [
-                    [
-                        -116.281757,
-                        33.773602
-                    ],
-                    [
-                        -116.281763,
-                        33.773758
-                    ],
-                    [
-                        -116.281315,
-                        33.811111
-                    ],
-                    [
-                        -116.281315,
-                        33.811432
-                    ],
                     [
                         -116.28067,
                         33.850087
@@ -1088,79 +1109,6 @@
                     [
                         -116.269712,
                         33.744186
-                    ]
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "hex": "A68BD9",
-                "flight": "N5204G  ",
-                "type": "AS50",
-                "description": "AEROSPATIALE AS-350 Ecureuil",
-                "operator": "U S DEPT OF HOMELAND SECURITY",
-                "altitude": 600,
-                "ground_speed": 10.7,
-                "track": 48.81,
-                "squawk": "1200",
-                "rssi": -23.5,
-                "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2026-02-08T17:00:02.138526+00:00",
-                "nav_qnh": 0.0,
-                "nav_altitude_mcp": 0,
-                "category": "A7"
-            },
-            "geometry": {
-                "type": "LineString",
-                "coordinates": [
-                    [
-                        -100.70343,
-                        29.135277
-                    ],
-                    [
-                        -100.70343,
-                        29.135277
-                    ],
-                    [
-                        -100.7547,
-                        29.196865
-                    ],
-                    [
-                        -100.755034,
-                        29.197266
-                    ],
-                    [
-                        -100.800934,
-                        29.252335
-                    ],
-                    [
-                        -100.800934,
-                        29.252335
-                    ],
-                    [
-                        -100.852749,
-                        29.299988
-                    ],
-                    [
-                        -100.852749,
-                        29.299988
-                    ],
-                    [
-                        -100.904459,
-                        29.347412
-                    ],
-                    [
-                        -100.904459,
-                        29.347412
-                    ],
-                    [
-                        -100.924055,
-                        29.373459
-                    ],
-                    [
-                        -100.924055,
-                        29.373459
                     ]
                 ]
             }
@@ -1736,13 +1684,13 @@
                 "type": "SHIP",
                 "description": "Zeppelin LZ N07-101",
                 "operator": "GOODYEAR TIRE & RUBBER CO",
-                "altitude": 1850,
-                "ground_speed": 23.0,
-                "track": 180.0,
+                "altitude": 1825,
+                "ground_speed": 18.3,
+                "track": 279.46,
                 "squawk": "1200",
-                "rssi": -6.2,
+                "rssi": -12.6,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2026-02-08T20:48:02.354440+00:00",
+                "last_seen": "2026-02-08T20:50:02.502446+00:00",
                 "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
                 "category": "B2"
@@ -2429,6 +2377,14 @@
                     [
                         -111.924305,
                         33.637297
+                    ],
+                    [
+                        -111.921272,
+                        33.634178
+                    ],
+                    [
+                        -111.921272,
+                        33.634178
                     ]
                 ]
             }
@@ -2441,13 +2397,13 @@
                 "type": "AS50",
                 "description": "AEROSPATIALE AS-350 Ecureuil",
                 "operator": "LAPD AIR SUPPORT DIVISION",
-                "altitude": 50,
-                "ground_speed": 48.3,
-                "track": 124.02,
-                "squawk": "1200",
-                "rssi": -3.9,
+                "altitude": -50,
+                "ground_speed": 51.7,
+                "track": 137.35,
+                "squawk": "N/A",
+                "rssi": -26.8,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2026-02-08T20:48:02.354409+00:00",
+                "last_seen": "2026-02-08T20:50:02.502413+00:00",
                 "nav_qnh": 1024.8,
                 "nav_altitude_mcp": 10016,
                 "category": "A7"
@@ -2926,6 +2882,14 @@
                     [
                         -118.527402,
                         34.027771
+                    ],
+                    [
+                        -118.504486,
+                        34.013206
+                    ],
+                    [
+                        -118.504486,
+                        34.013206
                     ]
                 ]
             }
@@ -3304,13 +3268,13 @@
                 "type": "B412",
                 "description": "BELL 412",
                 "operator": "COUNTY OF LOS ANGELES FIRE DEPT",
-                "altitude": 1400,
-                "ground_speed": 86.1,
-                "track": 273.33,
+                "altitude": 2200,
+                "ground_speed": 91.2,
+                "track": 176.23,
                 "squawk": "1206",
-                "rssi": -7.2,
+                "rssi": -24.3,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2026-02-08T20:48:02.354425+00:00",
+                "last_seen": "2026-02-08T20:50:02.502430+00:00",
                 "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
                 "category": "A7"
@@ -3489,6 +3453,14 @@
                     [
                         -118.771133,
                         34.118601
+                    ],
+                    [
+                        -118.817475,
+                        34.102798
+                    ],
+                    [
+                        -118.817475,
+                        34.102798
                     ]
                 ]
             }
