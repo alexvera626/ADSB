@@ -9,13 +9,13 @@
                 "type": "AS65",
                 "description": "Eurocopter MH-65D Dolphin",
                 "operator": "Unknown",
-                "altitude": -150,
-                "ground_speed": 11.1,
-                "track": 354.81,
+                "altitude": "ground",
+                "ground_speed": 0.0,
+                "track": 0.0,
                 "squawk": "1200",
                 "rssi": null,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2026-02-08T03:38:02.397634+00:00",
+                "last_seen": "2026-02-08T03:40:02.616785+00:00",
                 "nav_qnh": null,
                 "nav_altitude_mcp": null,
                 "category": "A7"
@@ -23,8 +23,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -81.890277,
-                    30.218687
+                    -81.889357,
+                    30.220882
                 ]
             }
         },
@@ -37,12 +37,12 @@
                 "description": "Lockheed Martin HC-130J Hercules",
                 "operator": "Unknown",
                 "altitude": 5300,
-                "ground_speed": 200.0,
-                "track": 87.0,
+                "ground_speed": 148.0,
+                "track": 104.0,
                 "squawk": "1200",
                 "rssi": null,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2026-02-08T03:38:02.397654+00:00",
+                "last_seen": "2026-02-08T03:40:02.616848+00:00",
                 "nav_qnh": null,
                 "nav_altitude_mcp": null,
                 "category": "Unknown"
@@ -50,8 +50,35 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -118.255291,
-                    32.694313
+                    -118.158795,
+                    32.669383
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "hex": "AE6CEC",
+                "flight": "Unknown",
+                "type": "H60",
+                "description": "Sikorsky MH-60T Jayhawk",
+                "operator": "United States Coast Guard",
+                "altitude": 100,
+                "ground_speed": 0.0,
+                "track": 0.0,
+                "squawk": "1277",
+                "rssi": null,
+                "api_source": "https://api.airplanes.live/v2/hex/",
+                "last_seen": "2026-02-08T03:40:02.616867+00:00",
+                "nav_qnh": null,
+                "nav_altitude_mcp": null,
+                "category": "Unknown"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -118.444739,
+                    33.970688
                 ]
             }
         }
