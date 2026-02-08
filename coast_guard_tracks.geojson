@@ -3570,14 +3570,14 @@
                 "description": "CASA HC-144B Ocean Sentry",
                 "operator": "United States Coast Guard",
                 "altitude": 2125,
-                "ground_speed": 162.0,
-                "track": 270.0,
+                "ground_speed": 170.0,
+                "track": 90.0,
                 "squawk": "6254",
                 "rssi": -49.5,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2026-02-08T17:12:02.407684+00:00",
-                "nav_qnh": 0.0,
-                "nav_altitude_mcp": 0,
+                "last_seen": "2026-02-08T17:14:02.597313+00:00",
+                "nav_qnh": 1027.2,
+                "nav_altitude_mcp": 2496,
                 "category": "A2"
             },
             "geometry": {
@@ -4142,6 +4142,14 @@
                     [
                         -88.400116,
                         30.316586
+                    ],
+                    [
+                        -88.445758,
+                        30.287384
+                    ],
+                    [
+                        -88.429123,
+                        30.283859
                     ]
                 ]
             }
@@ -5121,13 +5129,13 @@
                 "type": "Unknown",
                 "description": "Unknown",
                 "operator": "Unknown",
-                "altitude": 1175,
-                "ground_speed": 88.2,
-                "track": 3.9,
+                "altitude": 1125,
+                "ground_speed": 0.0,
+                "track": 0.0,
                 "squawk": "N/A",
-                "rssi": -26.3,
+                "rssi": -26.1,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2026-02-08T17:12:02.407716+00:00",
+                "last_seen": "2026-02-08T17:14:02.597395+00:00",
                 "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
                 "category": "A7"
@@ -5262,6 +5270,14 @@
                     [
                         -85.756598,
                         44.843957
+                    ],
+                    [
+                        -85.760912,
+                        44.898697
+                    ],
+                    [
+                        -85.760751,
+                        44.897026
                     ]
                 ]
             }
@@ -5432,13 +5448,13 @@
                 "type": "AS65",
                 "description": "Eurocopter MH-65D Dolphin",
                 "operator": "Unknown",
-                "altitude": -50,
-                "ground_speed": 57.7,
-                "track": 351.03,
+                "altitude": -275,
+                "ground_speed": 7.1,
+                "track": 81.87,
                 "squawk": "1200",
-                "rssi": -4.7,
+                "rssi": -9.7,
                 "api_source": "https://opendata.adsb.fi/api/v2/hex/",
-                "last_seen": "2026-02-08T17:12:02.406977+00:00",
+                "last_seen": "2026-02-08T17:14:02.597044+00:00",
                 "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
                 "category": "A7"
@@ -5549,6 +5565,10 @@
                     [
                         -81.317193,
                         30.46225
+                    ],
+                    [
+                        -81.306583,
+                        30.462479
                     ]
                 ]
             }
@@ -5590,6 +5610,35 @@
                     [
                         -124.192017,
                         40.844925
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "hex": "AE4E02",
+                "flight": "Unknown",
+                "type": "H60",
+                "description": "Sikorsky MH-60T Jayhawk",
+                "operator": "Unknown",
+                "altitude": 375,
+                "ground_speed": 68.0,
+                "track": 32.99,
+                "squawk": "N/A",
+                "rssi": -20.9,
+                "api_source": "https://opendata.adsb.fi/api/v2/hex/",
+                "last_seen": "2026-02-08T17:14:02.597129+00:00",
+                "nav_qnh": 0.0,
+                "nav_altitude_mcp": 0,
+                "category": "Unknown"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -70.532865,
+                        41.66658
                     ]
                 ]
             }
