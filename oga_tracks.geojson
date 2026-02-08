@@ -9,28 +9,20 @@
                 "type": "B752",
                 "description": "BOEING 757-200",
                 "operator": "UNITED STATES GOVERNMENT",
-                "altitude": 37000,
-                "ground_speed": 471.6,
-                "track": 174.04,
-                "squawk": "0511",
-                "rssi": -29.0,
+                "altitude": 0,
+                "ground_speed": 0.0,
+                "track": 0.0,
+                "squawk": "N/A",
+                "rssi": -30.4,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2026-02-08T21:46:02.434084+00:00",
-                "nav_qnh": 1013.6,
+                "last_seen": "2026-02-08T21:48:02.666036+00:00",
+                "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
                 "category": "A4"
             },
             "geometry": {
                 "type": "LineString",
                 "coordinates": [
-                    [
-                        -99.900709,
-                        44.949005
-                    ],
-                    [
-                        -99.900709,
-                        44.949005
-                    ],
                     [
                         -100.231149,
                         44.974686
@@ -714,6 +706,10 @@
                     [
                         -106.214746,
                         37.431816
+                    ],
+                    [
+                        -106.180933,
+                        37.171371
                     ]
                 ]
             }
@@ -726,13 +722,13 @@
                 "type": "AS50",
                 "description": "AEROSPATIALE AS-350 Ecureuil",
                 "operator": "COUNTY OF RIVERSIDE CALIFORNIA",
-                "altitude": 1575,
-                "ground_speed": 84.2,
-                "track": 339.84,
+                "altitude": 1700,
+                "ground_speed": 93.9,
+                "track": 341.37,
                 "squawk": "0131",
-                "rssi": -3.6,
+                "rssi": -10.8,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2026-02-08T21:46:02.434176+00:00",
+                "last_seen": "2026-02-08T21:48:02.666152+00:00",
                 "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
                 "category": "A7"
@@ -740,14 +736,6 @@
             "geometry": {
                 "type": "LineString",
                 "coordinates": [
-                    [
-                        -117.364025,
-                        33.98197
-                    ],
-                    [
-                        -117.364025,
-                        33.98197
-                    ],
                     [
                         -117.424678,
                         33.991699
@@ -999,71 +987,14 @@
                     [
                         -117.24615,
                         33.835602
-                    ]
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "hex": "A38627",
-                "flight": "REH81   ",
-                "type": "EC35",
-                "description": "AIRBUS HELICOPTERS EC-135/635",
-                "operator": "REACH AIR MEDICAL SERVICES LLC",
-                "altitude": -175,
-                "ground_speed": 3.7,
-                "track": 303.69,
-                "squawk": "1200",
-                "rssi": -12.0,
-                "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2026-02-08T18:20:02.298973+00:00",
-                "nav_qnh": 0.0,
-                "nav_altitude_mcp": 0,
-                "category": "A7"
-            },
-            "geometry": {
-                "type": "LineString",
-                "coordinates": [
-                    [
-                        -116.542801,
-                        33.832947
                     ],
                     [
-                        -116.542801,
-                        33.832947
+                        -117.267226,
+                        33.881332
                     ],
                     [
-                        -116.407013,
-                        33.795807
-                    ],
-                    [
-                        -116.405811,
-                        33.795342
-                    ],
-                    [
-                        -116.335659,
-                        33.766666
-                    ],
-                    [
-                        -116.334621,
-                        33.766068
-                    ],
-                    [
-                        -116.270272,
-                        33.731369
-                    ],
-                    [
-                        -116.270272,
-                        33.731369
-                    ],
-                    [
-                        -116.269684,
-                        33.744181
-                    ],
-                    [
-                        -116.269712,
-                        33.744186
+                        -117.267001,
+                        33.880829
                     ]
                 ]
             }
@@ -1076,13 +1007,13 @@
                 "type": "SHIP",
                 "description": "Zeppelin LZ N07-101",
                 "operator": "GOODYEAR TIRE & RUBBER CO",
-                "altitude": 1900,
-                "ground_speed": 15.7,
-                "track": 116.57,
+                "altitude": 1825,
+                "ground_speed": 21.1,
+                "track": 354.56,
                 "squawk": "1200",
-                "rssi": -11.6,
+                "rssi": -11.7,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2026-02-08T21:46:02.434157+00:00",
+                "last_seen": "2026-02-08T21:48:02.666132+00:00",
                 "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
                 "category": "B2"
@@ -2001,6 +1932,71 @@
                     [
                         -111.913204,
                         33.631478
+                    ],
+                    [
+                        -111.904278,
+                        33.637902
+                    ],
+                    [
+                        -111.904278,
+                        33.637902
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "hex": "A38627",
+                "flight": "REH81   ",
+                "type": "EC35",
+                "description": "AIRBUS HELICOPTERS EC-135/635",
+                "operator": "REACH AIR MEDICAL SERVICES LLC",
+                "altitude": -175,
+                "ground_speed": 3.7,
+                "track": 303.69,
+                "squawk": "1200",
+                "rssi": -12.0,
+                "api_source": "https://api.airplanes.live/v2/hex/",
+                "last_seen": "2026-02-08T18:20:02.298973+00:00",
+                "nav_qnh": 0.0,
+                "nav_altitude_mcp": 0,
+                "category": "A7"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -116.407013,
+                        33.795807
+                    ],
+                    [
+                        -116.405811,
+                        33.795342
+                    ],
+                    [
+                        -116.335659,
+                        33.766666
+                    ],
+                    [
+                        -116.334621,
+                        33.766068
+                    ],
+                    [
+                        -116.270272,
+                        33.731369
+                    ],
+                    [
+                        -116.270272,
+                        33.731369
+                    ],
+                    [
+                        -116.269684,
+                        33.744181
+                    ],
+                    [
+                        -116.269712,
+                        33.744186
                     ]
                 ]
             }
@@ -3153,13 +3149,13 @@
                 "type": "B412",
                 "description": "BELL 412",
                 "operator": "COUNTY OF LOS ANGELES FIRE DEPT",
-                "altitude": 1100,
-                "ground_speed": 47.0,
-                "track": 268.78,
+                "altitude": 1200,
+                "ground_speed": 2.1,
+                "track": 180.0,
                 "squawk": "1206",
-                "rssi": -2.9,
+                "rssi": -4.1,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2026-02-08T21:46:02.434101+00:00",
+                "last_seen": "2026-02-08T21:48:02.666061+00:00",
                 "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
                 "category": "A7"
@@ -3506,6 +3502,14 @@
                     [
                         -118.631997,
                         34.051483
+                    ],
+                    [
+                        -118.626952,
+                        34.053406
+                    ],
+                    [
+                        -118.626952,
+                        34.053406
                     ]
                 ]
             }
