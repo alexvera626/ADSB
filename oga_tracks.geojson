@@ -24,14 +24,6 @@
                 "type": "LineString",
                 "coordinates": [
                     [
-                        -117.5625,
-                        32.357254
-                    ],
-                    [
-                        -117.5625,
-                        32.357254
-                    ],
-                    [
                         -117.566455,
                         32.469681
                     ],
@@ -889,14 +881,6 @@
                 "type": "LineString",
                 "coordinates": [
                     [
-                        -83.200749,
-                        35.70957
-                    ],
-                    [
-                        -83.200749,
-                        35.70957
-                    ],
-                    [
                         -83.348408,
                         35.624496
                     ],
@@ -1145,14 +1129,6 @@
             "geometry": {
                 "type": "LineString",
                 "coordinates": [
-                    [
-                        -118.227768,
-                        33.969168
-                    ],
-                    [
-                        -118.227768,
-                        33.969168
-                    ],
                     [
                         -118.260956,
                         34.031362
@@ -1846,12 +1822,12 @@
                 "description": "GENERAL ATOMICS MQ-9 Reaper",
                 "operator": "GENERAL ATOMICS AERONAUTICAL SYSTEMS INC",
                 "altitude": 6300,
-                "ground_speed": 135.4,
-                "track": 94.24,
+                "ground_speed": 122.1,
+                "track": 178.12,
                 "squawk": "5216",
-                "rssi": -6.9,
+                "rssi": -5.1,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2026-02-09T18:14:02.346273+00:00",
+                "last_seen": "2026-02-09T18:16:02.534073+00:00",
                 "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
                 "category": "B6"
@@ -2470,6 +2446,14 @@
                     [
                         -117.656708,
                         34.601859
+                    ],
+                    [
+                        -117.591076,
+                        34.575278
+                    ],
+                    [
+                        -117.591076,
+                        34.575278
                     ]
                 ]
             }
@@ -3530,13 +3514,13 @@
                 "type": "AS50",
                 "description": "AEROSPATIALE AS-350 Ecureuil",
                 "operator": "ORANGE COUNTY SHERIFF'S DEPARTMENT",
-                "altitude": 150,
-                "ground_speed": 73.6,
-                "track": 136.1,
+                "altitude": 175,
+                "ground_speed": 73.2,
+                "track": 145.01,
                 "squawk": "4204",
-                "rssi": -5.5,
+                "rssi": -14.1,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2026-02-09T18:14:02.346255+00:00",
+                "last_seen": "2026-02-09T18:16:02.534012+00:00",
                 "nav_qnh": 1016.0,
                 "nav_altitude_mcp": 0,
                 "category": "A7"
@@ -3707,6 +3691,14 @@
                     [
                         -117.774866,
                         33.52858
+                    ],
+                    [
+                        -117.7435,
+                        33.496948
+                    ],
+                    [
+                        -117.7435,
+                        33.496948
                     ]
                 ]
             }
@@ -3719,13 +3711,13 @@
                 "type": "AS50",
                 "description": "AEROSPATIALE AS-350 Ecureuil",
                 "operator": "REACH AIR MEDICAL SERVICES LLC",
-                "altitude": 325,
-                "ground_speed": 78.5,
-                "track": 145.91,
+                "altitude": 975,
+                "ground_speed": 77.0,
+                "track": 330.44,
                 "squawk": "1200",
-                "rssi": -14.4,
+                "rssi": -24.7,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2026-02-09T17:10:02.514073+00:00",
+                "last_seen": "2026-02-09T18:16:02.534092+00:00",
                 "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
                 "category": "A7"
@@ -3820,6 +3812,14 @@
                     [
                         -121.853149,
                         39.74807
+                    ],
+                    [
+                        -121.858765,
+                        39.755518
+                    ],
+                    [
+                        -121.858765,
+                        39.755518
                     ]
                 ]
             }
@@ -4043,16 +4043,16 @@
             "properties": {
                 "hex": "AAF1DC",
                 "flight": "TROY503 ",
-                "type": "Unknown",
+                "type": "DH8C",
                 "description": "Unknown",
-                "operator": "US DEPARTMENT OF HOMELAND SECURITY",
-                "altitude": 425,
-                "ground_speed": 11.0,
-                "track": 270.0,
-                "squawk": "4506",
-                "rssi": -8.0,
-                "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2026-02-09T18:14:02.346237+00:00",
+                "operator": "US DEPARTMENT OF HOMELAND SECURITY, US CUSTOMS & BORDER PROCTECT",
+                "altitude": 450,
+                "ground_speed": 0.0,
+                "track": 0.0,
+                "squawk": "N/A",
+                "rssi": -34.9,
+                "api_source": "https://opendata.adsb.fi/api/v2/hex/",
+                "last_seen": "2026-02-09T18:16:02.533575+00:00",
                 "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
                 "category": "A2"
@@ -4300,6 +4300,39 @@
                     [
                         -121.942115,
                         48.276123
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "hex": "AAFD01",
+                "flight": "Unknown",
+                "type": "DH8C",
+                "description": "DE HAVILLAND DHC-8-300 Dash 8",
+                "operator": "US DEPARTMENT OF HOMELAND SECURITY",
+                "altitude": 1725,
+                "ground_speed": 186.9,
+                "track": 63.98,
+                "squawk": "4651",
+                "rssi": -20.0,
+                "api_source": "https://api.airplanes.live/v2/hex/",
+                "last_seen": "2026-02-09T18:16:02.533979+00:00",
+                "nav_qnh": 0.0,
+                "nav_altitude_mcp": 0,
+                "category": "Unknown"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -95.378508,
+                        30.337326
+                    ],
+                    [
+                        -95.378508,
+                        30.337326
                     ]
                 ]
             }
