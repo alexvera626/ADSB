@@ -24,14 +24,6 @@
                 "type": "LineString",
                 "coordinates": [
                     [
-                        -89.68502,
-                        37.775253
-                    ],
-                    [
-                        -89.681572,
-                        37.775528
-                    ],
-                    [
                         -89.306488,
                         37.807959
                     ],
@@ -388,14 +380,6 @@
             "geometry": {
                 "type": "LineString",
                 "coordinates": [
-                    [
-                        -100.399088,
-                        28.672806
-                    ],
-                    [
-                        -100.41599,
-                        28.682465
-                    ],
                     [
                         -100.391181,
                         28.611331
@@ -763,32 +747,24 @@
             "type": "Feature",
             "properties": {
                 "hex": "A385E3",
-                "flight": "N326PD  ",
+                "flight": "Unknown",
                 "type": "AS50",
                 "description": "AEROSPATIALE AS-350 Ecureuil",
                 "operator": "CITY OF ANAHEIM",
-                "altitude": 0,
-                "ground_speed": 40.0,
-                "track": 257.01,
-                "squawk": "4301",
-                "rssi": -5.4,
-                "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2026-02-09T01:56:02.525950+00:00",
-                "nav_qnh": 1019.2,
-                "nav_altitude_mcp": 4000,
-                "category": "A7"
+                "altitude": "ground",
+                "ground_speed": 0.0,
+                "track": 0.0,
+                "squawk": "N/A",
+                "rssi": -0.6,
+                "api_source": "https://opendata.adsb.fi/api/v2/hex/",
+                "last_seen": "2026-02-09T05:08:02.631926+00:00",
+                "nav_qnh": 0.0,
+                "nav_altitude_mcp": 0,
+                "category": "Unknown"
             },
             "geometry": {
                 "type": "LineString",
                 "coordinates": [
-                    [
-                        -117.829056,
-                        33.857303
-                    ],
-                    [
-                        -117.828999,
-                        33.856977
-                    ],
                     [
                         -117.857552,
                         33.833515
@@ -1703,13 +1679,13 @@
                 "type": "B407",
                 "description": "BELL 407",
                 "operator": "SAN DIEGO COUNTY SHERIFF DEPARTMENT",
-                "altitude": 1925,
-                "ground_speed": 100.3,
-                "track": 203.5,
+                "altitude": 1350,
+                "ground_speed": 108.2,
+                "track": 296.33,
                 "squawk": "4267",
-                "rssi": -6.8,
+                "rssi": -10.0,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2026-02-09T05:06:02.274081+00:00",
+                "last_seen": "2026-02-09T05:08:02.632082+00:00",
                 "nav_qnh": 1020.8,
                 "nav_altitude_mcp": 0,
                 "category": "A7"
@@ -1816,6 +1792,14 @@
                     [
                         -117.090912,
                         33.113892
+                    ],
+                    [
+                        -117.105304,
+                        33.123276
+                    ],
+                    [
+                        -117.105304,
+                        33.123276
                     ]
                 ]
             }
