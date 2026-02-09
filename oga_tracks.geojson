@@ -10,12 +10,12 @@
                 "description": "DE HAVILLAND DHC-8-300 Dash 8",
                 "operator": "US DEPARTMENT OF HOMELAND SECURITY",
                 "altitude": 7400,
-                "ground_speed": 185.0,
-                "track": 89.07,
+                "ground_speed": 186.0,
+                "track": 89.38,
                 "squawk": "4406",
-                "rssi": -24.5,
+                "rssi": -13.5,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2026-02-09T16:14:02.205840+00:00",
+                "last_seen": "2026-02-09T16:16:01.988137+00:00",
                 "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
                 "category": "A2"
@@ -23,14 +23,6 @@
             "geometry": {
                 "type": "LineString",
                 "coordinates": [
-                    [
-                        -117.757799,
-                        33.58461
-                    ],
-                    [
-                        -117.757799,
-                        33.58461
-                    ],
                     [
                         -117.873604,
                         33.548264
@@ -986,6 +978,14 @@
                     [
                         -118.188226,
                         31.888
+                    ],
+                    [
+                        -118.068311,
+                        31.889328
+                    ],
+                    [
+                        -118.067102,
+                        31.889328
                     ]
                 ]
             }
@@ -2069,19 +2069,19 @@
             "type": "Feature",
             "properties": {
                 "hex": "A043A9",
-                "flight": "00000   ",
+                "flight": "Unknown",
                 "type": "BE30",
                 "description": "BEECH 300 Super King Air",
                 "operator": "DEPARTMENT OF HOMELAND SECURITY",
-                "altitude": 950,
-                "ground_speed": 140.9,
-                "track": 61.62,
+                "altitude": 0,
+                "ground_speed": 0.0,
+                "track": 0.0,
                 "squawk": "4404",
-                "rssi": -13.0,
-                "api_source": "https://opendata.adsb.fi/api/v2/hex/",
-                "last_seen": "2026-02-09T16:14:02.205679+00:00",
-                "nav_qnh": 1027.2,
-                "nav_altitude_mcp": 3008,
+                "rssi": -23.6,
+                "api_source": "https://api.airplanes.live/v2/hex/",
+                "last_seen": "2026-02-09T16:16:01.988234+00:00",
+                "nav_qnh": 0.0,
+                "nav_altitude_mcp": 0,
                 "category": "A2"
             },
             "geometry": {
@@ -2371,12 +2371,12 @@
                 "description": "GENERAL ATOMICS MQ-9 Reaper",
                 "operator": "GENERAL ATOMICS AERONAUTICAL SYSTEMS INC",
                 "altitude": 7300,
-                "ground_speed": 139.0,
-                "track": 91.24,
+                "ground_speed": 137.8,
+                "track": 28.61,
                 "squawk": "5216",
-                "rssi": -4.8,
+                "rssi": -10.0,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2026-02-09T16:14:02.205905+00:00",
+                "last_seen": "2026-02-09T16:16:01.988201+00:00",
                 "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
                 "category": "B6"
@@ -2515,6 +2515,14 @@
                     [
                         -117.631416,
                         34.552421
+                    ],
+                    [
+                        -117.569847,
+                        34.596552
+                    ],
+                    [
+                        -117.56963,
+                        34.596817
                     ]
                 ]
             }
@@ -2527,13 +2535,13 @@
                 "type": "PC12",
                 "description": "PILATUS PC-12",
                 "operator": "US GOVERNMENT",
-                "altitude": 19975,
-                "ground_speed": 172.2,
-                "track": 347.25,
+                "altitude": 21875,
+                "ground_speed": 176.1,
+                "track": 347.54,
                 "squawk": "3155",
-                "rssi": -12.2,
+                "rssi": -9.5,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2026-02-09T16:14:02.205857+00:00",
+                "last_seen": "2026-02-09T16:16:01.988154+00:00",
                 "nav_qnh": 1013.6,
                 "nav_altitude_mcp": 24000,
                 "category": "A1"
@@ -2612,6 +2620,14 @@
                     [
                         -84.662831,
                         34.645432
+                    ],
+                    [
+                        -84.689026,
+                        34.739561
+                    ],
+                    [
+                        -84.689255,
+                        34.740352
                     ]
                 ]
             }
@@ -2624,13 +2640,13 @@
                 "type": "AS50",
                 "description": "AEROSPATIALE AS-350 Ecureuil",
                 "operator": "US DEPARTMENT OF HOMELAND SECURITY",
-                "altitude": 1000,
-                "ground_speed": 70.0,
-                "track": 140.0,
+                "altitude": "ground",
+                "ground_speed": 60.0,
+                "track": 141.8,
                 "squawk": "4402",
                 "rssi": -49.5,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2026-02-09T16:14:02.205874+00:00",
+                "last_seen": "2026-02-09T16:16:01.988170+00:00",
                 "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
                 "category": "Unknown"
@@ -2661,6 +2677,43 @@
                     [
                         -98.286026,
                         26.226196
+                    ],
+                    [
+                        -98.256798,
+                        26.195114
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "hex": "A31AA0",
+                "flight": "N3A     ",
+                "type": "SHIP",
+                "description": "Zeppelin LZ N07-101",
+                "operator": "GOODYEAR TIRE & RUBBER CO",
+                "altitude": 775,
+                "ground_speed": 0.7,
+                "track": 0.0,
+                "squawk": "N/A",
+                "rssi": -25.8,
+                "api_source": "https://api.airplanes.live/v2/hex/",
+                "last_seen": "2026-02-09T16:16:01.988218+00:00",
+                "nav_qnh": 0.0,
+                "nav_altitude_mcp": 0,
+                "category": "B2"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -112.372888,
+                        33.41954
+                    ],
+                    [
+                        -112.372872,
+                        33.419572
                     ]
                 ]
             }
