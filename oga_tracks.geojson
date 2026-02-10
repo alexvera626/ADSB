@@ -24,22 +24,6 @@
                 "type": "LineString",
                 "coordinates": [
                     [
-                        -95.004877,
-                        30.061946
-                    ],
-                    [
-                        -95.004973,
-                        30.062439
-                    ],
-                    [
-                        -95.027591,
-                        30.182693
-                    ],
-                    [
-                        -95.027591,
-                        30.182693
-                    ],
-                    [
                         -95.085626,
                         30.29615
                     ],
@@ -93,111 +77,6 @@
         {
             "type": "Feature",
             "properties": {
-                "hex": "A4CE5C",
-                "flight": "N409DA  ",
-                "type": "PC12",
-                "description": "PILATUS PC-12",
-                "operator": "US GOVERNMENT",
-                "altitude": 1025,
-                "ground_speed": 87.4,
-                "track": 105.95,
-                "squawk": "1435",
-                "rssi": -29.3,
-                "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2026-02-09T21:36:02.444577+00:00",
-                "nav_qnh": 0.0,
-                "nav_altitude_mcp": 0,
-                "category": "A1"
-            },
-            "geometry": {
-                "type": "LineString",
-                "coordinates": [
-                    [
-                        -85.168426,
-                        34.89386
-                    ],
-                    [
-                        -85.168426,
-                        34.89386
-                    ],
-                    [
-                        -85.146389,
-                        34.723687
-                    ],
-                    [
-                        -85.146389,
-                        34.723687
-                    ],
-                    [
-                        -85.124531,
-                        34.554562
-                    ],
-                    [
-                        -85.124368,
-                        34.553284
-                    ],
-                    [
-                        -85.038586,
-                        34.408714
-                    ],
-                    [
-                        -85.037327,
-                        34.407411
-                    ],
-                    [
-                        -84.920197,
-                        34.282325
-                    ],
-                    [
-                        -84.91972,
-                        34.281784
-                    ],
-                    [
-                        -84.81823,
-                        34.153794
-                    ],
-                    [
-                        -84.81823,
-                        34.153794
-                    ],
-                    [
-                        -84.77005,
-                        34.020282
-                    ],
-                    [
-                        -84.769535,
-                        34.018746
-                    ],
-                    [
-                        -84.670429,
-                        33.952782
-                    ],
-                    [
-                        -84.670086,
-                        33.952735
-                    ],
-                    [
-                        -84.587746,
-                        33.932531
-                    ],
-                    [
-                        -84.586601,
-                        33.932252
-                    ],
-                    [
-                        -84.538822,
-                        33.920754
-                    ],
-                    [
-                        -84.541252,
-                        33.921341
-                    ]
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
                 "hex": "A68BD9",
                 "flight": "Unknown",
                 "type": "AS50",
@@ -217,14 +96,6 @@
             "geometry": {
                 "type": "LineString",
                 "coordinates": [
-                    [
-                        -100.763327,
-                        29.194061
-                    ],
-                    [
-                        -100.763747,
-                        29.195329
-                    ],
                     [
                         -100.739241,
                         29.156204
@@ -816,6 +687,95 @@
                     [
                         -101.030485,
                         29.67627
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "hex": "A4CE5C",
+                "flight": "N409DA  ",
+                "type": "PC12",
+                "description": "PILATUS PC-12",
+                "operator": "US GOVERNMENT",
+                "altitude": 1025,
+                "ground_speed": 87.4,
+                "track": 105.95,
+                "squawk": "1435",
+                "rssi": -29.3,
+                "api_source": "https://api.airplanes.live/v2/hex/",
+                "last_seen": "2026-02-09T21:36:02.444577+00:00",
+                "nav_qnh": 0.0,
+                "nav_altitude_mcp": 0,
+                "category": "A1"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -85.124531,
+                        34.554562
+                    ],
+                    [
+                        -85.124368,
+                        34.553284
+                    ],
+                    [
+                        -85.038586,
+                        34.408714
+                    ],
+                    [
+                        -85.037327,
+                        34.407411
+                    ],
+                    [
+                        -84.920197,
+                        34.282325
+                    ],
+                    [
+                        -84.91972,
+                        34.281784
+                    ],
+                    [
+                        -84.81823,
+                        34.153794
+                    ],
+                    [
+                        -84.81823,
+                        34.153794
+                    ],
+                    [
+                        -84.77005,
+                        34.020282
+                    ],
+                    [
+                        -84.769535,
+                        34.018746
+                    ],
+                    [
+                        -84.670429,
+                        33.952782
+                    ],
+                    [
+                        -84.670086,
+                        33.952735
+                    ],
+                    [
+                        -84.587746,
+                        33.932531
+                    ],
+                    [
+                        -84.586601,
+                        33.932252
+                    ],
+                    [
+                        -84.538822,
+                        33.920754
+                    ],
+                    [
+                        -84.541252,
+                        33.921341
                     ]
                 ]
             }
@@ -3290,13 +3250,13 @@
                 "type": "AS50",
                 "description": "AEROSPATIALE AS-350 Ecureuil",
                 "operator": "TINY BUBBLES AVIATION INC",
-                "altitude": 1150,
-                "ground_speed": 111.5,
-                "track": 185.15,
+                "altitude": 1075,
+                "ground_speed": 107.0,
+                "track": 193.52,
                 "squawk": "1200",
-                "rssi": -4.3,
+                "rssi": -3.6,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2026-02-10T01:18:01.985521+00:00",
+                "last_seen": "2026-02-10T01:20:02.631978+00:00",
                 "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
                 "category": "A7"
@@ -3399,6 +3359,14 @@
                     [
                         -117.936607,
                         34.060364
+                    ],
+                    [
+                        -117.951012,
+                        33.999207
+                    ],
+                    [
+                        -117.951125,
+                        33.998932
                     ]
                 ]
             }
@@ -3411,13 +3379,13 @@
                 "type": "AS50",
                 "description": "AEROSPATIALE AS-350 Ecureuil",
                 "operator": "DEPARTMENT OF HOMELAND SECURITY",
-                "altitude": 1750,
-                "ground_speed": 82.0,
-                "track": 120.0,
+                "altitude": 1800,
+                "ground_speed": 97.3,
+                "track": 94.71,
                 "squawk": "0304",
-                "rssi": -8.4,
+                "rssi": -5.0,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2026-02-10T01:18:01.985404+00:00",
+                "last_seen": "2026-02-10T01:20:02.631962+00:00",
                 "nav_qnh": 1013.6,
                 "nav_altitude_mcp": 1888,
                 "category": "A7"
@@ -3504,6 +3472,14 @@
                     [
                         -97.765617,
                         35.478653
+                    ],
+                    [
+                        -97.713318,
+                        35.460663
+                    ],
+                    [
+                        -97.713045,
+                        35.460609
                     ]
                 ]
             }
@@ -3517,12 +3493,12 @@
                 "description": "BEECHCRAFT Super King Air 350",
                 "operator": "US DEPARTMENT OF HOMELAND SECURITY",
                 "altitude": "ground",
-                "ground_speed": 0.0,
-                "track": 104.06,
+                "ground_speed": 7.2,
+                "track": 0.0,
                 "squawk": "4402",
-                "rssi": -13.6,
+                "rssi": -14.8,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2026-02-10T01:18:01.985370+00:00",
+                "last_seen": "2026-02-10T01:20:02.631945+00:00",
                 "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
                 "category": "A2"
@@ -3537,6 +3513,14 @@
                     [
                         -117.209482,
                         32.701733
+                    ],
+                    [
+                        -117.212366,
+                        32.702923
+                    ],
+                    [
+                        -117.212366,
+                        32.702923
                     ]
                 ]
             }
