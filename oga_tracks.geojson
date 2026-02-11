@@ -4,6 +4,87 @@
         {
             "type": "Feature",
             "properties": {
+                "hex": "A7E869",
+                "flight": "N6088B  ",
+                "type": "AS50",
+                "description": "AEROSPATIALE AS-350 Ecureuil",
+                "operator": "US DEPARTMENT OF HOMELAND SECURITY, US CUSTOMS & BORDER PROTECTI",
+                "altitude": 0,
+                "ground_speed": 0.0,
+                "track": 0.0,
+                "squawk": "N/A",
+                "rssi": -34.2,
+                "api_source": "https://opendata.adsb.fi/api/v2/hex/",
+                "last_seen": "2026-02-11T17:48:01.973791+00:00",
+                "nav_qnh": 0.0,
+                "nav_altitude_mcp": 0,
+                "category": "A7"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -99.976071,
+                        28.772309
+                    ],
+                    [
+                        -100.022067,
+                        28.734879
+                    ],
+                    [
+                        -100.06073,
+                        28.692751
+                    ],
+                    [
+                        -100.139641,
+                        28.647263
+                    ],
+                    [
+                        -99.853013,
+                        28.46539
+                    ],
+                    [
+                        -99.828886,
+                        28.521113
+                    ],
+                    [
+                        -99.827072,
+                        28.531723
+                    ],
+                    [
+                        -99.843319,
+                        28.487828
+                    ],
+                    [
+                        -99.864215,
+                        28.447654
+                    ],
+                    [
+                        -99.923823,
+                        28.542068
+                    ],
+                    [
+                        -99.912899,
+                        28.599135
+                    ],
+                    [
+                        -99.895301,
+                        28.656509
+                    ],
+                    [
+                        -99.882625,
+                        28.712128
+                    ],
+                    [
+                        -99.870793,
+                        28.747696
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
                 "hex": "A0F9B2",
                 "flight": "TROY308 ",
                 "type": "BE30",
@@ -23,22 +104,6 @@
             "geometry": {
                 "type": "LineString",
                 "coordinates": [
-                    [
-                        -80.531495,
-                        26.97702
-                    ],
-                    [
-                        -80.531495,
-                        26.97702
-                    ],
-                    [
-                        -80.537814,
-                        27.093356
-                    ],
-                    [
-                        -80.537662,
-                        27.095444
-                    ],
                     [
                         -80.530261,
                         27.211599
@@ -561,22 +626,6 @@
                 "type": "LineString",
                 "coordinates": [
                     [
-                        -118.238395,
-                        34.023193
-                    ],
-                    [
-                        -118.238058,
-                        34.023056
-                    ],
-                    [
-                        -118.171692,
-                        34.014542
-                    ],
-                    [
-                        -118.170683,
-                        34.014038
-                    ],
-                    [
                         -118.131065,
                         33.970192
                     ],
@@ -791,91 +840,6 @@
                     [
                         -118.415165,
                         34.260818
-                    ]
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "hex": "A7E869",
-                "flight": "N6088B  ",
-                "type": "AS50",
-                "description": "AEROSPATIALE AS-350 Ecureuil",
-                "operator": "US DEPARTMENT OF HOMELAND SECURITY, US CUSTOMS & BORDER PROTECTI",
-                "altitude": 0,
-                "ground_speed": 0.0,
-                "track": 0.0,
-                "squawk": "N/A",
-                "rssi": -34.2,
-                "api_source": "https://opendata.adsb.fi/api/v2/hex/",
-                "last_seen": "2026-02-11T17:48:01.973791+00:00",
-                "nav_qnh": 0.0,
-                "nav_altitude_mcp": 0,
-                "category": "A7"
-            },
-            "geometry": {
-                "type": "LineString",
-                "coordinates": [
-                    [
-                        -99.929163,
-                        28.80997
-                    ],
-                    [
-                        -99.976071,
-                        28.772309
-                    ],
-                    [
-                        -100.022067,
-                        28.734879
-                    ],
-                    [
-                        -100.06073,
-                        28.692751
-                    ],
-                    [
-                        -100.139641,
-                        28.647263
-                    ],
-                    [
-                        -99.853013,
-                        28.46539
-                    ],
-                    [
-                        -99.828886,
-                        28.521113
-                    ],
-                    [
-                        -99.827072,
-                        28.531723
-                    ],
-                    [
-                        -99.843319,
-                        28.487828
-                    ],
-                    [
-                        -99.864215,
-                        28.447654
-                    ],
-                    [
-                        -99.923823,
-                        28.542068
-                    ],
-                    [
-                        -99.912899,
-                        28.599135
-                    ],
-                    [
-                        -99.895301,
-                        28.656509
-                    ],
-                    [
-                        -99.882625,
-                        28.712128
-                    ],
-                    [
-                        -99.870793,
-                        28.747696
                     ]
                 ]
             }
@@ -2163,19 +2127,19 @@
             "properties": {
                 "hex": "A18580",
                 "flight": "N1977G  ",
-                "type": "Unknown",
+                "type": "AS50",
                 "description": "Unknown",
                 "operator": "DEPARTMENT OF HOMELAND SECURITY",
-                "altitude": 7175,
-                "ground_speed": 120.0,
-                "track": 104.0,
-                "squawk": "1513",
-                "rssi": -49.5,
-                "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2026-02-11T18:10:02.608921+00:00",
+                "altitude": 7300,
+                "ground_speed": 120.3,
+                "track": 103.46,
+                "squawk": "N/A",
+                "rssi": -21.5,
+                "api_source": "https://opendata.adsb.fi/api/v2/hex/",
+                "last_seen": "2026-02-11T18:12:02.885554+00:00",
                 "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
-                "category": "Unknown"
+                "category": "A7"
             },
             "geometry": {
                 "type": "LineString",
@@ -2287,6 +2251,10 @@
                     [
                         -119.396599,
                         47.985626
+                    ],
+                    [
+                        -119.336736,
+                        47.975991
                     ]
                 ]
             }
@@ -2299,13 +2267,13 @@
                 "type": "H60",
                 "description": "SIKORSKY UH-60 Black Hawk",
                 "operator": "Unknown",
-                "altitude": -125,
-                "ground_speed": 21.6,
-                "track": 283.39,
+                "altitude": 425,
+                "ground_speed": 94.2,
+                "track": 102.26,
                 "squawk": "1200",
-                "rssi": -28.7,
+                "rssi": -26.2,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2026-02-11T18:10:02.608938+00:00",
+                "last_seen": "2026-02-11T18:12:02.885989+00:00",
                 "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
                 "category": "A7"
@@ -2528,6 +2496,14 @@
                     [
                         -117.113978,
                         32.56599
+                    ],
+                    [
+                        -117.1128,
+                        32.551699
+                    ],
+                    [
+                        -117.1128,
+                        32.551699
                     ]
                 ]
             }
@@ -2541,12 +2517,12 @@
                 "description": "Unknown",
                 "operator": "US GOVERNMENT",
                 "altitude": 15950,
-                "ground_speed": 208.9,
-                "track": 242.33,
+                "ground_speed": 207.6,
+                "track": 241.83,
                 "squawk": "2443",
-                "rssi": -20.8,
+                "rssi": -18.2,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2026-02-11T18:10:02.608905+00:00",
+                "last_seen": "2026-02-11T18:12:02.885973+00:00",
                 "nav_qnh": 1015.2,
                 "nav_altitude_mcp": 16000,
                 "category": "A1"
@@ -2745,6 +2721,14 @@
                     [
                         -80.18688,
                         37.450018
+                    ],
+                    [
+                        -80.31585,
+                        37.395226
+                    ],
+                    [
+                        -80.31585,
+                        37.395226
                     ]
                 ]
             }
@@ -2755,15 +2739,15 @@
                 "hex": "AE4D5A",
                 "flight": "BT45    ",
                 "type": "H60",
-                "description": "Sikorsky MH-60S Seahawk",
-                "operator": "United States Navy",
-                "altitude": -150,
-                "ground_speed": 15.8,
-                "track": 288.43,
-                "squawk": "1200",
-                "rssi": -25.5,
-                "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2026-02-11T18:08:02.813856+00:00",
+                "description": "SIKORSKY UH-60 Black Hawk",
+                "operator": "Unknown",
+                "altitude": "ground",
+                "ground_speed": 0.0,
+                "track": 0.0,
+                "squawk": "N/A",
+                "rssi": -23.5,
+                "api_source": "https://opendata.adsb.fi/api/v2/hex/",
+                "last_seen": "2026-02-11T18:12:02.885627+00:00",
                 "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
                 "category": "A7"
@@ -2918,13 +2902,13 @@
                 "type": "H60",
                 "description": "SIKORSKY UH-60 Black Hawk",
                 "operator": "Unknown",
-                "altitude": -25,
-                "ground_speed": 39.9,
-                "track": 342.47,
-                "squawk": "1200",
-                "rssi": -23.8,
-                "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2026-02-11T18:10:02.608970+00:00",
+                "altitude": -225,
+                "ground_speed": 2.3,
+                "track": 153.43,
+                "squawk": "N/A",
+                "rssi": -27.9,
+                "api_source": "https://opendata.adsb.fi/api/v2/hex/",
+                "last_seen": "2026-02-11T18:12:02.885708+00:00",
                 "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
                 "category": "A7"
@@ -3055,6 +3039,10 @@
                     [
                         -117.11283,
                         32.558853
+                    ],
+                    [
+                        -117.118294,
+                        32.561102
                     ]
                 ]
             }
@@ -3067,13 +3055,13 @@
                 "type": "B06",
                 "description": "BELL 206 JetRanger",
                 "operator": "PASADENA POLICE DEPARTMENT",
-                "altitude": 1500,
-                "ground_speed": 36.5,
-                "track": 170.54,
+                "altitude": 1800,
+                "ground_speed": 52.9,
+                "track": 74.65,
                 "squawk": "1200",
-                "rssi": -5.8,
+                "rssi": -6.3,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2026-02-11T18:10:02.608954+00:00",
+                "last_seen": "2026-02-11T18:12:02.886005+00:00",
                 "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
                 "category": "A7"
@@ -3104,6 +3092,14 @@
                     [
                         -118.152914,
                         34.149124
+                    ],
+                    [
+                        -118.154354,
+                        34.14993
+                    ],
+                    [
+                        -118.154354,
+                        34.14993
                     ]
                 ]
             }
