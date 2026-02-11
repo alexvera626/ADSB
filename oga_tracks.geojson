@@ -24,14 +24,6 @@
                 "type": "LineString",
                 "coordinates": [
                     [
-                        -80.393907,
-                        25.483533
-                    ],
-                    [
-                        -80.393422,
-                        25.483028
-                    ],
-                    [
                         -80.348511,
                         25.493591
                     ],
@@ -1036,20 +1028,20 @@
             "type": "Feature",
             "properties": {
                 "hex": "A7E869",
-                "flight": "N6088B  ",
+                "flight": "Unknown",
                 "type": "AS50",
                 "description": "AEROSPATIALE AS-350 Ecureuil",
                 "operator": "US DEPARTMENT OF HOMELAND SECURITY, US CUSTOMS & BORDER PROTECTI",
-                "altitude": 900,
-                "ground_speed": 122.2,
-                "track": 204.68,
+                "altitude": 1000,
+                "ground_speed": 0.0,
+                "track": 0.0,
                 "squawk": "N/A",
-                "rssi": -28.9,
+                "rssi": -30.4,
                 "api_source": "https://opendata.adsb.fi/api/v2/hex/",
-                "last_seen": "2026-02-11T16:56:01.944569+00:00",
+                "last_seen": "2026-02-11T17:36:02.831661+00:00",
                 "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
-                "category": "A7"
+                "category": "Unknown"
             },
             "geometry": {
                 "type": "LineString",
@@ -2352,13 +2344,13 @@
                 "type": "H60",
                 "description": "SIKORSKY UH-60 Black Hawk",
                 "operator": "Unknown",
-                "altitude": 0,
-                "ground_speed": 1.6,
-                "track": 135.0,
-                "squawk": "N/A",
-                "rssi": -28.3,
-                "api_source": "https://opendata.adsb.fi/api/v2/hex/",
-                "last_seen": "2026-02-11T17:34:02.602310+00:00",
+                "altitude": 150,
+                "ground_speed": 66.0,
+                "track": 49.3,
+                "squawk": "1200",
+                "rssi": -28.6,
+                "api_source": "https://api.airplanes.live/v2/hex/",
+                "last_seen": "2026-02-11T17:36:02.832105+00:00",
                 "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
                 "category": "A7"
@@ -2457,6 +2449,14 @@
                     [
                         -117.117509,
                         32.563244
+                    ],
+                    [
+                        -117.113249,
+                        32.555795
+                    ],
+                    [
+                        -117.114642,
+                        32.55455
                     ]
                 ]
             }
@@ -2469,14 +2469,14 @@
                 "type": "Unknown",
                 "description": "Unknown",
                 "operator": "US GOVERNMENT",
-                "altitude": 13525,
-                "ground_speed": 127.2,
-                "track": 233.31,
+                "altitude": 16050,
+                "ground_speed": 171.2,
+                "track": 232.59,
                 "squawk": "2443",
-                "rssi": -12.3,
+                "rssi": -10.9,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2026-02-11T17:34:02.602634+00:00",
-                "nav_qnh": 1012.0,
+                "last_seen": "2026-02-11T17:36:02.832087+00:00",
+                "nav_qnh": 1011.2,
                 "nav_altitude_mcp": 16000,
                 "category": "A1"
             },
@@ -2530,6 +2530,80 @@
                     [
                         -78.005798,
                         38.558893
+                    ],
+                    [
+                        -78.079285,
+                        38.515832
+                    ],
+                    [
+                        -78.079285,
+                        38.515832
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "hex": "AE4D5A",
+                "flight": "BT45    ",
+                "type": "H60",
+                "description": "Sikorsky MH-60S Seahawk",
+                "operator": "United States Navy",
+                "altitude": "ground",
+                "ground_speed": 5.2,
+                "track": 0.0,
+                "squawk": "1200",
+                "rssi": -16.5,
+                "api_source": "https://api.airplanes.live/v2/hex/",
+                "last_seen": "2026-02-11T17:36:02.832124+00:00",
+                "nav_qnh": 0.0,
+                "nav_altitude_mcp": 0,
+                "category": "A7"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -117.20359,
+                        32.71376
+                    ],
+                    [
+                        -117.20359,
+                        32.71376
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "hex": "AE278C",
+                "flight": "LS10    ",
+                "type": "H60",
+                "description": "SIKORSKY UH-60 Black Hawk",
+                "operator": "Unknown",
+                "altitude": "ground",
+                "ground_speed": 5.8,
+                "track": 255.94,
+                "squawk": "1200",
+                "rssi": -12.4,
+                "api_source": "https://api.airplanes.live/v2/hex/",
+                "last_seen": "2026-02-11T17:36:02.832142+00:00",
+                "nav_qnh": 0.0,
+                "nav_altitude_mcp": 0,
+                "category": "A7"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -117.204442,
+                        32.7136
+                    ],
+                    [
+                        -117.204461,
+                        32.713596
                     ]
                 ]
             }
