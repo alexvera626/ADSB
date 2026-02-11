@@ -2491,13 +2491,13 @@
                 "type": "AS50",
                 "description": "AEROSPATIALE AS-350 Ecureuil",
                 "operator": "US DEPARTMENT OF HOMELAND SECURITY",
-                "altitude": 1000,
-                "ground_speed": 41.9,
-                "track": 123.31,
+                "altitude": "ground",
+                "ground_speed": 0.2,
+                "track": 0.0,
                 "squawk": "1200",
-                "rssi": -7.7,
+                "rssi": -25.4,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2026-02-11T05:06:02.899019+00:00",
+                "last_seen": "2026-02-11T05:08:02.477403+00:00",
                 "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
                 "category": "A7"
@@ -2752,6 +2752,14 @@
                     [
                         -100.933668,
                         29.380829
+                    ],
+                    [
+                        -100.930617,
+                        29.377831
+                    ],
+                    [
+                        -100.930617,
+                        29.377831
                     ]
                 ]
             }
@@ -3580,20 +3588,20 @@
             "type": "Feature",
             "properties": {
                 "hex": "AE1841",
-                "flight": "RS40    ",
+                "flight": "Unknown",
                 "type": "H60",
-                "description": "SIKORSKY UH-60 Black Hawk",
-                "operator": "Unknown",
-                "altitude": 4300,
-                "ground_speed": 114.1,
-                "track": 295.44,
-                "squawk": "1200",
-                "rssi": -29.4,
-                "api_source": "https://opendata.adsb.fi/api/v2/hex/",
-                "last_seen": "2026-02-11T05:06:02.898895+00:00",
+                "description": "Sikorsky MH-60R Seahawk",
+                "operator": "United States Navy",
+                "altitude": 4325,
+                "ground_speed": 0.0,
+                "track": 0.0,
+                "squawk": "N/A",
+                "rssi": -27.6,
+                "api_source": "https://api.airplanes.live/v2/hex/",
+                "last_seen": "2026-02-11T05:08:02.477420+00:00",
                 "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
-                "category": "A7"
+                "category": "Unknown"
             },
             "geometry": {
                 "type": "LineString",
@@ -3697,6 +3705,14 @@
                     [
                         -116.542419,
                         32.664413
+                    ],
+                    [
+                        -116.610095,
+                        32.683044
+                    ],
+                    [
+                        -116.596219,
+                        32.680462
                     ]
                 ]
             }
