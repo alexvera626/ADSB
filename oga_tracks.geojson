@@ -9,36 +9,20 @@
                 "type": "B752",
                 "description": "BOEING 757-200",
                 "operator": "UNITED STATES GOVERNMENT",
-                "altitude": 36000,
-                "ground_speed": 444.0,
-                "track": 307.9,
+                "altitude": 36025,
+                "ground_speed": 522.0,
+                "track": 353.5,
                 "squawk": "0731",
-                "rssi": -24.9,
+                "rssi": -27.3,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2026-02-13T19:56:02.569563+00:00",
-                "nav_qnh": 1013.6,
+                "last_seen": "2026-02-13T19:58:02.701531+00:00",
+                "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
                 "category": "A4"
             },
             "geometry": {
                 "type": "LineString",
                 "coordinates": [
-                    [
-                        -86.21971,
-                        35.946521
-                    ],
-                    [
-                        -86.21971,
-                        35.946521
-                    ],
-                    [
-                        -86.45352,
-                        35.892753
-                    ],
-                    [
-                        -86.457253,
-                        35.891876
-                    ],
                     [
                         -86.695803,
                         35.836471
@@ -866,6 +850,14 @@
                     [
                         -107.92128,
                         36.636292
+                    ],
+                    [
+                        -108.112507,
+                        36.848373
+                    ],
+                    [
+                        -108.110786,
+                        36.835648
                     ]
                 ]
             }
@@ -892,22 +884,6 @@
             "geometry": {
                 "type": "LineString",
                 "coordinates": [
-                    [
-                        -118.664787,
-                        32.966153
-                    ],
-                    [
-                        -118.664844,
-                        32.966759
-                    ],
-                    [
-                        -118.633286,
-                        33.075598
-                    ],
-                    [
-                        -118.63082,
-                        33.076668
-                    ],
                     [
                         -118.495679,
                         33.133987
@@ -1045,22 +1021,6 @@
             "geometry": {
                 "type": "LineString",
                 "coordinates": [
-                    [
-                        -73.009771,
-                        43.11026
-                    ],
-                    [
-                        -73.009771,
-                        43.11026
-                    ],
-                    [
-                        -73.185553,
-                        43.031387
-                    ],
-                    [
-                        -73.188555,
-                        43.030151
-                    ],
                     [
                         -73.371211,
                         42.955752
@@ -1743,123 +1703,6 @@
         {
             "type": "Feature",
             "properties": {
-                "hex": "A16926",
-                "flight": "N190LA  ",
-                "type": "H60",
-                "description": "SIKORSKY UH-60 Black Hawk",
-                "operator": "COUNTY OF LOS ANGELES FIRE DEPARTMENT",
-                "altitude": "ground",
-                "ground_speed": 0.0,
-                "track": 0.0,
-                "squawk": "1206",
-                "rssi": -19.6,
-                "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2026-02-13T16:44:02.576839+00:00",
-                "nav_qnh": 0.0,
-                "nav_altitude_mcp": 0,
-                "category": "A7"
-            },
-            "geometry": {
-                "type": "LineString",
-                "coordinates": [
-                    [
-                        -118.47084,
-                        34.451961
-                    ],
-                    [
-                        -118.47084,
-                        34.451961
-                    ],
-                    [
-                        -118.457112,
-                        34.435776
-                    ],
-                    [
-                        -118.457112,
-                        34.435776
-                    ],
-                    [
-                        -118.48441,
-                        34.392975
-                    ],
-                    [
-                        -118.484859,
-                        34.392467
-                    ],
-                    [
-                        -118.512268,
-                        34.321838
-                    ],
-                    [
-                        -118.51244,
-                        34.321149
-                    ],
-                    [
-                        -118.527122,
-                        34.242142
-                    ],
-                    [
-                        -118.527122,
-                        34.241913
-                    ],
-                    [
-                        -118.532559,
-                        34.220078
-                    ],
-                    [
-                        -118.532559,
-                        34.220078
-                    ],
-                    [
-                        -118.532839,
-                        34.222046
-                    ],
-                    [
-                        -118.532867,
-                        34.221947
-                    ],
-                    [
-                        -118.518546,
-                        34.27121
-                    ],
-                    [
-                        -118.518322,
-                        34.271255
-                    ],
-                    [
-                        -118.436394,
-                        34.271385
-                    ],
-                    [
-                        -118.435707,
-                        34.271804
-                    ],
-                    [
-                        -118.402349,
-                        34.266541
-                    ],
-                    [
-                        -118.402237,
-                        34.265671
-                    ],
-                    [
-                        -118.407998,
-                        34.258828
-                    ],
-                    [
-                        -118.407784,
-                        34.258746
-                    ],
-                    [
-                        -118.407758,
-                        34.258793
-                    ]
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
                 "hex": "A0F9B2",
                 "flight": "TROY308 ",
                 "type": "BE30",
@@ -1957,18 +1800,119 @@
         {
             "type": "Feature",
             "properties": {
+                "hex": "A16926",
+                "flight": "N190LA  ",
+                "type": "H60",
+                "description": "SIKORSKY UH-60 Black Hawk",
+                "operator": "COUNTY OF LOS ANGELES FIRE DEPARTMENT",
+                "altitude": "ground",
+                "ground_speed": 0.0,
+                "track": 0.0,
+                "squawk": "1206",
+                "rssi": -19.6,
+                "api_source": "https://api.airplanes.live/v2/hex/",
+                "last_seen": "2026-02-13T16:44:02.576839+00:00",
+                "nav_qnh": 0.0,
+                "nav_altitude_mcp": 0,
+                "category": "A7"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -118.48441,
+                        34.392975
+                    ],
+                    [
+                        -118.484859,
+                        34.392467
+                    ],
+                    [
+                        -118.512268,
+                        34.321838
+                    ],
+                    [
+                        -118.51244,
+                        34.321149
+                    ],
+                    [
+                        -118.527122,
+                        34.242142
+                    ],
+                    [
+                        -118.527122,
+                        34.241913
+                    ],
+                    [
+                        -118.532559,
+                        34.220078
+                    ],
+                    [
+                        -118.532559,
+                        34.220078
+                    ],
+                    [
+                        -118.532839,
+                        34.222046
+                    ],
+                    [
+                        -118.532867,
+                        34.221947
+                    ],
+                    [
+                        -118.518546,
+                        34.27121
+                    ],
+                    [
+                        -118.518322,
+                        34.271255
+                    ],
+                    [
+                        -118.436394,
+                        34.271385
+                    ],
+                    [
+                        -118.435707,
+                        34.271804
+                    ],
+                    [
+                        -118.402349,
+                        34.266541
+                    ],
+                    [
+                        -118.402237,
+                        34.265671
+                    ],
+                    [
+                        -118.407998,
+                        34.258828
+                    ],
+                    [
+                        -118.407784,
+                        34.258746
+                    ],
+                    [
+                        -118.407758,
+                        34.258793
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
                 "hex": "A68BD9",
                 "flight": "N5204G  ",
                 "type": "AS50",
                 "description": "AEROSPATIALE AS-350 Ecureuil",
                 "operator": "U S DEPT OF HOMELAND SECURITY",
-                "altitude": 1400,
-                "ground_speed": 81.3,
-                "track": 135.5,
+                "altitude": 1300,
+                "ground_speed": 82.5,
+                "track": 157.17,
                 "squawk": "1200",
-                "rssi": -19.7,
+                "rssi": -10.5,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2026-02-13T19:56:02.569690+00:00",
+                "last_seen": "2026-02-13T19:58:02.701553+00:00",
                 "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
                 "category": "A7"
@@ -2175,6 +2119,14 @@
                     [
                         -101.059678,
                         29.488934
+                    ],
+                    [
+                        -101.032374,
+                        29.451459
+                    ],
+                    [
+                        -101.032374,
+                        29.451459
                     ]
                 ]
             }
@@ -2724,13 +2676,13 @@
                 "type": "H60",
                 "description": "SIKORSKY UH-60 Black Hawk",
                 "operator": "Unknown",
-                "altitude": 75,
-                "ground_speed": 42.7,
-                "track": 57.43,
-                "squawk": "4001",
-                "rssi": -13.2,
+                "altitude": "ground",
+                "ground_speed": 0.0,
+                "track": 0.0,
+                "squawk": "N/A",
+                "rssi": -11.0,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2026-02-13T19:56:02.569776+00:00",
+                "last_seen": "2026-02-13T19:58:02.701651+00:00",
                 "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
                 "category": "A7"
@@ -3281,6 +3233,14 @@
                     [
                         -117.46952,
                         33.296442
+                    ],
+                    [
+                        -117.468732,
+                        33.299904
+                    ],
+                    [
+                        -117.468732,
+                        33.299904
                     ]
                 ]
             }
@@ -3635,13 +3595,13 @@
                 "type": "H60",
                 "description": "SIKORSKY UH-60 Black Hawk",
                 "operator": "Unknown",
-                "altitude": 750,
-                "ground_speed": 89.7,
-                "track": 97.05,
+                "altitude": 425,
+                "ground_speed": 63.3,
+                "track": 238.57,
                 "squawk": "1200",
-                "rssi": -21.5,
+                "rssi": -16.6,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2026-02-13T19:56:02.569760+00:00",
+                "last_seen": "2026-02-13T19:58:02.701633+00:00",
                 "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
                 "category": "A7"
@@ -4204,6 +4164,14 @@
                     [
                         -117.1164,
                         32.554184
+                    ],
+                    [
+                        -117.12832,
+                        32.568283
+                    ],
+                    [
+                        -117.12832,
+                        32.568283
                     ]
                 ]
             }
@@ -4595,13 +4563,13 @@
                 "type": "SHIP",
                 "description": "Zeppelin LZ N07-101",
                 "operator": "GOODYEAR TIRE & RUBBER CO",
-                "altitude": 1200,
-                "ground_speed": 43.8,
-                "track": 304.78,
+                "altitude": 1150,
+                "ground_speed": 46.1,
+                "track": 297.12,
                 "squawk": "1200",
-                "rssi": -14.4,
+                "rssi": -12.8,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2026-02-13T19:56:02.569727+00:00",
+                "last_seen": "2026-02-13T19:58:02.701601+00:00",
                 "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
                 "category": "B2"
@@ -5188,6 +5156,10 @@
                     [
                         -119.453617,
                         34.157547
+                    ],
+                    [
+                        -119.473123,
+                        34.165421
                     ]
                 ]
             }
@@ -7144,13 +7116,13 @@
                 "type": "EC35",
                 "description": "AIRBUS HELICOPTERS EC-135/635",
                 "operator": "REACH AIR MEDICAL SERVICES LLC",
-                "altitude": 2300,
-                "ground_speed": 84.5,
-                "track": 196.5,
+                "altitude": 4100,
+                "ground_speed": 83.4,
+                "track": 210.26,
                 "squawk": "1200",
-                "rssi": -17.3,
+                "rssi": -15.5,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2026-02-13T19:56:02.569744+00:00",
+                "last_seen": "2026-02-13T19:58:02.701618+00:00",
                 "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
                 "category": "A7"
@@ -7197,6 +7169,14 @@
                     [
                         -116.405471,
                         33.685638
+                    ],
+                    [
+                        -116.421318,
+                        33.642371
+                    ],
+                    [
+                        -116.421318,
+                        33.642371
                     ]
                 ]
             }
@@ -7209,13 +7189,13 @@
                 "type": "H60",
                 "description": "Sikorsky S-70M Firehawk",
                 "operator": "ORANGE COUNTY FIRE AUTHORITY",
-                "altitude": 1550,
-                "ground_speed": 124.8,
-                "track": 236.44,
+                "altitude": 1500,
+                "ground_speed": 78.3,
+                "track": 275.13,
                 "squawk": "4202",
                 "rssi": -7.8,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2026-02-13T19:54:02.816631+00:00",
+                "last_seen": "2026-02-13T19:58:02.701570+00:00",
                 "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
                 "category": "A7"
@@ -7406,6 +7386,14 @@
                     [
                         -117.696476,
                         33.79888
+                    ],
+                    [
+                        -117.711892,
+                        33.799164
+                    ],
+                    [
+                        -117.71234,
+                        33.79921
                     ]
                 ]
             }
@@ -7419,12 +7407,12 @@
                 "description": "Sikorsky MH-60S Seahawk",
                 "operator": "Unknown",
                 "altitude": 50,
-                "ground_speed": 78.0,
-                "track": 358.53,
+                "ground_speed": 85.7,
+                "track": 325.94,
                 "squawk": "1200",
-                "rssi": -27.7,
+                "rssi": -24.4,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2026-02-13T19:56:02.569710+00:00",
+                "last_seen": "2026-02-13T19:58:02.701585+00:00",
                 "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
                 "category": "A7"
@@ -7491,6 +7479,14 @@
                     [
                         -118.284021,
                         33.289459
+                    ],
+                    [
+                        -118.293663,
+                        33.328283
+                    ],
+                    [
+                        -118.299573,
+                        33.336319
                     ]
                 ]
             }
