@@ -10,12 +10,12 @@
                 "description": "BOEING 757-200",
                 "operator": "UNITED STATES GOVERNMENT",
                 "altitude": 38000,
-                "ground_speed": 474.0,
-                "track": 350.7,
+                "ground_speed": 477.0,
+                "track": 350.6,
                 "squawk": "0731",
                 "rssi": -49.5,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2026-02-13T20:20:02.448633+00:00",
+                "last_seen": "2026-02-13T20:22:02.025064+00:00",
                 "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
                 "category": "A4"
@@ -23,14 +23,6 @@
             "geometry": {
                 "type": "LineString",
                 "coordinates": [
-                    [
-                        -89.094563,
-                        35.24861
-                    ],
-                    [
-                        -89.095745,
-                        35.248306
-                    ],
                     [
                         -89.33841,
                         35.196396
@@ -862,6 +854,10 @@
                     [
                         -108.624451,
                         39.804657
+                    ],
+                    [
+                        -108.680504,
+                        40.066814
                     ]
                 ]
             }
@@ -888,14 +884,6 @@
             "geometry": {
                 "type": "LineString",
                 "coordinates": [
-                    [
-                        -117.325802,
-                        33.800882
-                    ],
-                    [
-                        -117.325802,
-                        33.800882
-                    ],
                     [
                         -117.251363,
                         33.8367
@@ -931,13 +919,13 @@
                 "type": "Unknown",
                 "description": "Unknown",
                 "operator": "US DEPARTMENT OF HOMELAND SECURITY",
-                "altitude": 14100,
-                "ground_speed": 163.4,
-                "track": 226.74,
+                "altitude": 16100,
+                "ground_speed": 168.4,
+                "track": 227.41,
                 "squawk": "5605",
-                "rssi": -14.0,
+                "rssi": -18.3,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2026-02-13T20:20:02.448664+00:00",
+                "last_seen": "2026-02-13T20:22:02.025094+00:00",
                 "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
                 "category": "A2"
@@ -945,14 +933,6 @@
             "geometry": {
                 "type": "LineString",
                 "coordinates": [
-                    [
-                        -75.17427,
-                        42.196764
-                    ],
-                    [
-                        -75.17427,
-                        42.196764
-                    ],
                     [
                         -75.354163,
                         42.118469
@@ -1600,6 +1580,14 @@
                     [
                         -87.09795,
                         35.740494
+                    ],
+                    [
+                        -87.179611,
+                        35.67824
+                    ],
+                    [
+                        -87.180312,
+                        35.677728
                     ]
                 ]
             }
@@ -1857,75 +1845,6 @@
                     [
                         -100.923791,
                         29.373596
-                    ]
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "hex": "A16926",
-                "flight": "N190LA  ",
-                "type": "H60",
-                "description": "SIKORSKY UH-60 Black Hawk",
-                "operator": "COUNTY OF LOS ANGELES FIRE DEPARTMENT",
-                "altitude": "ground",
-                "ground_speed": 0.0,
-                "track": 0.0,
-                "squawk": "1206",
-                "rssi": -19.6,
-                "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2026-02-13T16:44:02.576839+00:00",
-                "nav_qnh": 0.0,
-                "nav_altitude_mcp": 0,
-                "category": "A7"
-            },
-            "geometry": {
-                "type": "LineString",
-                "coordinates": [
-                    [
-                        -118.532839,
-                        34.222046
-                    ],
-                    [
-                        -118.532867,
-                        34.221947
-                    ],
-                    [
-                        -118.518546,
-                        34.27121
-                    ],
-                    [
-                        -118.518322,
-                        34.271255
-                    ],
-                    [
-                        -118.436394,
-                        34.271385
-                    ],
-                    [
-                        -118.435707,
-                        34.271804
-                    ],
-                    [
-                        -118.402349,
-                        34.266541
-                    ],
-                    [
-                        -118.402237,
-                        34.265671
-                    ],
-                    [
-                        -118.407998,
-                        34.258828
-                    ],
-                    [
-                        -118.407784,
-                        34.258746
-                    ],
-                    [
-                        -118.407758,
-                        34.258793
                     ]
                 ]
             }
@@ -2470,6 +2389,75 @@
         {
             "type": "Feature",
             "properties": {
+                "hex": "A16926",
+                "flight": "N190LA  ",
+                "type": "H60",
+                "description": "SIKORSKY UH-60 Black Hawk",
+                "operator": "COUNTY OF LOS ANGELES FIRE DEPARTMENT",
+                "altitude": "ground",
+                "ground_speed": 0.0,
+                "track": 0.0,
+                "squawk": "1206",
+                "rssi": -19.6,
+                "api_source": "https://api.airplanes.live/v2/hex/",
+                "last_seen": "2026-02-13T16:44:02.576839+00:00",
+                "nav_qnh": 0.0,
+                "nav_altitude_mcp": 0,
+                "category": "A7"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -118.532839,
+                        34.222046
+                    ],
+                    [
+                        -118.532867,
+                        34.221947
+                    ],
+                    [
+                        -118.518546,
+                        34.27121
+                    ],
+                    [
+                        -118.518322,
+                        34.271255
+                    ],
+                    [
+                        -118.436394,
+                        34.271385
+                    ],
+                    [
+                        -118.435707,
+                        34.271804
+                    ],
+                    [
+                        -118.402349,
+                        34.266541
+                    ],
+                    [
+                        -118.402237,
+                        34.265671
+                    ],
+                    [
+                        -118.407998,
+                        34.258828
+                    ],
+                    [
+                        -118.407784,
+                        34.258746
+                    ],
+                    [
+                        -118.407758,
+                        34.258793
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
                 "hex": "A0F9B2",
                 "flight": "TROY308 ",
                 "type": "BE30",
@@ -2564,13 +2552,13 @@
                 "type": "H60",
                 "description": "SIKORSKY UH-60 Black Hawk",
                 "operator": "Unknown",
-                "altitude": 150,
-                "ground_speed": 105.3,
-                "track": 167.94,
+                "altitude": 175,
+                "ground_speed": 107.5,
+                "track": 167.64,
                 "squawk": "1200",
-                "rssi": -12.1,
+                "rssi": -27.4,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2026-02-13T20:20:02.448775+00:00",
+                "last_seen": "2026-02-13T20:22:02.025186+00:00",
                 "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
                 "category": "A7"
@@ -3209,6 +3197,14 @@
                     [
                         -117.38516,
                         32.940457
+                    ],
+                    [
+                        -117.370624,
+                        32.883545
+                    ],
+                    [
+                        -117.370419,
+                        32.882825
                     ]
                 ]
             }
@@ -4579,13 +4575,13 @@
                 "type": "SHIP",
                 "description": "Zeppelin LZ N07-101",
                 "operator": "GOODYEAR TIRE & RUBBER CO",
-                "altitude": 650,
-                "ground_speed": 46.8,
-                "track": 289.98,
+                "altitude": 600,
+                "ground_speed": 47.2,
+                "track": 291.12,
                 "squawk": "1200",
-                "rssi": -9.3,
+                "rssi": -11.6,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2026-02-13T20:20:02.448699+00:00",
+                "last_seen": "2026-02-13T20:22:02.025111+00:00",
                 "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
                 "category": "B2"
@@ -5264,6 +5260,14 @@
                     [
                         -119.784608,
                         34.298035
+                    ],
+                    [
+                        -119.813587,
+                        34.308243
+                    ],
+                    [
+                        -119.813868,
+                        34.308289
                     ]
                 ]
             }
@@ -7220,13 +7224,13 @@
                 "type": "EC35",
                 "description": "AIRBUS HELICOPTERS EC-135/635",
                 "operator": "REACH AIR MEDICAL SERVICES LLC",
-                "altitude": 4425,
-                "ground_speed": 106.4,
-                "track": 206.81,
+                "altitude": 4400,
+                "ground_speed": 122.7,
+                "track": 197.55,
                 "squawk": "1200",
-                "rssi": -14.4,
+                "rssi": -26.1,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2026-02-13T20:20:02.448715+00:00",
+                "last_seen": "2026-02-13T20:22:02.025130+00:00",
                 "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
                 "category": "A7"
@@ -7365,6 +7369,14 @@
                     [
                         -116.768132,
                         33.049854
+                    ],
+                    [
+                        -116.796944,
+                        32.989895
+                    ],
+                    [
+                        -116.797,
+                        32.989662
                     ]
                 ]
             }
