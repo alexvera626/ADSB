@@ -9,13 +9,13 @@
                 "type": "AS50",
                 "description": "AEROSPATIALE AS-350 Ecureuil",
                 "operator": "LAPD AIR SUPPORT DIVISION",
-                "altitude": 900,
-                "ground_speed": 74.4,
-                "track": 173.83,
+                "altitude": 750,
+                "ground_speed": 81.3,
+                "track": 16.43,
                 "squawk": "1200",
-                "rssi": -6.3,
+                "rssi": -5.8,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2026-02-14T10:20:02.582480+00:00",
+                "last_seen": "2026-02-14T10:22:02.639519+00:00",
                 "nav_qnh": 1019.2,
                 "nav_altitude_mcp": 10016,
                 "category": "A7"
@@ -23,22 +23,6 @@
             "geometry": {
                 "type": "LineString",
                 "coordinates": [
-                    [
-                        -118.197956,
-                        34.050867
-                    ],
-                    [
-                        -118.197956,
-                        34.050867
-                    ],
-                    [
-                        -118.21209,
-                        34.026567
-                    ],
-                    [
-                        -118.211826,
-                        34.02594
-                    ],
                     [
                         -118.193321,
                         34.040486
@@ -438,6 +422,14 @@
                     [
                         -118.311599,
                         34.065079
+                    ],
+                    [
+                        -118.282814,
+                        34.042534
+                    ],
+                    [
+                        -118.282814,
+                        34.042534
                     ]
                 ]
             }
@@ -464,22 +456,6 @@
             "geometry": {
                 "type": "LineString",
                 "coordinates": [
-                    [
-                        -117.840084,
-                        33.853729
-                    ],
-                    [
-                        -117.840084,
-                        33.853729
-                    ],
-                    [
-                        -117.838963,
-                        33.857437
-                    ],
-                    [
-                        -117.83958,
-                        33.857803
-                    ],
                     [
                         -117.842607,
                         33.856659
@@ -723,63 +699,6 @@
                     [
                         -117.983193,
                         33.872269
-                    ]
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "hex": "A38627",
-                "flight": "REH81   ",
-                "type": "EC35",
-                "description": "AIRBUS HELICOPTERS EC-135/635",
-                "operator": "REACH AIR MEDICAL SERVICES LLC",
-                "altitude": "ground",
-                "ground_speed": 0.1,
-                "track": 251.57,
-                "squawk": "N/A",
-                "rssi": -19.6,
-                "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2026-02-14T06:54:02.778385+00:00",
-                "nav_qnh": 0.0,
-                "nav_altitude_mcp": 0,
-                "category": "A7"
-            },
-            "geometry": {
-                "type": "LineString",
-                "coordinates": [
-                    [
-                        -116.54381,
-                        33.799347
-                    ],
-                    [
-                        -116.54381,
-                        33.799347
-                    ],
-                    [
-                        -116.373634,
-                        33.788269
-                    ],
-                    [
-                        -116.373634,
-                        33.788269
-                    ],
-                    [
-                        -116.293366,
-                        33.755905
-                    ],
-                    [
-                        -116.293366,
-                        33.755905
-                    ],
-                    [
-                        -116.269841,
-                        33.744356
-                    ],
-                    [
-                        -116.269841,
-                        33.744356
                     ]
                 ]
             }
@@ -1098,6 +1017,55 @@
                     [
                         -77.008354,
                         38.868404
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "hex": "A38627",
+                "flight": "REH81   ",
+                "type": "EC35",
+                "description": "AIRBUS HELICOPTERS EC-135/635",
+                "operator": "REACH AIR MEDICAL SERVICES LLC",
+                "altitude": "ground",
+                "ground_speed": 0.1,
+                "track": 251.57,
+                "squawk": "N/A",
+                "rssi": -19.6,
+                "api_source": "https://api.airplanes.live/v2/hex/",
+                "last_seen": "2026-02-14T06:54:02.778385+00:00",
+                "nav_qnh": 0.0,
+                "nav_altitude_mcp": 0,
+                "category": "A7"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -116.373634,
+                        33.788269
+                    ],
+                    [
+                        -116.373634,
+                        33.788269
+                    ],
+                    [
+                        -116.293366,
+                        33.755905
+                    ],
+                    [
+                        -116.293366,
+                        33.755905
+                    ],
+                    [
+                        -116.269841,
+                        33.744356
+                    ],
+                    [
+                        -116.269841,
+                        33.744356
                     ]
                 ]
             }
