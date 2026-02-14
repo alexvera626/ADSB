@@ -24,22 +24,6 @@
                 "type": "LineString",
                 "coordinates": [
                     [
-                        -118.2728,
-                        34.017396
-                    ],
-                    [
-                        -118.2728,
-                        34.017396
-                    ],
-                    [
-                        -118.273201,
-                        34.015255
-                    ],
-                    [
-                        -118.272972,
-                        34.015208
-                    ],
-                    [
                         -118.274941,
                         34.015915
                     ],
@@ -609,22 +593,6 @@
                 "type": "LineString",
                 "coordinates": [
                     [
-                        -118.528862,
-                        34.204815
-                    ],
-                    [
-                        -118.528862,
-                        34.204815
-                    ],
-                    [
-                        -118.56378,
-                        34.142899
-                    ],
-                    [
-                        -118.563837,
-                        34.142212
-                    ],
-                    [
                         -118.565742,
                         34.134888
                     ],
@@ -769,22 +737,6 @@
             "geometry": {
                 "type": "LineString",
                 "coordinates": [
-                    [
-                        -116.961218,
-                        32.723465
-                    ],
-                    [
-                        -116.961218,
-                        32.723465
-                    ],
-                    [
-                        -116.97222,
-                        32.698804
-                    ],
-                    [
-                        -116.972276,
-                        32.698757
-                    ],
                     [
                         -116.973734,
                         32.697547
@@ -1022,22 +974,6 @@
             "geometry": {
                 "type": "LineString",
                 "coordinates": [
-                    [
-                        -117.995911,
-                        33.728027
-                    ],
-                    [
-                        -117.995911,
-                        33.728027
-                    ],
-                    [
-                        -117.979207,
-                        33.708206
-                    ],
-                    [
-                        -117.979088,
-                        33.707917
-                    ],
                     [
                         -117.97308,
                         33.67426
@@ -1420,84 +1356,6 @@
         {
             "type": "Feature",
             "properties": {
-                "hex": "A7FB70",
-                "flight": "REH80   ",
-                "type": "AS50",
-                "description": "AEROSPATIALE AS-350 Ecureuil",
-                "operator": "REACH AIR MEDICAL SERVICES LLC",
-                "altitude": "ground",
-                "ground_speed": 0.0,
-                "track": 0.0,
-                "squawk": "1200",
-                "rssi": -27.6,
-                "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2026-02-14T05:14:02.964714+00:00",
-                "nav_qnh": 0.0,
-                "nav_altitude_mcp": 0,
-                "category": "A7"
-            },
-            "geometry": {
-                "type": "LineString",
-                "coordinates": [
-                    [
-                        -121.996277,
-                        39.084328
-                    ],
-                    [
-                        -121.996277,
-                        39.084328
-                    ],
-                    [
-                        -122.065857,
-                        39.12413
-                    ],
-                    [
-                        -122.066467,
-                        39.124456
-                    ],
-                    [
-                        -122.119751,
-                        39.161651
-                    ],
-                    [
-                        -122.124268,
-                        39.162675
-                    ]
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "hex": "A40442",
-                "flight": "N358TV  ",
-                "type": "AS50",
-                "description": "AEROSPATIALE AS-350 Ecureuil",
-                "operator": "TINY BUBBLES AVIATION INC",
-                "altitude": "ground",
-                "ground_speed": 0.0,
-                "track": 0.0,
-                "squawk": "1200",
-                "rssi": -18.4,
-                "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2026-02-14T04:54:02.119065+00:00",
-                "nav_qnh": 0.0,
-                "nav_altitude_mcp": 0,
-                "category": "A7"
-            },
-            "geometry": {
-                "type": "LineString",
-                "coordinates": [
-                    [
-                        -118.410516,
-                        34.257384
-                    ]
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
                 "hex": "A36968",
                 "flight": "N319MW  ",
                 "type": "B407",
@@ -1796,6 +1654,39 @@
                     [
                         -116.972369,
                         32.820465
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "hex": "A7FB70",
+                "flight": "REH80   ",
+                "type": "AS50",
+                "description": "AEROSPATIALE AS-350 Ecureuil",
+                "operator": "REACH AIR MEDICAL SERVICES LLC",
+                "altitude": "ground",
+                "ground_speed": 0.0,
+                "track": 0.0,
+                "squawk": "1200",
+                "rssi": -27.6,
+                "api_source": "https://api.airplanes.live/v2/hex/",
+                "last_seen": "2026-02-14T05:14:02.964714+00:00",
+                "nav_qnh": 0.0,
+                "nav_altitude_mcp": 0,
+                "category": "A7"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -122.119751,
+                        39.161651
+                    ],
+                    [
+                        -122.124268,
+                        39.162675
                     ]
                 ]
             }
@@ -2326,15 +2217,15 @@
                 "type": "AS50",
                 "description": "AEROSPATIALE AS-350 Ecureuil",
                 "operator": "CITY OF ONTARIO",
-                "altitude": "ground",
-                "ground_speed": 0.0,
-                "track": 0.0,
+                "altitude": 1900,
+                "ground_speed": 100.7,
+                "track": 159.04,
                 "squawk": "4274",
-                "rssi": -27.3,
+                "rssi": -17.3,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2026-02-14T06:44:02.336581+00:00",
-                "nav_qnh": 0.0,
-                "nav_altitude_mcp": 0,
+                "last_seen": "2026-02-14T08:54:02.710534+00:00",
+                "nav_qnh": 1019.2,
+                "nav_altitude_mcp": 8512,
                 "category": "A7"
             },
             "geometry": {
@@ -2419,6 +2310,14 @@
                     [
                         -117.692385,
                         34.109523
+                    ],
+                    [
+                        -117.674274,
+                        34.104542
+                    ],
+                    [
+                        -117.674274,
+                        34.104542
                     ]
                 ]
             }
