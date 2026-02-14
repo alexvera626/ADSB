@@ -24,22 +24,6 @@
                 "type": "LineString",
                 "coordinates": [
                     [
-                        -100.804737,
-                        29.259201
-                    ],
-                    [
-                        -100.805269,
-                        29.259757
-                    ],
-                    [
-                        -100.776672,
-                        29.219722
-                    ],
-                    [
-                        -100.776672,
-                        29.219722
-                    ],
-                    [
                         -100.607353,
                         29.049042
                     ],
@@ -624,12 +608,12 @@
                 "description": "BOEING 757-200",
                 "operator": "UNITED STATES GOVERNMENT",
                 "altitude": 37000,
-                "ground_speed": 494.8,
-                "track": 76.44,
+                "ground_speed": 490.4,
+                "track": 76.56,
                 "squawk": "1664",
-                "rssi": -21.3,
+                "rssi": -20.5,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2026-02-14T18:26:02.893900+00:00",
+                "last_seen": "2026-02-14T18:28:02.745817+00:00",
                 "nav_qnh": 1013.6,
                 "nav_altitude_mcp": 0,
                 "category": "A4"
@@ -864,6 +848,14 @@
                     [
                         -104.093472,
                         35.303402
+                    ],
+                    [
+                        -103.809128,
+                        35.359406
+                    ],
+                    [
+                        -103.766956,
+                        35.367554
                     ]
                 ]
             }
@@ -876,13 +868,13 @@
                 "type": "A139",
                 "description": "AGUSTA AW-139",
                 "operator": "LOS ANGELES FIRE DEPARTMENT",
-                "altitude": 975,
+                "altitude": 950,
                 "ground_speed": 2.3,
                 "track": 243.43,
                 "squawk": "1200",
-                "rssi": -3.0,
+                "rssi": -10.1,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2026-02-14T18:26:02.893915+00:00",
+                "last_seen": "2026-02-14T18:28:02.745884+00:00",
                 "nav_qnh": 1021.6,
                 "nav_altitude_mcp": 640,
                 "category": "A7"
@@ -1057,6 +1049,14 @@
                     [
                         -118.609543,
                         34.047422
+                    ],
+                    [
+                        -118.609772,
+                        34.047376
+                    ],
+                    [
+                        -118.609772,
+                        34.047376
                     ]
                 ]
             }
@@ -1098,6 +1098,35 @@
                     [
                         -121.605504,
                         36.666824
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "hex": "A16926",
+                "flight": "N190LA  ",
+                "type": "H60",
+                "description": "SIKORSKY UH-60 Black Hawk",
+                "operator": "COUNTY OF LOS ANGELES FIRE DEPARTMENT",
+                "altitude": "ground",
+                "ground_speed": 0.0,
+                "track": 0.0,
+                "squawk": "1206",
+                "rssi": -21.8,
+                "api_source": "https://api.airplanes.live/v2/hex/",
+                "last_seen": "2026-02-14T18:28:02.745902+00:00",
+                "nav_qnh": 0.0,
+                "nav_altitude_mcp": 0,
+                "category": "A7"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -118.407814,
+                        34.258873
                     ]
                 ]
             }
