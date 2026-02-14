@@ -4,6 +4,43 @@
         {
             "type": "Feature",
             "properties": {
+                "hex": "AE223F",
+                "flight": "Unknown",
+                "type": "CN35",
+                "description": "CASA HC-144A Ocean Sentry",
+                "operator": "Unknown",
+                "altitude": 5975,
+                "ground_speed": 0.0,
+                "track": 0.0,
+                "squawk": "N/A",
+                "rssi": -32.3,
+                "api_source": "https://opendata.adsb.fi/api/v2/hex/",
+                "last_seen": "2026-02-14T01:10:01.955689+00:00",
+                "nav_qnh": 0.0,
+                "nav_altitude_mcp": 0,
+                "category": "A2"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -96.72564,
+                        28.405334
+                    ],
+                    [
+                        -96.689058,
+                        28.436714
+                    ],
+                    [
+                        -96.866772,
+                        28.28389
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
                 "hex": "AE2692",
                 "flight": "C6560   ",
                 "type": "AS65",
@@ -23,14 +60,6 @@
             "geometry": {
                 "type": "LineString",
                 "coordinates": [
-                    [
-                        -82.832762,
-                        42.738073
-                    ],
-                    [
-                        -82.832762,
-                        42.737096
-                    ],
                     [
                         -82.834998,
                         42.677555
@@ -72,14 +101,6 @@
             "geometry": {
                 "type": "LineString",
                 "coordinates": [
-                    [
-                        -152.536129,
-                        57.53824
-                    ],
-                    [
-                        -152.530661,
-                        57.533798
-                    ],
                     [
                         -152.39316,
                         57.490585
@@ -225,14 +246,6 @@
             "geometry": {
                 "type": "LineString",
                 "coordinates": [
-                    [
-                        -90.084155,
-                        29.927875
-                    ],
-                    [
-                        -90.084814,
-                        29.927456
-                    ],
                     [
                         -90.076904,
                         29.935822
@@ -440,47 +453,6 @@
                     [
                         -90.029243,
                         29.821457
-                    ]
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "hex": "AE223F",
-                "flight": "Unknown",
-                "type": "CN35",
-                "description": "CASA HC-144A Ocean Sentry",
-                "operator": "Unknown",
-                "altitude": 5975,
-                "ground_speed": 0.0,
-                "track": 0.0,
-                "squawk": "N/A",
-                "rssi": -32.3,
-                "api_source": "https://opendata.adsb.fi/api/v2/hex/",
-                "last_seen": "2026-02-14T01:10:01.955689+00:00",
-                "nav_qnh": 0.0,
-                "nav_altitude_mcp": 0,
-                "category": "A2"
-            },
-            "geometry": {
-                "type": "LineString",
-                "coordinates": [
-                    [
-                        -96.634791,
-                        28.483383
-                    ],
-                    [
-                        -96.72564,
-                        28.405334
-                    ],
-                    [
-                        -96.689058,
-                        28.436714
-                    ],
-                    [
-                        -96.866772,
-                        28.28389
                     ]
                 ]
             }
