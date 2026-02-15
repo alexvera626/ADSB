@@ -952,13 +952,13 @@
                 "type": "CN35",
                 "description": "CASA HC-144B Ocean Sentry",
                 "operator": "United States Coast Guard",
-                "altitude": 5250,
-                "ground_speed": 210.0,
-                "track": 169.28,
+                "altitude": 4450,
+                "ground_speed": 208.0,
+                "track": 170.16,
                 "squawk": "4430",
-                "rssi": -25.6,
+                "rssi": -22.4,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2026-02-15T23:02:02.312550+00:00",
+                "last_seen": "2026-02-15T23:04:02.538584+00:00",
                 "nav_qnh": 1015.6,
                 "nav_altitude_mcp": 4512,
                 "category": "Unknown"
@@ -1581,13 +1581,13 @@
                 "type": "H60",
                 "description": "Sikorsky MH-60T Jayhawk",
                 "operator": "Unknown",
-                "altitude": 475,
-                "ground_speed": 60.1,
-                "track": 86.19,
+                "altitude": 500,
+                "ground_speed": 63.7,
+                "track": 226.27,
                 "squawk": "0430",
-                "rssi": -18.1,
+                "rssi": -17.9,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2026-02-15T23:02:02.312589+00:00",
+                "last_seen": "2026-02-15T23:04:02.538623+00:00",
                 "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
                 "category": "A7"
@@ -1674,6 +1674,14 @@
                     [
                         -90.098715,
                         29.927216
+                    ],
+                    [
+                        -90.079266,
+                        29.935556
+                    ],
+                    [
+                        -90.079266,
+                        29.935556
                     ]
                 ]
             }
@@ -2212,6 +2220,35 @@
                     [
                         -76.178627,
                         36.265182
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "hex": "AE5DED",
+                "flight": "C2014   ",
+                "type": "C30J",
+                "description": "Lockheed Martin HC-130J Hercules",
+                "operator": "Unknown",
+                "altitude": "ground",
+                "ground_speed": 0.0,
+                "track": 0.0,
+                "squawk": "1200",
+                "rssi": -3.3,
+                "api_source": "https://api.airplanes.live/v2/hex/",
+                "last_seen": "2026-02-15T23:04:02.538644+00:00",
+                "nav_qnh": 0.0,
+                "nav_altitude_mcp": 0,
+                "category": "A3"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -121.395325,
+                        38.677543
                     ]
                 ]
             }
