@@ -740,13 +740,13 @@
                 "type": "H60",
                 "description": "SIKORSKY UH-60 Black Hawk",
                 "operator": "Unknown",
-                "altitude": 75,
-                "ground_speed": 0.0,
-                "track": 0.0,
+                "altitude": 25,
+                "ground_speed": 69.1,
+                "track": 357.51,
                 "squawk": "N/A",
-                "rssi": -25.7,
+                "rssi": -27.6,
                 "api_source": "https://opendata.adsb.fi/api/v2/hex/",
-                "last_seen": "2026-02-15T01:34:02.527925+00:00",
+                "last_seen": "2026-02-15T01:38:02.155291+00:00",
                 "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
                 "category": "A7"
@@ -1273,6 +1273,10 @@
                     [
                         -117.994043,
                         32.736145
+                    ],
+                    [
+                        -117.996515,
+                        32.729095
                     ]
                 ]
             }
@@ -3083,17 +3087,17 @@
             "type": "Feature",
             "properties": {
                 "hex": "A38627",
-                "flight": "Unknown",
+                "flight": "REH81   ",
                 "type": "EC35",
                 "description": "AIRBUS HELICOPTERS EC-135/635",
                 "operator": "REACH AIR MEDICAL SERVICES LLC",
-                "altitude": 0,
-                "ground_speed": 139.9,
-                "track": 290.51,
-                "squawk": "N/A",
-                "rssi": -17.3,
-                "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2026-02-15T01:36:02.306759+00:00",
+                "altitude": 4025,
+                "ground_speed": 127.9,
+                "track": 282.19,
+                "squawk": "1200",
+                "rssi": -3.0,
+                "api_source": "https://opendata.adsb.fi/api/v2/hex/",
+                "last_seen": "2026-02-15T01:38:02.155329+00:00",
                 "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
                 "category": "A7"
@@ -3200,6 +3204,10 @@
                     [
                         -117.105618,
                         34.432689
+                    ],
+                    [
+                        -117.190209,
+                        34.45285
                     ]
                 ]
             }
@@ -3212,13 +3220,13 @@
                 "type": "H60",
                 "description": "SIKORSKY UH-60 Black Hawk",
                 "operator": "COUNTY OF LOS ANGELES FIRE DEPARTMENT",
-                "altitude": 5700,
-                "ground_speed": 37.2,
-                "track": 66.19,
+                "altitude": 5625,
+                "ground_speed": 101.2,
+                "track": 343.35,
                 "squawk": "1206",
-                "rssi": -26.7,
+                "rssi": -24.8,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2026-02-15T01:36:02.306741+00:00",
+                "last_seen": "2026-02-15T01:38:02.155501+00:00",
                 "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
                 "category": "A7"
@@ -3301,6 +3309,47 @@
                     [
                         -118.005608,
                         34.299088
+                    ],
+                    [
+                        -118.011589,
+                        34.320172
+                    ],
+                    [
+                        -118.017155,
+                        34.305405
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "hex": "A90F0D",
+                "flight": "N683HB  ",
+                "type": "Unknown",
+                "description": "Unknown",
+                "operator": "CITY OF HUNTINGTON BEACH",
+                "altitude": -25,
+                "ground_speed": 24.8,
+                "track": 220.1,
+                "squawk": "N/A",
+                "rssi": -12.1,
+                "api_source": "https://api.airplanes.live/v2/hex/",
+                "last_seen": "2026-02-15T01:38:02.155436+00:00",
+                "nav_qnh": 1017.6,
+                "nav_altitude_mcp": 0,
+                "category": "A7"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -118.001804,
+                        33.694975
+                    ],
+                    [
+                        -118.001919,
+                        33.694836
                     ]
                 ]
             }
