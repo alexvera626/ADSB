@@ -9,13 +9,13 @@
                 "type": "AS50",
                 "description": "AEROSPATIALE AS-350 Ecureuil",
                 "operator": "LAPD AIR SUPPORT DIVISION",
-                "altitude": 850,
-                "ground_speed": 111.0,
-                "track": 51.58,
+                "altitude": 475,
+                "ground_speed": 29.2,
+                "track": 38.05,
                 "squawk": "1200",
-                "rssi": -8.8,
+                "rssi": -8.0,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2026-02-16T07:18:02.425650+00:00",
+                "last_seen": "2026-02-16T07:20:02.183239+00:00",
                 "nav_qnh": 1014.4,
                 "nav_altitude_mcp": 10016,
                 "category": "A7"
@@ -23,22 +23,6 @@
             "geometry": {
                 "type": "LineString",
                 "coordinates": [
-                    [
-                        -118.241029,
-                        33.784378
-                    ],
-                    [
-                        -118.240986,
-                        33.784542
-                    ],
-                    [
-                        -118.227576,
-                        33.823883
-                    ],
-                    [
-                        -118.227352,
-                        33.824615
-                    ],
                     [
                         -118.215809,
                         33.862563
@@ -702,136 +686,14 @@
                     [
                         -118.270626,
                         34.027638
-                    ]
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "hex": "AE2793",
-                "flight": "GH71    ",
-                "type": "H60",
-                "description": "Sikorsky MH-60S Seahawk",
-                "operator": "Unknown",
-                "altitude": "ground",
-                "ground_speed": 0.0,
-                "track": 0.0,
-                "squawk": "N/A",
-                "rssi": -31.5,
-                "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2026-02-16T03:46:02.544290+00:00",
-                "nav_qnh": 0.0,
-                "nav_altitude_mcp": 0,
-                "category": "A7"
-            },
-            "geometry": {
-                "type": "LineString",
-                "coordinates": [
-                    [
-                        -118.143722,
-                        33.194352
                     ],
                     [
-                        -118.143182,
-                        33.193176
+                        -118.23094,
+                        34.052994
                     ],
                     [
-                        -118.147477,
-                        33.19519
-                    ],
-                    [
-                        -118.147247,
-                        33.194595
-                    ],
-                    [
-                        -118.140051,
-                        33.178207
-                    ],
-                    [
-                        -118.137964,
-                        33.173447
-                    ]
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "hex": "A40442",
-                "flight": "N358TV  ",
-                "type": "AS50",
-                "description": "AEROSPATIALE AS-350 Ecureuil",
-                "operator": "TINY BUBBLES AVIATION INC",
-                "altitude": "ground",
-                "ground_speed": 2.2,
-                "track": 129.38,
-                "squawk": "0255",
-                "rssi": -10.4,
-                "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2026-02-16T03:30:02.720119+00:00",
-                "nav_qnh": 0.0,
-                "nav_altitude_mcp": 0,
-                "category": "A7"
-            },
-            "geometry": {
-                "type": "LineString",
-                "coordinates": [
-                    [
-                        -118.746176,
-                        34.183868
-                    ],
-                    [
-                        -118.746176,
-                        34.183868
-                    ],
-                    [
-                        -118.679978,
-                        34.206711
-                    ],
-                    [
-                        -118.678801,
-                        34.206848
-                    ],
-                    [
-                        -118.608971,
-                        34.213846
-                    ],
-                    [
-                        -118.607782,
-                        34.213669
-                    ],
-                    [
-                        -118.530922,
-                        34.208167
-                    ],
-                    [
-                        -118.530521,
-                        34.208167
-                    ],
-                    [
-                        -118.457794,
-                        34.214265
-                    ],
-                    [
-                        -118.457794,
-                        34.214265
-                    ],
-                    [
-                        -118.425498,
-                        34.265625
-                    ],
-                    [
-                        -118.424826,
-                        34.2659
-                    ],
-                    [
-                        -118.411388,
-                        34.257873
-                    ],
-                    [
-                        -118.410476,
-                        34.257339
+                        -118.230603,
+                        34.053314
                     ]
                 ]
             }
@@ -997,6 +859,104 @@
                     [
                         -117.978001,
                         33.873003
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "hex": "A40442",
+                "flight": "N358TV  ",
+                "type": "AS50",
+                "description": "AEROSPATIALE AS-350 Ecureuil",
+                "operator": "TINY BUBBLES AVIATION INC",
+                "altitude": "ground",
+                "ground_speed": 2.2,
+                "track": 129.38,
+                "squawk": "0255",
+                "rssi": -10.4,
+                "api_source": "https://api.airplanes.live/v2/hex/",
+                "last_seen": "2026-02-16T03:30:02.720119+00:00",
+                "nav_qnh": 0.0,
+                "nav_altitude_mcp": 0,
+                "category": "A7"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -118.608971,
+                        34.213846
+                    ],
+                    [
+                        -118.607782,
+                        34.213669
+                    ],
+                    [
+                        -118.530922,
+                        34.208167
+                    ],
+                    [
+                        -118.530521,
+                        34.208167
+                    ],
+                    [
+                        -118.457794,
+                        34.214265
+                    ],
+                    [
+                        -118.457794,
+                        34.214265
+                    ],
+                    [
+                        -118.425498,
+                        34.265625
+                    ],
+                    [
+                        -118.424826,
+                        34.2659
+                    ],
+                    [
+                        -118.411388,
+                        34.257873
+                    ],
+                    [
+                        -118.410476,
+                        34.257339
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "hex": "AE2793",
+                "flight": "GH71    ",
+                "type": "H60",
+                "description": "Sikorsky MH-60S Seahawk",
+                "operator": "Unknown",
+                "altitude": "ground",
+                "ground_speed": 0.0,
+                "track": 0.0,
+                "squawk": "N/A",
+                "rssi": -31.5,
+                "api_source": "https://api.airplanes.live/v2/hex/",
+                "last_seen": "2026-02-16T03:46:02.544290+00:00",
+                "nav_qnh": 0.0,
+                "nav_altitude_mcp": 0,
+                "category": "A7"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -118.140051,
+                        33.178207
+                    ],
+                    [
+                        -118.137964,
+                        33.173447
                     ]
                 ]
             }
@@ -2023,7 +1983,7 @@
                 "squawk": "4301",
                 "rssi": -10.9,
                 "api_source": "https://opendata.adsb.fi/api/v2/hex/",
-                "last_seen": "2026-02-16T07:18:02.425576+00:00",
+                "last_seen": "2026-02-16T07:20:02.183141+00:00",
                 "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
                 "category": "A7"
