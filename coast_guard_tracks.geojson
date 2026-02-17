@@ -63,12 +63,12 @@
                 "description": "Alenia HC-27J Spartan",
                 "operator": "Unknown",
                 "altitude": 23000,
-                "ground_speed": 301.3,
-                "track": 135.81,
+                "ground_speed": 299.0,
+                "track": 126.3,
                 "squawk": "4746",
-                "rssi": -18.6,
+                "rssi": -17.3,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2026-02-17T14:24:02.552184+00:00",
+                "last_seen": "2026-02-17T14:26:02.164187+00:00",
                 "nav_qnh": 1013.6,
                 "nav_altitude_mcp": 23008,
                 "category": "A2"
@@ -223,6 +223,14 @@
                     [
                         -81.870895,
                         26.618225
+                    ],
+                    [
+                        -81.738281,
+                        26.505308
+                    ],
+                    [
+                        -81.737245,
+                        26.504608
                     ]
                 ]
             }
@@ -304,13 +312,13 @@
                 "type": "C27J",
                 "description": "ALENIA C-27J Spartan",
                 "operator": "Unknown",
-                "altitude": 0,
-                "ground_speed": 0.0,
-                "track": 0.0,
+                "altitude": 18000,
+                "ground_speed": 269.6,
+                "track": 352.11,
                 "squawk": "N/A",
-                "rssi": -15.4,
+                "rssi": -24.7,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2026-02-17T14:20:02.500792+00:00",
+                "last_seen": "2026-02-17T14:26:02.164208+00:00",
                 "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
                 "category": "A2"
@@ -337,6 +345,39 @@
                     [
                         -92.800909,
                         32.761368
+                    ],
+                    [
+                        -92.9706,
+                        33.776349
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "hex": "AE6CF0",
+                "flight": "C6062   ",
+                "type": "H60",
+                "description": "Sikorsky MH-60T Jayhawk",
+                "operator": "United States Coast Guard",
+                "altitude": 150,
+                "ground_speed": 126.4,
+                "track": 256.73,
+                "squawk": "4422",
+                "rssi": -18.4,
+                "api_source": "https://api.airplanes.live/v2/hex/",
+                "last_seen": "2026-02-17T14:26:02.164242+00:00",
+                "nav_qnh": 0.0,
+                "nav_altitude_mcp": 0,
+                "category": "A7"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -67.340993,
+                        18.403473
                     ]
                 ]
             }
