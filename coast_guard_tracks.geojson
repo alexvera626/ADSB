@@ -47,12 +47,12 @@
                 "description": "Alenia HC-27J Spartan",
                 "operator": "Unknown",
                 "altitude": "ground",
-                "ground_speed": 10.8,
+                "ground_speed": 0.0,
                 "track": 0.0,
                 "squawk": "4746",
-                "rssi": -22.0,
-                "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2026-02-17T13:46:02.328735+00:00",
+                "rssi": -28.1,
+                "api_source": "https://opendata.adsb.fi/api/v2/hex/",
+                "last_seen": "2026-02-17T13:50:02.836829+00:00",
                 "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
                 "category": "A2"
@@ -75,6 +75,47 @@
                     [
                         -82.689853,
                         27.909382
+                    ],
+                    [
+                        -82.688793,
+                        27.903202
+                    ],
+                    [
+                        -82.688982,
+                        27.904273
+                    ],
+                    [
+                        -82.688704,
+                        27.902701
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "hex": "AE2693",
+                "flight": "Unknown",
+                "type": "AS65",
+                "description": "Eurocopter MH-65D Dolphin",
+                "operator": "Unknown",
+                "altitude": "ground",
+                "ground_speed": 4.2,
+                "track": 146.25,
+                "squawk": "N/A",
+                "rssi": -49.5,
+                "api_source": "https://api.airplanes.live/v2/hex/",
+                "last_seen": "2026-02-17T13:50:02.836941+00:00",
+                "nav_qnh": 0.0,
+                "nav_altitude_mcp": 0,
+                "category": "Unknown"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -81.14046,
+                        32.024597
                     ]
                 ]
             }
