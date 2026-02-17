@@ -47,12 +47,12 @@
                 "description": "Alenia HC-27J Spartan",
                 "operator": "Unknown",
                 "altitude": "ground",
-                "ground_speed": 0.0,
+                "ground_speed": 0.1,
                 "track": 0.0,
                 "squawk": "4746",
-                "rssi": -28.1,
+                "rssi": -27.8,
                 "api_source": "https://opendata.adsb.fi/api/v2/hex/",
-                "last_seen": "2026-02-17T13:50:02.836829+00:00",
+                "last_seen": "2026-02-17T13:52:02.814531+00:00",
                 "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
                 "category": "A2"
@@ -87,6 +87,10 @@
                     [
                         -82.688704,
                         27.902701
+                    ],
+                    [
+                        -82.688704,
+                        27.902701
                     ]
                 ]
             }
@@ -116,6 +120,35 @@
                     [
                         -81.14046,
                         32.024597
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "hex": "AE4CF7",
+                "flight": "C2714   ",
+                "type": "C27J",
+                "description": "ALENIA C-27J Spartan",
+                "operator": "Unknown",
+                "altitude": 3550,
+                "ground_speed": 193.8,
+                "track": 350.2,
+                "squawk": "N/A",
+                "rssi": -23.2,
+                "api_source": "https://api.airplanes.live/v2/hex/",
+                "last_seen": "2026-02-17T13:52:02.815248+00:00",
+                "nav_qnh": 1019.2,
+                "nav_altitude_mcp": 10016,
+                "category": "A2"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -92.578491,
+                        31.400509
                     ]
                 ]
             }
