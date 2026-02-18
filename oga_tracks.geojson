@@ -516,12 +516,12 @@
                 "description": "Unknown",
                 "operator": "US DEPARTMENT OF HOMELAND SECURITY",
                 "altitude": 20000,
-                "ground_speed": 208.1,
-                "track": 281.36,
+                "ground_speed": 209.3,
+                "track": 281.58,
                 "squawk": "2547",
-                "rssi": -23.0,
+                "rssi": -21.1,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2026-02-18T15:52:02.832456+00:00",
+                "last_seen": "2026-02-18T15:54:03.126161+00:00",
                 "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
                 "category": "A2"
@@ -964,6 +964,10 @@
                     [
                         -102.717004,
                         31.240276
+                    ],
+                    [
+                        -102.849696,
+                        31.263519
                     ]
                 ]
             }
@@ -972,17 +976,17 @@
             "type": "Feature",
             "properties": {
                 "hex": "A16926",
-                "flight": "N190LA  ",
+                "flight": "Unknown",
                 "type": "H60",
                 "description": "SIKORSKY UH-60 Black Hawk",
-                "operator": "COUNTY OF LOS ANGELES FIRE DEPARTMENT",
-                "altitude": 1875,
-                "ground_speed": 138.8,
-                "track": 132.08,
+                "operator": "COUNTY OF LOS ANGELES FIRE DEPARTMENT, AIR OPERATIONS",
+                "altitude": 1625,
+                "ground_speed": 0.0,
+                "track": 0.0,
                 "squawk": "N/A",
-                "rssi": -27.7,
-                "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2026-02-18T15:18:03.314825+00:00",
+                "rssi": -28.7,
+                "api_source": "https://opendata.adsb.fi/api/v2/hex/",
+                "last_seen": "2026-02-18T15:54:03.125527+00:00",
                 "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
                 "category": "A7"
@@ -1413,12 +1417,12 @@
                 "description": "AEROSPATIALE AS-350 Ecureuil",
                 "operator": "US DEPARTMENT OF HOMELAND SECURITY",
                 "altitude": 1400,
-                "ground_speed": 107.4,
-                "track": 147.94,
+                "ground_speed": 114.3,
+                "track": 124.66,
                 "squawk": "1200",
-                "rssi": -2.9,
+                "rssi": -17.1,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2026-02-18T15:52:02.832492+00:00",
+                "last_seen": "2026-02-18T15:54:03.126201+00:00",
                 "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
                 "category": "A7"
@@ -1553,6 +1557,47 @@
                     [
                         -101.029896,
                         29.415102
+                    ],
+                    [
+                        -100.986962,
+                        29.364853
+                    ],
+                    [
+                        -100.986962,
+                        29.364853
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "hex": "A31E37",
+                "flight": "PD50    ",
+                "type": "AS50",
+                "description": "AEROSPATIALE AS-350 Ecureuil",
+                "operator": "CITY OF ONTARIO",
+                "altitude": 1800,
+                "ground_speed": 94.6,
+                "track": 193.45,
+                "squawk": "1206",
+                "rssi": -25.9,
+                "api_source": "https://api.airplanes.live/v2/hex/",
+                "last_seen": "2026-02-18T15:54:03.126220+00:00",
+                "nav_qnh": 1014.4,
+                "nav_altitude_mcp": 8512,
+                "category": "A7"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -117.704437,
+                        34.092133
+                    ],
+                    [
+                        -117.704437,
+                        34.092133
                     ]
                 ]
             }
