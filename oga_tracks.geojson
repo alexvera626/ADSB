@@ -9,13 +9,13 @@
                 "type": "AS50",
                 "description": "AEROSPATIALE AS-350 Ecureuil",
                 "operator": "LAPD AIR SUPPORT DIVISION",
-                "altitude": 875,
-                "ground_speed": 70.8,
-                "track": 23.3,
+                "altitude": 1225,
+                "ground_speed": 96.0,
+                "track": 88.81,
                 "squawk": "0277",
-                "rssi": -10.9,
+                "rssi": -8.7,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2026-02-19T07:54:01.909208+00:00",
+                "last_seen": "2026-02-19T07:56:02.300420+00:00",
                 "nav_qnh": 1016.8,
                 "nav_altitude_mcp": 10016,
                 "category": "A7"
@@ -23,14 +23,6 @@
             "geometry": {
                 "type": "LineString",
                 "coordinates": [
-                    [
-                        -118.309422,
-                        34.015441
-                    ],
-                    [
-                        -118.30975,
-                        34.016052
-                    ],
                     [
                         -118.312945,
                         34.036514
@@ -406,6 +398,83 @@
                     [
                         -118.201561,
                         34.048912
+                    ],
+                    [
+                        -118.198709,
+                        34.082382
+                    ],
+                    [
+                        -118.197441,
+                        34.082383
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "hex": "A3524F",
+                "flight": "Unknown",
+                "type": "B407",
+                "description": "BELL 407",
+                "operator": "SAN DIEGO COUNTY SHERIFF DEPT",
+                "altitude": "ground",
+                "ground_speed": 0.0,
+                "track": 0.0,
+                "squawk": "1200",
+                "rssi": -23.7,
+                "api_source": "https://opendata.adsb.fi/api/v2/hex/",
+                "last_seen": "2026-02-19T04:08:01.878439+00:00",
+                "nav_qnh": 0.0,
+                "nav_altitude_mcp": 0,
+                "category": "A7"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -116.983191,
+                        32.901672
+                    ],
+                    [
+                        -116.983191,
+                        32.901672
+                    ],
+                    [
+                        -116.99083,
+                        32.895208
+                    ],
+                    [
+                        -116.991486,
+                        32.897736
+                    ],
+                    [
+                        -116.98028,
+                        32.879608
+                    ],
+                    [
+                        -116.98028,
+                        32.879608
+                    ],
+                    [
+                        -116.972864,
+                        32.834427
+                    ],
+                    [
+                        -116.972893,
+                        32.834876
+                    ],
+                    [
+                        -116.973537,
+                        32.819389
+                    ],
+                    [
+                        -116.97355,
+                        32.819378
+                    ],
+                    [
+                        -116.973537,
+                        32.819378
                     ]
                 ]
             }
@@ -432,14 +501,6 @@
             "geometry": {
                 "type": "LineString",
                 "coordinates": [
-                    [
-                        -118.008915,
-                        33.705185
-                    ],
-                    [
-                        -118.009475,
-                        33.705139
-                    ],
                     [
                         -118.000717,
                         33.697722
@@ -714,14 +775,6 @@
                 "type": "LineString",
                 "coordinates": [
                     [
-                        -117.594405,
-                        34.58725
-                    ],
-                    [
-                        -117.59278,
-                        34.58725
-                    ],
-                    [
                         -117.616602,
                         34.566696
                     ],
@@ -890,14 +943,6 @@
             "geometry": {
                 "type": "LineString",
                 "coordinates": [
-                    [
-                        -118.276005,
-                        33.855348
-                    ],
-                    [
-                        -118.276005,
-                        33.855348
-                    ],
                     [
                         -118.276006,
                         33.855331
@@ -1073,75 +1118,6 @@
                     [
                         -118.275948,
                         33.855348
-                    ]
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "hex": "A3524F",
-                "flight": "Unknown",
-                "type": "B407",
-                "description": "BELL 407",
-                "operator": "SAN DIEGO COUNTY SHERIFF DEPT",
-                "altitude": "ground",
-                "ground_speed": 0.0,
-                "track": 0.0,
-                "squawk": "1200",
-                "rssi": -23.7,
-                "api_source": "https://opendata.adsb.fi/api/v2/hex/",
-                "last_seen": "2026-02-19T04:08:01.878439+00:00",
-                "nav_qnh": 0.0,
-                "nav_altitude_mcp": 0,
-                "category": "A7"
-            },
-            "geometry": {
-                "type": "LineString",
-                "coordinates": [
-                    [
-                        -116.983191,
-                        32.901672
-                    ],
-                    [
-                        -116.983191,
-                        32.901672
-                    ],
-                    [
-                        -116.99083,
-                        32.895208
-                    ],
-                    [
-                        -116.991486,
-                        32.897736
-                    ],
-                    [
-                        -116.98028,
-                        32.879608
-                    ],
-                    [
-                        -116.98028,
-                        32.879608
-                    ],
-                    [
-                        -116.972864,
-                        32.834427
-                    ],
-                    [
-                        -116.972893,
-                        32.834876
-                    ],
-                    [
-                        -116.973537,
-                        32.819389
-                    ],
-                    [
-                        -116.97355,
-                        32.819378
-                    ],
-                    [
-                        -116.973537,
-                        32.819378
                     ]
                 ]
             }
