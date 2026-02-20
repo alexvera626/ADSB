@@ -24,22 +24,6 @@
                 "type": "LineString",
                 "coordinates": [
                     [
-                        -118.371296,
-                        34.141663
-                    ],
-                    [
-                        -118.371048,
-                        34.141085
-                    ],
-                    [
-                        -118.366127,
-                        34.142715
-                    ],
-                    [
-                        -118.366195,
-                        34.143127
-                    ],
-                    [
                         -118.370247,
                         34.142203
                     ],
@@ -409,22 +393,6 @@
                 "type": "LineString",
                 "coordinates": [
                     [
-                        -118.384209,
-                        34.309698
-                    ],
-                    [
-                        -118.384244,
-                        34.309708
-                    ],
-                    [
-                        -118.386841,
-                        34.309092
-                    ],
-                    [
-                        -118.387046,
-                        34.309158
-                    ],
-                    [
                         -118.385124,
                         34.310768
                     ],
@@ -575,47 +543,6 @@
                     [
                         -118.494,
                         34.216558
-                    ]
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "hex": "AA28F1",
-                "flight": "N754AM  ",
-                "type": "AS50",
-                "description": "AEROSPATIALE AS-350 Ecureuil",
-                "operator": "US DEPARTMENT OF HOMELAND SECURITY",
-                "altitude": 4700,
-                "ground_speed": 93.0,
-                "track": 270.62,
-                "squawk": "4401",
-                "rssi": -28.9,
-                "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2026-02-20T01:12:02.239596+00:00",
-                "nav_qnh": 0.0,
-                "nav_altitude_mcp": 0,
-                "category": "A7"
-            },
-            "geometry": {
-                "type": "LineString",
-                "coordinates": [
-                    [
-                        -111.327374,
-                        31.510884
-                    ],
-                    [
-                        -111.327374,
-                        31.510884
-                    ],
-                    [
-                        -111.402606,
-                        31.568527
-                    ],
-                    [
-                        -111.402606,
-                        31.568527
                     ]
                 ]
             }
@@ -1621,6 +1548,39 @@
         {
             "type": "Feature",
             "properties": {
+                "hex": "AA28F1",
+                "flight": "N754AM  ",
+                "type": "AS50",
+                "description": "AEROSPATIALE AS-350 Ecureuil",
+                "operator": "US DEPARTMENT OF HOMELAND SECURITY",
+                "altitude": 4700,
+                "ground_speed": 93.0,
+                "track": 270.62,
+                "squawk": "4401",
+                "rssi": -28.9,
+                "api_source": "https://api.airplanes.live/v2/hex/",
+                "last_seen": "2026-02-20T01:12:02.239596+00:00",
+                "nav_qnh": 0.0,
+                "nav_altitude_mcp": 0,
+                "category": "A7"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -111.402606,
+                        31.568527
+                    ],
+                    [
+                        -111.402606,
+                        31.568527
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
                 "hex": "A1F0C0",
                 "flight": "N224KB  ",
                 "type": "B06",
@@ -1919,18 +1879,18 @@
             "type": "Feature",
             "properties": {
                 "hex": "AC4597",
-                "flight": "REH46   ",
+                "flight": "Unknown",
                 "type": "EC35",
                 "description": "AIRBUS HELICOPTERS EC-135/635",
                 "operator": "REACH AIR MEDICAL SERVICES LLC",
-                "altitude": 0,
-                "ground_speed": 4.1,
-                "track": 90.0,
-                "squawk": "1611",
-                "rssi": -10.8,
-                "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2026-02-20T04:22:02.197100+00:00",
-                "nav_qnh": 1014.4,
+                "altitude": "ground",
+                "ground_speed": 0.0,
+                "track": 0.0,
+                "squawk": "N/A",
+                "rssi": -20.8,
+                "api_source": "https://opendata.adsb.fi/api/v2/hex/",
+                "last_seen": "2026-02-20T04:58:02.284475+00:00",
+                "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
                 "category": "A7"
             },
@@ -3080,13 +3040,13 @@
                 "type": "Unknown",
                 "description": "Unknown",
                 "operator": "Unknown",
-                "altitude": 775,
-                "ground_speed": 2.1,
-                "track": 270.0,
+                "altitude": 1200,
+                "ground_speed": 113.7,
+                "track": 111.15,
                 "squawk": "7103",
-                "rssi": -31.6,
+                "rssi": -32.1,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2026-02-20T04:54:02.643326+00:00",
+                "last_seen": "2026-02-20T04:58:02.284672+00:00",
                 "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
                 "category": "A7"
@@ -3301,6 +3261,14 @@
                     [
                         -118.531329,
                         32.948685
+                    ],
+                    [
+                        -118.509741,
+                        32.953445
+                    ],
+                    [
+                        -118.51025,
+                        32.953631
                     ]
                 ]
             }
@@ -3313,13 +3281,13 @@
                 "type": "AS50",
                 "description": "AEROSPATIALE AS-350 Ecureuil",
                 "operator": "TINY BUBBLES AVIATION INC",
-                "altitude": 1575,
-                "ground_speed": 92.1,
-                "track": 3.11,
+                "altitude": 1025,
+                "ground_speed": 15.8,
+                "track": 325.3,
                 "squawk": "1200",
-                "rssi": -5.4,
+                "rssi": -9.1,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2026-02-20T04:56:02.340315+00:00",
+                "last_seen": "2026-02-20T04:58:02.284688+00:00",
                 "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
                 "category": "A7"
@@ -3570,6 +3538,14 @@
                     [
                         -118.409042,
                         34.225578
+                    ],
+                    [
+                        -118.409786,
+                        34.256395
+                    ],
+                    [
+                        -118.409916,
+                        34.256607
                     ]
                 ]
             }
