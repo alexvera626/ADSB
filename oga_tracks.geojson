@@ -594,13 +594,13 @@
                 "type": "AS50",
                 "description": "AEROSPATIALE AS-350 Ecureuil",
                 "operator": "LAPD AIR SUPPORT DIVISION",
-                "altitude": 0,
+                "altitude": 250,
                 "ground_speed": 0.0,
                 "track": 0.0,
                 "squawk": "1200",
                 "rssi": -23.0,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2026-02-20T15:54:02.339836+00:00",
+                "last_seen": "2026-02-20T16:26:02.159841+00:00",
                 "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
                 "category": "A7"
@@ -1140,17 +1140,17 @@
                 "flight": "N3953A  ",
                 "type": "AS50",
                 "description": "AEROSPATIALE AS-350 Ecureuil",
-                "operator": "US DEPARTMENT OF HOMELAND SECURITY, US CUSTOMS & BORDER PROTECTI",
-                "altitude": 1300,
+                "operator": "US DEPARTMENT OF HOMELAND SECURITY",
+                "altitude": 1500,
                 "ground_speed": 70.0,
-                "track": 180.0,
+                "track": 300.8,
                 "squawk": "N/A",
-                "rssi": -30.5,
-                "api_source": "https://opendata.adsb.fi/api/v2/hex/",
-                "last_seen": "2026-02-20T15:14:02.154403+00:00",
+                "rssi": -49.5,
+                "api_source": "https://api.airplanes.live/v2/hex/",
+                "last_seen": "2026-02-20T16:26:02.159787+00:00",
                 "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
-                "category": "A7"
+                "category": "Unknown"
             },
             "geometry": {
                 "type": "LineString",
@@ -1390,6 +1390,10 @@
                     [
                         -100.766602,
                         29.178589
+                    ],
+                    [
+                        -100.226761,
+                        29.258827
                     ]
                 ]
             }
@@ -2061,13 +2065,13 @@
                 "type": "B752",
                 "description": "BOEING 757-200",
                 "operator": "UNITED STATES GOVERNMENT",
-                "altitude": 38000,
-                "ground_speed": 328.3,
-                "track": 267.38,
+                "altitude": 38025,
+                "ground_speed": 328.4,
+                "track": 267.21,
                 "squawk": "6260",
-                "rssi": -21.7,
+                "rssi": -19.5,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2026-02-20T16:24:02.073579+00:00",
+                "last_seen": "2026-02-20T16:26:02.159822+00:00",
                 "nav_qnh": 1013.6,
                 "nav_altitude_mcp": 0,
                 "category": "A4"
@@ -2250,6 +2254,47 @@
                     [
                         -82.0885,
                         37.184738
+                    ],
+                    [
+                        -82.313778,
+                        37.176315
+                    ],
+                    [
+                        -82.315481,
+                        37.176291
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "hex": "ACB0AC",
+                "flight": "TROY329 ",
+                "type": "B350",
+                "description": "BEECHCRAFT Super King Air 350",
+                "operator": "DEPT OF HOMELAND SECURITY",
+                "altitude": "ground",
+                "ground_speed": 14.8,
+                "track": 0.0,
+                "squawk": "4644",
+                "rssi": -11.1,
+                "api_source": "https://api.airplanes.live/v2/hex/",
+                "last_seen": "2026-02-20T16:26:02.159768+00:00",
+                "nav_qnh": 0.0,
+                "nav_altitude_mcp": 0,
+                "category": "A2"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -117.21194,
+                        32.702785
+                    ],
+                    [
+                        -117.212056,
+                        32.702819
                     ]
                 ]
             }
