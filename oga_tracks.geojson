@@ -24,22 +24,6 @@
                 "type": "LineString",
                 "coordinates": [
                     [
-                        -83.941637,
-                        37.842221
-                    ],
-                    [
-                        -83.941637,
-                        37.842221
-                    ],
-                    [
-                        -83.518902,
-                        37.837286
-                    ],
-                    [
-                        -83.512106,
-                        37.837189
-                    ],
-                    [
                         -83.090018,
                         37.83063
                     ],
@@ -216,22 +200,6 @@
             "geometry": {
                 "type": "LineString",
                 "coordinates": [
-                    [
-                        -117.118238,
-                        32.561196
-                    ],
-                    [
-                        -117.118268,
-                        32.561188
-                    ],
-                    [
-                        -117.118268,
-                        32.561188
-                    ],
-                    [
-                        -117.118268,
-                        32.561188
-                    ],
                     [
                         -117.118182,
                         32.561149
@@ -830,22 +798,6 @@
                 "type": "LineString",
                 "coordinates": [
                     [
-                        -118.032625,
-                        33.770462
-                    ],
-                    [
-                        -118.032625,
-                        33.770462
-                    ],
-                    [
-                        -118.077916,
-                        33.783371
-                    ],
-                    [
-                        -118.078532,
-                        33.783691
-                    ],
-                    [
                         -118.126962,
                         33.803604
                     ],
@@ -1074,22 +1026,6 @@
             "geometry": {
                 "type": "LineString",
                 "coordinates": [
-                    [
-                        -120.829727,
-                        38.807144
-                    ],
-                    [
-                        -120.829727,
-                        38.807144
-                    ],
-                    [
-                        -120.788574,
-                        38.753248
-                    ],
-                    [
-                        -120.787842,
-                        38.752317
-                    ],
                     [
                         -120.746732,
                         38.698517
@@ -1660,22 +1596,6 @@
                 "type": "LineString",
                 "coordinates": [
                     [
-                        -118.226166,
-                        34.300946
-                    ],
-                    [
-                        -118.228397,
-                        34.301085
-                    ],
-                    [
-                        -118.298763,
-                        34.282974
-                    ],
-                    [
-                        -118.300389,
-                        34.282242
-                    ],
-                    [
                         -118.38245,
                         34.270294
                     ],
@@ -1992,13 +1912,13 @@
                 "type": "H60",
                 "description": "SIKORSKY UH-60 Black Hawk",
                 "operator": "Unknown",
-                "altitude": -50,
-                "ground_speed": 22.0,
-                "track": 267.4,
-                "squawk": "4000",
-                "rssi": -21.2,
+                "altitude": 25,
+                "ground_speed": 76.9,
+                "track": 147.76,
+                "squawk": "N/A",
+                "rssi": -23.5,
                 "api_source": "https://opendata.adsb.fi/api/v2/hex/",
-                "last_seen": "2026-02-21T02:00:02.693435+00:00",
+                "last_seen": "2026-02-21T02:02:02.531238+00:00",
                 "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
                 "category": "A7"
@@ -2569,6 +2489,10 @@
                     [
                         -117.914074,
                         32.678321
+                    ],
+                    [
+                        -117.920183,
+                        32.673154
                     ]
                 ]
             }
@@ -3722,12 +3646,12 @@
                 "description": "AEROSPATIALE AS-350 Ecureuil",
                 "operator": "US DEPARTMENT OF HOMELAND SECURITY",
                 "altitude": 3100,
-                "ground_speed": 62.0,
-                "track": 270.0,
+                "ground_speed": 36.1,
+                "track": 109.44,
                 "squawk": "1200",
-                "rssi": -3.4,
+                "rssi": -3.2,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2026-02-21T02:00:02.693619+00:00",
+                "last_seen": "2026-02-21T02:02:02.531330+00:00",
                 "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
                 "category": "A7"
@@ -3990,6 +3914,14 @@
                     [
                         -100.894345,
                         29.320834
+                    ],
+                    [
+                        -100.891677,
+                        29.334641
+                    ],
+                    [
+                        -100.891677,
+                        29.334641
                     ]
                 ]
             }
@@ -4091,6 +4023,35 @@
                     [
                         -118.229685,
                         34.054824
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "hex": "AC4597",
+                "flight": "REH46   ",
+                "type": "EC35",
+                "description": "AIRBUS HELICOPTERS EC-135/635",
+                "operator": "REACH AIR MEDICAL SERVICES LLC",
+                "altitude": 3225,
+                "ground_speed": 118.1,
+                "track": 313.97,
+                "squawk": "2375",
+                "rssi": -36.6,
+                "api_source": "https://opendata.adsb.fi/api/v2/hex/",
+                "last_seen": "2026-02-21T02:02:02.531190+00:00",
+                "nav_qnh": 1010.4,
+                "nav_altitude_mcp": 0,
+                "category": "A7"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -156.16212,
+                        19.684113
                     ]
                 ]
             }
