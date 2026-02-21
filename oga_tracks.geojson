@@ -9,13 +9,13 @@
                 "type": "DH8C",
                 "description": "DE HAVILLAND DHC-8-300 Dash 8",
                 "operator": "US DEPARTMENT OF HOMELAND SECURITY",
-                "altitude": 3800,
-                "ground_speed": 179.0,
-                "track": 7.0,
+                "altitude": 3600,
+                "ground_speed": 149.0,
+                "track": 333.0,
                 "squawk": "0146",
-                "rssi": -25.1,
+                "rssi": -16.6,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2026-02-21T16:30:02.914571+00:00",
+                "last_seen": "2026-02-21T16:32:02.411296+00:00",
                 "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
                 "category": "Unknown"
@@ -23,14 +23,6 @@
             "geometry": {
                 "type": "LineString",
                 "coordinates": [
-                    [
-                        -117.439272,
-                        32.535601
-                    ],
-                    [
-                        -117.43971,
-                        32.535148
-                    ],
                     [
                         -117.397409,
                         32.434596
@@ -934,6 +926,47 @@
                     [
                         -117.139696,
                         33.687441
+                    ],
+                    [
+                        -117.179208,
+                        33.767729
+                    ],
+                    [
+                        -117.178458,
+                        33.767596
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "hex": "A2097B",
+                "flight": "N230LA  ",
+                "type": "AS50",
+                "description": "AEROSPATIALE AS-350 Ecureuil",
+                "operator": "LAPD AIR SUPPORT DIVISION",
+                "altitude": 775,
+                "ground_speed": 78.0,
+                "track": 300.84,
+                "squawk": "1200",
+                "rssi": -8.4,
+                "api_source": "https://api.airplanes.live/v2/hex/",
+                "last_seen": "2026-02-21T16:32:02.411315+00:00",
+                "nav_qnh": 1021.6,
+                "nav_altitude_mcp": 10016,
+                "category": "A7"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -118.242188,
+                        34.069954
+                    ],
+                    [
+                        -118.242188,
+                        34.069954
                     ]
                 ]
             }
