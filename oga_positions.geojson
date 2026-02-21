@@ -9,13 +9,13 @@
                 "type": "AS50",
                 "description": "AEROSPATIALE AS-350 Ecureuil",
                 "operator": "LAPD AIR SUPPORT DIVISION",
-                "altitude": 875,
-                "ground_speed": 41.2,
-                "track": 14.04,
+                "altitude": "ground",
+                "ground_speed": 0.0,
+                "track": 0.0,
                 "squawk": "1200",
                 "rssi": null,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2026-02-21T03:32:01.880100+00:00",
+                "last_seen": "2026-02-21T03:34:02.545600+00:00",
                 "nav_qnh": null,
                 "nav_altitude_mcp": null,
                 "category": "A7"
@@ -23,8 +23,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -118.49865,
-                    34.214731
+                    -118.495975,
+                    34.216896
                 ]
             }
         },
@@ -36,13 +36,13 @@
                 "type": "B407",
                 "description": "BELL 407",
                 "operator": "SAN DIEGO COUNTY SHERIFF DEPT",
-                "altitude": 675,
-                "ground_speed": 9.2,
-                "track": 12.53,
-                "squawk": "N/A",
+                "altitude": 1600,
+                "ground_speed": 93.4,
+                "track": 142.39,
+                "squawk": "1200",
                 "rssi": null,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2026-02-21T03:26:01.936507+00:00",
+                "last_seen": "2026-02-21T03:34:02.545617+00:00",
                 "nav_qnh": null,
                 "nav_altitude_mcp": null,
                 "category": "A7"
@@ -50,8 +50,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -117.101019,
-                    33.041245
+                    -117.09761,
+                    33.021597
                 ]
             }
         },
@@ -63,13 +63,13 @@
                 "type": "AS50",
                 "description": "AEROSPATIALE AS-350 Ecureuil",
                 "operator": "US DEPARTMENT OF HOMELAND SECURITY",
-                "altitude": 4200,
-                "ground_speed": 74.0,
-                "track": 91.55,
+                "altitude": 4100,
+                "ground_speed": 120.2,
+                "track": 101.03,
                 "squawk": "1200",
                 "rssi": null,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2026-02-21T03:32:01.880082+00:00",
+                "last_seen": "2026-02-21T03:34:02.545582+00:00",
                 "nav_qnh": null,
                 "nav_altitude_mcp": null,
                 "category": "A7"
@@ -77,8 +77,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -100.550052,
-                    29.314782
+                    -100.481011,
+                    29.30766
                 ]
             }
         },
@@ -160,6 +160,33 @@
                 "coordinates": [
                     -117.217451,
                     32.712118
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "hex": "AE2793",
+                "flight": "Unknown",
+                "type": "H60",
+                "description": "SIKORSKY UH-60 Black Hawk",
+                "operator": "Unknown",
+                "altitude": 325,
+                "ground_speed": 84.1,
+                "track": 87.27,
+                "squawk": "N/A",
+                "rssi": null,
+                "api_source": "https://opendata.adsb.fi/api/v2/hex/",
+                "last_seen": "2026-02-21T03:34:02.545514+00:00",
+                "nav_qnh": null,
+                "nav_altitude_mcp": null,
+                "category": "Unknown"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -118.184436,
+                    32.646469
                 ]
             }
         }
