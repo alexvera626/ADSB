@@ -4,18 +4,18 @@
         {
             "type": "Feature",
             "properties": {
-                "hex": "A2097B",
-                "flight": "N230LA  ",
-                "type": "AS50",
-                "description": "AEROSPATIALE AS-350 Ecureuil",
-                "operator": "LAPD AIR SUPPORT DIVISION",
-                "altitude": 625,
-                "ground_speed": 122.1,
-                "track": 177.65,
-                "squawk": "1200",
+                "hex": "A145F7",
+                "flight": "N181SD  ",
+                "type": "UH1",
+                "description": "BELL UH-1 Huey",
+                "operator": "ORANGE COUNTY SHERIFFS DEPARTMENT",
+                "altitude": "ground",
+                "ground_speed": 0.0,
+                "track": 0.0,
+                "squawk": "4204",
                 "rssi": null,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2026-02-21T22:40:02.988768+00:00",
+                "last_seen": "2026-02-21T22:42:03.189249+00:00",
                 "nav_qnh": null,
                 "nav_altitude_mcp": null,
                 "category": "A7"
@@ -23,8 +23,35 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -118.300781,
-                    34.076285
+                    -117.871513,
+                    33.674969
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "hex": "A2097B",
+                "flight": "N230LA  ",
+                "type": "AS50",
+                "description": "AEROSPATIALE AS-350 Ecureuil",
+                "operator": "LAPD AIR SUPPORT DIVISION",
+                "altitude": 525,
+                "ground_speed": 78.7,
+                "track": 319.64,
+                "squawk": "1200",
+                "rssi": null,
+                "api_source": "https://api.airplanes.live/v2/hex/",
+                "last_seen": "2026-02-21T22:42:03.189229+00:00",
+                "nav_qnh": null,
+                "nav_altitude_mcp": null,
+                "category": "A7"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -118.295232,
+                    34.020905
                 ]
             }
         },
@@ -36,13 +63,13 @@
                 "type": "SHIP",
                 "description": "Zeppelin LZ N07-101",
                 "operator": "GOODYEAR TIRE & RUBBER CO",
-                "altitude": 1125,
-                "ground_speed": 16.1,
-                "track": 209.74,
+                "altitude": 1475,
+                "ground_speed": 14.8,
+                "track": 298.3,
                 "squawk": "1200",
                 "rssi": null,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2026-02-21T22:40:02.988805+00:00",
+                "last_seen": "2026-02-21T22:42:03.189269+00:00",
                 "nav_qnh": null,
                 "nav_altitude_mcp": null,
                 "category": "B2"
@@ -50,8 +77,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -118.50145,
-                    34.035873
+                    -118.507335,
+                    34.03299
                 ]
             }
         },
@@ -79,6 +106,33 @@
                 "coordinates": [
                     -118.054852,
                     32.834015
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "hex": "AE2793",
+                "flight": "Unknown",
+                "type": "H60",
+                "description": "SIKORSKY UH-60 Black Hawk",
+                "operator": "Unknown",
+                "altitude": 1325,
+                "ground_speed": 86.0,
+                "track": 351.3,
+                "squawk": "7101",
+                "rssi": null,
+                "api_source": "https://opendata.adsb.fi/api/v2/hex/",
+                "last_seen": "2026-02-21T22:42:03.189087+00:00",
+                "nav_qnh": null,
+                "nav_altitude_mcp": null,
+                "category": "A7"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -118.34439,
+                    32.596017
                 ]
             }
         }
