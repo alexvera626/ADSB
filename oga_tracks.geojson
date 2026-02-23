@@ -24,14 +24,6 @@
                 "type": "LineString",
                 "coordinates": [
                     [
-                        -111.021954,
-                        32.288269
-                    ],
-                    [
-                        -111.021954,
-                        32.288269
-                    ],
-                    [
                         -111.047937,
                         32.209259
                     ],
@@ -88,15 +80,15 @@
                 "hex": "AE2793",
                 "flight": "Unknown",
                 "type": "H60",
-                "description": "Sikorsky MH-60S Seahawk",
+                "description": "SIKORSKY UH-60 Black Hawk",
                 "operator": "Unknown",
-                "altitude": 250,
-                "ground_speed": 0.0,
-                "track": 0.0,
+                "altitude": 0,
+                "ground_speed": 65.0,
+                "track": 270.0,
                 "squawk": "N/A",
-                "rssi": -18.8,
-                "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2026-02-23T00:56:02.350890+00:00",
+                "rssi": -17.4,
+                "api_source": "https://opendata.adsb.fi/api/v2/hex/",
+                "last_seen": "2026-02-23T00:58:02.179029+00:00",
                 "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
                 "category": "A7"
@@ -104,14 +96,6 @@
             "geometry": {
                 "type": "LineString",
                 "coordinates": [
-                    [
-                        -117.790982,
-                        32.671338
-                    ],
-                    [
-                        -117.790982,
-                        32.671338
-                    ],
                     [
                         -117.729657,
                         32.672104
@@ -954,43 +938,6 @@
         {
             "type": "Feature",
             "properties": {
-                "hex": "A7FB70",
-                "flight": "REH80   ",
-                "type": "AS50",
-                "description": "AEROSPATIALE AS-350 Ecureuil",
-                "operator": "REACH AIR MEDICAL SERVICES LLC",
-                "altitude": 225,
-                "ground_speed": 78.1,
-                "track": 9.58,
-                "squawk": "1200",
-                "rssi": -22.0,
-                "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2026-02-22T20:58:02.449239+00:00",
-                "nav_qnh": 0.0,
-                "nav_altitude_mcp": 0,
-                "category": "A7"
-            },
-            "geometry": {
-                "type": "LineString",
-                "coordinates": [
-                    [
-                        -122.107788,
-                        39.12143
-                    ],
-                    [
-                        -122.109009,
-                        39.122594
-                    ],
-                    [
-                        -122.142639,
-                        39.157927
-                    ]
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
                 "hex": "A31AA0",
                 "flight": "N3A     ",
                 "type": "SHIP",
@@ -1010,14 +957,6 @@
             "geometry": {
                 "type": "LineString",
                 "coordinates": [
-                    [
-                        -118.504701,
-                        34.037933
-                    ],
-                    [
-                        -118.504701,
-                        34.037933
-                    ],
                     [
                         -118.504253,
                         34.037842
@@ -1820,12 +1759,37 @@
                 "type": "LineString",
                 "coordinates": [
                     [
-                        -118.40801,
-                        34.258598
-                    ],
-                    [
                         -118.408027,
                         34.25863
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "hex": "A7FB70",
+                "flight": "REH80   ",
+                "type": "AS50",
+                "description": "AEROSPATIALE AS-350 Ecureuil",
+                "operator": "REACH AIR MEDICAL SERVICES LLC",
+                "altitude": 225,
+                "ground_speed": 78.1,
+                "track": 9.58,
+                "squawk": "1200",
+                "rssi": -22.0,
+                "api_source": "https://api.airplanes.live/v2/hex/",
+                "last_seen": "2026-02-22T20:58:02.449239+00:00",
+                "nav_qnh": 0.0,
+                "nav_altitude_mcp": 0,
+                "category": "A7"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -122.142639,
+                        39.157927
                     ]
                 ]
             }
@@ -3392,12 +3356,12 @@
                 "description": "AEROSPATIALE AS-350 Ecureuil",
                 "operator": "CITY OF ANAHEIM",
                 "altitude": 500,
-                "ground_speed": 56.0,
-                "track": 285.52,
+                "ground_speed": 56.9,
+                "track": 169.88,
                 "squawk": "4301",
-                "rssi": -6.9,
+                "rssi": -5.4,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2026-02-23T00:56:02.350872+00:00",
+                "last_seen": "2026-02-23T00:58:02.179152+00:00",
                 "nav_qnh": 1020.8,
                 "nav_altitude_mcp": 4000,
                 "category": "A7"
@@ -3556,6 +3520,14 @@
                     [
                         -117.975769,
                         33.845898
+                    ],
+                    [
+                        -117.978086,
+                        33.844345
+                    ],
+                    [
+                        -117.97803,
+                        33.84407
                     ]
                 ]
             }
@@ -3568,15 +3540,15 @@
                 "type": "A139",
                 "description": "AGUSTA AW-139",
                 "operator": "CITY OF LOS ANGELES",
-                "altitude": 1125,
-                "ground_speed": 127.1,
-                "track": 100.43,
+                "altitude": 1450,
+                "ground_speed": 129.2,
+                "track": 142.86,
                 "squawk": "1200",
-                "rssi": -7.0,
+                "rssi": -9.3,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2026-02-23T00:56:02.350853+00:00",
+                "last_seen": "2026-02-23T00:58:02.179134+00:00",
                 "nav_qnh": 1021.6,
-                "nav_altitude_mcp": 672,
+                "nav_altitude_mcp": 2016,
                 "category": "A7"
             },
             "geometry": {
@@ -3617,6 +3589,14 @@
                     [
                         -118.245962,
                         34.149902
+                    ],
+                    [
+                        -118.181133,
+                        34.109756
+                    ],
+                    [
+                        -118.18066,
+                        34.109207
                     ]
                 ]
             }
