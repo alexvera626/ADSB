@@ -4,18 +4,18 @@
         {
             "type": "Feature",
             "properties": {
-                "hex": "AE2793",
-                "flight": "GH71    ",
-                "type": "H60",
-                "description": "SIKORSKY UH-60 Black Hawk",
-                "operator": "Unknown",
-                "altitude": "ground",
-                "ground_speed": 8.8,
-                "track": 0.0,
-                "squawk": "4000",
+                "hex": "AAFBEA",
+                "flight": "N807AM  ",
+                "type": "AS50",
+                "description": "AEROSPATIALE AS-350 Ecureuil",
+                "operator": "US DEPARTMENT OF HOMELAND SECURITY",
+                "altitude": 4700,
+                "ground_speed": 121.8,
+                "track": 303.95,
+                "squawk": "4416",
                 "rssi": null,
-                "api_source": "https://opendata.adsb.fi/api/v2/hex/",
-                "last_seen": "2026-02-24T01:20:02.298660+00:00",
+                "api_source": "https://api.airplanes.live/v2/hex/",
+                "last_seen": "2026-02-24T01:22:02.362198+00:00",
                 "nav_qnh": null,
                 "nav_altitude_mcp": null,
                 "category": "A7"
@@ -23,8 +23,35 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -118.144548,
-                    32.838344
+                    -110.209566,
+                    31.474457
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "hex": "AE2793",
+                "flight": "Unknown",
+                "type": "H60",
+                "description": "Sikorsky MH-60S Seahawk",
+                "operator": "Unknown",
+                "altitude": "ground",
+                "ground_speed": 8.8,
+                "track": 0.0,
+                "squawk": "N/A",
+                "rssi": null,
+                "api_source": "https://api.airplanes.live/v2/hex/",
+                "last_seen": "2026-02-24T01:22:02.362254+00:00",
+                "nav_qnh": null,
+                "nav_altitude_mcp": null,
+                "category": "A7"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -118.146602,
+                    32.843033
                 ]
             }
         },
@@ -36,13 +63,13 @@
                 "type": "Unknown",
                 "description": "Unknown",
                 "operator": "Unknown",
-                "altitude": -100,
-                "ground_speed": 1.2,
-                "track": 180.0,
+                "altitude": "ground",
+                "ground_speed": 0.0,
+                "track": 0.0,
                 "squawk": "4002",
                 "rssi": null,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2026-02-24T01:20:02.298980+00:00",
+                "last_seen": "2026-02-24T01:22:02.362271+00:00",
                 "nav_qnh": null,
                 "nav_altitude_mcp": null,
                 "category": "A7"
@@ -50,8 +77,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -117.469995,
-                    33.300018
+                    -117.47008,
+                    33.300026
                 ]
             }
         }
