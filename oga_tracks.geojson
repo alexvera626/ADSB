@@ -24,22 +24,6 @@
                 "type": "LineString",
                 "coordinates": [
                     [
-                        -118.302519,
-                        33.830383
-                    ],
-                    [
-                        -118.302519,
-                        33.830383
-                    ],
-                    [
-                        -118.266563,
-                        33.874481
-                    ],
-                    [
-                        -118.266163,
-                        33.874807
-                    ],
-                    [
                         -118.230267,
                         33.920929
                     ],
@@ -112,22 +96,6 @@
             "geometry": {
                 "type": "LineString",
                 "coordinates": [
-                    [
-                        -118.265934,
-                        33.948406
-                    ],
-                    [
-                        -118.265934,
-                        33.948406
-                    ],
-                    [
-                        -118.274059,
-                        33.970565
-                    ],
-                    [
-                        -118.274436,
-                        33.970505
-                    ],
                     [
                         -118.274885,
                         33.968536
@@ -513,12 +481,12 @@
                 "description": "DE HAVILLAND DHC-8-300 Dash 8",
                 "operator": "US DEPARTMENT OF HOMELAND SECURITY",
                 "altitude": 10300,
-                "ground_speed": 233.0,
-                "track": 152.0,
+                "ground_speed": 226.0,
+                "track": 133.0,
                 "squawk": "4406",
-                "rssi": -12.1,
+                "rssi": -21.2,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2026-02-24T13:34:01.999297+00:00",
+                "last_seen": "2026-02-24T13:36:02.360388+00:00",
                 "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
                 "category": "Unknown"
@@ -921,6 +889,76 @@
                     [
                         -118.33735,
                         32.883939
+                    ],
+                    [
+                        -118.226602,
+                        32.803488
+                    ],
+                    [
+                        -118.225661,
+                        32.803594
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "hex": "A4CE5C",
+                "flight": "Unknown",
+                "type": "PC12",
+                "description": "PILATUS PC-12",
+                "operator": "US GOVERNMENT",
+                "altitude": "ground",
+                "ground_speed": 0.0,
+                "track": 0.0,
+                "squawk": "N/A",
+                "rssi": -28.5,
+                "api_source": "https://opendata.adsb.fi/api/v2/hex/",
+                "last_seen": "2026-02-24T13:36:02.360253+00:00",
+                "nav_qnh": 0.0,
+                "nav_altitude_mcp": 0,
+                "category": "Unknown"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -84.536712,
+                        33.916649
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "hex": "A0F9B2",
+                "flight": "Unknown",
+                "type": "BE30",
+                "description": "BEECH 300 Super King Air",
+                "operator": "DEPARTMENT OF HOMELAND SECURITY",
+                "altitude": "ground",
+                "ground_speed": 11.2,
+                "track": 0.0,
+                "squawk": "N/A",
+                "rssi": -29.5,
+                "api_source": "https://api.airplanes.live/v2/hex/",
+                "last_seen": "2026-02-24T13:36:02.360408+00:00",
+                "nav_qnh": 0.0,
+                "nav_altitude_mcp": 0,
+                "category": "Unknown"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -80.40006,
+                        25.490032
+                    ],
+                    [
+                        -80.40006,
+                        25.490032
                     ]
                 ]
             }
