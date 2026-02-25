@@ -9,13 +9,13 @@
                 "type": "AS50",
                 "description": "AEROSPATIALE AS-350 Ecureuil",
                 "operator": "LAPD AIR SUPPORT DIVISION",
-                "altitude": 1125,
-                "ground_speed": 54.0,
-                "track": 177.88,
+                "altitude": 1300,
+                "ground_speed": 73.8,
+                "track": 305.63,
                 "squawk": "1200",
-                "rssi": -5.9,
+                "rssi": -11.4,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2026-02-25T08:50:02.187170+00:00",
+                "last_seen": "2026-02-25T08:52:02.834395+00:00",
                 "nav_qnh": 1017.6,
                 "nav_altitude_mcp": 10016,
                 "category": "A7"
@@ -23,22 +23,6 @@
             "geometry": {
                 "type": "LineString",
                 "coordinates": [
-                    [
-                        -118.269768,
-                        34.005432
-                    ],
-                    [
-                        -118.269768,
-                        34.005432
-                    ],
-                    [
-                        -118.238451,
-                        34.038345
-                    ],
-                    [
-                        -118.238451,
-                        34.038345
-                    ],
                     [
                         -118.229552,
                         34.054218
@@ -430,6 +414,14 @@
                     [
                         -118.466585,
                         34.174942
+                    ],
+                    [
+                        -118.499768,
+                        34.168488
+                    ],
+                    [
+                        -118.499768,
+                        34.168488
                     ]
                 ]
             }
@@ -456,22 +448,6 @@
             "geometry": {
                 "type": "LineString",
                 "coordinates": [
-                    [
-                        -117.225165,
-                        32.664642
-                    ],
-                    [
-                        -117.225165,
-                        32.664642
-                    ],
-                    [
-                        -117.233624,
-                        32.596802
-                    ],
-                    [
-                        -117.233624,
-                        32.596802
-                    ],
                     [
                         -117.161454,
                         32.576278
@@ -758,6 +734,47 @@
         {
             "type": "Feature",
             "properties": {
+                "hex": "AE1841",
+                "flight": "RS40    ",
+                "type": "H60",
+                "description": "Sikorsky MH-60R Seahawk",
+                "operator": "United States Navy",
+                "altitude": -75,
+                "ground_speed": 5.0,
+                "track": 126.87,
+                "squawk": "1200",
+                "rssi": -17.9,
+                "api_source": "https://api.airplanes.live/v2/hex/",
+                "last_seen": "2026-02-25T04:56:02.267863+00:00",
+                "nav_qnh": 0.0,
+                "nav_altitude_mcp": 0,
+                "category": "A7"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -117.231072,
+                        32.690238
+                    ],
+                    [
+                        -117.231072,
+                        32.690378
+                    ],
+                    [
+                        -117.211542,
+                        32.703827
+                    ],
+                    [
+                        -117.211487,
+                        32.703781
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
                 "hex": "A16926",
                 "flight": "Unknown",
                 "type": "H60",
@@ -777,22 +794,6 @@
             "geometry": {
                 "type": "LineString",
                 "coordinates": [
-                    [
-                        -118.20322,
-                        34.227114
-                    ],
-                    [
-                        -118.203163,
-                        34.2273
-                    ],
-                    [
-                        -118.178329,
-                        34.288144
-                    ],
-                    [
-                        -118.177986,
-                        34.289215
-                    ],
                     [
                         -118.15908,
                         34.351227
@@ -844,63 +845,6 @@
                     [
                         -118.139105,
                         34.64783
-                    ]
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "hex": "AE1841",
-                "flight": "RS40    ",
-                "type": "H60",
-                "description": "Sikorsky MH-60R Seahawk",
-                "operator": "United States Navy",
-                "altitude": -75,
-                "ground_speed": 5.0,
-                "track": 126.87,
-                "squawk": "1200",
-                "rssi": -17.9,
-                "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2026-02-25T04:56:02.267863+00:00",
-                "nav_qnh": 0.0,
-                "nav_altitude_mcp": 0,
-                "category": "A7"
-            },
-            "geometry": {
-                "type": "LineString",
-                "coordinates": [
-                    [
-                        -117.171544,
-                        32.616919
-                    ],
-                    [
-                        -117.171376,
-                        32.616686
-                    ],
-                    [
-                        -117.214928,
-                        32.648155
-                    ],
-                    [
-                        -117.214928,
-                        32.648155
-                    ],
-                    [
-                        -117.231072,
-                        32.690238
-                    ],
-                    [
-                        -117.231072,
-                        32.690378
-                    ],
-                    [
-                        -117.211542,
-                        32.703827
-                    ],
-                    [
-                        -117.211487,
-                        32.703781
                     ]
                 ]
             }
@@ -1695,14 +1639,14 @@
                 "type": "Unknown",
                 "description": "Unknown",
                 "operator": "CITY OF HUNTINGTON BEACH",
-                "altitude": -75,
-                "ground_speed": 0.7,
+                "altitude": "ground",
+                "ground_speed": 0.0,
                 "track": 0.0,
                 "squawk": "4301",
-                "rssi": -14.7,
+                "rssi": -16.1,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2026-02-25T08:50:02.187216+00:00",
-                "nav_qnh": 1016.8,
+                "last_seen": "2026-02-25T08:52:02.834417+00:00",
+                "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
                 "category": "A7"
             },
@@ -1944,6 +1888,14 @@
                     [
                         -118.001289,
                         33.695161
+                    ],
+                    [
+                        -118.001264,
+                        33.69516
+                    ],
+                    [
+                        -118.001264,
+                        33.69516
                     ]
                 ]
             }
