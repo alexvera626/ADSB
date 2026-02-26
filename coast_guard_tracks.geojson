@@ -10,12 +10,12 @@
                 "description": "Eurocopter MH-65D Dolphin",
                 "operator": "Unknown",
                 "altitude": 4050,
-                "ground_speed": 103.1,
-                "track": 165.96,
+                "ground_speed": 117.0,
+                "track": 359.51,
                 "squawk": "5147",
-                "rssi": -12.4,
+                "rssi": -18.8,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2026-02-26T13:20:02.561921+00:00",
+                "last_seen": "2026-02-26T13:22:02.273197+00:00",
                 "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
                 "category": "A7"
@@ -154,6 +154,10 @@
                     [
                         -76.021767,
                         38.247711
+                    ],
+                    [
+                        -75.960992,
+                        38.249863
                     ]
                 ]
             }
@@ -167,12 +171,12 @@
                 "description": "Sikorsky MH-60T Jayhawk",
                 "operator": "Unknown",
                 "altitude": -50,
-                "ground_speed": 18.1,
-                "track": 353.66,
+                "ground_speed": 11.4,
+                "track": 344.74,
                 "squawk": "4421",
-                "rssi": -13.5,
+                "rssi": -12.8,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2026-02-26T13:20:02.561957+00:00",
+                "last_seen": "2026-02-26T13:22:02.273245+00:00",
                 "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
                 "category": "A7"
@@ -219,6 +223,10 @@
                     [
                         -67.217439,
                         18.03772
+                    ],
+                    [
+                        -67.216072,
+                        18.044299
                     ]
                 ]
             }
@@ -232,12 +240,12 @@
                 "description": "Sikorsky MH-60T Jayhawk",
                 "operator": "United States Coast Guard",
                 "altitude": -75,
-                "ground_speed": 1.2,
-                "track": 90.0,
+                "ground_speed": 0.7,
+                "track": 0.0,
                 "squawk": "4422",
-                "rssi": -30.7,
+                "rssi": -26.9,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2026-02-26T13:20:02.561991+00:00",
+                "last_seen": "2026-02-26T13:22:02.273282+00:00",
                 "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
                 "category": "A7"
@@ -280,6 +288,10 @@
                     [
                         -67.234015,
                         18.013596
+                    ],
+                    [
+                        -67.234023,
+                        18.013668
                     ]
                 ]
             }
@@ -292,13 +304,13 @@
                 "type": "CN35",
                 "description": "CASA HC-144B Ocean Sentry",
                 "operator": "United States Coast Guard",
-                "altitude": 10725,
+                "altitude": 11975,
                 "ground_speed": 172.2,
                 "track": 110.75,
                 "squawk": "2413",
-                "rssi": -31.6,
+                "rssi": -33.4,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2026-02-26T13:20:02.561898+00:00",
+                "last_seen": "2026-02-26T13:22:02.273176+00:00",
                 "nav_qnh": 1007.2,
                 "nav_altitude_mcp": 13504,
                 "category": "A2"
@@ -361,6 +373,43 @@
                     [
                         -96.800009,
                         27.578058
+                    ],
+                    [
+                        -96.700831,
+                        27.54451
+                    ],
+                    [
+                        -96.700076,
+                        27.544261
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "hex": "AE2916",
+                "flight": "C6039   ",
+                "type": "H60",
+                "description": "Sikorsky MH-60T Jayhawk",
+                "operator": "Unknown",
+                "altitude": "ground",
+                "ground_speed": 0.0,
+                "track": 0.0,
+                "squawk": "N/A",
+                "rssi": -32.3,
+                "api_source": "https://opendata.adsb.fi/api/v2/hex/",
+                "last_seen": "2026-02-26T13:22:02.273018+00:00",
+                "nav_qnh": 0.0,
+                "nav_altitude_mcp": 0,
+                "category": "A7"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -82.694364,
+                        27.913971
                     ]
                 ]
             }
