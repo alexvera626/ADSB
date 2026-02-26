@@ -24,14 +24,6 @@
                 "type": "LineString",
                 "coordinates": [
                     [
-                        -100.691071,
-                        29.125671
-                    ],
-                    [
-                        -100.691071,
-                        29.125671
-                    ],
-                    [
                         -100.735755,
                         29.170578
                     ],
@@ -282,13 +274,13 @@
                 "type": "AS50",
                 "description": "AEROSPATIALE AS-350 Ecureuil",
                 "operator": "LAPD AIR SUPPORT DIVISION",
-                "altitude": 500,
-                "ground_speed": 67.0,
-                "track": 270.86,
+                "altitude": 225,
+                "ground_speed": 3.1,
+                "track": 0.0,
                 "squawk": "0204",
-                "rssi": -5.2,
+                "rssi": -9.0,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2026-02-26T08:20:02.358952+00:00",
+                "last_seen": "2026-02-26T08:22:01.951764+00:00",
                 "nav_qnh": 1018.4,
                 "nav_altitude_mcp": 10016,
                 "category": "A7"
@@ -296,14 +288,6 @@
             "geometry": {
                 "type": "LineString",
                 "coordinates": [
-                    [
-                        -118.306675,
-                        34.039322
-                    ],
-                    [
-                        -118.306675,
-                        34.039322
-                    ],
                     [
                         -118.259414,
                         34.037842
@@ -703,83 +687,14 @@
                     [
                         -118.272475,
                         33.940704
-                    ]
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "hex": "AE2761",
-                "flight": "LS04    ",
-                "type": "H60",
-                "description": "SIKORSKY UH-60 Black Hawk",
-                "operator": "Unknown",
-                "altitude": -150,
-                "ground_speed": 1.6,
-                "track": 45.0,
-                "squawk": "1200",
-                "rssi": -11.4,
-                "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2026-02-26T04:34:02.456791+00:00",
-                "nav_qnh": 0.0,
-                "nav_altitude_mcp": 0,
-                "category": "A7"
-            },
-            "geometry": {
-                "type": "LineString",
-                "coordinates": [
-                    [
-                        -117.121124,
-                        32.561417
                     ],
                     [
-                        -117.121124,
-                        32.561417
+                        -118.273428,
+                        33.93869
                     ],
                     [
-                        -117.121096,
-                        32.561382
-                    ],
-                    [
-                        -117.137183,
-                        32.564221
-                    ],
-                    [
-                        -117.13836,
-                        32.564361
-                    ],
-                    [
-                        -117.16123,
-                        32.604582
-                    ],
-                    [
-                        -117.16123,
-                        32.604582
-                    ],
-                    [
-                        -117.179279,
-                        32.652438
-                    ],
-                    [
-                        -117.179279,
-                        32.652438
-                    ],
-                    [
-                        -117.208426,
-                        32.69508
-                    ],
-                    [
-                        -117.208651,
-                        32.695778
-                    ],
-                    [
-                        -117.209379,
-                        32.712258
-                    ],
-                    [
-                        -117.209379,
-                        32.712258
+                        -118.273428,
+                        33.93869
                     ]
                 ]
             }
@@ -806,14 +721,6 @@
             "geometry": {
                 "type": "LineString",
                 "coordinates": [
-                    [
-                        -117.142677,
-                        32.586566
-                    ],
-                    [
-                        -117.142677,
-                        32.586566
-                    ],
                     [
                         -117.117397,
                         32.634934
@@ -1069,6 +976,75 @@
                     [
                         -117.209949,
                         32.712296
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "hex": "AE2761",
+                "flight": "LS04    ",
+                "type": "H60",
+                "description": "SIKORSKY UH-60 Black Hawk",
+                "operator": "Unknown",
+                "altitude": -150,
+                "ground_speed": 1.6,
+                "track": 45.0,
+                "squawk": "1200",
+                "rssi": -11.4,
+                "api_source": "https://api.airplanes.live/v2/hex/",
+                "last_seen": "2026-02-26T04:34:02.456791+00:00",
+                "nav_qnh": 0.0,
+                "nav_altitude_mcp": 0,
+                "category": "A7"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -117.121096,
+                        32.561382
+                    ],
+                    [
+                        -117.137183,
+                        32.564221
+                    ],
+                    [
+                        -117.13836,
+                        32.564361
+                    ],
+                    [
+                        -117.16123,
+                        32.604582
+                    ],
+                    [
+                        -117.16123,
+                        32.604582
+                    ],
+                    [
+                        -117.179279,
+                        32.652438
+                    ],
+                    [
+                        -117.179279,
+                        32.652438
+                    ],
+                    [
+                        -117.208426,
+                        32.69508
+                    ],
+                    [
+                        -117.208651,
+                        32.695778
+                    ],
+                    [
+                        -117.209379,
+                        32.712258
+                    ],
+                    [
+                        -117.209379,
+                        32.712258
                     ]
                 ]
             }
@@ -2557,13 +2533,13 @@
                 "type": "AS50",
                 "description": "AEROSPATIALE AS-350 Ecureuil",
                 "operator": "CITY OF ANAHEIM",
-                "altitude": 800,
-                "ground_speed": 103.0,
-                "track": 281.2,
+                "altitude": 0,
+                "ground_speed": 23.2,
+                "track": 277.43,
                 "squawk": "4301",
-                "rssi": -12.1,
+                "rssi": -27.0,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2026-02-26T08:20:02.358973+00:00",
+                "last_seen": "2026-02-26T08:22:01.951787+00:00",
                 "nav_qnh": 1018.4,
                 "nav_altitude_mcp": 4000,
                 "category": "A7"
@@ -2794,6 +2770,14 @@
                     [
                         -117.929544,
                         33.866684
+                    ],
+                    [
+                        -117.981606,
+                        33.872013
+                    ],
+                    [
+                        -117.98172,
+                        33.872013
                     ]
                 ]
             }
