@@ -9,13 +9,13 @@
                 "type": "AS50",
                 "description": "AEROSPATIALE AS-350 Ecureuil",
                 "operator": "LAPD AIR SUPPORT DIVISION",
-                "altitude": 1150,
-                "ground_speed": 81.0,
-                "track": 90.0,
+                "altitude": "ground",
+                "ground_speed": 0.1,
+                "track": 85.5,
                 "squawk": "0244",
-                "rssi": -6.5,
+                "rssi": -20.4,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2026-02-27T06:00:02.314192+00:00",
+                "last_seen": "2026-02-27T06:02:02.353171+00:00",
                 "nav_qnh": 1017.6,
                 "nav_altitude_mcp": 10016,
                 "category": "A7"
@@ -23,14 +23,6 @@
             "geometry": {
                 "type": "LineString",
                 "coordinates": [
-                    [
-                        -118.533154,
-                        34.184612
-                    ],
-                    [
-                        -118.533554,
-                        34.184239
-                    ],
                     [
                         -118.53794,
                         34.1483
@@ -390,6 +382,14 @@
                     [
                         -118.51664,
                         34.213394
+                    ],
+                    [
+                        -118.495245,
+                        34.216349
+                    ],
+                    [
+                        -118.495256,
+                        34.216347
                     ]
                 ]
             }
@@ -416,22 +416,6 @@
             "geometry": {
                 "type": "LineString",
                 "coordinates": [
-                    [
-                        -118.602448,
-                        33.691577
-                    ],
-                    [
-                        -118.602448,
-                        33.691577
-                    ],
-                    [
-                        -118.518322,
-                        33.634506
-                    ],
-                    [
-                        -118.518322,
-                        33.634506
-                    ],
                     [
                         -118.435364,
                         33.57193
@@ -1170,22 +1154,6 @@
                 "type": "LineString",
                 "coordinates": [
                     [
-                        -116.60771,
-                        33.912186
-                    ],
-                    [
-                        -116.60771,
-                        33.912186
-                    ],
-                    [
-                        -116.523687,
-                        33.889297
-                    ],
-                    [
-                        -116.523687,
-                        33.889297
-                    ],
-                    [
                         -116.445381,
                         33.845169
                     ],
@@ -1242,22 +1210,6 @@
             "geometry": {
                 "type": "LineString",
                 "coordinates": [
-                    [
-                        -117.23522,
-                        32.680043
-                    ],
-                    [
-                        -117.23522,
-                        32.680043
-                    ],
-                    [
-                        -117.239447,
-                        32.619965
-                    ],
-                    [
-                        -117.239008,
-                        32.619598
-                    ],
                     [
                         -117.184492,
                         32.579397
@@ -1829,51 +1781,6 @@
                     [
                         -117.211355,
                         32.703576
-                    ]
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "hex": "A4A2DA",
-                "flight": "N3980A  ",
-                "type": "AS50",
-                "description": "AEROSPATIALE AS-350 Ecureuil",
-                "operator": "US DEPARTMENT OF HOMELAND SECURITY, US CUSTOMS & BORDER PROTECTI",
-                "altitude": "ground",
-                "ground_speed": 6.2,
-                "track": 0.0,
-                "squawk": "N/A",
-                "rssi": -9.5,
-                "api_source": "https://opendata.adsb.fi/api/v2/hex/",
-                "last_seen": "2026-02-27T02:42:02.534625+00:00",
-                "nav_qnh": 0.0,
-                "nav_altitude_mcp": 0,
-                "category": "A7"
-            },
-            "geometry": {
-                "type": "LineString",
-                "coordinates": [
-                    [
-                        -106.897083,
-                        31.941422
-                    ],
-                    [
-                        -106.861155,
-                        31.933811
-                    ],
-                    [
-                        -106.445105,
-                        31.777679
-                    ],
-                    [
-                        -106.393676,
-                        31.787916
-                    ],
-                    [
-                        -106.391753,
-                        31.794914
                     ]
                 ]
             }
@@ -2692,6 +2599,43 @@
         {
             "type": "Feature",
             "properties": {
+                "hex": "A4A2DA",
+                "flight": "N3980A  ",
+                "type": "AS50",
+                "description": "AEROSPATIALE AS-350 Ecureuil",
+                "operator": "US DEPARTMENT OF HOMELAND SECURITY, US CUSTOMS & BORDER PROTECTI",
+                "altitude": "ground",
+                "ground_speed": 6.2,
+                "track": 0.0,
+                "squawk": "N/A",
+                "rssi": -9.5,
+                "api_source": "https://opendata.adsb.fi/api/v2/hex/",
+                "last_seen": "2026-02-27T02:42:02.534625+00:00",
+                "nav_qnh": 0.0,
+                "nav_altitude_mcp": 0,
+                "category": "A7"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -106.445105,
+                        31.777679
+                    ],
+                    [
+                        -106.393676,
+                        31.787916
+                    ],
+                    [
+                        -106.391753,
+                        31.794914
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
                 "hex": "A4981E",
                 "flight": "N3953A  ",
                 "type": "AS50",
@@ -3411,12 +3355,12 @@
                 "description": "AEROSPATIALE AS-350 Ecureuil",
                 "operator": "REACH AIR MEDICAL SERVICES LLC",
                 "altitude": 975,
-                "ground_speed": 133.2,
-                "track": 187.77,
+                "ground_speed": 134.2,
+                "track": 167.52,
                 "squawk": "1200",
-                "rssi": -9.5,
+                "rssi": -7.4,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2026-02-27T06:00:02.314208+00:00",
+                "last_seen": "2026-02-27T06:02:02.353193+00:00",
                 "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
                 "category": "A7"
@@ -3547,6 +3491,14 @@
                     [
                         -121.589156,
                         39.108398
+                    ],
+                    [
+                        -121.582469,
+                        39.034973
+                    ],
+                    [
+                        -121.582469,
+                        39.034973
                     ]
                 ]
             }
