@@ -10,27 +10,19 @@
                 "description": "Lockheed Martin HC-130J Hercules",
                 "operator": "Unknown",
                 "altitude": "ground",
-                "ground_speed": 45.5,
-                "track": 272.22,
+                "ground_speed": 13.8,
+                "track": 0.0,
                 "squawk": "1200",
-                "rssi": -15.1,
+                "rssi": -12.4,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2026-02-28T02:02:02.349528+00:00",
-                "nav_qnh": 1022.4,
+                "last_seen": "2026-02-28T02:04:02.443845+00:00",
+                "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
                 "category": "A3"
             },
             "geometry": {
                 "type": "LineString",
                 "coordinates": [
-                    [
-                        -149.976597,
-                        61.165009
-                    ],
-                    [
-                        -149.976597,
-                        61.165009
-                    ],
                     [
                         -149.97694,
                         61.165009
@@ -390,6 +382,14 @@
                     [
                         -152.498703,
                         57.751694
+                    ],
+                    [
+                        -152.498978,
+                        57.750833
+                    ],
+                    [
+                        -152.498978,
+                        57.750833
                     ]
                 ]
             }
@@ -642,14 +642,6 @@
                 "type": "LineString",
                 "coordinates": [
                     [
-                        -122.434972,
-                        37.928146
-                    ],
-                    [
-                        -122.434972,
-                        37.928146
-                    ],
-                    [
                         -122.436842,
                         37.880951
                     ],
@@ -735,6 +727,79 @@
         {
             "type": "Feature",
             "properties": {
+                "hex": "AE2708",
+                "flight": "C2310   ",
+                "type": "CN35",
+                "description": "CASA HC-144B Ocean Sentry",
+                "operator": "United States Coast Guard",
+                "altitude": 366,
+                "ground_speed": 16.0,
+                "track": 338.9,
+                "squawk": "0362",
+                "rssi": -49.5,
+                "api_source": "https://api.airplanes.live/v2/hex/",
+                "last_seen": "2026-02-27T22:16:03.556306+00:00",
+                "nav_qnh": 0.0,
+                "nav_altitude_mcp": 0,
+                "category": "A2"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -88.269818,
+                        30.32599
+                    ],
+                    [
+                        -88.170721,
+                        30.377477
+                    ],
+                    [
+                        -88.170721,
+                        30.377477
+                    ],
+                    [
+                        -88.144441,
+                        30.455475
+                    ],
+                    [
+                        -88.144441,
+                        30.455475
+                    ],
+                    [
+                        -88.132654,
+                        30.547672
+                    ],
+                    [
+                        -88.132654,
+                        30.548044
+                    ],
+                    [
+                        -88.176379,
+                        30.608841
+                    ],
+                    [
+                        -88.1767,
+                        30.609238
+                    ],
+                    [
+                        -88.219138,
+                        30.660141
+                    ],
+                    [
+                        -88.219138,
+                        30.660141
+                    ],
+                    [
+                        -88.247025,
+                        30.694067
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
                 "hex": "AE6CE9",
                 "flight": "C6055   ",
                 "type": "H60",
@@ -754,14 +819,6 @@
             "geometry": {
                 "type": "LineString",
                 "coordinates": [
-                    [
-                        -119.017863,
-                        34.104858
-                    ],
-                    [
-                        -119.014091,
-                        34.073817
-                    ],
                     [
                         -119.063416,
                         34.088388
@@ -873,112 +930,6 @@
                     [
                         -119.105236,
                         34.128754
-                    ]
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "hex": "AE26B8",
-                "flight": "C6598   ",
-                "type": "AS65",
-                "description": "Eurocopter MH-65D Dolphin",
-                "operator": "Unknown",
-                "altitude": 202,
-                "ground_speed": 7.0,
-                "track": 8.1,
-                "squawk": "0364",
-                "rssi": -49.5,
-                "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2026-02-27T22:02:02.507330+00:00",
-                "nav_qnh": 0.0,
-                "nav_altitude_mcp": 0,
-                "category": "A7"
-            },
-            "geometry": {
-                "type": "LineString",
-                "coordinates": [
-                    [
-                        -88.242027,
-                        30.695297
-                    ]
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "hex": "AE2708",
-                "flight": "C2310   ",
-                "type": "CN35",
-                "description": "CASA HC-144B Ocean Sentry",
-                "operator": "United States Coast Guard",
-                "altitude": 366,
-                "ground_speed": 16.0,
-                "track": 338.9,
-                "squawk": "0362",
-                "rssi": -49.5,
-                "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2026-02-27T22:16:03.556306+00:00",
-                "nav_qnh": 0.0,
-                "nav_altitude_mcp": 0,
-                "category": "A2"
-            },
-            "geometry": {
-                "type": "LineString",
-                "coordinates": [
-                    [
-                        -88.350952,
-                        30.310349
-                    ],
-                    [
-                        -88.269818,
-                        30.32599
-                    ],
-                    [
-                        -88.170721,
-                        30.377477
-                    ],
-                    [
-                        -88.170721,
-                        30.377477
-                    ],
-                    [
-                        -88.144441,
-                        30.455475
-                    ],
-                    [
-                        -88.144441,
-                        30.455475
-                    ],
-                    [
-                        -88.132654,
-                        30.547672
-                    ],
-                    [
-                        -88.132654,
-                        30.548044
-                    ],
-                    [
-                        -88.176379,
-                        30.608841
-                    ],
-                    [
-                        -88.1767,
-                        30.609238
-                    ],
-                    [
-                        -88.219138,
-                        30.660141
-                    ],
-                    [
-                        -88.219138,
-                        30.660141
-                    ],
-                    [
-                        -88.247025,
-                        30.694067
                     ]
                 ]
             }
@@ -3762,12 +3713,12 @@
                 "description": "Lockheed Martin HC-130J Hercules",
                 "operator": "Unknown",
                 "altitude": 8500,
-                "ground_speed": 194.0,
-                "track": 270.89,
+                "ground_speed": 193.1,
+                "track": 271.48,
                 "squawk": "7101",
-                "rssi": -15.5,
+                "rssi": -16.9,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2026-02-28T02:02:02.349568+00:00",
+                "last_seen": "2026-02-28T02:04:02.443901+00:00",
                 "nav_qnh": 1012.8,
                 "nav_altitude_mcp": 0,
                 "category": "A3"
@@ -4438,6 +4389,14 @@
                     [
                         -117.998209,
                         32.789022
+                    ],
+                    [
+                        -118.125275,
+                        32.791122
+                    ],
+                    [
+                        -118.125275,
+                        32.791122
                     ]
                 ]
             }
@@ -4672,13 +4631,13 @@
                 "type": "H60",
                 "description": "Sikorsky MH-60T Jayhawk",
                 "operator": "Unknown",
-                "altitude": 0,
-                "ground_speed": 0.0,
-                "track": 0.0,
-                "squawk": "N/A",
-                "rssi": -28.3,
+                "altitude": 325,
+                "ground_speed": 50.3,
+                "track": 139.03,
+                "squawk": "1200",
+                "rssi": -17.7,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2026-02-28T02:02:02.349547+00:00",
+                "last_seen": "2026-02-28T02:04:02.443885+00:00",
                 "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
                 "category": "A7"
@@ -4829,6 +4788,14 @@
                     [
                         -88.081647,
                         30.634964
+                    ],
+                    [
+                        -88.083105,
+                        30.635981
+                    ],
+                    [
+                        -88.083105,
+                        30.635981
                     ]
                 ]
             }
