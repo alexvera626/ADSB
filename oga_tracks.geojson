@@ -24,14 +24,6 @@
                 "type": "LineString",
                 "coordinates": [
                     [
-                        -119.112761,
-                        32.481545
-                    ],
-                    [
-                        -119.112761,
-                        32.481545
-                    ],
-                    [
                         -119.205176,
                         32.468124
                     ],
@@ -967,12 +959,12 @@
                 "description": "BOEING 757-200",
                 "operator": "UNITED STATES GOVERNMENT",
                 "altitude": 38000,
-                "ground_speed": 404.3,
-                "track": 248.83,
+                "ground_speed": 405.9,
+                "track": 247.86,
                 "squawk": "3265",
-                "rssi": -22.5,
+                "rssi": -21.0,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2026-02-28T17:02:02.676423+00:00",
+                "last_seen": "2026-02-28T17:04:02.031122+00:00",
                 "nav_qnh": 1013.6,
                 "nav_altitude_mcp": 0,
                 "category": "A4"
@@ -1699,6 +1691,14 @@
                     [
                         -101.486684,
                         39.449753
+                    ],
+                    [
+                        -101.751729,
+                        39.369461
+                    ],
+                    [
+                        -101.753723,
+                        39.368855
                     ]
                 ]
             }
@@ -1985,13 +1985,13 @@
                 "type": "UH1",
                 "description": "BELL UH-1 Huey",
                 "operator": "ORANGE COUNTY SHERIFFS DEPARTMENT",
-                "altitude": 1000,
-                "ground_speed": 58.6,
-                "track": 126.67,
+                "altitude": 800,
+                "ground_speed": 51.9,
+                "track": 244.92,
                 "squawk": "4204",
-                "rssi": -4.9,
+                "rssi": -4.8,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2026-02-28T17:02:02.676494+00:00",
+                "last_seen": "2026-02-28T17:04:02.031193+00:00",
                 "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
                 "category": "A7"
@@ -2054,6 +2054,80 @@
                     [
                         -117.825903,
                         33.839493
+                    ],
+                    [
+                        -117.827682,
+                        33.846084
+                    ],
+                    [
+                        -117.827969,
+                        33.845944
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "hex": "A1BCFB",
+                "flight": "N2108J  ",
+                "type": "AS50",
+                "description": "AEROSPATIALE AS-350 Ecureuil",
+                "operator": "DEPARMENT OF HOMELAND SECURITY",
+                "altitude": 1200,
+                "ground_speed": 110.8,
+                "track": 173.26,
+                "squawk": "1200",
+                "rssi": -6.4,
+                "api_source": "https://api.airplanes.live/v2/hex/",
+                "last_seen": "2026-02-28T17:04:02.031105+00:00",
+                "nav_qnh": 0.0,
+                "nav_altitude_mcp": 0,
+                "category": "A7"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -122.368903,
+                        48.335933
+                    ],
+                    [
+                        -122.368821,
+                        48.335403
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "hex": "AD395A",
+                "flight": "N951LB  ",
+                "type": "AS32",
+                "description": "AEROSPATIALE AS-332 Super Puma",
+                "operator": "COUNTY OF LOS ANGELES",
+                "altitude": "ground",
+                "ground_speed": 0.0,
+                "track": 270.0,
+                "squawk": "1206",
+                "rssi": -3.8,
+                "api_source": "https://api.airplanes.live/v2/hex/",
+                "last_seen": "2026-02-28T17:04:02.031211+00:00",
+                "nav_qnh": 0.0,
+                "nav_altitude_mcp": 0,
+                "category": "A7"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -118.142252,
+                        33.814929
+                    ],
+                    [
+                        -118.142252,
+                        33.814929
                     ]
                 ]
             }
