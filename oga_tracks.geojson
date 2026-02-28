@@ -24,22 +24,6 @@
                 "type": "LineString",
                 "coordinates": [
                     [
-                        -118.192039,
-                        32.473026
-                    ],
-                    [
-                        -118.195795,
-                        32.472234
-                    ],
-                    [
-                        -118.299548,
-                        32.449982
-                    ],
-                    [
-                        -118.301221,
-                        32.449631
-                    ],
-                    [
                         -118.403174,
                         32.427475
                     ],
@@ -616,22 +600,6 @@
             "geometry": {
                 "type": "LineString",
                 "coordinates": [
-                    [
-                        -81.186517,
-                        39.043304
-                    ],
-                    [
-                        -81.190979,
-                        39.044619
-                    ],
-                    [
-                        -81.468933,
-                        39.124316
-                    ],
-                    [
-                        -81.471266,
-                        39.124969
-                    ],
                     [
                         -81.75238,
                         39.204805
@@ -1405,22 +1373,6 @@
             "geometry": {
                 "type": "LineString",
                 "coordinates": [
-                    [
-                        -121.712646,
-                        39.143356
-                    ],
-                    [
-                        -121.71132,
-                        39.14328
-                    ],
-                    [
-                        -121.629028,
-                        39.138561
-                    ],
-                    [
-                        -121.628385,
-                        39.138519
-                    ],
                     [
                         -121.592739,
                         39.138107
@@ -2492,13 +2444,13 @@
                 "type": "AS32",
                 "description": "AEROSPATIALE AS-332 Super Puma",
                 "operator": "COUNTY OF LOS ANGELES",
-                "altitude": 5050,
-                "ground_speed": 69.4,
-                "track": 36.21,
+                "altitude": 4700,
+                "ground_speed": 1.2,
+                "track": 270.0,
                 "squawk": "1206",
-                "rssi": -5.9,
+                "rssi": -16.8,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2026-02-28T18:36:02.013653+00:00",
+                "last_seen": "2026-02-28T18:38:02.817306+00:00",
                 "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
                 "category": "A7"
@@ -2633,6 +2585,14 @@
                     [
                         -118.006505,
                         34.281784
+                    ],
+                    [
+                        -118.003922,
+                        34.280416
+                    ],
+                    [
+                        -118.003922,
+                        34.280416
                     ]
                 ]
             }
@@ -2645,13 +2605,13 @@
                 "type": "AS50",
                 "description": "AEROSPATIALE AS-350 Ecureuil",
                 "operator": "CITY OF ONTARIO",
-                "altitude": 1650,
-                "ground_speed": 76.2,
-                "track": 253.23,
+                "altitude": 1625,
+                "ground_speed": 68.9,
+                "track": 99.19,
                 "squawk": "4274",
-                "rssi": -10.8,
+                "rssi": -7.0,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2026-02-28T18:36:02.013669+00:00",
+                "last_seen": "2026-02-28T18:38:02.817324+00:00",
                 "nav_qnh": 1015.2,
                 "nav_altitude_mcp": 8512,
                 "category": "A7"
@@ -2810,6 +2770,14 @@
                     [
                         -117.668787,
                         34.058853
+                    ],
+                    [
+                        -117.660884,
+                        34.051804
+                    ],
+                    [
+                        -117.660884,
+                        34.051804
                     ]
                 ]
             }
@@ -2822,15 +2790,15 @@
                 "type": "A139",
                 "description": "AGUSTA AW-139",
                 "operator": "LOS ANGELES FIRE DEPARTMENT",
-                "altitude": 1250,
-                "ground_speed": 105.5,
-                "track": 350.18,
+                "altitude": "ground",
+                "ground_speed": 0.0,
+                "track": 151.9,
                 "squawk": "1200",
-                "rssi": -7.4,
+                "rssi": -33.0,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2026-02-28T18:36:02.013637+00:00",
-                "nav_qnh": 1014.4,
-                "nav_altitude_mcp": 928,
+                "last_seen": "2026-02-28T18:38:02.817229+00:00",
+                "nav_qnh": 0.0,
+                "nav_altitude_mcp": 0,
                 "category": "A7"
             },
             "geometry": {
@@ -2963,6 +2931,47 @@
                     [
                         -118.497906,
                         34.210309
+                    ],
+                    [
+                        -118.494015,
+                        34.216558
+                    ],
+                    [
+                        -118.494009,
+                        34.216564
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "hex": "A4D855",
+                "flight": "N411FA  ",
+                "type": "H60",
+                "description": "Sikorsky S-70M Firehawk",
+                "operator": "ORANGE COUNTY FIRE AUTHORITY",
+                "altitude": 525,
+                "ground_speed": 90.0,
+                "track": 178.73,
+                "squawk": "4202",
+                "rssi": -20.7,
+                "api_source": "https://api.airplanes.live/v2/hex/",
+                "last_seen": "2026-02-28T18:38:02.817285+00:00",
+                "nav_qnh": 0.0,
+                "nav_altitude_mcp": 0,
+                "category": "A7"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -117.985325,
+                        33.86382
+                    ],
+                    [
+                        -117.985325,
+                        33.86382
                     ]
                 ]
             }
