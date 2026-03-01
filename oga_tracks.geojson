@@ -10,27 +10,19 @@
                 "description": "BOEING 757-200",
                 "operator": "UNITED STATES GOVERNMENT",
                 "altitude": "ground",
-                "ground_speed": 50.5,
-                "track": 205.31,
+                "ground_speed": 20.5,
+                "track": 25.31,
                 "squawk": "1337",
-                "rssi": -19.2,
+                "rssi": -17.3,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2026-03-01T19:48:02.712850+00:00",
-                "nav_qnh": 1014.4,
+                "last_seen": "2026-03-01T19:50:02.562276+00:00",
+                "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
                 "category": "A4"
             },
             "geometry": {
                 "type": "LineString",
                 "coordinates": [
-                    [
-                        -84.839661,
-                        39.525317
-                    ],
-                    [
-                        -84.839661,
-                        39.525317
-                    ],
                     [
                         -85.086962,
                         39.598663
@@ -942,6 +934,10 @@
                     [
                         -115.163644,
                         36.087074
+                    ],
+                    [
+                        -115.165324,
+                        36.086783
                     ]
                 ]
             }
@@ -968,14 +964,6 @@
             "geometry": {
                 "type": "LineString",
                 "coordinates": [
-                    [
-                        -117.531079,
-                        32.453888
-                    ],
-                    [
-                        -117.531079,
-                        32.453888
-                    ],
                     [
                         -117.528387,
                         32.548187
@@ -1290,6 +1278,43 @@
         {
             "type": "Feature",
             "properties": {
+                "hex": "AA1DCC",
+                "flight": "N751AM  ",
+                "type": "AS50",
+                "description": "AEROSPATIALE AS-350 Ecureuil",
+                "operator": "US DEPARTMENT OF HOMELAND SECURITY, US CUSTOMS & BORDER PROTECTI",
+                "altitude": 1400,
+                "ground_speed": 99.3,
+                "track": 18.8,
+                "squawk": "1200",
+                "rssi": -33.6,
+                "api_source": "https://opendata.adsb.fi/api/v2/hex/",
+                "last_seen": "2026-03-01T15:56:02.861497+00:00",
+                "nav_qnh": 0.0,
+                "nav_altitude_mcp": 0,
+                "category": "A7"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -99.944189,
+                        28.666868
+                    ],
+                    [
+                        -99.93024,
+                        28.711093
+                    ],
+                    [
+                        -99.91701,
+                        28.747009
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
                 "hex": "A99257",
                 "flight": "TROY328 ",
                 "type": "B350",
@@ -1309,10 +1334,6 @@
             "geometry": {
                 "type": "LineString",
                 "coordinates": [
-                    [
-                        -117.209496,
-                        32.701744
-                    ],
                     [
                         -117.209496,
                         32.701744
@@ -1366,14 +1387,6 @@
             "geometry": {
                 "type": "LineString",
                 "coordinates": [
-                    [
-                        -100.854598,
-                        29.422348
-                    ],
-                    [
-                        -100.854598,
-                        29.422348
-                    ],
                     [
                         -100.905546,
                         29.443732
@@ -1457,13 +1470,13 @@
                 "type": "AS50",
                 "description": "AEROSPATIALE AS-350 Ecureuil",
                 "operator": "ORANGE COUNTY SHERIFF'S DEPARTMENT",
-                "altitude": 475,
-                "ground_speed": 93.5,
-                "track": 114.65,
+                "altitude": 725,
+                "ground_speed": 126.4,
+                "track": 50.14,
                 "squawk": "4204",
-                "rssi": -11.7,
+                "rssi": -8.8,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2026-03-01T19:48:02.712867+00:00",
+                "last_seen": "2026-03-01T19:50:02.562377+00:00",
                 "nav_qnh": 1015.2,
                 "nav_altitude_mcp": 0,
                 "category": "A7"
@@ -1471,14 +1484,6 @@
             "geometry": {
                 "type": "LineString",
                 "coordinates": [
-                    [
-                        -118.132735,
-                        33.859955
-                    ],
-                    [
-                        -118.132735,
-                        33.859955
-                    ],
                     [
                         -118.131294,
                         33.859817
@@ -1710,6 +1715,14 @@
                     [
                         -117.868559,
                         33.677444
+                    ],
+                    [
+                        -117.804603,
+                        33.702896
+                    ],
+                    [
+                        -117.804852,
+                        33.702703
                     ]
                 ]
             }
@@ -1736,10 +1749,6 @@
             "geometry": {
                 "type": "LineString",
                 "coordinates": [
-                    [
-                        -109.880859,
-                        31.346694
-                    ],
                     [
                         -109.879211,
                         31.350279
@@ -1871,43 +1880,6 @@
                     [
                         -109.863066,
                         31.400528
-                    ]
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "hex": "AA1DCC",
-                "flight": "N751AM  ",
-                "type": "AS50",
-                "description": "AEROSPATIALE AS-350 Ecureuil",
-                "operator": "US DEPARTMENT OF HOMELAND SECURITY, US CUSTOMS & BORDER PROTECTI",
-                "altitude": 1400,
-                "ground_speed": 99.3,
-                "track": 18.8,
-                "squawk": "1200",
-                "rssi": -33.6,
-                "api_source": "https://opendata.adsb.fi/api/v2/hex/",
-                "last_seen": "2026-03-01T15:56:02.861497+00:00",
-                "nav_qnh": 0.0,
-                "nav_altitude_mcp": 0,
-                "category": "A7"
-            },
-            "geometry": {
-                "type": "LineString",
-                "coordinates": [
-                    [
-                        -99.944189,
-                        28.666868
-                    ],
-                    [
-                        -99.93024,
-                        28.711093
-                    ],
-                    [
-                        -99.91701,
-                        28.747009
                     ]
                 ]
             }
@@ -2598,6 +2570,35 @@
                     [
                         -110.887028,
                         32.182388
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "hex": "A07232",
+                "flight": "0000000 ",
+                "type": "Unknown",
+                "description": "Unknown",
+                "operator": "DEPARTMENT OF HOMELAND SECURITY",
+                "altitude": "ground",
+                "ground_speed": 18.5,
+                "track": 0.0,
+                "squawk": "4726",
+                "rssi": -28.6,
+                "api_source": "https://api.airplanes.live/v2/hex/",
+                "last_seen": "2026-03-01T19:50:02.562398+00:00",
+                "nav_qnh": 0.0,
+                "nav_altitude_mcp": 0,
+                "category": "A2"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -117.262845,
+                        33.890704
                     ]
                 ]
             }
