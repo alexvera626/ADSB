@@ -9,13 +9,13 @@
                 "type": "AS50",
                 "description": "AEROSPATIALE AS-350 Ecureuil",
                 "operator": "CITY OF ANAHEIM",
-                "altitude": 1300,
-                "ground_speed": 68.4,
-                "track": 84.12,
+                "altitude": 1700,
+                "ground_speed": 68.0,
+                "track": 327.01,
                 "squawk": "4301",
-                "rssi": -7.5,
+                "rssi": -5.9,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2026-03-03T06:10:02.384016+00:00",
+                "last_seen": "2026-03-03T06:12:02.181852+00:00",
                 "nav_qnh": 1015.2,
                 "nav_altitude_mcp": 4000,
                 "category": "A7"
@@ -23,22 +23,6 @@
             "geometry": {
                 "type": "LineString",
                 "coordinates": [
-                    [
-                        -117.963176,
-                        33.854004
-                    ],
-                    [
-                        -117.963176,
-                        33.854004
-                    ],
-                    [
-                        -117.921248,
-                        33.849426
-                    ],
-                    [
-                        -117.920895,
-                        33.849249
-                    ],
                     [
                         -117.904873,
                         33.819782
@@ -350,6 +334,14 @@
                     [
                         -117.901518,
                         33.793945
+                    ],
+                    [
+                        -117.93005,
+                        33.805909
+                    ],
+                    [
+                        -117.93045,
+                        33.806468
                     ]
                 ]
             }
@@ -358,40 +350,24 @@
             "type": "Feature",
             "properties": {
                 "hex": "A36968",
-                "flight": "N319MW  ",
+                "flight": "Unknown",
                 "type": "B407",
                 "description": "BELL 407",
                 "operator": "SAN DIEGO COUNTY SHERIFF DEPARTMENT",
-                "altitude": 250,
-                "ground_speed": 0.7,
+                "altitude": 0,
+                "ground_speed": 0.0,
                 "track": 0.0,
                 "squawk": "4267",
-                "rssi": -23.8,
+                "rssi": -26.2,
                 "api_source": "https://opendata.adsb.fi/api/v2/hex/",
-                "last_seen": "2026-03-03T03:44:02.417428+00:00",
-                "nav_qnh": 1015.2,
+                "last_seen": "2026-03-03T06:12:02.181736+00:00",
+                "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
-                "category": "A7"
+                "category": "Unknown"
             },
             "geometry": {
                 "type": "LineString",
                 "coordinates": [
-                    [
-                        -117.045257,
-                        33.031373
-                    ],
-                    [
-                        -117.045099,
-                        33.031128
-                    ],
-                    [
-                        -117.064987,
-                        33.087282
-                    ],
-                    [
-                        -117.064984,
-                        33.087708
-                    ],
                     [
                         -117.067896,
                         33.087158
@@ -762,6 +738,71 @@
         {
             "type": "Feature",
             "properties": {
+                "hex": "A0F9B2",
+                "flight": "TROY308 ",
+                "type": "BE30",
+                "description": "BEECH 300 Super King Air",
+                "operator": "DEPARTMENT OF HOMELAND SECURITY",
+                "altitude": "ground",
+                "ground_speed": 6.2,
+                "track": 0.0,
+                "squawk": "N/A",
+                "rssi": -30.7,
+                "api_source": "https://api.airplanes.live/v2/hex/",
+                "last_seen": "2026-03-03T02:22:02.750847+00:00",
+                "nav_qnh": 0.0,
+                "nav_altitude_mcp": 0,
+                "category": "A2"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -80.365143,
+                        25.460861
+                    ],
+                    [
+                        -80.365508,
+                        25.460536
+                    ],
+                    [
+                        -80.417175,
+                        25.462026
+                    ],
+                    [
+                        -80.417175,
+                        25.462026
+                    ],
+                    [
+                        -80.388621,
+                        25.485802
+                    ],
+                    [
+                        -80.388621,
+                        25.485802
+                    ],
+                    [
+                        -80.392067,
+                        25.486175
+                    ],
+                    [
+                        -80.392067,
+                        25.486175
+                    ],
+                    [
+                        -80.394529,
+                        25.484231
+                    ],
+                    [
+                        -80.394529,
+                        25.484231
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
                 "hex": "A1F0C0",
                 "flight": "N224KB  ",
                 "type": "B06",
@@ -781,22 +822,6 @@
             "geometry": {
                 "type": "LineString",
                 "coordinates": [
-                    [
-                        -118.095016,
-                        34.163291
-                    ],
-                    [
-                        -118.095016,
-                        34.163291
-                    ],
-                    [
-                        -118.081167,
-                        34.159882
-                    ],
-                    [
-                        -118.081335,
-                        34.159561
-                    ],
                     [
                         -118.119164,
                         34.129215
@@ -1348,79 +1373,6 @@
                     [
                         -118.178959,
                         34.188476
-                    ]
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "hex": "A0F9B2",
-                "flight": "TROY308 ",
-                "type": "BE30",
-                "description": "BEECH 300 Super King Air",
-                "operator": "DEPARTMENT OF HOMELAND SECURITY",
-                "altitude": "ground",
-                "ground_speed": 6.2,
-                "track": 0.0,
-                "squawk": "N/A",
-                "rssi": -30.7,
-                "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2026-03-03T02:22:02.750847+00:00",
-                "nav_qnh": 0.0,
-                "nav_altitude_mcp": 0,
-                "category": "A2"
-            },
-            "geometry": {
-                "type": "LineString",
-                "coordinates": [
-                    [
-                        -80.396187,
-                        25.478703
-                    ],
-                    [
-                        -80.396187,
-                        25.478703
-                    ],
-                    [
-                        -80.365143,
-                        25.460861
-                    ],
-                    [
-                        -80.365508,
-                        25.460536
-                    ],
-                    [
-                        -80.417175,
-                        25.462026
-                    ],
-                    [
-                        -80.417175,
-                        25.462026
-                    ],
-                    [
-                        -80.388621,
-                        25.485802
-                    ],
-                    [
-                        -80.388621,
-                        25.485802
-                    ],
-                    [
-                        -80.392067,
-                        25.486175
-                    ],
-                    [
-                        -80.392067,
-                        25.486175
-                    ],
-                    [
-                        -80.394529,
-                        25.484231
-                    ],
-                    [
-                        -80.394529,
-                        25.484231
                     ]
                 ]
             }
@@ -2307,13 +2259,13 @@
                 "type": "H60",
                 "description": "SIKORSKY UH-60 Black Hawk",
                 "operator": "Unknown",
-                "altitude": 550,
-                "ground_speed": 115.0,
-                "track": 335.89,
+                "altitude": 350,
+                "ground_speed": 111.0,
+                "track": 314.64,
                 "squawk": "1200",
-                "rssi": -31.7,
+                "rssi": -20.1,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2026-03-03T06:10:02.384040+00:00",
+                "last_seen": "2026-03-03T06:12:02.181875+00:00",
                 "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
                 "category": "A7"
@@ -2428,6 +2380,14 @@
                     [
                         -117.132166,
                         32.665512
+                    ],
+                    [
+                        -117.178718,
+                        32.711839
+                    ],
+                    [
+                        -117.179559,
+                        32.712583
                     ]
                 ]
             }
