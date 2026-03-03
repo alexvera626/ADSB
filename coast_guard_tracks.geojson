@@ -24,14 +24,6 @@
                 "type": "LineString",
                 "coordinates": [
                     [
-                        -97.470376,
-                        43.866267
-                    ],
-                    [
-                        -97.472747,
-                        43.867035
-                    ],
-                    [
                         -97.747278,
                         43.951721
                     ],
@@ -589,14 +581,6 @@
                 "type": "LineString",
                 "coordinates": [
                     [
-                        -80.019957,
-                        25.959091
-                    ],
-                    [
-                        -80.020505,
-                        25.958366
-                    ],
-                    [
                         -80.070225,
                         25.95694
                     ],
@@ -642,121 +626,6 @@
         {
             "type": "Feature",
             "properties": {
-                "hex": "AE2708",
-                "flight": "C2310   ",
-                "type": "CN35",
-                "description": "CASA HC-144B Ocean Sentry",
-                "operator": "United States Coast Guard",
-                "altitude": 300,
-                "ground_speed": 85.0,
-                "track": 143.4,
-                "squawk": "0217",
-                "rssi": -49.5,
-                "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2026-03-03T02:56:02.683537+00:00",
-                "nav_qnh": 0.0,
-                "nav_altitude_mcp": 0,
-                "category": "A2"
-            },
-            "geometry": {
-                "type": "LineString",
-                "coordinates": [
-                    [
-                        -88.291141,
-                        30.746796
-                    ],
-                    [
-                        -88.291141,
-                        30.746796
-                    ],
-                    [
-                        -88.251083,
-                        30.698803
-                    ]
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "hex": "AE5DEF",
-                "flight": "C2016   ",
-                "type": "C30J",
-                "description": "Lockheed HC-130J Hercules",
-                "operator": "United States Coast Guard",
-                "altitude": 600,
-                "ground_speed": 101.0,
-                "track": 93.0,
-                "squawk": "5364",
-                "rssi": -49.5,
-                "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2026-03-03T03:00:02.160977+00:00",
-                "nav_qnh": 0.0,
-                "nav_altitude_mcp": 0,
-                "category": "A3"
-            },
-            "geometry": {
-                "type": "LineString",
-                "coordinates": [
-                    [
-                        -76.385251,
-                        36.333696
-                    ],
-                    [
-                        -76.387355,
-                        36.333835
-                    ],
-                    [
-                        -76.396122,
-                        36.271866
-                    ],
-                    [
-                        -76.386479,
-                        36.268942
-                    ],
-                    [
-                        -76.310635,
-                        36.265366
-                    ],
-                    [
-                        -76.251373,
-                        36.263634
-                    ]
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "hex": "AE2686",
-                "flight": "C6547   ",
-                "type": "AS65",
-                "description": "Eurocopter MH-65D Dolphin",
-                "operator": "Unknown",
-                "altitude": "ground",
-                "ground_speed": 3.8,
-                "track": 0.0,
-                "squawk": "3550",
-                "rssi": -24.3,
-                "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2026-03-03T02:54:02.167037+00:00",
-                "nav_qnh": 0.0,
-                "nav_altitude_mcp": 0,
-                "category": "A7"
-            },
-            "geometry": {
-                "type": "LineString",
-                "coordinates": [
-                    [
-                        -124.112488,
-                        40.976028
-                    ]
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
                 "hex": "AE2694",
                 "flight": "C6562   ",
                 "type": "AS65",
@@ -776,10 +645,6 @@
             "geometry": {
                 "type": "LineString",
                 "coordinates": [
-                    [
-                        -122.559678,
-                        38.147095
-                    ],
                     [
                         -122.554594,
                         38.156708
@@ -895,6 +760,76 @@
                     [
                         -122.389367,
                         37.632038
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "hex": "AE5DEF",
+                "flight": "C2016   ",
+                "type": "C30J",
+                "description": "Lockheed HC-130J Hercules",
+                "operator": "United States Coast Guard",
+                "altitude": 600,
+                "ground_speed": 101.0,
+                "track": 93.0,
+                "squawk": "5364",
+                "rssi": -49.5,
+                "api_source": "https://api.airplanes.live/v2/hex/",
+                "last_seen": "2026-03-03T03:00:02.160977+00:00",
+                "nav_qnh": 0.0,
+                "nav_altitude_mcp": 0,
+                "category": "A3"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -76.396122,
+                        36.271866
+                    ],
+                    [
+                        -76.386479,
+                        36.268942
+                    ],
+                    [
+                        -76.310635,
+                        36.265366
+                    ],
+                    [
+                        -76.251373,
+                        36.263634
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "hex": "AE2708",
+                "flight": "C2310   ",
+                "type": "CN35",
+                "description": "CASA HC-144B Ocean Sentry",
+                "operator": "United States Coast Guard",
+                "altitude": 300,
+                "ground_speed": 85.0,
+                "track": 143.4,
+                "squawk": "0217",
+                "rssi": -49.5,
+                "api_source": "https://api.airplanes.live/v2/hex/",
+                "last_seen": "2026-03-03T02:56:02.683537+00:00",
+                "nav_qnh": 0.0,
+                "nav_altitude_mcp": 0,
+                "category": "A2"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -88.251083,
+                        30.698803
                     ]
                 ]
             }
