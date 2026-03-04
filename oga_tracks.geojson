@@ -850,12 +850,12 @@
                 "description": "DE HAVILLAND DHC-8-300 Dash 8",
                 "operator": "US DEPARTMENT OF HOMELAND SECURITY",
                 "altitude": 24000,
-                "ground_speed": 229.3,
-                "track": 272.75,
+                "ground_speed": 232.3,
+                "track": 272.96,
                 "squawk": "7305",
-                "rssi": -15.7,
+                "rssi": -16.7,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2026-03-04T15:48:02.193867+00:00",
+                "last_seen": "2026-03-04T15:50:02.347278+00:00",
                 "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
                 "category": "A2"
@@ -1142,6 +1142,14 @@
                     [
                         -100.156366,
                         30.439763
+                    ],
+                    [
+                        -100.302264,
+                        30.446746
+                    ],
+                    [
+                        -100.30545,
+                        30.446886
                     ]
                 ]
             }
@@ -1158,9 +1166,9 @@
                 "ground_speed": 0.0,
                 "track": 0.0,
                 "squawk": "1206",
-                "rssi": -11.8,
+                "rssi": -12.0,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2026-03-04T15:48:02.193883+00:00",
+                "last_seen": "2026-03-04T15:50:02.347295+00:00",
                 "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
                 "category": "A7"
@@ -1250,6 +1258,10 @@
                     ],
                     [
                         -118.407769,
+                        34.258816
+                    ],
+                    [
+                        -118.407784,
                         34.258816
                     ]
                 ]
@@ -1384,13 +1396,13 @@
                 "type": "B752",
                 "description": "BOEING 757-200",
                 "operator": "UNITED STATES GOVERNMENT",
-                "altitude": 1450,
-                "ground_speed": 119.9,
-                "track": 220.6,
+                "altitude": 600,
+                "ground_speed": 122.7,
+                "track": 220.7,
                 "squawk": "4625",
-                "rssi": -12.7,
+                "rssi": -26.7,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2026-03-04T15:48:02.193849+00:00",
+                "last_seen": "2026-03-04T15:50:02.347260+00:00",
                 "nav_qnh": 1027.2,
                 "nav_altitude_mcp": 0,
                 "category": "A4"
@@ -1521,6 +1533,14 @@
                     [
                         -77.516785,
                         35.418274
+                    ],
+                    [
+                        -77.560558,
+                        35.376389
+                    ],
+                    [
+                        -77.560558,
+                        35.376389
                     ]
                 ]
             }
@@ -1554,6 +1574,39 @@
                     [
                         -117.247495,
                         33.87022
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "hex": "A043A9",
+                "flight": "Unknown",
+                "type": "BE30",
+                "description": "BEECH 300 Super King Air",
+                "operator": "DEPARTMENT OF HOMELAND SECURITY",
+                "altitude": -125,
+                "ground_speed": 144.0,
+                "track": 91.19,
+                "squawk": "N/A",
+                "rssi": -11.2,
+                "api_source": "https://api.airplanes.live/v2/hex/",
+                "last_seen": "2026-03-04T15:50:02.347326+00:00",
+                "nav_qnh": 1027.2,
+                "nav_altitude_mcp": 2016,
+                "category": "Unknown"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -81.670855,
+                        30.231537
+                    ],
+                    [
+                        -81.669232,
+                        30.231535
                     ]
                 ]
             }
