@@ -811,12 +811,12 @@
                 "description": "AEROSPATIALE AS-350 Ecureuil",
                 "operator": "DEPARMENT OF HOMELAND SECURITY",
                 "altitude": 1675,
-                "ground_speed": 120.9,
-                "track": 82.87,
+                "ground_speed": 113.0,
+                "track": 89.49,
                 "squawk": "1200",
-                "rssi": -18.8,
+                "rssi": -8.6,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2026-03-05T16:28:03.064195+00:00",
+                "last_seen": "2026-03-05T16:30:02.012671+00:00",
                 "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
                 "category": "A7"
@@ -1087,6 +1087,14 @@
                     [
                         -123.07096,
                         48.075753
+                    ],
+                    [
+                        -122.979056,
+                        48.083434
+                    ],
+                    [
+                        -122.978633,
+                        48.083434
                     ]
                 ]
             }
@@ -1639,12 +1647,12 @@
                 "description": "BOEING 757-200",
                 "operator": "UNITED STATES GOVERNMENT",
                 "altitude": 24000,
-                "ground_speed": 423.5,
-                "track": 206.5,
+                "ground_speed": 424.0,
+                "track": 206.63,
                 "squawk": "5360",
-                "rssi": -7.8,
+                "rssi": -6.7,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2026-03-05T16:28:03.064178+00:00",
+                "last_seen": "2026-03-05T16:30:02.012653+00:00",
                 "nav_qnh": 1013.6,
                 "nav_altitude_mcp": 0,
                 "category": "A4"
@@ -1851,6 +1859,14 @@
                     [
                         -76.859592,
                         35.641836
+                    ],
+                    [
+                        -76.987162,
+                        35.433888
+                    ],
+                    [
+                        -76.988214,
+                        35.432165
                     ]
                 ]
             }
@@ -1863,13 +1879,13 @@
                 "type": "H60",
                 "description": "SIKORSKY UH-60 Black Hawk",
                 "operator": "Unknown",
-                "altitude": 100,
-                "ground_speed": 86.7,
-                "track": 140.62,
+                "altitude": 125,
+                "ground_speed": 96.5,
+                "track": 256.83,
                 "squawk": "1200",
-                "rssi": -23.5,
+                "rssi": -24.3,
                 "api_source": "https://opendata.adsb.fi/api/v2/hex/",
-                "last_seen": "2026-03-05T16:28:03.063879+00:00",
+                "last_seen": "2026-03-05T16:30:02.012441+00:00",
                 "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
                 "category": "A7"
@@ -2000,6 +2016,43 @@
                     [
                         -117.291104,
                         32.585449
+                    ],
+                    [
+                        -117.307864,
+                        32.59327
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "hex": "AD395A",
+                "flight": "N951LB  ",
+                "type": "AS32",
+                "description": "AEROSPATIALE AS-332 Super Puma",
+                "operator": "COUNTY OF LOS ANGELES",
+                "altitude": "ground",
+                "ground_speed": 0.0,
+                "track": 0.0,
+                "squawk": "1206",
+                "rssi": -4.4,
+                "api_source": "https://api.airplanes.live/v2/hex/",
+                "last_seen": "2026-03-05T16:30:02.012704+00:00",
+                "nav_qnh": 0.0,
+                "nav_altitude_mcp": 0,
+                "category": "A7"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -118.141634,
+                        33.815277
+                    ],
+                    [
+                        -118.141634,
+                        33.815277
                     ]
                 ]
             }
