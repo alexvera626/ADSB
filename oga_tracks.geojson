@@ -2398,13 +2398,13 @@
                 "type": "H60",
                 "description": "SIKORSKY UH-60 Black Hawk",
                 "operator": "Unknown",
-                "altitude": 300,
-                "ground_speed": 102.8,
-                "track": 252.45,
-                "squawk": "1200",
-                "rssi": -23.9,
+                "altitude": 150,
+                "ground_speed": 0.0,
+                "track": 0.0,
+                "squawk": "N/A",
+                "rssi": -22.6,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2026-03-05T23:04:02.646790+00:00",
+                "last_seen": "2026-03-05T23:06:02.217387+00:00",
                 "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
                 "category": "A7"
@@ -2931,6 +2931,10 @@
                     [
                         -117.265045,
                         32.621292
+                    ],
+                    [
+                        -117.308221,
+                        32.578125
                     ]
                 ]
             }
@@ -4264,13 +4268,13 @@
                 "type": "H60",
                 "description": "Sikorsky MH-60S Seahawk",
                 "operator": "United States Navy",
-                "altitude": "ground",
-                "ground_speed": 8.2,
-                "track": 0.0,
+                "altitude": 475,
+                "ground_speed": 75.0,
+                "track": 270.0,
                 "squawk": "1200",
-                "rssi": -18.4,
+                "rssi": -14.0,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2026-03-05T23:04:02.646766+00:00",
+                "last_seen": "2026-03-05T23:06:02.217367+00:00",
                 "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
                 "category": "A7"
@@ -4569,6 +4573,14 @@
                     [
                         -117.206873,
                         32.713097
+                    ],
+                    [
+                        -117.213751,
+                        32.71398
+                    ],
+                    [
+                        -117.214536,
+                        32.714026
                     ]
                 ]
             }
@@ -4581,13 +4593,13 @@
                 "type": "Unknown",
                 "description": "Unknown",
                 "operator": "DEPARTMENT OF HOMELAND SECURITY",
-                "altitude": 5150,
-                "ground_speed": 74.6,
-                "track": 215.18,
+                "altitude": 6150,
+                "ground_speed": 113.7,
+                "track": 122.43,
                 "squawk": "0412",
-                "rssi": -6.4,
+                "rssi": -3.5,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2026-03-05T23:04:02.646714+00:00",
+                "last_seen": "2026-03-05T23:06:02.217217+00:00",
                 "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
                 "category": "A7"
@@ -4658,6 +4670,14 @@
                     [
                         -110.697968,
                         32.123383
+                    ],
+                    [
+                        -110.648748,
+                        32.089714
+                    ],
+                    [
+                        -110.647705,
+                        32.089142
                     ]
                 ]
             }
@@ -4674,9 +4694,9 @@
                 "ground_speed": 0.0,
                 "track": 0.0,
                 "squawk": "4202",
-                "rssi": -29.6,
+                "rssi": -31.3,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2026-03-05T23:04:02.646730+00:00",
+                "last_seen": "2026-03-05T23:06:02.217267+00:00",
                 "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
                 "category": "A7"
@@ -4695,6 +4715,76 @@
                     [
                         -117.97853,
                         33.872956
+                    ],
+                    [
+                        -117.978516,
+                        33.872956
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "hex": "A9079F",
+                "flight": "N681HB  ",
+                "type": "H500",
+                "description": "HUGHES 500",
+                "operator": "CITY OF HUNTINGTON BEACH",
+                "altitude": 775,
+                "ground_speed": 70.8,
+                "track": 203.3,
+                "squawk": "4301",
+                "rssi": -5.8,
+                "api_source": "https://api.airplanes.live/v2/hex/",
+                "last_seen": "2026-03-05T23:06:02.217250+00:00",
+                "nav_qnh": 1013.6,
+                "nav_altitude_mcp": 0,
+                "category": "A7"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -118.006897,
+                        33.682872
+                    ],
+                    [
+                        -118.007126,
+                        33.68222
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "hex": "A04ECF",
+                "flight": "JENA2   ",
+                "type": "B752",
+                "description": "BOEING 757-200",
+                "operator": "UNITED STATES GOVERNMENT",
+                "altitude": 6125,
+                "ground_speed": 283.6,
+                "track": 76.75,
+                "squawk": "3245",
+                "rssi": -7.4,
+                "api_source": "https://api.airplanes.live/v2/hex/",
+                "last_seen": "2026-03-05T23:06:02.217233+00:00",
+                "nav_qnh": 1011.2,
+                "nav_altitude_mcp": 0,
+                "category": "A4"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -95.961709,
+                        33.06261
+                    ],
+                    [
+                        -95.95882,
+                        33.063171
                     ]
                 ]
             }
