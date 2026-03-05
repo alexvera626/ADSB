@@ -24,22 +24,6 @@
                 "type": "LineString",
                 "coordinates": [
                     [
-                        -117.897314,
-                        33.846771
-                    ],
-                    [
-                        -117.897314,
-                        33.846771
-                    ],
-                    [
-                        -117.898121,
-                        33.845944
-                    ],
-                    [
-                        -117.897594,
-                        33.846222
-                    ],
-                    [
                         -117.89978,
                         33.846829
                     ],
@@ -167,13 +151,13 @@
                 "type": "BE30",
                 "description": "BEECH 300 Super King Air",
                 "operator": "DEPARTMENT OF HOMELAND SECURITY",
-                "altitude": 475,
-                "ground_speed": 127.5,
-                "track": 48.18,
+                "altitude": "ground",
+                "ground_speed": 15.5,
+                "track": 50.12,
                 "squawk": "4403",
-                "rssi": -4.9,
+                "rssi": -27.6,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2026-03-05T14:54:02.502445+00:00",
+                "last_seen": "2026-03-05T14:56:03.255368+00:00",
                 "nav_qnh": 1021.6,
                 "nav_altitude_mcp": 1600,
                 "category": "A2"
@@ -476,6 +460,14 @@
                     [
                         -80.431841,
                         25.450993
+                    ],
+                    [
+                        -80.387777,
+                        25.485477
+                    ],
+                    [
+                        -80.387777,
+                        25.485477
                     ]
                 ]
             }
@@ -630,15 +622,15 @@
                 "type": "BE30",
                 "description": "BEECH 300 Super King Air",
                 "operator": "DEPARTMENT OF HOMELAND SECURITY",
-                "altitude": 7200,
-                "ground_speed": 198.6,
-                "track": 250.29,
+                "altitude": 5550,
+                "ground_speed": 197.0,
+                "track": 285.31,
                 "squawk": "4406",
-                "rssi": -9.9,
+                "rssi": -10.7,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2026-03-05T14:54:02.502428+00:00",
+                "last_seen": "2026-03-05T14:56:03.255350+00:00",
                 "nav_qnh": 1024.0,
-                "nav_altitude_mcp": 7488,
+                "nav_altitude_mcp": 3008,
                 "category": "A2"
             },
             "geometry": {
@@ -827,6 +819,43 @@
                     [
                         -81.440112,
                         30.082382
+                    ],
+                    [
+                        -81.559376,
+                        30.052963
+                    ],
+                    [
+                        -81.560468,
+                        30.053194
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "hex": "A1BCFB",
+                "flight": "N2108J  ",
+                "type": "AS50",
+                "description": "AEROSPATIALE AS-350 Ecureuil",
+                "operator": "DEPARMENT OF HOMELAND SECURITY",
+                "altitude": "ground",
+                "ground_speed": 90.0,
+                "track": 123.0,
+                "squawk": "1200",
+                "rssi": -49.5,
+                "api_source": "https://api.airplanes.live/v2/hex/",
+                "last_seen": "2026-03-05T14:56:03.255320+00:00",
+                "nav_qnh": 0.0,
+                "nav_altitude_mcp": 0,
+                "category": "Unknown"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -122.519318,
+                        48.772797
                     ]
                 ]
             }
