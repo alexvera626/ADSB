@@ -342,13 +342,13 @@
                 "type": "AS50",
                 "description": "AEROSPATIALE AS-350 Ecureuil",
                 "operator": "US DEPARTMENT OF HOMELAND SECURITY, US CUSTOMS & BORDER PROTECTI",
-                "altitude": 1600,
-                "ground_speed": 91.3,
-                "track": 212.47,
-                "squawk": "1200",
-                "rssi": -32.7,
+                "altitude": 0,
+                "ground_speed": 89.2,
+                "track": 217.26,
+                "squawk": "N/A",
+                "rssi": -32.8,
                 "api_source": "https://opendata.adsb.fi/api/v2/hex/",
-                "last_seen": "2026-03-05T12:42:02.951093+00:00",
+                "last_seen": "2026-03-05T12:44:02.106278+00:00",
                 "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
                 "category": "A7"
@@ -363,6 +363,39 @@
                     [
                         -100.024549,
                         28.700592
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "hex": "A0F9B2",
+                "flight": "Unknown",
+                "type": "BE30",
+                "description": "BEECH 300 Super King Air",
+                "operator": "DEPARTMENT OF HOMELAND SECURITY",
+                "altitude": "ground",
+                "ground_speed": 8.2,
+                "track": 81.56,
+                "squawk": "4403",
+                "rssi": -23.3,
+                "api_source": "https://api.airplanes.live/v2/hex/",
+                "last_seen": "2026-03-05T12:44:02.106442+00:00",
+                "nav_qnh": 0.0,
+                "nav_altitude_mcp": 0,
+                "category": "Unknown"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -80.401434,
+                        25.491482
+                    ],
+                    [
+                        -80.401434,
+                        25.491482
                     ]
                 ]
             }
