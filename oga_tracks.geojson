@@ -1645,9 +1645,9 @@
                 "ground_speed": 0.0,
                 "track": 0.0,
                 "squawk": "5360",
-                "rssi": -19.2,
+                "rssi": -20.2,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2026-03-05T17:46:02.109633+00:00",
+                "last_seen": "2026-03-05T17:48:01.991534+00:00",
                 "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
                 "category": "A4"
@@ -2066,13 +2066,13 @@
                 "type": "H60",
                 "description": "SIKORSKY UH-60 Black Hawk",
                 "operator": "Unknown",
-                "altitude": 225,
-                "ground_speed": 70.9,
-                "track": 286.39,
+                "altitude": 275,
+                "ground_speed": 82.5,
+                "track": 329.39,
                 "squawk": "1200",
-                "rssi": -28.1,
+                "rssi": -21.9,
                 "api_source": "https://opendata.adsb.fi/api/v2/hex/",
-                "last_seen": "2026-03-05T17:46:02.109376+00:00",
+                "last_seen": "2026-03-05T17:48:01.991335+00:00",
                 "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
                 "category": "A7"
@@ -2411,6 +2411,10 @@
                     [
                         -117.11629,
                         32.566269
+                    ],
+                    [
+                        -117.14901,
+                        32.59206
                     ]
                 ]
             }
@@ -2423,13 +2427,13 @@
                 "type": "H500",
                 "description": "HUGHES 500",
                 "operator": "CITY OF HUNTINGTON BEACH",
-                "altitude": 850,
-                "ground_speed": 59.2,
-                "track": 344.32,
+                "altitude": 750,
+                "ground_speed": 59.0,
+                "track": 359.03,
                 "squawk": "4301",
-                "rssi": -5.8,
+                "rssi": -7.4,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2026-03-05T17:46:02.109702+00:00",
+                "last_seen": "2026-03-05T17:48:01.991612+00:00",
                 "nav_qnh": 1013.6,
                 "nav_altitude_mcp": 0,
                 "category": "A7"
@@ -2480,6 +2484,14 @@
                     [
                         -118.04266,
                         33.732915
+                    ],
+                    [
+                        -118.024554,
+                        33.762543
+                    ],
+                    [
+                        -118.024554,
+                        33.762817
                     ]
                 ]
             }
@@ -2763,12 +2775,12 @@
                 "description": "DE HAVILLAND DHC-8-300 Dash 8",
                 "operator": "US DEPARTMENT OF HOMELAND SECURITY",
                 "altitude": 8400,
-                "ground_speed": 194.6,
-                "track": 62.12,
+                "ground_speed": 194.2,
+                "track": 61.72,
                 "squawk": "4764",
-                "rssi": -14.2,
+                "rssi": -19.1,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2026-03-05T17:46:02.109671+00:00",
+                "last_seen": "2026-03-05T17:48:01.991576+00:00",
                 "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
                 "category": "A2"
@@ -2931,6 +2943,43 @@
                     [
                         -95.545191,
                         28.628265
+                    ],
+                    [
+                        -95.437478,
+                        28.67967
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "hex": "A31AA0",
+                "flight": "N3A     ",
+                "type": "SHIP",
+                "description": "Zeppelin LZ N07-101",
+                "operator": "GOODYEAR TIRE & RUBBER CO",
+                "altitude": 0,
+                "ground_speed": 0.7,
+                "track": 0.0,
+                "squawk": "N/A",
+                "rssi": -8.3,
+                "api_source": "https://api.airplanes.live/v2/hex/",
+                "last_seen": "2026-03-05T17:48:01.991639+00:00",
+                "nav_qnh": 0.0,
+                "nav_altitude_mcp": 0,
+                "category": "B2"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -118.276062,
+                        33.85524
+                    ],
+                    [
+                        -118.276062,
+                        33.85524
                     ]
                 ]
             }
