@@ -35,14 +35,14 @@
                 "flight": "N190LA  ",
                 "type": "H60",
                 "description": "SIKORSKY UH-60 Black Hawk",
-                "operator": "COUNTY OF LOS ANGELES FIRE DEPARTMENT, AIR OPERATIONS",
-                "altitude": 3375,
-                "ground_speed": 147.0,
-                "track": 237.5,
+                "operator": "COUNTY OF LOS ANGELES FIRE DEPARTMENT",
+                "altitude": 3000,
+                "ground_speed": 141.2,
+                "track": 237.44,
                 "squawk": "1206",
                 "rssi": null,
-                "api_source": "https://opendata.adsb.fi/api/v2/hex/",
-                "last_seen": "2026-03-05T15:38:02.171029+00:00",
+                "api_source": "https://api.airplanes.live/v2/hex/",
+                "last_seen": "2026-03-05T15:40:02.471413+00:00",
                 "nav_qnh": null,
                 "nav_altitude_mcp": null,
                 "category": "A7"
@@ -50,8 +50,35 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -118.351004,
-                    34.45015
+                    -118.435478,
+                    34.409226
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "hex": "A17E8E",
+                "flight": "Unknown",
+                "type": "BE30",
+                "description": "BEECH 300 Super King Air",
+                "operator": "DEPARTMENT OF HOMELAND SECURITY",
+                "altitude": 6800,
+                "ground_speed": 0.0,
+                "track": 0.0,
+                "squawk": "N/A",
+                "rssi": null,
+                "api_source": "https://api.airplanes.live/v2/hex/",
+                "last_seen": "2026-03-05T15:40:02.471429+00:00",
+                "nav_qnh": null,
+                "nav_altitude_mcp": null,
+                "category": "A2"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -90.070917,
+                    31.328632
                 ]
             }
         },
@@ -63,13 +90,13 @@
                 "type": "AS50",
                 "description": "AEROSPATIALE AS-350 Ecureuil",
                 "operator": "DEPARMENT OF HOMELAND SECURITY",
-                "altitude": 1175,
-                "ground_speed": 103.1,
-                "track": 261.63,
+                "altitude": 1225,
+                "ground_speed": 85.6,
+                "track": 300.16,
                 "squawk": "1200",
                 "rssi": null,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2026-03-05T15:38:02.171368+00:00",
+                "last_seen": "2026-03-05T15:40:02.471397+00:00",
                 "nav_qnh": null,
                 "nav_altitude_mcp": null,
                 "category": "A7"
@@ -77,8 +104,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -122.955482,
-                    48.031998
+                    -123.033917,
+                    48.039209
                 ]
             }
         },
@@ -106,6 +133,33 @@
                 "coordinates": [
                     -100.042507,
                     28.806152
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "hex": "AC06F0",
+                "flight": "Unknown",
+                "type": "B752",
+                "description": "BOEING 757-200",
+                "operator": "UNITED STATES GOVERNMENT",
+                "altitude": 800,
+                "ground_speed": 156.2,
+                "track": 327.02,
+                "squawk": "N/A",
+                "rssi": null,
+                "api_source": "https://api.airplanes.live/v2/hex/",
+                "last_seen": "2026-03-05T15:40:02.471380+00:00",
+                "nav_qnh": null,
+                "nav_altitude_mcp": null,
+                "category": "Unknown"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -77.322303,
+                    37.515106
                 ]
             }
         }
