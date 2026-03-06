@@ -8,14 +8,14 @@
                 "flight": "JENA2   ",
                 "type": "B752",
                 "description": "BOEING 757-200",
-                "operator": "UNITED STATES GOVERNMENT, DEPARTMENT OF JUSTICE",
-                "altitude": 31100,
-                "ground_speed": 438.9,
-                "track": 251.4,
+                "operator": "UNITED STATES GOVERNMENT",
+                "altitude": 29725,
+                "ground_speed": 419.6,
+                "track": 251.09,
                 "squawk": "6565",
-                "rssi": -15.3,
-                "api_source": "https://opendata.adsb.fi/api/v2/hex/",
-                "last_seen": "2026-03-06T17:56:02.136805+00:00",
+                "rssi": -34.9,
+                "api_source": "https://api.airplanes.live/v2/hex/",
+                "last_seen": "2026-03-06T17:58:02.592294+00:00",
                 "nav_qnh": 1013.6,
                 "nav_altitude_mcp": 0,
                 "category": "A4"
@@ -23,14 +23,6 @@
             "geometry": {
                 "type": "LineString",
                 "coordinates": [
-                    [
-                        -77.45747,
-                        37.506226
-                    ],
-                    [
-                        -77.460334,
-                        37.505722
-                    ],
                     [
                         -77.64342,
                         37.466171
@@ -934,143 +926,14 @@
                     [
                         -112.049561,
                         37.11319
-                    ]
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "hex": "A0F9B2",
-                "flight": "TROY308 ",
-                "type": "BE30",
-                "description": "BEECH 300 Super King Air",
-                "operator": "DEPARTMENT OF HOMELAND SECURITY",
-                "altitude": "ground",
-                "ground_speed": 0.0,
-                "track": 0.0,
-                "squawk": "4403",
-                "rssi": -25.0,
-                "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2026-03-06T14:56:02.518047+00:00",
-                "nav_qnh": 0.0,
-                "nav_altitude_mcp": 0,
-                "category": "A2"
-            },
-            "geometry": {
-                "type": "LineString",
-                "coordinates": [
-                    [
-                        -80.740287,
-                        24.635211
                     ],
                     [
-                        -80.742035,
-                        24.634232
+                        -112.334011,
+                        37.03561
                     ],
                     [
-                        -80.824291,
-                        24.587728
-                    ],
-                    [
-                        -80.824291,
-                        24.587728
-                    ],
-                    [
-                        -80.803426,
-                        24.819351
-                    ],
-                    [
-                        -80.803426,
-                        24.819351
-                    ],
-                    [
-                        -80.772676,
-                        25.083416
-                    ],
-                    [
-                        -80.772676,
-                        25.083416
-                    ],
-                    [
-                        -80.702975,
-                        25.171261
-                    ],
-                    [
-                        -80.702975,
-                        25.171261
-                    ],
-                    [
-                        -80.648244,
-                        25.252167
-                    ],
-                    [
-                        -80.648244,
-                        25.252167
-                    ],
-                    [
-                        -80.597828,
-                        25.321112
-                    ],
-                    [
-                        -80.597585,
-                        25.321381
-                    ],
-                    [
-                        -80.529474,
-                        25.374833
-                    ],
-                    [
-                        -80.528386,
-                        25.375671
-                    ],
-                    [
-                        -80.458219,
-                        25.430417
-                    ],
-                    [
-                        -80.458219,
-                        25.430417
-                    ],
-                    [
-                        -80.396498,
-                        25.478459
-                    ],
-                    [
-                        -80.396498,
-                        25.478459
-                    ],
-                    [
-                        -80.38868,
-                        25.484573
-                    ],
-                    [
-                        -80.38868,
-                        25.484573
-                    ],
-                    [
-                        -80.395253,
-                        25.484951
-                    ],
-                    [
-                        -80.395253,
-                        25.484951
-                    ],
-                    [
-                        -80.401525,
-                        25.491528
-                    ],
-                    [
-                        -80.401525,
-                        25.491528
-                    ],
-                    [
-                        -80.403175,
-                        25.492779
-                    ],
-                    [
-                        -80.403175,
-                        25.492779
+                        -112.310661,
+                        37.042007
                     ]
                 ]
             }
@@ -1352,6 +1215,135 @@
                     [
                         -117.978941,
                         33.872955
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "hex": "A0F9B2",
+                "flight": "TROY308 ",
+                "type": "BE30",
+                "description": "BEECH 300 Super King Air",
+                "operator": "DEPARTMENT OF HOMELAND SECURITY",
+                "altitude": "ground",
+                "ground_speed": 0.0,
+                "track": 0.0,
+                "squawk": "4403",
+                "rssi": -25.0,
+                "api_source": "https://api.airplanes.live/v2/hex/",
+                "last_seen": "2026-03-06T14:56:02.518047+00:00",
+                "nav_qnh": 0.0,
+                "nav_altitude_mcp": 0,
+                "category": "A2"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -80.824291,
+                        24.587728
+                    ],
+                    [
+                        -80.824291,
+                        24.587728
+                    ],
+                    [
+                        -80.803426,
+                        24.819351
+                    ],
+                    [
+                        -80.803426,
+                        24.819351
+                    ],
+                    [
+                        -80.772676,
+                        25.083416
+                    ],
+                    [
+                        -80.772676,
+                        25.083416
+                    ],
+                    [
+                        -80.702975,
+                        25.171261
+                    ],
+                    [
+                        -80.702975,
+                        25.171261
+                    ],
+                    [
+                        -80.648244,
+                        25.252167
+                    ],
+                    [
+                        -80.648244,
+                        25.252167
+                    ],
+                    [
+                        -80.597828,
+                        25.321112
+                    ],
+                    [
+                        -80.597585,
+                        25.321381
+                    ],
+                    [
+                        -80.529474,
+                        25.374833
+                    ],
+                    [
+                        -80.528386,
+                        25.375671
+                    ],
+                    [
+                        -80.458219,
+                        25.430417
+                    ],
+                    [
+                        -80.458219,
+                        25.430417
+                    ],
+                    [
+                        -80.396498,
+                        25.478459
+                    ],
+                    [
+                        -80.396498,
+                        25.478459
+                    ],
+                    [
+                        -80.38868,
+                        25.484573
+                    ],
+                    [
+                        -80.38868,
+                        25.484573
+                    ],
+                    [
+                        -80.395253,
+                        25.484951
+                    ],
+                    [
+                        -80.395253,
+                        25.484951
+                    ],
+                    [
+                        -80.401525,
+                        25.491528
+                    ],
+                    [
+                        -80.401525,
+                        25.491528
+                    ],
+                    [
+                        -80.403175,
+                        25.492779
+                    ],
+                    [
+                        -80.403175,
+                        25.492779
                     ]
                 ]
             }
@@ -2634,13 +2626,13 @@
                 "type": "H500",
                 "description": "HUGHES 500",
                 "operator": "CITY OF HUNTINGTON BEACH",
-                "altitude": 800,
-                "ground_speed": 57.1,
-                "track": 11.11,
+                "altitude": 825,
+                "ground_speed": 65.2,
+                "track": 131.27,
                 "squawk": "4301",
                 "rssi": -6.0,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2026-03-06T17:56:02.137334+00:00",
+                "last_seen": "2026-03-06T17:58:02.592312+00:00",
                 "nav_qnh": 1016.0,
                 "nav_altitude_mcp": 0,
                 "category": "A7"
@@ -2839,6 +2831,14 @@
                     [
                         -118.040085,
                         33.740643
+                    ],
+                    [
+                        -118.021545,
+                        33.759729
+                    ],
+                    [
+                        -118.021545,
+                        33.759729
                     ]
                 ]
             }
@@ -3369,13 +3369,13 @@
                 "type": "AS32",
                 "description": "AEROSPATIALE AS-332 Super Puma",
                 "operator": "COUNTY OF LOS ANGELES",
-                "altitude": 525,
-                "ground_speed": 126.3,
-                "track": 4.09,
+                "altitude": 325,
+                "ground_speed": 86.6,
+                "track": 49.69,
                 "squawk": "1206",
-                "rssi": -13.6,
+                "rssi": -9.1,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2026-03-06T17:56:02.137402+00:00",
+                "last_seen": "2026-03-06T17:58:02.592381+00:00",
                 "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
                 "category": "A7"
@@ -3550,6 +3550,14 @@
                     [
                         -118.281498,
                         33.659642
+                    ],
+                    [
+                        -118.270454,
+                        33.725141
+                    ],
+                    [
+                        -118.270454,
+                        33.725141
                     ]
                 ]
             }
@@ -3914,12 +3922,12 @@
                 "description": "Sikorsky MH-60R Seahawk",
                 "operator": "United States Navy",
                 "altitude": 425,
-                "ground_speed": 117.0,
-                "track": 319.5,
+                "ground_speed": 114.8,
+                "track": 322.43,
                 "squawk": "1200",
-                "rssi": -14.2,
+                "rssi": -23.7,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2026-03-06T17:56:02.137369+00:00",
+                "last_seen": "2026-03-06T17:58:02.592347+00:00",
                 "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
                 "category": "A7"
@@ -4054,6 +4062,14 @@
                     [
                         -117.543229,
                         33.275121
+                    ],
+                    [
+                        -117.587549,
+                        33.321579
+                    ],
+                    [
+                        -117.59035,
+                        33.324646
                     ]
                 ]
             }
@@ -4066,13 +4082,13 @@
                 "type": "H60",
                 "description": "SIKORSKY UH-60 Black Hawk",
                 "operator": "Unknown",
-                "altitude": 375,
-                "ground_speed": 87.8,
-                "track": 112.77,
+                "altitude": 50,
+                "ground_speed": 33.0,
+                "track": 284.04,
                 "squawk": "1200",
-                "rssi": -27.0,
+                "rssi": -27.7,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2026-03-06T17:56:02.137434+00:00",
+                "last_seen": "2026-03-06T17:58:02.592414+00:00",
                 "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
                 "category": "A7"
@@ -4135,6 +4151,14 @@
                     [
                         -117.132935,
                         32.560043
+                    ],
+                    [
+                        -117.117169,
+                        32.564301
+                    ],
+                    [
+                        -117.113978,
+                        32.563616
                     ]
                 ]
             }
@@ -4147,13 +4171,13 @@
                 "type": "H53S",
                 "description": "Sikorsky CH-53E Super Stallion",
                 "operator": "United States Marine Corps",
-                "altitude": 1550,
-                "ground_speed": 103.0,
-                "track": 333.0,
+                "altitude": 1675,
+                "ground_speed": 112.0,
+                "track": 323.2,
                 "squawk": "1200",
-                "rssi": -10.6,
+                "rssi": -17.9,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2026-03-06T17:56:02.137352+00:00",
+                "last_seen": "2026-03-06T17:58:02.592329+00:00",
                 "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
                 "category": "Unknown"
@@ -4192,6 +4216,14 @@
                     [
                         -117.365366,
                         33.011749
+                    ],
+                    [
+                        -117.417443,
+                        33.065652
+                    ],
+                    [
+                        -117.412346,
+                        33.059723
                     ]
                 ]
             }
@@ -4204,13 +4236,13 @@
                 "type": "B407",
                 "description": "BELL 407",
                 "operator": "SAN DIEGO COUNTY SHERIFF DEPARTMENT",
-                "altitude": 2425,
-                "ground_speed": 99.4,
-                "track": 49.9,
+                "altitude": 3850,
+                "ground_speed": 104.0,
+                "track": 54.78,
                 "squawk": "4266",
-                "rssi": -24.7,
+                "rssi": -20.3,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2026-03-06T17:56:02.137386+00:00",
+                "last_seen": "2026-03-06T17:58:02.592364+00:00",
                 "nav_qnh": 1016.0,
                 "nav_altitude_mcp": 0,
                 "category": "A7"
@@ -4241,6 +4273,14 @@
                     [
                         -116.862506,
                         32.900208
+                    ],
+                    [
+                        -116.80741,
+                        32.922226
+                    ],
+                    [
+                        -116.80741,
+                        32.922226
                     ]
                 ]
             }
@@ -4253,13 +4293,13 @@
                 "type": "AS50",
                 "description": "AEROSPATIALE AS-350 Ecureuil",
                 "operator": "CITY OF ONTARIO",
-                "altitude": 1500,
-                "ground_speed": 65.6,
-                "track": 172.12,
+                "altitude": 1875,
+                "ground_speed": 80.6,
+                "track": 101.45,
                 "squawk": "4274",
-                "rssi": -8.4,
+                "rssi": -13.6,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2026-03-06T17:56:02.137418+00:00",
+                "last_seen": "2026-03-06T17:58:02.592397+00:00",
                 "nav_qnh": 1017.6,
                 "nav_altitude_mcp": 8512,
                 "category": "A7"
@@ -4290,6 +4330,14 @@
                     [
                         -117.691956,
                         34.093695
+                    ],
+                    [
+                        -117.641487,
+                        34.085874
+                    ],
+                    [
+                        -117.641487,
+                        34.085874
                     ]
                 ]
             }
