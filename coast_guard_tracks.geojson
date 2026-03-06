@@ -24,14 +24,6 @@
                 "type": "LineString",
                 "coordinates": [
                     [
-                        -81.117096,
-                        25.32019
-                    ],
-                    [
-                        -81.117096,
-                        25.32019
-                    ],
-                    [
                         -81.037488,
                         25.405511
                     ],
@@ -144,14 +136,6 @@
             "geometry": {
                 "type": "LineString",
                 "coordinates": [
-                    [
-                        -81.033587,
-                        32.031012
-                    ],
-                    [
-                        -81.033587,
-                        32.031012
-                    ],
                     [
                         -80.961055,
                         32.028126
@@ -298,14 +282,6 @@
                 "type": "LineString",
                 "coordinates": [
                     [
-                        -80.957916,
-                        32.047724
-                    ],
-                    [
-                        -80.957916,
-                        32.047724
-                    ],
-                    [
                         -80.900293,
                         32.035528
                     ],
@@ -426,14 +402,6 @@
             "geometry": {
                 "type": "LineString",
                 "coordinates": [
-                    [
-                        -82.165025,
-                        30.056992
-                    ],
-                    [
-                        -82.165025,
-                        30.056992
-                    ],
                     [
                         -82.200586,
                         30.039461
@@ -560,47 +528,6 @@
         {
             "type": "Feature",
             "properties": {
-                "hex": "AE290E",
-                "flight": "C6031   ",
-                "type": "H60",
-                "description": "Sikorsky MH-60T Jayhawk",
-                "operator": "Unknown",
-                "altitude": 925,
-                "ground_speed": 88.0,
-                "track": 306.22,
-                "squawk": "N/A",
-                "rssi": -22.7,
-                "api_source": "https://opendata.adsb.fi/api/v2/hex/",
-                "last_seen": "2026-03-05T23:08:02.285314+00:00",
-                "nav_qnh": 0.0,
-                "nav_altitude_mcp": 0,
-                "category": "A7"
-            },
-            "geometry": {
-                "type": "LineString",
-                "coordinates": [
-                    [
-                        -70.406523,
-                        41.542845
-                    ],
-                    [
-                        -70.341589,
-                        41.554367
-                    ],
-                    [
-                        -70.414379,
-                        41.596193
-                    ],
-                    [
-                        -70.469375,
-                        41.628082
-                    ]
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
                 "hex": "AE2BEF",
                 "flight": "Unknown",
                 "type": "H60",
@@ -620,14 +547,6 @@
             "geometry": {
                 "type": "LineString",
                 "coordinates": [
-                    [
-                        -157.921061,
-                        20.867523
-                    ],
-                    [
-                        -157.921475,
-                        20.867087
-                    ],
                     [
                         -157.96633,
                         20.82019
@@ -1322,14 +1241,6 @@
                 "type": "LineString",
                 "coordinates": [
                     [
-                        -156.535018,
-                        20.745895
-                    ],
-                    [
-                        -156.535018,
-                        20.745895
-                    ],
-                    [
                         -156.570607,
                         20.753407
                     ],
@@ -1607,47 +1518,6 @@
         {
             "type": "Feature",
             "properties": {
-                "hex": "AE2698",
-                "flight": "C6566   ",
-                "type": "AS65",
-                "description": "Eurocopter MH-65D Dolphin",
-                "operator": "Unknown",
-                "altitude": "ground",
-                "ground_speed": 74.0,
-                "track": 179.1,
-                "squawk": "4432",
-                "rssi": -49.5,
-                "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2026-03-05T23:04:02.646628+00:00",
-                "nav_qnh": 0.0,
-                "nav_altitude_mcp": 0,
-                "category": "Unknown"
-            },
-            "geometry": {
-                "type": "LineString",
-                "coordinates": [
-                    [
-                        -97.378746,
-                        27.863703
-                    ],
-                    [
-                        -97.451004,
-                        27.861235
-                    ],
-                    [
-                        -97.494316,
-                        27.852762
-                    ],
-                    [
-                        -97.514648,
-                        27.789684
-                    ]
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
                 "hex": "AE5DEF",
                 "flight": "C2016   ",
                 "type": "C30J",
@@ -1667,10 +1537,6 @@
             "geometry": {
                 "type": "LineString",
                 "coordinates": [
-                    [
-                        -76.365852,
-                        36.255753
-                    ],
                     [
                         -76.463184,
                         36.241837
@@ -1830,6 +1696,43 @@
                     [
                         -76.172962,
                         36.22467
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "hex": "AE2698",
+                "flight": "C6566   ",
+                "type": "AS65",
+                "description": "Eurocopter MH-65D Dolphin",
+                "operator": "Unknown",
+                "altitude": "ground",
+                "ground_speed": 74.0,
+                "track": 179.1,
+                "squawk": "4432",
+                "rssi": -49.5,
+                "api_source": "https://api.airplanes.live/v2/hex/",
+                "last_seen": "2026-03-05T23:04:02.646628+00:00",
+                "nav_qnh": 0.0,
+                "nav_altitude_mcp": 0,
+                "category": "Unknown"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -97.451004,
+                        27.861235
+                    ],
+                    [
+                        -97.494316,
+                        27.852762
+                    ],
+                    [
+                        -97.514648,
+                        27.789684
                     ]
                 ]
             }
@@ -2356,6 +2259,43 @@
                     [
                         -80.293632,
                         25.912419
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "hex": "AE290E",
+                "flight": "C6031   ",
+                "type": "H60",
+                "description": "Sikorsky MH-60T Jayhawk",
+                "operator": "Unknown",
+                "altitude": 925,
+                "ground_speed": 88.0,
+                "track": 306.22,
+                "squawk": "N/A",
+                "rssi": -22.7,
+                "api_source": "https://opendata.adsb.fi/api/v2/hex/",
+                "last_seen": "2026-03-05T23:08:02.285314+00:00",
+                "nav_qnh": 0.0,
+                "nav_altitude_mcp": 0,
+                "category": "A7"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -70.341589,
+                        41.554367
+                    ],
+                    [
+                        -70.414379,
+                        41.596193
+                    ],
+                    [
+                        -70.469375,
+                        41.628082
                     ]
                 ]
             }
@@ -6783,13 +6723,13 @@
                 "type": "AS65",
                 "description": "Eurocopter MH-65D Dolphin",
                 "operator": "Unknown",
-                "altitude": 0,
-                "ground_speed": 0.0,
-                "track": 0.0,
-                "squawk": "N/A",
-                "rssi": -28.8,
+                "altitude": 350,
+                "ground_speed": 95.5,
+                "track": 197.68,
+                "squawk": "1200",
+                "rssi": -19.6,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2026-03-06T02:56:02.776308+00:00",
+                "last_seen": "2026-03-06T02:58:02.648430+00:00",
                 "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
                 "category": "A7"
@@ -7100,6 +7040,14 @@
                     [
                         -122.277657,
                         38.21965
+                    ],
+                    [
+                        -122.270936,
+                        38.204498
+                    ],
+                    [
+                        -122.270846,
+                        38.204677
                     ]
                 ]
             }
@@ -7108,17 +7056,17 @@
             "type": "Feature",
             "properties": {
                 "hex": "AE5DED",
-                "flight": "C2014   ",
+                "flight": "Unknown",
                 "type": "C30J",
                 "description": "Lockheed Martin HC-130J Hercules",
                 "operator": "Unknown",
-                "altitude": 7475,
-                "ground_speed": 245.0,
-                "track": 249.0,
+                "altitude": 7450,
+                "ground_speed": 296.0,
+                "track": 90.0,
                 "squawk": "N/A",
-                "rssi": -20.1,
+                "rssi": -27.2,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2026-03-06T02:56:02.776330+00:00",
+                "last_seen": "2026-03-06T02:58:02.648448+00:00",
                 "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
                 "category": "A3"
@@ -7449,6 +7397,14 @@
                     [
                         -117.964252,
                         32.462252
+                    ],
+                    [
+                        -118.016722,
+                        32.486695
+                    ],
+                    [
+                        -118.017099,
+                        32.484742
                     ]
                 ]
             }
@@ -7567,12 +7523,12 @@
                 "description": "SIKORSKY UH-60 Black Hawk",
                 "operator": "Unknown",
                 "altitude": 0,
-                "ground_speed": 0.0,
+                "ground_speed": 1.2,
                 "track": 0.0,
                 "squawk": "N/A",
-                "rssi": -19.1,
+                "rssi": -23.3,
                 "api_source": "https://opendata.adsb.fi/api/v2/hex/",
-                "last_seen": "2026-03-06T02:56:02.775954+00:00",
+                "last_seen": "2026-03-06T02:58:02.648178+00:00",
                 "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
                 "category": "A7"
@@ -7651,6 +7607,10 @@
                     [
                         -119.243202,
                         34.140341
+                    ],
+                    [
+                        -119.244118,
+                        34.138944
                     ]
                 ]
             }
