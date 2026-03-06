@@ -24,22 +24,6 @@
                 "type": "LineString",
                 "coordinates": [
                     [
-                        -118.314122,
-                        34.00827
-                    ],
-                    [
-                        -118.314122,
-                        34.00827
-                    ],
-                    [
-                        -118.309021,
-                        33.960695
-                    ],
-                    [
-                        -118.308735,
-                        33.960323
-                    ],
-                    [
                         -118.307115,
                         33.960526
                     ],
@@ -660,12 +644,12 @@
                 "description": "BOEING 757-200",
                 "operator": "UNITED STATES GOVERNMENT",
                 "altitude": 38000,
-                "ground_speed": 438.4,
-                "track": 263.98,
+                "ground_speed": 439.6,
+                "track": 263.73,
                 "squawk": "6565",
-                "rssi": -14.2,
+                "rssi": -19.6,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2026-03-06T15:04:02.317348+00:00",
+                "last_seen": "2026-03-06T15:06:02.698229+00:00",
                 "nav_qnh": 1013.6,
                 "nav_altitude_mcp": 0,
                 "category": "A4"
@@ -952,6 +936,14 @@
                     [
                         -86.582142,
                         38.032791
+                    ],
+                    [
+                        -86.887167,
+                        38.006969
+                    ],
+                    [
+                        -86.887167,
+                        38.006969
                     ]
                 ]
             }
@@ -968,9 +960,9 @@
                 "ground_speed": 0.0,
                 "track": 0.0,
                 "squawk": "4202",
-                "rssi": -26.9,
+                "rssi": -22.9,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2026-03-06T15:04:02.317377+00:00",
+                "last_seen": "2026-03-06T15:06:02.698283+00:00",
                 "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
                 "category": "A7"
@@ -1221,6 +1213,14 @@
                     [
                         -117.97893,
                         33.872956
+                    ],
+                    [
+                        -117.978945,
+                        33.872944
+                    ],
+                    [
+                        -117.978945,
+                        33.872944
                     ]
                 ]
             }
@@ -1234,12 +1234,12 @@
                 "description": "Unknown",
                 "operator": "US DEPARTMENT OF HOMELAND SECURITY",
                 "altitude": 24000,
-                "ground_speed": 243.8,
-                "track": 278.73,
+                "ground_speed": 246.8,
+                "track": 278.62,
                 "squawk": "7257",
-                "rssi": -14.2,
+                "rssi": -8.5,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2026-03-06T15:04:02.317315+00:00",
+                "last_seen": "2026-03-06T15:06:02.698135+00:00",
                 "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
                 "category": "A2"
@@ -1454,6 +1454,14 @@
                     [
                         -98.746216,
                         30.459222
+                    ],
+                    [
+                        -98.902386,
+                        30.479845
+                    ],
+                    [
+                        -98.902386,
+                        30.479845
                     ]
                 ]
             }
@@ -1676,13 +1684,13 @@
                 "type": "B412",
                 "description": "BELL 412",
                 "operator": "COUNTY OF LOS ANGELES FIRE DEPT",
-                "altitude": 1500,
-                "ground_speed": 87.0,
-                "track": 226.4,
+                "altitude": 1900,
+                "ground_speed": 116.4,
+                "track": 274.44,
                 "squawk": "1206",
-                "rssi": -32.8,
+                "rssi": -14.4,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2026-03-06T15:04:02.317395+00:00",
+                "last_seen": "2026-03-06T15:06:02.698303+00:00",
                 "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
                 "category": "A7"
@@ -1697,6 +1705,80 @@
                     [
                         -117.783337,
                         34.076424
+                    ],
+                    [
+                        -117.850513,
+                        34.065671
+                    ],
+                    [
+                        -117.850513,
+                        34.065671
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "hex": "A4981E",
+                "flight": "N3953A  ",
+                "type": "AS50",
+                "description": "AEROSPATIALE AS-350 Ecureuil",
+                "operator": "US DEPARTMENT OF HOMELAND SECURITY",
+                "altitude": 1500,
+                "ground_speed": 88.5,
+                "track": 147.93,
+                "squawk": "1200",
+                "rssi": -18.7,
+                "api_source": "https://api.airplanes.live/v2/hex/",
+                "last_seen": "2026-03-06T15:06:02.698172+00:00",
+                "nav_qnh": 0.0,
+                "nav_altitude_mcp": 0,
+                "category": "A7"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -100.905762,
+                        29.34695
+                    ],
+                    [
+                        -100.905762,
+                        29.34695
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "hex": "A16926",
+                "flight": "N190LA  ",
+                "type": "H60",
+                "description": "SIKORSKY UH-60 Black Hawk",
+                "operator": "COUNTY OF LOS ANGELES FIRE DEPARTMENT",
+                "altitude": 3200,
+                "ground_speed": 126.7,
+                "track": 227.88,
+                "squawk": "1206",
+                "rssi": -6.7,
+                "api_source": "https://api.airplanes.live/v2/hex/",
+                "last_seen": "2026-03-06T15:06:02.698320+00:00",
+                "nav_qnh": 0.0,
+                "nav_altitude_mcp": 0,
+                "category": "A7"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -118.162611,
+                        34.602997
+                    ],
+                    [
+                        -118.162611,
+                        34.602997
                     ]
                 ]
             }
