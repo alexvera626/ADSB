@@ -1092,13 +1092,13 @@
                 "type": "AS32",
                 "description": "AEROSPATIALE AS-332 Super Puma",
                 "operator": "COUNTY OF LOS ANGELES",
-                "altitude": 4675,
-                "ground_speed": 1.6,
-                "track": 135.0,
+                "altitude": 4700,
+                "ground_speed": 1.2,
+                "track": 90.0,
                 "squawk": "1206",
-                "rssi": -10.3,
+                "rssi": -12.5,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2026-03-07T17:50:02.269951+00:00",
+                "last_seen": "2026-03-07T17:52:01.940193+00:00",
                 "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
                 "category": "A7"
@@ -1325,6 +1325,14 @@
                     [
                         -117.780876,
                         34.260678
+                    ],
+                    [
+                        -117.780819,
+                        34.260678
+                    ],
+                    [
+                        -117.780819,
+                        34.260678
                     ]
                 ]
             }
@@ -1337,13 +1345,13 @@
                 "type": "B407",
                 "description": "BELL 407",
                 "operator": "SAN DIEGO COUNTY SHERIFF DEPARTMENT",
-                "altitude": 1675,
-                "ground_speed": 97.3,
-                "track": 165.11,
+                "altitude": 1525,
+                "ground_speed": 84.4,
+                "track": 166.29,
                 "squawk": "4266",
-                "rssi": -8.7,
+                "rssi": -24.3,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2026-03-07T17:50:02.269933+00:00",
+                "last_seen": "2026-03-07T17:52:01.940177+00:00",
                 "nav_qnh": 1016.0,
                 "nav_altitude_mcp": 0,
                 "category": "A7"
@@ -1630,6 +1638,80 @@
                     [
                         -117.047296,
                         33.123505
+                    ],
+                    [
+                        -117.019281,
+                        33.090088
+                    ],
+                    [
+                        -117.019171,
+                        33.089722
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "hex": "A32EAF",
+                "flight": "FIRE4   ",
+                "type": "A139",
+                "description": "AGUSTA AW-139",
+                "operator": "CITY OF LOS ANGELES",
+                "altitude": 1000,
+                "ground_speed": 103.3,
+                "track": 117.06,
+                "squawk": "1200",
+                "rssi": -7.7,
+                "api_source": "https://api.airplanes.live/v2/hex/",
+                "last_seen": "2026-03-07T17:52:01.940143+00:00",
+                "nav_qnh": 1020.0,
+                "nav_altitude_mcp": 672,
+                "category": "A7"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -118.487997,
+                        34.209137
+                    ],
+                    [
+                        -118.487492,
+                        34.208912
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "hex": "A3238A",
+                "flight": "FIRE1   ",
+                "type": "A139",
+                "description": "AGUSTA AW-139",
+                "operator": "LOS ANGELES FIRE DEPARTMENT",
+                "altitude": "ground",
+                "ground_speed": 4.8,
+                "track": 0.0,
+                "squawk": "1200",
+                "rssi": -16.2,
+                "api_source": "https://api.airplanes.live/v2/hex/",
+                "last_seen": "2026-03-07T17:52:01.940159+00:00",
+                "nav_qnh": 0.0,
+                "nav_altitude_mcp": 0,
+                "category": "A7"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -118.494051,
+                        34.216747
+                    ],
+                    [
+                        -118.494065,
+                        34.216759
                     ]
                 ]
             }
