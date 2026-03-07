@@ -24,14 +24,6 @@
                 "type": "LineString",
                 "coordinates": [
                     [
-                        -99.52409,
-                        27.526711
-                    ],
-                    [
-                        -99.523851,
-                        27.527435
-                    ],
-                    [
                         -99.516803,
                         27.573029
                     ],
@@ -1333,15 +1325,15 @@
                 "type": "A139",
                 "description": "AGUSTA AW-139",
                 "operator": "CITY OF LOS ANGELES",
-                "altitude": 1075,
-                "ground_speed": 84.2,
-                "track": 344.15,
+                "altitude": "ground",
+                "ground_speed": 3.8,
+                "track": 174.4,
                 "squawk": "1200",
-                "rssi": -10.7,
+                "rssi": -16.0,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2026-03-07T19:18:02.274550+00:00",
-                "nav_qnh": 1020.0,
-                "nav_altitude_mcp": 672,
+                "last_seen": "2026-03-07T19:20:02.672622+00:00",
+                "nav_qnh": 0.0,
+                "nav_altitude_mcp": 0,
                 "category": "A7"
             },
             "geometry": {
@@ -1698,6 +1690,14 @@
                     [
                         -118.498707,
                         34.207888
+                    ],
+                    [
+                        -118.495359,
+                        34.217035
+                    ],
+                    [
+                        -118.495326,
+                        34.216782
                     ]
                 ]
             }
@@ -2028,6 +2028,39 @@
                     [
                         -117.779903,
                         34.089412
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "hex": "A39F96",
+                "flight": "N3320A  ",
+                "type": "Unknown",
+                "description": "Unknown",
+                "operator": "DEPARTMENT OF HOMELAND SECURITY",
+                "altitude": 4950,
+                "ground_speed": 118.6,
+                "track": 72.33,
+                "squawk": "0444",
+                "rssi": -4.4,
+                "api_source": "https://api.airplanes.live/v2/hex/",
+                "last_seen": "2026-03-07T19:20:02.672605+00:00",
+                "nav_qnh": 1015.2,
+                "nav_altitude_mcp": 1088,
+                "category": "A7"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -111.267828,
+                        32.112991
+                    ],
+                    [
+                        -111.267828,
+                        32.112991
                     ]
                 ]
             }
