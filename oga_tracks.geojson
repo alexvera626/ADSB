@@ -24,14 +24,6 @@
                 "type": "LineString",
                 "coordinates": [
                     [
-                        -85.284236,
-                        36.807551
-                    ],
-                    [
-                        -85.284236,
-                        36.807551
-                    ],
-                    [
                         -85.538235,
                         36.782364
                     ],
@@ -1410,12 +1402,12 @@
                 "description": "Zeppelin LZ N07-101",
                 "operator": "GOODYEAR TIRE & RUBBER CO",
                 "altitude": 75,
-                "ground_speed": 2.3,
-                "track": 333.43,
+                "ground_speed": 1.2,
+                "track": 0.0,
                 "squawk": "1200",
-                "rssi": -11.3,
+                "rssi": -7.3,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2026-03-08T19:06:02.243213+00:00",
+                "last_seen": "2026-03-08T19:08:02.325837+00:00",
                 "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
                 "category": "B2"
@@ -1998,6 +1990,14 @@
                     [
                         -118.276398,
                         33.855057
+                    ],
+                    [
+                        -118.276176,
+                        33.855301
+                    ],
+                    [
+                        -118.276174,
+                        33.855286
                     ]
                 ]
             }
@@ -2364,13 +2364,13 @@
                 "type": "UH1",
                 "description": "BELL UH-1 Huey",
                 "operator": "ORANGE COUNTY SHERIFFS DEPARTMENT",
-                "altitude": 200,
-                "ground_speed": 32.5,
-                "track": 33.69,
+                "altitude": "ground",
+                "ground_speed": 0.6,
+                "track": 0.0,
                 "squawk": "4204",
-                "rssi": -5.7,
+                "rssi": -6.7,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2026-03-08T19:06:02.243196+00:00",
+                "last_seen": "2026-03-08T19:08:02.325820+00:00",
                 "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
                 "category": "A7"
@@ -2573,6 +2573,43 @@
                     [
                         -117.873267,
                         33.67131
+                    ],
+                    [
+                        -117.871502,
+                        33.675053
+                    ],
+                    [
+                        -117.871488,
+                        33.675053
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "hex": "A07232",
+                "flight": "0000000 ",
+                "type": "Unknown",
+                "description": "Unknown",
+                "operator": "DEPARTMENT OF HOMELAND SECURITY",
+                "altitude": "ground",
+                "ground_speed": 19.5,
+                "track": 0.0,
+                "squawk": "N/A",
+                "rssi": -21.7,
+                "api_source": "https://api.airplanes.live/v2/hex/",
+                "last_seen": "2026-03-08T19:08:02.325872+00:00",
+                "nav_qnh": 0.0,
+                "nav_altitude_mcp": 0,
+                "category": "A2"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -117.254262,
+                        33.887678
                     ]
                 ]
             }
