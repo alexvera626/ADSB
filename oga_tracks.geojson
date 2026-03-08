@@ -10,12 +10,12 @@
                 "description": "BOEING 757-200",
                 "operator": "UNITED STATES GOVERNMENT",
                 "altitude": 25000,
-                "ground_speed": 422.6,
-                "track": 40.78,
+                "ground_speed": 422.5,
+                "track": 40.97,
                 "squawk": "0723",
-                "rssi": -21.6,
+                "rssi": -23.0,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2026-03-08T20:20:02.638354+00:00",
+                "last_seen": "2026-03-08T20:22:02.462876+00:00",
                 "nav_qnh": 1013.6,
                 "nav_altitude_mcp": 0,
                 "category": "A4"
@@ -686,6 +686,10 @@
                     [
                         -109.984949,
                         36.082872
+                    ],
+                    [
+                        -109.795818,
+                        36.260147
                     ]
                 ]
             }
@@ -1051,13 +1055,13 @@
                 "type": "SHIP",
                 "description": "Zeppelin LZ N07-101",
                 "operator": "GOODYEAR TIRE & RUBBER CO",
-                "altitude": 100,
-                "ground_speed": 0.7,
+                "altitude": 150,
+                "ground_speed": 1.2,
                 "track": 0.0,
                 "squawk": "1200",
-                "rssi": -7.7,
+                "rssi": -17.2,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2026-03-08T20:20:02.638407+00:00",
+                "last_seen": "2026-03-08T20:22:02.462946+00:00",
                 "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
                 "category": "B2"
@@ -1848,6 +1852,14 @@
                     [
                         -118.276286,
                         33.855194
+                    ],
+                    [
+                        -118.276348,
+                        33.854929
+                    ],
+                    [
+                        -118.276348,
+                        33.854929
                     ]
                 ]
             }
@@ -2539,18 +2551,51 @@
         {
             "type": "Feature",
             "properties": {
+                "hex": "A2097B",
+                "flight": "N230LA  ",
+                "type": "AS50",
+                "description": "AEROSPATIALE AS-350 Ecureuil",
+                "operator": "LAPD AIR SUPPORT DIVISION",
+                "altitude": 1100,
+                "ground_speed": 93.5,
+                "track": 276.14,
+                "squawk": "1200",
+                "rssi": -7.0,
+                "api_source": "https://api.airplanes.live/v2/hex/",
+                "last_seen": "2026-03-08T20:22:02.462908+00:00",
+                "nav_qnh": 1010.4,
+                "nav_altitude_mcp": 10016,
+                "category": "A7"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -118.239291,
+                        34.06105
+                    ],
+                    [
+                        -118.239291,
+                        34.06105
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
                 "hex": "A07232",
                 "flight": "0000000 ",
                 "type": "Unknown",
                 "description": "Unknown",
                 "operator": "DEPARTMENT OF HOMELAND SECURITY",
                 "altitude": 11425,
-                "ground_speed": 168.1,
-                "track": 92.05,
+                "ground_speed": 165.0,
+                "track": 90.69,
                 "squawk": "4407",
-                "rssi": -20.0,
+                "rssi": -17.9,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2026-03-08T20:20:02.638428+00:00",
+                "last_seen": "2026-03-08T20:22:02.462965+00:00",
                 "nav_qnh": 1016.0,
                 "nav_altitude_mcp": 11488,
                 "category": "A2"
@@ -2833,6 +2878,14 @@
                     [
                         -118.215692,
                         32.601425
+                    ],
+                    [
+                        -118.106378,
+                        32.600372
+                    ],
+                    [
+                        -118.106378,
+                        32.600372
                     ]
                 ]
             }
