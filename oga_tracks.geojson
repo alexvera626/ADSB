@@ -24,14 +24,6 @@
                 "type": "LineString",
                 "coordinates": [
                     [
-                        -116.973962,
-                        33.208374
-                    ],
-                    [
-                        -116.973902,
-                        33.208691
-                    ],
-                    [
                         -116.984729,
                         33.203339
                     ],
@@ -503,18 +495,18 @@
             "type": "Feature",
             "properties": {
                 "hex": "AC4597",
-                "flight": "REH46   ",
+                "flight": "Unknown",
                 "type": "EC35",
                 "description": "AIRBUS HELICOPTERS EC-135/635",
                 "operator": "REACH AIR MEDICAL SERVICES LLC",
-                "altitude": 5025,
-                "ground_speed": 139.8,
-                "track": 130.07,
-                "squawk": "2115",
-                "rssi": -30.8,
-                "api_source": "https://opendata.adsb.fi/api/v2/hex/",
-                "last_seen": "2026-03-08T02:20:02.472951+00:00",
-                "nav_qnh": 1012.8,
+                "altitude": 0,
+                "ground_speed": 135.6,
+                "track": 129.91,
+                "squawk": "N/A",
+                "rssi": -23.1,
+                "api_source": "https://api.airplanes.live/v2/hex/",
+                "last_seen": "2026-03-08T02:22:02.390479+00:00",
+                "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
                 "category": "A7"
             },
@@ -932,6 +924,10 @@
                     [
                         -157.061945,
                         20.752289
+                    ],
+                    [
+                        -157.000222,
+                        20.703223
                     ]
                 ]
             }
@@ -1995,13 +1991,13 @@
                 "type": "AS50",
                 "description": "AEROSPATIALE AS-350 Ecureuil",
                 "operator": "REACH AIR MEDICAL SERVICES LLC",
-                "altitude": 1175,
-                "ground_speed": 153.8,
-                "track": 174.03,
+                "altitude": 1150,
+                "ground_speed": 149.3,
+                "track": 176.16,
                 "squawk": "1200",
-                "rssi": -8.3,
+                "rssi": -5.2,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2026-03-08T02:20:02.473239+00:00",
+                "last_seen": "2026-03-08T02:22:02.390524+00:00",
                 "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
                 "category": "A7"
@@ -2136,6 +2132,14 @@
                     [
                         -121.492737,
                         38.883036
+                    ],
+                    [
+                        -121.486816,
+                        38.799056
+                    ],
+                    [
+                        -121.486816,
+                        38.799056
                     ]
                 ]
             }
@@ -2189,6 +2193,39 @@
                     [
                         -117.209537,
                         32.701561
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "hex": "A14D65",
+                "flight": "N183SD  ",
+                "type": "AS50",
+                "description": "AEROSPATIALE AS-350 Ecureuil",
+                "operator": "ORANGE COUNTY SHERIFF'S DEPARTMENT",
+                "altitude": 350,
+                "ground_speed": 79.2,
+                "track": 63.76,
+                "squawk": "4204",
+                "rssi": -15.1,
+                "api_source": "https://api.airplanes.live/v2/hex/",
+                "last_seen": "2026-03-08T02:22:02.390506+00:00",
+                "nav_qnh": 1013.6,
+                "nav_altitude_mcp": 0,
+                "category": "A7"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -117.864803,
+                        33.687927
+                    ],
+                    [
+                        -117.864803,
+                        33.687927
                     ]
                 ]
             }
