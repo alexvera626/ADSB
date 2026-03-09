@@ -9,13 +9,13 @@
                 "type": "H60",
                 "description": "SIKORSKY UH-60 Black Hawk",
                 "operator": "Unknown",
-                "altitude": 125,
-                "ground_speed": 59.0,
-                "track": 89.03,
+                "altitude": "ground",
+                "ground_speed": 2.8,
+                "track": 90.0,
                 "squawk": "1200",
-                "rssi": -16.9,
-                "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2026-03-09T03:30:02.629731+00:00",
+                "rssi": -34.3,
+                "api_source": "https://opendata.adsb.fi/api/v2/hex/",
+                "last_seen": "2026-03-09T03:32:02.588965+00:00",
                 "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
                 "category": "A7"
@@ -23,14 +23,6 @@
             "geometry": {
                 "type": "LineString",
                 "coordinates": [
-                    [
-                        -157.900552,
-                        20.827937
-                    ],
-                    [
-                        -157.901393,
-                        20.828156
-                    ],
                     [
                         -157.898504,
                         20.821559
@@ -782,47 +774,10 @@
                     [
                         -158.027843,
                         20.861361
-                    ]
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "hex": "AE6CEC",
-                "flight": "C6058   ",
-                "type": "H60",
-                "description": "Sikorsky MH-60T Jayhawk",
-                "operator": "United States Coast Guard",
-                "altitude": 275,
-                "ground_speed": 51.5,
-                "track": 82.18,
-                "squawk": "N/A",
-                "rssi": -27.2,
-                "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2026-03-08T23:34:03.057389+00:00",
-                "nav_qnh": 0.0,
-                "nav_altitude_mcp": 0,
-                "category": "A7"
-            },
-            "geometry": {
-                "type": "LineString",
-                "coordinates": [
-                    [
-                        -119.109678,
-                        34.129257
                     ],
                     [
-                        -119.109678,
-                        34.129257
-                    ],
-                    [
-                        -119.105244,
-                        34.131077
-                    ],
-                    [
-                        -119.105244,
-                        34.131077
+                        -158.02014,
+                        20.861745
                     ]
                 ]
             }
@@ -996,6 +951,39 @@
                     [
                         -124.112783,
                         40.976048
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "hex": "AE6CEC",
+                "flight": "C6058   ",
+                "type": "H60",
+                "description": "Sikorsky MH-60T Jayhawk",
+                "operator": "United States Coast Guard",
+                "altitude": 275,
+                "ground_speed": 51.5,
+                "track": 82.18,
+                "squawk": "N/A",
+                "rssi": -27.2,
+                "api_source": "https://api.airplanes.live/v2/hex/",
+                "last_seen": "2026-03-08T23:34:03.057389+00:00",
+                "nav_qnh": 0.0,
+                "nav_altitude_mcp": 0,
+                "category": "A7"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -119.105244,
+                        34.131077
+                    ],
+                    [
+                        -119.105244,
+                        34.131077
                     ]
                 ]
             }
