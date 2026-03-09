@@ -9,13 +9,13 @@
                 "type": "Unknown",
                 "description": "Unknown",
                 "operator": "DEPARTMENT OF HOMELAND SECURITY",
-                "altitude": 1600,
-                "ground_speed": 32.1,
-                "track": 174.64,
+                "altitude": 2300,
+                "ground_speed": 64.1,
+                "track": 169.22,
                 "squawk": "0316",
-                "rssi": -20.1,
+                "rssi": -7.4,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2026-03-09T18:28:02.384156+00:00",
+                "last_seen": "2026-03-09T18:30:03.062050+00:00",
                 "nav_qnh": 1009.6,
                 "nav_altitude_mcp": 1504,
                 "category": "A7"
@@ -534,6 +534,14 @@
                     [
                         -97.813683,
                         35.485611
+                    ],
+                    [
+                        -97.810987,
+                        35.467126
+                    ],
+                    [
+                        -97.810993,
+                        35.46698
                     ]
                 ]
             }
@@ -546,13 +554,13 @@
                 "type": "Unknown",
                 "description": "Unknown",
                 "operator": "US GOVERNMENT",
-                "altitude": 20850,
-                "ground_speed": 321.6,
-                "track": 112.1,
+                "altitude": 17825,
+                "ground_speed": 322.2,
+                "track": 111.87,
                 "squawk": "1474",
-                "rssi": -19.8,
+                "rssi": -26.2,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2026-03-09T18:28:02.384177+00:00",
+                "last_seen": "2026-03-09T18:30:03.062067+00:00",
                 "nav_qnh": 1013.6,
                 "nav_altitude_mcp": 15008,
                 "category": "A1"
@@ -560,14 +568,6 @@
             "geometry": {
                 "type": "LineString",
                 "coordinates": [
-                    [
-                        -104.848267,
-                        39.573697
-                    ],
-                    [
-                        -104.848267,
-                        39.573697
-                    ],
                     [
                         -104.849976,
                         39.582134
@@ -1511,6 +1511,14 @@
                     [
                         -79.343811,
                         39.33706
+                    ],
+                    [
+                        -79.127954,
+                        39.269165
+                    ],
+                    [
+                        -79.127954,
+                        39.269165
                     ]
                 ]
             }
@@ -1523,13 +1531,13 @@
                 "type": "AS50",
                 "description": "AEROSPATIALE AS-350 Ecureuil",
                 "operator": "DEPARMENT OF HOMELAND SECURITY",
-                "altitude": 500,
-                "ground_speed": 110.0,
-                "track": 303.6,
+                "altitude": "ground",
+                "ground_speed": 60.0,
+                "track": 202.3,
                 "squawk": "3044",
                 "rssi": -49.5,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2026-03-09T18:28:02.384228+00:00",
+                "last_seen": "2026-03-09T18:30:03.062161+00:00",
                 "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
                 "category": "A7"
@@ -1537,14 +1545,6 @@
             "geometry": {
                 "type": "LineString",
                 "coordinates": [
-                    [
-                        -122.535722,
-                        48.214106
-                    ],
-                    [
-                        -122.521049,
-                        48.22202
-                    ],
                     [
                         -122.592633,
                         48.190521
@@ -2164,6 +2164,10 @@
                     [
                         -122.519241,
                         48.789772
+                    ],
+                    [
+                        -122.543381,
+                        48.788792
                     ]
                 ]
             }
@@ -2190,14 +2194,6 @@
             "geometry": {
                 "type": "LineString",
                 "coordinates": [
-                    [
-                        -88.180477,
-                        35.595191
-                    ],
-                    [
-                        -88.180477,
-                        35.595191
-                    ],
                     [
                         -88.447208,
                         35.546997
@@ -2784,14 +2780,6 @@
                 "type": "LineString",
                 "coordinates": [
                     [
-                        -118.341751,
-                        34.207422
-                    ],
-                    [
-                        -118.341923,
-                        34.207562
-                    ],
-                    [
                         -118.391082,
                         34.251114
                     ],
@@ -2993,51 +2981,18 @@
         {
             "type": "Feature",
             "properties": {
-                "hex": "A1420A",
-                "flight": "N180Q   ",
-                "type": "AS50",
-                "description": "AEROSPATIALE AS-350 Ecureuil",
-                "operator": "DEPARTMENT OF HOMELAND SECURITY",
-                "altitude": 1100,
-                "ground_speed": 127.0,
-                "track": 49.79,
-                "squawk": "4404",
-                "rssi": -10.9,
-                "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2026-03-09T14:30:02.748099+00:00",
-                "nav_qnh": 1019.2,
-                "nav_altitude_mcp": 992,
-                "category": "A7"
-            },
-            "geometry": {
-                "type": "LineString",
-                "coordinates": [
-                    [
-                        -76.397732,
-                        39.42334
-                    ],
-                    [
-                        -76.397732,
-                        39.42334
-                    ]
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
                 "hex": "A19F67",
-                "flight": "Unknown",
+                "flight": "N       ",
                 "type": "AS50",
                 "description": "AEROSPATIALE AS-350 Ecureuil",
                 "operator": "DEPARTMENT OF HOMELAND SECURITY",
-                "altitude": 0,
-                "ground_speed": 0.0,
-                "track": 0.0,
-                "squawk": "N/A",
-                "rssi": -27.1,
+                "altitude": 1425,
+                "ground_speed": 107.8,
+                "track": 83.07,
+                "squawk": "4401",
+                "rssi": -26.7,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2026-03-09T18:28:02.384335+00:00",
+                "last_seen": "2026-03-09T18:30:03.062276+00:00",
                 "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
                 "category": "A7"
@@ -3045,14 +3000,6 @@
             "geometry": {
                 "type": "LineString",
                 "coordinates": [
-                    [
-                        -88.362398,
-                        41.901343
-                    ],
-                    [
-                        -88.362398,
-                        41.901343
-                    ],
                     [
                         -88.429785,
                         41.899481
@@ -3364,6 +3311,10 @@
                     [
                         -89.375549,
                         41.096054
+                    ],
+                    [
+                        -89.090132,
+                        41.324887
                     ]
                 ]
             }
@@ -3376,13 +3327,13 @@
                 "type": "AS50",
                 "description": "AEROSPATIALE AS-350 Ecureuil",
                 "operator": "U S DEPT OF HOMELAND SECURITY",
-                "altitude": 1300,
-                "ground_speed": 122.1,
-                "track": 320.31,
+                "altitude": 1200,
+                "ground_speed": 111.4,
+                "track": 323.03,
                 "squawk": "1200",
-                "rssi": -22.4,
+                "rssi": -7.4,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2026-03-09T18:28:02.384194+00:00",
+                "last_seen": "2026-03-09T18:30:03.062125+00:00",
                 "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
                 "category": "A7"
@@ -3833,6 +3784,14 @@
                     [
                         -100.868331,
                         29.309921
+                    ],
+                    [
+                        -100.915392,
+                        29.363892
+                    ],
+                    [
+                        -100.915392,
+                        29.363892
                     ]
                 ]
             }
@@ -3845,13 +3804,13 @@
                 "type": "AS50",
                 "description": "AEROSPATIALE AS-350 Ecureuil",
                 "operator": "LAPD AIR SUPPORT DIVISION",
-                "altitude": 1250,
-                "ground_speed": 127.6,
-                "track": 346.4,
+                "altitude": "ground",
+                "ground_speed": 2.8,
+                "track": 123.69,
                 "squawk": "0224",
-                "rssi": -4.3,
+                "rssi": -5.7,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2026-03-09T18:28:02.384263+00:00",
+                "last_seen": "2026-03-09T18:30:03.062198+00:00",
                 "nav_qnh": 1013.6,
                 "nav_altitude_mcp": 10016,
                 "category": "A7"
@@ -4082,6 +4041,14 @@
                     [
                         -118.49556,
                         34.167434
+                    ],
+                    [
+                        -118.495536,
+                        34.216381
+                    ],
+                    [
+                        -118.495522,
+                        34.21637
                     ]
                 ]
             }
@@ -4094,13 +4061,13 @@
                 "type": "PC12",
                 "description": "PILATUS PC-12",
                 "operator": "US DEPARTMENT OF HOMELAND SECURITY",
-                "altitude": 6775,
-                "ground_speed": 141.0,
-                "track": 262.8,
+                "altitude": 9100,
+                "ground_speed": 165.0,
+                "track": 113.8,
                 "squawk": "4407",
                 "rssi": -49.5,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2026-03-09T18:24:02.267546+00:00",
+                "last_seen": "2026-03-09T18:30:03.062084+00:00",
                 "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
                 "category": "A1"
@@ -4155,6 +4122,10 @@
                     [
                         -107.565567,
                         32.280205
+                    ],
+                    [
+                        -107.720276,
+                        32.203583
                     ]
                 ]
             }
@@ -4729,13 +4700,13 @@
                 "type": "SHIP",
                 "description": "Zeppelin LZ N07-101",
                 "operator": "GOODYEAR TIRE & RUBBER CO",
-                "altitude": 1950,
-                "ground_speed": 39.6,
-                "track": 137.05,
+                "altitude": 2000,
+                "ground_speed": 49.5,
+                "track": 255.96,
                 "squawk": "1200",
-                "rssi": -6.0,
+                "rssi": -11.6,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2026-03-09T18:28:02.384316+00:00",
+                "last_seen": "2026-03-09T18:30:03.062252+00:00",
                 "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
                 "category": "B2"
@@ -5094,6 +5065,14 @@
                     [
                         -118.21603,
                         33.754486
+                    ],
+                    [
+                        -118.236923,
+                        33.742179
+                    ],
+                    [
+                        -118.236923,
+                        33.742179
                     ]
                 ]
             }
@@ -5637,13 +5616,13 @@
                 "type": "AS50",
                 "description": "AEROSPATIALE AS-350 Ecureuil",
                 "operator": "US DEPARTMENT OF HOMELAND SECURITY",
-                "altitude": 1100,
-                "ground_speed": 109.3,
-                "track": 261.05,
+                "altitude": 1200,
+                "ground_speed": 105.2,
+                "track": 278.75,
                 "squawk": "1200",
-                "rssi": -7.4,
+                "rssi": -8.4,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2026-03-09T18:28:02.384211+00:00",
+                "last_seen": "2026-03-09T18:30:03.062144+00:00",
                 "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
                 "category": "A7"
@@ -5674,6 +5653,43 @@
                     [
                         -121.555908,
                         38.597205
+                    ],
+                    [
+                        -121.630594,
+                        38.600647
+                    ],
+                    [
+                        -121.630594,
+                        38.600647
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "hex": "A16926",
+                "flight": "N190LA  ",
+                "type": "H60",
+                "description": "SIKORSKY UH-60 Black Hawk",
+                "operator": "COUNTY OF LOS ANGELES FIRE DEPARTMENT",
+                "altitude": "ground",
+                "ground_speed": 0.0,
+                "track": 0.0,
+                "squawk": "1206",
+                "rssi": -22.5,
+                "api_source": "https://api.airplanes.live/v2/hex/",
+                "last_seen": "2026-03-09T18:30:03.062218+00:00",
+                "nav_qnh": 0.0,
+                "nav_altitude_mcp": 0,
+                "category": "A7"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -118.407786,
+                        34.258781
                     ]
                 ]
             }
