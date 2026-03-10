@@ -63,13 +63,13 @@
                 "type": "B06",
                 "description": "BELL 206 JetRanger",
                 "operator": "PASADENA POLICE DEPARTMENT",
-                "altitude": 1600,
-                "ground_speed": 70.2,
-                "track": 289.98,
+                "altitude": 1400,
+                "ground_speed": 83.5,
+                "track": 222.09,
                 "squawk": "1200",
                 "rssi": null,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2026-03-10T18:12:02.223557+00:00",
+                "last_seen": "2026-03-10T18:14:02.186755+00:00",
                 "nav_qnh": null,
                 "nav_altitude_mcp": null,
                 "category": "A7"
@@ -77,8 +77,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -117.848854,
-                    34.145368
+                    -117.871866,
+                    34.109436
                 ]
             }
         },
@@ -91,12 +91,12 @@
                 "description": "Unknown",
                 "operator": "US GOVERNMENT",
                 "altitude": 20000,
-                "ground_speed": 233.2,
-                "track": 253.82,
-                "squawk": "2647",
+                "ground_speed": 233.5,
+                "track": 253.58,
+                "squawk": "N/A",
                 "rssi": null,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2026-03-10T18:12:02.223493+00:00",
+                "last_seen": "2026-03-10T18:14:02.186698+00:00",
                 "nav_qnh": null,
                 "nav_altitude_mcp": null,
                 "category": "A1"
@@ -104,8 +104,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -100.454115,
-                    40.147302
+                    -100.609253,
+                    40.112595
                 ]
             }
         },
@@ -139,18 +139,18 @@
         {
             "type": "Feature",
             "properties": {
-                "hex": "AE278E",
-                "flight": "LS12    ",
+                "hex": "AE1841",
+                "flight": "RS40    ",
                 "type": "H60",
-                "description": "Sikorsky MH-60S Seahawk",
-                "operator": "United States Navy",
-                "altitude": "ground",
-                "ground_speed": 7.8,
-                "track": 0.0,
+                "description": "SIKORSKY UH-60 Black Hawk",
+                "operator": "Unknown",
+                "altitude": -100,
+                "ground_speed": 2.3,
+                "track": 296.57,
                 "squawk": "1200",
                 "rssi": null,
-                "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2026-03-10T18:12:02.223510+00:00",
+                "api_source": "https://opendata.adsb.fi/api/v2/hex/",
+                "last_seen": "2026-03-10T18:14:02.186362+00:00",
                 "nav_qnh": null,
                 "nav_altitude_mcp": null,
                 "category": "A7"
@@ -158,8 +158,35 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -117.205862,
-                    32.712828
+                    -117.404106,
+                    32.606305
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "hex": "AE278E",
+                "flight": "LS12    ",
+                "type": "H60",
+                "description": "Sikorsky MH-60S Seahawk",
+                "operator": "United States Navy",
+                "altitude": "ground",
+                "ground_speed": 1.9,
+                "track": 0.0,
+                "squawk": "1200",
+                "rssi": null,
+                "api_source": "https://api.airplanes.live/v2/hex/",
+                "last_seen": "2026-03-10T18:14:02.186716+00:00",
+                "nav_qnh": null,
+                "nav_altitude_mcp": null,
+                "category": "A7"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -117.202835,
+                    32.713577
                 ]
             }
         }
