@@ -1349,13 +1349,13 @@
                 "type": "H500",
                 "description": "HUGHES 500",
                 "operator": "CITY OF HUNTINGTON BEACH",
-                "altitude": 750,
-                "ground_speed": 62.3,
-                "track": 108.73,
+                "altitude": 825,
+                "ground_speed": 67.1,
+                "track": 56.55,
                 "squawk": "4301",
-                "rssi": -9.9,
+                "rssi": -9.0,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2026-03-10T04:30:02.893657+00:00",
+                "last_seen": "2026-03-10T04:32:02.077346+00:00",
                 "nav_qnh": 1014.4,
                 "nav_altitude_mcp": 0,
                 "category": "A7"
@@ -1610,6 +1610,14 @@
                     [
                         -117.898121,
                         33.614021
+                    ],
+                    [
+                        -117.886391,
+                        33.615511
+                    ],
+                    [
+                        -117.886047,
+                        33.615692
                     ]
                 ]
             }
@@ -2317,6 +2325,39 @@
                     [
                         -118.171215,
                         34.183388
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "hex": "AC9BE7",
+                "flight": "N911RP  ",
+                "type": "H500",
+                "description": "HUGHES 500",
+                "operator": "CITY OF RIVERSIDE",
+                "altitude": "ground",
+                "ground_speed": 0.0,
+                "track": 0.0,
+                "squawk": "0132",
+                "rssi": -26.8,
+                "api_source": "https://api.airplanes.live/v2/hex/",
+                "last_seen": "2026-03-10T04:32:02.077411+00:00",
+                "nav_qnh": 0.0,
+                "nav_altitude_mcp": 0,
+                "category": "A7"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -117.447209,
+                        33.9554
+                    ],
+                    [
+                        -117.447209,
+                        33.9554
                     ]
                 ]
             }
