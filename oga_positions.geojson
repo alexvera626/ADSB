@@ -4,18 +4,45 @@
         {
             "type": "Feature",
             "properties": {
+                "hex": "A38627",
+                "flight": "REH81   ",
+                "type": "EC35",
+                "description": "AIRBUS HELICOPTERS EC-135/635",
+                "operator": "REACH AIR MEDICAL SERVICES LLC",
+                "altitude": 2225,
+                "ground_speed": 75.1,
+                "track": 183.05,
+                "squawk": "0224",
+                "rssi": null,
+                "api_source": "https://api.airplanes.live/v2/hex/",
+                "last_seen": "2026-03-11T02:34:02.046723+00:00",
+                "nav_qnh": null,
+                "nav_altitude_mcp": null,
+                "category": "A7"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -116.549377,
+                    33.810518
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
                 "hex": "A44360",
                 "flight": "UAV16   ",
                 "type": "Q9",
                 "description": "GENERAL ATOMICS MQ-9 Reaper",
                 "operator": "GENERAL ATOMICS AERONAUTICAL SYSTEMS INC",
                 "altitude": 6350,
-                "ground_speed": 111.2,
-                "track": 11.41,
+                "ground_speed": 149.8,
+                "track": 95.75,
                 "squawk": "5216",
                 "rssi": null,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2026-03-11T02:32:02.721840+00:00",
+                "last_seen": "2026-03-11T02:34:02.046703+00:00",
                 "nav_qnh": null,
                 "nav_altitude_mcp": null,
                 "category": "B6"
@@ -23,8 +50,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -117.77029,
-                    34.581609
+                    -117.691898,
+                    34.593666
                 ]
             }
         },
@@ -79,33 +106,6 @@
                 "coordinates": [
                     -117.2133,
                     32.709732
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "hex": "AE278C",
-                "flight": "LS10    ",
-                "type": "H60",
-                "description": "SIKORSKY UH-60 Black Hawk",
-                "operator": "Unknown",
-                "altitude": -25,
-                "ground_speed": 62.8,
-                "track": 322.77,
-                "squawk": "N/A",
-                "rssi": null,
-                "api_source": "https://opendata.adsb.fi/api/v2/hex/",
-                "last_seen": "2026-03-11T02:32:02.721708+00:00",
-                "nav_qnh": null,
-                "nav_altitude_mcp": null,
-                "category": "A7"
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    -117.961326,
-                    32.881894
                 ]
             }
         }
