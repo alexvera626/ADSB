@@ -24,14 +24,6 @@
                 "type": "LineString",
                 "coordinates": [
                     [
-                        -117.99511,
-                        33.775697
-                    ],
-                    [
-                        -117.99511,
-                        33.775697
-                    ],
-                    [
                         -117.988586,
                         33.770576
                     ],
@@ -136,14 +128,6 @@
             "geometry": {
                 "type": "LineString",
                 "coordinates": [
-                    [
-                        -117.687172,
-                        33.69278
-                    ],
-                    [
-                        -117.687172,
-                        33.69278
-                    ],
                     [
                         -117.728462,
                         33.717646
@@ -257,14 +241,6 @@
             "geometry": {
                 "type": "LineString",
                 "coordinates": [
-                    [
-                        -117.133978,
-                        32.697556
-                    ],
-                    [
-                        -117.1341,
-                        32.697314
-                    ],
                     [
                         -117.138753,
                         32.700433
@@ -643,14 +619,6 @@
                 "type": "LineString",
                 "coordinates": [
                     [
-                        -117.60797,
-                        34.494644
-                    ],
-                    [
-                        -117.60797,
-                        34.494644
-                    ],
-                    [
                         -117.563408,
                         34.489838
                     ],
@@ -940,14 +908,6 @@
                 "type": "LineString",
                 "coordinates": [
                     [
-                        -121.623108,
-                        38.84612
-                    ],
-                    [
-                        -121.623108,
-                        38.84612
-                    ],
-                    [
                         -121.686421,
                         38.889267
                     ],
@@ -1032,14 +992,6 @@
             "geometry": {
                 "type": "LineString",
                 "coordinates": [
-                    [
-                        -118.252352,
-                        33.693146
-                    ],
-                    [
-                        -118.252352,
-                        33.693146
-                    ],
                     [
                         -118.271914,
                         33.684814
@@ -1611,13 +1563,13 @@
                 "type": "B06",
                 "description": "BELL 206 JetRanger",
                 "operator": "PASADENA POLICE DEPARTMENT",
-                "altitude": 1000,
-                "ground_speed": 72.1,
-                "track": 92.39,
+                "altitude": 1100,
+                "ground_speed": 73.6,
+                "track": 43.9,
                 "squawk": "1200",
-                "rssi": -7.0,
+                "rssi": -7.5,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2026-03-12T00:30:02.433264+00:00",
+                "last_seen": "2026-03-12T00:32:01.962202+00:00",
                 "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
                 "category": "A7"
@@ -1625,14 +1577,6 @@
             "geometry": {
                 "type": "LineString",
                 "coordinates": [
-                    [
-                        -118.143497,
-                        34.158875
-                    ],
-                    [
-                        -118.143497,
-                        34.158875
-                    ],
                     [
                         -118.149495,
                         34.157318
@@ -1896,6 +1840,14 @@
                     [
                         -118.051627,
                         34.130997
+                    ],
+                    [
+                        -118.044733,
+                        34.131317
+                    ],
+                    [
+                        -118.044452,
+                        34.131546
                     ]
                 ]
             }
@@ -1922,14 +1874,6 @@
             "geometry": {
                 "type": "LineString",
                 "coordinates": [
-                    [
-                        -117.113654,
-                        32.559723
-                    ],
-                    [
-                        -117.112913,
-                        32.559054
-                    ],
                     [
                         -117.119695,
                         32.561475
@@ -2636,12 +2580,12 @@
                 "description": "SIKORSKY UH-60 Black Hawk",
                 "operator": "Unknown",
                 "altitude": 975,
-                "ground_speed": 93.2,
-                "track": 93.69,
+                "ground_speed": 102.0,
+                "track": 111.28,
                 "squawk": "1200",
-                "rssi": -24.3,
+                "rssi": -26.4,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2026-03-12T00:30:02.433280+00:00",
+                "last_seen": "2026-03-12T00:32:01.962219+00:00",
                 "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
                 "category": "A7"
@@ -3432,6 +3376,14 @@
                     [
                         -117.518117,
                         32.687678
+                    ],
+                    [
+                        -117.455675,
+                        32.677949
+                    ],
+                    [
+                        -117.455395,
+                        32.677855
                     ]
                 ]
             }
@@ -4404,18 +4356,47 @@
         {
             "type": "Feature",
             "properties": {
+                "hex": "A44360",
+                "flight": "UAV16   ",
+                "type": "Q9",
+                "description": "GENERAL ATOMICS MQ-9 Reaper",
+                "operator": "GENERAL ATOMICS AERONAUTICAL SYSTEMS INC",
+                "altitude": 6175,
+                "ground_speed": 0.0,
+                "track": 0.0,
+                "squawk": "5216",
+                "rssi": -8.8,
+                "api_source": "https://api.airplanes.live/v2/hex/",
+                "last_seen": "2026-03-12T00:32:01.962184+00:00",
+                "nav_qnh": 0.0,
+                "nav_altitude_mcp": 0,
+                "category": "Unknown"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -117.573882,
+                        34.588213
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
                 "hex": "A2097B",
                 "flight": "N230LA  ",
                 "type": "AS50",
                 "description": "AEROSPATIALE AS-350 Ecureuil",
                 "operator": "LAPD AIR SUPPORT DIVISION",
-                "altitude": 275,
-                "ground_speed": 49.0,
-                "track": 290.28,
+                "altitude": 550,
+                "ground_speed": 56.3,
+                "track": 77.69,
                 "squawk": "1200",
-                "rssi": -8.0,
+                "rssi": -5.5,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2026-03-12T00:30:02.433228+00:00",
+                "last_seen": "2026-03-12T00:32:01.962167+00:00",
                 "nav_qnh": 1022.4,
                 "nav_altitude_mcp": 4288,
                 "category": "A7"
@@ -4822,6 +4803,14 @@
                     [
                         -118.314122,
                         34.014038
+                    ],
+                    [
+                        -118.3148,
+                        34.010134
+                    ],
+                    [
+                        -118.314514,
+                        34.010134
                     ]
                 ]
             }
@@ -4834,13 +4823,13 @@
                 "type": "B350",
                 "description": "BEECHCRAFT Super King Air 350",
                 "operator": "DEPT OF HOMELAND SECURITY",
-                "altitude": 625,
-                "ground_speed": 165.4,
-                "track": 250.58,
-                "squawk": "4407",
-                "rssi": -32.6,
+                "altitude": 1425,
+                "ground_speed": 184.3,
+                "track": 64.96,
+                "squawk": "1200",
+                "rssi": -28.0,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2026-03-12T00:30:02.433209+00:00",
+                "last_seen": "2026-03-12T00:32:01.962149+00:00",
                 "nav_qnh": 1023.2,
                 "nav_altitude_mcp": 1696,
                 "category": "A2"
@@ -5207,6 +5196,14 @@
                     [
                         -118.591471,
                         33.022249
+                    ],
+                    [
+                        -118.548646,
+                        32.985193
+                    ],
+                    [
+                        -118.54831,
+                        32.985333
                     ]
                 ]
             }
@@ -5642,13 +5639,13 @@
                 "type": "Unknown",
                 "description": "Unknown",
                 "operator": "DEPARTMENT OF HOMELAND SECURITY",
-                "altitude": 1525,
-                "ground_speed": 72.2,
-                "track": 356.03,
+                "altitude": 1925,
+                "ground_speed": 86.0,
+                "track": 270.67,
                 "squawk": "4416",
-                "rssi": -15.9,
+                "rssi": -15.5,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2026-03-12T00:30:02.433154+00:00",
+                "last_seen": "2026-03-12T00:32:01.962131+00:00",
                 "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
                 "category": "A7"
@@ -5735,6 +5732,14 @@
                     [
                         -97.674242,
                         35.682895
+                    ],
+                    [
+                        -97.716902,
+                        35.696582
+                    ],
+                    [
+                        -97.717323,
+                        35.696594
                     ]
                 ]
             }
