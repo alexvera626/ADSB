@@ -24,14 +24,6 @@
                 "type": "LineString",
                 "coordinates": [
                     [
-                        -116.938477,
-                        32.788467
-                    ],
-                    [
-                        -116.938257,
-                        32.788651
-                    ],
-                    [
                         -116.940551,
                         32.789301
                     ],
@@ -95,12 +87,12 @@
                 "description": "DE HAVILLAND DHC-8-300 Dash 8",
                 "operator": "US DEPARTMENT OF HOMELAND SECURITY",
                 "altitude": 10200,
-                "ground_speed": 209.0,
-                "track": 266.0,
+                "ground_speed": 200.0,
+                "track": 58.0,
                 "squawk": "4406",
-                "rssi": -15.1,
+                "rssi": -15.8,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2026-03-12T14:08:02.145572+00:00",
+                "last_seen": "2026-03-12T14:10:02.922287+00:00",
                 "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
                 "category": "Unknown"
@@ -875,6 +867,14 @@
                     [
                         -117.455134,
                         32.532384
+                    ],
+                    [
+                        -117.433404,
+                        32.490259
+                    ],
+                    [
+                        -117.431976,
+                        32.491698
                     ]
                 ]
             }
@@ -1112,15 +1112,15 @@
                 "type": "H60",
                 "description": "Sikorsky UH-60M Black Hawk",
                 "operator": "Unknown",
-                "altitude": 2625,
-                "ground_speed": 120.7,
-                "track": 304.88,
+                "altitude": 1300,
+                "ground_speed": 124.3,
+                "track": 304.84,
                 "squawk": "4731",
-                "rssi": -7.2,
+                "rssi": -9.5,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2026-03-12T14:08:02.145705+00:00",
+                "last_seen": "2026-03-12T14:10:02.922322+00:00",
                 "nav_qnh": 1024.0,
-                "nav_altitude_mcp": 2880,
+                "nav_altitude_mcp": 1184,
                 "category": "A7"
             },
             "geometry": {
@@ -1461,6 +1461,14 @@
                     [
                         -120.511219,
                         35.163391
+                    ],
+                    [
+                        -120.582218,
+                        35.203733
+                    ],
+                    [
+                        -120.582218,
+                        35.203733
                     ]
                 ]
             }
@@ -1739,14 +1747,14 @@
                 "flight": "N751AM  ",
                 "type": "AS50",
                 "description": "AEROSPATIALE AS-350 Ecureuil",
-                "operator": "US DEPARTMENT OF HOMELAND SECURITY",
-                "altitude": 2600,
-                "ground_speed": 123.0,
-                "track": 282.68,
+                "operator": "US DEPARTMENT OF HOMELAND SECURITY, US CUSTOMS & BORDER PROTECTI",
+                "altitude": 2500,
+                "ground_speed": 114.6,
+                "track": 317.12,
                 "squawk": "N/A",
-                "rssi": -29.7,
-                "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2026-03-12T14:08:02.145631+00:00",
+                "rssi": -32.3,
+                "api_source": "https://opendata.adsb.fi/api/v2/hex/",
+                "last_seen": "2026-03-12T14:10:02.921681+00:00",
                 "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
                 "category": "A7"
@@ -1781,6 +1789,10 @@
                     [
                         -100.440445,
                         28.754471
+                    ],
+                    [
+                        -100.521258,
+                        28.779648
                     ]
                 ]
             }
@@ -1793,13 +1805,13 @@
                 "type": "B412",
                 "description": "BELL 412",
                 "operator": "COUNTY OF LOS ANGELES FIRE DEPT",
-                "altitude": 2000,
-                "ground_speed": 101.1,
-                "track": 297.07,
+                "altitude": 2300,
+                "ground_speed": 104.8,
+                "track": 293.63,
                 "squawk": "1206",
-                "rssi": -7.8,
+                "rssi": -12.0,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2026-03-12T14:08:02.145650+00:00",
+                "last_seen": "2026-03-12T14:10:02.922306+00:00",
                 "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
                 "category": "A7"
@@ -1846,6 +1858,47 @@
                     [
                         -118.104933,
                         34.185837
+                    ],
+                    [
+                        -118.168777,
+                        34.210739
+                    ],
+                    [
+                        -118.168777,
+                        34.210739
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "hex": "A19F67",
+                "flight": "N       ",
+                "type": "AS50",
+                "description": "AEROSPATIALE AS-350 Ecureuil",
+                "operator": "DEPARTMENT OF HOMELAND SECURITY",
+                "altitude": 1175,
+                "ground_speed": 100.2,
+                "track": 356.0,
+                "squawk": "4401",
+                "rssi": -5.8,
+                "api_source": "https://api.airplanes.live/v2/hex/",
+                "last_seen": "2026-03-12T14:10:02.922337+00:00",
+                "nav_qnh": 0.0,
+                "nav_altitude_mcp": 0,
+                "category": "A7"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -88.267418,
+                        41.949246
+                    ],
+                    [
+                        -88.267406,
+                        41.949005
                     ]
                 ]
             }
