@@ -10,12 +10,12 @@
                 "description": "DE HAVILLAND DHC-8-300 Dash 8",
                 "operator": "US DEPARTMENT OF HOMELAND SECURITY",
                 "altitude": 12400,
-                "ground_speed": 204.0,
-                "track": 101.0,
+                "ground_speed": 224.0,
+                "track": 83.0,
                 "squawk": "4406",
-                "rssi": -10.9,
+                "rssi": -10.6,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2026-03-13T16:00:02.671705+00:00",
+                "last_seen": "2026-03-13T16:02:02.872793+00:00",
                 "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
                 "category": "Unknown"
@@ -23,22 +23,6 @@
             "geometry": {
                 "type": "LineString",
                 "coordinates": [
-                    [
-                        -117.607561,
-                        32.282307
-                    ],
-                    [
-                        -117.607824,
-                        32.283289
-                    ],
-                    [
-                        -117.604998,
-                        32.173369
-                    ],
-                    [
-                        -117.604971,
-                        32.169459
-                    ],
                     [
                         -117.601095,
                         32.053362
@@ -990,95 +974,14 @@
                     [
                         -117.483057,
                         32.523488
-                    ]
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "hex": "A38627",
-                "flight": "REH81   ",
-                "type": "EC35",
-                "description": "AIRBUS HELICOPTERS EC-135/635",
-                "operator": "REACH AIR MEDICAL SERVICES LLC",
-                "altitude": "ground",
-                "ground_speed": 0.2,
-                "track": 288.43,
-                "squawk": "1200",
-                "rssi": -20.3,
-                "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2026-03-13T13:00:02.413465+00:00",
-                "nav_qnh": 0.0,
-                "nav_altitude_mcp": 0,
-                "category": "A7"
-            },
-            "geometry": {
-                "type": "LineString",
-                "coordinates": [
-                    [
-                        -116.504292,
-                        33.828415
                     ],
                     [
-                        -116.504292,
-                        33.828415
+                        -117.345209,
+                        32.526515
                     ],
                     [
-                        -116.546612,
-                        33.83844
-                    ],
-                    [
-                        -116.546612,
-                        33.83844
-                    ],
-                    [
-                        -116.514214,
-                        33.830017
-                    ],
-                    [
-                        -116.514214,
-                        33.830017
-                    ],
-                    [
-                        -116.428958,
-                        33.800995
-                    ],
-                    [
-                        -116.428958,
-                        33.800995
-                    ],
-                    [
-                        -116.358604,
-                        33.774626
-                    ],
-                    [
-                        -116.358604,
-                        33.774626
-                    ],
-                    [
-                        -116.293198,
-                        33.742767
-                    ],
-                    [
-                        -116.292021,
-                        33.742218
-                    ],
-                    [
-                        -116.266517,
-                        33.742722
-                    ],
-                    [
-                        -116.266629,
-                        33.742813
-                    ],
-                    [
-                        -116.269841,
-                        33.744332
-                    ],
-                    [
-                        -116.269841,
-                        33.744332
+                        -117.343425,
+                        32.529657
                     ]
                 ]
             }
@@ -1105,14 +1008,6 @@
             "geometry": {
                 "type": "LineString",
                 "coordinates": [
-                    [
-                        -99.85986,
-                        28.038757
-                    ],
-                    [
-                        -99.85986,
-                        28.038757
-                    ],
                     [
                         -99.915269,
                         28.03669
@@ -1272,18 +1167,91 @@
         {
             "type": "Feature",
             "properties": {
+                "hex": "A38627",
+                "flight": "REH81   ",
+                "type": "EC35",
+                "description": "AIRBUS HELICOPTERS EC-135/635",
+                "operator": "REACH AIR MEDICAL SERVICES LLC",
+                "altitude": "ground",
+                "ground_speed": 0.2,
+                "track": 288.43,
+                "squawk": "1200",
+                "rssi": -20.3,
+                "api_source": "https://api.airplanes.live/v2/hex/",
+                "last_seen": "2026-03-13T13:00:02.413465+00:00",
+                "nav_qnh": 0.0,
+                "nav_altitude_mcp": 0,
+                "category": "A7"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -116.514214,
+                        33.830017
+                    ],
+                    [
+                        -116.514214,
+                        33.830017
+                    ],
+                    [
+                        -116.428958,
+                        33.800995
+                    ],
+                    [
+                        -116.428958,
+                        33.800995
+                    ],
+                    [
+                        -116.358604,
+                        33.774626
+                    ],
+                    [
+                        -116.358604,
+                        33.774626
+                    ],
+                    [
+                        -116.293198,
+                        33.742767
+                    ],
+                    [
+                        -116.292021,
+                        33.742218
+                    ],
+                    [
+                        -116.266517,
+                        33.742722
+                    ],
+                    [
+                        -116.266629,
+                        33.742813
+                    ],
+                    [
+                        -116.269841,
+                        33.744332
+                    ],
+                    [
+                        -116.269841,
+                        33.744332
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
                 "hex": "AC06F0",
                 "flight": "JENA1   ",
                 "type": "B752",
                 "description": "BOEING 757-200",
                 "operator": "UNITED STATES GOVERNMENT",
                 "altitude": 34000,
-                "ground_speed": 478.9,
-                "track": 212.03,
+                "ground_speed": 480.3,
+                "track": 212.07,
                 "squawk": "3524",
-                "rssi": -5.1,
+                "rssi": -16.7,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2026-03-13T16:00:02.671685+00:00",
+                "last_seen": "2026-03-13T16:02:02.872775+00:00",
                 "nav_qnh": 1013.6,
                 "nav_altitude_mcp": 0,
                 "category": "A4"
@@ -1710,6 +1678,14 @@
                     [
                         -110.148692,
                         35.267556
+                    ],
+                    [
+                        -110.321008,
+                        35.041534
+                    ],
+                    [
+                        -110.321008,
+                        35.041534
                     ]
                 ]
             }
@@ -2408,13 +2384,13 @@
                 "type": "B407",
                 "description": "BELL 407",
                 "operator": "SAN DIEGO COUNTY SHERIFF DEPARTMENT",
-                "altitude": 1125,
-                "ground_speed": 56.9,
-                "track": 79.88,
+                "altitude": 1075,
+                "ground_speed": 59.5,
+                "track": 63.0,
                 "squawk": "4266",
-                "rssi": -13.5,
+                "rssi": -12.5,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2026-03-13T16:00:02.671809+00:00",
+                "last_seen": "2026-03-13T16:02:02.872965+00:00",
                 "nav_qnh": 1015.2,
                 "nav_altitude_mcp": 0,
                 "category": "A7"
@@ -2565,6 +2541,14 @@
                     [
                         -117.225578,
                         33.217117
+                    ],
+                    [
+                        -117.225971,
+                        33.220282
+                    ],
+                    [
+                        -117.225879,
+                        33.220367
                     ]
                 ]
             }
@@ -2577,13 +2561,13 @@
                 "type": "B752",
                 "description": "BOEING 757-200",
                 "operator": "UNITED STATES GOVERNMENT",
-                "altitude": 24050,
-                "ground_speed": 501.8,
-                "track": 63.49,
+                "altitude": 25000,
+                "ground_speed": 512.1,
+                "track": 63.69,
                 "squawk": "1753",
-                "rssi": -17.0,
+                "rssi": -16.0,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2026-03-13T16:00:02.671726+00:00",
+                "last_seen": "2026-03-13T16:02:02.872944+00:00",
                 "nav_qnh": 1013.6,
                 "nav_altitude_mcp": 0,
                 "category": "A4"
@@ -2838,6 +2822,14 @@
                     [
                         -81.450825,
                         36.795587
+                    ],
+                    [
+                        -81.132899,
+                        36.922069
+                    ],
+                    [
+                        -81.132899,
+                        36.922069
                     ]
                 ]
             }
@@ -3024,13 +3016,13 @@
                 "type": "H60",
                 "description": "SIKORSKY UH-60 Black Hawk",
                 "operator": "Unknown",
-                "altitude": -75,
-                "ground_speed": 3.1,
-                "track": 90.0,
+                "altitude": -50,
+                "ground_speed": 1.2,
+                "track": 180.0,
                 "squawk": "1200",
-                "rssi": -26.2,
-                "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2026-03-13T16:00:02.671790+00:00",
+                "rssi": -19.3,
+                "api_source": "https://opendata.adsb.fi/api/v2/hex/",
+                "last_seen": "2026-03-13T16:02:02.872445+00:00",
                 "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
                 "category": "A7"
@@ -3109,6 +3101,10 @@
                     [
                         -117.450275,
                         32.611725
+                    ],
+                    [
+                        -117.450966,
+                        32.61082
                     ]
                 ]
             }
