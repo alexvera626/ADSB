@@ -9,13 +9,13 @@
                 "type": "EC35",
                 "description": "AIRBUS HELICOPTERS EC-135/635",
                 "operator": "REACH AIR MEDICAL SERVICES LLC",
-                "altitude": 175,
-                "ground_speed": 21.4,
-                "track": 307.41,
+                "altitude": "ground",
+                "ground_speed": 0.2,
+                "track": 288.43,
                 "squawk": "1200",
                 "rssi": null,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2026-03-13T12:58:02.320047+00:00",
+                "last_seen": "2026-03-13T13:00:02.413465+00:00",
                 "nav_qnh": null,
                 "nav_altitude_mcp": null,
                 "category": "A7"
@@ -23,8 +23,8 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -116.266629,
-                    33.742813
+                    -116.269841,
+                    33.744332
                 ]
             }
         },
@@ -85,18 +85,18 @@
         {
             "type": "Feature",
             "properties": {
-                "hex": "AB00B8",
-                "flight": "TROY506 ",
-                "type": "DH8C",
-                "description": "DE HAVILLAND DHC-8-300 Dash 8",
-                "operator": "US DEPARTMENT OF HOMELAND SECURITY",
-                "altitude": 12400,
-                "ground_speed": 175.0,
-                "track": 258.0,
-                "squawk": "4406",
+                "hex": "AA1DCC",
+                "flight": "Unknown",
+                "type": "AS50",
+                "description": "AEROSPATIALE AS-350 Ecureuil",
+                "operator": "US DEPARTMENT OF HOMELAND SECURITY, US CUSTOMS & BORDER PROTECTI",
+                "altitude": 2700,
+                "ground_speed": 105.8,
+                "track": 239.31,
+                "squawk": "1200",
                 "rssi": null,
-                "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2026-03-13T12:58:02.319991+00:00",
+                "api_source": "https://opendata.adsb.fi/api/v2/hex/",
+                "last_seen": "2026-03-13T13:00:02.413322+00:00",
                 "nav_qnh": null,
                 "nav_altitude_mcp": null,
                 "category": "Unknown"
@@ -104,8 +104,62 @@
             "geometry": {
                 "type": "Point",
                 "coordinates": [
-                    -117.602048,
-                    32.537012
+                    -100.010605,
+                    29.05275
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "hex": "AB00B8",
+                "flight": "TROY506 ",
+                "type": "DH8C",
+                "description": "DE HAVILLAND DHC-8-300 Dash 8",
+                "operator": "US DEPARTMENT OF HOMELAND SECURITY",
+                "altitude": 12400,
+                "ground_speed": 220.0,
+                "track": 179.0,
+                "squawk": "4406",
+                "rssi": null,
+                "api_source": "https://api.airplanes.live/v2/hex/",
+                "last_seen": "2026-03-13T13:00:02.413448+00:00",
+                "nav_qnh": null,
+                "nav_altitude_mcp": null,
+                "category": "Unknown"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -117.614172,
+                    32.423077
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "hex": "AC06F0",
+                "flight": "JENA1   ",
+                "type": "B752",
+                "description": "BOEING 757-200",
+                "operator": "UNITED STATES GOVERNMENT",
+                "altitude": "ground",
+                "ground_speed": 9.2,
+                "track": 90.0,
+                "squawk": "1070",
+                "rssi": null,
+                "api_source": "https://api.airplanes.live/v2/hex/",
+                "last_seen": "2026-03-13T13:00:02.413430+00:00",
+                "nav_qnh": null,
+                "nav_altitude_mcp": null,
+                "category": "A4"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -118.356142,
+                    34.198845
                 ]
             }
         }
