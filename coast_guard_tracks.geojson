@@ -98,13 +98,13 @@
                 "type": "C30J",
                 "description": "Lockheed Martin HC-130J Hercules",
                 "operator": "Unknown",
-                "altitude": 5500,
-                "ground_speed": 246.3,
-                "track": 113.44,
+                "altitude": 3150,
+                "ground_speed": 196.5,
+                "track": 114.35,
                 "squawk": "3637",
-                "rssi": -36.6,
-                "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2026-03-13T13:26:02.049935+00:00",
+                "rssi": -35.2,
+                "api_source": "https://opendata.adsb.fi/api/v2/hex/",
+                "last_seen": "2026-03-13T13:28:02.642600+00:00",
                 "nav_qnh": 1008.0,
                 "nav_altitude_mcp": 3008,
                 "category": "A3"
@@ -475,6 +475,10 @@
                     [
                         -156.302588,
                         20.041946
+                    ],
+                    [
+                        -156.178453,
+                        19.989578
                     ]
                 ]
             }
@@ -488,12 +492,12 @@
                 "description": "CASA HC-144B Ocean Sentry",
                 "operator": "United States Coast Guard",
                 "altitude": 10900,
-                "ground_speed": 237.7,
-                "track": 51.49,
+                "ground_speed": 239.5,
+                "track": 54.52,
                 "squawk": "5335",
-                "rssi": -16.8,
+                "rssi": -25.2,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2026-03-13T13:26:02.049955+00:00",
+                "last_seen": "2026-03-13T13:28:02.643549+00:00",
                 "nav_qnh": 1017.6,
                 "nav_altitude_mcp": 11008,
                 "category": "A2"
@@ -628,6 +632,14 @@
                     [
                         -70.237819,
                         43.042106
+                    ],
+                    [
+                        -70.089961,
+                        43.1205
+                    ],
+                    [
+                        -70.089961,
+                        43.1205
                     ]
                 ]
             }
@@ -640,13 +652,13 @@
                 "type": "AS65",
                 "description": "Eurocopter MH-65D Dolphin",
                 "operator": "Unknown",
-                "altitude": 0,
-                "ground_speed": 77.3,
-                "track": 158.75,
+                "altitude": 150,
+                "ground_speed": 77.6,
+                "track": 321.8,
                 "squawk": "N/A",
                 "rssi": -35.3,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2026-03-13T13:26:02.049974+00:00",
+                "last_seen": "2026-03-13T13:28:02.643568+00:00",
                 "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
                 "category": "A7"
@@ -725,6 +737,14 @@
                     [
                         -79.713998,
                         25.78696
+                    ],
+                    [
+                        -79.683228,
+                        25.754608
+                    ],
+                    [
+                        -79.683228,
+                        25.754608
                     ]
                 ]
             }
@@ -737,13 +757,13 @@
                 "type": "CN35",
                 "description": "CASA HC-144B Ocean Sentry",
                 "operator": "United States Coast Guard",
-                "altitude": 5950,
-                "ground_speed": 145.2,
-                "track": 221.37,
+                "altitude": 5975,
+                "ground_speed": 170.7,
+                "track": 218.82,
                 "squawk": "4425",
-                "rssi": -24.0,
+                "rssi": -24.6,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2026-03-13T13:26:02.049994+00:00",
+                "last_seen": "2026-03-13T13:28:02.643584+00:00",
                 "nav_qnh": 1016.8,
                 "nav_altitude_mcp": 6016,
                 "category": "A2"
@@ -806,6 +826,10 @@
                     [
                         -80.278499,
                         25.105622
+                    ],
+                    [
+                        -80.339661,
+                        25.041458
                     ]
                 ]
             }
@@ -852,12 +876,12 @@
                 "description": "Sikorsky MH-60T Jayhawk",
                 "operator": "Unknown",
                 "altitude": 275,
-                "ground_speed": 127.0,
-                "track": 314.0,
+                "ground_speed": 128.0,
+                "track": 318.6,
                 "squawk": "1200",
                 "rssi": -49.5,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2026-03-13T13:26:02.050030+00:00",
+                "last_seen": "2026-03-13T13:28:02.643638+00:00",
                 "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
                 "category": "Unknown"
@@ -868,6 +892,39 @@
                     [
                         -76.21666,
                         36.303204
+                    ],
+                    [
+                        -76.273872,
+                        36.356415
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "hex": "AE270A",
+                "flight": "Unknown",
+                "type": "CN35",
+                "description": "CASA HC-144B Ocean Sentry",
+                "operator": "United States Coast Guard",
+                "altitude": 525,
+                "ground_speed": 115.4,
+                "track": 146.31,
+                "squawk": "N/A",
+                "rssi": -23.9,
+                "api_source": "https://api.airplanes.live/v2/hex/",
+                "last_seen": "2026-03-13T13:28:02.643612+00:00",
+                "nav_qnh": 1022.4,
+                "nav_altitude_mcp": 1504,
+                "category": "Unknown"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -88.241254,
+                        30.686677
                     ]
                 ]
             }
