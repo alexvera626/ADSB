@@ -2381,14 +2381,14 @@
                 "flight": "N3953A  ",
                 "type": "AS50",
                 "description": "AEROSPATIALE AS-350 Ecureuil",
-                "operator": "US DEPARTMENT OF HOMELAND SECURITY",
-                "altitude": 2400,
-                "ground_speed": 111.8,
-                "track": 144.46,
+                "operator": "US DEPARTMENT OF HOMELAND SECURITY, US CUSTOMS & BORDER PROTECTI",
+                "altitude": 1800,
+                "ground_speed": 132.3,
+                "track": 20.35,
                 "squawk": "1200",
-                "rssi": -29.2,
-                "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2026-03-14T20:06:02.508988+00:00",
+                "rssi": -26.6,
+                "api_source": "https://opendata.adsb.fi/api/v2/hex/",
+                "last_seen": "2026-03-14T22:04:02.147813+00:00",
                 "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
                 "category": "A7"
@@ -2467,6 +2467,10 @@
                     [
                         -100.571753,
                         28.961517
+                    ],
+                    [
+                        -99.853228,
+                        28.477028
                     ]
                 ]
             }
@@ -2850,13 +2854,13 @@
                 "type": "H500",
                 "description": "HUGHES 500",
                 "operator": "CITY OF RIVERSIDE",
-                "altitude": 1450,
-                "ground_speed": 90.0,
-                "track": 270.64,
+                "altitude": 1525,
+                "ground_speed": 84.9,
+                "track": 282.24,
                 "squawk": "1200",
-                "rssi": -8.2,
+                "rssi": -7.1,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2026-03-14T22:02:03.016652+00:00",
+                "last_seen": "2026-03-14T22:04:02.148588+00:00",
                 "nav_qnh": 1012.0,
                 "nav_altitude_mcp": 0,
                 "category": "A7"
@@ -2991,6 +2995,47 @@
                     [
                         -118.131222,
                         34.154434
+                    ],
+                    [
+                        -118.186322,
+                        34.143906
+                    ],
+                    [
+                        -118.186741,
+                        34.143972
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "hex": "AED61D",
+                "flight": "KNIFE30 ",
+                "type": "H60",
+                "description": "Sikorsky UH-60M Black Hawk",
+                "operator": "Unknown",
+                "altitude": 1450,
+                "ground_speed": 117.6,
+                "track": 228.45,
+                "squawk": "N/A",
+                "rssi": -3.8,
+                "api_source": "https://api.airplanes.live/v2/hex/",
+                "last_seen": "2026-03-14T22:04:02.148569+00:00",
+                "nav_qnh": 0.0,
+                "nav_altitude_mcp": 0,
+                "category": "A7"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -120.964336,
+                        35.821426
+                    ],
+                    [
+                        -120.964336,
+                        35.821426
                     ]
                 ]
             }
