@@ -24,14 +24,6 @@
                 "type": "LineString",
                 "coordinates": [
                     [
-                        -122.135905,
-                        39.170288
-                    ],
-                    [
-                        -122.135069,
-                        39.164612
-                    ],
-                    [
                         -122.131427,
                         39.161865
                     ],
@@ -2248,13 +2240,13 @@
                 "type": "UH1",
                 "description": "BELL UH-1 Huey",
                 "operator": "ORANGE COUNTY SHERIFFS DEPARTMENT",
-                "altitude": 100,
+                "altitude": "ground",
                 "ground_speed": 0.0,
                 "track": 0.0,
                 "squawk": "4204",
-                "rssi": -8.5,
+                "rssi": -4.5,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2026-03-14T20:28:02.031702+00:00",
+                "last_seen": "2026-03-14T20:30:02.183158+00:00",
                 "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
                 "category": "A7"
@@ -2369,6 +2361,14 @@
                     [
                         -117.871556,
                         33.674993
+                    ],
+                    [
+                        -117.871544,
+                        33.675007
+                    ],
+                    [
+                        -117.871544,
+                        33.674995
                     ]
                 ]
             }
@@ -2776,13 +2776,13 @@
                 "type": "H60",
                 "description": "Sikorsky MH-60S Seahawk",
                 "operator": "Unknown",
-                "altitude": 300,
-                "ground_speed": 127.8,
-                "track": 120.58,
+                "altitude": 200,
+                "ground_speed": 124.2,
+                "track": 14.93,
                 "squawk": "1200",
-                "rssi": -4.3,
+                "rssi": -11.3,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2026-03-14T20:28:02.031756+00:00",
+                "last_seen": "2026-03-14T20:30:02.183222+00:00",
                 "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
                 "category": "A7"
@@ -3053,6 +3053,14 @@
                     [
                         -117.274512,
                         32.623855
+                    ],
+                    [
+                        -117.231702,
+                        32.667389
+                    ],
+                    [
+                        -117.232361,
+                        32.665192
                     ]
                 ]
             }
@@ -3163,12 +3171,12 @@
                 "description": "Unknown",
                 "operator": "MAYOR AND CITY COUNCIL OF WASHINGTON DC",
                 "altitude": "ground",
-                "ground_speed": 0.6,
-                "track": 2.81,
-                "squawk": "N/A",
-                "rssi": -20.4,
+                "ground_speed": 0.0,
+                "track": 0.0,
+                "squawk": "5164",
+                "rssi": -21.0,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2026-03-14T20:28:02.031617+00:00",
+                "last_seen": "2026-03-14T20:30:02.183123+00:00",
                 "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
                 "category": "A7"
@@ -3235,6 +3243,43 @@
                     [
                         -77.008331,
                         38.868384
+                    ],
+                    [
+                        -77.008347,
+                        38.868372
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "hex": "A38627",
+                "flight": "REH81   ",
+                "type": "EC35",
+                "description": "AIRBUS HELICOPTERS EC-135/635",
+                "operator": "REACH AIR MEDICAL SERVICES LLC",
+                "altitude": "ground",
+                "ground_speed": 0.0,
+                "track": 258.75,
+                "squawk": "1200",
+                "rssi": -26.2,
+                "api_source": "https://api.airplanes.live/v2/hex/",
+                "last_seen": "2026-03-14T20:30:02.183242+00:00",
+                "nav_qnh": 0.0,
+                "nav_altitude_mcp": 0,
+                "category": "A7"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -116.269884,
+                        33.744344
+                    ],
+                    [
+                        -116.269884,
+                        33.744344
                     ]
                 ]
             }
