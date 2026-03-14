@@ -24,14 +24,6 @@
                 "type": "LineString",
                 "coordinates": [
                     [
-                        -81.10816,
-                        31.76883
-                    ],
-                    [
-                        -81.10816,
-                        31.76883
-                    ],
-                    [
                         -81.081288,
                         31.805606
                     ],
@@ -204,14 +196,6 @@
             "geometry": {
                 "type": "LineString",
                 "coordinates": [
-                    [
-                        -95.267621,
-                        30.152435
-                    ],
-                    [
-                        -95.265802,
-                        30.151698
-                    ],
                     [
                         -95.325192,
                         30.174591
@@ -526,14 +510,6 @@
                 "type": "LineString",
                 "coordinates": [
                     [
-                        -96.780119,
-                        27.859543
-                    ],
-                    [
-                        -96.780119,
-                        27.859543
-                    ],
-                    [
                         -96.67888,
                         28.007875
                     ],
@@ -759,55 +735,6 @@
         {
             "type": "Feature",
             "properties": {
-                "hex": "AE4E02",
-                "flight": "Unknown",
-                "type": "H60",
-                "description": "Sikorsky MH-60T Jayhawk",
-                "operator": "Unknown",
-                "altitude": 0,
-                "ground_speed": 73.0,
-                "track": 336.6,
-                "squawk": "N/A",
-                "rssi": -22.6,
-                "api_source": "https://opendata.adsb.fi/api/v2/hex/",
-                "last_seen": "2026-03-14T17:16:02.151978+00:00",
-                "nav_qnh": 0.0,
-                "nav_altitude_mcp": 0,
-                "category": "A7"
-            },
-            "geometry": {
-                "type": "LineString",
-                "coordinates": [
-                    [
-                        -70.542383,
-                        41.634925
-                    ],
-                    [
-                        -70.542383,
-                        41.634925
-                    ],
-                    [
-                        -70.57994,
-                        41.585114
-                    ],
-                    [
-                        -70.57994,
-                        41.585114
-                    ],
-                    [
-                        -70.612627,
-                        41.541183
-                    ],
-                    [
-                        -70.612627,
-                        41.541183
-                    ]
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
                 "hex": "AE2913",
                 "flight": "C6036   ",
                 "type": "H60",
@@ -898,6 +825,47 @@
                     [
                         -82.69458,
                         27.913269
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "hex": "AE4E02",
+                "flight": "Unknown",
+                "type": "H60",
+                "description": "Sikorsky MH-60T Jayhawk",
+                "operator": "Unknown",
+                "altitude": 0,
+                "ground_speed": 73.0,
+                "track": 336.6,
+                "squawk": "N/A",
+                "rssi": -22.6,
+                "api_source": "https://opendata.adsb.fi/api/v2/hex/",
+                "last_seen": "2026-03-14T17:16:02.151978+00:00",
+                "nav_qnh": 0.0,
+                "nav_altitude_mcp": 0,
+                "category": "A7"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -70.57994,
+                        41.585114
+                    ],
+                    [
+                        -70.57994,
+                        41.585114
+                    ],
+                    [
+                        -70.612627,
+                        41.541183
+                    ],
+                    [
+                        -70.612627,
+                        41.541183
                     ]
                 ]
             }
