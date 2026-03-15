@@ -782,18 +782,51 @@
         {
             "type": "Feature",
             "properties": {
+                "hex": "AC9AB0",
+                "flight": "N911DC  ",
+                "type": "Unknown",
+                "description": "Unknown",
+                "operator": "MAYOR AND CITY COUNCIL OF WASHINGTON DC",
+                "altitude": 800,
+                "ground_speed": 77.8,
+                "track": 64.09,
+                "squawk": "5164",
+                "rssi": -7.1,
+                "api_source": "https://api.airplanes.live/v2/hex/",
+                "last_seen": "2026-03-15T13:02:02.220668+00:00",
+                "nav_qnh": 0.0,
+                "nav_altitude_mcp": 0,
+                "category": "A7"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -76.978873,
+                        38.873199
+                    ],
+                    [
+                        -76.978455,
+                        38.873383
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
                 "hex": "AB00B8",
                 "flight": "TROY506 ",
                 "type": "DH8C",
                 "description": "DE HAVILLAND DHC-8-300 Dash 8",
                 "operator": "US DEPARTMENT OF HOMELAND SECURITY",
                 "altitude": 12500,
-                "ground_speed": 169.0,
-                "track": 359.0,
+                "ground_speed": 250.0,
+                "track": 180.0,
                 "squawk": "4406",
-                "rssi": -15.2,
+                "rssi": -12.7,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2026-03-15T13:00:02.647682+00:00",
+                "last_seen": "2026-03-15T13:02:02.220688+00:00",
                 "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
                 "category": "Unknown"
@@ -1248,6 +1281,14 @@
                     [
                         -117.569365,
                         32.522574
+                    ],
+                    [
+                        -117.615696,
+                        32.46486
+                    ],
+                    [
+                        -117.615931,
+                        32.464161
                     ]
                 ]
             }
