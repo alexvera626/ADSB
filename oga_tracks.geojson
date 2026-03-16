@@ -688,13 +688,13 @@
                 "type": "AS50",
                 "description": "AEROSPATIALE AS-350 Ecureuil",
                 "operator": "LAPD AIR SUPPORT DIVISION",
-                "altitude": 1150,
-                "ground_speed": 50.6,
-                "track": 37.78,
+                "altitude": 1225,
+                "ground_speed": 49.4,
+                "track": 144.06,
                 "squawk": "0242",
-                "rssi": -8.9,
+                "rssi": -6.3,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2026-03-16T11:12:02.295968+00:00",
+                "last_seen": "2026-03-16T11:14:02.334631+00:00",
                 "nav_qnh": 1016.0,
                 "nav_altitude_mcp": 0,
                 "category": "A7"
@@ -1289,6 +1289,43 @@
                     [
                         -118.408298,
                         34.222272
+                    ],
+                    [
+                        -118.411878,
+                        34.222092
+                    ],
+                    [
+                        -118.411617,
+                        34.221714
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "hex": "AA1DCC",
+                "flight": "N751AM  ",
+                "type": "AS50",
+                "description": "AEROSPATIALE AS-350 Ecureuil",
+                "operator": "US DEPARTMENT OF HOMELAND SECURITY, US CUSTOMS & BORDER PROTECTI",
+                "altitude": 2300,
+                "ground_speed": 110.7,
+                "track": 247.14,
+                "squawk": "1200",
+                "rssi": -30.5,
+                "api_source": "https://opendata.adsb.fi/api/v2/hex/",
+                "last_seen": "2026-03-16T11:14:02.333931+00:00",
+                "nav_qnh": 0.0,
+                "nav_altitude_mcp": 0,
+                "category": "A7"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -99.846127,
+                        28.756393
                     ]
                 ]
             }
