@@ -4,18 +4,18 @@
         {
             "type": "Feature",
             "properties": {
-                "hex": "A1F894",
-                "flight": "N226PD  ",
-                "type": "AS50",
-                "description": "AEROSPATIALE AS-350 Ecureuil",
-                "operator": "ANAHEIM POLICE DEPT",
-                "altitude": 2150,
-                "ground_speed": 91.7,
-                "track": 26.57,
-                "squawk": "4301",
-                "rssi": -6.8,
-                "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2026-03-16T23:54:01.931071+00:00",
+                "hex": "AC4597",
+                "flight": "REH46   ",
+                "type": "EC35",
+                "description": "AIRBUS HELICOPTERS EC-135/635",
+                "operator": "REACH AIR MEDICAL SERVICES LLC",
+                "altitude": 875,
+                "ground_speed": 76.2,
+                "track": 193.67,
+                "squawk": "1200",
+                "rssi": -34.4,
+                "api_source": "https://opendata.adsb.fi/api/v2/hex/",
+                "last_seen": "2026-03-16T20:12:02.369117+00:00",
                 "nav_qnh": 1013.6,
                 "nav_altitude_mcp": 0,
                 "category": "A7"
@@ -24,21 +24,62 @@
                 "type": "LineString",
                 "coordinates": [
                     [
-                        -117.894343,
-                        33.83551
+                        -155.69834,
+                        19.985413
                     ],
                     [
-                        -117.894343,
-                        33.83551
+                        -155.751826,
+                        19.960948
                     ],
                     [
-                        -117.897426,
-                        33.836655
+                        -155.820367,
+                        19.932999
                     ],
                     [
-                        -117.89765,
-                        33.836517
+                        -155.874423,
+                        19.898335
                     ],
+                    [
+                        -155.92611,
+                        19.858429
+                    ],
+                    [
+                        -155.977315,
+                        19.815536
+                    ],
+                    [
+                        -156.00993,
+                        19.786331
+                    ],
+                    [
+                        -156.023908,
+                        19.747604
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "hex": "A1F894",
+                "flight": "N226PD  ",
+                "type": "AS50",
+                "description": "AEROSPATIALE AS-350 Ecureuil",
+                "operator": "ANAHEIM POLICE DEPT",
+                "altitude": 2200,
+                "ground_speed": 88.8,
+                "track": 56.49,
+                "squawk": "4301",
+                "rssi": -11.6,
+                "api_source": "https://api.airplanes.live/v2/hex/",
+                "last_seen": "2026-03-16T23:56:02.652771+00:00",
+                "nav_qnh": 1013.6,
+                "nav_altitude_mcp": 0,
+                "category": "A7"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
                     [
                         -117.934028,
                         33.812988
@@ -378,6 +419,14 @@
                     [
                         -117.877979,
                         33.75824
+                    ],
+                    [
+                        -117.877864,
+                        33.74794
+                    ],
+                    [
+                        -117.877864,
+                        33.74794
                     ]
                 ]
             }
@@ -404,22 +453,6 @@
             "geometry": {
                 "type": "LineString",
                 "coordinates": [
-                    [
-                        -117.421436,
-                        32.84285
-                    ],
-                    [
-                        -117.421436,
-                        32.84285
-                    ],
-                    [
-                        -117.38942,
-                        32.776034
-                    ],
-                    [
-                        -117.389081,
-                        32.775467
-                    ],
                     [
                         -117.342004,
                         32.713806
@@ -725,22 +758,6 @@
             "geometry": {
                 "type": "LineString",
                 "coordinates": [
-                    [
-                        -117.140154,
-                        32.57288
-                    ],
-                    [
-                        -117.14035,
-                        32.573044
-                    ],
-                    [
-                        -117.163416,
-                        32.629674
-                    ],
-                    [
-                        -117.163416,
-                        32.629674
-                    ],
                     [
                         -117.205994,
                         32.686752
@@ -1120,63 +1137,6 @@
                     [
                         -117.202835,
                         32.7136
-                    ]
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "hex": "AC4597",
-                "flight": "REH46   ",
-                "type": "EC35",
-                "description": "AIRBUS HELICOPTERS EC-135/635",
-                "operator": "REACH AIR MEDICAL SERVICES LLC",
-                "altitude": 875,
-                "ground_speed": 76.2,
-                "track": 193.67,
-                "squawk": "1200",
-                "rssi": -34.4,
-                "api_source": "https://opendata.adsb.fi/api/v2/hex/",
-                "last_seen": "2026-03-16T20:12:02.369117+00:00",
-                "nav_qnh": 1013.6,
-                "nav_altitude_mcp": 0,
-                "category": "A7"
-            },
-            "geometry": {
-                "type": "LineString",
-                "coordinates": [
-                    [
-                        -155.69834,
-                        19.985413
-                    ],
-                    [
-                        -155.751826,
-                        19.960948
-                    ],
-                    [
-                        -155.820367,
-                        19.932999
-                    ],
-                    [
-                        -155.874423,
-                        19.898335
-                    ],
-                    [
-                        -155.92611,
-                        19.858429
-                    ],
-                    [
-                        -155.977315,
-                        19.815536
-                    ],
-                    [
-                        -156.00993,
-                        19.786331
-                    ],
-                    [
-                        -156.023908,
-                        19.747604
                     ]
                 ]
             }
@@ -2831,13 +2791,13 @@
                 "type": "AS50",
                 "description": "AEROSPATIALE AS-350 Ecureuil",
                 "operator": "REACH AIR MEDICAL SERVICES LLC",
-                "altitude": 475,
-                "ground_speed": 44.2,
-                "track": 5.19,
+                "altitude": 875,
+                "ground_speed": 105.1,
+                "track": 154.65,
                 "squawk": "1200",
-                "rssi": -13.7,
+                "rssi": -15.5,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2026-03-16T23:26:02.702474+00:00",
+                "last_seen": "2026-03-16T23:56:02.652806+00:00",
                 "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
                 "category": "A7"
@@ -2944,6 +2904,14 @@
                     [
                         -121.851257,
                         39.79006
+                    ],
+                    [
+                        -121.856628,
+                        39.786242
+                    ],
+                    [
+                        -121.856628,
+                        39.786242
                     ]
                 ]
             }
@@ -3319,13 +3287,13 @@
                 "type": "B752",
                 "description": "BOEING 757-200",
                 "operator": "UNITED STATES GOVERNMENT",
-                "altitude": 28275,
-                "ground_speed": 518.6,
-                "track": 85.47,
+                "altitude": 24725,
+                "ground_speed": 503.3,
+                "track": 85.9,
                 "squawk": "1523",
-                "rssi": -12.8,
+                "rssi": -16.6,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2026-03-16T23:54:01.931055+00:00",
+                "last_seen": "2026-03-16T23:56:02.652754+00:00",
                 "nav_qnh": 1013.6,
                 "nav_altitude_mcp": 0,
                 "category": "A4"
@@ -3668,6 +3636,14 @@
                     [
                         -80.147174,
                         37.842687
+                    ],
+                    [
+                        -79.781429,
+                        37.8647
+                    ],
+                    [
+                        -79.781429,
+                        37.8647
                     ]
                 ]
             }
@@ -3680,13 +3656,13 @@
                 "type": "Q9",
                 "description": "GENERAL ATOMICS MQ-9 Reaper",
                 "operator": "GENERAL ATOMICS AERONAUTICAL SYSTEMS INC",
-                "altitude": 7375,
-                "ground_speed": 139.2,
-                "track": 266.71,
+                "altitude": 7350,
+                "ground_speed": 143.1,
+                "track": 268.0,
                 "squawk": "5216",
-                "rssi": -8.5,
+                "rssi": -7.2,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2026-03-16T23:54:01.931086+00:00",
+                "last_seen": "2026-03-16T23:56:02.652789+00:00",
                 "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
                 "category": "B6"
@@ -3961,6 +3937,14 @@
                     [
                         -117.601891,
                         34.534219
+                    ],
+                    [
+                        -117.695961,
+                        34.531286
+                    ],
+                    [
+                        -117.695961,
+                        34.531286
                     ]
                 ]
             }
@@ -3973,13 +3957,13 @@
                 "type": "B752",
                 "description": "BOEING 757-200",
                 "operator": "UNITED STATES GOVERNMENT",
-                "altitude": 38725,
-                "ground_speed": 554.5,
-                "track": 79.93,
+                "altitude": 36100,
+                "ground_speed": 563.2,
+                "track": 80.19,
                 "squawk": "1644",
-                "rssi": -16.2,
+                "rssi": -15.4,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2026-03-16T23:54:01.931040+00:00",
+                "last_seen": "2026-03-16T23:56:02.652736+00:00",
                 "nav_qnh": 1013.6,
                 "nav_altitude_mcp": 0,
                 "category": "A4"
@@ -4226,6 +4210,14 @@
                     [
                         -82.140451,
                         36.878036
+                    ],
+                    [
+                        -81.759903,
+                        36.931595
+                    ],
+                    [
+                        -81.759903,
+                        36.931595
                     ]
                 ]
             }
