@@ -4,43 +4,6 @@
         {
             "type": "Feature",
             "properties": {
-                "hex": "AE10E8",
-                "flight": "C2002   ",
-                "type": "C30J",
-                "description": "Lockheed Martin HC-130J Hercules",
-                "operator": "Unknown",
-                "altitude": "ground",
-                "ground_speed": 0.0,
-                "track": 0.0,
-                "squawk": "2276",
-                "rssi": -22.1,
-                "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2026-03-17T04:50:02.847352+00:00",
-                "nav_qnh": 0.0,
-                "nav_altitude_mcp": 0,
-                "category": "A3"
-            },
-            "geometry": {
-                "type": "LineString",
-                "coordinates": [
-                    [
-                        -158.072993,
-                        21.302665
-                    ],
-                    [
-                        -158.073349,
-                        21.301454
-                    ],
-                    [
-                        -158.072497,
-                        21.301292
-                    ]
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
                 "hex": "AE10EB",
                 "flight": "C2005   ",
                 "type": "C30J",
@@ -60,14 +23,6 @@
             "geometry": {
                 "type": "LineString",
                 "coordinates": [
-                    [
-                        -151.489626,
-                        59.642029
-                    ],
-                    [
-                        -151.489626,
-                        59.642029
-                    ],
                     [
                         -151.420677,
                         59.648825
@@ -446,14 +401,6 @@
                 "type": "LineString",
                 "coordinates": [
                     [
-                        -152.411912,
-                        57.755676
-                    ],
-                    [
-                        -152.411912,
-                        57.755676
-                    ],
-                    [
                         -152.450542,
                         57.746246
                     ],
@@ -708,6 +655,35 @@
                     [
                         -152.50904,
                         57.737514
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "hex": "AE10E8",
+                "flight": "C2002   ",
+                "type": "C30J",
+                "description": "Lockheed Martin HC-130J Hercules",
+                "operator": "Unknown",
+                "altitude": "ground",
+                "ground_speed": 0.0,
+                "track": 0.0,
+                "squawk": "2276",
+                "rssi": -22.1,
+                "api_source": "https://api.airplanes.live/v2/hex/",
+                "last_seen": "2026-03-17T04:50:02.847352+00:00",
+                "nav_qnh": 0.0,
+                "nav_altitude_mcp": 0,
+                "category": "A3"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -158.072497,
+                        21.301292
                     ]
                 ]
             }
