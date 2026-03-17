@@ -127,13 +127,13 @@
                 "type": "AS65",
                 "description": "Eurocopter MH-65D Dolphin",
                 "operator": "Unknown",
-                "altitude": 675,
-                "ground_speed": 87.7,
-                "track": 57.58,
+                "altitude": 0,
+                "ground_speed": 88.1,
+                "track": 26.27,
                 "squawk": "1200",
-                "rssi": -33.8,
+                "rssi": -31.9,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2026-03-17T13:02:02.535018+00:00",
+                "last_seen": "2026-03-17T13:04:02.702858+00:00",
                 "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
                 "category": "A7"
@@ -180,6 +180,35 @@
                     [
                         -80.75422,
                         32.137291
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "hex": "AE2919",
+                "flight": "Unknown",
+                "type": "H60",
+                "description": "Sikorsky MH-60T Jayhawk",
+                "operator": "Unknown",
+                "altitude": "ground",
+                "ground_speed": 6.2,
+                "track": 357.19,
+                "squawk": "N/A",
+                "rssi": -49.5,
+                "api_source": "https://api.airplanes.live/v2/hex/",
+                "last_seen": "2026-03-17T13:04:02.702895+00:00",
+                "nav_qnh": 0.0,
+                "nav_altitude_mcp": 0,
+                "category": "Unknown"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -82.691034,
+                        27.916111
                     ]
                 ]
             }
