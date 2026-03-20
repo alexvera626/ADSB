@@ -10,12 +10,12 @@
                 "description": "DE HAVILLAND DHC-8-300 Dash 8",
                 "operator": "US DEPARTMENT OF HOMELAND SECURITY",
                 "altitude": 24000,
-                "ground_speed": 260.8,
-                "track": 219.24,
+                "ground_speed": 259.4,
+                "track": 219.21,
                 "squawk": "1511",
-                "rssi": -13.4,
+                "rssi": -11.1,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2026-03-20T18:50:02.107002+00:00",
+                "last_seen": "2026-03-20T18:52:02.245822+00:00",
                 "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
                 "category": "Unknown"
@@ -23,22 +23,6 @@
             "geometry": {
                 "type": "LineString",
                 "coordinates": [
-                    [
-                        -77.969534,
-                        40.92654
-                    ],
-                    [
-                        -77.969534,
-                        40.92654
-                    ],
-                    [
-                        -78.10499,
-                        40.84512
-                    ],
-                    [
-                        -78.105927,
-                        40.844561
-                    ],
                     [
                         -78.245422,
                         40.757263
@@ -674,6 +658,14 @@
                     [
                         -87.923823,
                         37.094406
+                    ],
+                    [
+                        -88.036837,
+                        36.984009
+                    ],
+                    [
+                        -88.037596,
+                        36.983231
                     ]
                 ]
             }
@@ -700,14 +692,6 @@
             "geometry": {
                 "type": "LineString",
                 "coordinates": [
-                    [
-                        -99.853786,
-                        28.523849
-                    ],
-                    [
-                        -99.865089,
-                        28.532913
-                    ],
                     [
                         -99.856352,
                         28.538105
@@ -958,59 +942,6 @@
         {
             "type": "Feature",
             "properties": {
-                "hex": "A7A9D4",
-                "flight": "N593PC  ",
-                "type": "PC12",
-                "description": "PILATUS PC-12",
-                "operator": "US DEPARTMENT OF HOMELAND SECURITY, US CUSTOMS & BORDER PROTECTI",
-                "altitude": "ground",
-                "ground_speed": 0.0,
-                "track": 0.0,
-                "squawk": "N/A",
-                "rssi": -16.2,
-                "api_source": "https://opendata.adsb.fi/api/v2/hex/",
-                "last_seen": "2026-03-20T15:32:02.098195+00:00",
-                "nav_qnh": 0.0,
-                "nav_altitude_mcp": 0,
-                "category": "A1"
-            },
-            "geometry": {
-                "type": "LineString",
-                "coordinates": [
-                    [
-                        -106.392178,
-                        31.794983
-                    ],
-                    [
-                        -106.392204,
-                        31.794992
-                    ],
-                    [
-                        -106.39219,
-                        31.795004
-                    ],
-                    [
-                        -106.392192,
-                        31.795006
-                    ],
-                    [
-                        -106.39219,
-                        31.795004
-                    ],
-                    [
-                        -106.39219,
-                        31.795004
-                    ],
-                    [
-                        -106.392192,
-                        31.795006
-                    ]
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
                 "hex": "A24B98",
                 "flight": "N247SH  ",
                 "type": "Unknown",
@@ -1030,22 +961,6 @@
             "geometry": {
                 "type": "LineString",
                 "coordinates": [
-                    [
-                        -116.039616,
-                        34.94957
-                    ],
-                    [
-                        -116.039616,
-                        34.94957
-                    ],
-                    [
-                        -116.20348,
-                        34.890809
-                    ],
-                    [
-                        -116.204915,
-                        34.890244
-                    ],
                     [
                         -116.36158,
                         34.833643
@@ -1599,22 +1514,6 @@
             "geometry": {
                 "type": "LineString",
                 "coordinates": [
-                    [
-                        -82.08532,
-                        30.080246
-                    ],
-                    [
-                        -82.08532,
-                        30.080246
-                    ],
-                    [
-                        -82.207624,
-                        30.059875
-                    ],
-                    [
-                        -82.208661,
-                        30.059711
-                    ],
                     [
                         -82.347418,
                         30.074375
@@ -2660,6 +2559,59 @@
         {
             "type": "Feature",
             "properties": {
+                "hex": "A7A9D4",
+                "flight": "N593PC  ",
+                "type": "PC12",
+                "description": "PILATUS PC-12",
+                "operator": "US DEPARTMENT OF HOMELAND SECURITY, US CUSTOMS & BORDER PROTECTI",
+                "altitude": "ground",
+                "ground_speed": 0.0,
+                "track": 0.0,
+                "squawk": "N/A",
+                "rssi": -16.2,
+                "api_source": "https://opendata.adsb.fi/api/v2/hex/",
+                "last_seen": "2026-03-20T15:32:02.098195+00:00",
+                "nav_qnh": 0.0,
+                "nav_altitude_mcp": 0,
+                "category": "A1"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -106.392178,
+                        31.794983
+                    ],
+                    [
+                        -106.392204,
+                        31.794992
+                    ],
+                    [
+                        -106.39219,
+                        31.795004
+                    ],
+                    [
+                        -106.392192,
+                        31.795006
+                    ],
+                    [
+                        -106.39219,
+                        31.795004
+                    ],
+                    [
+                        -106.39219,
+                        31.795004
+                    ],
+                    [
+                        -106.392192,
+                        31.795006
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
                 "hex": "A4CE5C",
                 "flight": "N409DA  ",
                 "type": "PC12",
@@ -3215,12 +3167,12 @@
                 "description": "DE HAVILLAND DHC-8-300 Dash 8",
                 "operator": "US DEPARTMENT OF HOMELAND SECURITY",
                 "altitude": 22000,
-                "ground_speed": 246.2,
-                "track": 272.1,
+                "ground_speed": 248.2,
+                "track": 272.08,
                 "squawk": "4046",
-                "rssi": -7.4,
+                "rssi": -8.9,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2026-03-20T18:50:02.106985+00:00",
+                "last_seen": "2026-03-20T18:52:02.245759+00:00",
                 "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
                 "category": "A2"
@@ -3987,6 +3939,14 @@
                     [
                         -110.256995,
                         32.076307
+                    ],
+                    [
+                        -110.416663,
+                        32.081131
+                    ],
+                    [
+                        -110.417867,
+                        32.081195
                     ]
                 ]
             }
@@ -5259,12 +5219,12 @@
                 "description": "SIKORSKY UH-60 Black Hawk",
                 "operator": "Unknown",
                 "altitude": "ground",
-                "ground_speed": 0.6,
+                "ground_speed": 4.8,
                 "track": 0.0,
                 "squawk": "1200",
-                "rssi": -10.3,
+                "rssi": -14.3,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2026-03-20T18:14:02.805790+00:00",
+                "last_seen": "2026-03-20T18:52:02.245875+00:00",
                 "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
                 "category": "A7"
@@ -5619,6 +5579,14 @@
                     [
                         -117.213368,
                         32.709263
+                    ],
+                    [
+                        -117.210977,
+                        32.704763
+                    ],
+                    [
+                        -117.210992,
+                        32.704742
                     ]
                 ]
             }
@@ -7627,13 +7595,13 @@
                 "type": "Unknown",
                 "description": "Unknown",
                 "operator": "Unknown",
-                "altitude": 975,
-                "ground_speed": 84.0,
-                "track": 358.64,
+                "altitude": 1025,
+                "ground_speed": 105.4,
+                "track": 189.28,
                 "squawk": "1200",
-                "rssi": -20.0,
+                "rssi": -21.4,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2026-03-20T18:50:02.107018+00:00",
+                "last_seen": "2026-03-20T18:52:02.245842+00:00",
                 "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
                 "category": "A7"
@@ -7848,6 +7816,14 @@
                     [
                         -117.764154,
                         33.039139
+                    ],
+                    [
+                        -117.752137,
+                        33.011914
+                    ],
+                    [
+                        -117.752344,
+                        33.010941
                     ]
                 ]
             }
@@ -7861,12 +7837,12 @@
                 "description": "Sikorsky MH-60S Seahawk",
                 "operator": "Unknown",
                 "altitude": 1025,
-                "ground_speed": 102.2,
-                "track": 159.97,
+                "ground_speed": 126.5,
+                "track": 160.13,
                 "squawk": "1200",
-                "rssi": -16.1,
+                "rssi": -9.1,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2026-03-20T18:50:02.107034+00:00",
+                "last_seen": "2026-03-20T18:52:02.245858+00:00",
                 "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
                 "category": "A7"
@@ -8041,6 +8017,14 @@
                     [
                         -117.547825,
                         32.900654
+                    ],
+                    [
+                        -117.523224,
+                        32.843811
+                    ],
+                    [
+                        -117.523059,
+                        32.843399
                     ]
                 ]
             }
