@@ -9,13 +9,13 @@
                 "type": "Unknown",
                 "description": "Unknown",
                 "operator": "US GOVERNMENT",
-                "altitude": 14925,
-                "ground_speed": 245.8,
-                "track": 246.25,
+                "altitude": 11900,
+                "ground_speed": 253.8,
+                "track": 246.06,
                 "squawk": "1454",
-                "rssi": -9.5,
+                "rssi": -16.1,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2026-03-20T15:00:02.236993+00:00",
+                "last_seen": "2026-03-20T15:02:02.498705+00:00",
                 "nav_qnh": 1016.8,
                 "nav_altitude_mcp": 12000,
                 "category": "A1"
@@ -506,6 +506,14 @@
                     [
                         -116.829174,
                         34.665024
+                    ],
+                    [
+                        -116.986009,
+                        34.60817
+                    ],
+                    [
+                        -116.986514,
+                        34.607986
                     ]
                 ]
             }
@@ -572,12 +580,12 @@
                 "description": "DE HAVILLAND DHC-8-300 Dash 8",
                 "operator": "US DEPARTMENT OF HOMELAND SECURITY",
                 "altitude": 24000,
-                "ground_speed": 247.0,
-                "track": 229.93,
+                "ground_speed": 251.2,
+                "track": 229.84,
                 "squawk": "1372",
-                "rssi": -11.0,
+                "rssi": -10.7,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2026-03-20T15:00:02.236975+00:00",
+                "last_seen": "2026-03-20T15:02:02.498688+00:00",
                 "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
                 "category": "Unknown"
@@ -1176,6 +1184,14 @@
                     [
                         -78.661423,
                         40.492114
+                    ],
+                    [
+                        -78.801025,
+                        40.402542
+                    ],
+                    [
+                        -78.801025,
+                        40.402542
                     ]
                 ]
             }
@@ -1184,20 +1200,20 @@
             "type": "Feature",
             "properties": {
                 "hex": "A4981E",
-                "flight": "N3953A  ",
+                "flight": "Unknown",
                 "type": "AS50",
                 "description": "AEROSPATIALE AS-350 Ecureuil",
                 "operator": "US DEPARTMENT OF HOMELAND SECURITY, US CUSTOMS & BORDER PROTECTI",
-                "altitude": 2000,
-                "ground_speed": 102.1,
-                "track": 165.83,
-                "squawk": "N/A",
+                "altitude": 4500,
+                "ground_speed": 0.0,
+                "track": 0.0,
+                "squawk": "1200",
                 "rssi": -33.6,
                 "api_source": "https://opendata.adsb.fi/api/v2/hex/",
-                "last_seen": "2026-03-20T14:22:02.750091+00:00",
+                "last_seen": "2026-03-20T15:02:02.498346+00:00",
                 "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
-                "category": "A7"
+                "category": "Unknown"
             },
             "geometry": {
                 "type": "LineString",
@@ -1434,15 +1450,15 @@
                 "type": "BE30",
                 "description": "BEECH 300 Super King Air",
                 "operator": "DEPARTMENT OF HOMELAND SECURITY",
-                "altitude": 2700,
-                "ground_speed": 174.7,
-                "track": 303.33,
+                "altitude": 1775,
+                "ground_speed": 197.0,
+                "track": 302.1,
                 "squawk": "4406",
-                "rssi": -26.6,
+                "rssi": -49.5,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2026-03-20T15:00:02.237009+00:00",
-                "nav_qnh": 1024.0,
-                "nav_altitude_mcp": 2016,
+                "last_seen": "2026-03-20T15:02:02.498722+00:00",
+                "nav_qnh": 0.0,
+                "nav_altitude_mcp": 0,
                 "category": "A2"
             },
             "geometry": {
@@ -1623,6 +1639,10 @@
                     [
                         -82.708539,
                         30.164035
+                    ],
+                    [
+                        -82.775284,
+                        30.202812
                     ]
                 ]
             }
@@ -1636,12 +1656,12 @@
                 "description": "AEROSPATIALE AS-350 Ecureuil",
                 "operator": "US DEPARTMENT OF HOMELAND SECURITY, US CUSTOMS & BORDER PROTECTI",
                 "altitude": 0,
-                "ground_speed": 69.8,
-                "track": 330.87,
+                "ground_speed": 80.3,
+                "track": 346.31,
                 "squawk": "1200",
-                "rssi": -2.1,
+                "rssi": -1.9,
                 "api_source": "https://opendata.adsb.fi/api/v2/hex/",
-                "last_seen": "2026-03-20T15:00:02.235319+00:00",
+                "last_seen": "2026-03-20T15:02:02.498306+00:00",
                 "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
                 "category": "A7"
@@ -1708,6 +1728,43 @@
                     [
                         -99.865987,
                         28.526413
+                    ],
+                    [
+                        -99.861973,
+                        28.526779
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "hex": "AE278C",
+                "flight": "LS10    ",
+                "type": "H60",
+                "description": "SIKORSKY UH-60 Black Hawk",
+                "operator": "Unknown",
+                "altitude": "ground",
+                "ground_speed": 8.8,
+                "track": 270.0,
+                "squawk": "1200",
+                "rssi": -14.6,
+                "api_source": "https://api.airplanes.live/v2/hex/",
+                "last_seen": "2026-03-20T15:02:02.498759+00:00",
+                "nav_qnh": 0.0,
+                "nav_altitude_mcp": 0,
+                "category": "A7"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -117.203755,
+                        32.713749
+                    ],
+                    [
+                        -117.203755,
+                        32.713749
                     ]
                 ]
             }
