@@ -24,14 +24,6 @@
                 "type": "LineString",
                 "coordinates": [
                     [
-                        -118.489336,
-                        32.832962
-                    ],
-                    [
-                        -118.487874,
-                        32.832196
-                    ],
-                    [
                         -118.380918,
                         32.76916
                     ],
@@ -145,87 +137,6 @@
         {
             "type": "Feature",
             "properties": {
-                "hex": "AA7D46",
-                "flight": "N775TC  ",
-                "type": "AS50",
-                "description": "AEROSPATIALE AS-350 Ecureuil",
-                "operator": "US DEPARTMENT OF HOMELAND SECURITY, US CUSTOMS & BORDER PROTECTI",
-                "altitude": 0,
-                "ground_speed": 0.0,
-                "track": 0.0,
-                "squawk": "N/A",
-                "rssi": -30.8,
-                "api_source": "https://opendata.adsb.fi/api/v2/hex/",
-                "last_seen": "2026-03-21T16:50:02.434882+00:00",
-                "nav_qnh": 0.0,
-                "nav_altitude_mcp": 0,
-                "category": "A7"
-            },
-            "geometry": {
-                "type": "LineString",
-                "coordinates": [
-                    [
-                        -100.010484,
-                        28.626321
-                    ],
-                    [
-                        -100.096224,
-                        28.626343
-                    ],
-                    [
-                        -99.978174,
-                        28.506409
-                    ],
-                    [
-                        -99.937726,
-                        28.518599
-                    ],
-                    [
-                        -99.898035,
-                        28.528794
-                    ],
-                    [
-                        -99.855598,
-                        28.527398
-                    ],
-                    [
-                        -99.817763,
-                        28.540741
-                    ],
-                    [
-                        -99.779879,
-                        28.550441
-                    ],
-                    [
-                        -99.763941,
-                        28.549667
-                    ],
-                    [
-                        -99.79652,
-                        28.550906
-                    ],
-                    [
-                        -99.825792,
-                        28.535431
-                    ],
-                    [
-                        -99.824309,
-                        28.527072
-                    ],
-                    [
-                        -99.839011,
-                        28.485082
-                    ],
-                    [
-                        -99.840792,
-                        28.439301
-                    ]
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
                 "hex": "A4C246",
                 "flight": "N4055L  ",
                 "type": "AS50",
@@ -245,10 +156,6 @@
             "geometry": {
                 "type": "LineString",
                 "coordinates": [
-                    [
-                        -99.984248,
-                        28.397324
-                    ],
                     [
                         -99.959265,
                         28.424103
@@ -324,6 +231,83 @@
                     [
                         -99.832711,
                         28.799469
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "hex": "AA7D46",
+                "flight": "N775TC  ",
+                "type": "AS50",
+                "description": "AEROSPATIALE AS-350 Ecureuil",
+                "operator": "US DEPARTMENT OF HOMELAND SECURITY, US CUSTOMS & BORDER PROTECTI",
+                "altitude": 0,
+                "ground_speed": 0.0,
+                "track": 0.0,
+                "squawk": "N/A",
+                "rssi": -30.8,
+                "api_source": "https://opendata.adsb.fi/api/v2/hex/",
+                "last_seen": "2026-03-21T16:50:02.434882+00:00",
+                "nav_qnh": 0.0,
+                "nav_altitude_mcp": 0,
+                "category": "A7"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -100.096224,
+                        28.626343
+                    ],
+                    [
+                        -99.978174,
+                        28.506409
+                    ],
+                    [
+                        -99.937726,
+                        28.518599
+                    ],
+                    [
+                        -99.898035,
+                        28.528794
+                    ],
+                    [
+                        -99.855598,
+                        28.527398
+                    ],
+                    [
+                        -99.817763,
+                        28.540741
+                    ],
+                    [
+                        -99.779879,
+                        28.550441
+                    ],
+                    [
+                        -99.763941,
+                        28.549667
+                    ],
+                    [
+                        -99.79652,
+                        28.550906
+                    ],
+                    [
+                        -99.825792,
+                        28.535431
+                    ],
+                    [
+                        -99.824309,
+                        28.527072
+                    ],
+                    [
+                        -99.839011,
+                        28.485082
+                    ],
+                    [
+                        -99.840792,
+                        28.439301
                     ]
                 ]
             }
@@ -1800,13 +1784,13 @@
                 "type": "UH1",
                 "description": "BELL UH-1 Huey",
                 "operator": "ORANGE COUNTY SHERIFFS DEPARTMENT",
-                "altitude": 700,
-                "ground_speed": 39.0,
-                "track": 112.62,
+                "altitude": "ground",
+                "ground_speed": 10.2,
+                "track": 140.62,
                 "squawk": "N/A",
-                "rssi": -3.0,
+                "rssi": 0.0,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2026-03-21T19:10:02.142449+00:00",
+                "last_seen": "2026-03-21T19:12:02.664719+00:00",
                 "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
                 "category": "A7"
@@ -1977,6 +1961,14 @@
                     [
                         -117.768574,
                         33.592002
+                    ],
+                    [
+                        -117.772022,
+                        33.593616
+                    ],
+                    [
+                        -117.772022,
+                        33.593616
                     ]
                 ]
             }
