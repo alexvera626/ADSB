@@ -24,14 +24,6 @@
                 "type": "LineString",
                 "coordinates": [
                     [
-                        -78.514729,
-                        37.773926
-                    ],
-                    [
-                        -78.5126,
-                        37.773463
-                    ],
-                    [
                         -78.258187,
                         37.718903
                     ],
@@ -102,28 +94,20 @@
                 "type": "B407",
                 "description": "BELL 407",
                 "operator": "SAN DIEGO COUNTY SHERIFF DEPARTMENT",
-                "altitude": 1975,
-                "ground_speed": 70.0,
-                "track": 239.04,
-                "squawk": "4266",
-                "rssi": -14.4,
+                "altitude": 1500,
+                "ground_speed": 0.7,
+                "track": 0.0,
+                "squawk": "N/A",
+                "rssi": -12.6,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2026-03-22T22:38:03.052412+00:00",
-                "nav_qnh": 1012.8,
+                "last_seen": "2026-03-22T22:40:02.655362+00:00",
+                "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
                 "category": "A7"
             },
             "geometry": {
                 "type": "LineString",
                 "coordinates": [
-                    [
-                        -116.826306,
-                        32.919434
-                    ],
-                    [
-                        -116.826371,
-                        32.919182
-                    ],
                     [
                         -116.825427,
                         32.900894
@@ -523,6 +507,14 @@
                     [
                         -116.878107,
                         32.918335
+                    ],
+                    [
+                        -116.88728,
+                        32.912659
+                    ],
+                    [
+                        -116.88728,
+                        32.912659
                     ]
                 ]
             }
@@ -825,13 +817,13 @@
                 "type": "A139",
                 "description": "AGUSTA AW-139",
                 "operator": "CITY OF LOS ANGELES",
-                "altitude": 1375,
-                "ground_speed": 80.3,
-                "track": 355.0,
+                "altitude": 1925,
+                "ground_speed": 112.8,
+                "track": 349.79,
                 "squawk": "1200",
-                "rssi": -4.7,
+                "rssi": -2.7,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2026-03-22T22:38:03.052375+00:00",
+                "last_seen": "2026-03-22T22:40:02.655328+00:00",
                 "nav_qnh": 1012.0,
                 "nav_altitude_mcp": 1312,
                 "category": "A7"
@@ -1262,6 +1254,14 @@
                     [
                         -118.557054,
                         34.071716
+                    ],
+                    [
+                        -118.57387,
+                        34.130539
+                    ],
+                    [
+                        -118.573926,
+                        34.130768
                     ]
                 ]
             }
@@ -1926,13 +1926,13 @@
                 "type": "AS50",
                 "description": "AEROSPATIALE AS-350 Ecureuil",
                 "operator": "CITY OF ONTARIO",
-                "altitude": 1825,
-                "ground_speed": 82.3,
-                "track": 49.93,
+                "altitude": 1700,
+                "ground_speed": 80.8,
+                "track": 301.33,
                 "squawk": "4274",
-                "rssi": -11.7,
+                "rssi": -15.3,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2026-03-22T22:38:03.052429+00:00",
+                "last_seen": "2026-03-22T22:40:02.655378+00:00",
                 "nav_qnh": 1012.0,
                 "nav_altitude_mcp": 8512,
                 "category": "A7"
@@ -2235,6 +2235,14 @@
                     [
                         -117.546312,
                         34.070435
+                    ],
+                    [
+                        -117.567787,
+                        34.073119
+                    ],
+                    [
+                        -117.567787,
+                        34.073119
                     ]
                 ]
             }
@@ -2288,13 +2296,13 @@
                 "type": "AS50",
                 "description": "AEROSPATIALE AS-350 Ecureuil",
                 "operator": "ANAHEIM POLICE DEPT",
-                "altitude": 1175,
-                "ground_speed": 53.2,
-                "track": 94.32,
+                "altitude": 1025,
+                "ground_speed": 64.0,
+                "track": 88.21,
                 "squawk": "4301",
-                "rssi": -6.4,
+                "rssi": -9.2,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2026-03-22T22:38:03.052395+00:00",
+                "last_seen": "2026-03-22T22:40:02.655345+00:00",
                 "nav_qnh": 1013.6,
                 "nav_altitude_mcp": 0,
                 "category": "A7"
@@ -2321,6 +2329,43 @@
                     [
                         -117.964668,
                         33.85316
+                    ],
+                    [
+                        -117.923698,
+                        33.851949
+                    ],
+                    [
+                        -117.923698,
+                        33.851949
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "hex": "A3524F",
+                "flight": "N313DP  ",
+                "type": "B407",
+                "description": "BELL 407",
+                "operator": "SAN DIEGO COUNTY SHERIFF DEPT",
+                "altitude": "ground",
+                "ground_speed": 0.0,
+                "track": 0.0,
+                "squawk": "4267",
+                "rssi": -22.0,
+                "api_source": "https://opendata.adsb.fi/api/v2/hex/",
+                "last_seen": "2026-03-22T22:40:02.655178+00:00",
+                "nav_qnh": 0.0,
+                "nav_altitude_mcp": 0,
+                "category": "A7"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -116.973538,
+                        32.81899
                     ]
                 ]
             }
