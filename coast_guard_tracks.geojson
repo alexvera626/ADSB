@@ -24,14 +24,6 @@
                 "type": "LineString",
                 "coordinates": [
                     [
-                        -82.65152,
-                        11.809341
-                    ],
-                    [
-                        -82.65152,
-                        11.809341
-                    ],
-                    [
                         -82.806512,
                         11.518616
                     ],
@@ -164,22 +156,6 @@
             "geometry": {
                 "type": "LineString",
                 "coordinates": [
-                    [
-                        -158.071813,
-                        21.300602
-                    ],
-                    [
-                        -158.07181,
-                        21.300605
-                    ],
-                    [
-                        -158.071813,
-                        21.300602
-                    ],
-                    [
-                        -158.071813,
-                        21.300602
-                    ],
                     [
                         -158.071813,
                         21.300602
@@ -506,22 +482,6 @@
                 "type": "LineString",
                 "coordinates": [
                     [
-                        -151.026398,
-                        59.875305
-                    ],
-                    [
-                        -151.028412,
-                        59.872101
-                    ],
-                    [
-                        -151.135529,
-                        59.698242
-                    ],
-                    [
-                        -151.135895,
-                        59.697556
-                    ],
-                    [
                         -151.244568,
                         59.518845
                     ],
@@ -671,47 +631,6 @@
         {
             "type": "Feature",
             "properties": {
-                "hex": "AE4DFF",
-                "flight": "Unknown",
-                "type": "H60",
-                "description": "Sikorsky MH-60T Jayhawk",
-                "operator": "Unknown",
-                "altitude": 950,
-                "ground_speed": 110.4,
-                "track": 146.45,
-                "squawk": "N/A",
-                "rssi": -10.2,
-                "api_source": "https://opendata.adsb.fi/api/v2/hex/",
-                "last_seen": "2026-03-22T19:18:02.577166+00:00",
-                "nav_qnh": 0.0,
-                "nav_altitude_mcp": 0,
-                "category": "A7"
-            },
-            "geometry": {
-                "type": "LineString",
-                "coordinates": [
-                    [
-                        -85.593076,
-                        44.66245
-                    ],
-                    [
-                        -85.58742,
-                        44.717468
-                    ],
-                    [
-                        -85.581142,
-                        44.758118
-                    ],
-                    [
-                        -85.576395,
-                        44.748571
-                    ]
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
                 "hex": "AE2699",
                 "flight": "C6567   ",
                 "type": "AS65",
@@ -826,6 +745,39 @@
                     [
                         -122.389624,
                         37.632065
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "hex": "AE4DFF",
+                "flight": "Unknown",
+                "type": "H60",
+                "description": "Sikorsky MH-60T Jayhawk",
+                "operator": "Unknown",
+                "altitude": 950,
+                "ground_speed": 110.4,
+                "track": 146.45,
+                "squawk": "N/A",
+                "rssi": -10.2,
+                "api_source": "https://opendata.adsb.fi/api/v2/hex/",
+                "last_seen": "2026-03-22T19:18:02.577166+00:00",
+                "nav_qnh": 0.0,
+                "nav_altitude_mcp": 0,
+                "category": "A7"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -85.581142,
+                        44.758118
+                    ],
+                    [
+                        -85.576395,
+                        44.748571
                     ]
                 ]
             }
