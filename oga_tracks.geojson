@@ -24,14 +24,6 @@
                 "type": "LineString",
                 "coordinates": [
                     [
-                        -117.734649,
-                        33.782593
-                    ],
-                    [
-                        -117.734649,
-                        33.782593
-                    ],
-                    [
                         -117.718105,
                         33.839008
                     ],
@@ -104,14 +96,6 @@
             "geometry": {
                 "type": "LineString",
                 "coordinates": [
-                    [
-                        -118.041115,
-                        33.801906
-                    ],
-                    [
-                        -118.041115,
-                        33.801906
-                    ],
                     [
                         -117.994285,
                         33.809097
@@ -634,18 +618,18 @@
         {
             "type": "Feature",
             "properties": {
-                "hex": "A7FB70",
-                "flight": "REH80   ",
-                "type": "AS50",
-                "description": "AEROSPATIALE AS-350 Ecureuil",
+                "hex": "A38627",
+                "flight": "REH81   ",
+                "type": "EC35",
+                "description": "AIRBUS HELICOPTERS EC-135/635",
                 "operator": "REACH AIR MEDICAL SERVICES LLC",
-                "altitude": 5575,
-                "ground_speed": 114.8,
-                "track": 131.47,
+                "altitude": "ground",
+                "ground_speed": 0.1,
+                "track": 288.43,
                 "squawk": "1200",
-                "rssi": -21.6,
-                "api_source": "https://opendata.adsb.fi/api/v2/hex/",
-                "last_seen": "2026-03-22T06:08:02.823879+00:00",
+                "rssi": -21.8,
+                "api_source": "https://api.airplanes.live/v2/hex/",
+                "last_seen": "2026-03-22T02:12:02.193402+00:00",
                 "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
                 "category": "A7"
@@ -654,13 +638,38 @@
                 "type": "LineString",
                 "coordinates": [
                     [
-                        -121.852478,
-                        39.775908
+                        -116.269855,
+                        33.744344
                     ],
                     [
-                        -121.852478,
-                        39.775908
-                    ],
+                        -116.269855,
+                        33.744344
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "hex": "A7FB70",
+                "flight": "REH80   ",
+                "type": "AS50",
+                "description": "AEROSPATIALE AS-350 Ecureuil",
+                "operator": "REACH AIR MEDICAL SERVICES LLC",
+                "altitude": 5575,
+                "ground_speed": 115.5,
+                "track": 131.14,
+                "squawk": "1200",
+                "rssi": -22.1,
+                "api_source": "https://opendata.adsb.fi/api/v2/hex/",
+                "last_seen": "2026-03-22T06:10:02.705117+00:00",
+                "nav_qnh": 0.0,
+                "nav_altitude_mcp": 0,
+                "category": "A7"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
                     [
                         -121.851455,
                         39.698456
@@ -812,47 +821,10 @@
                     [
                         -123.228455,
                         39.052533
-                    ]
-                ]
-            }
-        },
-        {
-            "type": "Feature",
-            "properties": {
-                "hex": "A38627",
-                "flight": "REH81   ",
-                "type": "EC35",
-                "description": "AIRBUS HELICOPTERS EC-135/635",
-                "operator": "REACH AIR MEDICAL SERVICES LLC",
-                "altitude": "ground",
-                "ground_speed": 0.1,
-                "track": 288.43,
-                "squawk": "1200",
-                "rssi": -21.8,
-                "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2026-03-22T02:12:02.193402+00:00",
-                "nav_qnh": 0.0,
-                "nav_altitude_mcp": 0,
-                "category": "A7"
-            },
-            "geometry": {
-                "type": "LineString",
-                "coordinates": [
-                    [
-                        -116.266479,
-                        33.742319
                     ],
                     [
-                        -116.266479,
-                        33.742319
-                    ],
-                    [
-                        -116.269855,
-                        33.744344
-                    ],
-                    [
-                        -116.269855,
-                        33.744344
+                        -123.16653,
+                        39.010895
                     ]
                 ]
             }
@@ -865,13 +837,13 @@
                 "type": "AS50",
                 "description": "AEROSPATIALE AS-350 Ecureuil",
                 "operator": "TINY BUBBLES AVIATION INC",
-                "altitude": 1850,
-                "ground_speed": 90.1,
-                "track": 86.82,
+                "altitude": 1600,
+                "ground_speed": 71.7,
+                "track": 81.98,
                 "squawk": "1200",
-                "rssi": -6.4,
+                "rssi": -6.7,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2026-03-22T06:08:02.824095+00:00",
+                "last_seen": "2026-03-22T06:10:02.705304+00:00",
                 "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
                 "category": "A7"
@@ -1210,6 +1182,14 @@
                     [
                         -118.518378,
                         34.267731
+                    ],
+                    [
+                        -118.45431,
+                        34.266174
+                    ],
+                    [
+                        -118.45431,
+                        34.266174
                     ]
                 ]
             }
@@ -1222,13 +1202,13 @@
                 "type": "B06",
                 "description": "BELL 206 JetRanger",
                 "operator": "PASADENA POLICE DEPARTMENT",
-                "altitude": 1700,
-                "ground_speed": 82.0,
-                "track": 105.56,
+                "altitude": 1000,
+                "ground_speed": 70.3,
+                "track": 165.17,
                 "squawk": "1200",
-                "rssi": -12.2,
+                "rssi": -5.4,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2026-03-22T06:08:02.824029+00:00",
+                "last_seen": "2026-03-22T06:10:02.705287+00:00",
                 "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
                 "category": "A7"
@@ -1655,6 +1635,14 @@
                     [
                         -118.077393,
                         34.126328
+                    ],
+                    [
+                        -118.026524,
+                        34.101981
+                    ],
+                    [
+                        -118.026524,
+                        34.101981
                     ]
                 ]
             }
