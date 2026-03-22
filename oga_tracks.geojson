@@ -1199,13 +1199,13 @@
                 "type": "AS50",
                 "description": "AEROSPATIALE AS-350 Ecureuil",
                 "operator": "CITY OF ONTARIO",
-                "altitude": 1775,
-                "ground_speed": 71.0,
-                "track": 260.27,
+                "altitude": 1800,
+                "ground_speed": 81.2,
+                "track": 356.47,
                 "squawk": "4274",
-                "rssi": -14.3,
+                "rssi": -21.5,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2026-03-22T00:00:02.873085+00:00",
+                "last_seen": "2026-03-22T00:02:01.952209+00:00",
                 "nav_qnh": 1012.0,
                 "nav_altitude_mcp": 8512,
                 "category": "A7"
@@ -1460,6 +1460,14 @@
                     [
                         -117.646694,
                         34.067719
+                    ],
+                    [
+                        -117.659314,
+                        34.05954
+                    ],
+                    [
+                        -117.65934,
+                        34.059991
                     ]
                 ]
             }
@@ -1849,16 +1857,16 @@
                 "type": "EC35",
                 "description": "AIRBUS HELICOPTERS EC-135/635",
                 "operator": "REACH AIR MEDICAL SERVICES LLC",
-                "altitude": 7225,
-                "ground_speed": 106.1,
-                "track": 267.3,
-                "squawk": "N/A",
-                "rssi": -24.0,
-                "api_source": "https://opendata.adsb.fi/api/v2/hex/",
-                "last_seen": "2026-03-22T00:00:02.872901+00:00",
+                "altitude": 7200,
+                "ground_speed": 99.0,
+                "track": 267.9,
+                "squawk": "1200",
+                "rssi": -49.5,
+                "api_source": "https://api.airplanes.live/v2/hex/",
+                "last_seen": "2026-03-22T00:02:01.952227+00:00",
                 "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
-                "category": "A7"
+                "category": "Unknown"
             },
             "geometry": {
                 "type": "LineString",
@@ -1974,6 +1982,14 @@
                     [
                         -116.200879,
                         32.784367
+                    ],
+                    [
+                        -116.273187,
+                        32.782319
+                    ],
+                    [
+                        -116.271057,
+                        32.782379
                     ]
                 ]
             }
@@ -1986,13 +2002,13 @@
                 "type": "AS50",
                 "description": "AEROSPATIALE AS-350 Ecureuil",
                 "operator": "TINY BUBBLES AVIATION INC",
-                "altitude": 2025,
-                "ground_speed": 4.5,
-                "track": 153.43,
+                "altitude": 2000,
+                "ground_speed": 6.4,
+                "track": 38.66,
                 "squawk": "0246",
-                "rssi": -14.5,
+                "rssi": -4.0,
                 "api_source": "https://api.airplanes.live/v2/hex/",
-                "last_seen": "2026-03-22T00:00:02.873142+00:00",
+                "last_seen": "2026-03-22T00:02:01.952261+00:00",
                 "nav_qnh": 0.0,
                 "nav_altitude_mcp": 0,
                 "category": "A7"
@@ -2187,6 +2203,47 @@
                     [
                         -118.39254,
                         34.186707
+                    ],
+                    [
+                        -118.389961,
+                        34.185196
+                    ],
+                    [
+                        -118.389961,
+                        34.185196
+                    ]
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "hex": "AE2793",
+                "flight": "GH71    ",
+                "type": "H60",
+                "description": "Sikorsky MH-60S Seahawk",
+                "operator": "Unknown",
+                "altitude": "ground",
+                "ground_speed": 7.2,
+                "track": 0.0,
+                "squawk": "1200",
+                "rssi": -9.0,
+                "api_source": "https://api.airplanes.live/v2/hex/",
+                "last_seen": "2026-03-22T00:02:01.952189+00:00",
+                "nav_qnh": 0.0,
+                "nav_altitude_mcp": 0,
+                "category": "A7"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+                    [
+                        -117.207894,
+                        32.713095
+                    ],
+                    [
+                        -117.207936,
+                        32.713084
                     ]
                 ]
             }
